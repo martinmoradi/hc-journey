@@ -1,0 +1,2101 @@
+{
+  "zone": "Stranglethorn Vale",
+  "levelRange": "42-43",
+  "faction": "Alliance",
+  "name": "42-43_stranglethorn_vale_3",
+  "next": "43-44_swamp_of_sorrows_2",
+  "steps": [
+    {
+      "id": "stranglethorn_001",
+      "type": "info",
+      "description": "Talk to Bailey Stonemantle and withdraw Kravel's Scheme, Sample Elven Gem, Perenolde Tiara (If you have it), and Tomes of Alterac (If you have it) from your bank",
+      "classes": null,
+      "races": null,
+      "coords": [35.9, 60.17],
+      "zone": "ironforge",
+      "tips": [],
+      "quests": [],
+      "npc": "Bailey Stonemantle",
+      "mobs": []
+    },
+    {
+      "id": "stranglethorn_002",
+      "type": "info",
+      "description": "Talk to Binjy Featherwhistle and train Mechanostrider Piloting. Talk to Milli Featherwhistle and buy a Mechanostrider",
+      "classes": ["!Warlock"],
+      "races": ["Gnome"],
+      "coords": [49.123, 47.956],
+      "zone": "dun_morogh",
+      "tips": [],
+      "quests": [],
+      "npc": "Milli Featherwhistle",
+      "mobs": []
+    },
+    {
+      "id": "stranglethorn_003",
+      "type": "info",
+      "description": "Talk to Veron Amberstill and buy a Ram. Talk to Ultham Ironhorn and train Ram Riding",
+      "classes": ["!Paladin"],
+      "races": ["Dwarf"],
+      "coords": [63.944, 50.095],
+      "zone": "dun_morogh",
+      "tips": [],
+      "quests": [],
+      "npc": "Ultham Ironhorn",
+      "mobs": []
+    },
+    {
+      "id": "stranglethorn_004",
+      "type": "info",
+      "description": "Talk to Briarthorn and train your class spells",
+      "classes": ["Warlock"],
+      "races": null,
+      "coords": [50.343, 5.657],
+      "zone": "ironforge",
+      "tips": [],
+      "quests": [],
+      "npc": "Briarthorn",
+      "mobs": []
+    },
+    {
+      "id": "stranglethorn_005",
+      "type": "info",
+      "description": "Talk to Fenthwick and train your class spells",
+      "classes": ["Rogue"],
+      "races": null,
+      "coords": [51.495, 15.33],
+      "zone": "ironforge",
+      "tips": [],
+      "quests": [],
+      "npc": "Fenthwick",
+      "mobs": []
+    },
+    {
+      "id": "stranglethorn_006",
+      "type": "info",
+      "description": "Talk to Toldren Deepiron and train your class spells",
+      "classes": ["Priest"],
+      "races": null,
+      "coords": [25.207, 10.756],
+      "zone": "ironforge",
+      "tips": [],
+      "quests": [],
+      "npc": "Toldren Deepiron",
+      "mobs": []
+    },
+    {
+      "id": "stranglethorn_007",
+      "type": "info",
+      "description": "Talk to Dink and train your class spells",
+      "classes": ["Mage"],
+      "races": null,
+      "coords": [27.18, 8.6],
+      "zone": "ironforge",
+      "tips": [],
+      "quests": [],
+      "npc": "Dink",
+      "mobs": []
+    },
+    {
+      "id": "stranglethorn_008",
+      "type": "info",
+      "description": "Talk to Brandur Ironhammer and train your class spells",
+      "classes": ["Paladin"],
+      "races": null,
+      "coords": [23.141, 6.149],
+      "zone": "ironforge",
+      "tips": [],
+      "quests": [],
+      "npc": "Brandur Ironhammer",
+      "mobs": []
+    },
+    {
+      "id": "stranglethorn_009",
+      "type": "info",
+      "description": "Talk to Jubahl Corpseseeker. Buy Grimoires for your pets",
+      "classes": ["Warlock"],
+      "races": null,
+      "coords": [52.701, 6.07],
+      "zone": "ironforge",
+      "tips": [],
+      "quests": [],
+      "npc": "Jubahl Corpseseeker",
+      "mobs": []
+    },
+    {
+      "id": "stranglethorn_010",
+      "type": "info",
+      "description": "Talk to Regnus Thundergranite and train your class spells",
+      "classes": ["Hunter"],
+      "races": null,
+      "coords": [69.872, 82.89],
+      "zone": "ironforge",
+      "tips": [],
+      "quests": [],
+      "npc": "Regnus Thundergranite",
+      "mobs": []
+    },
+    {
+      "id": "stranglethorn_011",
+      "type": "info",
+      "description": "Talk to Bilban Tosslespanner and train your class spells",
+      "classes": ["Warrior"],
+      "races": null,
+      "coords": [65.905, 88.405],
+      "zone": "ironforge",
+      "tips": [],
+      "quests": [],
+      "npc": "Bilban Tosslespanner",
+      "mobs": []
+    },
+    {
+      "id": "stranglethorn_012",
+      "type": "info",
+      "description": "Talk to Belia Thundergranite. Ensure your pets Frost Resistance is maxed",
+      "classes": ["Hunter"],
+      "races": null,
+      "coords": [70.856, 85.839],
+      "zone": "ironforge",
+      "tips": [],
+      "quests": [],
+      "npc": "Belia Thundergranite",
+      "mobs": []
+    },
+    {
+      "id": "stranglethorn_013",
+      "type": "travel",
+      "description": "Enter the Deeprun Tram. Take the tram to Stormwind. Level your First Aid if needed while waiting for the tram",
+      "classes": null,
+      "races": null,
+      "coords": null,
+      "zone": "",
+      "tips": [
+        {
+          "type": "warning",
+          "class": null,
+          "text": "Level your First Aid if needed while waiting for the tram"
+        }
+      ],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "stranglethorn_014",
+      "type": "quest_turnin",
+      "description": "Talk to Count Remington Ridgewell and turn in The Perenolde Tiara",
+      "classes": null,
+      "races": null,
+      "coords": [74.01, 30.231],
+      "zone": "stormwind_city",
+      "tips": [],
+      "quests": [
+        {
+          "id": 543,
+          "name": "The Perenolde Tiara"
+        }
+      ],
+      "npc": "Count Remington Ridgewell",
+      "mobs": []
+    },
+    {
+      "id": "stranglethorn_015",
+      "type": "quest_turnin",
+      "description": "Talk to Milton Sheaf and turn in Return to Milton",
+      "classes": null,
+      "races": null,
+      "coords": [74.182, 7.465],
+      "zone": "stormwind_city",
+      "tips": [],
+      "quests": [
+        {
+          "id": 542,
+          "name": "Return to Milton"
+        }
+      ],
+      "npc": "Milton Sheaf",
+      "mobs": []
+    },
+    {
+      "id": "stranglethorn_016",
+      "type": "quest_accept",
+      "description": "Talk to High Sorcerer Andromath and accept Vital Supplies",
+      "classes": null,
+      "races": null,
+      "coords": [37.52, 81.65],
+      "zone": "stormwind_city",
+      "tips": [],
+      "quests": [
+        {
+          "id": 1477,
+          "name": "Vital Supplies"
+        }
+      ],
+      "npc": "High Sorcerer Andromath",
+      "mobs": []
+    },
+    {
+      "id": "stranglethorn_017",
+      "type": "info",
+      "description": "Abandon The Perenolde Tiara",
+      "classes": null,
+      "races": null,
+      "coords": null,
+      "zone": "",
+      "tips": [],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "stranglethorn_018",
+      "type": "quest_accept",
+      "description": "Talk to Angus Stern and accept A Meal Served Cold",
+      "classes": null,
+      "races": null,
+      "coords": [41.497, 89.385],
+      "zone": "stormwind_city",
+      "tips": [
+        {
+          "type": "warning",
+          "class": null,
+          "text": "This is a 30 minute timed quest. You must not logout during this time otherwise the quest will fail"
+        }
+      ],
+      "quests": [
+        {
+          "id": 212,
+          "name": "A Meal Served Cold"
+        }
+      ],
+      "npc": "Angus Stern",
+      "mobs": []
+    },
+    {
+      "id": "stranglethorn_019",
+      "type": "info",
+      "description": "Talk to Innkeeper Allison. Set your Hearthstone to Stormwind",
+      "classes": null,
+      "races": null,
+      "coords": [52.615, 65.704],
+      "zone": "stormwind_city",
+      "tips": [],
+      "quests": [],
+      "npc": "Innkeeper Allison",
+      "mobs": []
+    },
+    {
+      "id": "stranglethorn_020",
+      "type": "fly",
+      "description": "Talk to Dungar Longdrink and fly to Westfall",
+      "classes": null,
+      "races": null,
+      "coords": [66.277, 62.137],
+      "zone": "stormwind_city",
+      "tips": [],
+      "quests": [],
+      "npc": "Dungar Longdrink",
+      "mobs": []
+    },
+    {
+      "id": "stranglethorn_021",
+      "type": "travel",
+      "description": "Travel to the Rebel Camp",
+      "classes": null,
+      "races": null,
+      "coords": [40.7, 3.72],
+      "zone": "stranglethorn_vale",
+      "tips": [],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "stranglethorn_022",
+      "type": "quest_accept",
+      "description": "Talk to Brother Nimetz and accept Kurzen's Mystery",
+      "classes": null,
+      "races": null,
+      "coords": [37.832, 3.559],
+      "zone": "stranglethorn_vale",
+      "tips": [],
+      "quests": [
+        {
+          "id": 207,
+          "name": "Kurzen's Mystery"
+        }
+      ],
+      "npc": "Brother Nimetz",
+      "mobs": []
+    },
+    {
+      "id": "stranglethorn_023",
+      "type": "quest_accept",
+      "description": "Talk to Lieutenant Doren and accept Colonel Kurzen",
+      "classes": null,
+      "races": null,
+      "coords": [38.042, 3.012],
+      "zone": "stranglethorn_vale",
+      "tips": [],
+      "quests": [
+        {
+          "id": 202,
+          "name": "Colonel Kurzen"
+        }
+      ],
+      "npc": "Lieutenant Doren",
+      "mobs": []
+    },
+    {
+      "id": "stranglethorn_024",
+      "type": "quest_accept",
+      "description": "Talk to Hemet Nesingwary and accept Raptor Mastery. Talk to Sir S. J. Erlgadin and accept Panther Mastery",
+      "classes": null,
+      "races": null,
+      "coords": [35.556, 10.546],
+      "zone": "stranglethorn_vale",
+      "tips": [],
+      "quests": [
+        {
+          "id": 196,
+          "name": "Raptor Mastery"
+        },
+        {
+          "id": 193,
+          "name": "Panther Mastery"
+        }
+      ],
+      "npc": "Sir S. J. Erlgadin",
+      "mobs": []
+    },
+    {
+      "id": "stranglethorn_025",
+      "type": "loot",
+      "description": "Kill Cold Eye Basilisks. Loot them for the Chilled Basilisk Haunch",
+      "classes": null,
+      "races": null,
+      "coords": [36.6, 41.0],
+      "zone": "stranglethorn_vale",
+      "tips": [],
+      "quests": [
+        {
+          "id": 212,
+          "name": "A Meal Served Cold"
+        }
+      ],
+      "npc": null,
+      "mobs": ["Cold Eye Basilisk"]
+    },
+    {
+      "id": "stranglethorn_026",
+      "type": "info",
+      "description": "Hearth to Stormwind",
+      "classes": null,
+      "races": null,
+      "coords": null,
+      "zone": "",
+      "tips": [],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "stranglethorn_027",
+      "type": "quest_turnin",
+      "description": "Talk to Angus Stern and turn in A Meal Served Cold",
+      "classes": null,
+      "races": null,
+      "coords": [41.497, 89.385],
+      "zone": "stormwind_city",
+      "tips": [],
+      "quests": [
+        {
+          "id": 212,
+          "name": "A Meal Served Cold"
+        }
+      ],
+      "npc": "Angus Stern",
+      "mobs": []
+    },
+    {
+      "id": "stranglethorn_028",
+      "type": "quest_accept",
+      "description": "Talk to Archbishop Benedictus and accept Bring the Light",
+      "classes": null,
+      "races": null,
+      "coords": [39.592, 27.199],
+      "zone": "stormwind_city",
+      "tips": [],
+      "quests": [
+        {
+          "id": 3636,
+          "name": "Bring the Light"
+        }
+      ],
+      "npc": "Archbishop Benedictus",
+      "mobs": []
+    },
+    {
+      "id": "stranglethorn_029",
+      "type": "fly",
+      "description": "Talk to Dungar Longdrink and fly to Booty Bay",
+      "classes": null,
+      "races": null,
+      "coords": [66.277, 62.137],
+      "zone": "stormwind_city",
+      "tips": [],
+      "quests": [],
+      "npc": "Dungar Longdrink",
+      "mobs": []
+    },
+    {
+      "id": "stranglethorn_030",
+      "type": "quest_turnin",
+      "description": "Talk to Fleet Master Seahorn and turn in Sunken Treasure",
+      "classes": null,
+      "races": null,
+      "coords": [27.173, 77.007],
+      "zone": "stranglethorn_vale",
+      "tips": [],
+      "quests": [
+        {
+          "id": 669,
+          "name": "Sunken Treasure"
+        }
+      ],
+      "npc": "Fleet Master Seahorn",
+      "mobs": []
+    },
+    {
+      "id": "stranglethorn_031",
+      "type": "quest_accept",
+      "description": "Talk to Catelyn the Blade inside the Inn, turn in Ansirem's Key, and accept Pretty Boy Duncan",
+      "classes": null,
+      "races": null,
+      "coords": [27.283, 77.529],
+      "zone": "stranglethorn_vale",
+      "tips": [],
+      "quests": [
+        {
+          "id": 603,
+          "name": "Ansirem's Key"
+        },
+        {
+          "id": 610,
+          "name": "Pretty Boy Duncan"
+        }
+      ],
+      "npc": "Catelyn the Blade",
+      "mobs": []
+    },
+    {
+      "id": "stranglethorn_032",
+      "type": "quest_turnin",
+      "description": "Talk to Crank Fizzlebub and turn in Back to Booty Bay",
+      "classes": null,
+      "races": null,
+      "coords": [27.12, 77.208],
+      "zone": "stranglethorn_vale",
+      "tips": [],
+      "quests": [
+        {
+          "id": 1118,
+          "name": "Back to Booty Bay"
+        }
+      ],
+      "npc": "Crank Fizzlebub",
+      "mobs": []
+    },
+    {
+      "id": "stranglethorn_033",
+      "type": "travel",
+      "description": "Take the Boat to Ratchet",
+      "classes": null,
+      "races": null,
+      "coords": [25.8, 73.1],
+      "zone": "stranglethorn_vale",
+      "tips": [],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "stranglethorn_034",
+      "type": "fly",
+      "description": "Talk to Bragok and fly to Thalanaar",
+      "classes": null,
+      "races": null,
+      "coords": [63.084, 37.163],
+      "zone": "the_barrens",
+      "tips": [],
+      "quests": [],
+      "npc": "Bragok",
+      "mobs": []
+    },
+    {
+      "id": "stranglethorn_035",
+      "type": "quest_accept",
+      "description": "Talk to Myriam Moonsinger and accept A Host of Evil",
+      "classes": null,
+      "races": null,
+      "coords": [49.012, 94.938],
+      "zone": "the_barrens",
+      "tips": [],
+      "quests": [
+        {
+          "id": 6626,
+          "name": "A Host of Evil"
+        }
+      ],
+      "npc": "Myriam Moonsinger",
+      "mobs": []
+    },
+    {
+      "id": "stranglethorn_036",
+      "type": "kill",
+      "description": "Kill Razorfen Battleguards, Razorfen Thornweavers and Death's Head Cultists",
+      "classes": null,
+      "races": null,
+      "coords": [48.23, 92.31],
+      "zone": "the_barrens",
+      "tips": [
+        {
+          "type": "warning",
+          "class": null,
+          "text": "This quest is completed outside of the Instance"
+        }
+      ],
+      "quests": [
+        {
+          "id": 6626,
+          "name": "A Host of Evil"
+        }
+      ],
+      "npc": null,
+      "mobs": [
+        "Razorfen Battleguard",
+        "Razorfen Thornweaver",
+        "Death's Head Cultist"
+      ]
+    },
+    {
+      "id": "stranglethorn_037",
+      "type": "quest_turnin",
+      "description": "Talk to Myriam Moonsinger and turn in A Host of Evil",
+      "classes": null,
+      "races": null,
+      "coords": [49.012, 94.938],
+      "zone": "the_barrens",
+      "tips": [],
+      "quests": [
+        {
+          "id": 6626,
+          "name": "A Host of Evil"
+        }
+      ],
+      "npc": "Myriam Moonsinger",
+      "mobs": []
+    },
+    {
+      "id": "stranglethorn_038",
+      "type": "travel",
+      "description": "Enter Razorfen Downs",
+      "classes": null,
+      "races": null,
+      "coords": null,
+      "zone": "",
+      "tips": [],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "stranglethorn_039",
+      "type": "quest_accept",
+      "description": "Talk to Belnistrasz, turn in Scourge of the Downs, and accept Extinguishing the Idol",
+      "classes": null,
+      "races": null,
+      "coords": null,
+      "zone": "razorfen_downs",
+      "tips": [
+        {
+          "type": "warning",
+          "class": null,
+          "text": "Take the left path and stick left the entire way until you reach The Murder Pens to get to Belnistrasz"
+        },
+        {
+          "type": "warning",
+          "class": null,
+          "text": "Do not accept Extinguishing the Idol until the rest of your party is ready as this begins the escort. Auto accept has been turned off for this step"
+        }
+      ],
+      "quests": [
+        {
+          "id": 3523,
+          "name": "Scourge of the Downs"
+        },
+        {
+          "id": 3525,
+          "name": "Extinguishing the Idol"
+        }
+      ],
+      "npc": "Belnistrasz",
+      "mobs": []
+    },
+    {
+      "id": "stranglethorn_040",
+      "type": "info",
+      "description": "Follow and protect Belnistrasz during his ritual",
+      "classes": null,
+      "races": null,
+      "coords": null,
+      "zone": "razorfen_downs",
+      "tips": [],
+      "quests": [
+        {
+          "id": 3525,
+          "name": "Extinguishing the Idol"
+        }
+      ],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "stranglethorn_041",
+      "type": "quest_turnin",
+      "description": "Click Belnistrasz's Brazier and turn in Extinguishing the Idol",
+      "classes": null,
+      "races": null,
+      "coords": null,
+      "zone": "razorfen_downs",
+      "tips": [],
+      "quests": [
+        {
+          "id": 3525,
+          "name": "Extinguishing the Idol"
+        }
+      ],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "stranglethorn_042",
+      "type": "kill",
+      "description": "Kill Amnennar the Coldbringer",
+      "classes": null,
+      "races": null,
+      "coords": null,
+      "zone": "razorfen_downs",
+      "tips": [],
+      "quests": [
+        {
+          "id": 3636,
+          "name": "Bring the Light"
+        }
+      ],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "stranglethorn_043",
+      "type": "info",
+      "description": "Hearth to Stormwind",
+      "classes": null,
+      "races": null,
+      "coords": null,
+      "zone": "",
+      "tips": [],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "stranglethorn_044",
+      "type": "quest_turnin",
+      "description": "Talk to Archbishop Benedictus and turn in Bring the Light",
+      "classes": null,
+      "races": null,
+      "coords": [39.592, 27.199],
+      "zone": "stormwind_city",
+      "tips": [],
+      "quests": [
+        {
+          "id": 3636,
+          "name": "Bring the Light"
+        }
+      ],
+      "npc": "Archbishop Benedictus",
+      "mobs": []
+    },
+    {
+      "id": "stranglethorn_045",
+      "type": "info",
+      "description": "Check your bank for any missing Green Hills of Stranglethorn - Pages and buy any that you still need from the Auction House. Place any newly bought Pages into your bank. Skip this step if you aren't able to aquire them",
+      "classes": null,
+      "races": null,
+      "coords": null,
+      "zone": "",
+      "tips": [
+        {
+          "type": "warning",
+          "class": null,
+          "text": "Chapter.1 requires: Pages 1,4,6,8"
+        },
+        {
+          "type": "warning",
+          "class": null,
+          "text": "Chapter.2 requires: Pages 10,11,14,16"
+        },
+        {
+          "type": "warning",
+          "class": null,
+          "text": "Chapter.3 requires: Pages 18,20,21,24"
+        },
+        {
+          "type": "warning",
+          "class": null,
+          "text": "Chapter.4 requires: Pages 25,26,27"
+        }
+      ],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "stranglethorn_046",
+      "type": "fly",
+      "description": "Talk to Dungar Longdrink and fly to Booty Bay",
+      "classes": null,
+      "races": null,
+      "coords": [66.277, 62.137],
+      "zone": "stormwind_city",
+      "tips": [],
+      "quests": [],
+      "npc": "Dungar Longdrink",
+      "mobs": []
+    },
+    {
+      "id": "stranglethorn_047",
+      "type": "quest_accept",
+      "description": "Talk to Kebok and accept Skullsplitter Tusks",
+      "classes": null,
+      "races": null,
+      "coords": [27.0, 77.124],
+      "zone": "stranglethorn_vale",
+      "tips": [],
+      "quests": [
+        {
+          "id": 209,
+          "name": "Skullsplitter Tusks"
+        }
+      ],
+      "npc": "Kebok",
+      "mobs": []
+    },
+    {
+      "id": "stranglethorn_048",
+      "type": "quest_accept",
+      "description": "Talk to Krazek, turn in Favor for Krazek, and accept Return to Corporal Kaleb",
+      "classes": null,
+      "races": null,
+      "coords": [26.943, 77.207],
+      "zone": "stranglethorn_vale",
+      "tips": [],
+      "quests": [
+        {
+          "id": 627,
+          "name": "Favor for Krazek"
+        },
+        {
+          "id": 622,
+          "name": "Return to Corporal Kaleb"
+        }
+      ],
+      "npc": "Krazek",
+      "mobs": []
+    },
+    {
+      "id": "stranglethorn_049",
+      "type": "quest_accept",
+      "description": "Talk to Krazek and accept Return to Corporal Kaleb",
+      "classes": null,
+      "races": null,
+      "coords": [26.943, 77.207],
+      "zone": "stranglethorn_vale",
+      "tips": [],
+      "quests": [
+        {
+          "id": 622,
+          "name": "Return to Corporal Kaleb"
+        }
+      ],
+      "npc": "Krazek",
+      "mobs": []
+    },
+    {
+      "id": "stranglethorn_050",
+      "type": "quest_turnin",
+      "description": "Talk to Fleet Master Seahorn and turn in Sunken Treasure",
+      "classes": null,
+      "races": null,
+      "coords": [27.173, 77.007],
+      "zone": "stranglethorn_vale",
+      "tips": [],
+      "quests": [
+        {
+          "id": 669,
+          "name": "Sunken Treasure"
+        }
+      ],
+      "npc": "Fleet Master Seahorn",
+      "mobs": []
+    },
+    {
+      "id": "stranglethorn_051",
+      "type": "quest_accept",
+      "description": "Talk to Catelyn the Blade inside the Inn, turn in Ansirem's Key, and accept Pretty Boy Duncan",
+      "classes": null,
+      "races": null,
+      "coords": [27.283, 77.529],
+      "zone": "stranglethorn_vale",
+      "tips": [],
+      "quests": [
+        {
+          "id": 603,
+          "name": "Ansirem's Key"
+        },
+        {
+          "id": 610,
+          "name": "Pretty Boy Duncan"
+        }
+      ],
+      "npc": "Catelyn the Blade",
+      "mobs": []
+    },
+    {
+      "id": "stranglethorn_052",
+      "type": "quest_accept",
+      "description": "Talk to Crank Fizzlebub and accept Venture Company Mining",
+      "classes": null,
+      "races": null,
+      "coords": [27.12, 77.208],
+      "zone": "stranglethorn_vale",
+      "tips": [],
+      "quests": [
+        {
+          "id": 600,
+          "name": "Venture Company Mining"
+        }
+      ],
+      "npc": "Crank Fizzlebub",
+      "mobs": []
+    },
+    {
+      "id": "stranglethorn_053",
+      "type": "quest_turnin",
+      "description": "Talk to Crank Fizzlebub and turn in Back to Booty Bay",
+      "classes": null,
+      "races": null,
+      "coords": [27.12, 77.208],
+      "zone": "stranglethorn_vale",
+      "tips": [],
+      "quests": [
+        {
+          "id": 1118,
+          "name": "Back to Booty Bay"
+        }
+      ],
+      "npc": "Crank Fizzlebub",
+      "mobs": []
+    },
+    {
+      "id": "stranglethorn_054",
+      "type": "info",
+      "description": "Talk to Innkeeper Skindle. Set your Hearthstone to Booty Bay",
+      "classes": null,
+      "races": null,
+      "coords": [27.039, 77.31],
+      "zone": "stranglethorn_vale",
+      "tips": [],
+      "quests": [],
+      "npc": "Innkeeper Skindle",
+      "mobs": []
+    },
+    {
+      "id": "stranglethorn_055",
+      "type": "quest_accept",
+      "description": "Talk to Privateer Bloads and accept Akiris by the Bundle",
+      "classes": null,
+      "races": null,
+      "coords": [26.756, 76.383],
+      "zone": "stranglethorn_vale",
+      "tips": [],
+      "quests": [
+        {
+          "id": 617,
+          "name": "Akiris by the Bundle"
+        }
+      ],
+      "npc": "Privateer Bloads",
+      "mobs": []
+    },
+    {
+      "id": "stranglethorn_056",
+      "type": "quest_accept",
+      "description": "Talk to Sea Wolf MacKinley and accept Scaring Shaky",
+      "classes": null,
+      "races": null,
+      "coords": [27.782, 77.071],
+      "zone": "stranglethorn_vale",
+      "tips": [],
+      "quests": [
+        {
+          "id": 606,
+          "name": "Scaring Shaky"
+        }
+      ],
+      "npc": "Sea Wolf MacKinley",
+      "mobs": []
+    },
+    {
+      "id": "stranglethorn_057",
+      "type": "quest_accept",
+      "description": "Talk to Drizzlik and accept Excelsior",
+      "classes": null,
+      "races": null,
+      "coords": [28.294, 77.592],
+      "zone": "stranglethorn_vale",
+      "tips": [],
+      "quests": [
+        {
+          "id": 628,
+          "name": "Excelsior"
+        }
+      ],
+      "npc": "Drizzlik",
+      "mobs": []
+    },
+    {
+      "id": "stranglethorn_058",
+      "type": "quest_accept",
+      "description": "Talk to First Mate Crazz and accept The Bloodsail Buccaneers",
+      "classes": null,
+      "races": null,
+      "coords": [28.096, 76.217],
+      "zone": "stranglethorn_vale",
+      "tips": [],
+      "quests": [
+        {
+          "id": 595,
+          "name": "The Bloodsail Buccaneers"
+        }
+      ],
+      "npc": "First Mate Crazz",
+      "mobs": []
+    },
+    {
+      "id": "stranglethorn_059",
+      "type": "quest_turnin",
+      "description": "Click the Bloodsail Correspondence on top of the barrel and turn in The Bloodsail Buccaneers. Accept The Bloodsail Buccaneers",
+      "classes": null,
+      "races": null,
+      "coords": [27.278, 69.521],
+      "zone": "stranglethorn_vale",
+      "tips": [],
+      "quests": [
+        {
+          "id": 595,
+          "name": "The Bloodsail Buccaneers"
+        },
+        {
+          "id": 597,
+          "name": "The Bloodsail Buccaneers"
+        }
+      ],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "stranglethorn_060",
+      "type": "kill",
+      "description": "Kill Pretty Boy Duncan. Loot him for Catelyn's Blade",
+      "classes": null,
+      "races": null,
+      "coords": [27.4, 69.39],
+      "zone": "stranglethorn_vale",
+      "tips": [],
+      "quests": [
+        {
+          "id": 610,
+          "name": "Pretty Boy Duncan"
+        }
+      ],
+      "npc": null,
+      "mobs": ["Pretty Boy Duncan"]
+    },
+    {
+      "id": "stranglethorn_061",
+      "type": "quest_turnin",
+      "description": "Talk to First Mate Crazz, turn in The Bloodsail Buccaneers, and accept The Bloodsail Buccaneers",
+      "classes": null,
+      "races": null,
+      "coords": [28.096, 76.217],
+      "zone": "stranglethorn_vale",
+      "tips": [],
+      "quests": [
+        {
+          "id": 597,
+          "name": "The Bloodsail Buccaneers"
+        },
+        {
+          "id": 599,
+          "name": "The Bloodsail Buccaneers"
+        }
+      ],
+      "npc": "First Mate Crazz",
+      "mobs": []
+    },
+    {
+      "id": "stranglethorn_062",
+      "type": "quest_accept",
+      "description": "Talk to Catelyn the Blade, turn in Pretty Boy Duncan, and accept The Curse of the Tides",
+      "classes": null,
+      "races": null,
+      "coords": [27.283, 77.529],
+      "zone": "stranglethorn_vale",
+      "tips": [],
+      "quests": [
+        {
+          "id": 610,
+          "name": "Pretty Boy Duncan"
+        },
+        {
+          "id": 611,
+          "name": "The Curse of the Tides"
+        }
+      ],
+      "npc": "Catelyn the Blade",
+      "mobs": []
+    },
+    {
+      "id": "stranglethorn_063",
+      "type": "quest_accept",
+      "description": "Talk to Deeg and accept Up to Snuff",
+      "classes": null,
+      "races": null,
+      "coords": [26.92, 77.347],
+      "zone": "stranglethorn_vale",
+      "tips": [],
+      "quests": [
+        {
+          "id": 587,
+          "name": "Up to Snuff"
+        }
+      ],
+      "npc": "Deeg",
+      "mobs": []
+    },
+    {
+      "id": "stranglethorn_064",
+      "type": "quest_turnin",
+      "description": "Talk to Fleet Master Seahorn and turn in The Bloodsail Buccaneers",
+      "classes": null,
+      "races": null,
+      "coords": [27.173, 77.007],
+      "zone": "stranglethorn_vale",
+      "tips": [],
+      "quests": [
+        {
+          "id": 599,
+          "name": "The Bloodsail Buccaneers"
+        }
+      ],
+      "npc": "Fleet Master Seahorn",
+      "mobs": []
+    },
+    {
+      "id": "stranglethorn_065",
+      "type": "quest_accept",
+      "description": "Talk to Dizzy One-Eye and accept Keep An Eye Out",
+      "classes": null,
+      "races": null,
+      "coords": [28.591, 75.899],
+      "zone": "stranglethorn_vale",
+      "tips": [],
+      "quests": [
+        {
+          "id": 576,
+          "name": "Keep An Eye Out"
+        }
+      ],
+      "npc": "Dizzy One-Eye",
+      "mobs": []
+    },
+    {
+      "id": "stranglethorn_066",
+      "type": "kill",
+      "description": "Kill Elder Mistvale Gorillas. Loot them for their Mistvale Giblets and Gorilla Fangs",
+      "classes": null,
+      "races": null,
+      "coords": [33.46, 65.17],
+      "zone": "stranglethorn_vale",
+      "tips": [
+        {
+          "type": "warning",
+          "class": null,
+          "text": "Save the Gorilla Fangs for a later quest"
+        }
+      ],
+      "quests": [
+        {
+          "id": 606,
+          "name": "Scaring Shaky"
+        }
+      ],
+      "npc": null,
+      "mobs": ["Elder Mistvale Gorilla"]
+    },
+    {
+      "id": "stranglethorn_067",
+      "type": "kill",
+      "description": "Kill Jungle Stalkers",
+      "classes": null,
+      "races": null,
+      "coords": [31.85, 40.88],
+      "zone": "stranglethorn_vale",
+      "tips": [],
+      "quests": [
+        {
+          "id": 196,
+          "name": "Raptor Mastery"
+        }
+      ],
+      "npc": null,
+      "mobs": ["Jungle Stalker"]
+    },
+    {
+      "id": "stranglethorn_068",
+      "type": "kill",
+      "description": "Kill Venture Co. Foremen, Venture Co. Surveyors, Venture Co. Strip Miners and Venture Co. Tinkerers. Loot them for their Singing Blue Crystals",
+      "classes": null,
+      "races": null,
+      "coords": [41.65, 43.69],
+      "zone": "stranglethorn_vale",
+      "tips": [],
+      "quests": [
+        {
+          "id": 600,
+          "name": "Venture Company Mining"
+        }
+      ],
+      "npc": null,
+      "mobs": [
+        "Venture Co. Foreman",
+        "Venture Co. Surveyor",
+        "Venture Co. Strip Miner",
+        "Venture Co. Tinkerer"
+      ]
+    },
+    {
+      "id": "stranglethorn_069",
+      "type": "quest_turnin",
+      "description": "Click on Bookie Herod's Records upstairs in the house, turn in Bookie Herod, and accept The Hidden Key",
+      "classes": null,
+      "races": null,
+      "coords": [43.669, 9.372],
+      "zone": "stranglethorn_vale",
+      "tips": [],
+      "quests": [
+        {
+          "id": 200,
+          "name": "Bookie Herod"
+        },
+        {
+          "id": 328,
+          "name": "The Hidden Key"
+        }
+      ],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "stranglethorn_070",
+      "type": "travel",
+      "description": "Enter The Stockpile (Kurzen's Cave)",
+      "classes": null,
+      "races": null,
+      "coords": [46.3, 7.61],
+      "zone": "stranglethorn_vale",
+      "tips": [],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "stranglethorn_071",
+      "type": "quest_turnin",
+      "description": "Click Bookie Herod's Strongbox on the ground, turn in The Hidden Key, and accept The Spy Revealed!",
+      "classes": null,
+      "races": null,
+      "coords": [49.617, 7.562],
+      "zone": "stranglethorn_vale",
+      "tips": [],
+      "quests": [
+        {
+          "id": 328,
+          "name": "The Hidden Key"
+        },
+        {
+          "id": 329,
+          "name": "The Spy Revealed!"
+        }
+      ],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "stranglethorn_072",
+      "type": "kill",
+      "description": "Kill Kurzen Elites, Kurzen Subchiefs, and Colonel Kurzen. Loot him for his Head",
+      "classes": null,
+      "races": null,
+      "coords": [49.943, 3.953],
+      "zone": "stranglethorn_vale",
+      "tips": [],
+      "quests": [
+        {
+          "id": 202,
+          "name": "Colonel Kurzen"
+        }
+      ],
+      "npc": null,
+      "mobs": ["Kurzen Elite", "Kurzen Subchief", "Colonel Kurzen"]
+    },
+    {
+      "id": "stranglethorn_073",
+      "type": "quest_turnin",
+      "description": "Talk to Lieutenant Doren and turn in Colonel Kurzen",
+      "classes": null,
+      "races": null,
+      "coords": [38.042, 3.012],
+      "zone": "stranglethorn_vale",
+      "tips": [],
+      "quests": [
+        {
+          "id": 202,
+          "name": "Colonel Kurzen"
+        }
+      ],
+      "npc": "Lieutenant Doren",
+      "mobs": []
+    },
+    {
+      "id": "stranglethorn_074",
+      "type": "quest_turnin",
+      "description": "Talk to Corporal Kaleb and turn in Return to Corporal Kaleb",
+      "classes": null,
+      "races": null,
+      "coords": [37.74, 3.3],
+      "zone": "stranglethorn_vale",
+      "tips": [],
+      "quests": [
+        {
+          "id": 622,
+          "name": "Return to Corporal Kaleb"
+        }
+      ],
+      "npc": "Corporal Kaleb",
+      "mobs": []
+    },
+    {
+      "id": "stranglethorn_075",
+      "type": "quest_accept",
+      "description": "Talk to Lieutenant Doren, turn in The Spy Revealed!, and accept Patrol Schedules",
+      "classes": null,
+      "races": null,
+      "coords": [38.042, 3.012],
+      "zone": "stranglethorn_vale",
+      "tips": [],
+      "quests": [
+        {
+          "id": 329,
+          "name": "The Spy Revealed!"
+        },
+        {
+          "id": 330,
+          "name": "Patrol Schedules"
+        }
+      ],
+      "npc": "Lieutenant Doren",
+      "mobs": []
+    },
+    {
+      "id": "stranglethorn_076",
+      "type": "quest_accept",
+      "description": "Talk to Corporal Sethman, turn in Patrol Schedules, and accept Report to Doren",
+      "classes": null,
+      "races": null,
+      "coords": [37.66, 3.39],
+      "zone": "stranglethorn_vale",
+      "tips": [],
+      "quests": [
+        {
+          "id": 330,
+          "name": "Patrol Schedules"
+        },
+        {
+          "id": 331,
+          "name": "Report to Doren"
+        }
+      ],
+      "npc": "Corporal Sethman",
+      "mobs": []
+    },
+    {
+      "id": "stranglethorn_077",
+      "type": "quest_turnin",
+      "description": "Talk to Lieutenant Doren and turn in Report to Doren",
+      "classes": null,
+      "races": null,
+      "coords": [38.042, 3.012],
+      "zone": "stranglethorn_vale",
+      "tips": [],
+      "quests": [
+        {
+          "id": 331,
+          "name": "Report to Doren"
+        }
+      ],
+      "npc": "Lieutenant Doren",
+      "mobs": []
+    },
+    {
+      "id": "stranglethorn_078",
+      "type": "quest_accept",
+      "description": "Talk to Hemet Nesingwary, turn in Raptor Mastery, and accept Raptor Mastery",
+      "classes": null,
+      "races": null,
+      "coords": [35.658, 10.808],
+      "zone": "stranglethorn_vale",
+      "tips": [],
+      "quests": [
+        {
+          "id": 196,
+          "name": "Raptor Mastery"
+        },
+        {
+          "id": 197,
+          "name": "Raptor Mastery"
+        }
+      ],
+      "npc": "Hemet Nesingwary",
+      "mobs": []
+    },
+    {
+      "id": "stranglethorn_079",
+      "type": "info",
+      "description": "Abandon Colonel Kurzen",
+      "classes": null,
+      "races": null,
+      "coords": null,
+      "zone": "",
+      "tips": [],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "stranglethorn_080",
+      "type": "loot",
+      "description": "Open the Moon Over the Vale. Loot it for The First Troll Legend",
+      "classes": null,
+      "races": null,
+      "coords": [29.471, 19.119],
+      "zone": "stranglethorn_vale",
+      "tips": [],
+      "quests": [
+        {
+          "id": 207,
+          "name": "Kurzen's Mystery"
+        }
+      ],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "stranglethorn_081",
+      "type": "loot",
+      "description": "Open The Emperor's Tomb. Loot it for The Fourth Troll Legend",
+      "classes": null,
+      "races": null,
+      "coords": [24.719, 8.905],
+      "zone": "stranglethorn_vale",
+      "tips": [],
+      "quests": [
+        {
+          "id": 207,
+          "name": "Kurzen's Mystery"
+        }
+      ],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "stranglethorn_082",
+      "type": "loot",
+      "description": "Open the Fall of Gurubashi. Loot it for The Third Troll Legend",
+      "classes": null,
+      "races": null,
+      "coords": [22.94, 12.01],
+      "zone": "stranglethorn_vale",
+      "tips": [],
+      "quests": [
+        {
+          "id": 207,
+          "name": "Kurzen's Mystery"
+        }
+      ],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "stranglethorn_083",
+      "type": "kill",
+      "description": "Kill a Elder Saltwater Crocolisk. Loot it for its Elder Crocolisk Skin",
+      "classes": null,
+      "races": null,
+      "coords": [21.55, 16.57],
+      "zone": "stranglethorn_vale",
+      "tips": [],
+      "quests": [
+        {
+          "id": 628,
+          "name": "Excelsior"
+        }
+      ],
+      "npc": null,
+      "mobs": ["Elder Saltwater Crocolisk"]
+    },
+    {
+      "id": "stranglethorn_084",
+      "type": "loot",
+      "description": "Open Gri'lek the Wanderer underwater. Loot it for The Second Troll Legend",
+      "classes": null,
+      "races": null,
+      "coords": [24.765, 22.871],
+      "zone": "stranglethorn_vale",
+      "tips": [
+        {
+          "type": "warning",
+          "class": null,
+          "text": "PAY CLOSE ATTENTION TO YOUR BREATH BAR"
+        }
+      ],
+      "quests": [
+        {
+          "id": 207,
+          "name": "Kurzen's Mystery"
+        }
+      ],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "stranglethorn_085",
+      "type": "kill",
+      "description": "Use Catelyn's Blade on the Altar of the Tides underwater to summon Gazban. Kill Gazban. Loot him for the Stone of the Tides",
+      "classes": null,
+      "races": null,
+      "coords": [24.957, 23.586],
+      "zone": "stranglethorn_vale",
+      "tips": [
+        {
+          "type": "warning",
+          "class": null,
+          "text": "Use Catelyn's Blade on the Altar of the Tides underwater to summon Gazban"
+        }
+      ],
+      "quests": [
+        {
+          "id": 611,
+          "name": "The Curse of the Tides"
+        }
+      ],
+      "npc": null,
+      "mobs": ["Gazban"]
+    },
+    {
+      "id": "stranglethorn_086",
+      "type": "quest_accept",
+      "description": "Talk to Brother Nimetz, turn in Kurzen's Mystery, and accept Troll Witchery",
+      "classes": null,
+      "races": null,
+      "coords": [37.832, 3.559],
+      "zone": "stranglethorn_vale",
+      "tips": [],
+      "quests": [
+        {
+          "id": 207,
+          "name": "Kurzen's Mystery"
+        },
+        {
+          "id": 205,
+          "name": "Troll Witchery"
+        }
+      ],
+      "npc": "Brother Nimetz",
+      "mobs": []
+    },
+    {
+      "id": "stranglethorn_087",
+      "type": "info",
+      "description": "Hearth to Booty Bay. Buy food/water if needed",
+      "classes": ["!Warrior", "!Rogue"],
+      "races": null,
+      "coords": null,
+      "zone": "",
+      "tips": [],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "stranglethorn_088",
+      "type": "info",
+      "description": "Hearth to Booty Bay. Buy food if needed",
+      "classes": ["Warrior", "Rogue"],
+      "races": null,
+      "coords": null,
+      "zone": "",
+      "tips": [],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "stranglethorn_089",
+      "type": "quest_turnin",
+      "description": "Talk to Crank Fizzlebub and turn in Venture Company Mining",
+      "classes": null,
+      "races": null,
+      "coords": [27.12, 77.208],
+      "zone": "stranglethorn_vale",
+      "tips": [],
+      "quests": [
+        {
+          "id": 600,
+          "name": "Venture Company Mining"
+        }
+      ],
+      "npc": "Crank Fizzlebub",
+      "mobs": []
+    },
+    {
+      "id": "stranglethorn_090",
+      "type": "quest_accept",
+      "description": "Talk to Fleet Master Seahorn and accept The Bloodsail Buccaneers. Talk to Baron Revilgaz and turn in The Curse of the Tides",
+      "classes": null,
+      "races": null,
+      "coords": [27.227, 76.87],
+      "zone": "stranglethorn_vale",
+      "tips": [],
+      "quests": [
+        {
+          "id": 604,
+          "name": "The Bloodsail Buccaneers"
+        },
+        {
+          "id": 611,
+          "name": "The Curse of the Tides"
+        }
+      ],
+      "npc": "Baron Revilgaz",
+      "mobs": []
+    },
+    {
+      "id": "stranglethorn_091",
+      "type": "info",
+      "description": "Talk to Viznik or Rickle and withdraw any Green Hills of Stranglethorn - Pages you found and Khadgar's Essays on Dimensional Convergence (If you have it) from your bank",
+      "classes": null,
+      "races": null,
+      "coords": null,
+      "zone": "",
+      "tips": [],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "stranglethorn_092",
+      "type": "info",
+      "description": "Talk to Viznik or Rickle and deposit Gorilla Fangs (If you have any) into your bank",
+      "classes": null,
+      "races": null,
+      "coords": null,
+      "zone": "",
+      "tips": [],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "stranglethorn_093",
+      "type": "info",
+      "description": "Talk to Auctioneer O'reely. Buy any Green Hills of Stranglethorn - Pages you are missing. Skip this step if you aren't able to aquire them",
+      "classes": null,
+      "races": null,
+      "coords": [26.588, 76.348],
+      "zone": "stranglethorn_vale",
+      "tips": [
+        {
+          "type": "warning",
+          "class": null,
+          "text": "Ch.1: 1,4,6,8"
+        },
+        {
+          "type": "warning",
+          "class": null,
+          "text": "Ch.2: 10,11,14,16"
+        },
+        {
+          "type": "warning",
+          "class": null,
+          "text": "Ch.3: 18,20,21,24"
+        },
+        {
+          "type": "warning",
+          "class": null,
+          "text": "Ch.4: 25,26,27"
+        }
+      ],
+      "quests": [],
+      "npc": "Auctioneer O'reely",
+      "mobs": []
+    },
+    {
+      "id": "stranglethorn_094",
+      "type": "quest_turnin",
+      "description": "Talk to Shaky Phillipe and turn in Scaring Shaky",
+      "classes": null,
+      "races": null,
+      "coords": [26.896, 73.59],
+      "zone": "stranglethorn_vale",
+      "tips": [],
+      "quests": [
+        {
+          "id": 606,
+          "name": "Scaring Shaky"
+        }
+      ],
+      "npc": "Shaky Phillipe",
+      "mobs": []
+    },
+    {
+      "id": "stranglethorn_095",
+      "type": "quest_accept",
+      "description": "Talk to Shaky Phillipe, turn in Scaring Shaky, and accept Return to MacKinley",
+      "classes": null,
+      "races": null,
+      "coords": [26.896, 73.59],
+      "zone": "stranglethorn_vale",
+      "tips": [],
+      "quests": [
+        {
+          "id": 606,
+          "name": "Scaring Shaky"
+        },
+        {
+          "id": 607,
+          "name": "Return to MacKinley"
+        }
+      ],
+      "npc": "Shaky Phillipe",
+      "mobs": []
+    },
+    {
+      "id": "stranglethorn_096",
+      "type": "quest_turnin",
+      "description": "Talk to Sea Wolf MacKinley and turn in Return to MacKinley",
+      "classes": null,
+      "races": null,
+      "coords": [27.782, 77.071],
+      "zone": "stranglethorn_vale",
+      "tips": [],
+      "quests": [
+        {
+          "id": 607,
+          "name": "Return to MacKinley"
+        }
+      ],
+      "npc": "Sea Wolf MacKinley",
+      "mobs": []
+    },
+    {
+      "id": "stranglethorn_097",
+      "type": "quest_turnin",
+      "description": "Talk to Drizzlik and turn in Excelsior",
+      "classes": null,
+      "races": null,
+      "coords": [28.294, 77.592],
+      "zone": "stranglethorn_vale",
+      "tips": [],
+      "quests": [
+        {
+          "id": 628,
+          "name": "Excelsior"
+        }
+      ],
+      "npc": "Drizzlik",
+      "mobs": []
+    },
+    {
+      "id": "stranglethorn_098",
+      "type": "kill",
+      "description": "Kill the Bloodsail. Loot them for their Snuff and Dizzy's Eye. Kill Bloodsail Swashbucklers and loot the Bloodsail Charts and Bloodsail Orders. These can spawn randomly at one of the camps or in the small rowboat",
+      "classes": null,
+      "races": null,
+      "coords": [26.99, 83.2],
+      "zone": "stranglethorn_vale",
+      "tips": [],
+      "quests": [
+        {
+          "id": 587,
+          "name": "Up to Snuff"
+        },
+        {
+          "id": 576,
+          "name": "Keep An Eye Out"
+        },
+        {
+          "id": 604,
+          "name": "The Bloodsail Buccaneers"
+        }
+      ],
+      "npc": null,
+      "mobs": [
+        "Bloodsail Swashbuckler",
+        "Bloodsail Mage",
+        "Bloodsail Raider",
+        "Bloodsail Warlock"
+      ]
+    },
+    {
+      "id": "stranglethorn_099",
+      "type": "travel",
+      "description": "Travel to The Cape of Stranglethorn",
+      "classes": null,
+      "races": null,
+      "coords": [24.83, 63.7],
+      "zone": "stranglethorn_vale",
+      "tips": [],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "stranglethorn_100",
+      "type": "loot",
+      "description": "Click The Holy Spring. Loot it for the Holy Spring Water",
+      "classes": null,
+      "races": null,
+      "coords": [28.961, 61.931],
+      "zone": "stranglethorn_vale",
+      "tips": [],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "stranglethorn_101",
+      "type": "kill",
+      "description": "Kill Naga Explorers. Loot them for their Akiris Reeds",
+      "classes": null,
+      "races": null,
+      "coords": [25.99, 62.45],
+      "zone": "stranglethorn_vale",
+      "tips": [],
+      "quests": [
+        {
+          "id": 617,
+          "name": "Akiris by the Bundle"
+        }
+      ],
+      "npc": null,
+      "mobs": ["Naga Explorer"]
+    },
+    {
+      "id": "stranglethorn_102",
+      "type": "kill",
+      "description": "Kill Tethis. Loot him for his Talon",
+      "classes": null,
+      "races": null,
+      "coords": [31.12, 43.17],
+      "zone": "stranglethorn_vale",
+      "tips": [
+        {
+          "type": "warning",
+          "class": null,
+          "text": "Tethis will patrol around in this location"
+        }
+      ],
+      "quests": [
+        {
+          "id": 197,
+          "name": "Raptor Mastery"
+        }
+      ],
+      "npc": null,
+      "mobs": ["Tethis"]
+    },
+    {
+      "id": "stranglethorn_103",
+      "type": "grind",
+      "description": "Kill Jungle Stalkers until you are level 43",
+      "classes": null,
+      "races": null,
+      "coords": [28.73, 44.84],
+      "zone": "stranglethorn_vale",
+      "tips": [],
+      "quests": [],
+      "npc": null,
+      "mobs": ["Jungle Stalker"]
+    },
+    {
+      "id": "stranglethorn_104",
+      "type": "kill",
+      "description": "Kill any Skullsplitter Troll. Loot them for their Skullsplitter Tusks. Kill Skullsplitter Mystics and Skullsplitter Witch Doctors. Loot them for their Skullsplitter Fetishes",
+      "classes": null,
+      "races": null,
+      "coords": [46.21, 32.22],
+      "zone": "stranglethorn_vale",
+      "tips": [],
+      "quests": [
+        {
+          "id": 209,
+          "name": "Skullsplitter Tusks"
+        },
+        {
+          "id": 205,
+          "name": "Troll Witchery"
+        }
+      ],
+      "npc": null,
+      "mobs": ["Skullsplitter Mystic", "Skullsplitter Witch Doctor"]
+    },
+    {
+      "id": "stranglethorn_105",
+      "type": "kill",
+      "description": "Kill Bhag'thera. Loot him for the Fang of Bhag'thera",
+      "classes": null,
+      "races": null,
+      "coords": [49.54, 24.17],
+      "zone": "stranglethorn_vale",
+      "tips": [
+        {
+          "type": "warning",
+          "class": null,
+          "text": "Bhag'thera can spawn north or west of the Mosh'Ogg Ogre Mound"
+        },
+        {
+          "type": "warning",
+          "class": "Hunter",
+          "text": "Cast Eagle Eye to try and locate Bhag'thera"
+        }
+      ],
+      "quests": [
+        {
+          "id": 193,
+          "name": "Panther Mastery"
+        }
+      ],
+      "npc": null,
+      "mobs": ["Bhag'thera"]
+    },
+    {
+      "id": "stranglethorn_106",
+      "type": "travel",
+      "description": "Travel to Nesingwary's Expedition",
+      "classes": null,
+      "races": null,
+      "coords": [35.658, 10.808],
+      "zone": "stranglethorn_vale",
+      "tips": [],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "stranglethorn_107",
+      "type": "quest_accept",
+      "description": "Talk to Sir S. J. Erlgadin and turn in Panther Mastery. Talk to Hemet Nesingwary, turn in Raptor Mastery, and accept Big Game Hunter",
+      "classes": null,
+      "races": null,
+      "coords": [35.658, 10.808],
+      "zone": "stranglethorn_vale",
+      "tips": [],
+      "quests": [
+        {
+          "id": 193,
+          "name": "Panther Mastery"
+        },
+        {
+          "id": 197,
+          "name": "Raptor Mastery"
+        },
+        {
+          "id": 208,
+          "name": "Big Game Hunter"
+        }
+      ],
+      "npc": "Hemet Nesingwary",
+      "mobs": []
+    },
+    {
+      "id": "stranglethorn_108",
+      "type": "info",
+      "description": "Talk to Barnil Stonepot. Turn in all your Green Hills of Stranglethorn - Pages. Skip this step if you don't have all the Green Hills of Stranglethorn - Chapters",
+      "classes": null,
+      "races": null,
+      "coords": [35.662, 10.528],
+      "zone": "stranglethorn_vale",
+      "tips": [],
+      "quests": [
+        {
+          "id": 338,
+          "name": "The Green Hills of Stranglethorn"
+        },
+        {
+          "id": 339,
+          "name": "Chapter I"
+        },
+        {
+          "id": 340,
+          "name": "Chapter II"
+        },
+        {
+          "id": 341,
+          "name": "Chapter III"
+        },
+        {
+          "id": 342,
+          "name": "Chapter IV"
+        }
+      ],
+      "npc": "Barnil Stonepot",
+      "mobs": []
+    },
+    {
+      "id": "stranglethorn_109",
+      "type": "kill",
+      "description": "Kill King Bangalash. Loot him for the Head of Bangalash",
+      "classes": null,
+      "races": null,
+      "coords": [38.2, 35.57],
+      "zone": "stranglethorn_vale",
+      "tips": [
+        {
+          "type": "warning",
+          "class": null,
+          "text": "Use the Flash Bomb on King Bangalash when he is at 55%"
+        },
+        {
+          "type": "warning",
+          "class": null,
+          "text": "King Bangalash will spawn 2 Panthers at 50% health. Try to CC him just before 50% if possible so it prevents him from spawning any"
+        }
+      ],
+      "quests": [
+        {
+          "id": 208,
+          "name": "Big Game Hunter"
+        }
+      ],
+      "npc": null,
+      "mobs": ["King Bangalash"]
+    },
+    {
+      "id": "stranglethorn_110",
+      "type": "quest_turnin",
+      "description": "Talk to Hemet Nesingwary and turn in Big Game Hunter",
+      "classes": null,
+      "races": null,
+      "coords": [35.658, 10.808],
+      "zone": "stranglethorn_vale",
+      "tips": [],
+      "quests": [
+        {
+          "id": 208,
+          "name": "Big Game Hunter"
+        }
+      ],
+      "npc": "Hemet Nesingwary",
+      "mobs": []
+    },
+    {
+      "id": "stranglethorn_111",
+      "type": "quest_turnin",
+      "description": "Talk to Brother Nimetz and turn in Troll Witchery",
+      "classes": null,
+      "races": null,
+      "coords": [37.832, 3.559],
+      "zone": "stranglethorn_vale",
+      "tips": [],
+      "quests": [
+        {
+          "id": 205,
+          "name": "Troll Witchery"
+        }
+      ],
+      "npc": "Brother Nimetz",
+      "mobs": []
+    },
+    {
+      "id": "stranglethorn_112",
+      "type": "travel",
+      "description": "Travel north into Duskwood, then west towards Westfall",
+      "classes": null,
+      "races": null,
+      "coords": [44.6, 86.4],
+      "zone": "duskwood",
+      "tips": [],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "stranglethorn_113",
+      "type": "quest_accept",
+      "description": "Talk to Grimbooze Thunderbrew, accept Sweet Amber, turn in Sweet Amber, and accept Sweet Amber",
+      "classes": null,
+      "races": null,
+      "coords": [44.62, 80.254],
+      "zone": "westfall",
+      "tips": [],
+      "quests": [
+        {
+          "id": 48,
+          "name": "Sweet Amber"
+        },
+        {
+          "id": 49,
+          "name": "Sweet Amber"
+        }
+      ],
+      "npc": "Grimbooze Thunderbrew",
+      "mobs": []
+    },
+    {
+      "id": "stranglethorn_114",
+      "type": "fly",
+      "description": "Talk to Thor and fly to Duskwood",
+      "classes": null,
+      "races": null,
+      "coords": [56.556, 52.643],
+      "zone": "westfall",
+      "tips": [],
+      "quests": [],
+      "npc": "Thor",
+      "mobs": []
+    }
+  ]
+}

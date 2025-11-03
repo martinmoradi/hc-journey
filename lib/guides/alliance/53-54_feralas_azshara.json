@@ -1,0 +1,1539 @@
+{
+  "zone": "Feralas",
+  "levelRange": "53-54",
+  "faction": "Alliance",
+  "name": "53-54_feralas_azshara",
+  "next": "54-55_ungoro",
+  "steps": [
+    {
+      "id": "feralas_001",
+      "type": "quest_accept",
+      "description": "Talk to Pratt McGrubben and accept Improved Quality",
+      "classes": null,
+      "races": null,
+      "coords": [30.632, 42.706],
+      "zone": "feralas",
+      "tips": [],
+      "quests": [
+        {
+          "id": 7733,
+          "name": "Improved Quality"
+        }
+      ],
+      "npc": "Pratt McGrubben",
+      "mobs": []
+    },
+    {
+      "id": "feralas_002",
+      "type": "quest_turnin",
+      "description": "Talk to Troyas Moonbreeze, turn in Return to Troyas, and accept The Stave of Equinex",
+      "classes": null,
+      "races": null,
+      "coords": [31.777, 45.498],
+      "zone": "feralas",
+      "tips": [],
+      "quests": [
+        {
+          "id": 2943,
+          "name": "Return to Troyas"
+        },
+        {
+          "id": 2879,
+          "name": "The Stave of Equinex"
+        }
+      ],
+      "npc": "Troyas Moonbreeze",
+      "mobs": []
+    },
+    {
+      "id": "feralas_003",
+      "type": "travel",
+      "description": "Swim to Zorbin Fandazzle",
+      "classes": null,
+      "races": null,
+      "coords": [44.81, 43.423],
+      "zone": "feralas",
+      "tips": [],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "feralas_004",
+      "type": "quest_accept",
+      "description": "Talk to Zorbin Fandazzle and accept Zapped Giants and Fuel for the Zapping",
+      "classes": null,
+      "races": null,
+      "coords": [44.81, 43.423],
+      "zone": "feralas",
+      "tips": [],
+      "quests": [
+        {
+          "id": 7003,
+          "name": "Zapped Giants"
+        },
+        {
+          "id": 7721,
+          "name": "Fuel for the Zapping"
+        }
+      ],
+      "npc": "Zorbin Fandazzle",
+      "mobs": []
+    },
+    {
+      "id": "feralas_005",
+      "type": "kill",
+      "description": "Kill Wave Striders, Deep Striders and Shore Striders. Loot them for their Miniaturization Residues.",
+      "classes": null,
+      "races": null,
+      "coords": [46.0, 53.0],
+      "zone": "feralas",
+      "tips": [
+        {
+          "type": "warning",
+          "class": null,
+          "text": "Use Zorbin's Ultra-Shrinker to weaken them"
+        }
+      ],
+      "quests": [
+        {
+          "id": 7003,
+          "name": "Zapped Giants"
+        }
+      ],
+      "npc": null,
+      "mobs": ["Wave Strider", "Deep Strider", "Shore Strider"]
+    },
+    {
+      "id": "feralas_006",
+      "type": "kill",
+      "description": "Kill Sea Elementals and Sea Sprays. Loot them for their Water Elemental Cores",
+      "classes": null,
+      "races": null,
+      "coords": [46.0, 53.0],
+      "zone": "feralas",
+      "tips": [],
+      "quests": [
+        {
+          "id": 7721,
+          "name": "Fuel for the Zapping"
+        }
+      ],
+      "npc": null,
+      "mobs": ["Sea Elemental", "Sea Spray"]
+    },
+    {
+      "id": "feralas_007",
+      "type": "quest_turnin",
+      "description": "Talk to Zorbin Fandazzle and turn in Zapped Giants and Fuel for the Zapping",
+      "classes": null,
+      "races": null,
+      "coords": [44.81, 43.423],
+      "zone": "feralas",
+      "tips": [],
+      "quests": [
+        {
+          "id": 7003,
+          "name": "Zapped Giants"
+        },
+        {
+          "id": 7721,
+          "name": "Fuel for the Zapping"
+        }
+      ],
+      "npc": "Zorbin Fandazzle",
+      "mobs": []
+    },
+    {
+      "id": "feralas_008",
+      "type": "info",
+      "description": "Destroy Zorbin's Ultra-Shrinker",
+      "classes": null,
+      "races": null,
+      "coords": null,
+      "zone": "",
+      "tips": [],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "feralas_009",
+      "type": "kill",
+      "description": "Kill Rage Scar Yetis, Elder Rage Scars and Ferocious Rage Scars. Loot them for their Rage Scar Yeti Hide and Pristine Yeti Hide.",
+      "classes": null,
+      "races": null,
+      "coords": [54.84, 32.84],
+      "zone": "feralas",
+      "tips": [
+        {
+          "type": "warning",
+          "class": null,
+          "text": "Use the Pristine Yeti Hide to start the quest"
+        },
+        {
+          "type": "warning",
+          "class": null,
+          "text": "If you do not find the Pristine Yeti Hide, skip it"
+        }
+      ],
+      "quests": [
+        {
+          "id": 7733,
+          "name": "Improved Quality"
+        },
+        {
+          "id": 7735,
+          "name": "Pristine Yeti Hide"
+        }
+      ],
+      "npc": null,
+      "mobs": ["Rage Scar Yeti", "Elder Rage Scar", "Ferocious Rage Scar"]
+    },
+    {
+      "id": "feralas_010",
+      "type": "quest_turnin",
+      "description": "Talk to Gregan Brewspewer and turn in A Visit to Gregan",
+      "classes": null,
+      "races": null,
+      "coords": [45.118, 25.567],
+      "zone": "feralas",
+      "tips": [],
+      "quests": [
+        {
+          "id": 4142,
+          "name": "A Visit to Gregan"
+        }
+      ],
+      "npc": "Gregan Brewspewer",
+      "mobs": []
+    },
+    {
+      "id": "feralas_011",
+      "type": "info",
+      "description": "Talk to Gregan Brewspewer. Buy Bait",
+      "classes": null,
+      "races": null,
+      "coords": [45.118, 25.567],
+      "zone": "feralas",
+      "tips": [],
+      "quests": [],
+      "npc": "Gregan Brewspewer",
+      "mobs": []
+    },
+    {
+      "id": "feralas_012",
+      "type": "quest_accept",
+      "description": "Talk to Rockbiter and accept The Giant Guardian",
+      "classes": null,
+      "races": null,
+      "coords": [42.388, 21.999],
+      "zone": "feralas",
+      "tips": [],
+      "quests": [
+        {
+          "id": 2844,
+          "name": "The Giant Guardian"
+        }
+      ],
+      "npc": "Rockbiter",
+      "mobs": []
+    },
+    {
+      "id": "feralas_013",
+      "type": "info",
+      "description": "Place the Bait on the ground next to Miblon Snarltooth to distract him",
+      "classes": null,
+      "races": null,
+      "coords": [44.627, 10.568],
+      "zone": "feralas",
+      "tips": [],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "feralas_014",
+      "type": "loot",
+      "description": "Loot the Evoroot inside the Ruins",
+      "classes": null,
+      "races": null,
+      "coords": [44.605, 10.185],
+      "zone": "feralas",
+      "tips": [],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "feralas_015",
+      "type": "loot",
+      "description": "Loot the Four Flames for the Essences",
+      "classes": null,
+      "races": null,
+      "coords": [39.927, 9.436],
+      "zone": "feralas",
+      "tips": [],
+      "quests": [
+        {
+          "id": 2879,
+          "name": "The Stave of Equinex"
+        }
+      ],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "feralas_016",
+      "type": "info",
+      "description": "Use Troyas' Stave at the Equinex Monolith",
+      "classes": null,
+      "races": null,
+      "coords": [38.88, 13.13],
+      "zone": "feralas",
+      "tips": [],
+      "quests": [
+        {
+          "id": 2879,
+          "name": "The Stave of Equinex"
+        }
+      ],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "feralas_017",
+      "type": "quest_turnin",
+      "description": "Click the Equinex Monolith, turn in The Stave of Equinex, and accept The Morrow Stone",
+      "classes": null,
+      "races": null,
+      "coords": [38.82, 13.17],
+      "zone": "feralas",
+      "tips": [],
+      "quests": [
+        {
+          "id": 2879,
+          "name": "The Stave of Equinex"
+        },
+        {
+          "id": 2942,
+          "name": "The Morrow Stone"
+        }
+      ],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "feralas_018",
+      "type": "grind",
+      "description": "Grind Harpies until your HS cooldown is less than 10 minutes",
+      "classes": null,
+      "races": null,
+      "coords": null,
+      "zone": "",
+      "tips": [],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "feralas_019",
+      "type": "quest_accept",
+      "description": "Talk to Shay Leafrunner and accept Wandering Shay. This will start an escort quest",
+      "classes": null,
+      "races": null,
+      "coords": [38.224, 10.298],
+      "zone": "feralas",
+      "tips": [
+        {
+          "type": "warning",
+          "class": null,
+          "text": "This will start an escort quest"
+        }
+      ],
+      "quests": [
+        {
+          "id": 2844,
+          "name": "The Giant Guardian"
+        },
+        {
+          "id": 2845,
+          "name": "Wandering Shay"
+        }
+      ],
+      "npc": "Shay Leafrunner",
+      "mobs": []
+    },
+    {
+      "id": "feralas_020",
+      "type": "loot",
+      "description": "Open Shay's Chest. Loot it for Shay's Bell",
+      "classes": null,
+      "races": null,
+      "coords": [38.252, 10.293],
+      "zone": "feralas",
+      "tips": [],
+      "quests": [
+        {
+          "id": 2845,
+          "name": "Wandering Shay"
+        }
+      ],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "feralas_021",
+      "type": "info",
+      "description": "Escort Shay Leafrunner to safety.",
+      "classes": null,
+      "races": null,
+      "coords": [42.38, 22.0],
+      "zone": "feralas",
+      "tips": [
+        {
+          "type": "warning",
+          "class": null,
+          "text": "Use Shay's Bell whenever Shay wanders away from you"
+        },
+        {
+          "type": "warning",
+          "class": null,
+          "text": "If you run too far away from her the quest will fail"
+        }
+      ],
+      "quests": [
+        {
+          "id": 2845,
+          "name": "Wandering Shay"
+        }
+      ],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "feralas_022",
+      "type": "quest_turnin",
+      "description": "Talk to Rockbiter and turn in Wandering Shay",
+      "classes": null,
+      "races": null,
+      "coords": [42.388, 21.999],
+      "zone": "feralas",
+      "tips": [],
+      "quests": [
+        {
+          "id": 2845,
+          "name": "Wandering Shay"
+        }
+      ],
+      "npc": "Rockbiter",
+      "mobs": []
+    },
+    {
+      "id": "feralas_023",
+      "type": "quest_accept",
+      "description": "Talk to Gregan Brewspewer, accept The Videre Elixir and turn in The Videre Elixir",
+      "classes": null,
+      "races": null,
+      "coords": [45.12, 25.56],
+      "zone": "feralas",
+      "tips": [
+        {
+          "type": "warning",
+          "class": null,
+          "text": "Blizzard has adjusted the quest The Videre Elixir so it will no longer kill you on Official Hardcore Servers"
+        }
+      ],
+      "quests": [
+        {
+          "id": 4041,
+          "name": "The Videre Elixir"
+        }
+      ],
+      "npc": "Gregan Brewspewer",
+      "mobs": []
+    },
+    {
+      "id": "feralas_024",
+      "type": "travel",
+      "description": "Travel to Feathermoon Stronghold. Swimming across is faster than waiting for the boat",
+      "classes": null,
+      "races": null,
+      "coords": [31.777, 45.498],
+      "zone": "feralas",
+      "tips": [
+        {
+          "type": "warning",
+          "class": null,
+          "text": "Swimming across is faster than waiting for the boat"
+        }
+      ],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "feralas_025",
+      "type": "quest_turnin",
+      "description": "Talk to Troyas Moonbreeze and turn in The Morrow Stone",
+      "classes": null,
+      "races": null,
+      "coords": [31.777, 45.498],
+      "zone": "feralas",
+      "tips": [],
+      "quests": [
+        {
+          "id": 2942,
+          "name": "The Morrow Stone"
+        }
+      ],
+      "npc": "Troyas Moonbreeze",
+      "mobs": []
+    },
+    {
+      "id": "feralas_026",
+      "type": "quest_turnin",
+      "description": "Talk to Pratt McGrubben and turn in Improved Quality and Pristine Yeti Hide",
+      "classes": null,
+      "races": null,
+      "coords": [30.632, 42.706],
+      "zone": "feralas",
+      "tips": [],
+      "quests": [
+        {
+          "id": 7733,
+          "name": "Improved Quality"
+        },
+        {
+          "id": 7735,
+          "name": "Pristine Yeti Hide"
+        }
+      ],
+      "npc": "Pratt McGrubben",
+      "mobs": []
+    },
+    {
+      "id": "feralas_027",
+      "type": "info",
+      "description": "Hearth to Theramore",
+      "classes": null,
+      "races": null,
+      "coords": null,
+      "zone": "",
+      "tips": [],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "feralas_028",
+      "type": "fly",
+      "description": "Talk to Baldruc and fly to Ratchet",
+      "classes": null,
+      "races": null,
+      "coords": [67.476, 51.3],
+      "zone": "dustwallow_marsh",
+      "tips": [],
+      "quests": [],
+      "npc": "Baldruc",
+      "mobs": []
+    },
+    {
+      "id": "feralas_029",
+      "type": "info",
+      "description": "Talk to Fuzruckle or Zikkel. Withdraw Corrupt Moonwell Water, Standard Issue Flare Gun and Drawing Kit from your bank",
+      "classes": null,
+      "races": null,
+      "coords": [62.639, 37.421],
+      "zone": "the_barrens",
+      "tips": [],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "feralas_030",
+      "type": "quest_accept",
+      "description": "Talk to Liv Rizzlefix and accept Volcanic Activity",
+      "classes": null,
+      "races": null,
+      "coords": [62.448, 38.734],
+      "zone": "the_barrens",
+      "tips": [],
+      "quests": [
+        {
+          "id": 4502,
+          "name": "Volcanic Activity"
+        }
+      ],
+      "npc": "Liv Rizzlefix",
+      "mobs": []
+    },
+    {
+      "id": "feralas_031",
+      "type": "loot",
+      "description": "Open Marvon's Chest. Loot it for the Stone Circle",
+      "classes": null,
+      "races": null,
+      "coords": [62.5, 38.546],
+      "zone": "the_barrens",
+      "tips": [],
+      "quests": [
+        {
+          "id": 3444,
+          "name": "The Stone Circle"
+        }
+      ],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "feralas_032",
+      "type": "info",
+      "description": "Talk to Innkeeper Wiley. Set your Hearthstone to Ratchet",
+      "classes": null,
+      "races": null,
+      "coords": [62.05, 39.41],
+      "zone": "the_barrens",
+      "tips": [],
+      "quests": [],
+      "npc": "Innkeeper Wiley",
+      "mobs": []
+    },
+    {
+      "id": "feralas_033",
+      "type": "quest_turnin",
+      "description": "Talk to Islen Waterseer, turn in Seeking Spiritual Aid, and accept Cleansed Water Returns to Felwood",
+      "classes": null,
+      "races": null,
+      "coords": [65.827, 43.776],
+      "zone": "the_barrens",
+      "tips": [],
+      "quests": [
+        {
+          "id": 5158,
+          "name": "Seeking Spiritual Aid"
+        },
+        {
+          "id": 5159,
+          "name": "Cleansed Water Returns to Felwood"
+        }
+      ],
+      "npc": "Islen Waterseer",
+      "mobs": []
+    },
+    {
+      "id": "feralas_034",
+      "type": "info",
+      "description": "Talk to Fuzruckle or Zikkel. Deposit Purified Moonwell Water and Moontouched Feathers into your bank",
+      "classes": null,
+      "races": null,
+      "coords": [62.639, 37.421],
+      "zone": "the_barrens",
+      "tips": [],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "feralas_035",
+      "type": "fly",
+      "description": "Talk to Bragok and fly to Azshara",
+      "classes": null,
+      "races": null,
+      "coords": [63.084, 37.163],
+      "zone": "the_barrens",
+      "tips": [],
+      "quests": [],
+      "npc": "Bragok",
+      "mobs": []
+    },
+    {
+      "id": "feralas_036",
+      "type": "quest_turnin",
+      "description": "Talk to Sanath Lim-yo. This will teleport you to the top of the mountain",
+      "classes": ["Mage"],
+      "races": null,
+      "coords": [28.113, 50.088],
+      "zone": "azshara",
+      "tips": [
+        {
+          "type": "warning",
+          "class": null,
+          "text": "This will teleport you to the top of the mountain"
+        }
+      ],
+      "quests": [
+        {
+          "id": 3503,
+          "name": "Meeting with the Master"
+        }
+      ],
+      "npc": "Sanath Lim-yo",
+      "mobs": []
+    },
+    {
+      "id": "feralas_037",
+      "type": "quest_turnin",
+      "description": "Talk to Archmage Xylem atop the Tower, turn in Magecraft, and accept Magic Dust",
+      "classes": ["Mage"],
+      "races": null,
+      "coords": [29.248, 40.21],
+      "zone": "azshara",
+      "tips": [],
+      "quests": [
+        {
+          "id": 8250,
+          "name": "Magecraft"
+        },
+        {
+          "id": 8251,
+          "name": "Magic Dust"
+        }
+      ],
+      "npc": "Archmage Xylem",
+      "mobs": []
+    },
+    {
+      "id": "feralas_038",
+      "type": "info",
+      "description": "Talk to Nyrill. This will teleport you back down",
+      "classes": ["Mage"],
+      "races": null,
+      "coords": [26.466, 46.271],
+      "zone": "azshara",
+      "tips": [
+        {
+          "type": "warning",
+          "class": null,
+          "text": "This will teleport you back down"
+        }
+      ],
+      "quests": [
+        {
+          "id": 3421,
+          "name": "Return Trip"
+        }
+      ],
+      "npc": "Nyrill",
+      "mobs": []
+    },
+    {
+      "id": "feralas_039",
+      "type": "quest_turnin",
+      "description": "Talk to Ogtinc and turn in The Hunter's Charm and accept Courser Antlers",
+      "classes": ["Hunter"],
+      "races": null,
+      "coords": [42.4, 42.619],
+      "zone": "azshara",
+      "tips": [],
+      "quests": [
+        {
+          "id": 8151,
+          "name": "The Hunter's Charm"
+        },
+        {
+          "id": 8153,
+          "name": "Courser Antlers"
+        }
+      ],
+      "npc": "Ogtinc",
+      "mobs": []
+    },
+    {
+      "id": "feralas_040",
+      "type": "quest_turnin",
+      "description": "Talk to Ogtinc, turn in Cenarion Aid, and accept Of Coursers We Know",
+      "classes": ["Priest"],
+      "races": null,
+      "coords": [42.4, 42.619],
+      "zone": "azshara",
+      "tips": [],
+      "quests": [
+        {
+          "id": 8254,
+          "name": "Cenarion Aid"
+        },
+        {
+          "id": 8255,
+          "name": "Of Coursers We Know"
+        }
+      ],
+      "npc": "Ogtinc",
+      "mobs": []
+    },
+    {
+      "id": "feralas_041",
+      "type": "info",
+      "description": "Pick Pocket Timbermaw Shamans. Loot them for the Sealed Azure Bag.",
+      "classes": ["Rogue"],
+      "races": null,
+      "coords": [45.26, 21.6],
+      "zone": "azshara",
+      "tips": [
+        {
+          "type": "warning",
+          "class": null,
+          "text": "You may have to tick the At War checkbox for Timbermaw Hold in your Reputation pane to make them hostile towards you"
+        }
+      ],
+      "quests": [
+        {
+          "id": 8234,
+          "name": "Sealed Azure Bag"
+        }
+      ],
+      "npc": null,
+      "mobs": ["Timbermaw Shaman"]
+    },
+    {
+      "id": "feralas_042",
+      "type": "quest_accept",
+      "description": "Talk to Kim'jael and accept Kim'jael Indeed!",
+      "classes": null,
+      "races": null,
+      "coords": [53.452, 21.823],
+      "zone": "azshara",
+      "tips": [],
+      "quests": [
+        {
+          "id": 3601,
+          "name": "Kim'jael Indeed!"
+        }
+      ],
+      "npc": "Kim'jael",
+      "mobs": []
+    },
+    {
+      "id": "feralas_043",
+      "type": "loot",
+      "description": "Open the Kim'jael's Equipment. Loot it for Kim'Jael's Compass, Kim'Jael's Scope, Kim'Jael's Stuffed Chicken and Kim'Jael's Wizzlegoober.",
+      "classes": null,
+      "races": null,
+      "coords": [56.55, 28.36],
+      "zone": "azshara",
+      "tips": [
+        {
+          "type": "warning",
+          "class": null,
+          "text": "Kim'jael's Equipment boxes are scattered throughout the Blood Elf camp"
+        }
+      ],
+      "quests": [
+        {
+          "id": 3601,
+          "name": "Kim'jael Indeed!"
+        }
+      ],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "feralas_044",
+      "type": "kill",
+      "description": "Kill Blood Elf Reclaimers and Blood Elf Surveyors. Loot them for their Glittering Dust",
+      "classes": ["Mage"],
+      "races": null,
+      "coords": [56.55, 28.36],
+      "zone": "azshara",
+      "tips": [],
+      "quests": [
+        {
+          "id": 8251,
+          "name": "Magic Dust"
+        }
+      ],
+      "npc": null,
+      "mobs": ["Blood Elf Reclaimer", "Blood Elf Surveyor"]
+    },
+    {
+      "id": "feralas_045",
+      "type": "quest_turnin",
+      "description": "Talk to Kim'jael, turn in Kim'jael Indeed!, and accept Kim'jael's Missing Equipment",
+      "classes": null,
+      "races": null,
+      "coords": [53.452, 21.823],
+      "zone": "azshara",
+      "tips": [],
+      "quests": [
+        {
+          "id": 3601,
+          "name": "Kim'jael Indeed!"
+        },
+        {
+          "id": 5534,
+          "name": "Kim'jael's Missing Equipment"
+        }
+      ],
+      "npc": "Kim'jael",
+      "mobs": []
+    },
+    {
+      "id": "feralas_046",
+      "type": "quest_turnin",
+      "description": "Talk to Sanath Lim-yo. This will teleport you to the top of the mountain",
+      "classes": ["Mage", "Rogue"],
+      "races": null,
+      "coords": [28.113, 50.088],
+      "zone": "azshara",
+      "tips": [
+        {
+          "type": "warning",
+          "class": null,
+          "text": "This will teleport you to the top of the mountain"
+        }
+      ],
+      "quests": [
+        {
+          "id": 3503,
+          "name": "Meeting with the Master"
+        }
+      ],
+      "npc": "Sanath Lim-yo",
+      "mobs": []
+    },
+    {
+      "id": "feralas_047",
+      "type": "quest_turnin",
+      "description": "Talk to Archmage Xylem atop the Tower and turn in Magic Dust and accept The Siren's Coral",
+      "classes": ["Mage"],
+      "races": null,
+      "coords": [29.248, 40.21],
+      "zone": "azshara",
+      "tips": [],
+      "quests": [
+        {
+          "id": 8251,
+          "name": "Magic Dust"
+        },
+        {
+          "id": 8252,
+          "name": "The Siren's Coral"
+        }
+      ],
+      "npc": "Archmage Xylem",
+      "mobs": []
+    },
+    {
+      "id": "feralas_048",
+      "type": "quest_turnin",
+      "description": "Talk to Archmage Xylem atop the Tower, turn in Sealed Azure Bag, and accept Encoded Fragments",
+      "classes": ["Rogue"],
+      "races": null,
+      "coords": [29.248, 40.21],
+      "zone": "azshara",
+      "tips": [],
+      "quests": [
+        {
+          "id": 8234,
+          "name": "Sealed Azure Bag"
+        },
+        {
+          "id": 8235,
+          "name": "Encoded Fragments"
+        }
+      ],
+      "npc": "Archmage Xylem",
+      "mobs": []
+    },
+    {
+      "id": "feralas_049",
+      "type": "info",
+      "description": "Ensure you have to unticked the At War checkbox for Timbermaw Hold in your Reputation pane to make them non-hostile towards you again",
+      "classes": ["Rogue"],
+      "races": null,
+      "coords": null,
+      "zone": "",
+      "tips": [],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "feralas_050",
+      "type": "info",
+      "description": "Talk to Nyrill. This will teleport you back down",
+      "classes": ["Mage", "Rogue"],
+      "races": null,
+      "coords": [26.466, 46.271],
+      "zone": "azshara",
+      "tips": [],
+      "quests": [
+        {
+          "id": 3421,
+          "name": "Return Trip"
+        }
+      ],
+      "npc": "Nyrill",
+      "mobs": []
+    },
+    {
+      "id": "feralas_051",
+      "type": "loot",
+      "description": "Click the Runes. Loot them for the Rubbings",
+      "classes": null,
+      "races": null,
+      "coords": [42.34, 64.14],
+      "zone": "azshara",
+      "tips": [],
+      "quests": [
+        {
+          "id": 3449,
+          "name": "Arcane Runes"
+        }
+      ],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "feralas_052",
+      "type": "kill",
+      "description": "Kill Spitelash Myrmidons and Spitelash Sirens. Loot them for Some Rune",
+      "classes": null,
+      "races": null,
+      "coords": [46.0, 52.8],
+      "zone": "azshara",
+      "tips": [],
+      "quests": [
+        {
+          "id": 5534,
+          "name": "Kim'jael's Missing Equipment"
+        }
+      ],
+      "npc": null,
+      "mobs": ["Spitelash Myrmidon", "Spitelash Siren"]
+    },
+    {
+      "id": "feralas_053",
+      "type": "kill",
+      "description": "Kill Spitelash Sirens. Loot them for their Enchanted Corals",
+      "classes": ["Mage"],
+      "races": null,
+      "coords": [46.0, 52.8],
+      "zone": "azshara",
+      "tips": [],
+      "quests": [
+        {
+          "id": 8252,
+          "name": "The Siren's Coral"
+        }
+      ],
+      "npc": null,
+      "mobs": ["Spitelash Siren"]
+    },
+    {
+      "id": "feralas_054",
+      "type": "quest_turnin",
+      "description": "Talk to Kim'jael and turn in Kim'jael's Missing Equipment",
+      "classes": null,
+      "races": null,
+      "coords": [53.452, 21.823],
+      "zone": "azshara",
+      "tips": [],
+      "quests": [
+        {
+          "id": 5534,
+          "name": "Kim'jael's Missing Equipment"
+        }
+      ],
+      "npc": "Kim'jael",
+      "mobs": []
+    },
+    {
+      "id": "feralas_055",
+      "type": "kill",
+      "description": "Kill Forest Oozes. Loot them for their Encoded Fragments.",
+      "classes": ["Rogue"],
+      "races": null,
+      "coords": [69.0, 27.6],
+      "zone": "azshara",
+      "tips": [
+        {
+          "type": "warning",
+          "class": null,
+          "text": "Cast Pick Pocket on them before you kill them"
+        }
+      ],
+      "quests": [
+        {
+          "id": 8235,
+          "name": "Encoded Fragments"
+        }
+      ],
+      "npc": null,
+      "mobs": ["Forest Ooze"]
+    },
+    {
+      "id": "feralas_056",
+      "type": "quest_turnin",
+      "description": "Talk to Sanath Lim-yo. This will teleport you to the top of the mountain",
+      "classes": ["Mage", "Rogue"],
+      "races": null,
+      "coords": [28.113, 50.088],
+      "zone": "azshara",
+      "tips": [],
+      "quests": [
+        {
+          "id": 3503,
+          "name": "Meeting with the Master"
+        }
+      ],
+      "npc": "Sanath Lim-yo",
+      "mobs": []
+    },
+    {
+      "id": "feralas_057",
+      "type": "quest_turnin",
+      "description": "Talk to Archmage Xylem atop the Tower and turn in The Siren's Coral",
+      "classes": ["Mage"],
+      "races": null,
+      "coords": [29.248, 40.21],
+      "zone": "azshara",
+      "tips": [],
+      "quests": [
+        {
+          "id": 8252,
+          "name": "The Siren's Coral"
+        }
+      ],
+      "npc": "Archmage Xylem",
+      "mobs": []
+    },
+    {
+      "id": "feralas_058",
+      "type": "quest_turnin",
+      "description": "Talk to Archmage Xylem atop the Tower and turn in Encoded Fragments",
+      "classes": ["Rogue"],
+      "races": null,
+      "coords": [29.248, 40.21],
+      "zone": "azshara",
+      "tips": [],
+      "quests": [
+        {
+          "id": 8235,
+          "name": "Encoded Fragments"
+        }
+      ],
+      "npc": "Archmage Xylem",
+      "mobs": []
+    },
+    {
+      "id": "feralas_059",
+      "type": "quest_accept",
+      "description": "Talk to Archmage Xylem atop the Tower and accept Destroy Morphaz",
+      "classes": ["Mage"],
+      "races": null,
+      "coords": [29.248, 40.21],
+      "zone": "azshara",
+      "tips": [],
+      "quests": [
+        {
+          "id": 8253,
+          "name": "Destroy Morphaz"
+        }
+      ],
+      "npc": "Archmage Xylem",
+      "mobs": []
+    },
+    {
+      "id": "feralas_060",
+      "type": "quest_accept",
+      "description": "Talk to Archmage Xylem atop the Tower and accept The Azure Key",
+      "classes": ["Rogue"],
+      "races": null,
+      "coords": [29.248, 40.21],
+      "zone": "azshara",
+      "tips": [],
+      "quests": [
+        {
+          "id": 8236,
+          "name": "The Azure Key"
+        }
+      ],
+      "npc": "Archmage Xylem",
+      "mobs": []
+    },
+    {
+      "id": "feralas_061",
+      "type": "info",
+      "description": "Talk to Nyrill. This will teleport you back down",
+      "classes": ["Mage", "Rogue"],
+      "races": null,
+      "coords": [26.466, 46.271],
+      "zone": "azshara",
+      "tips": [],
+      "quests": [
+        {
+          "id": 3421,
+          "name": "Return Trip"
+        }
+      ],
+      "npc": "Nyrill",
+      "mobs": []
+    },
+    {
+      "id": "feralas_062",
+      "type": "kill",
+      "description": "Kill Mosshoof Coursers. Loot them for their Perfect Courser Antlers",
+      "classes": ["Hunter"],
+      "races": null,
+      "coords": [57.2, 21.2],
+      "zone": "azshara",
+      "tips": [],
+      "quests": [
+        {
+          "id": 8153,
+          "name": "Courser Antlers"
+        }
+      ],
+      "npc": null,
+      "mobs": ["Mosshoof Courser"]
+    },
+    {
+      "id": "feralas_063",
+      "type": "kill",
+      "description": "Kill Mosshoof Coursers. Loot them for their Healthy Courser Glands",
+      "classes": ["Priest"],
+      "races": null,
+      "coords": [57.2, 21.2],
+      "zone": "azshara",
+      "tips": [],
+      "quests": [
+        {
+          "id": 8255,
+          "name": "Of Coursers We Know"
+        }
+      ],
+      "npc": null,
+      "mobs": ["Mosshoof Courser"]
+    },
+    {
+      "id": "feralas_064",
+      "type": "grind",
+      "description": "Grind Blood Elves until you are 50% into level 53",
+      "classes": null,
+      "races": null,
+      "coords": [56.55, 28.36],
+      "zone": "azshara",
+      "tips": [],
+      "quests": [],
+      "npc": null,
+      "mobs": ["Blood Elf Reclaimer", "Blood Elf Surveyor"]
+    },
+    {
+      "id": "feralas_065",
+      "type": "quest_turnin",
+      "description": "Talk to Ogtinc, turn in Courser Antlers, and accept Wavethrashing",
+      "classes": ["Hunter"],
+      "races": null,
+      "coords": [42.4, 42.619],
+      "zone": "azshara",
+      "tips": [],
+      "quests": [
+        {
+          "id": 8153,
+          "name": "Courser Antlers"
+        },
+        {
+          "id": 8231,
+          "name": "Wavethrashing"
+        }
+      ],
+      "npc": "Ogtinc",
+      "mobs": []
+    },
+    {
+      "id": "feralas_066",
+      "type": "quest_turnin",
+      "description": "Talk to Ogtinc, turn in Of Coursers We Know, and accept The Ichor of Undeath",
+      "classes": ["Priest"],
+      "races": null,
+      "coords": [42.4, 42.619],
+      "zone": "azshara",
+      "tips": [],
+      "quests": [
+        {
+          "id": 8255,
+          "name": "Of Coursers We Know"
+        },
+        {
+          "id": 8256,
+          "name": "The Ichor of Undeath"
+        }
+      ],
+      "npc": "Ogtinc",
+      "mobs": []
+    },
+    {
+      "id": "feralas_067",
+      "type": "kill",
+      "description": "Kill Wavethrashers. Loot them for their Wavethrasher Scales.",
+      "classes": ["Hunter"],
+      "races": null,
+      "coords": [87.0, 9.0],
+      "zone": "azshara",
+      "tips": [
+        {
+          "type": "warning",
+          "class": null,
+          "text": "These can be hard to find. Ensure to use Track Beasts and cast Eagle Eye around the coast to find them faster"
+        }
+      ],
+      "quests": [
+        {
+          "id": 8231,
+          "name": "Wavethrashing"
+        }
+      ],
+      "npc": null,
+      "mobs": ["Wavethrasher", "Young Wavethrasher", "Great Wavethrasher"]
+    },
+    {
+      "id": "feralas_068",
+      "type": "kill",
+      "description": "Kill Highborne Apparitions and Highborne Lichlings. Loot them for an Ichor of Undeath",
+      "classes": ["Priest"],
+      "races": null,
+      "coords": [17.12, 69.0],
+      "zone": "azshara",
+      "tips": [],
+      "quests": [
+        {
+          "id": 8256,
+          "name": "The Ichor of Undeath"
+        }
+      ],
+      "npc": null,
+      "mobs": ["Highborne Apparition", "Highborne Lichling"]
+    },
+    {
+      "id": "feralas_069",
+      "type": "quest_turnin",
+      "description": "Talk to Ogtinc and turn in Wavethrashing",
+      "classes": ["Hunter"],
+      "races": null,
+      "coords": [42.4, 42.619],
+      "zone": "azshara",
+      "tips": [],
+      "quests": [
+        {
+          "id": 8231,
+          "name": "Wavethrashing"
+        }
+      ],
+      "npc": "Ogtinc",
+      "mobs": []
+    },
+    {
+      "id": "feralas_070",
+      "type": "quest_turnin",
+      "description": "Talk to Ogtinc and turn in The Ichor of Undeath",
+      "classes": ["Priest"],
+      "races": null,
+      "coords": [42.4, 42.619],
+      "zone": "azshara",
+      "tips": [],
+      "quests": [
+        {
+          "id": 8256,
+          "name": "The Ichor of Undeath"
+        }
+      ],
+      "npc": "Ogtinc",
+      "mobs": []
+    },
+    {
+      "id": "feralas_071",
+      "type": "quest_accept",
+      "description": "Talk to Ogtinc and accept The Green Drake",
+      "classes": ["Hunter"],
+      "races": null,
+      "coords": [42.4, 42.619],
+      "zone": "azshara",
+      "tips": [],
+      "quests": [
+        {
+          "id": 8232,
+          "name": "The Green Drake"
+        }
+      ],
+      "npc": "Ogtinc",
+      "mobs": []
+    },
+    {
+      "id": "feralas_072",
+      "type": "quest_accept",
+      "description": "Talk to Ogtinc and accept Blood of Morphaz",
+      "classes": ["Priest"],
+      "races": null,
+      "coords": [42.4, 42.619],
+      "zone": "azshara",
+      "tips": [],
+      "quests": [
+        {
+          "id": 8257,
+          "name": "Blood of Morphaz"
+        }
+      ],
+      "npc": "Ogtinc",
+      "mobs": []
+    },
+    {
+      "id": "feralas_073",
+      "type": "travel",
+      "description": "Swim around to the small island with the Landing Pad",
+      "classes": null,
+      "races": null,
+      "coords": [77.8, 91.327],
+      "zone": "azshara",
+      "tips": [],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "feralas_074",
+      "type": "info",
+      "description": "Use the Standard Issue Flare Gun while on top of the Landing Pad and wait for Pilot Xiggs Fuselighter to arrive",
+      "classes": null,
+      "races": null,
+      "coords": null,
+      "zone": "",
+      "tips": [],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "feralas_075",
+      "type": "quest_turnin",
+      "description": "Talk to Pilot Xiggs Fuselighter, turn in Arcane Runes, and accept Return to Tymor",
+      "classes": null,
+      "races": null,
+      "coords": [77.8, 91.327],
+      "zone": "azshara",
+      "tips": [],
+      "quests": [
+        {
+          "id": 3449,
+          "name": "Arcane Runes"
+        },
+        {
+          "id": 3461,
+          "name": "Return to Tymor"
+        }
+      ],
+      "npc": "Pilot Xiggs Fuselighter",
+      "mobs": []
+    },
+    {
+      "id": "feralas_076",
+      "type": "info",
+      "description": "Destroy the Standard Issue Flare Gun",
+      "classes": null,
+      "races": null,
+      "coords": null,
+      "zone": "",
+      "tips": [],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "feralas_077",
+      "type": "info",
+      "description": "Teleport to Ironforge",
+      "classes": ["Mage"],
+      "races": null,
+      "coords": null,
+      "zone": "",
+      "tips": [],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "feralas_078",
+      "type": "info",
+      "description": "Talk to Dink and train your class spells",
+      "classes": ["Mage"],
+      "races": null,
+      "coords": [27.169, 8.579],
+      "zone": "ironforge",
+      "tips": [],
+      "quests": [],
+      "npc": "Dink",
+      "mobs": []
+    },
+    {
+      "id": "feralas_079",
+      "type": "info",
+      "description": "Cast Teleport: Moonglade",
+      "classes": ["Druid"],
+      "races": null,
+      "coords": null,
+      "zone": "",
+      "tips": [],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "feralas_080",
+      "type": "quest_accept",
+      "description": "Talk to Loganaar, train your class spells, and accept Torwa Pathfinder",
+      "classes": ["Druid"],
+      "races": null,
+      "coords": [52.53, 40.57],
+      "zone": "moonglade",
+      "tips": [],
+      "quests": [
+        {
+          "id": 9063,
+          "name": "Torwa Pathfinder"
+        }
+      ],
+      "npc": "Loganaar",
+      "mobs": []
+    },
+    {
+      "id": "feralas_081",
+      "type": "info",
+      "description": "Hearth to Ratchet. Buy food/water if needed",
+      "classes": ["!Warrior", "!Rogue"],
+      "races": null,
+      "coords": null,
+      "zone": "",
+      "tips": [],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "feralas_082",
+      "type": "info",
+      "description": "Hearth to Ratchet. Buy food if needed",
+      "classes": ["Warrior", "Rogue"],
+      "races": null,
+      "coords": null,
+      "zone": "",
+      "tips": [],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "feralas_083",
+      "type": "fly",
+      "description": "Talk to Bragok and fly to Tanaris",
+      "classes": null,
+      "races": null,
+      "coords": [63.084, 37.163],
+      "zone": "the_barrens",
+      "tips": [],
+      "quests": [],
+      "npc": "Bragok",
+      "mobs": []
+    }
+  ]
+}

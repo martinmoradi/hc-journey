@@ -1,0 +1,1099 @@
+{
+  "zone": "Coldridge Valley",
+  "levelRange": "1-6",
+  "faction": "Alliance",
+  "name": "1-6_coldridge_valley_dwarf_gnome",
+  "next": "6-10_dun_morogh_dwarf_gnome",
+  "steps": [
+    {
+      "id": "coldridge_001",
+      "type": "info",
+      "description": "You have selected a guide meant for Gnomes and Dwarves. You should choose the same starter zone that you start in",
+      "classes": null,
+      "races": ["!Gnome", "!Dwarf"],
+      "coords": [29.927, 71.201],
+      "zone": "dun_morogh",
+      "tips": [],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "coldridge_002",
+      "type": "info",
+      "description": "Destroy your Hearthstone",
+      "classes": ["!Warlock"],
+      "races": null,
+      "coords": null,
+      "zone": "",
+      "tips": [],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "coldridge_003",
+      "type": "quest_accept",
+      "description": "Talk to Sten Stoutarm and accept Dwarven Outfitters",
+      "classes": null,
+      "races": null,
+      "coords": [29.927, 71.201],
+      "zone": "dun_morogh",
+      "tips": [],
+      "quests": [
+        {
+          "id": 179,
+          "name": "Dwarven Outfitters"
+        }
+      ],
+      "npc": "Sten Stoutarm",
+      "mobs": []
+    },
+    {
+      "id": "coldridge_004",
+      "type": "info",
+      "description": "Kill Ragged Young Wolves until you have 10c+ worth of vendor trash. Vendor trash to Grundel Harkin. Talk to Thran Khorman and train Battle Shout",
+      "classes": ["Warrior"],
+      "races": null,
+      "coords": [28.832, 67.242],
+      "zone": "dun_morogh",
+      "tips": [
+        {
+          "type": "warning",
+          "class": null,
+          "text": "You will train Battle Shout which increases early leveling speeds"
+        }
+      ],
+      "quests": [],
+      "npc": "Thran Khorman",
+      "mobs": ["Ragged Young Wolf", "Ragged Timber Wolf"]
+    },
+    {
+      "id": "coldridge_005",
+      "type": "travel",
+      "description": "Enter Anvilmar",
+      "classes": ["Warlock"],
+      "races": null,
+      "coords": [28.792, 68.497],
+      "zone": "dun_morogh",
+      "tips": [
+        {
+          "type": "warning",
+          "class": null,
+          "text": "Unequip your Body Armor, Shirt, Pants and Boots en-route. You will vendor them"
+        }
+      ],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "coldridge_006",
+      "type": "info",
+      "description": "Talk to Durnan Furcutter. Vendor your Body Armor, Shirt, Pants and Boots along with the Food and Water in your bags. You need 10c total",
+      "classes": ["Warlock"],
+      "races": null,
+      "coords": [28.769, 66.377],
+      "zone": "dun_morogh",
+      "tips": [],
+      "quests": [],
+      "npc": "Durnan Furcutter",
+      "mobs": []
+    },
+    {
+      "id": "coldridge_007",
+      "type": "quest_accept",
+      "description": "Talk to Alamar Grimm, train Immolate, and accept Beginnings",
+      "classes": ["Warlock"],
+      "races": null,
+      "coords": [28.65, 66.145],
+      "zone": "dun_morogh",
+      "tips": [],
+      "quests": [
+        {
+          "id": 1599,
+          "name": "Beginnings"
+        }
+      ],
+      "npc": "Alamar Grimm",
+      "mobs": []
+    },
+    {
+      "id": "coldridge_008",
+      "type": "kill",
+      "description": "Kill Ragged Young Wolves and Ragged Timber Wolves. Loot them for their Tough Wolf Meat",
+      "classes": null,
+      "races": null,
+      "coords": [26.68, 75.57],
+      "zone": "dun_morogh",
+      "tips": [
+        {
+          "type": "warning",
+          "class": "Warlock",
+          "text": "Equip any Cloth Armor you loot off the Young Wolves"
+        }
+      ],
+      "quests": [
+        {
+          "id": 179,
+          "name": "Dwarven Outfitters"
+        }
+      ],
+      "npc": null,
+      "mobs": ["Ragged Young Wolf", "Ragged Timber Wolf"]
+    },
+    {
+      "id": "coldridge_009",
+      "type": "grind",
+      "description": "Grind to level 2",
+      "classes": null,
+      "races": null,
+      "coords": null,
+      "zone": "",
+      "tips": [],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "coldridge_010",
+      "type": "quest_turnin",
+      "description": "Talk to Sten Stoutarm and turn in Dwarven Outfitters. Accept Coldridge Valley Mail Delivery",
+      "classes": ["Warlock"],
+      "races": null,
+      "coords": [29.927, 71.201],
+      "zone": "dun_morogh",
+      "tips": [],
+      "quests": [
+        {
+          "id": 179,
+          "name": "Dwarven Outfitters"
+        },
+        {
+          "id": 3115,
+          "name": "Tainted Memorandum"
+        },
+        {
+          "id": 233,
+          "name": "Coldridge Valley Mail Delivery"
+        }
+      ],
+      "npc": "Sten Stoutarm",
+      "mobs": []
+    },
+    {
+      "id": "coldridge_011",
+      "type": "quest_accept",
+      "description": "Talk to Balir Frosthammer and accept A New Threat",
+      "classes": ["Warlock"],
+      "races": null,
+      "coords": [29.709, 71.255],
+      "zone": "dun_morogh",
+      "tips": [],
+      "quests": [
+        {
+          "id": 170,
+          "name": "A New Threat"
+        }
+      ],
+      "npc": "Balir Frosthammer",
+      "mobs": []
+    },
+    {
+      "id": "coldridge_012",
+      "type": "info",
+      "description": "Talk to Adlin Pridedrift. Vendor trash. Buy 15 Refreshing Spring Water. Grind extra Ragged Young Wolves if you don't have enough money",
+      "classes": ["Warlock"],
+      "races": null,
+      "coords": [30.087, 71.563],
+      "zone": "dun_morogh",
+      "tips": [],
+      "quests": [],
+      "npc": "Adlin Pridedrift",
+      "mobs": []
+    },
+    {
+      "id": "coldridge_013",
+      "type": "travel",
+      "description": "Enter the Frostmane Cave",
+      "classes": ["Warlock"],
+      "races": null,
+      "coords": [27.28, 81.09],
+      "zone": "dun_morogh",
+      "tips": [],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "coldridge_014",
+      "type": "kill",
+      "description": "Kill Frostmane Novices inside the cave. Loot them for Feather Charms",
+      "classes": ["Warlock"],
+      "races": null,
+      "coords": [30.1, 82.4],
+      "zone": "dun_morogh",
+      "tips": [
+        {
+          "type": "warning",
+          "class": null,
+          "text": "Equip any Cloth Armor you loot off the Frostmanes"
+        }
+      ],
+      "quests": [
+        {
+          "id": 1599,
+          "name": "Beginnings"
+        }
+      ],
+      "npc": null,
+      "mobs": ["Frostmane Novice"]
+    },
+    {
+      "id": "coldridge_015",
+      "type": "info",
+      "description": "Hearth to Coldridge Valley",
+      "classes": ["Warlock"],
+      "races": null,
+      "coords": null,
+      "zone": "",
+      "tips": [],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "coldridge_016",
+      "type": "quest_turnin",
+      "description": "Talk to Alamar Grimm and turn in Beginnings",
+      "classes": ["Warlock"],
+      "races": null,
+      "coords": [28.65, 66.145],
+      "zone": "dun_morogh",
+      "tips": [],
+      "quests": [
+        {
+          "id": 1599,
+          "name": "Beginnings"
+        },
+        {
+          "id": 3115,
+          "name": "Tainted Memorandum"
+        }
+      ],
+      "npc": "Alamar Grimm",
+      "mobs": []
+    },
+    {
+      "id": "coldridge_017",
+      "type": "info",
+      "description": "Talk to Adlin Pridedrift. Vendor trash. Buy 15 Refreshing Spring Water. Grind extra Ragged Young Wolves if you don't have enough money",
+      "classes": ["Priest", "Mage"],
+      "races": null,
+      "coords": [30.087, 71.563],
+      "zone": "dun_morogh",
+      "tips": [],
+      "quests": [],
+      "npc": "Adlin Pridedrift",
+      "mobs": []
+    },
+    {
+      "id": "coldridge_018",
+      "type": "info",
+      "description": "Talk to Adlin Pridedrift. Vendor trash",
+      "classes": ["Paladin", "Warrior"],
+      "races": null,
+      "coords": [30.087, 71.563],
+      "zone": "dun_morogh",
+      "tips": [],
+      "quests": [],
+      "npc": "Adlin Pridedrift",
+      "mobs": []
+    },
+    {
+      "id": "coldridge_019",
+      "type": "quest_turnin",
+      "description": "Talk to Sten Stoutarm and turn in Dwarven Outfitters. Accept Coldridge Valley Mail Delivery",
+      "classes": ["!Warlock"],
+      "races": null,
+      "coords": [29.927, 71.201],
+      "zone": "dun_morogh",
+      "tips": [],
+      "quests": [
+        {
+          "id": 179,
+          "name": "Dwarven Outfitters"
+        },
+        {
+          "id": 233,
+          "name": "Coldridge Valley Mail Delivery"
+        },
+        {
+          "id": 3106,
+          "name": "Simple Rune"
+        },
+        {
+          "id": 3107,
+          "name": "Consecrated Rune"
+        },
+        {
+          "id": 3109,
+          "name": "Encrypted Rune"
+        },
+        {
+          "id": 3110,
+          "name": "Hallowed Rune"
+        },
+        {
+          "id": 3112,
+          "name": "Simple Memorandum"
+        },
+        {
+          "id": 3113,
+          "name": "Encrypted Memorandum"
+        },
+        {
+          "id": 3114,
+          "name": "Glyphic Memorandum"
+        },
+        {
+          "id": 3108,
+          "name": "Etched Rune"
+        }
+      ],
+      "npc": "Sten Stoutarm",
+      "mobs": []
+    },
+    {
+      "id": "coldridge_020",
+      "type": "quest_accept",
+      "description": "Talk to Balir Frosthammer and accept A New Threat",
+      "classes": ["!Warlock"],
+      "races": null,
+      "coords": [29.709, 71.255],
+      "zone": "dun_morogh",
+      "tips": [],
+      "quests": [
+        {
+          "id": 170,
+          "name": "A New Threat"
+        }
+      ],
+      "npc": "Balir Frosthammer",
+      "mobs": []
+    },
+    {
+      "id": "coldridge_021",
+      "type": "quest_turnin",
+      "description": "Talk to Talin Keeneye, turn in Coldridge Valley Mail Delivery, and accept The Boar Hunter and Coldridge Valley Mail Delivery",
+      "classes": null,
+      "races": null,
+      "coords": [22.601, 71.433],
+      "zone": "dun_morogh",
+      "tips": [],
+      "quests": [
+        {
+          "id": 233,
+          "name": "Coldridge Valley Mail Delivery"
+        },
+        {
+          "id": 183,
+          "name": "The Boar Hunter"
+        },
+        {
+          "id": 234,
+          "name": "Coldridge Valley Mail Delivery"
+        }
+      ],
+      "npc": "Talin Keeneye",
+      "mobs": []
+    },
+    {
+      "id": "coldridge_022",
+      "type": "kill",
+      "description": "Kill Small Crag Boars",
+      "classes": null,
+      "races": null,
+      "coords": [21.79, 71.6],
+      "zone": "dun_morogh",
+      "tips": [],
+      "quests": [
+        {
+          "id": 183,
+          "name": "The Boar Hunter"
+        }
+      ],
+      "npc": null,
+      "mobs": ["Small Crag Boar"]
+    },
+    {
+      "id": "coldridge_023",
+      "type": "quest_turnin",
+      "description": "Talk to Talin Keeneye and turn in The Boar Hunter",
+      "classes": null,
+      "races": null,
+      "coords": [22.601, 71.433],
+      "zone": "dun_morogh",
+      "tips": [],
+      "quests": [
+        {
+          "id": 183,
+          "name": "The Boar Hunter"
+        }
+      ],
+      "npc": "Talin Keeneye",
+      "mobs": []
+    },
+    {
+      "id": "coldridge_024",
+      "type": "grind",
+      "description": "Grind to 1130+/1400xp",
+      "classes": ["Paladin", "Mage", "Warlock", "Hunter"],
+      "races": null,
+      "coords": [24.2, 72.5],
+      "zone": "dun_morogh",
+      "tips": [],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "coldridge_025",
+      "type": "quest_turnin",
+      "description": "Talk to Grelin Whitebeard, turn in Coldridge Valley Mail Delivery, and accept The Troll Cave",
+      "classes": null,
+      "races": null,
+      "coords": [25.076, 75.713],
+      "zone": "dun_morogh",
+      "tips": [],
+      "quests": [
+        {
+          "id": 234,
+          "name": "Coldridge Valley Mail Delivery"
+        },
+        {
+          "id": 182,
+          "name": "The Troll Cave"
+        }
+      ],
+      "npc": "Grelin Whitebeard",
+      "mobs": []
+    },
+    {
+      "id": "coldridge_026",
+      "type": "grind",
+      "description": "Grind to level 4",
+      "classes": ["Paladin", "Mage", "Warlock", "Hunter"],
+      "races": null,
+      "coords": null,
+      "zone": "",
+      "tips": [],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "coldridge_027",
+      "type": "kill",
+      "description": "Kill Rockjaw Troggs and Burly Rockjaw Troggs",
+      "classes": ["Paladin", "Mage", "Warlock", "Hunter"],
+      "races": null,
+      "coords": [31.37, 75.63],
+      "zone": "dun_morogh",
+      "tips": [],
+      "quests": [
+        {
+          "id": 170,
+          "name": "A New Threat"
+        }
+      ],
+      "npc": null,
+      "mobs": ["Rockjaw Trogg", "Burly Rockjaw Trogg"]
+    },
+    {
+      "id": "coldridge_028",
+      "type": "quest_accept",
+      "description": "Talk to Nori Pridedrift and accept Scalding Mornbrew Delivery",
+      "classes": ["Paladin", "Mage", "Warlock", "Hunter"],
+      "races": null,
+      "coords": [24.98, 75.963],
+      "zone": "dun_morogh",
+      "tips": [],
+      "quests": [
+        {
+          "id": 3364,
+          "name": "Scalding Mornbrew Delivery"
+        }
+      ],
+      "npc": "Nori Pridedrift",
+      "mobs": []
+    },
+    {
+      "id": "coldridge_029",
+      "type": "travel",
+      "description": "Travel to Anvilmar",
+      "classes": ["Paladin", "Mage", "Warlock", "Hunter"],
+      "races": null,
+      "coords": [28.792, 68.497],
+      "zone": "dun_morogh",
+      "tips": [],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "coldridge_030",
+      "type": "quest_turnin",
+      "description": "Talk to Durnan Furcutter, turn in Scalding Mornbrew Delivery, and accept Bring Back the Mug",
+      "classes": ["Paladin", "Mage", "Warlock", "Hunter"],
+      "races": null,
+      "coords": [28.769, 66.377],
+      "zone": "dun_morogh",
+      "tips": [],
+      "quests": [
+        {
+          "id": 3364,
+          "name": "Scalding Mornbrew Delivery"
+        },
+        {
+          "id": 3365,
+          "name": "Bring Back the Mug"
+        }
+      ],
+      "npc": "Durnan Furcutter",
+      "mobs": []
+    },
+    {
+      "id": "coldridge_031",
+      "type": "info",
+      "description": "Talk to Thorgas Grimson, turn in Etched Rune, and train Serpent Sting",
+      "classes": ["Hunter"],
+      "races": null,
+      "coords": [29.175, 67.455],
+      "zone": "dun_morogh",
+      "tips": [],
+      "quests": [
+        {
+          "id": 3108,
+          "name": "Etched Rune"
+        }
+      ],
+      "npc": "Thorgas Grimson",
+      "mobs": []
+    },
+    {
+      "id": "coldridge_032",
+      "type": "info",
+      "description": "Talk to Bromos Grummner, turn in Consecrated Rune, and train your class spells",
+      "classes": ["Paladin"],
+      "races": ["Dwarf"],
+      "coords": [28.833, 68.332],
+      "zone": "dun_morogh",
+      "tips": [],
+      "quests": [
+        {
+          "id": 3107,
+          "name": "Consecrated Rune"
+        }
+      ],
+      "npc": "Bromos Grummner",
+      "mobs": []
+    },
+    {
+      "id": "coldridge_033",
+      "type": "info",
+      "description": "Talk to Marryk Nurribit, turn in Glyphic Memorandum, and train your class spells",
+      "classes": ["Mage"],
+      "races": ["Gnome"],
+      "coords": [28.709, 66.366],
+      "zone": "dun_morogh",
+      "tips": [],
+      "quests": [
+        {
+          "id": 3114,
+          "name": "Glyphic Memorandum"
+        }
+      ],
+      "npc": "Marryk Nurribit",
+      "mobs": []
+    },
+    {
+      "id": "coldridge_034",
+      "type": "info",
+      "description": "Talk to Alamar Grimm and train Corruption",
+      "classes": ["Warlock"],
+      "races": null,
+      "coords": [28.65, 66.145],
+      "zone": "dun_morogh",
+      "tips": [],
+      "quests": [],
+      "npc": "Alamar Grimm",
+      "mobs": []
+    },
+    {
+      "id": "coldridge_035",
+      "type": "quest_turnin",
+      "description": "Talk to Balir Frosthammer and turn in A New Threat",
+      "classes": ["Paladin", "Mage", "Warlock", "Hunter"],
+      "races": null,
+      "coords": [29.709, 71.255],
+      "zone": "dun_morogh",
+      "tips": [],
+      "quests": [
+        {
+          "id": 170,
+          "name": "A New Threat"
+        }
+      ],
+      "npc": "Balir Frosthammer",
+      "mobs": []
+    },
+    {
+      "id": "coldridge_036",
+      "type": "info",
+      "description": "Talk to Adlin Pridedrift. Vendor trash. Buy 2 stacks of Light Shots",
+      "classes": ["Hunter"],
+      "races": null,
+      "coords": [30.087, 71.563],
+      "zone": "dun_morogh",
+      "tips": [],
+      "quests": [],
+      "npc": "Adlin Pridedrift",
+      "mobs": []
+    },
+    {
+      "id": "coldridge_037",
+      "type": "info",
+      "description": "Talk to Adlin Pridedrift. Vendor trash. Buy 10 Refreshing Spring Water. Grind extra Ragged Young Wolves if you don't have enough money",
+      "classes": ["Mage", "Warlock"],
+      "races": null,
+      "coords": [30.087, 71.563],
+      "zone": "dun_morogh",
+      "tips": [],
+      "quests": [],
+      "npc": "Adlin Pridedrift",
+      "mobs": []
+    },
+    {
+      "id": "coldridge_038",
+      "type": "kill",
+      "description": "Kill Frostmane Troll Whelps",
+      "classes": ["Paladin", "Mage", "Warlock", "Hunter"],
+      "races": null,
+      "coords": [20.9, 75.7],
+      "zone": "dun_morogh",
+      "tips": [],
+      "quests": [
+        {
+          "id": 182,
+          "name": "The Troll Cave"
+        }
+      ],
+      "npc": null,
+      "mobs": ["Frostmane Troll Whelp"]
+    },
+    {
+      "id": "coldridge_039",
+      "type": "kill",
+      "description": "Kill Frostmane Troll Whelps",
+      "classes": ["!Paladin", "!Mage", "!Warlock", "!Hunter"],
+      "races": null,
+      "coords": [22.7, 79.3],
+      "zone": "dun_morogh",
+      "tips": [],
+      "quests": [
+        {
+          "id": 182,
+          "name": "The Troll Cave"
+        }
+      ],
+      "npc": null,
+      "mobs": ["Frostmane Troll Whelp"]
+    },
+    {
+      "id": "coldridge_040",
+      "type": "kill",
+      "description": "Kill Rockjaw Troggs and Burly Rockjaw Troggs",
+      "classes": ["!Paladin", "!Mage"],
+      "races": null,
+      "coords": [28.7, 77.5],
+      "zone": "dun_morogh",
+      "tips": [],
+      "quests": [
+        {
+          "id": 170,
+          "name": "A New Threat"
+        }
+      ],
+      "npc": null,
+      "mobs": ["Rockjaw Trogg", "Burly Rockjaw Trogg"]
+    },
+    {
+      "id": "coldridge_041",
+      "type": "grind",
+      "description": "Grind to level 4",
+      "classes": ["!Paladin", "!Mage", "!Warlock", "!Hunter"],
+      "races": null,
+      "coords": null,
+      "zone": "",
+      "tips": [],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "coldridge_042",
+      "type": "quest_turnin",
+      "description": "Talk to Grelin Whitebeard, turn in The Troll Cave, and accept The Stolen Journal",
+      "classes": ["!Paladin", "!Mage", "!Warlock", "!Hunter"],
+      "races": null,
+      "coords": [25.076, 75.713],
+      "zone": "dun_morogh",
+      "tips": [],
+      "quests": [
+        {
+          "id": 182,
+          "name": "The Troll Cave"
+        },
+        {
+          "id": 218,
+          "name": "The Stolen Journal"
+        }
+      ],
+      "npc": "Grelin Whitebeard",
+      "mobs": []
+    },
+    {
+      "id": "coldridge_043",
+      "type": "quest_turnin",
+      "description": "Talk to Grelin Whitebeard, turn in The Troll Cave, and accept The Stolen Journal",
+      "classes": ["Paladin", "Mage", "Warlock", "Hunter"],
+      "races": null,
+      "coords": [25.076, 75.713],
+      "zone": "dun_morogh",
+      "tips": [],
+      "quests": [
+        {
+          "id": 182,
+          "name": "The Troll Cave"
+        },
+        {
+          "id": 218,
+          "name": "The Stolen Journal"
+        }
+      ],
+      "npc": "Grelin Whitebeard",
+      "mobs": []
+    },
+    {
+      "id": "coldridge_044",
+      "type": "quest_turnin",
+      "description": "Talk to Nori Pridedrift and turn in Bring Back the Mug",
+      "classes": ["Paladin", "Mage", "Warlock", "Hunter"],
+      "races": null,
+      "coords": [24.98, 75.963],
+      "zone": "dun_morogh",
+      "tips": [],
+      "quests": [
+        {
+          "id": 3365,
+          "name": "Bring Back the Mug"
+        }
+      ],
+      "npc": "Nori Pridedrift",
+      "mobs": []
+    },
+    {
+      "id": "coldridge_045",
+      "type": "travel",
+      "description": "Enter the Frostmane Cave",
+      "classes": null,
+      "races": null,
+      "coords": [27.28, 81.09],
+      "zone": "dun_morogh",
+      "tips": [],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "coldridge_046",
+      "type": "kill",
+      "description": "Kill Grik'nir the Cold. Loot him for his Journal",
+      "classes": null,
+      "races": null,
+      "coords": [30.6, 80.3],
+      "zone": "dun_morogh",
+      "tips": [],
+      "quests": [
+        {
+          "id": 218,
+          "name": "The Stolen Journal"
+        }
+      ],
+      "npc": null,
+      "mobs": ["Grik'nir the Cold"]
+    },
+    {
+      "id": "coldridge_047",
+      "type": "quest_accept",
+      "description": "Talk to Nori Pridedrift and accept Scalding Mornbrew Delivery",
+      "classes": ["!Paladin", "!Mage", "!Warlock", "!Hunter"],
+      "races": null,
+      "coords": [24.98, 75.963],
+      "zone": "dun_morogh",
+      "tips": [],
+      "quests": [
+        {
+          "id": 3364,
+          "name": "Scalding Mornbrew Delivery"
+        }
+      ],
+      "npc": "Nori Pridedrift",
+      "mobs": []
+    },
+    {
+      "id": "coldridge_048",
+      "type": "quest_turnin",
+      "description": "Talk to Grelin Whitebeard, turn in The Stolen Journal, and accept Senir's Observations",
+      "classes": ["!Paladin", "!Mage", "!Warlock", "!Hunter"],
+      "races": null,
+      "coords": [25.075, 75.715],
+      "zone": "dun_morogh",
+      "tips": [],
+      "quests": [
+        {
+          "id": 218,
+          "name": "The Stolen Journal"
+        },
+        {
+          "id": 282,
+          "name": "Senir's Observations"
+        }
+      ],
+      "npc": "Grelin Whitebeard",
+      "mobs": []
+    },
+    {
+      "id": "coldridge_049",
+      "type": "travel",
+      "description": "Travel to Anvilmar",
+      "classes": ["!Paladin", "!Mage", "!Warlock", "!Hunter"],
+      "races": null,
+      "coords": [28.792, 68.497],
+      "zone": "dun_morogh",
+      "tips": [],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "coldridge_050",
+      "type": "quest_turnin",
+      "description": "Talk to Durnan Furcutter, turn in Scalding Mornbrew Delivery, and accept Bring Back the Mug",
+      "classes": ["!Paladin", "!Mage", "!Warlock", "!Hunter"],
+      "races": null,
+      "coords": [28.769, 66.377],
+      "zone": "dun_morogh",
+      "tips": [],
+      "quests": [
+        {
+          "id": 3364,
+          "name": "Scalding Mornbrew Delivery"
+        },
+        {
+          "id": 3365,
+          "name": "Bring Back the Mug"
+        }
+      ],
+      "npc": "Durnan Furcutter",
+      "mobs": []
+    },
+    {
+      "id": "coldridge_051",
+      "type": "info",
+      "description": "Talk to Solm Hargrin and turn in Encrypted Memorandum",
+      "classes": ["Rogue"],
+      "races": null,
+      "coords": [28.4, 67.5],
+      "zone": "dun_morogh",
+      "tips": [],
+      "quests": [
+        {
+          "id": 3113,
+          "name": "Encrypted Memorandum"
+        },
+        {
+          "id": 3109,
+          "name": "Encrypted Rune"
+        }
+      ],
+      "npc": "Solm Hargrin",
+      "mobs": []
+    },
+    {
+      "id": "coldridge_052",
+      "type": "info",
+      "description": "Talk to Branstock Khalder, turn in Hallowed Rune, and train your class spells",
+      "classes": ["Priest"],
+      "races": ["Dwarf"],
+      "coords": [28.6, 66.385],
+      "zone": "dun_morogh",
+      "tips": [],
+      "quests": [
+        {
+          "id": 3110,
+          "name": "Hallowed Rune"
+        }
+      ],
+      "npc": "Branstock Khalder",
+      "mobs": []
+    },
+    {
+      "id": "coldridge_053",
+      "type": "info",
+      "description": "Talk to Thran Khorman, turn in Simple Rune, and train your class spells",
+      "classes": ["Warrior"],
+      "races": null,
+      "coords": [28.832, 67.242],
+      "zone": "dun_morogh",
+      "tips": [],
+      "quests": [
+        {
+          "id": 3106,
+          "name": "Simple Rune"
+        },
+        {
+          "id": 3112,
+          "name": "Simple Memorandum"
+        }
+      ],
+      "npc": "Thran Khorman",
+      "mobs": []
+    },
+    {
+      "id": "coldridge_054",
+      "type": "quest_turnin",
+      "description": "Talk to Balir Frosthammer and turn in A New Threat",
+      "classes": ["!Paladin", "!Mage", "!Warlock", "!Hunter"],
+      "races": null,
+      "coords": [29.709, 71.255],
+      "zone": "dun_morogh",
+      "tips": [],
+      "quests": [
+        {
+          "id": 170,
+          "name": "A New Threat"
+        }
+      ],
+      "npc": "Balir Frosthammer",
+      "mobs": []
+    },
+    {
+      "id": "coldridge_055",
+      "type": "info",
+      "description": "Talk to Adlin Pridedrift. Vendor trash. Buy 10 Refreshing Spring Water",
+      "classes": ["Priest"],
+      "races": null,
+      "coords": [30.087, 71.563],
+      "zone": "dun_morogh",
+      "tips": [],
+      "quests": [],
+      "npc": "Adlin Pridedrift",
+      "mobs": []
+    },
+    {
+      "id": "coldridge_056",
+      "type": "quest_turnin",
+      "description": "Talk to Grelin Whitebeard, turn in The Stolen Journal, and accept Senir's Observations",
+      "classes": ["Paladin", "Mage", "Warlock", "Hunter"],
+      "races": null,
+      "coords": [25.075, 75.715],
+      "zone": "dun_morogh",
+      "tips": [],
+      "quests": [
+        {
+          "id": 218,
+          "name": "The Stolen Journal"
+        },
+        {
+          "id": 282,
+          "name": "Senir's Observations"
+        }
+      ],
+      "npc": "Grelin Whitebeard",
+      "mobs": []
+    },
+    {
+      "id": "coldridge_057",
+      "type": "quest_turnin",
+      "description": "Talk to Nori Pridedrift and turn in Bring Back the Mug",
+      "classes": ["!Paladin", "!Mage", "!Warlock"],
+      "races": null,
+      "coords": [24.98, 75.963],
+      "zone": "dun_morogh",
+      "tips": [],
+      "quests": [
+        {
+          "id": 3365,
+          "name": "Bring Back the Mug"
+        }
+      ],
+      "npc": "Nori Pridedrift",
+      "mobs": []
+    },
+    {
+      "id": "coldridge_058",
+      "type": "quest_turnin",
+      "description": "Talk to Mountaineer Thalos, turn in Senir's Observations, and accept Senir's Observations",
+      "classes": null,
+      "races": null,
+      "coords": [33.484, 71.841],
+      "zone": "dun_morogh",
+      "tips": [],
+      "quests": [
+        {
+          "id": 282,
+          "name": "Senir's Observations"
+        },
+        {
+          "id": 420,
+          "name": "Senir's Observations"
+        }
+      ],
+      "npc": "Mountaineer Thalos",
+      "mobs": []
+    },
+    {
+      "id": "coldridge_059",
+      "type": "quest_accept",
+      "description": "Talk to Hands Springsprocket and accept Supplies to Tannok",
+      "classes": null,
+      "races": null,
+      "coords": [33.847, 72.236],
+      "zone": "dun_morogh",
+      "tips": [],
+      "quests": [
+        {
+          "id": 2160,
+          "name": "Supplies to Tannok"
+        }
+      ],
+      "npc": "Hands Springsprocket",
+      "mobs": []
+    },
+    {
+      "id": "coldridge_060",
+      "type": "travel",
+      "description": "Travel through Coldridge Pass",
+      "classes": null,
+      "races": null,
+      "coords": [35.65, 65.79],
+      "zone": "dun_morogh",
+      "tips": [],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    }
+  ]
+}

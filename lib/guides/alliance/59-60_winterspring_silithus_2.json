@@ -1,0 +1,2067 @@
+{
+  "zone": "Winterspring/Silithus",
+  "levelRange": "59-60",
+  "faction": "Alliance",
+  "name": "59-60_winterspring_silithus_part2",
+  "next": null,
+  "steps": [
+    {
+      "id": "winterspring_silithus_001",
+      "type": "fly",
+      "description": "Talk to Cloud Skydancer and fly to Un'Goro Crater",
+      "classes": null,
+      "races": null,
+      "coords": [50.581, 34.448],
+      "zone": "silithus",
+      "tips": [],
+      "quests": [],
+      "npc": "Cloud Skydancer",
+      "mobs": []
+    },
+    {
+      "id": "winterspring_silithus_002",
+      "type": "quest_turnin",
+      "description": "Talk to Linken and turn in It's Dangerous to Go Alone",
+      "classes": null,
+      "races": null,
+      "coords": [44.658, 8.098],
+      "zone": "un'goro_crater",
+      "tips": [],
+      "quests": [
+        {
+          "id": 3962,
+          "name": "It's Dangerous to Go Alone"
+        }
+      ],
+      "npc": "Linken",
+      "mobs": []
+    },
+    {
+      "id": "winterspring_silithus_003",
+      "type": "fly",
+      "description": "Talk to Cloud Skydancer or Gryfe and fly to Tanaris",
+      "classes": null,
+      "races": null,
+      "coords": [45.234, 5.833],
+      "zone": "un'goro_crater",
+      "tips": [],
+      "quests": [],
+      "npc": "Gryfe",
+      "mobs": []
+    },
+    {
+      "id": "winterspring_silithus_004",
+      "type": "quest_turnin",
+      "description": "Talk to Alchemist Pestlezugg and turn in Pawn Captures Queen",
+      "classes": null,
+      "races": null,
+      "coords": [50.887, 26.963],
+      "zone": "tanaris",
+      "tips": [],
+      "quests": [
+        {
+          "id": 4507,
+          "name": "Pawn Captures Queen"
+        }
+      ],
+      "npc": "Alchemist Pestlezugg",
+      "mobs": []
+    },
+    {
+      "id": "winterspring_silithus_005",
+      "type": "quest_accept",
+      "description": "Talk to Alchemist Pestlezugg and accept Calm Before the Storm",
+      "classes": null,
+      "races": null,
+      "coords": [50.887, 26.963],
+      "zone": "tanaris",
+      "tips": [],
+      "quests": [
+        {
+          "id": 4508,
+          "name": "Calm Before the Storm"
+        }
+      ],
+      "npc": "Alchemist Pestlezugg",
+      "mobs": []
+    },
+    {
+      "id": "winterspring_silithus_006",
+      "type": "quest_turnin",
+      "description": "Talk to Tran'rek and turn in Super Sticky",
+      "classes": null,
+      "races": null,
+      "coords": [51.566, 26.759],
+      "zone": "tanaris",
+      "tips": [],
+      "quests": [
+        {
+          "id": 4504,
+          "name": "Super Sticky"
+        }
+      ],
+      "npc": "Tran'rek",
+      "mobs": []
+    },
+    {
+      "id": "winterspring_silithus_007",
+      "type": "info",
+      "description": "Hearth to Everlook. Buy food/water if needed",
+      "classes": ["!Warrior", "!Rogue"],
+      "races": null,
+      "coords": null,
+      "zone": "",
+      "tips": [],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "winterspring_silithus_008",
+      "type": "info",
+      "description": "Hearth to Everlook. Buy food if needed",
+      "classes": ["Warrior", "Rogue"],
+      "races": null,
+      "coords": null,
+      "zone": "",
+      "tips": [],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "winterspring_silithus_009",
+      "type": "quest_turnin",
+      "description": "Talk to Felnok Steelspring and turn in Chillwind Horns",
+      "classes": null,
+      "races": null,
+      "coords": [61.626, 38.615],
+      "zone": "winterspring",
+      "tips": [],
+      "quests": [
+        {
+          "id": 4809,
+          "name": "Chillwind Horns"
+        }
+      ],
+      "npc": "Felnok Steelspring",
+      "mobs": []
+    },
+    {
+      "id": "winterspring_silithus_010",
+      "type": "quest_turnin",
+      "description": "Talk to Umi Rumplesnicker and turn in Are We There, Yeti?",
+      "classes": null,
+      "races": null,
+      "coords": [60.883, 37.62],
+      "zone": "winterspring",
+      "tips": [],
+      "quests": [
+        {
+          "id": 5163,
+          "name": "Are We There, Yeti?"
+        }
+      ],
+      "npc": "Umi Rumplesnicker",
+      "mobs": []
+    },
+    {
+      "id": "winterspring_silithus_011",
+      "type": "quest_turnin",
+      "description": "Talk to Ranshalla and turn in Find Ranshalla. Accept Guardians of the Altar",
+      "classes": null,
+      "races": null,
+      "coords": [63.074, 59.482],
+      "zone": "winterspring",
+      "tips": [
+        {
+          "type": "warning",
+          "class": null,
+          "text": "Guardians of the Altar will begin an escort quest. If you're in a party ensure everyone has turned in Find Ranshalla first. Auto accept has been turned off for Guardians of the Altar"
+        }
+      ],
+      "quests": [
+        {
+          "id": 979,
+          "name": "Find Ranshalla"
+        },
+        {
+          "id": 4901,
+          "name": "Guardians of the Altar"
+        }
+      ],
+      "npc": "Ranshalla",
+      "mobs": []
+    },
+    {
+      "id": "winterspring_silithus_012",
+      "type": "info",
+      "description": "Escort Ranshalla through Owl Wing Thicket. Click the Fire of Elune torches inside the caves when Ranshalla begins channelling her spell on them, and then the Altar of Elune at the end",
+      "classes": null,
+      "races": null,
+      "coords": [64.797, 63.784],
+      "zone": "winterspring",
+      "tips": [],
+      "quests": [
+        {
+          "id": 4901,
+          "name": "Guardians of the Altar"
+        }
+      ],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "winterspring_silithus_013",
+      "type": "quest_turnin",
+      "description": "Talk to Felnok Steelspring and turn in Chillwind Horns",
+      "classes": null,
+      "races": null,
+      "coords": [61.626, 38.615],
+      "zone": "winterspring",
+      "tips": [],
+      "quests": [
+        {
+          "id": 4809,
+          "name": "Chillwind Horns"
+        }
+      ],
+      "npc": "Felnok Steelspring",
+      "mobs": []
+    },
+    {
+      "id": "winterspring_silithus_014",
+      "type": "kill",
+      "description": "Kill Fledgling Chillwinds, Chillwind Chimaeras and Chillwind Ravagers. Loot them for their Uncracked Chillwind Horns",
+      "classes": null,
+      "races": null,
+      "coords": [60.2, 24.6],
+      "zone": "winterspring",
+      "tips": [],
+      "quests": [
+        {
+          "id": 4809,
+          "name": "Chillwind Horns"
+        }
+      ],
+      "npc": null,
+      "mobs": ["Fledgling Chillwind", "Chillwind Chimaera", "Chillwind Ravager"]
+    },
+    {
+      "id": "winterspring_silithus_015",
+      "type": "info",
+      "description": "Cast Teleport: Moonglade",
+      "classes": ["Druid"],
+      "races": null,
+      "coords": null,
+      "zone": "",
+      "tips": [],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "winterspring_silithus_016",
+      "type": "fly",
+      "description": "Talk to Maethrya and fly to Moonglade",
+      "classes": ["!Druid"],
+      "races": null,
+      "coords": [62.334, 36.609],
+      "zone": "winterspring",
+      "tips": [],
+      "quests": [],
+      "npc": "Maethrya",
+      "mobs": []
+    },
+    {
+      "id": "winterspring_silithus_017",
+      "type": "quest_turnin",
+      "description": "Talk to Umber and turn in Umber, Archivist. Accept Uncovering Past Secrets",
+      "classes": null,
+      "races": null,
+      "coords": [44.88, 35.6],
+      "zone": "moonglade",
+      "tips": [
+        {
+          "type": "warning",
+          "class": null,
+          "text": "Umber may be patrolling through Nighthaven"
+        }
+      ],
+      "quests": [
+        {
+          "id": 6844,
+          "name": "Umber, Archivist"
+        },
+        {
+          "id": 6845,
+          "name": "Uncovering Past Secrets"
+        }
+      ],
+      "npc": "Umber",
+      "mobs": []
+    },
+    {
+      "id": "winterspring_silithus_018",
+      "type": "quest_turnin",
+      "description": "Talk to Rabine Saturna and turn in Uncovering Past Secrets",
+      "classes": null,
+      "races": null,
+      "coords": [51.685, 45.096],
+      "zone": "moonglade",
+      "tips": [],
+      "quests": [
+        {
+          "id": 6845,
+          "name": "Uncovering Past Secrets"
+        }
+      ],
+      "npc": "Rabine Saturna",
+      "mobs": []
+    },
+    {
+      "id": "winterspring_silithus_019",
+      "type": "quest_turnin",
+      "description": "Talk to Rabine Saturna and turn in A Reliquary of Purity",
+      "classes": null,
+      "races": null,
+      "coords": [51.685, 45.096],
+      "zone": "moonglade",
+      "tips": [],
+      "quests": [
+        {
+          "id": 5527,
+          "name": "A Reliquary of Purity"
+        }
+      ],
+      "npc": "Rabine Saturna",
+      "mobs": []
+    },
+    {
+      "id": "winterspring_silithus_020",
+      "type": "quest_accept",
+      "description": "Talk to Umber, accept Under the Chitin Was..., and turn in Under the Chitin Was...",
+      "classes": null,
+      "races": null,
+      "coords": [44.88, 35.6],
+      "zone": "moonglade",
+      "tips": [
+        {
+          "type": "warning",
+          "class": null,
+          "text": "Umber may be patrolling through Nighthaven"
+        }
+      ],
+      "quests": [
+        {
+          "id": 1185,
+          "name": "Under the Chitin Was..."
+        }
+      ],
+      "npc": "Umber",
+      "mobs": []
+    },
+    {
+      "id": "winterspring_silithus_021",
+      "type": "fly",
+      "description": "Talk to Mishellena and fly to Teldrassil",
+      "classes": ["!Mage"],
+      "races": null,
+      "coords": [62.488, 24.242],
+      "zone": "felwood",
+      "tips": [],
+      "quests": [],
+      "npc": "Mishellena",
+      "mobs": []
+    },
+    {
+      "id": "winterspring_silithus_022",
+      "type": "info",
+      "description": "Teleport to Darnassus",
+      "classes": ["Mage"],
+      "races": null,
+      "coords": null,
+      "zone": "",
+      "tips": [],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "winterspring_silithus_023",
+      "type": "quest_turnin",
+      "description": "Talk to Erelas Ambersky and turn in Guardians of the Altar",
+      "classes": ["!Mage"],
+      "races": null,
+      "coords": [55.497, 92.045],
+      "zone": "teldrassil",
+      "tips": [],
+      "quests": [
+        {
+          "id": 4901,
+          "name": "Guardians of the Altar"
+        }
+      ],
+      "npc": "Erelas Ambersky",
+      "mobs": []
+    },
+    {
+      "id": "winterspring_silithus_024",
+      "type": "quest_accept",
+      "description": "Talk to Erelas Ambersky and accept Wildkin of Elune",
+      "classes": ["!Mage"],
+      "races": null,
+      "coords": [55.497, 92.045],
+      "zone": "teldrassil",
+      "tips": [],
+      "quests": [
+        {
+          "id": 4902,
+          "name": "Wildkin of Elune"
+        }
+      ],
+      "npc": "Erelas Ambersky",
+      "mobs": []
+    },
+    {
+      "id": "winterspring_silithus_025",
+      "type": "travel",
+      "description": "Take the purple portal into Darnassus",
+      "classes": ["!Mage"],
+      "races": null,
+      "coords": [55.889, 89.456],
+      "zone": "teldrassil",
+      "tips": [],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "winterspring_silithus_026",
+      "type": "quest_turnin",
+      "description": "Talk to Gracina Spiritmight upstairs, turn in Calm Before the Storm, and accept Calm Before the Storm",
+      "classes": null,
+      "races": null,
+      "coords": [41.833, 85.622],
+      "zone": "darnassus",
+      "tips": [],
+      "quests": [
+        {
+          "id": 4508,
+          "name": "Calm Before the Storm"
+        },
+        {
+          "id": 4510,
+          "name": "Calm Before the Storm"
+        }
+      ],
+      "npc": "Gracina Spiritmight",
+      "mobs": []
+    },
+    {
+      "id": "winterspring_silithus_027",
+      "type": "quest_turnin",
+      "description": "Talk to Idriana and turn in Calm Before the Storm",
+      "classes": null,
+      "races": null,
+      "coords": [39.38, 42.43],
+      "zone": "darnassus",
+      "tips": [],
+      "quests": [
+        {
+          "id": 4510,
+          "name": "Calm Before the Storm"
+        }
+      ],
+      "npc": "Idriana",
+      "mobs": []
+    },
+    {
+      "id": "winterspring_silithus_028",
+      "type": "travel",
+      "description": "Take the purple portal to Rut'theran Village",
+      "classes": ["Mage"],
+      "races": null,
+      "coords": [29.466, 41.405],
+      "zone": "darnassus",
+      "tips": [],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "winterspring_silithus_029",
+      "type": "quest_turnin",
+      "description": "Talk to Erelas Ambersky and turn in Guardians of the Altar",
+      "classes": ["Mage"],
+      "races": null,
+      "coords": [55.497, 92.045],
+      "zone": "teldrassil",
+      "tips": [],
+      "quests": [
+        {
+          "id": 4901,
+          "name": "Guardians of the Altar"
+        }
+      ],
+      "npc": "Erelas Ambersky",
+      "mobs": []
+    },
+    {
+      "id": "winterspring_silithus_030",
+      "type": "quest_accept",
+      "description": "Talk to Erelas Ambersky and accept Wildkin of Elune",
+      "classes": ["Mage"],
+      "races": null,
+      "coords": [55.497, 92.045],
+      "zone": "teldrassil",
+      "tips": [],
+      "quests": [
+        {
+          "id": 4902,
+          "name": "Wildkin of Elune"
+        }
+      ],
+      "npc": "Erelas Ambersky",
+      "mobs": []
+    },
+    {
+      "id": "winterspring_silithus_031",
+      "type": "travel",
+      "description": "Take the purple portal into Darnassus",
+      "classes": ["Mage"],
+      "races": null,
+      "coords": [55.889, 89.456],
+      "zone": "teldrassil",
+      "tips": [],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "winterspring_silithus_032",
+      "type": "quest_turnin",
+      "description": "Talk to Arch Druid Fandral Staghelm and turn in Wildkin of Elune",
+      "classes": null,
+      "races": null,
+      "coords": [34.814, 9.255],
+      "zone": "darnassus",
+      "tips": [],
+      "quests": [
+        {
+          "id": 4902,
+          "name": "Wildkin of Elune"
+        }
+      ],
+      "npc": "Arch Druid Fandral Staghelm",
+      "mobs": []
+    },
+    {
+      "id": "winterspring_silithus_033",
+      "type": "info",
+      "description": "You will now fly around to accept quests for Blackrock Depths. Blackrock Depths is a very convoluted dungeon. In order to complete all quests in the most efficient way, it is required to leave the dungeon midrun to turn in/accept follow up quests so it may all be completed in 1 run. Try to ensure all party members have the same quests and prequests complete, along with 2-3 hours of playtime",
+      "classes": null,
+      "races": null,
+      "coords": null,
+      "zone": "",
+      "tips": [],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "winterspring_silithus_034",
+      "type": "info",
+      "description": "Remember to take out Black Dragonflight Molt from your bank if you completed the quest in Searing Gorge for it earlier. You will need it shortly",
+      "classes": null,
+      "races": null,
+      "coords": null,
+      "zone": "",
+      "tips": [],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "winterspring_silithus_035",
+      "type": "travel",
+      "description": "Travel to Ironforge",
+      "classes": null,
+      "races": null,
+      "coords": null,
+      "zone": "",
+      "tips": [],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "winterspring_silithus_036",
+      "type": "info",
+      "description": "Talk to Innkeeper Firebrew. Set your Hearthstone to Ironforge",
+      "classes": null,
+      "races": null,
+      "coords": [18.1, 51.6],
+      "zone": "ironforge",
+      "tips": [
+        {
+          "type": "warning",
+          "class": null,
+          "text": "If you have a Mage in your group you will set your Hearth to Lakeshire instead"
+        }
+      ],
+      "quests": [],
+      "npc": "Innkeeper Firebrew",
+      "mobs": []
+    },
+    {
+      "id": "winterspring_silithus_037",
+      "type": "quest_accept",
+      "description": "Talk to King Magni Bronzebeard and accept Kharan Mighthammer",
+      "classes": null,
+      "races": null,
+      "coords": [39.09, 56.19],
+      "zone": "ironforge",
+      "tips": [],
+      "quests": [
+        {
+          "id": 4341,
+          "name": "Kharan Mighthammer"
+        }
+      ],
+      "npc": "King Magni Bronzebeard",
+      "mobs": []
+    },
+    {
+      "id": "winterspring_silithus_038",
+      "type": "travel",
+      "description": "Travel to Kharanos",
+      "classes": null,
+      "races": null,
+      "coords": null,
+      "zone": "",
+      "tips": [],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "winterspring_silithus_039",
+      "type": "quest_accept",
+      "description": "Talk to Ragnar Thunderbrew and accept Hurley Blackbreath",
+      "classes": null,
+      "races": null,
+      "coords": [46.825, 52.361],
+      "zone": "dun_morogh",
+      "tips": [],
+      "quests": [
+        {
+          "id": 4126,
+          "name": "Hurley Blackbreath"
+        }
+      ],
+      "npc": "Ragnar Thunderbrew",
+      "mobs": []
+    },
+    {
+      "id": "winterspring_silithus_040",
+      "type": "info",
+      "description": "Fly to Lakeshire. Set your Hearthstone to Lakeshire ONLY if you have a Mage in your group for BRD, if not skip this step and leave your Hearth in Ironforge",
+      "classes": null,
+      "races": null,
+      "coords": null,
+      "zone": "",
+      "tips": [],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "winterspring_silithus_041",
+      "type": "fly",
+      "description": "Fly to Burning Steppes from your nearest Flight Master",
+      "classes": null,
+      "races": null,
+      "coords": null,
+      "zone": "",
+      "tips": [],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "winterspring_silithus_042",
+      "type": "quest_accept",
+      "description": "Talk to Oralius and accept The Good Stuff",
+      "classes": null,
+      "races": null,
+      "coords": [84.555, 68.679],
+      "zone": "burning_steppes",
+      "tips": [],
+      "quests": [
+        {
+          "id": 4286,
+          "name": "The Good Stuff"
+        }
+      ],
+      "npc": "Oralius",
+      "mobs": []
+    },
+    {
+      "id": "winterspring_silithus_043",
+      "type": "quest_accept",
+      "description": "Talk to Marshal Maxwell and accept Marshal Windsor",
+      "classes": null,
+      "races": null,
+      "coords": [84.744, 69.015],
+      "zone": "burning_steppes",
+      "tips": [
+        {
+          "type": "warning",
+          "class": null,
+          "text": "If you cannot accept this quest complete the Dragonkin Menace quest chain"
+        }
+      ],
+      "quests": [
+        {
+          "id": 4241,
+          "name": "Marshal Windsor"
+        }
+      ],
+      "npc": "Marshal Maxwell",
+      "mobs": []
+    },
+    {
+      "id": "winterspring_silithus_044",
+      "type": "quest_accept",
+      "description": "Talk to Jalinda Sprig and accept Overmaster Pyron",
+      "classes": null,
+      "races": null,
+      "coords": [85.415, 70.064],
+      "zone": "burning_steppes",
+      "tips": [],
+      "quests": [
+        {
+          "id": 4262,
+          "name": "Overmaster Pyron"
+        }
+      ],
+      "npc": "Jalinda Sprig",
+      "mobs": []
+    },
+    {
+      "id": "winterspring_silithus_045",
+      "type": "quest_accept",
+      "description": "Talk to Cyrus Therepentous. Select the option: 'I present you with proof of my deeds, Cyrus.' Accept A Taste of Flame and turn in A Taste of Flame",
+      "classes": null,
+      "races": null,
+      "coords": [95.061, 31.563],
+      "zone": "burning_steppes",
+      "tips": [],
+      "quests": [
+        {
+          "id": 4022,
+          "name": "A Taste of Flame"
+        }
+      ],
+      "npc": "Cyrus Therepentous",
+      "mobs": []
+    },
+    {
+      "id": "winterspring_silithus_046",
+      "type": "quest_accept",
+      "description": "Talk to Cyrus Therepentous. If you are missing the Black Dragonflight Molt and cannot complete the quest, talk to Cyrus and select the option: 'I do not possess any proof, Cyrus.' This will spawn a level 54 Elite Dragon at the entrance of the small cave. Ensure you have party members with you to help kill it, then loot it for the Black Dragonflight Molt. Select the option after: 'I present you with proof of my deeds, Cyrus.' Accept A Taste of Flame and turn in A Taste of Flame",
+      "classes": null,
+      "races": null,
+      "coords": [95.061, 31.563],
+      "zone": "burning_steppes",
+      "tips": [],
+      "quests": [
+        {
+          "id": 4022,
+          "name": "A Taste of Flame"
+        }
+      ],
+      "npc": "Cyrus Therepentous",
+      "mobs": []
+    },
+    {
+      "id": "winterspring_silithus_047",
+      "type": "quest_accept",
+      "description": "Talk to Cyrus Therepentous and accept A Taste of Flame",
+      "classes": null,
+      "races": null,
+      "coords": [95.061, 31.563],
+      "zone": "burning_steppes",
+      "tips": [],
+      "quests": [
+        {
+          "id": 4024,
+          "name": "A Taste of Flame"
+        }
+      ],
+      "npc": "Cyrus Therepentous",
+      "mobs": []
+    },
+    {
+      "id": "winterspring_silithus_048",
+      "type": "quest_accept",
+      "description": "Talk to Maxwort Uberglint and accept The Heart of the Mountain",
+      "classes": null,
+      "races": null,
+      "coords": [65.152, 23.911],
+      "zone": "burning_steppes",
+      "tips": [],
+      "quests": [
+        {
+          "id": 4123,
+          "name": "The Heart of the Mountain"
+        }
+      ],
+      "npc": "Maxwort Uberglint",
+      "mobs": []
+    },
+    {
+      "id": "winterspring_silithus_049",
+      "type": "quest_accept",
+      "description": "Talk to Yuka Screwspigot and accept Ribbly Screwspigot",
+      "classes": null,
+      "races": null,
+      "coords": [66.058, 21.951],
+      "zone": "burning_steppes",
+      "tips": [],
+      "quests": [
+        {
+          "id": 4136,
+          "name": "Ribbly Screwspigot"
+        }
+      ],
+      "npc": "Yuka Screwspigot",
+      "mobs": []
+    },
+    {
+      "id": "winterspring_silithus_050",
+      "type": "info",
+      "description": "Die intentionally in the lava in Blackrock Mountain, ideally near the Molten Core entrance location. For this step you must be a Ghost to talk to Franclorn Forgewright inside Blackrock Mountain. Resurrect at your corpse once you have the quest",
+      "classes": null,
+      "races": null,
+      "coords": null,
+      "zone": "",
+      "tips": [],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "winterspring_silithus_051",
+      "type": "quest_accept",
+      "description": "Talk to Franclorn Forgewright, accept Dark Iron Legacy, turn in Dark Iron Legacy, and accept Dark Iron Legacy",
+      "classes": null,
+      "races": null,
+      "coords": null,
+      "zone": "",
+      "tips": [],
+      "quests": [
+        {
+          "id": 3801,
+          "name": "Dark Iron Legacy"
+        },
+        {
+          "id": 3802,
+          "name": "Dark Iron Legacy"
+        }
+      ],
+      "npc": "Franclorn Forgewright",
+      "mobs": []
+    },
+    {
+      "id": "winterspring_silithus_052",
+      "type": "quest_accept",
+      "description": "Talk to Lothos Riftwaker and accept Attunement to the Core",
+      "classes": null,
+      "races": null,
+      "coords": null,
+      "zone": "",
+      "tips": [],
+      "quests": [
+        {
+          "id": 7848,
+          "name": "Attunement to the Core"
+        }
+      ],
+      "npc": "Lothos Riftwaker",
+      "mobs": []
+    },
+    {
+      "id": "winterspring_silithus_053",
+      "type": "kill",
+      "description": "Kill Overmaster Pyron",
+      "classes": null,
+      "races": null,
+      "coords": null,
+      "zone": "",
+      "tips": [
+        {
+          "type": "warning",
+          "class": null,
+          "text": "Overmaster Pyron patrols outside of the BRD instance portal"
+        }
+      ],
+      "quests": [
+        {
+          "id": 4262,
+          "name": "Overmaster Pyron"
+        }
+      ],
+      "npc": null,
+      "mobs": ["Overmaster Pyron"]
+    },
+    {
+      "id": "winterspring_silithus_054",
+      "type": "travel",
+      "description": "Enter Blackrock Depths",
+      "classes": null,
+      "races": null,
+      "coords": null,
+      "zone": "",
+      "tips": [],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "winterspring_silithus_055",
+      "type": "quest_turnin",
+      "description": "Talk to Kharan Mighthammer and turn in Kharan Mighthammer. Accept Kharan's Tale",
+      "classes": null,
+      "races": null,
+      "coords": null,
+      "zone": "",
+      "tips": [
+        {
+          "type": "warning",
+          "class": null,
+          "text": "If your group does not have a Rogue you may need to kill High Interrogator Gerstahn for the Prison Cell Key to open the doors"
+        }
+      ],
+      "quests": [
+        {
+          "id": 4341,
+          "name": "Kharan Mighthammer"
+        },
+        {
+          "id": 4342,
+          "name": "Kharan's Tale"
+        }
+      ],
+      "npc": "Kharan Mighthammer",
+      "mobs": []
+    },
+    {
+      "id": "winterspring_silithus_056",
+      "type": "info",
+      "description": "Talk to Kharan Mighthammer. Listen to Kharan's Tale",
+      "classes": null,
+      "races": null,
+      "coords": null,
+      "zone": "",
+      "tips": [],
+      "quests": [
+        {
+          "id": 4342,
+          "name": "Kharan's Tale"
+        }
+      ],
+      "npc": "Kharan Mighthammer",
+      "mobs": []
+    },
+    {
+      "id": "winterspring_silithus_057",
+      "type": "quest_turnin",
+      "description": "Talk to Kharan Mighthammer, turn in Kharan's Tale, and accept The Bearer of Bad News",
+      "classes": null,
+      "races": null,
+      "coords": null,
+      "zone": "",
+      "tips": [],
+      "quests": [
+        {
+          "id": 4342,
+          "name": "Kharan's Tale"
+        },
+        {
+          "id": 4361,
+          "name": "The Bearer of Bad News"
+        }
+      ],
+      "npc": "Kharan Mighthammer",
+      "mobs": []
+    },
+    {
+      "id": "winterspring_silithus_058",
+      "type": "quest_turnin",
+      "description": "Talk to Marshal Windsor, turn in Marshal Windsor, and accept Abandoned Hope",
+      "classes": null,
+      "races": null,
+      "coords": null,
+      "zone": "",
+      "tips": [
+        {
+          "type": "warning",
+          "class": null,
+          "text": "If your group does not have a Rogue you may need to kill High Interrogator Gerstahn for the Prison Cell Key to open the doors"
+        }
+      ],
+      "quests": [
+        {
+          "id": 4241,
+          "name": "Marshal Windsor"
+        },
+        {
+          "id": 4242,
+          "name": "Abandoned Hope"
+        }
+      ],
+      "npc": "Marshal Windsor",
+      "mobs": []
+    },
+    {
+      "id": "winterspring_silithus_059",
+      "type": "info",
+      "description": "Hearth to Ironforge if your Hearth was set there. If you have a Mage in group, kindly ask them for a portal to Ironforge",
+      "classes": null,
+      "races": null,
+      "coords": null,
+      "zone": "",
+      "tips": [],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "winterspring_silithus_060",
+      "type": "quest_turnin",
+      "description": "Talk to King Magni Bronzebeard, turn in The Bearer of Bad News, and accept The Fate of the Kingdom",
+      "classes": null,
+      "races": null,
+      "coords": [39.09, 56.19],
+      "zone": "ironforge",
+      "tips": [],
+      "quests": [
+        {
+          "id": 4361,
+          "name": "The Bearer of Bad News"
+        },
+        {
+          "id": 4362,
+          "name": "The Fate of the Kingdom"
+        }
+      ],
+      "npc": "King Magni Bronzebeard",
+      "mobs": []
+    },
+    {
+      "id": "winterspring_silithus_061",
+      "type": "fly",
+      "description": "Hearth to Lakeshire if your Hearth is set there. Otherwise fly to Burning Steppes manually. Fly to Burning Steppes",
+      "classes": null,
+      "races": null,
+      "coords": null,
+      "zone": "",
+      "tips": [],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "winterspring_silithus_062",
+      "type": "quest_turnin",
+      "description": "Talk to Oralius and turn in The Good Stuff",
+      "classes": null,
+      "races": null,
+      "coords": [84.555, 68.679],
+      "zone": "burning_steppes",
+      "tips": [],
+      "quests": [
+        {
+          "id": 4286,
+          "name": "The Good Stuff"
+        }
+      ],
+      "npc": "Oralius",
+      "mobs": []
+    },
+    {
+      "id": "winterspring_silithus_063",
+      "type": "quest_turnin",
+      "description": "Talk to Marshal Maxwell and turn in Abandoned Hope",
+      "classes": null,
+      "races": null,
+      "coords": [84.744, 69.015],
+      "zone": "burning_steppes",
+      "tips": [
+        {
+          "type": "warning",
+          "class": null,
+          "text": "The quest chain will stop here until you find A Crumpled Up Note at BRD"
+        }
+      ],
+      "quests": [
+        {
+          "id": 4242,
+          "name": "Abandoned Hope"
+        }
+      ],
+      "npc": "Marshal Maxwell",
+      "mobs": []
+    },
+    {
+      "id": "winterspring_silithus_064",
+      "type": "quest_turnin",
+      "description": "Talk to Jalinda Sprig, turn in Overmaster Pyron, and accept Incendius!",
+      "classes": null,
+      "races": null,
+      "coords": [85.415, 70.064],
+      "zone": "burning_steppes",
+      "tips": [],
+      "quests": [
+        {
+          "id": 4262,
+          "name": "Overmaster Pyron"
+        },
+        {
+          "id": 4263,
+          "name": "Incendius!"
+        }
+      ],
+      "npc": "Jalinda Sprig",
+      "mobs": []
+    },
+    {
+      "id": "winterspring_silithus_065",
+      "type": "travel",
+      "description": "Enter Blackrock Depths",
+      "classes": null,
+      "races": null,
+      "coords": null,
+      "zone": "",
+      "tips": [],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "winterspring_silithus_066",
+      "type": "info",
+      "description": "Complete the Ring of Law boss event, then take the exit up the tunnel and immediately turn right, crossing up over the top of the Ring of Law, making your way to the Vault",
+      "classes": null,
+      "races": null,
+      "coords": null,
+      "zone": "blackrock_depths",
+      "tips": [],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "winterspring_silithus_067",
+      "type": "loot",
+      "description": "Loot The Heart of the Mountain inside of the safe wall. It takes 15 seconds for it to respawn. There is a trick which allows you to loot it without having to open the safe",
+      "classes": null,
+      "races": null,
+      "coords": null,
+      "zone": "blackrock_depths",
+      "tips": [
+        {
+          "type": "link",
+          "class": null,
+          "text": "Click here to see how to loot the Heart of the Mountain",
+          "url": "https://clips.twitch.tv/GenerousCarefulHerringNomNom-4BUCn6yI1dMozIkF"
+        }
+      ],
+      "quests": [
+        {
+          "id": 4123,
+          "name": "The Heart of the Mountain"
+        }
+      ],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "winterspring_silithus_068",
+      "type": "kill",
+      "description": "Kill Fineous Darkvire. Loot him for the Ironfel",
+      "classes": null,
+      "races": null,
+      "coords": null,
+      "zone": "blackrock_depths",
+      "tips": [],
+      "quests": [
+        {
+          "id": 3802,
+          "name": "Dark Iron Legacy"
+        }
+      ],
+      "npc": null,
+      "mobs": ["Fineous Darkvire"]
+    },
+    {
+      "id": "winterspring_silithus_069",
+      "type": "kill",
+      "description": "Kill Lord Incendius",
+      "classes": null,
+      "races": null,
+      "coords": null,
+      "zone": "blackrock_depths",
+      "tips": [],
+      "quests": [
+        {
+          "id": 4263,
+          "name": "Incendius!"
+        }
+      ],
+      "npc": null,
+      "mobs": ["Lord Incendius"]
+    },
+    {
+      "id": "winterspring_silithus_070",
+      "type": "quest_turnin",
+      "description": "Run back near the location above the Ring of Law. Click the Monument of Franclorn Forgewright and turn in Dark Iron Legacy",
+      "classes": null,
+      "races": null,
+      "coords": null,
+      "zone": "blackrock_depths",
+      "tips": [],
+      "quests": [
+        {
+          "id": 3802,
+          "name": "Dark Iron Legacy"
+        }
+      ],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "winterspring_silithus_071",
+      "type": "info",
+      "description": "Head to the Shadowforge Gates at the start of the entrance. Kill Bael'Gar. Use the Altered Black Dragonflight Molt on his corpse",
+      "classes": null,
+      "races": null,
+      "coords": null,
+      "zone": "blackrock_depths",
+      "tips": [],
+      "quests": [
+        {
+          "id": 4024,
+          "name": "A Taste of Flame"
+        }
+      ],
+      "npc": null,
+      "mobs": ["Bael'Gar"]
+    },
+    {
+      "id": "winterspring_silithus_072",
+      "type": "loot",
+      "description": "Kill Dwarves at BRD. Loot them for A Crumpled Up Note. Use A Crumpled Up Note to start the quest",
+      "classes": null,
+      "races": null,
+      "coords": null,
+      "zone": "blackrock_depths",
+      "tips": [
+        {
+          "type": "warning",
+          "class": null,
+          "text": "It is important you do this before killing bosses General Angerforge and Golem Lord Argelmach"
+        },
+        {
+          "type": "warning",
+          "class": null,
+          "text": "If you still have not found this by now clear around the Detention Block until it drops"
+        }
+      ],
+      "quests": [
+        {
+          "id": 4264,
+          "name": "A Crumpled Up Note"
+        }
+      ],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "winterspring_silithus_073",
+      "type": "quest_turnin",
+      "description": "Talk to Marshal Windsor, turn in A Crumpled Up Note, and accept A Shred of Hope",
+      "classes": null,
+      "races": null,
+      "coords": null,
+      "zone": "blackrock_depths",
+      "tips": [],
+      "quests": [
+        {
+          "id": 4264,
+          "name": "A Crumpled Up Note"
+        },
+        {
+          "id": 4282,
+          "name": "A Shred of Hope"
+        }
+      ],
+      "npc": "Marshal Windsor",
+      "mobs": []
+    },
+    {
+      "id": "winterspring_silithus_074",
+      "type": "kill",
+      "description": "Kill General Angerforge and Golem Lord Argelmach. Loot them both for Marshal Windsor's Lost Information",
+      "classes": null,
+      "races": null,
+      "coords": null,
+      "zone": "blackrock_depths",
+      "tips": [],
+      "quests": [
+        {
+          "id": 4282,
+          "name": "A Shred of Hope"
+        }
+      ],
+      "npc": null,
+      "mobs": ["General Angerforge", "Golem Lord Argelmach"]
+    },
+    {
+      "id": "winterspring_silithus_075",
+      "type": "quest_turnin",
+      "description": "Talk to Marshal Windsor, turn in A Shred of Hope, and accept Jail Break!",
+      "classes": null,
+      "races": null,
+      "coords": null,
+      "zone": "blackrock_depths",
+      "tips": [
+        {
+          "type": "warning",
+          "class": null,
+          "text": "ENSURE ALL PARTY MEMBERS HAVE AUTO ACCEPT OFF FOR THIS STEP! RestedXP HAS AUTO ACCEPT OFF FOR THIS STEP"
+        },
+        {
+          "type": "warning",
+          "class": null,
+          "text": "Accepting this quest will begin the Jail Break escort. Ensure you have cleared all of the Detention Block area for an easier time escorting Marshal Windsor"
+        }
+      ],
+      "quests": [
+        {
+          "id": 4282,
+          "name": "A Shred of Hope"
+        },
+        {
+          "id": 4322,
+          "name": "Jail Break!"
+        }
+      ],
+      "npc": "Marshal Windsor",
+      "mobs": []
+    },
+    {
+      "id": "winterspring_silithus_076",
+      "type": "info",
+      "description": "Escort Marshal Windsor through BRD",
+      "classes": null,
+      "races": null,
+      "coords": null,
+      "zone": "blackrock_depths",
+      "tips": [],
+      "quests": [
+        {
+          "id": 4322,
+          "name": "Jail Break!"
+        }
+      ],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "winterspring_silithus_077",
+      "type": "info",
+      "description": "Enter the Bar and go into the small room on the left. Do NOT attack any of the neutral mobs while running through the Bar. Kill Ribbly Screwspigot. Loot him for his Head. To engage Ribbly Screwspigot have your tank talk to him, then bring him back along with his Cronies into the room with the kegs",
+      "classes": null,
+      "races": null,
+      "coords": null,
+      "zone": "blackrock_depths",
+      "tips": [],
+      "quests": [
+        {
+          "id": 4136,
+          "name": "Ribbly Screwspigot"
+        }
+      ],
+      "npc": null,
+      "mobs": ["Ribbly Screwspigot"]
+    },
+    {
+      "id": "winterspring_silithus_078",
+      "type": "kill",
+      "description": "Enter the Bar and go into the small room on the left. Do NOT attack any of the neutral mobs while running through the Bar. Click on the 3 Thunderbrew Lager Kegs to destroy them, forcing Hurley Blackbreath and his 3 Blackbreath Cronies to engage. Kill Hurley Blackbreath. Loot him for the Lost Thunderbrew Recipe",
+      "classes": null,
+      "races": null,
+      "coords": null,
+      "zone": "blackrock_depths",
+      "tips": [],
+      "quests": [
+        {
+          "id": 4126,
+          "name": "Hurley Blackbreath"
+        }
+      ],
+      "npc": null,
+      "mobs": ["Hurley Blackbreath"]
+    },
+    {
+      "id": "winterspring_silithus_079",
+      "type": "loot",
+      "description": "Loot the Core Fragment on the ground outside of the Molten Core instance portal",
+      "classes": null,
+      "races": null,
+      "coords": null,
+      "zone": "blackrock_depths",
+      "tips": [],
+      "quests": [
+        {
+          "id": 7848,
+          "name": "Attunement to the Core"
+        }
+      ],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "winterspring_silithus_080",
+      "type": "kill",
+      "description": "Kill Emperor Dagran Thaurissan. Have a party member kite Princess Moira Bronzebeard while the rest of the group kills Emperor Dagran Thaurissan",
+      "classes": null,
+      "races": null,
+      "coords": null,
+      "zone": "blackrock_depths",
+      "tips": [
+        {
+          "type": "warning",
+          "class": null,
+          "text": "You must NOT kill Princess Moira Bronzebeard in order to complete and turn in this quest"
+        }
+      ],
+      "quests": [
+        {
+          "id": 4362,
+          "name": "The Fate of the Kingdom"
+        }
+      ],
+      "npc": null,
+      "mobs": ["Emperor Dagran Thaurissan"]
+    },
+    {
+      "id": "winterspring_silithus_081",
+      "type": "quest_turnin",
+      "description": "Talk to Princess Moira Bronzebeard, turn in The Fate of the Kingdom, and accept The Princess's Surprise",
+      "classes": null,
+      "races": null,
+      "coords": null,
+      "zone": "blackrock_depths",
+      "tips": [],
+      "quests": [
+        {
+          "id": 4362,
+          "name": "The Fate of the Kingdom"
+        },
+        {
+          "id": 4363,
+          "name": "The Princess's Surprise"
+        }
+      ],
+      "npc": "Princess Moira Bronzebeard",
+      "mobs": []
+    },
+    {
+      "id": "winterspring_silithus_082",
+      "type": "info",
+      "description": "Hearth to Ironforge if your Hearth was set there. If you have a Mage in group, kindly ask them for a portal to Ironforge",
+      "classes": null,
+      "races": null,
+      "coords": null,
+      "zone": "",
+      "tips": [],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "winterspring_silithus_083",
+      "type": "quest_turnin",
+      "description": "Talk to King Magni Bronzebeard and turn in The Princess's Surprise",
+      "classes": null,
+      "races": null,
+      "coords": [39.09, 56.19],
+      "zone": "ironforge",
+      "tips": [],
+      "quests": [
+        {
+          "id": 4363,
+          "name": "The Princess's Surprise"
+        }
+      ],
+      "npc": "King Magni Bronzebeard",
+      "mobs": []
+    },
+    {
+      "id": "winterspring_silithus_084",
+      "type": "travel",
+      "description": "Travel to Kharanos",
+      "classes": null,
+      "races": null,
+      "coords": null,
+      "zone": "",
+      "tips": [],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "winterspring_silithus_085",
+      "type": "quest_turnin",
+      "description": "Talk to Ragnar Thunderbrew and turn in Hurley Blackbreath",
+      "classes": null,
+      "races": null,
+      "coords": [46.825, 52.361],
+      "zone": "dun_morogh",
+      "tips": [],
+      "quests": [
+        {
+          "id": 4126,
+          "name": "Hurley Blackbreath"
+        }
+      ],
+      "npc": "Ragnar Thunderbrew",
+      "mobs": []
+    },
+    {
+      "id": "winterspring_silithus_086",
+      "type": "fly",
+      "description": "Hearth to Lakeshire if your Hearth is set there. Otherwise fly to Burning Steppes manually. Fly to Burning Steppes",
+      "classes": null,
+      "races": null,
+      "coords": null,
+      "zone": "",
+      "tips": [],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "winterspring_silithus_087",
+      "type": "quest_turnin",
+      "description": "Talk to Oralius and turn in The Good Stuff",
+      "classes": null,
+      "races": null,
+      "coords": [84.555, 68.679],
+      "zone": "burning_steppes",
+      "tips": [],
+      "quests": [
+        {
+          "id": 4286,
+          "name": "The Good Stuff"
+        }
+      ],
+      "npc": "Oralius",
+      "mobs": []
+    },
+    {
+      "id": "winterspring_silithus_088",
+      "type": "quest_turnin",
+      "description": "Talk to Marshal Maxwell, turn in Jail Break!, and accept Stormwind Rendezvous",
+      "classes": null,
+      "races": null,
+      "coords": [84.744, 69.015],
+      "zone": "burning_steppes",
+      "tips": [],
+      "quests": [
+        {
+          "id": 4322,
+          "name": "Jail Break!"
+        },
+        {
+          "id": 6402,
+          "name": "Stormwind Rendezvous"
+        }
+      ],
+      "npc": "Marshal Maxwell",
+      "mobs": []
+    },
+    {
+      "id": "winterspring_silithus_089",
+      "type": "quest_turnin",
+      "description": "Talk to Jalinda Sprig and turn in Incendius!",
+      "classes": null,
+      "races": null,
+      "coords": [85.415, 70.064],
+      "zone": "burning_steppes",
+      "tips": [],
+      "quests": [
+        {
+          "id": 4263,
+          "name": "Incendius!"
+        }
+      ],
+      "npc": "Jalinda Sprig",
+      "mobs": []
+    },
+    {
+      "id": "winterspring_silithus_090",
+      "type": "quest_turnin",
+      "description": "Talk to Cyrus Therepentous and turn in A Taste of Flame",
+      "classes": null,
+      "races": null,
+      "coords": [95.061, 31.563],
+      "zone": "burning_steppes",
+      "tips": [],
+      "quests": [
+        {
+          "id": 4024,
+          "name": "A Taste of Flame"
+        }
+      ],
+      "npc": "Cyrus Therepentous",
+      "mobs": []
+    },
+    {
+      "id": "winterspring_silithus_091",
+      "type": "quest_turnin",
+      "description": "Talk to Maxwort Uberglint and turn in The Heart of the Mountain",
+      "classes": null,
+      "races": null,
+      "coords": [65.152, 23.911],
+      "zone": "burning_steppes",
+      "tips": [],
+      "quests": [
+        {
+          "id": 4123,
+          "name": "The Heart of the Mountain"
+        }
+      ],
+      "npc": "Maxwort Uberglint",
+      "mobs": []
+    },
+    {
+      "id": "winterspring_silithus_092",
+      "type": "quest_turnin",
+      "description": "Talk to Yuka Screwspigot and turn in Ribbly Screwspigot",
+      "classes": null,
+      "races": null,
+      "coords": [66.058, 21.951],
+      "zone": "burning_steppes",
+      "tips": [],
+      "quests": [
+        {
+          "id": 4136,
+          "name": "Ribbly Screwspigot"
+        }
+      ],
+      "npc": "Yuka Screwspigot",
+      "mobs": []
+    },
+    {
+      "id": "winterspring_silithus_093",
+      "type": "fly",
+      "description": "Talk to Borgun Stoutarm and fly to Stormwind. Have a Mage port you if you have one in your group",
+      "classes": null,
+      "races": null,
+      "coords": [84.334, 68.326],
+      "zone": "burning_steppes",
+      "tips": [],
+      "quests": [],
+      "npc": "Borgun Stoutarm",
+      "mobs": []
+    },
+    {
+      "id": "winterspring_silithus_094",
+      "type": "quest_turnin",
+      "description": "Talk to Squire Rowe and Reginald Windsor at the Gates of Stormwind, turn in Stormwind Rendezvous, and accept The Great Masquerade",
+      "classes": null,
+      "races": null,
+      "coords": [69.709, 86.083],
+      "zone": "stormwind_city",
+      "tips": [
+        {
+          "type": "warning",
+          "class": null,
+          "text": "Squire Rowe will call for Reginald Windsor's arrival after you talk to him at the Gates of Stormwind"
+        },
+        {
+          "type": "warning",
+          "class": null,
+          "text": "IF YOU ARE IN A PARTY ENSURE NO ONE AUTO ACCEPTS The Great Masquerade. AUTO ACCEPT HAS BEEN TURNED OFF FOR THIS STEP"
+        }
+      ],
+      "quests": [
+        {
+          "id": 6402,
+          "name": "Stormwind Rendezvous"
+        },
+        {
+          "id": 6403,
+          "name": "The Great Masquerade"
+        }
+      ],
+      "npc": "Reginald Windsor",
+      "mobs": []
+    },
+    {
+      "id": "winterspring_silithus_095",
+      "type": "info",
+      "description": "Escort Reginald Windsor into Stormwind Keep. Do not assist Reginald Windsor in combat while inside the Keep. If you do so there is a high chance you may die. Stay back at the arrow location and let the event finish on its own. It will take a few minutes",
+      "classes": null,
+      "races": null,
+      "coords": [76.865, 20.83],
+      "zone": "stormwind_city",
+      "tips": [],
+      "quests": [
+        {
+          "id": 6403,
+          "name": "The Great Masquerade"
+        }
+      ],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "winterspring_silithus_096",
+      "type": "quest_turnin",
+      "description": "Talk to Highlord Bolvar Fordragon, turn in The Great Masquerade, and accept The Dragon's Eye",
+      "classes": null,
+      "races": null,
+      "coords": [77.569, 18.864],
+      "zone": "stormwind_city",
+      "tips": [],
+      "quests": [
+        {
+          "id": 6403,
+          "name": "The Great Masquerade"
+        },
+        {
+          "id": 6501,
+          "name": "The Dragon's Eye"
+        }
+      ],
+      "npc": "Highlord Bolvar Fordragon",
+      "mobs": []
+    },
+    {
+      "id": "winterspring_silithus_097",
+      "type": "quest_turnin",
+      "description": "Talk to Lothos Riftwaker and turn in Attunement to the Core",
+      "classes": null,
+      "races": null,
+      "coords": null,
+      "zone": "",
+      "tips": [
+        {
+          "type": "warning",
+          "class": null,
+          "text": "You can either turn this in now or the next time you are in Blackrock Mountain"
+        }
+      ],
+      "quests": [
+        {
+          "id": 7848,
+          "name": "Attunement to the Core"
+        }
+      ],
+      "npc": "Lothos Riftwaker",
+      "mobs": []
+    },
+    {
+      "id": "winterspring_silithus_098",
+      "type": "travel",
+      "description": "Travel to Felwood",
+      "classes": null,
+      "races": null,
+      "coords": null,
+      "zone": "",
+      "tips": [],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "winterspring_silithus_099",
+      "type": "fly",
+      "description": "Talk to Sindrayl and fly to Felwood",
+      "classes": null,
+      "races": null,
+      "coords": [48.102, 67.345],
+      "zone": "moonglade",
+      "tips": [],
+      "quests": [],
+      "npc": "Sindrayl",
+      "mobs": []
+    },
+    {
+      "id": "winterspring_silithus_100",
+      "type": "fly",
+      "description": "Talk to Maethrya and fly to Felwood",
+      "classes": null,
+      "races": null,
+      "coords": [62.334, 36.609],
+      "zone": "winterspring",
+      "tips": [],
+      "quests": [],
+      "npc": "Maethrya",
+      "mobs": []
+    },
+    {
+      "id": "winterspring_silithus_101",
+      "type": "grind",
+      "description": "Grind Furbolgs at Felpaw Village until you have enough XP to ding 60, then fly to Darnassus",
+      "classes": ["!Mage"],
+      "races": null,
+      "coords": [62.77, 10.57],
+      "zone": "felwood",
+      "tips": [],
+      "quests": [],
+      "npc": null,
+      "mobs": ["Deadwood Shaman", "Deadwood Den Watcher", "Deadwood Avenger"]
+    },
+    {
+      "id": "winterspring_silithus_102",
+      "type": "fly",
+      "description": "Talk to Sindrayl and fly to Teldrassil",
+      "classes": ["!Mage"],
+      "races": null,
+      "coords": [48.102, 67.345],
+      "zone": "moonglade",
+      "tips": [],
+      "quests": [],
+      "npc": "Sindrayl",
+      "mobs": []
+    },
+    {
+      "id": "winterspring_silithus_103",
+      "type": "fly",
+      "description": "Talk to Mishellena and fly to Teldrassil",
+      "classes": ["!Mage"],
+      "races": null,
+      "coords": [62.488, 24.242],
+      "zone": "felwood",
+      "tips": [],
+      "quests": [],
+      "npc": "Mishellena",
+      "mobs": []
+    },
+    {
+      "id": "winterspring_silithus_104",
+      "type": "grind",
+      "description": "Grind Furbolgs at Felpaw Village until you have enough XP to ding 60, then Teleport to Darnassus",
+      "classes": ["Mage"],
+      "races": null,
+      "coords": [62.77, 10.57],
+      "zone": "felwood",
+      "tips": [],
+      "quests": [],
+      "npc": null,
+      "mobs": ["Deadwood Shaman", "Deadwood Den Watcher", "Deadwood Avenger"]
+    },
+    {
+      "id": "winterspring_silithus_105",
+      "type": "info",
+      "description": "Teleport to Darnassus",
+      "classes": ["Mage"],
+      "races": null,
+      "coords": null,
+      "zone": "",
+      "tips": [],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "winterspring_silithus_106",
+      "type": "quest_turnin",
+      "description": "Talk to Erelas Ambersky and turn in Guardians of the Altar",
+      "classes": ["!Mage"],
+      "races": null,
+      "coords": [55.497, 92.045],
+      "zone": "teldrassil",
+      "tips": [],
+      "quests": [
+        {
+          "id": 4901,
+          "name": "Guardians of the Altar"
+        }
+      ],
+      "npc": "Erelas Ambersky",
+      "mobs": []
+    },
+    {
+      "id": "winterspring_silithus_107",
+      "type": "quest_accept",
+      "description": "Talk to Erelas Ambersky and accept Wildkin of Elune",
+      "classes": ["!Mage"],
+      "races": null,
+      "coords": [55.497, 92.045],
+      "zone": "teldrassil",
+      "tips": [],
+      "quests": [
+        {
+          "id": 4902,
+          "name": "Wildkin of Elune"
+        }
+      ],
+      "npc": "Erelas Ambersky",
+      "mobs": []
+    },
+    {
+      "id": "winterspring_silithus_108",
+      "type": "travel",
+      "description": "Take the purple portal into Darnassus",
+      "classes": ["!Mage"],
+      "races": null,
+      "coords": [55.889, 89.456],
+      "zone": "teldrassil",
+      "tips": [],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "winterspring_silithus_109",
+      "type": "quest_turnin",
+      "description": "Talk to Gracina Spiritmight upstairs, turn in Calm Before the Storm, and accept Calm Before the Storm",
+      "classes": null,
+      "races": null,
+      "coords": [41.833, 85.622],
+      "zone": "darnassus",
+      "tips": [],
+      "quests": [
+        {
+          "id": 4508,
+          "name": "Calm Before the Storm"
+        },
+        {
+          "id": 4510,
+          "name": "Calm Before the Storm"
+        }
+      ],
+      "npc": "Gracina Spiritmight",
+      "mobs": []
+    },
+    {
+      "id": "winterspring_silithus_110",
+      "type": "quest_turnin",
+      "description": "Talk to Idriana and turn in Calm Before the Storm",
+      "classes": null,
+      "races": null,
+      "coords": [39.38, 42.43],
+      "zone": "darnassus",
+      "tips": [],
+      "quests": [
+        {
+          "id": 4510,
+          "name": "Calm Before the Storm"
+        }
+      ],
+      "npc": "Idriana",
+      "mobs": []
+    },
+    {
+      "id": "winterspring_silithus_111",
+      "type": "travel",
+      "description": "Take the purple portal to Rut'theran Village",
+      "classes": ["Mage"],
+      "races": null,
+      "coords": [29.466, 41.405],
+      "zone": "darnassus",
+      "tips": [],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "winterspring_silithus_112",
+      "type": "quest_turnin",
+      "description": "Talk to Erelas Ambersky and turn in Guardians of the Altar",
+      "classes": ["Mage"],
+      "races": null,
+      "coords": [55.497, 92.045],
+      "zone": "teldrassil",
+      "tips": [],
+      "quests": [
+        {
+          "id": 4901,
+          "name": "Guardians of the Altar"
+        }
+      ],
+      "npc": "Erelas Ambersky",
+      "mobs": []
+    },
+    {
+      "id": "winterspring_silithus_113",
+      "type": "quest_accept",
+      "description": "Talk to Erelas Ambersky and accept Wildkin of Elune",
+      "classes": ["Mage"],
+      "races": null,
+      "coords": [55.497, 92.045],
+      "zone": "teldrassil",
+      "tips": [],
+      "quests": [
+        {
+          "id": 4902,
+          "name": "Wildkin of Elune"
+        }
+      ],
+      "npc": "Erelas Ambersky",
+      "mobs": []
+    },
+    {
+      "id": "winterspring_silithus_114",
+      "type": "travel",
+      "description": "Take the purple portal into Darnassus",
+      "classes": ["Mage"],
+      "races": null,
+      "coords": [55.889, 89.456],
+      "zone": "teldrassil",
+      "tips": [],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "winterspring_silithus_115",
+      "type": "quest_turnin",
+      "description": "Talk to Arch Druid Fandral Staghelm and turn in Wildkin of Elune",
+      "classes": null,
+      "races": null,
+      "coords": [34.814, 9.255],
+      "zone": "darnassus",
+      "tips": [],
+      "quests": [
+        {
+          "id": 4902,
+          "name": "Wildkin of Elune"
+        }
+      ],
+      "npc": "Arch Druid Fandral Staghelm",
+      "mobs": []
+    },
+    {
+      "id": "winterspring_silithus_116",
+      "type": "info",
+      "description": "Congratulations on finishing the guide !",
+      "classes": null,
+      "races": null,
+      "coords": null,
+      "zone": "",
+      "tips": [],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    }
+  ]
+}

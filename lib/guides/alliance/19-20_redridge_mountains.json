@@ -1,0 +1,3445 @@
+{
+  "zone": "Redridge Mountains",
+  "levelRange": "19-20",
+  "faction": "Alliance",
+  "name": "19-20_redridge_mountains",
+  "next": "20-21_darkshore_ashenvale",
+  "steps": [
+    {
+      "id": "redridge_001",
+      "type": "info",
+      "description": "Talk to Einris Brightspear and train your class spells",
+      "classes": ["Hunter"],
+      "races": null,
+      "coords": [61.609, 15.269],
+      "zone": "stormwind_city",
+      "tips": [],
+      "quests": [],
+      "npc": "Einris Brightspear",
+      "mobs": []
+    },
+    {
+      "id": "redridge_002",
+      "type": "info",
+      "description": "Talk to Karrina Mekenda and train your pet spells",
+      "classes": ["Hunter"],
+      "races": null,
+      "coords": [61.576, 15.996],
+      "zone": "stormwind_city",
+      "tips": [],
+      "quests": [],
+      "npc": "Karrina Mekenda",
+      "mobs": []
+    },
+    {
+      "id": "redridge_003",
+      "type": "info",
+      "description": "Talk to Billibub Cogspinner. Buy a Bronze Tube",
+      "classes": null,
+      "races": null,
+      "coords": [55.21, 7.04],
+      "zone": "stormwind_city",
+      "tips": [
+        {
+          "type": "warning",
+          "class": null,
+          "text": "This is a limited supply item. Skip this step if Billibub Cogspinner doesn't have one"
+        }
+      ],
+      "quests": [],
+      "npc": "Billibub Cogspinner",
+      "mobs": []
+    },
+    {
+      "id": "redridge_004",
+      "type": "quest_turnin",
+      "description": "Talk to Furen Longbeard and turn in Stormpike's Order",
+      "classes": null,
+      "races": null,
+      "coords": [58.08, 16.52],
+      "zone": "stormwind_city",
+      "tips": [],
+      "quests": [
+        {
+          "id": 1338,
+          "name": "Stormpike's Order"
+        }
+      ],
+      "npc": "Furen Longbeard",
+      "mobs": []
+    },
+    {
+      "id": "redridge_005",
+      "type": "quest_accept",
+      "description": "Talk to Shoni the Shilent and Wilder Thistlenettle. Accept Underground Assault, Oh Brother..., and Collecting Memories",
+      "classes": null,
+      "races": null,
+      "coords": [65.438, 21.175],
+      "zone": "stormwind_city",
+      "tips": [],
+      "quests": [
+        {
+          "id": 2040,
+          "name": "Underground Assault"
+        },
+        {
+          "id": 167,
+          "name": "Oh Brother..."
+        },
+        {
+          "id": 168,
+          "name": "Collecting Memories"
+        }
+      ],
+      "npc": "Wilder Thistlenettle",
+      "mobs": []
+    },
+    {
+      "id": "redridge_006",
+      "type": "info",
+      "description": "Talk to Frederick Stover. Buy a Heavy Recurve Bow",
+      "classes": ["Hunter"],
+      "races": null,
+      "coords": [49.99, 57.641],
+      "zone": "stormwind_city",
+      "tips": [],
+      "quests": [],
+      "npc": "Frederick Stover",
+      "mobs": []
+    },
+    {
+      "id": "redridge_007",
+      "type": "info",
+      "description": "Talk to Frederick Stover. Buy a Heavy Recurve Bow or something better from the Auction House",
+      "classes": ["Hunter"],
+      "races": null,
+      "coords": [49.99, 57.641],
+      "zone": "stormwind_city",
+      "tips": [],
+      "quests": [],
+      "npc": "Frederick Stover",
+      "mobs": []
+    },
+    {
+      "id": "redridge_008",
+      "type": "info",
+      "description": "Talk to Frederick Stover. Buy Sharp Arrows",
+      "classes": ["Hunter"],
+      "races": null,
+      "coords": [49.99, 57.641],
+      "zone": "stormwind_city",
+      "tips": [],
+      "quests": [],
+      "npc": "Frederick Stover",
+      "mobs": []
+    },
+    {
+      "id": "redridge_009",
+      "type": "info",
+      "description": "Equip the Heavy Recurve Bow",
+      "classes": ["Hunter"],
+      "races": null,
+      "coords": null,
+      "zone": "",
+      "tips": [],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "redridge_010",
+      "type": "travel",
+      "description": "Travel to the Mage Tower",
+      "classes": ["Mage"],
+      "races": null,
+      "coords": [37.69, 82.09],
+      "zone": "stormwind_city",
+      "tips": [],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "redridge_011",
+      "type": "info",
+      "description": "Talk to Elsharin and train your class spells",
+      "classes": ["Mage"],
+      "races": null,
+      "coords": [36.87, 81.14],
+      "zone": "stormwind_city",
+      "tips": [],
+      "quests": [],
+      "npc": "Elsharin",
+      "mobs": []
+    },
+    {
+      "id": "redridge_012",
+      "type": "travel",
+      "description": "Travel to the Stormwind Cathedral",
+      "classes": ["Paladin", "Priest"],
+      "races": null,
+      "coords": [42.51, 33.51],
+      "zone": "stormwind_city",
+      "tips": [],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "redridge_013",
+      "type": "info",
+      "description": "Talk to Arthur the Faithful and train your class spells",
+      "classes": ["Paladin"],
+      "races": null,
+      "coords": [38.67, 32.82],
+      "zone": "stormwind_city",
+      "tips": [],
+      "quests": [],
+      "npc": "Arthur the Faithful",
+      "mobs": []
+    },
+    {
+      "id": "redridge_014",
+      "type": "info",
+      "description": "Talk to Brother Joshua and train your class spells",
+      "classes": ["Priest"],
+      "races": null,
+      "coords": [38.54, 26.86],
+      "zone": "stormwind_city",
+      "tips": [],
+      "quests": [],
+      "npc": "Brother Joshua",
+      "mobs": []
+    },
+    {
+      "id": "redridge_015",
+      "type": "info",
+      "description": "Talk to Ardwyn Cailen. Buy a Burning Wand if it's an upgrade",
+      "classes": ["Warlock", "Priest"],
+      "races": null,
+      "coords": [42.88, 65.11],
+      "zone": "stormwind_city",
+      "tips": [
+        {
+          "type": "warning",
+          "class": null,
+          "text": "It's important to buy a non-shadow damage wand. You'll have to deal with mobs resistant to shadow damage later"
+        }
+      ],
+      "quests": [],
+      "npc": "Ardwyn Cailen",
+      "mobs": []
+    },
+    {
+      "id": "redridge_016",
+      "type": "travel",
+      "description": "Travel to The Slaughtered Lamb and go downstairs",
+      "classes": ["Warlock"],
+      "races": null,
+      "coords": [27.2, 78.1],
+      "zone": "stormwind_city",
+      "tips": [],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "redridge_017",
+      "type": "info",
+      "description": "Talk to Ursula Deline and train your class spells",
+      "classes": ["Warlock"],
+      "races": null,
+      "coords": [26.11, 77.22],
+      "zone": "stormwind_city",
+      "tips": [],
+      "quests": [],
+      "npc": "Ursula Deline",
+      "mobs": []
+    },
+    {
+      "id": "redridge_018",
+      "type": "info",
+      "description": "Talk to Osborne and train your class spells",
+      "classes": ["Rogue"],
+      "races": null,
+      "coords": [74.64, 52.82],
+      "zone": "stormwind_city",
+      "tips": [],
+      "quests": [],
+      "npc": "Osborne the Night Man",
+      "mobs": []
+    },
+    {
+      "id": "redridge_019",
+      "type": "info",
+      "description": "Talk to Wu Shen or Ilsa Corbin and train your class spells",
+      "classes": ["Warrior"],
+      "races": null,
+      "coords": [78.68, 45.79],
+      "zone": "stormwind_city",
+      "tips": [],
+      "quests": [],
+      "npc": "Wu Shen",
+      "mobs": []
+    },
+    {
+      "id": "redridge_020",
+      "type": "info",
+      "description": "Talk to Sheldras Moontree and train your class spells",
+      "classes": ["Druid"],
+      "races": null,
+      "coords": [20.898, 55.491],
+      "zone": "stormwind_city",
+      "tips": [],
+      "quests": [],
+      "npc": "Sheldras Moontree",
+      "mobs": []
+    },
+    {
+      "id": "redridge_021",
+      "type": "info",
+      "description": "Talk to Woo Ping and train weapon skills",
+      "classes": ["!Hunter", "!Priest"],
+      "races": null,
+      "coords": [57.12, 57.69],
+      "zone": "stormwind_city",
+      "tips": [],
+      "quests": [],
+      "npc": "Woo Ping",
+      "mobs": []
+    },
+    {
+      "id": "redridge_022",
+      "type": "info",
+      "description": "Talk to Marda Weller. Buy a Longsword and Kris. Equip the Longsword in your Mainhand and Kris in your Offhand",
+      "classes": ["Rogue"],
+      "races": null,
+      "coords": [57.38, 56.77],
+      "zone": "stormwind_city",
+      "tips": [
+        {
+          "type": "warning",
+          "class": null,
+          "text": "Equip the Longsword in your Mainhand and Kris in your Offhand"
+        }
+      ],
+      "quests": [],
+      "npc": "Marda Weller",
+      "mobs": []
+    },
+    {
+      "id": "redridge_023",
+      "type": "info",
+      "description": "Talk to Auctioneer Jaxon. Buy items from the Auction House for faster turn ins at Redridge Mountains: Great Goretusk Snout, Tough Condor Meat, Crisp Spider Meat, Rethban Ore",
+      "classes": null,
+      "races": null,
+      "coords": [53.612, 59.764],
+      "zone": "stormwind_city",
+      "tips": [
+        {
+          "type": "info",
+          "class": null,
+          "text": "This will save you time as you won't need to run around looking for mobs to kill. Skip this step if you wish to not buy any"
+        }
+      ],
+      "quests": [
+        {
+          "id": 92,
+          "name": "Redridge Goulash"
+        },
+        {
+          "id": 347,
+          "name": "Rethban Ore"
+        }
+      ],
+      "npc": "Auctioneer Jaxon",
+      "mobs": []
+    },
+    {
+      "id": "redridge_024",
+      "type": "fly",
+      "description": "Talk to Dungar Longdrink and fly to Redridge",
+      "classes": ["!NightElf"],
+      "races": null,
+      "coords": [66.27, 62.12],
+      "zone": "stormwind_city",
+      "tips": [],
+      "quests": [],
+      "npc": "Dungar Longdrink",
+      "mobs": []
+    },
+    {
+      "id": "redridge_025",
+      "type": "travel",
+      "description": "Exit Stormwind",
+      "classes": null,
+      "races": ["NightElf"],
+      "coords": [73.2, 92.1],
+      "zone": "stormwind_city",
+      "tips": [],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "redridge_026",
+      "type": "travel",
+      "description": "Travel to Redridge Mountains",
+      "classes": null,
+      "races": ["NightElf"],
+      "coords": [15.27, 71.45],
+      "zone": "redridge_mountains",
+      "tips": [],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "redridge_027",
+      "type": "quest_accept",
+      "description": "Talk to Guard Parker and accept Encroaching Gnolls",
+      "classes": null,
+      "races": ["NightElf"],
+      "coords": [15.27, 71.45],
+      "zone": "redridge_mountains",
+      "tips": [],
+      "quests": [
+        {
+          "id": 244,
+          "name": "Encroaching Gnolls"
+        }
+      ],
+      "npc": "Guard Parker",
+      "mobs": []
+    },
+    {
+      "id": "redridge_028",
+      "type": "quest_turnin",
+      "description": "Talk to Deputy Feldon and turn in Encroaching Gnolls. Accept Assessing the Threat",
+      "classes": null,
+      "races": ["NightElf"],
+      "coords": [30.73, 59.99],
+      "zone": "redridge_mountains",
+      "tips": [],
+      "quests": [
+        {
+          "id": 244,
+          "name": "Encroaching Gnolls"
+        },
+        {
+          "id": 246,
+          "name": "Assessing the Threat"
+        }
+      ],
+      "npc": "Deputy Feldon",
+      "mobs": []
+    },
+    {
+      "id": "redridge_029",
+      "type": "quest_accept",
+      "description": "Talk to Foreman Oslow and accept The Lost Tools",
+      "classes": null,
+      "races": null,
+      "coords": [32.13, 48.63],
+      "zone": "redridge_mountains",
+      "tips": [],
+      "quests": [
+        {
+          "id": 125,
+          "name": "The Lost Tools"
+        }
+      ],
+      "npc": "Foreman Oslow",
+      "mobs": []
+    },
+    {
+      "id": "redridge_030",
+      "type": "quest_accept",
+      "description": "Talk to Verner Osgood and accept The Price of Shoes",
+      "classes": null,
+      "races": null,
+      "coords": [30.97, 47.27],
+      "zone": "redridge_mountains",
+      "tips": [],
+      "quests": [
+        {
+          "id": 118,
+          "name": "The Price of Shoes"
+        }
+      ],
+      "npc": "Verner Osgood",
+      "mobs": []
+    },
+    {
+      "id": "redridge_031",
+      "type": "quest_accept",
+      "description": "Talk to Magistrate Solomon and accept Messenger to Stormwind",
+      "classes": null,
+      "races": null,
+      "coords": [29.98, 44.45],
+      "zone": "redridge_mountains",
+      "tips": [],
+      "quests": [
+        {
+          "id": 120,
+          "name": "Messenger to Stormwind"
+        }
+      ],
+      "npc": "Magistrate Solomon",
+      "mobs": []
+    },
+    {
+      "id": "redridge_032",
+      "type": "quest_accept",
+      "description": "Talk to Darcy and accept A Free Lunch.",
+      "classes": null,
+      "races": null,
+      "coords": [26.8, 44.4],
+      "zone": "redridge_mountains",
+      "tips": [
+        {
+          "type": "info",
+          "class": null,
+          "text": "Darcy walks around inside the Inn"
+        }
+      ],
+      "quests": [
+        {
+          "id": 129,
+          "name": "A Free Lunch"
+        }
+      ],
+      "npc": "Darcy",
+      "mobs": []
+    },
+    {
+      "id": "redridge_033",
+      "type": "quest_turnin",
+      "description": "Talk to Wiley the Black upstairs. Turn in The Defias Brotherhood and accept The Defias Brotherhood",
+      "classes": null,
+      "races": null,
+      "coords": [26.48, 45.34],
+      "zone": "redridge_mountains",
+      "tips": [],
+      "quests": [
+        {
+          "id": 65,
+          "name": "The Defias Brotherhood"
+        },
+        {
+          "id": 132,
+          "name": "The Defias Brotherhood"
+        }
+      ],
+      "npc": "Wiley the Black",
+      "mobs": []
+    },
+    {
+      "id": "redridge_034",
+      "type": "quest_accept",
+      "description": "Exit the Inn. Talk to Chef Breanna and accept Redridge Goulash",
+      "classes": null,
+      "races": null,
+      "coords": [22.67, 43.83],
+      "zone": "redridge_mountains",
+      "tips": [],
+      "quests": [
+        {
+          "id": 92,
+          "name": "Redridge Goulash"
+        }
+      ],
+      "npc": "Chef Breanna",
+      "mobs": []
+    },
+    {
+      "id": "redridge_035",
+      "type": "quest_accept",
+      "description": "Talk to Shawn and accept Hilary's Necklace",
+      "classes": null,
+      "races": null,
+      "coords": [29.31, 53.63],
+      "zone": "redridge_mountains",
+      "tips": [],
+      "quests": [
+        {
+          "id": 3741,
+          "name": "Hilary's Necklace"
+        }
+      ],
+      "npc": "Shawn",
+      "mobs": []
+    },
+    {
+      "id": "redridge_036",
+      "type": "loot",
+      "description": "Jump into the Lake. Open the Glinting Mud. Loot it for Hilary's Necklace",
+      "classes": null,
+      "races": null,
+      "coords": [31.12, 54.21],
+      "zone": "redridge_mountains",
+      "tips": [
+        {
+          "type": "warning",
+          "class": null,
+          "text": "It has multiple spawn locations in the Lake"
+        }
+      ],
+      "quests": [
+        {
+          "id": 3741,
+          "name": "Hilary's Necklace"
+        }
+      ],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "redridge_037",
+      "type": "quest_turnin",
+      "description": "Talk to Hilary and turn in Hilary's Necklace",
+      "classes": null,
+      "races": null,
+      "coords": [29.24, 53.63],
+      "zone": "redridge_mountains",
+      "tips": [],
+      "quests": [
+        {
+          "id": 3741,
+          "name": "Hilary's Necklace"
+        }
+      ],
+      "npc": "Hilary",
+      "mobs": []
+    },
+    {
+      "id": "redridge_038",
+      "type": "fly",
+      "description": "Talk to Ariena Stormfeather and fly to Westfall",
+      "classes": null,
+      "races": null,
+      "coords": [30.59, 59.42],
+      "zone": "redridge_mountains",
+      "tips": [],
+      "quests": [],
+      "npc": "Ariena Stormfeather",
+      "mobs": []
+    },
+    {
+      "id": "redridge_039",
+      "type": "quest_turnin",
+      "description": "Talk to Gryan Stoutmantle. Turn in The Defias Brotherhood and accept The Defias Brotherhood",
+      "classes": null,
+      "races": null,
+      "coords": [56.33, 47.52],
+      "zone": "westfall",
+      "tips": [],
+      "quests": [
+        {
+          "id": 132,
+          "name": "The Defias Brotherhood"
+        },
+        {
+          "id": 135,
+          "name": "The Defias Brotherhood"
+        }
+      ],
+      "npc": "Gryan Stoutmantle",
+      "mobs": []
+    },
+    {
+      "id": "redridge_040",
+      "type": "fly",
+      "description": "Talk to Thor and fly to Stormwind City",
+      "classes": null,
+      "races": null,
+      "coords": [56.55, 52.64],
+      "zone": "westfall",
+      "tips": [],
+      "quests": [],
+      "npc": "Thor",
+      "mobs": []
+    },
+    {
+      "id": "redridge_041",
+      "type": "quest_turnin",
+      "description": "Talk to General Marcus Jonathan. Turn in Messenger to Stormwind and accept Messenger to Stormwind",
+      "classes": null,
+      "races": null,
+      "coords": [63.982, 75.338],
+      "zone": "stormwind_city",
+      "tips": [],
+      "quests": [
+        {
+          "id": 120,
+          "name": "Messenger to Stormwind"
+        },
+        {
+          "id": 121,
+          "name": "Messenger to Stormwind"
+        }
+      ],
+      "npc": "General Marcus Jonathan",
+      "mobs": []
+    },
+    {
+      "id": "redridge_042",
+      "type": "travel",
+      "description": "Enter the SI:7 Headquarters. Travel up stairs toward Master Mathias Shaw",
+      "classes": null,
+      "races": null,
+      "coords": [78.67, 60.13],
+      "zone": "stormwind_city",
+      "tips": [],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "redridge_043",
+      "type": "quest_turnin",
+      "description": "Talk to Master Mathias Shaw. Turn in The Defias Brotherhood and accept The Defias Brotherhood",
+      "classes": null,
+      "races": null,
+      "coords": [75.78, 59.84],
+      "zone": "stormwind_city",
+      "tips": [],
+      "quests": [
+        {
+          "id": 135,
+          "name": "The Defias Brotherhood"
+        },
+        {
+          "id": 141,
+          "name": "The Defias Brotherhood"
+        }
+      ],
+      "npc": "Master Mathias Shaw",
+      "mobs": []
+    },
+    {
+      "id": "redridge_044",
+      "type": "fly",
+      "description": "Talk to Dungar Longdrink and fly to Westfall",
+      "classes": null,
+      "races": null,
+      "coords": [66.27, 62.12],
+      "zone": "stormwind_city",
+      "tips": [],
+      "quests": [],
+      "npc": "Dungar Longdrink",
+      "mobs": []
+    },
+    {
+      "id": "redridge_045",
+      "type": "quest_turnin",
+      "description": "Talk to Gryan Stoutmantle. Turn in The Defias Brotherhood and accept The Defias Brotherhood",
+      "classes": null,
+      "races": null,
+      "coords": [56.33, 47.52],
+      "zone": "westfall",
+      "tips": [],
+      "quests": [
+        {
+          "id": 141,
+          "name": "The Defias Brotherhood"
+        },
+        {
+          "id": 142,
+          "name": "The Defias Brotherhood"
+        }
+      ],
+      "npc": "Gryan Stoutmantle",
+      "mobs": []
+    },
+    {
+      "id": "redridge_046",
+      "type": "travel",
+      "description": "Travel to Moonbrook",
+      "classes": null,
+      "races": null,
+      "coords": [44.5, 69.62],
+      "zone": "westfall",
+      "tips": [],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "redridge_047",
+      "type": "kill",
+      "description": "Kill the Defias Messenger. Loot him for his Mysterious Message",
+      "classes": null,
+      "races": null,
+      "coords": [44.5, 69.62],
+      "zone": "westfall",
+      "tips": [
+        {
+          "type": "warning",
+          "class": null,
+          "text": "The Defias Messenger spawns in Moonbrook. He walks along the road north of Moonbrook, to the Gold Coast Quarry and Jangolode Mine. If you don't see him along the road, wait for him to spawn in Moonbrook"
+        },
+        {
+          "type": "warning",
+          "class": null,
+          "text": "He has a 4-5 minute respawn timer"
+        }
+      ],
+      "quests": [
+        {
+          "id": 142,
+          "name": "The Defias Brotherhood"
+        }
+      ],
+      "npc": null,
+      "mobs": ["Defias Messenger"]
+    },
+    {
+      "id": "redridge_048",
+      "type": "travel",
+      "description": "Travel to the Westfall Lighthouse",
+      "classes": null,
+      "races": null,
+      "coords": [30.01, 86.02],
+      "zone": "westfall",
+      "tips": [],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "redridge_049",
+      "type": "quest_accept",
+      "description": "Talk to Captain Grayson and accept The Coastal Menace and Keeper of the Flame",
+      "classes": null,
+      "races": null,
+      "coords": [30.01, 86.02],
+      "zone": "westfall",
+      "tips": [],
+      "quests": [
+        {
+          "id": 104,
+          "name": "The Coastal Menace"
+        },
+        {
+          "id": 103,
+          "name": "Keeper of the Flame"
+        }
+      ],
+      "npc": "Captain Grayson",
+      "mobs": []
+    },
+    {
+      "id": "redridge_050",
+      "type": "quest_turnin",
+      "description": "Talk to Captain Grayson and turn in Keeper of the Flame",
+      "classes": null,
+      "races": null,
+      "coords": [30.01, 86.02],
+      "zone": "westfall",
+      "tips": [],
+      "quests": [
+        {
+          "id": 103,
+          "name": "Keeper of the Flame"
+        }
+      ],
+      "npc": "Captain Grayson",
+      "mobs": []
+    },
+    {
+      "id": "redridge_051",
+      "type": "kill",
+      "description": "Kill Old Murk-Eye. Loot him for his Scale",
+      "classes": null,
+      "races": null,
+      "coords": [34.43, 83.93],
+      "zone": "westfall",
+      "tips": [
+        {
+          "type": "warning",
+          "class": null,
+          "text": "Old Murk-Eye patrols up and down the Longshore. If you don't see him along the Longshore, wait for him to spawn in the most southern Murloc camp"
+        }
+      ],
+      "quests": [
+        {
+          "id": 104,
+          "name": "The Coastal Menace"
+        }
+      ],
+      "npc": null,
+      "mobs": ["Old Murk-Eye"]
+    },
+    {
+      "id": "redridge_052",
+      "type": "quest_turnin",
+      "description": "Talk to Captain Grayson and turn in The Coastal Menace",
+      "classes": null,
+      "races": null,
+      "coords": [30.01, 86.02],
+      "zone": "westfall",
+      "tips": [],
+      "quests": [
+        {
+          "id": 104,
+          "name": "The Coastal Menace"
+        }
+      ],
+      "npc": "Captain Grayson",
+      "mobs": []
+    },
+    {
+      "id": "redridge_053",
+      "type": "info",
+      "description": "Abandon Keeper of the Flame",
+      "classes": null,
+      "races": null,
+      "coords": null,
+      "zone": "",
+      "tips": [],
+      "quests": [
+        {
+          "id": 103,
+          "name": "Keeper of the Flame"
+        }
+      ],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "redridge_054",
+      "type": "quest_turnin",
+      "description": "Talk to Gryan Stoutmantle and turn in The Defias Brotherhood",
+      "classes": null,
+      "races": null,
+      "coords": [56.33, 47.52],
+      "zone": "westfall",
+      "tips": [],
+      "quests": [
+        {
+          "id": 142,
+          "name": "The Defias Brotherhood"
+        }
+      ],
+      "npc": "Gryan Stoutmantle",
+      "mobs": []
+    },
+    {
+      "id": "redridge_055",
+      "type": "quest_accept",
+      "description": "Talk to The Defias Traitor and accept The Defias Brotherhood.",
+      "classes": null,
+      "races": null,
+      "coords": [55.68, 47.5],
+      "zone": "westfall",
+      "tips": [
+        {
+          "type": "warning",
+          "class": null,
+          "text": "You may need to wait for The Defias Traitor to spawn if he's not there"
+        }
+      ],
+      "quests": [
+        {
+          "id": 155,
+          "name": "The Defias Brotherhood"
+        }
+      ],
+      "npc": "The Defias Traitor",
+      "mobs": []
+    },
+    {
+      "id": "redridge_056",
+      "type": "info",
+      "description": "Escort the The Defias Traitor to The Deadmines",
+      "classes": null,
+      "races": null,
+      "coords": [42.56, 71.71],
+      "zone": "westfall",
+      "tips": [
+        {
+          "type": "warning",
+          "class": null,
+          "text": "Stay beside The Defias Traitor at all times! Be ready to fight The Defias upon reaching Moonbrook"
+        }
+      ],
+      "quests": [
+        {
+          "id": 155,
+          "name": "The Defias Brotherhood"
+        }
+      ],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "redridge_057",
+      "type": "quest_accept",
+      "description": "Use Captain Sander's Treasure Map to start the quest. Accept Captain Sander's Treasure Map",
+      "classes": null,
+      "races": null,
+      "coords": [25.9, 47.76],
+      "zone": "westfall",
+      "tips": [],
+      "quests": [
+        {
+          "id": 136,
+          "name": "Captain Sander's Treasure Map"
+        }
+      ],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "redridge_058",
+      "type": "quest_turnin",
+      "description": "Click the Captain's Footlocker and turn in Captain Sander's Treasure Map",
+      "classes": null,
+      "races": null,
+      "coords": [25.9, 47.76],
+      "zone": "westfall",
+      "tips": [],
+      "quests": [
+        {
+          "id": 136,
+          "name": "Captain Sander's Treasure Map"
+        }
+      ],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "redridge_059",
+      "type": "quest_accept",
+      "description": "Click the Captain's Footlocker and accept Captain Sander's Treasure Map",
+      "classes": null,
+      "races": null,
+      "coords": [25.9, 47.76],
+      "zone": "westfall",
+      "tips": [],
+      "quests": [
+        {
+          "id": 138,
+          "name": "Captain Sander's Treasure Map"
+        }
+      ],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "redridge_060",
+      "type": "quest_turnin",
+      "description": "Click the Broken Barrel. Turn in Captain Sander's Treasure Map and accept Captain Sander's Treasure Map",
+      "classes": null,
+      "races": null,
+      "coords": [40.51, 47.8],
+      "zone": "westfall",
+      "tips": [],
+      "quests": [
+        {
+          "id": 138,
+          "name": "Captain Sander's Treasure Map"
+        },
+        {
+          "id": 139,
+          "name": "Captain Sander's Treasure Map"
+        }
+      ],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "redridge_061",
+      "type": "quest_turnin",
+      "description": "Click the Old Jug. Turn in Captain Sander's Treasure Map and accept Captain Sander's Treasure Map",
+      "classes": null,
+      "races": null,
+      "coords": [40.63, 17.03],
+      "zone": "westfall",
+      "tips": [],
+      "quests": [
+        {
+          "id": 139,
+          "name": "Captain Sander's Treasure Map"
+        },
+        {
+          "id": 140,
+          "name": "Captain Sander's Treasure Map"
+        }
+      ],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "redridge_063",
+      "type": "quest_turnin",
+      "description": "Click the Locked Chest and turn in Captain Sander's Treasure Map",
+      "classes": null,
+      "races": null,
+      "coords": [25.97, 16.9],
+      "zone": "westfall",
+      "tips": [],
+      "quests": [
+        {
+          "id": 140,
+          "name": "Captain Sander's Treasure Map"
+        }
+      ],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "redridge_064",
+      "type": "quest_turnin",
+      "description": "Talk to Gryan Stoutmantle and turn in The Defias Brotherhood",
+      "classes": null,
+      "races": null,
+      "coords": [56.33, 47.52],
+      "zone": "westfall",
+      "tips": [],
+      "quests": [
+        {
+          "id": 155,
+          "name": "The Defias Brotherhood"
+        }
+      ],
+      "npc": "Gryan Stoutmantle",
+      "mobs": []
+    },
+    {
+      "id": "redridge_065",
+      "type": "quest_accept",
+      "description": "Talk to Gryan Stoutmantle and Scout Riell atop the Tower. Accept The Defias Brotherhood and Red Silk Bandanas",
+      "classes": null,
+      "races": null,
+      "coords": [56.67, 47.35],
+      "zone": "westfall",
+      "tips": [],
+      "quests": [
+        {
+          "id": 166,
+          "name": "The Defias Brotherhood"
+        },
+        {
+          "id": 214,
+          "name": "Red Silk Bandanas"
+        }
+      ],
+      "npc": "Scout Riell",
+      "mobs": []
+    },
+    {
+      "id": "redridge_066",
+      "type": "grind",
+      "description": "Now you should be looking for a group to The Deadmines. Grind gnolls while assembling a Deadmines group",
+      "classes": null,
+      "races": null,
+      "coords": [40.4, 71.6],
+      "zone": "westfall",
+      "tips": [],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "redridge_067",
+      "type": "travel",
+      "description": "Travel to The Deadmines",
+      "classes": null,
+      "races": null,
+      "coords": [42.55, 71.69],
+      "zone": "westfall",
+      "tips": [],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "redridge_068",
+      "type": "kill",
+      "description": "Kill the Defias. Loot them for their Bandanas. You may complete this after you enter the Dungeon",
+      "classes": null,
+      "races": null,
+      "coords": null,
+      "zone": "",
+      "tips": [
+        {
+          "type": "warning",
+          "class": null,
+          "text": "You may complete this after you enter the Dungeon"
+        }
+      ],
+      "quests": [
+        {
+          "id": 214,
+          "name": "Red Silk Bandanas"
+        }
+      ],
+      "npc": null,
+      "mobs": ["Defias"]
+    },
+    {
+      "id": "redridge_069",
+      "type": "kill",
+      "description": "Kill Skeletal Miners, Undead Dynamiters and Undead Excavators. Loot them for their Cards.",
+      "classes": null,
+      "races": null,
+      "coords": null,
+      "zone": "",
+      "tips": [
+        {
+          "type": "warning",
+          "class": null,
+          "text": "This is completed OUTSIDE of the Dungeon"
+        }
+      ],
+      "quests": [
+        {
+          "id": 168,
+          "name": "Collecting Memories"
+        }
+      ],
+      "npc": null,
+      "mobs": ["Skeletal Miner", "Undead Dynamiter", "Undead Excavator"]
+    },
+    {
+      "id": "redridge_070",
+      "type": "kill",
+      "description": "Kill Foreman Thistlenettle. Loot him for his Badge.",
+      "classes": null,
+      "races": null,
+      "coords": [41.08, 80.11],
+      "zone": "",
+      "tips": [
+        {
+          "type": "warning",
+          "class": null,
+          "text": "This is completed OUTSIDE of the Dungeon"
+        }
+      ],
+      "quests": [
+        {
+          "id": 167,
+          "name": "Oh Brother..."
+        }
+      ],
+      "npc": null,
+      "mobs": ["Foreman Thistlenettle"]
+    },
+    {
+      "id": "redridge_071",
+      "type": "kill",
+      "description": "Kill Skeletal Miners, Undead Dynamiters and Undead Excavators. Loot them for their Cards.",
+      "classes": null,
+      "races": null,
+      "coords": [41.08, 80.11],
+      "zone": "",
+      "tips": [
+        {
+          "type": "warning",
+          "class": null,
+          "text": "This is completed OUTSIDE of the Dungeon"
+        }
+      ],
+      "quests": [
+        {
+          "id": 168,
+          "name": "Collecting Memories"
+        }
+      ],
+      "npc": null,
+      "mobs": ["Skeletal Miner", "Undead Dynamiter", "Undead Excavator"]
+    },
+    {
+      "id": "redridge_072",
+      "type": "travel",
+      "description": "Enter The Deadmines Dungeon",
+      "classes": null,
+      "races": null,
+      "coords": [40.678, 79.578],
+      "zone": "",
+      "tips": [],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "redridge_073",
+      "type": "kill",
+      "description": "Kill the Defias inside The Deadmines. Loot them for their Bandanas",
+      "classes": null,
+      "races": null,
+      "coords": null,
+      "zone": "the_deadmines",
+      "tips": [],
+      "quests": [
+        {
+          "id": 214,
+          "name": "Red Silk Bandanas"
+        }
+      ],
+      "npc": null,
+      "mobs": ["Defias"]
+    },
+    {
+      "id": "redridge_074",
+      "type": "kill",
+      "description": "Kill Sneed. Loot him for the Gnoam Sprecklesprocket",
+      "classes": null,
+      "races": null,
+      "coords": null,
+      "zone": "the_deadmines",
+      "tips": [],
+      "quests": [
+        {
+          "id": 2040,
+          "name": "Underground Assault"
+        }
+      ],
+      "npc": null,
+      "mobs": ["Sneed"]
+    },
+    {
+      "id": "redridge_075",
+      "type": "kill",
+      "description": "Kill Edwin VanCleef. Loot him for his Head and An Unsent Letter. Use An Unsent Letter to start the quest",
+      "classes": null,
+      "races": null,
+      "coords": null,
+      "zone": "the_deadmines",
+      "tips": [
+        {
+          "type": "warning",
+          "class": null,
+          "text": "Use An Unsent Letter to start the quest"
+        }
+      ],
+      "quests": [
+        {
+          "id": 166,
+          "name": "The Defias Brotherhood"
+        },
+        {
+          "id": 373,
+          "name": "The Unsent Letter"
+        }
+      ],
+      "npc": null,
+      "mobs": ["Edwin VanCleef"]
+    },
+    {
+      "id": "redridge_076",
+      "type": "travel",
+      "description": "Travel to Sentinel Hill",
+      "classes": null,
+      "races": null,
+      "coords": [56.33, 47.52],
+      "zone": "westfall",
+      "tips": [],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "redridge_077",
+      "type": "quest_turnin",
+      "description": "Talk to Gryan Stoutmantle and Scout Riell atop the Tower. Turn in The Defias Brotherhood and Red Silk Bandanas",
+      "classes": null,
+      "races": null,
+      "coords": [56.67, 47.35],
+      "zone": "westfall",
+      "tips": [],
+      "quests": [
+        {
+          "id": 166,
+          "name": "The Defias Brotherhood"
+        },
+        {
+          "id": 214,
+          "name": "Red Silk Bandanas"
+        }
+      ],
+      "npc": "Scout Riell",
+      "mobs": []
+    },
+    {
+      "id": "redridge_078",
+      "type": "fly",
+      "description": "Talk to Thor and fly to Stormwind",
+      "classes": null,
+      "races": null,
+      "coords": [56.55, 52.64],
+      "zone": "westfall",
+      "tips": [],
+      "quests": [],
+      "npc": "Thor",
+      "mobs": []
+    },
+    {
+      "id": "redridge_079",
+      "type": "quest_accept",
+      "description": "Talk to Argos Nightwhisper and accept The Corruption Abroad",
+      "classes": null,
+      "races": null,
+      "coords": [21.4, 55.8],
+      "zone": "stormwind_city",
+      "tips": [],
+      "quests": [
+        {
+          "id": 3765,
+          "name": "The Corruption Abroad"
+        }
+      ],
+      "npc": "Argos Nightwhisper",
+      "mobs": []
+    },
+    {
+      "id": "redridge_080",
+      "type": "quest_accept",
+      "description": "Talk to Brother Kristoff and accept Speaking of Fortitude.",
+      "classes": null,
+      "races": null,
+      "coords": [45.694, 38.416],
+      "zone": "stormwind_city",
+      "tips": [
+        {
+          "type": "info",
+          "class": null,
+          "text": "Skip this step if you aren't level 20 yet"
+        }
+      ],
+      "quests": [
+        {
+          "id": 343,
+          "name": "Speaking of Fortitude"
+        }
+      ],
+      "npc": "Brother Kristoff",
+      "mobs": []
+    },
+    {
+      "id": "redridge_081",
+      "type": "quest_turnin",
+      "description": "Talk to Baros Alexston. Turn in The Unsent Letter and accept Bazil Thredd",
+      "classes": null,
+      "races": null,
+      "coords": [49.193, 30.285],
+      "zone": "stormwind_city",
+      "tips": [],
+      "quests": [
+        {
+          "id": 373,
+          "name": "The Unsent Letter"
+        },
+        {
+          "id": 389,
+          "name": "Bazil Thredd"
+        }
+      ],
+      "npc": "Baros Alexston",
+      "mobs": []
+    },
+    {
+      "id": "redridge_082",
+      "type": "quest_turnin",
+      "description": "Talk to Wilder Thistlenettle and Shoni the Shilent. Turn in Oh Brother..., Collecting Memories, and Underground Assault",
+      "classes": null,
+      "races": null,
+      "coords": [55.51, 12.504],
+      "zone": "stormwind_city",
+      "tips": [],
+      "quests": [
+        {
+          "id": 167,
+          "name": "Oh Brother..."
+        },
+        {
+          "id": 168,
+          "name": "Collecting Memories"
+        },
+        {
+          "id": 2040,
+          "name": "Underground Assault"
+        }
+      ],
+      "npc": "Shoni the Shilent",
+      "mobs": []
+    },
+    {
+      "id": "redridge_083",
+      "type": "quest_accept",
+      "description": "Talk to Brother Kristoff and accept Speaking of Fortitude.",
+      "classes": null,
+      "races": null,
+      "coords": [45.694, 38.416],
+      "zone": "stormwind_city",
+      "tips": [
+        {
+          "type": "info",
+          "class": null,
+          "text": "Skip this step if you aren't level 20 yet"
+        }
+      ],
+      "quests": [
+        {
+          "id": 343,
+          "name": "Speaking of Fortitude"
+        }
+      ],
+      "npc": "Brother Kristoff",
+      "mobs": []
+    },
+    {
+      "id": "redridge_084",
+      "type": "travel",
+      "description": "Travel toward Milton Sheaf in the Stormwind Library.",
+      "classes": null,
+      "races": null,
+      "coords": [70.713, 10.717],
+      "zone": "stormwind_city",
+      "tips": [
+        {
+          "type": "info",
+          "class": null,
+          "text": "Skip this step if you aren't level 20 yet"
+        }
+      ],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "redridge_085",
+      "type": "quest_turnin",
+      "description": "Talk to Milton Sheaf. Turn in Speaking of Fortitude and accept Brother Paxton.",
+      "classes": null,
+      "races": null,
+      "coords": [74.182, 7.465],
+      "zone": "stormwind_city",
+      "tips": [
+        {
+          "type": "info",
+          "class": null,
+          "text": "Skip this step if you aren't level 20 yet"
+        }
+      ],
+      "quests": [
+        {
+          "id": 343,
+          "name": "Speaking of Fortitude"
+        },
+        {
+          "id": 344,
+          "name": "Brother Paxton"
+        }
+      ],
+      "npc": "Milton Sheaf",
+      "mobs": []
+    },
+    {
+      "id": "redridge_086",
+      "type": "quest_turnin",
+      "description": "Talk to Warden Thelwater and turn in Bazil Thredd",
+      "classes": null,
+      "races": null,
+      "coords": [41.102, 58.091],
+      "zone": "stormwind_city",
+      "tips": [],
+      "quests": [
+        {
+          "id": 389,
+          "name": "Bazil Thredd"
+        }
+      ],
+      "npc": "Warden Thelwater",
+      "mobs": []
+    },
+    {
+      "id": "redridge_087",
+      "type": "fly",
+      "description": "Talk to Thor and fly to Redridge if you are still in Westfall",
+      "classes": null,
+      "races": null,
+      "coords": [56.55, 52.64],
+      "zone": "westfall",
+      "tips": [],
+      "quests": [],
+      "npc": "Thor",
+      "mobs": []
+    },
+    {
+      "id": "redridge_088",
+      "type": "travel",
+      "description": "Exit Stormwind. Travel to Goldshire",
+      "classes": null,
+      "races": null,
+      "coords": [32.24, 49.723],
+      "zone": "elwynn_forest",
+      "tips": [],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "redridge_089",
+      "type": "quest_turnin",
+      "description": "Talk to Smith Argus. Turn in The Price of Shoes and accept Return to Verner",
+      "classes": null,
+      "races": null,
+      "coords": [41.71, 65.55],
+      "zone": "elwynn_forest",
+      "tips": [],
+      "quests": [
+        {
+          "id": 118,
+          "name": "The Price of Shoes"
+        },
+        {
+          "id": 119,
+          "name": "Return to Verner"
+        }
+      ],
+      "npc": "Smith Argus",
+      "mobs": []
+    },
+    {
+      "id": "redridge_090",
+      "type": "travel",
+      "description": "Travel to the Northshire Abbey",
+      "classes": null,
+      "races": null,
+      "coords": [48.61, 41.8],
+      "zone": "elwynn_forest",
+      "tips": [],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "redridge_091",
+      "type": "quest_turnin",
+      "description": "Talk to Brother Paxton. Turn in Brother Paxton and accept Ink Supplies",
+      "classes": null,
+      "races": null,
+      "coords": [49.6, 40.41],
+      "zone": "elwynn_forest",
+      "tips": [],
+      "quests": [
+        {
+          "id": 344,
+          "name": "Brother Paxton"
+        },
+        {
+          "id": 345,
+          "name": "Ink Supplies"
+        }
+      ],
+      "npc": "Brother Paxton",
+      "mobs": []
+    },
+    {
+      "id": "redridge_092",
+      "type": "travel",
+      "description": "Travel to the Tower of Azora. Ascend the tower. Follow the arrow for a shortcut through the mountains",
+      "classes": null,
+      "races": null,
+      "coords": [65.2, 69.8],
+      "zone": "elwynn_forest",
+      "tips": [],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "redridge_093",
+      "type": "quest_accept",
+      "description": "Talk to Theocritus at the top and accept A Watchful Eye",
+      "classes": null,
+      "races": null,
+      "coords": [65.22, 69.71],
+      "zone": "elwynn_forest",
+      "tips": [],
+      "quests": [
+        {
+          "id": 94,
+          "name": "A Watchful Eye"
+        }
+      ],
+      "npc": "Theocritus",
+      "mobs": []
+    },
+    {
+      "id": "redridge_094",
+      "type": "info",
+      "description": "Talk to Dawn Brightstar.",
+      "classes": null,
+      "races": null,
+      "coords": [64.88, 69.192],
+      "zone": "elwynn_forest",
+      "tips": [
+        {
+          "type": "info",
+          "class": null,
+          "text": "Dawn Brightstar has has limited supply items such as Scrolls and Potions as well, which you should buy if available"
+        }
+      ],
+      "quests": [],
+      "npc": "Dawn Brightstar",
+      "mobs": []
+    },
+    {
+      "id": "redridge_095",
+      "type": "travel",
+      "description": "Travel to Redridge Mountains",
+      "classes": null,
+      "races": null,
+      "coords": [6.7, 72.4],
+      "zone": "redridge_mountains",
+      "tips": [],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "redridge_096",
+      "type": "fly",
+      "description": "Talk to Dungar Longdrink and fly to Redridge",
+      "classes": null,
+      "races": null,
+      "coords": [66.27, 62.12],
+      "zone": "stormwind_city",
+      "tips": [],
+      "quests": [],
+      "npc": "Dungar Longdrink",
+      "mobs": []
+    },
+    {
+      "id": "redridge_097",
+      "type": "quest_accept",
+      "description": "Talk to Guard Parker and accept Encroaching Gnolls",
+      "classes": null,
+      "races": null,
+      "coords": [15.3, 71.5],
+      "zone": "redridge_mountains",
+      "tips": [],
+      "quests": [
+        {
+          "id": 244,
+          "name": "Encroaching Gnolls"
+        }
+      ],
+      "npc": "Guard Parker",
+      "mobs": []
+    },
+    {
+      "id": "redridge_098",
+      "type": "quest_turnin",
+      "description": "Talk to Guard Parker. Turn in A Free Lunch and accept Visit the Herbalist",
+      "classes": null,
+      "races": null,
+      "coords": [15.27, 71.45],
+      "zone": "redridge_mountains",
+      "tips": [],
+      "quests": [
+        {
+          "id": 129,
+          "name": "A Free Lunch"
+        },
+        {
+          "id": 130,
+          "name": "Visit the Herbalist"
+        }
+      ],
+      "npc": "Guard Parker",
+      "mobs": []
+    },
+    {
+      "id": "redridge_099",
+      "type": "quest_turnin",
+      "description": "Talk to Deputy Feldon. Turn in Encroaching Gnolls and accept Assessing the Threat",
+      "classes": null,
+      "races": null,
+      "coords": [30.7, 60.0],
+      "zone": "redridge_mountains",
+      "tips": [],
+      "quests": [
+        {
+          "id": 244,
+          "name": "Encroaching Gnolls"
+        },
+        {
+          "id": 246,
+          "name": "Assessing the Threat"
+        }
+      ],
+      "npc": "Deputy Feldon",
+      "mobs": []
+    },
+    {
+      "id": "redridge_100",
+      "type": "quest_turnin",
+      "description": "Talk to Foreman Oslow and turn in Ink Supplies",
+      "classes": null,
+      "races": null,
+      "coords": [32.13, 48.63],
+      "zone": "redridge_mountains",
+      "tips": [],
+      "quests": [
+        {
+          "id": 345,
+          "name": "Ink Supplies"
+        }
+      ],
+      "npc": "Foreman Oslow",
+      "mobs": []
+    },
+    {
+      "id": "redridge_101",
+      "type": "quest_turnin",
+      "description": "Talk to Verner Osgood. Turn in Return to Verner and accept A Baying of Gnolls and Underbelly Scales",
+      "classes": null,
+      "races": null,
+      "coords": [30.97, 47.27],
+      "zone": "redridge_mountains",
+      "tips": [],
+      "quests": [
+        {
+          "id": 119,
+          "name": "Return to Verner"
+        },
+        {
+          "id": 124,
+          "name": "A Baying of Gnolls"
+        },
+        {
+          "id": 122,
+          "name": "Underbelly Scales"
+        }
+      ],
+      "npc": "Verner Osgood",
+      "mobs": []
+    },
+    {
+      "id": "redridge_102",
+      "type": "kill",
+      "description": "Kill Great Goretusks. Loot them for their Great Goretusk Snouts. Kill Tarantulas. Loot them for their Crisp Spider Meat. Kill Dire Condors. Loot them for their Tough Condor Meat",
+      "classes": null,
+      "races": null,
+      "coords": null,
+      "zone": "",
+      "tips": [
+        {
+          "type": "warning",
+          "class": null,
+          "text": "Do NOT sell any of these items until you turn the Redridge Goulash quest"
+        },
+        {
+          "type": "warning",
+          "class": null,
+          "text": "Save any Chunks of Boar Meat you loot as well as you can use them to level Cooking to 50 which is required for Duskwood later"
+        }
+      ],
+      "quests": [
+        {
+          "id": 92,
+          "name": "Redridge Goulash"
+        }
+      ],
+      "npc": null,
+      "mobs": ["Great Goretusk", "Tarantula", "Dire Condor"]
+    },
+    {
+      "id": "redridge_103",
+      "type": "kill",
+      "description": "Kill Black Dragon Whelps. Loot them for their Scales. You don't have to complete this quest now",
+      "classes": null,
+      "races": null,
+      "coords": null,
+      "zone": "",
+      "tips": [
+        {
+          "type": "info",
+          "class": null,
+          "text": "You don't have to complete this quest now"
+        }
+      ],
+      "quests": [
+        {
+          "id": 122,
+          "name": "Underbelly Scales"
+        }
+      ],
+      "npc": null,
+      "mobs": ["Black Dragon Whelp"]
+    },
+    {
+      "id": "redridge_104",
+      "type": "kill",
+      "description": "Kill Redridge Mongrels and Redridge Poachers",
+      "classes": null,
+      "races": null,
+      "coords": [31.13, 82.18],
+      "zone": "redridge_mountains",
+      "tips": [],
+      "quests": [
+        {
+          "id": 246,
+          "name": "Assessing the Threat"
+        }
+      ],
+      "npc": null,
+      "mobs": ["Redridge Mongrel", "Redridge Poacher"]
+    },
+    {
+      "id": "redridge_105",
+      "type": "kill",
+      "description": "Kill Great Goretusks. Loot them for their Great Goretusk Snouts. Kill Dire Condors. Loot them for their Tough Condor Meat",
+      "classes": null,
+      "races": null,
+      "coords": null,
+      "zone": "",
+      "tips": [
+        {
+          "type": "warning",
+          "class": null,
+          "text": "Do NOT sell any of these items until you turn the Redridge Goulash quest"
+        },
+        {
+          "type": "warning",
+          "class": null,
+          "text": "Save any Chunks of Boar Meat you loot as well as you can use them to level Cooking to 50 which is required for Duskwood later"
+        }
+      ],
+      "quests": [
+        {
+          "id": 92,
+          "name": "Redridge Goulash"
+        }
+      ],
+      "npc": null,
+      "mobs": ["Great Goretusk", "Dire Condor"]
+    },
+    {
+      "id": "redridge_106",
+      "type": "kill",
+      "description": "Kill Tarantulas. Loot them for their Crisp Spider Meat",
+      "classes": null,
+      "races": null,
+      "coords": [18.86, 73.63],
+      "zone": "redridge_mountains",
+      "tips": [],
+      "quests": [
+        {
+          "id": 92,
+          "name": "Redridge Goulash"
+        }
+      ],
+      "npc": null,
+      "mobs": ["Tarantula"]
+    },
+    {
+      "id": "redridge_108",
+      "type": "loot",
+      "description": "Jump into the Lake. Be aware of the patrolling Elite Lake Thresher in the water. Open the Sunken Chest. Loot it for Oslow's Toolbox",
+      "classes": null,
+      "races": null,
+      "coords": [41.52, 54.68],
+      "zone": "redridge_mountains",
+      "tips": [
+        {
+          "type": "warning",
+          "class": null,
+          "text": "Jump into the Lake. Be aware of the patrolling Elite Lake Thresher in the water"
+        }
+      ],
+      "quests": [
+        {
+          "id": 125,
+          "name": "The Lost Tools"
+        }
+      ],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "redridge_109",
+      "type": "grind",
+      "description": "Grind until you are 3000 xp away from level 20",
+      "classes": null,
+      "races": null,
+      "coords": [49.0, 70.0],
+      "zone": "redridge_mountains",
+      "tips": [],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "redridge_110",
+      "type": "travel",
+      "description": "Travel to Lakeshire",
+      "classes": null,
+      "races": null,
+      "coords": [30.73, 59.99],
+      "zone": "redridge_mountains",
+      "tips": [],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "redridge_111",
+      "type": "quest_turnin",
+      "description": "Talk to Foreman Oslow. Turn in The Lost Tools and accept The Everstill Bridge",
+      "classes": null,
+      "races": null,
+      "coords": [32.13, 48.63],
+      "zone": "redridge_mountains",
+      "tips": [],
+      "quests": [
+        {
+          "id": 125,
+          "name": "The Lost Tools"
+        },
+        {
+          "id": 89,
+          "name": "The Everstill Bridge"
+        }
+      ],
+      "npc": "Foreman Oslow",
+      "mobs": []
+    },
+    {
+      "id": "redridge_112",
+      "type": "quest_turnin",
+      "description": "Talk to Verner Osgood and turn in Underbelly Scales.",
+      "classes": null,
+      "races": null,
+      "coords": [31.0, 47.3],
+      "zone": "redridge_mountains",
+      "tips": [
+        {
+          "type": "info",
+          "class": null,
+          "text": "Skip this step if you have not completed Underbelly Scales yet, you will do it later"
+        }
+      ],
+      "quests": [
+        {
+          "id": 122,
+          "name": "Underbelly Scales"
+        }
+      ],
+      "npc": "Verner Osgood",
+      "mobs": []
+    },
+    {
+      "id": "redridge_113",
+      "type": "quest_turnin",
+      "description": "Talk to Magistrate Solomon and turn in Messenger to Stormwind",
+      "classes": null,
+      "races": null,
+      "coords": [29.98, 44.45],
+      "zone": "redridge_mountains",
+      "tips": [],
+      "quests": [
+        {
+          "id": 121,
+          "name": "Messenger to Stormwind"
+        }
+      ],
+      "npc": "Magistrate Solomon",
+      "mobs": []
+    },
+    {
+      "id": "redridge_114",
+      "type": "quest_turnin",
+      "description": "Talk to Martie Jainrose. Turn in Visit the Herbalist and accept Delivering Daffodils",
+      "classes": null,
+      "races": null,
+      "coords": [21.86, 46.33],
+      "zone": "redridge_mountains",
+      "tips": [],
+      "quests": [
+        {
+          "id": 130,
+          "name": "Visit the Herbalist"
+        },
+        {
+          "id": 131,
+          "name": "Delivering Daffodils"
+        }
+      ],
+      "npc": "Martie Jainrose",
+      "mobs": []
+    },
+    {
+      "id": "redridge_115",
+      "type": "quest_turnin",
+      "description": "Talk to Chef Breanna and turn in Redridge Goulash",
+      "classes": null,
+      "races": null,
+      "coords": [22.67, 43.83],
+      "zone": "redridge_mountains",
+      "tips": [],
+      "quests": [
+        {
+          "id": 92,
+          "name": "Redridge Goulash"
+        }
+      ],
+      "npc": "Chef Breanna",
+      "mobs": []
+    },
+    {
+      "id": "redridge_116",
+      "type": "quest_turnin",
+      "description": "Talk to Darcy and turn in Delivering Daffodils. Darcy walks around inside the Inn",
+      "classes": null,
+      "races": null,
+      "coords": [26.8, 44.3],
+      "zone": "redridge_mountains",
+      "tips": [
+        {
+          "type": "info",
+          "class": null,
+          "text": "Darcy walks around inside the Inn"
+        }
+      ],
+      "quests": [
+        {
+          "id": 131,
+          "name": "Delivering Daffodils"
+        }
+      ],
+      "npc": "Darcy",
+      "mobs": []
+    },
+    {
+      "id": "redridge_117",
+      "type": "quest_turnin",
+      "description": "Talk to Deputy Feldon and turn in Assessing the Threat",
+      "classes": null,
+      "races": null,
+      "coords": [30.73, 59.99],
+      "zone": "redridge_mountains",
+      "tips": [],
+      "quests": [
+        {
+          "id": 246,
+          "name": "Assessing the Threat"
+        }
+      ],
+      "npc": "Deputy Feldon",
+      "mobs": []
+    },
+    {
+      "id": "redridge_118",
+      "type": "info",
+      "description": "Ensure you are level 20 before flying to Stormwind",
+      "classes": null,
+      "races": null,
+      "coords": null,
+      "zone": "",
+      "tips": [],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "redridge_119",
+      "type": "fly",
+      "description": "Talk to Ariena Stormfeather and fly to Stormwind City",
+      "classes": null,
+      "races": null,
+      "coords": [30.59, 59.42],
+      "zone": "redridge_mountains",
+      "tips": [],
+      "quests": [],
+      "npc": "Ariena Stormfeather",
+      "mobs": []
+    },
+    {
+      "id": "redridge_120",
+      "type": "travel",
+      "description": "Travel to The Slaughtered Lamb and go downstairs",
+      "classes": ["Warlock"],
+      "races": null,
+      "coords": [27.2, 78.1],
+      "zone": "stormwind_city",
+      "tips": [],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "redridge_121",
+      "type": "info",
+      "description": "Talk to Ursula Deline and train your class spells",
+      "classes": ["Warlock"],
+      "races": null,
+      "coords": [26.117, 77.225],
+      "zone": "stormwind_city",
+      "tips": [],
+      "quests": [],
+      "npc": "Ursula Deline",
+      "mobs": []
+    },
+    {
+      "id": "redridge_122",
+      "type": "info",
+      "description": "Talk to Spackle Thornberry. Buy Grimoire of Torment (Rank 2)",
+      "classes": ["Warlock"],
+      "races": null,
+      "coords": [25.665, 77.649],
+      "zone": "stormwind_city",
+      "tips": [],
+      "quests": [],
+      "npc": "Spackle Thornberry",
+      "mobs": []
+    },
+    {
+      "id": "redridge_123",
+      "type": "quest_accept",
+      "description": "Talk to Gakin the Darkbinder and accept Devourer of Souls",
+      "classes": ["Warlock"],
+      "races": null,
+      "coords": [25.25, 78.59],
+      "zone": "stormwind_city",
+      "tips": [],
+      "quests": [
+        {
+          "id": 1716,
+          "name": "Devourer of Souls"
+        }
+      ],
+      "npc": "Gakin the Darkbinder",
+      "mobs": []
+    },
+    {
+      "id": "redridge_124",
+      "type": "travel",
+      "description": "Travel to the Mage Tower",
+      "classes": ["Mage"],
+      "races": null,
+      "coords": [37.69, 82.09],
+      "zone": "stormwind_city",
+      "tips": [],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "redridge_125",
+      "type": "info",
+      "description": "Talk to Elsharin and train your class spells",
+      "classes": ["Mage"],
+      "races": null,
+      "coords": [36.87, 81.14],
+      "zone": "stormwind_city",
+      "tips": [],
+      "quests": [],
+      "npc": "Elsharin",
+      "mobs": []
+    },
+    {
+      "id": "redridge_126",
+      "type": "info",
+      "description": "Talk to Larimaine Purdue and train Teleport: Stormwind",
+      "classes": ["Mage"],
+      "races": null,
+      "coords": [39.68, 79.55],
+      "zone": "stormwind_city",
+      "tips": [],
+      "quests": [],
+      "npc": "Larimaine Purdue",
+      "mobs": []
+    },
+    {
+      "id": "redridge_127",
+      "type": "info",
+      "description": "Talk to Sheldras Moontree and train your class spells. Train Cat Form",
+      "classes": ["Druid"],
+      "races": null,
+      "coords": [20.89, 55.5],
+      "zone": "stormwind_city",
+      "tips": [],
+      "quests": [],
+      "npc": "Sheldras Moontree",
+      "mobs": []
+    },
+    {
+      "id": "redridge_128",
+      "type": "info",
+      "description": "Talk to Marda Weller. Buy a Longsword and equip it at 21. Buy something from the Auction House if there's something cheaper/better.",
+      "classes": ["Rogue"],
+      "races": null,
+      "coords": [57.38, 56.77],
+      "zone": "stormwind_city",
+      "tips": [
+        {
+          "type": "warning",
+          "class": null,
+          "text": "Skip this step if you have something better"
+        }
+      ],
+      "quests": [],
+      "npc": "Marda Weller",
+      "mobs": []
+    },
+    {
+      "id": "redridge_129",
+      "type": "info",
+      "description": "Talk to Auctioneer Jaxon. Buy the Anti-Venom for your Poisons quest later.",
+      "classes": ["Rogue"],
+      "races": ["!Dwarf"],
+      "coords": [53.612, 59.764],
+      "zone": "stormwind_city",
+      "tips": [
+        {
+          "type": "info",
+          "class": null,
+          "text": "This will save you time as you won't need to run around looking for mobs to kill. Skip this step if you wish to not buy it"
+        }
+      ],
+      "quests": [
+        {
+          "id": 2359,
+          "name": "Klaven's Tower"
+        }
+      ],
+      "npc": "Auctioneer Jaxon",
+      "mobs": []
+    },
+    {
+      "id": "redridge_130",
+      "type": "info",
+      "description": "Talk to Marda Weller. Buy a Longsword and equip it at 21. Buy something from the Auction House if there's something cheaper/better.",
+      "classes": ["Rogue"],
+      "races": null,
+      "coords": [57.38, 56.77],
+      "zone": "stormwind_city",
+      "tips": [
+        {
+          "type": "warning",
+          "class": null,
+          "text": "Skip this step if you have something better"
+        }
+      ],
+      "quests": [],
+      "npc": "Marda Weller",
+      "mobs": []
+    },
+    {
+      "id": "redridge_131",
+      "type": "info",
+      "description": "Talk to Gunther Weller. Buy a Dacian Falx if you have enough money. Equip it at 21. Buy something from the Auction House if there's something cheaper/better.",
+      "classes": ["Warrior", "Paladin"],
+      "races": null,
+      "coords": [57.54, 57.07],
+      "zone": "stormwind_city",
+      "tips": [
+        {
+          "type": "warning",
+          "class": null,
+          "text": "Skip this step if you have something better"
+        }
+      ],
+      "quests": [],
+      "npc": "Gunther Weller",
+      "mobs": []
+    },
+    {
+      "id": "redridge_132",
+      "type": "info",
+      "description": "Talk to Gunther Weller. Buy a Dacian Falx if you have enough money. Equip it at 21. Buy something from the Auction House if there's something cheaper/better.",
+      "classes": ["Warrior", "Paladin"],
+      "races": null,
+      "coords": [57.54, 57.07],
+      "zone": "stormwind_city",
+      "tips": [
+        {
+          "type": "warning",
+          "class": null,
+          "text": "Skip this step if you have something better"
+        }
+      ],
+      "quests": [],
+      "npc": "Gunther Weller",
+      "mobs": []
+    },
+    {
+      "id": "redridge_133",
+      "type": "quest_accept",
+      "description": "Talk to Argos Nightwhisper and accept The Corruption Abroad",
+      "classes": null,
+      "races": null,
+      "coords": [21.4, 55.8],
+      "zone": "stormwind_city",
+      "tips": [],
+      "quests": [
+        {
+          "id": 3765,
+          "name": "The Corruption Abroad"
+        }
+      ],
+      "npc": "Argos Nightwhisper",
+      "mobs": []
+    },
+    {
+      "id": "redridge_134",
+      "type": "quest_accept",
+      "description": "Talk to Brother Kristoff and accept Speaking of Fortitude",
+      "classes": null,
+      "races": null,
+      "coords": [45.694, 38.416],
+      "zone": "stormwind_city",
+      "tips": [],
+      "quests": [
+        {
+          "id": 343,
+          "name": "Speaking of Fortitude"
+        }
+      ],
+      "npc": "Brother Kristoff",
+      "mobs": []
+    },
+    {
+      "id": "redridge_135",
+      "type": "travel",
+      "description": "Travel to the Stormwind Cathedral",
+      "classes": ["Paladin", "Priest"],
+      "races": null,
+      "coords": [42.51, 33.51],
+      "zone": "stormwind_city",
+      "tips": [],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "redridge_136",
+      "type": "quest_accept",
+      "description": "Talk to Duthorian Rall. He will give you the Tome of Valor. Use the Tome of Valor to start the quest. Accept The Tome of Valor",
+      "classes": ["Paladin"],
+      "races": null,
+      "coords": [39.8, 29.77],
+      "zone": "stormwind_city",
+      "tips": [
+        {
+          "type": "warning",
+          "class": null,
+          "text": "Use the Tome of Valor to start the quest"
+        }
+      ],
+      "quests": [
+        {
+          "id": 1649,
+          "name": "The Tome of Valor"
+        }
+      ],
+      "npc": "Duthorian Rall",
+      "mobs": []
+    },
+    {
+      "id": "redridge_137",
+      "type": "quest_turnin",
+      "description": "Talk to Duthorian Rall and turn in The Tome of Valor",
+      "classes": ["Paladin"],
+      "races": null,
+      "coords": [39.8, 29.77],
+      "zone": "stormwind_city",
+      "tips": [],
+      "quests": [
+        {
+          "id": 1649,
+          "name": "The Tome of Valor"
+        }
+      ],
+      "npc": "Duthorian Rall",
+      "mobs": []
+    },
+    {
+      "id": "redridge_138",
+      "type": "info",
+      "description": "Talk to Arthur the Faithful and train your class spells",
+      "classes": ["Paladin"],
+      "races": null,
+      "coords": [38.67, 32.82],
+      "zone": "stormwind_city",
+      "tips": [],
+      "quests": [],
+      "npc": "Arthur the Faithful",
+      "mobs": []
+    },
+    {
+      "id": "redridge_139",
+      "type": "info",
+      "description": "Talk to Brother Joshua and train your class spells",
+      "classes": ["Priest"],
+      "races": null,
+      "coords": [38.54, 26.86],
+      "zone": "stormwind_city",
+      "tips": [],
+      "quests": [],
+      "npc": "Brother Joshua",
+      "mobs": []
+    },
+    {
+      "id": "redridge_140",
+      "type": "travel",
+      "description": "Travel toward Milton Sheaf in the Stormwind Library",
+      "classes": null,
+      "races": null,
+      "coords": [70.713, 10.717],
+      "zone": "stormwind_city",
+      "tips": [],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "redridge_141",
+      "type": "quest_turnin",
+      "description": "Talk to Milton Sheaf. Turn in Speaking of Fortitude and accept Brother Paxton",
+      "classes": null,
+      "races": null,
+      "coords": [74.182, 7.465],
+      "zone": "stormwind_city",
+      "tips": [],
+      "quests": [
+        {
+          "id": 343,
+          "name": "Speaking of Fortitude"
+        },
+        {
+          "id": 344,
+          "name": "Brother Paxton"
+        }
+      ],
+      "npc": "Milton Sheaf",
+      "mobs": []
+    },
+    {
+      "id": "redridge_142",
+      "type": "info",
+      "description": "Talk to Einris Brightspear and train your class spells",
+      "classes": ["Hunter"],
+      "races": null,
+      "coords": [61.609, 15.269],
+      "zone": "stormwind_city",
+      "tips": [],
+      "quests": [],
+      "npc": "Einris Brightspear",
+      "mobs": []
+    },
+    {
+      "id": "redridge_143",
+      "type": "info",
+      "description": "Talk to Osborne and train your class spells. Train Pick Lock to learn Lockpicking",
+      "classes": ["Rogue"],
+      "races": null,
+      "coords": [74.64, 52.82],
+      "zone": "stormwind_city",
+      "tips": [],
+      "quests": [],
+      "npc": "Osborne the Night Man",
+      "mobs": []
+    },
+    {
+      "id": "redridge_144",
+      "type": "travel",
+      "description": "Enter the SI:7 Headquarters. Travel up stairs toward Renzik The Shiv and Master Mathias Shaw",
+      "classes": ["Rogue"],
+      "races": null,
+      "coords": [78.67, 60.13],
+      "zone": "stormwind_city",
+      "tips": [],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "redridge_145",
+      "type": "quest_accept",
+      "description": "Talk to Renzik The Shiv and Master Mathias Shaw. Accept Redridge Rendezvous and Mathias and the Defias",
+      "classes": ["Rogue"],
+      "races": null,
+      "coords": [75.78, 59.84],
+      "zone": "stormwind_city",
+      "tips": [],
+      "quests": [
+        {
+          "id": 2281,
+          "name": "Redridge Rendezvous"
+        },
+        {
+          "id": 2360,
+          "name": "Mathias and the Defias"
+        }
+      ],
+      "npc": "Master Mathias Shaw",
+      "mobs": []
+    },
+    {
+      "id": "redridge_146",
+      "type": "info",
+      "description": "Talk to Wu Shen or Ilsa Corbin and train your class spells",
+      "classes": ["Warrior"],
+      "races": null,
+      "coords": [78.68, 45.79],
+      "zone": "stormwind_city",
+      "tips": [],
+      "quests": [],
+      "npc": "Wu Shen",
+      "mobs": []
+    },
+    {
+      "id": "redridge_147",
+      "type": "travel",
+      "description": "Exit Stormwind. Travel to Goldshire",
+      "classes": null,
+      "races": null,
+      "coords": [32.24, 49.723],
+      "zone": "elwynn_forest",
+      "tips": [],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "redridge_148",
+      "type": "quest_turnin",
+      "description": "Talk to Smith Argus. Turn in The Price of Shoes and accept Return to Verner",
+      "classes": null,
+      "races": null,
+      "coords": [41.71, 65.55],
+      "zone": "elwynn_forest",
+      "tips": [],
+      "quests": [
+        {
+          "id": 118,
+          "name": "The Price of Shoes"
+        },
+        {
+          "id": 119,
+          "name": "Return to Verner"
+        }
+      ],
+      "npc": "Smith Argus",
+      "mobs": []
+    },
+    {
+      "id": "redridge_149",
+      "type": "travel",
+      "description": "Travel to the Northshire Abbey",
+      "classes": null,
+      "races": null,
+      "coords": [48.61, 41.8],
+      "zone": "elwynn_forest",
+      "tips": [],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "redridge_150",
+      "type": "quest_turnin",
+      "description": "Talk to Brother Paxton. Turn in Brother Paxton and accept Ink Supplies",
+      "classes": null,
+      "races": null,
+      "coords": [49.6, 40.41],
+      "zone": "elwynn_forest",
+      "tips": [],
+      "quests": [
+        {
+          "id": 344,
+          "name": "Brother Paxton"
+        },
+        {
+          "id": 345,
+          "name": "Ink Supplies"
+        }
+      ],
+      "npc": "Brother Paxton",
+      "mobs": []
+    },
+    {
+      "id": "redridge_151",
+      "type": "travel",
+      "description": "Travel to the Tower of Azora. Ascend the tower. Follow the arrow for a shortcut through the mountains",
+      "classes": null,
+      "races": null,
+      "coords": [65.2, 69.8],
+      "zone": "elwynn_forest",
+      "tips": [],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "redridge_152",
+      "type": "quest_accept",
+      "description": "Talk to Theocritus at the top and accept A Watchful Eye",
+      "classes": null,
+      "races": null,
+      "coords": [65.22, 69.71],
+      "zone": "elwynn_forest",
+      "tips": [],
+      "quests": [
+        {
+          "id": 94,
+          "name": "A Watchful Eye"
+        }
+      ],
+      "npc": "Theocritus",
+      "mobs": []
+    },
+    {
+      "id": "redridge_153",
+      "type": "info",
+      "description": "Talk to Dawn Brightstar. Dawn Brightstar has has limited supply items such as Scrolls and Potions as well, which you should buy if available",
+      "classes": null,
+      "races": null,
+      "coords": [64.88, 69.192],
+      "zone": "elwynn_forest",
+      "tips": [
+        {
+          "type": "info",
+          "class": null,
+          "text": "Dawn Brightstar has has limited supply items such as Scrolls and Potions as well, which you should buy if available"
+        }
+      ],
+      "quests": [],
+      "npc": "Dawn Brightstar",
+      "mobs": []
+    },
+    {
+      "id": "redridge_154",
+      "type": "travel",
+      "description": "Travel to Redridge Mountains",
+      "classes": null,
+      "races": null,
+      "coords": [6.7, 72.4],
+      "zone": "redridge_mountains",
+      "tips": [],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "redridge_155",
+      "type": "fly",
+      "description": "Talk to Dungar Longdrink and fly to Redridge if you are in Stormwind",
+      "classes": null,
+      "races": null,
+      "coords": [66.27, 62.12],
+      "zone": "stormwind_city",
+      "tips": [],
+      "quests": [],
+      "npc": "Dungar Longdrink",
+      "mobs": []
+    },
+    {
+      "id": "redridge_156",
+      "type": "quest_turnin",
+      "description": "Talk to Foreman Oslow and turn in Ink Supplies",
+      "classes": null,
+      "races": null,
+      "coords": [32.13, 48.63],
+      "zone": "redridge_mountains",
+      "tips": [],
+      "quests": [
+        {
+          "id": 345,
+          "name": "Ink Supplies"
+        }
+      ],
+      "npc": "Foreman Oslow",
+      "mobs": []
+    },
+    {
+      "id": "redridge_157",
+      "type": "quest_turnin",
+      "description": "Talk to Verner Osgood. Turn in Return to Verner and accept A Baying of Gnolls",
+      "classes": null,
+      "races": null,
+      "coords": [30.97, 47.27],
+      "zone": "redridge_mountains",
+      "tips": [],
+      "quests": [
+        {
+          "id": 119,
+          "name": "Return to Verner"
+        },
+        {
+          "id": 124,
+          "name": "A Baying of Gnolls"
+        }
+      ],
+      "npc": "Verner Osgood",
+      "mobs": []
+    },
+    {
+      "id": "redridge_158",
+      "type": "quest_accept",
+      "description": "Talk to Verner Osgood and accept Underbelly Scales",
+      "classes": null,
+      "races": null,
+      "coords": [30.97, 47.27],
+      "zone": "redridge_mountains",
+      "tips": [],
+      "quests": [
+        {
+          "id": 122,
+          "name": "Underbelly Scales"
+        }
+      ],
+      "npc": "Verner Osgood",
+      "mobs": []
+    },
+    {
+      "id": "redridge_159",
+      "type": "quest_turnin",
+      "description": "Talk to Lucius. Turn in Redridge Rendevous and accept Alther's Mill",
+      "classes": ["Rogue"],
+      "races": null,
+      "coords": [28.07, 52.02],
+      "zone": "redridge_mountains",
+      "tips": [],
+      "quests": [
+        {
+          "id": 2281,
+          "name": "Redridge Rendezvous"
+        },
+        {
+          "id": 2282,
+          "name": "Alther's Mill"
+        }
+      ],
+      "npc": "Lucius",
+      "mobs": []
+    },
+    {
+      "id": "redridge_160",
+      "type": "kill",
+      "description": "Kill Black Dragon Whelps. Loot them for their Scales",
+      "classes": null,
+      "races": null,
+      "coords": null,
+      "zone": "",
+      "tips": [],
+      "quests": [
+        {
+          "id": 122,
+          "name": "Underbelly Scales"
+        }
+      ],
+      "npc": null,
+      "mobs": ["Black Dragon Whelp"]
+    },
+    {
+      "id": "redridge_161",
+      "type": "kill",
+      "description": "Kill Redridge Brutes and Redridge Mystics. Loot them for their Iron Pikes and Iron Rivets",
+      "classes": null,
+      "races": null,
+      "coords": [22.5, 35.7],
+      "zone": "redridge_mountains",
+      "tips": [],
+      "quests": [
+        {
+          "id": 124,
+          "name": "A Baying of Gnolls"
+        },
+        {
+          "id": 89,
+          "name": "The Everstill Bridge"
+        }
+      ],
+      "npc": null,
+      "mobs": ["Redridge Mystic", "Redridge Brute"]
+    },
+    {
+      "id": "redridge_162",
+      "type": "info",
+      "description": "Open the Practice Lockboxes until you reach 80 in Lockpicking",
+      "classes": ["Rogue"],
+      "races": null,
+      "coords": [52.1, 45.24],
+      "zone": "redridge_mountains",
+      "tips": [],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "redridge_163",
+      "type": "loot",
+      "description": "Open Lucius's Lockbox. Loot it for the Token of Thievery",
+      "classes": ["Rogue"],
+      "races": null,
+      "coords": [52.05, 44.69],
+      "zone": "redridge_mountains",
+      "tips": [],
+      "quests": [
+        {
+          "id": 2282,
+          "name": "Alther's Mill"
+        }
+      ],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "redridge_164",
+      "type": "kill",
+      "description": "Kill Black Dragon Whelps. Loot them for their Scales",
+      "classes": null,
+      "races": null,
+      "coords": [36.58, 73.93],
+      "zone": "redridge_mountains",
+      "tips": [],
+      "quests": [
+        {
+          "id": 122,
+          "name": "Underbelly Scales"
+        }
+      ],
+      "npc": null,
+      "mobs": ["Black Dragon Whelp"]
+    },
+    {
+      "id": "redridge_165",
+      "type": "info",
+      "description": "Level up your Cooking using the Chunks of Boar Meat you farmed earlier. You need level 50 Cooking.",
+      "classes": null,
+      "races": null,
+      "coords": [26.52, 44.95],
+      "zone": "redridge_mountains",
+      "tips": [
+        {
+          "type": "warning",
+          "class": null,
+          "text": "If you need more Chunks of Boar Meat travel to the west near Bellygrub and kill more Great Goretusks"
+        }
+      ],
+      "quests": [],
+      "npc": null,
+      "mobs": ["Great Goretusk"]
+    },
+    {
+      "id": "redridge_166",
+      "type": "quest_turnin",
+      "description": "Talk to Foreman Oslow and turn in The Everstill Bridge",
+      "classes": null,
+      "races": null,
+      "coords": [32.1, 48.7],
+      "zone": "redridge_mountains",
+      "tips": [],
+      "quests": [
+        {
+          "id": 89,
+          "name": "The Everstill Bridge"
+        }
+      ],
+      "npc": "Foreman Oslow",
+      "mobs": []
+    },
+    {
+      "id": "redridge_167",
+      "type": "quest_turnin",
+      "description": "Talk to Verner Osgood. Turn in A Baying of Gnolls and Underbelly Scales",
+      "classes": null,
+      "races": null,
+      "coords": [31.0, 47.3],
+      "zone": "redridge_mountains",
+      "tips": [],
+      "quests": [
+        {
+          "id": 124,
+          "name": "A Baying of Gnolls"
+        },
+        {
+          "id": 122,
+          "name": "Underbelly Scales"
+        }
+      ],
+      "npc": "Verner Osgood",
+      "mobs": []
+    },
+    {
+      "id": "redridge_168",
+      "type": "quest_turnin",
+      "description": "Talk to Verner Osgood and turn in A Baying of Gnolls",
+      "classes": null,
+      "races": null,
+      "coords": [30.97, 47.27],
+      "zone": "redridge_mountains",
+      "tips": [],
+      "quests": [
+        {
+          "id": 124,
+          "name": "A Baying of Gnolls"
+        }
+      ],
+      "npc": "Verner Osgood",
+      "mobs": []
+    },
+    {
+      "id": "redridge_169",
+      "type": "quest_turnin",
+      "description": "Talk to Lucius and turn in Alther's Mill",
+      "classes": ["Rogue"],
+      "races": null,
+      "coords": [28.07, 52.02],
+      "zone": "redridge_mountains",
+      "tips": [],
+      "quests": [
+        {
+          "id": 2282,
+          "name": "Alther's Mill"
+        }
+      ],
+      "npc": "Lucius",
+      "mobs": []
+    },
+    {
+      "id": "redridge_170",
+      "type": "info",
+      "description": "Delete the Certificate of Thievery from your bags, as it's no longer needed",
+      "classes": ["Rogue"],
+      "races": null,
+      "coords": null,
+      "zone": "",
+      "tips": [],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "redridge_171",
+      "type": "fly",
+      "description": "Talk to Ariena Stormfeather and fly to Stormwind",
+      "classes": ["Rogue"],
+      "races": ["NightElf"],
+      "coords": [30.59, 59.42],
+      "zone": "redridge_mountains",
+      "tips": [],
+      "quests": [],
+      "npc": "Ariena Stormfeather",
+      "mobs": []
+    },
+    {
+      "id": "redridge_172",
+      "type": "travel",
+      "description": "Travel to Westfall",
+      "classes": ["Rogue"],
+      "races": ["NightElf"],
+      "coords": [56.55, 52.64],
+      "zone": "westfall",
+      "tips": [],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "redridge_173",
+      "type": "info",
+      "description": "Talk to Thor and get the Westfall flight path",
+      "classes": ["Rogue"],
+      "races": ["NightElf"],
+      "coords": [56.55, 52.64],
+      "zone": "westfall",
+      "tips": [],
+      "quests": [],
+      "npc": "Thor",
+      "mobs": []
+    },
+    {
+      "id": "redridge_174",
+      "type": "fly",
+      "description": "Talk to Ariena Stormfeather and fly to Westfall",
+      "classes": ["Rogue"],
+      "races": ["!NightElf"],
+      "coords": [30.59, 59.42],
+      "zone": "redridge_mountains",
+      "tips": [],
+      "quests": [],
+      "npc": "Ariena Stormfeather",
+      "mobs": []
+    },
+    {
+      "id": "redridge_175",
+      "type": "kill",
+      "description": "Kill Pygmy Venom Web Spiders and Venom Web Spiders. Loot them for a Small Venom Sac and their Gooey Spider Legs",
+      "classes": ["Rogue"],
+      "races": ["!Dwarf"],
+      "coords": [10.43, 53.97],
+      "zone": "duskwood",
+      "tips": [
+        {
+          "type": "warning",
+          "class": null,
+          "text": "You need a Small Venom Sac to make an Anti-Venom later to remove the Touch of Zanzil debuff later"
+        },
+        {
+          "type": "warning",
+          "class": null,
+          "text": "Save the Gooey Spider Legs for later"
+        },
+        {
+          "type": "warning",
+          "class": null,
+          "text": "If you have a Paladin or Druid friend you can skip this step and ask them to remove it for you later"
+        }
+      ],
+      "quests": [
+        {
+          "id": 2359,
+          "name": "Klaven's Tower"
+        },
+        {
+          "id": 93,
+          "name": "Dusky Crab Cakes"
+        }
+      ],
+      "npc": null,
+      "mobs": ["Pygmy Venom Web Spider", "Venom Web Spider"]
+    },
+    {
+      "id": "redridge_176",
+      "type": "info",
+      "description": "Pay attention to the upcoming section. Press Escape, then go into Options Controls. Check Enable Interact Key and bind the Interact with Target option to a key. Additionally, it's recommended you enable Enemy Nameplates (Default Key: V) as it allows you to see enemies behind some of the corners inside the tower",
+      "classes": ["Rogue"],
+      "races": null,
+      "coords": null,
+      "zone": "",
+      "tips": [],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "redridge_177",
+      "type": "quest_turnin",
+      "description": "Talk to Agent Kearnen. Turn in Mathias and the Defias. Accept Klaven's Tower. You MUST do this quest your Poisons",
+      "classes": ["Rogue"],
+      "races": null,
+      "coords": [68.5, 70.08],
+      "zone": "westfall",
+      "tips": [
+        {
+          "type": "warning",
+          "class": null,
+          "text": "You MUST do this quest your Poisons"
+        }
+      ],
+      "quests": [
+        {
+          "id": 2360,
+          "name": "Mathias and the Defias"
+        },
+        {
+          "id": 2359,
+          "name": "Klaven's Tower"
+        }
+      ],
+      "npc": "Agent Kearnen",
+      "mobs": []
+    },
+    {
+      "id": "redridge_178",
+      "type": "quest_accept",
+      "description": "Talk to Agent Kearnen and accept Klaven's Tower. You MUST do this quest your Poisons",
+      "classes": ["Rogue"],
+      "races": null,
+      "coords": [68.5, 70.08],
+      "zone": "westfall",
+      "tips": [],
+      "quests": [
+        {
+          "id": 2359,
+          "name": "Klaven's Tower"
+        }
+      ],
+      "npc": "Agent Kearnen",
+      "mobs": []
+    },
+    {
+      "id": "redridge_179",
+      "type": "loot",
+      "description": "Pick Pocket the Malformed Defias Drone. Loot it for the Defias Tower Key.",
+      "classes": ["Rogue"],
+      "races": null,
+      "coords": [71.49, 73.49],
+      "zone": "westfall",
+      "tips": [
+        {
+          "type": "warning",
+          "class": null,
+          "text": "You must be in Stealth to use Pick Pocket"
+        },
+        {
+          "type": "warning",
+          "class": null,
+          "text": "The Malformed Defias Drone spawns at the entrance to the tower, then patrols around the outside of it"
+        },
+        {
+          "type": "warning",
+          "class": null,
+          "text": "Be careful as he deals a LOT of damage. If your Stealth breaks, quickly use Sprint and run away"
+        },
+        {
+          "type": "link",
+          "class": null,
+          "text": "Click HERE for a video guide",
+          "url": "https://www.youtube.com/watch?v=5sIew15IcG0"
+        }
+      ],
+      "quests": [
+        {
+          "id": 2359,
+          "name": "Klaven's Tower"
+        }
+      ],
+      "npc": null,
+      "mobs": ["Malformed Defias Drone"]
+    },
+    {
+      "id": "redridge_180",
+      "type": "info",
+      "description": "Equip the Curvewood Dagger for this quest if you don't already have a Dagger equipped",
+      "classes": ["Rogue"],
+      "races": null,
+      "coords": null,
+      "zone": "",
+      "tips": [],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "redridge_181",
+      "type": "loot",
+      "description": "Collect Klaven Mortwake's Journal",
+      "classes": ["Rogue"],
+      "races": null,
+      "coords": [70.421, 74.031],
+      "zone": "",
+      "tips": [
+        {
+          "type": "warning",
+          "class": null,
+          "text": "Travel up to 2nd top floor of the tower. Whilst in Stealth and the Defias Tower Sentries aren't next to you, Jump onto the chair, then onto the lamp, then onto the bookshelf on top of the waypoint location"
+        },
+        {
+          "type": "warning",
+          "class": null,
+          "text": "Manually Unstealth, then press your Interact with Target keybind to open the Duskwood Chest. Loot it for Klaven Mortwake's Journal"
+        },
+        {
+          "type": "warning",
+          "class": null,
+          "text": "NOTE: Your Stealth will temporarily stop working after looting Klaven Mortwake's Journal"
+        },
+        {
+          "type": "warning",
+          "class": null,
+          "text": "Be prepared to run if you don't kill the Defias Tower Sentries on the 2nd floor. They will most likely aggro you permanently (but not attack you) when you are on top of the bookshelf as it is an evade spot"
+        },
+        {
+          "type": "warning",
+          "class": null,
+          "text": "If you have a Dagger in your bags or equipped, you can cast Ambush on the Defias Tower Patrollers and Defias Tower Sentries inside to kill them instantly. Be prepared to run after you kill the first Defias Tower Sentry and remember you can be hit from above. This is slower, but a LOT safer"
+        },
+        {
+          "type": "warning",
+          "class": null,
+          "text": "Be careful as the Malformed Defias Drone and Defias Drones can be at the entrance of the tower if you have to run out of it"
+        },
+        {
+          "type": "link",
+          "class": null,
+          "text": "Click HERE for a video guide",
+          "url": "https://www.youtube.com/watch?v=5sIew15IcG0"
+        }
+      ],
+      "quests": [
+        {
+          "id": 2359,
+          "name": "Klaven's Tower"
+        }
+      ],
+      "npc": null,
+      "mobs": ["Defias Tower Patroller", "Defias Tower Sentry"]
+    },
+    {
+      "id": "redridge_182",
+      "type": "info",
+      "description": "Craft an Anti-Venom",
+      "classes": ["Rogue"],
+      "races": ["!Dwarf"],
+      "coords": null,
+      "zone": "",
+      "tips": [],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "redridge_183",
+      "type": "info",
+      "description": "Use the Anti-Venom in your bags to remove the Touch of Zanzil debuff",
+      "classes": ["Rogue"],
+      "races": ["!Dwarf"],
+      "coords": null,
+      "zone": "",
+      "tips": [],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "redridge_184",
+      "type": "info",
+      "description": "Cast Stoneform to remove the Touch of Zanzil debuff",
+      "classes": ["Rogue"],
+      "races": ["Dwarf"],
+      "coords": null,
+      "zone": "",
+      "tips": [],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "redridge_185",
+      "type": "fly",
+      "description": "Talk to Thor and fly to Stormwind",
+      "classes": ["Rogue"],
+      "races": null,
+      "coords": [56.55, 52.64],
+      "zone": "westfall",
+      "tips": [],
+      "quests": [],
+      "npc": "Thor",
+      "mobs": []
+    },
+    {
+      "id": "redridge_186",
+      "type": "travel",
+      "description": "Travel toward Shaina Fuller",
+      "classes": ["Rogue"],
+      "races": ["!Dwarf"],
+      "coords": [43.07, 26.155],
+      "zone": "stormwind_city",
+      "tips": [],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "redridge_187",
+      "type": "info",
+      "description": "Talk to Shaina Fuller. Level your First Aid to 80.",
+      "classes": ["Rogue"],
+      "races": ["!Dwarf"],
+      "coords": [43.07, 26.155],
+      "zone": "stormwind_city",
+      "tips": [
+        {
+          "type": "warning",
+          "class": null,
+          "text": "If you have a Paladin or Druid friend, ask them to remove the Touch of Zanzil for you instead"
+        }
+      ],
+      "quests": [],
+      "npc": "Shaina Fuller",
+      "mobs": []
+    },
+    {
+      "id": "redridge_188",
+      "type": "info",
+      "description": "Talk to Shaina Fuller. Train Anti-Venom.",
+      "classes": ["Rogue"],
+      "races": ["!Dwarf"],
+      "coords": [43.07, 26.155],
+      "zone": "stormwind_city",
+      "tips": [
+        {
+          "type": "warning",
+          "class": null,
+          "text": "If you have a Paladin or Druid friend, ask them to remove the Touch of Zanzil for you instead"
+        }
+      ],
+      "quests": [],
+      "npc": "Shaina Fuller",
+      "mobs": []
+    },
+    {
+      "id": "redridge_189",
+      "type": "info",
+      "description": "Craft an Anti-Venom",
+      "classes": ["Rogue"],
+      "races": ["!Dwarf"],
+      "coords": null,
+      "zone": "",
+      "tips": [],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "redridge_190",
+      "type": "info",
+      "description": "Use the Anti-Venom in your bags to remove the Touch of Zanzil debuff",
+      "classes": ["Rogue"],
+      "races": ["!Dwarf"],
+      "coords": null,
+      "zone": "",
+      "tips": [],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "redridge_191",
+      "type": "travel",
+      "description": "Enter the SI:7 Headquarters. Travel up stairs toward Master Mathias Shaw",
+      "classes": ["Rogue"],
+      "races": null,
+      "coords": [78.67, 60.13],
+      "zone": "stormwind_city",
+      "tips": [],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "redridge_192",
+      "type": "quest_turnin",
+      "description": "Talk to Master Mathias Shaw and turn in Klaven's Tower.",
+      "classes": ["Rogue"],
+      "races": null,
+      "coords": [75.78, 59.84],
+      "zone": "stormwind_city",
+      "tips": [
+        {
+          "type": "warning",
+          "class": null,
+          "text": "Remember to re-equip your main weapon if you switched to a Dagger earlier"
+        }
+      ],
+      "quests": [
+        {
+          "id": 2359,
+          "name": "Klaven's Tower"
+        }
+      ],
+      "npc": "Master Mathias Shaw",
+      "mobs": []
+    }
+  ]
+}

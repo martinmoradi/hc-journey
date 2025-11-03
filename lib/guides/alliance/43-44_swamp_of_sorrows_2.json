@@ -1,0 +1,630 @@
+{
+  "zone": "Swamp of Sorrows",
+  "levelRange": "43-44",
+  "faction": "Alliance",
+  "name": "43-44_swamp_of_sorrows_ii",
+  "next": "44-45_tanaris_1",
+  "steps": [
+    {
+      "id": "swamp_of_sorrows_001",
+      "type": "quest_turnin",
+      "description": "Talk to Watchmaster Sorigal and turn in Vital Supplies",
+      "classes": null,
+      "races": null,
+      "coords": [75.779, 46.159],
+      "zone": "duskwood",
+      "tips": [],
+      "quests": [
+        {
+          "id": 1477,
+          "name": "Vital Supplies"
+        }
+      ],
+      "npc": "Watchmaster Sorigal",
+      "mobs": []
+    },
+    {
+      "id": "swamp_of_sorrows_002",
+      "type": "travel",
+      "description": "Travel to Swamp of Sorrows",
+      "classes": null,
+      "races": null,
+      "coords": null,
+      "zone": "",
+      "tips": [],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "swamp_of_sorrows_003",
+      "type": "quest_accept",
+      "description": "Talk to Watcher Biggs and accept Driftwood",
+      "classes": null,
+      "races": null,
+      "coords": [26.74, 59.82],
+      "zone": "swamp_of_sorrows",
+      "tips": [
+        {
+          "type": "warning",
+          "class": null,
+          "text": "Be very careful of Stonard Scouts anytime you are in Swamp of Sorrows. If one ever attacks you, you will be PvP Flagged for 5 minutes"
+        }
+      ],
+      "quests": [
+        {
+          "id": 1398,
+          "name": "Driftwood"
+        }
+      ],
+      "npc": "Watcher Biggs",
+      "mobs": []
+    },
+    {
+      "id": "swamp_of_sorrows_004",
+      "type": "loot",
+      "description": "Loot the Sack of Barley on the ground",
+      "classes": null,
+      "races": null,
+      "coords": [62.547, 23.115],
+      "zone": "swamp_of_sorrows",
+      "tips": [],
+      "quests": [
+        {
+          "id": 49,
+          "name": "Sweet Amber"
+        }
+      ],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "swamp_of_sorrows_005",
+      "type": "quest_accept",
+      "description": "Talk to Galen Goodward and accept Galen's Escape. This will start an escort quest",
+      "classes": null,
+      "races": null,
+      "coords": [65.471, 18.153],
+      "zone": "swamp_of_sorrows",
+      "tips": [
+        {
+          "type": "warning",
+          "class": null,
+          "text": "This will start an escort quest"
+        }
+      ],
+      "quests": [
+        {
+          "id": 1393,
+          "name": "Galen's Escape"
+        }
+      ],
+      "npc": "Galen Goodward",
+      "mobs": []
+    },
+    {
+      "id": "swamp_of_sorrows_006",
+      "type": "info",
+      "description": "Escort Galen through Fallow Sanctuary to safety",
+      "classes": null,
+      "races": null,
+      "coords": [53.045, 29.644],
+      "zone": "swamp_of_sorrows",
+      "tips": [],
+      "quests": [
+        {
+          "id": 1393,
+          "name": "Galen's Escape"
+        }
+      ],
+      "npc": "Galen Goodward",
+      "mobs": []
+    },
+    {
+      "id": "swamp_of_sorrows_007",
+      "type": "quest_turnin",
+      "description": "Click Galen's Strongbox on the ground and turn in Galen's Escape",
+      "classes": null,
+      "races": null,
+      "coords": [47.806, 39.76],
+      "zone": "swamp_of_sorrows",
+      "tips": [],
+      "quests": [
+        {
+          "id": 1393,
+          "name": "Galen's Escape"
+        }
+      ],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "swamp_of_sorrows_008",
+      "type": "kill",
+      "description": "Kill Silt Crawlers and Monstrous Crawlers. Loot them for their Pristine Crawler Legs",
+      "classes": null,
+      "races": null,
+      "coords": [91.56, 70.07],
+      "zone": "swamp_of_sorrows",
+      "tips": [],
+      "quests": [
+        {
+          "id": 1258,
+          "name": "... and Bugs"
+        }
+      ],
+      "npc": null,
+      "mobs": ["Silt Crawler", "Monstrous Crawler"]
+    },
+    {
+      "id": "swamp_of_sorrows_009",
+      "type": "loot",
+      "description": "Loot Sundried Driftwood on the ground along the coast",
+      "classes": null,
+      "races": null,
+      "coords": [91.56, 70.07],
+      "zone": "swamp_of_sorrows",
+      "tips": [],
+      "quests": [
+        {
+          "id": 1398,
+          "name": "Driftwood"
+        }
+      ],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "swamp_of_sorrows_010",
+      "type": "kill",
+      "description": "Kill Swampwalkers, Swampwalker Elders, Tangled Horrors and Mire Lords. Loot them for Khadgar's Essays.",
+      "classes": null,
+      "races": null,
+      "coords": [14.97, 37.31],
+      "zone": "swamp_of_sorrows",
+      "tips": [
+        {
+          "type": "warning",
+          "class": null,
+          "text": "The drop rate of this item is very low. Once there is no more to kill in Misty Valley, skip this step"
+        }
+      ],
+      "quests": [
+        {
+          "id": 1364,
+          "name": "Mazen's Behest"
+        }
+      ],
+      "npc": null,
+      "mobs": [
+        "Swampwalker",
+        "Swampwalker Elder",
+        "Tangled Horror",
+        "Mire Lord"
+      ]
+    },
+    {
+      "id": "swamp_of_sorrows_011",
+      "type": "grind",
+      "description": "Grind to level 44",
+      "classes": null,
+      "races": null,
+      "coords": null,
+      "zone": "",
+      "tips": [],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "swamp_of_sorrows_012",
+      "type": "quest_turnin",
+      "description": "Talk to Watcher Biggs, turn in Driftwood and accept Deliver the Shipment",
+      "classes": null,
+      "races": null,
+      "coords": [26.74, 59.82],
+      "zone": "swamp_of_sorrows",
+      "tips": [],
+      "quests": [
+        {
+          "id": 1398,
+          "name": "Driftwood"
+        },
+        {
+          "id": 1425,
+          "name": "Deliver the Shipment"
+        }
+      ],
+      "npc": "Watcher Biggs",
+      "mobs": []
+    },
+    {
+      "id": "swamp_of_sorrows_013",
+      "type": "travel",
+      "description": "Travel to the Blasted Lands",
+      "classes": null,
+      "races": null,
+      "coords": [51.98, 7.43],
+      "zone": "blasted_lands",
+      "tips": [],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "swamp_of_sorrows_014",
+      "type": "quest_turnin",
+      "description": "Talk to Watcher Mahar Ba atop the Tower and turn in Mazen's Behest",
+      "classes": null,
+      "races": null,
+      "coords": [67.646, 19.165],
+      "zone": "blasted_lands",
+      "tips": [],
+      "quests": [
+        {
+          "id": 1364,
+          "name": "Mazen's Behest"
+        }
+      ],
+      "npc": "Watcher Mahar Ba",
+      "mobs": []
+    },
+    {
+      "id": "swamp_of_sorrows_015",
+      "type": "quest_turnin",
+      "description": "Talk to Quartermaster Lungertz and turn in Deliver the Shipment",
+      "classes": null,
+      "races": null,
+      "coords": [66.521, 21.386],
+      "zone": "blasted_lands",
+      "tips": [],
+      "quests": [
+        {
+          "id": 1425,
+          "name": "Deliver the Shipment"
+        }
+      ],
+      "npc": "Quartermaster Lungertz",
+      "mobs": []
+    },
+    {
+      "id": "swamp_of_sorrows_016",
+      "type": "fly",
+      "description": "Talk to Alexandra Constantine and get the Blasted Lands Flight Path",
+      "classes": ["!Mage", "!Druid"],
+      "races": null,
+      "coords": [65.535, 24.337],
+      "zone": "blasted_lands",
+      "tips": [],
+      "quests": [],
+      "npc": "Alexandra Constantine",
+      "mobs": []
+    },
+    {
+      "id": "swamp_of_sorrows_017",
+      "type": "info",
+      "description": "Cast Teleport: Moonglade",
+      "classes": ["Druid"],
+      "races": null,
+      "coords": null,
+      "zone": "",
+      "tips": [],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "swamp_of_sorrows_018",
+      "type": "info",
+      "description": "Talk to Loganaar and train your class spells",
+      "classes": ["Druid"],
+      "races": null,
+      "coords": [52.53, 40.56],
+      "zone": "moonglade",
+      "tips": [],
+      "quests": [],
+      "npc": "Loganaar",
+      "mobs": []
+    },
+    {
+      "id": "swamp_of_sorrows_019",
+      "type": "fly",
+      "description": "Talk to Alexandra Constantine and fly to Stormwind",
+      "classes": ["!Mage", "!Druid", "!Warrior", "!Paladin"],
+      "races": null,
+      "coords": [65.535, 24.337],
+      "zone": "blasted_lands",
+      "tips": [],
+      "quests": [],
+      "npc": "Alexandra Constantine",
+      "mobs": []
+    },
+    {
+      "id": "swamp_of_sorrows_020",
+      "type": "info",
+      "description": "Teleport to Stormwind City",
+      "classes": ["Mage"],
+      "races": null,
+      "coords": null,
+      "zone": "",
+      "tips": [],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "swamp_of_sorrows_021",
+      "type": "info",
+      "description": "Talk to Elsharin or Jennea Cannon and train your class spells",
+      "classes": ["Mage"],
+      "races": null,
+      "coords": [36.87, 81.14],
+      "zone": "stormwind_city",
+      "tips": [],
+      "quests": [],
+      "npc": "Jennea Cannon",
+      "mobs": []
+    },
+    {
+      "id": "swamp_of_sorrows_022",
+      "type": "travel",
+      "description": "Travel to the Stormwind Cathedral",
+      "classes": ["Priest"],
+      "races": null,
+      "coords": null,
+      "zone": "",
+      "tips": [],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "swamp_of_sorrows_023",
+      "type": "info",
+      "description": "Talk to Brother Joshua and train your class spells",
+      "classes": ["Priest"],
+      "races": null,
+      "coords": [38.54, 26.86],
+      "zone": "stormwind_city",
+      "tips": [],
+      "quests": [],
+      "npc": "Brother Joshua",
+      "mobs": []
+    },
+    {
+      "id": "swamp_of_sorrows_024",
+      "type": "info",
+      "description": "Talk to Osborne the Night Man and train your class spells",
+      "classes": ["Rogue"],
+      "races": null,
+      "coords": [74.65, 52.83],
+      "zone": "stormwind_city",
+      "tips": [],
+      "quests": [],
+      "npc": "Osborne the Night Man",
+      "mobs": []
+    },
+    {
+      "id": "swamp_of_sorrows_025",
+      "type": "info",
+      "description": "Talk to Einris Brightspear and train your class spells",
+      "classes": ["Hunter"],
+      "races": null,
+      "coords": [61.609, 15.269],
+      "zone": "stormwind_city",
+      "tips": [],
+      "quests": [],
+      "npc": "Einris Brightspear",
+      "mobs": []
+    },
+    {
+      "id": "swamp_of_sorrows_026",
+      "type": "travel",
+      "description": "Go into The Slaughtered Lamb and go downstairs",
+      "classes": ["Warlock"],
+      "races": null,
+      "coords": null,
+      "zone": "",
+      "tips": [],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "swamp_of_sorrows_027",
+      "type": "info",
+      "description": "Talk to Ursula Deline and train your class spells",
+      "classes": ["Warlock"],
+      "races": null,
+      "coords": [26.117, 77.225],
+      "zone": "stormwind_city",
+      "tips": [],
+      "quests": [],
+      "npc": "Ursula Deline",
+      "mobs": []
+    },
+    {
+      "id": "swamp_of_sorrows_028",
+      "type": "info",
+      "description": "Talk to Spackle Thornberry. Buy Grimoires for your pets",
+      "classes": ["Warlock"],
+      "races": null,
+      "coords": [25.665, 77.649],
+      "zone": "stormwind_city",
+      "tips": [
+        {
+          "type": "info",
+          "class": null,
+          "text": "Buy Grimoires for your pets"
+        }
+      ],
+      "quests": [],
+      "npc": "Spackle Thornberry",
+      "mobs": []
+    },
+    {
+      "id": "swamp_of_sorrows_029",
+      "type": "info",
+      "description": "Hearth to Booty Bay. Buy food/water if needed",
+      "classes": ["!Warrior", "!Rogue"],
+      "races": null,
+      "coords": null,
+      "zone": "",
+      "tips": [],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "swamp_of_sorrows_030",
+      "type": "info",
+      "description": "Hearth to Booty Bay. Buy food if needed",
+      "classes": ["Warrior", "Rogue"],
+      "races": null,
+      "coords": null,
+      "zone": "",
+      "tips": [],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "swamp_of_sorrows_031",
+      "type": "quest_turnin",
+      "description": "Talk to Deeg, Krazek and Kebok, turn in Up to Snuff and Skullsplitter Tusks, and accept Tran'rek",
+      "classes": null,
+      "races": null,
+      "coords": [27.0, 77.124],
+      "zone": "stranglethorn_vale",
+      "tips": [],
+      "quests": [
+        {
+          "id": 587,
+          "name": "Up to Snuff"
+        },
+        {
+          "id": 209,
+          "name": "Skullsplitter Tusks"
+        },
+        {
+          "id": 2864,
+          "name": "Tran'rek"
+        }
+      ],
+      "npc": "Kebok",
+      "mobs": []
+    },
+    {
+      "id": "swamp_of_sorrows_032",
+      "type": "quest_turnin",
+      "description": "Talk to Fleet Master Seahorn, turn in The Bloodsail Buccaneers and accept Sunken Treasure",
+      "classes": null,
+      "races": null,
+      "coords": [27.173, 77.007],
+      "zone": "stranglethorn_vale",
+      "tips": [],
+      "quests": [
+        {
+          "id": 604,
+          "name": "The Bloodsail Buccaneers"
+        },
+        {
+          "id": 670,
+          "name": "Sunken Treasure"
+        }
+      ],
+      "npc": "Fleet Master Seahorn",
+      "mobs": []
+    },
+    {
+      "id": "swamp_of_sorrows_033",
+      "type": "quest_turnin",
+      "description": "Talk to Privateer Bloads, turn in Akiris by the Bundle and accept Akiris by the Bundle",
+      "classes": null,
+      "races": null,
+      "coords": [26.756, 76.383],
+      "zone": "stranglethorn_vale",
+      "tips": [],
+      "quests": [
+        {
+          "id": 617,
+          "name": "Akiris by the Bundle"
+        },
+        {
+          "id": 623,
+          "name": "Akiris by the Bundle"
+        }
+      ],
+      "npc": "Privateer Bloads",
+      "mobs": []
+    },
+    {
+      "id": "swamp_of_sorrows_034",
+      "type": "info",
+      "description": "Talk to Viznik Goldgrubber or Rickle Goldgrubber. Deposit the following items into your bank: Sack of Barley and Seahorn's Sealed Letter",
+      "classes": null,
+      "races": null,
+      "coords": null,
+      "zone": "",
+      "tips": [
+        {
+          "type": "info",
+          "class": null,
+          "text": "Deposit the following items into your bank: Sack of Barley and Seahorn's Sealed Letter"
+        }
+      ],
+      "quests": [],
+      "npc": "Rickle Goldgrubber",
+      "mobs": []
+    },
+    {
+      "id": "swamp_of_sorrows_035",
+      "type": "quest_accept",
+      "description": "Talk to Sea Wolf MacKinley and accept Stoley's Debt",
+      "classes": null,
+      "races": null,
+      "coords": [27.782, 77.071],
+      "zone": "stranglethorn_vale",
+      "tips": [],
+      "quests": [
+        {
+          "id": 2872,
+          "name": "Stoley's Debt"
+        }
+      ],
+      "npc": "Sea Wolf MacKinley",
+      "mobs": []
+    },
+    {
+      "id": "swamp_of_sorrows_036",
+      "type": "quest_turnin",
+      "description": "Talk to Dizzy One-Eye and turn in Keep An Eye Out",
+      "classes": null,
+      "races": null,
+      "coords": [28.591, 75.899],
+      "zone": "stranglethorn_vale",
+      "tips": [],
+      "quests": [
+        {
+          "id": 576,
+          "name": "Keep An Eye Out"
+        }
+      ],
+      "npc": "Dizzy One-Eye",
+      "mobs": []
+    },
+    {
+      "id": "swamp_of_sorrows_037",
+      "type": "travel",
+      "description": "Take the Boat to Ratchet",
+      "classes": null,
+      "races": null,
+      "coords": [25.8, 73.1],
+      "zone": "stranglethorn_vale",
+      "tips": [],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    }
+  ]
+}

@@ -1,0 +1,2738 @@
+{
+  "zone": "Hinterlands/Badlands",
+  "levelRange": "46-47",
+  "faction": "Alliance",
+  "name": "46-47_hinterlands_badlands",
+  "next": "47-48_tanaris_2",
+  "steps": [
+    {
+      "id": "hinterlands_badlands_001",
+      "type": "travel",
+      "description": "Travel to Faldir's Cove",
+      "classes": null,
+      "races": null,
+      "coords": [21.98, 79.96],
+      "zone": "arathi_highlands",
+      "tips": [],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "hinterlands_badlands_002",
+      "type": "quest_turnin",
+      "description": "Talk to Shakes O'Breen and turn in Sunken Treasure. Accept Death From Below",
+      "classes": null,
+      "races": null,
+      "coords": [32.283, 81.364],
+      "zone": "arathi_highlands",
+      "tips": [],
+      "quests": [
+        {
+          "id": 670,
+          "name": "Sunken Treasure"
+        },
+        {
+          "id": 667,
+          "name": "Death From Below"
+        }
+      ],
+      "npc": "Shakes O'Breen",
+      "mobs": []
+    },
+    {
+      "id": "hinterlands_badlands_003",
+      "type": "travel",
+      "description": "Quickly walk up the ramp onto the ship",
+      "classes": null,
+      "races": null,
+      "coords": [31.465, 81.01],
+      "zone": "arathi_highlands",
+      "tips": [],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "hinterlands_badlands_004",
+      "type": "info",
+      "description": "Click the Cannon when you see incoming waves of attacking Nagas from the south",
+      "classes": null,
+      "races": null,
+      "coords": [32.103, 80.685],
+      "zone": "arathi_highlands",
+      "tips": [],
+      "quests": [
+        {
+          "id": 667,
+          "name": "Death From Below"
+        }
+      ],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "hinterlands_badlands_005",
+      "type": "quest_turnin",
+      "description": "Talk to Shakes O'Breen and turn in Death From Below",
+      "classes": null,
+      "races": null,
+      "coords": [32.283, 81.364],
+      "zone": "arathi_highlands",
+      "tips": [],
+      "quests": [
+        {
+          "id": 667,
+          "name": "Death From Below"
+        }
+      ],
+      "npc": "Shakes O'Breen",
+      "mobs": []
+    },
+    {
+      "id": "hinterlands_badlands_006",
+      "type": "info",
+      "description": "Logout on top of the rock in the cave, then log back in",
+      "classes": null,
+      "races": null,
+      "coords": null,
+      "zone": "",
+      "tips": [
+        {
+          "type": "link",
+          "class": null,
+          "text": "Click here for video reference",
+          "url": "https://www.youtube.com/watch?v=SWBtPqm5M0Q&t=114s"
+        }
+      ],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "hinterlands_badlands_007",
+      "type": "fly",
+      "description": "Talk to Cedrik Prose and fly to The Hinterlands",
+      "classes": null,
+      "races": null,
+      "coords": [45.73, 46.09],
+      "zone": "arathi_highlands",
+      "tips": [],
+      "quests": [],
+      "npc": "Cedrik Prose",
+      "mobs": []
+    },
+    {
+      "id": "hinterlands_badlands_008",
+      "type": "quest_accept",
+      "description": "Talk to Gryphon Master Talonaxe and accept Witherbark Cages",
+      "classes": null,
+      "races": null,
+      "coords": [9.752, 44.473],
+      "zone": "the_hinterlands",
+      "tips": [],
+      "quests": [
+        {
+          "id": 2988,
+          "name": "Witherbark Cages"
+        }
+      ],
+      "npc": "Gryphon Master Talonaxe",
+      "mobs": []
+    },
+    {
+      "id": "hinterlands_badlands_009",
+      "type": "quest_turnin",
+      "description": "Talk to Fraggar Thundermantle, accept Troll Necklace Bounty, and turn in Troll Necklace Bounty",
+      "classes": null,
+      "races": null,
+      "coords": [14.834, 44.567],
+      "zone": "the_hinterlands",
+      "tips": [],
+      "quests": [
+        {
+          "id": 2880,
+          "name": "Troll Necklace Bounty"
+        }
+      ],
+      "npc": "Fraggar Thundermantle",
+      "mobs": []
+    },
+    {
+      "id": "hinterlands_badlands_010",
+      "type": "quest_accept",
+      "description": "Talk to Fraggar Thundermantle and accept Troll Necklace Bounty",
+      "classes": null,
+      "races": null,
+      "coords": [14.834, 44.567],
+      "zone": "the_hinterlands",
+      "tips": [],
+      "quests": [
+        {
+          "id": 2880,
+          "name": "Troll Necklace Bounty"
+        }
+      ],
+      "npc": "Fraggar Thundermantle",
+      "mobs": []
+    },
+    {
+      "id": "hinterlands_badlands_011",
+      "type": "loot",
+      "description": "Loot the Wildkin Feathers on the ground",
+      "classes": null,
+      "races": null,
+      "coords": null,
+      "zone": "",
+      "tips": [],
+      "quests": [
+        {
+          "id": 3661,
+          "name": "Wildkin Feathers"
+        }
+      ],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "hinterlands_badlands_012",
+      "type": "quest_accept",
+      "description": "Talk to Rhapsody Shindigger, turn in Rhapsody's Kalimdor Kocktail, and accept Rhapsody's Tale",
+      "classes": null,
+      "races": null,
+      "coords": [26.943, 48.588],
+      "zone": "the_hinterlands",
+      "tips": [],
+      "quests": [
+        {
+          "id": 1452,
+          "name": "Rhapsody's Kalimdor Kocktail"
+        },
+        {
+          "id": 1469,
+          "name": "Rhapsody's Tale"
+        }
+      ],
+      "npc": "Rhapsody Shindigger",
+      "mobs": []
+    },
+    {
+      "id": "hinterlands_badlands_013",
+      "type": "kill",
+      "description": "Kill Witherbark Trolls. Loot them for their Tribal Necklaces",
+      "classes": null,
+      "races": null,
+      "coords": null,
+      "zone": "",
+      "tips": [],
+      "quests": [
+        {
+          "id": 2880,
+          "name": "Troll Necklace Bounty"
+        }
+      ],
+      "npc": null,
+      "mobs": [
+        "Witherbark Venomblood",
+        "Witherbark Hideskinner",
+        "Witherbark Zealot",
+        "Witherbark Scalper"
+      ]
+    },
+    {
+      "id": "hinterlands_badlands_014",
+      "type": "info",
+      "description": "Click the Third Witherbark Cage",
+      "classes": null,
+      "races": null,
+      "coords": [31.98, 57.31],
+      "zone": "the_hinterlands",
+      "tips": [],
+      "quests": [
+        {
+          "id": 2988,
+          "name": "Witherbark Cages"
+        }
+      ],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "hinterlands_badlands_015",
+      "type": "info",
+      "description": "Click the First Witherbark Cage and Second Witherbark Cage",
+      "classes": null,
+      "races": null,
+      "coords": [23.12, 58.82],
+      "zone": "the_hinterlands",
+      "tips": [],
+      "quests": [
+        {
+          "id": 2988,
+          "name": "Witherbark Cages"
+        }
+      ],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "hinterlands_badlands_016",
+      "type": "kill",
+      "description": "Kill Witherbark Trolls. Loot them for their Tribal Necklaces",
+      "classes": null,
+      "races": null,
+      "coords": [32.23, 58.21],
+      "zone": "the_hinterlands",
+      "tips": [],
+      "quests": [
+        {
+          "id": 2880,
+          "name": "Troll Necklace Bounty"
+        }
+      ],
+      "npc": null,
+      "mobs": [
+        "Witherbark Venomblood",
+        "Witherbark Hideskinner",
+        "Witherbark Zealot",
+        "Witherbark Scalper"
+      ]
+    },
+    {
+      "id": "hinterlands_badlands_017",
+      "type": "quest_turnin",
+      "description": "Talk to Fraggar Thundermantle and turn in Troll Necklace Bounty",
+      "classes": null,
+      "races": null,
+      "coords": [14.834, 44.567],
+      "zone": "the_hinterlands",
+      "tips": [],
+      "quests": [
+        {
+          "id": 2880,
+          "name": "Troll Necklace Bounty"
+        }
+      ],
+      "npc": "Fraggar Thundermantle",
+      "mobs": []
+    },
+    {
+      "id": "hinterlands_badlands_018",
+      "type": "quest_turnin",
+      "description": "Talk to Gryphon Master Talonaxe, turn in Witherbark Cages, and accept The Altar of Zul",
+      "classes": null,
+      "races": null,
+      "coords": [9.752, 44.473],
+      "zone": "the_hinterlands",
+      "tips": [],
+      "quests": [
+        {
+          "id": 2988,
+          "name": "Witherbark Cages"
+        },
+        {
+          "id": 2989,
+          "name": "The Altar of Zul"
+        }
+      ],
+      "npc": "Gryphon Master Talonaxe",
+      "mobs": []
+    },
+    {
+      "id": "hinterlands_badlands_019",
+      "type": "travel",
+      "description": "Clear your way to the top of The Altar of Zul. Ensure you are on full HP before you reach the top. Run to the exploration location, then jump off to the side to evade the Elites at the top. Wait on the ledge until you have dropped Combat. Watch the video below for an example",
+      "classes": null,
+      "races": null,
+      "coords": [48.814, 68.387],
+      "zone": "the_hinterlands",
+      "tips": [
+        {
+          "type": "link",
+          "class": null,
+          "text": "Click here for video reference",
+          "url": "https://www.youtube.com/watch?v=FtTS3K7T7Tw"
+        }
+      ],
+      "quests": [
+        {
+          "id": 2989,
+          "name": "The Altar of Zul"
+        }
+      ],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "hinterlands_badlands_020",
+      "type": "loot",
+      "description": "Loot the Sack of Rye on the ground",
+      "classes": null,
+      "races": null,
+      "coords": [39.984, 66.256],
+      "zone": "the_hinterlands",
+      "tips": [],
+      "quests": [
+        {
+          "id": 49,
+          "name": "Sack of Rye"
+        }
+      ],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "hinterlands_badlands_021",
+      "type": "loot",
+      "description": "Loot the Wildkin Feathers on the ground. These are scattered on the ground throughout all of The Hinterlands",
+      "classes": null,
+      "races": null,
+      "coords": [28.1, 58.1],
+      "zone": "the_hinterlands",
+      "tips": [],
+      "quests": [
+        {
+          "id": 3661,
+          "name": "Wildkin Feathers"
+        }
+      ],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "hinterlands_badlands_022",
+      "type": "quest_turnin",
+      "description": "Talk to Gryphon Master Talonaxe, turn in The Altar of Zul, and accept Thadius Grimshade",
+      "classes": null,
+      "races": null,
+      "coords": [9.752, 44.473],
+      "zone": "the_hinterlands",
+      "tips": [],
+      "quests": [
+        {
+          "id": 2989,
+          "name": "The Altar of Zul"
+        },
+        {
+          "id": 2990,
+          "name": "Thadius Grimshade"
+        }
+      ],
+      "npc": "Gryphon Master Talonaxe",
+      "mobs": []
+    },
+    {
+      "id": "hinterlands_badlands_023",
+      "type": "fly",
+      "description": "Talk to Guthrum Thunderfist and fly to Ironforge",
+      "classes": null,
+      "races": null,
+      "coords": [11.071, 46.153],
+      "zone": "the_hinterlands",
+      "tips": [],
+      "quests": [],
+      "npc": "Guthrum Thunderfist",
+      "mobs": []
+    },
+    {
+      "id": "hinterlands_badlands_024",
+      "type": "quest_accept",
+      "description": "Talk to Prospector Stormpike and accept The Lost Dwarves",
+      "classes": null,
+      "races": null,
+      "coords": [74.645, 11.742],
+      "zone": "ironforge",
+      "tips": [],
+      "quests": [
+        {
+          "id": 2398,
+          "name": "The Lost Dwarves"
+        }
+      ],
+      "npc": "Prospector Stormpike",
+      "mobs": []
+    },
+    {
+      "id": "hinterlands_badlands_025",
+      "type": "quest_accept",
+      "description": "Talk to Krom Stoutarm and accept Reclaimed Treasures",
+      "classes": null,
+      "races": null,
+      "coords": [74.179, 9.371],
+      "zone": "ironforge",
+      "tips": [],
+      "quests": [
+        {
+          "id": 1360,
+          "name": "Reclaimed Treasures"
+        }
+      ],
+      "npc": "Krom Stoutarm",
+      "mobs": []
+    },
+    {
+      "id": "hinterlands_badlands_026",
+      "type": "info",
+      "description": "Talk to Binjy Featherwhistle and train Mechanostrider Piloting. Talk to Milli Featherwhistle and buy a Mechanostrider",
+      "classes": ["!Warlock"],
+      "races": ["Gnome"],
+      "coords": [49.123, 47.956],
+      "zone": "dun_morogh",
+      "tips": [],
+      "quests": [],
+      "npc": "Milli Featherwhistle",
+      "mobs": []
+    },
+    {
+      "id": "hinterlands_badlands_027",
+      "type": "info",
+      "description": "Talk to Veron Amberstill and buy a Ram. Talk to Ultham Ironhorn and train Ram Riding",
+      "classes": ["!Paladin"],
+      "races": ["Dwarf"],
+      "coords": [63.944, 50.095],
+      "zone": "dun_morogh",
+      "tips": [],
+      "quests": [],
+      "npc": "Ultham Ironhorn",
+      "mobs": []
+    },
+    {
+      "id": "hinterlands_badlands_028",
+      "type": "info",
+      "description": "Talk to Briarthorn and train your class spells",
+      "classes": ["Warlock"],
+      "races": null,
+      "coords": [50.343, 5.657],
+      "zone": "ironforge",
+      "tips": [],
+      "quests": [],
+      "npc": "Briarthorn",
+      "mobs": []
+    },
+    {
+      "id": "hinterlands_badlands_029",
+      "type": "info",
+      "description": "Talk to Fenthwick and train your class spells",
+      "classes": ["Rogue"],
+      "races": null,
+      "coords": [51.495, 15.33],
+      "zone": "ironforge",
+      "tips": [],
+      "quests": [],
+      "npc": "Fenthwick",
+      "mobs": []
+    },
+    {
+      "id": "hinterlands_badlands_030",
+      "type": "info",
+      "description": "Talk to Toldren Deepiron and train your class spells",
+      "classes": ["Priest"],
+      "races": null,
+      "coords": [25.207, 10.756],
+      "zone": "ironforge",
+      "tips": [],
+      "quests": [],
+      "npc": "Toldren Deepiron",
+      "mobs": []
+    },
+    {
+      "id": "hinterlands_badlands_031",
+      "type": "info",
+      "description": "Talk to Dink and train your class spells",
+      "classes": ["Mage"],
+      "races": null,
+      "coords": [27.18, 8.6],
+      "zone": "ironforge",
+      "tips": [],
+      "quests": [],
+      "npc": "Dink",
+      "mobs": []
+    },
+    {
+      "id": "hinterlands_badlands_032",
+      "type": "info",
+      "description": "Talk to Brandur Ironhammer and train your class spells",
+      "classes": ["Paladin"],
+      "races": null,
+      "coords": [23.141, 6.149],
+      "zone": "ironforge",
+      "tips": [],
+      "quests": [],
+      "npc": "Brandur Ironhammer",
+      "mobs": []
+    },
+    {
+      "id": "hinterlands_badlands_033",
+      "type": "info",
+      "description": "Talk to Regnus Thundergranite and train your class spells",
+      "classes": ["Hunter"],
+      "races": null,
+      "coords": [69.872, 82.89],
+      "zone": "ironforge",
+      "tips": [],
+      "quests": [],
+      "npc": "Regnus Thundergranite",
+      "mobs": []
+    },
+    {
+      "id": "hinterlands_badlands_034",
+      "type": "info",
+      "description": "Talk to Bilban Tosslespanner and train your class spells",
+      "classes": ["Warrior"],
+      "races": null,
+      "coords": [65.905, 88.405],
+      "zone": "ironforge",
+      "tips": [],
+      "quests": [],
+      "npc": "Bilban Tosslespanner",
+      "mobs": []
+    },
+    {
+      "id": "hinterlands_badlands_035",
+      "type": "info",
+      "description": "Talk to Jubahl Corpseseeker. Buy Grimoires for your pets",
+      "classes": ["Warlock"],
+      "races": null,
+      "coords": [52.701, 6.07],
+      "zone": "ironforge",
+      "tips": [],
+      "quests": [],
+      "npc": "Jubahl Corpseseeker",
+      "mobs": []
+    },
+    {
+      "id": "hinterlands_badlands_036",
+      "type": "info",
+      "description": "Talk to an Ironforge Auctioneer. Buy the following from the Auction House. This step is optional and will allow you to complete a few extra quests if you have the items: Frost Oil, Gyrochronatom (Don't buy this unless you have a Frost Oil), Patterned Bronze Bracers (Don't buy this unless you have a Gyrochronatom and Frost Oil), Healing Potion and Lesser Invisibility Potion (Don't buy this unless you have a Gyrochronatom and Frost Oil)",
+      "classes": null,
+      "races": null,
+      "coords": null,
+      "zone": "",
+      "tips": [],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "hinterlands_badlands_037",
+      "type": "info",
+      "description": "Talk to Bailey Stonemantle. Withdraw the following items from your bank: 15 Silk Cloth (If you have them)",
+      "classes": null,
+      "races": null,
+      "coords": [35.9, 60.17],
+      "zone": "ironforge",
+      "tips": [],
+      "quests": [],
+      "npc": "Bailey Stonemantle",
+      "mobs": []
+    },
+    {
+      "id": "hinterlands_badlands_038",
+      "type": "info",
+      "description": "Talk to Bailey Stonemantle. Deposit the following items from your bank: Sack of Rye, Wildkin Feather, Sharpbeak's Feather",
+      "classes": null,
+      "races": null,
+      "coords": [35.9, 60.17],
+      "zone": "ironforge",
+      "tips": [],
+      "quests": [],
+      "npc": "Bailey Stonemantle",
+      "mobs": []
+    },
+    {
+      "id": "hinterlands_badlands_039",
+      "type": "info",
+      "description": "Talk to an Ironforge Auctioneer. Buy the following from the Auction House: Silk Cloth",
+      "classes": null,
+      "races": null,
+      "coords": null,
+      "zone": "",
+      "tips": [],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "hinterlands_badlands_040",
+      "type": "fly",
+      "description": "Talk to Gryth Thurden and fly to Loch Modan",
+      "classes": null,
+      "races": null,
+      "coords": [55.501, 47.742],
+      "zone": "ironforge",
+      "tips": [],
+      "quests": [],
+      "npc": "Gryth Thurden",
+      "mobs": []
+    },
+    {
+      "id": "hinterlands_badlands_041",
+      "type": "quest_accept",
+      "description": "Talk to Ghak Healtouch and accept Uldaman Reagent Run",
+      "classes": null,
+      "races": null,
+      "coords": [37.067, 49.379],
+      "zone": "loch_modan",
+      "tips": [],
+      "quests": [
+        {
+          "id": 17,
+          "name": "Uldaman Reagent Run"
+        }
+      ],
+      "npc": "Ghak Healtouch",
+      "mobs": []
+    },
+    {
+      "id": "hinterlands_badlands_042",
+      "type": "quest_accept",
+      "description": "Talk to Prospector Ironband and accept Agmond's Fate",
+      "classes": null,
+      "races": null,
+      "coords": [65.93, 65.62],
+      "zone": "loch_modan",
+      "tips": [],
+      "quests": [
+        {
+          "id": 704,
+          "name": "Agmond's Fate"
+        }
+      ],
+      "npc": "Prospector Ironband",
+      "mobs": []
+    },
+    {
+      "id": "hinterlands_badlands_043",
+      "type": "travel",
+      "description": "Travel to Badlands",
+      "classes": null,
+      "races": null,
+      "coords": [49.23, 7.8],
+      "zone": "badlands",
+      "tips": [],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "hinterlands_badlands_044",
+      "type": "quest_accept",
+      "description": "Click the Crumpled Map on the ground and accept A Sign of Hope",
+      "classes": null,
+      "races": null,
+      "coords": [53.027, 33.944],
+      "zone": "badlands",
+      "tips": [],
+      "quests": [
+        {
+          "id": 720,
+          "name": "A Sign of Hope"
+        }
+      ],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "hinterlands_badlands_045",
+      "type": "quest_turnin",
+      "description": "Talk to Prospector Ryedol, turn in A Sign of Hope, and accept A Sign of Hope",
+      "classes": null,
+      "races": null,
+      "coords": [53.421, 43.393],
+      "zone": "badlands",
+      "tips": [],
+      "quests": [
+        {
+          "id": 720,
+          "name": "A Sign of Hope"
+        },
+        {
+          "id": 721,
+          "name": "A Sign of Hope"
+        }
+      ],
+      "npc": "Prospector Ryedol",
+      "mobs": []
+    },
+    {
+      "id": "hinterlands_badlands_046",
+      "type": "quest_accept",
+      "description": "Talk to Garek and accept Tremors of the Earth",
+      "classes": null,
+      "races": null,
+      "coords": [61.939, 54.26],
+      "zone": "badlands",
+      "tips": [],
+      "quests": [
+        {
+          "id": 732,
+          "name": "Tremors of the Earth"
+        }
+      ],
+      "npc": "Garek",
+      "mobs": []
+    },
+    {
+      "id": "hinterlands_badlands_047",
+      "type": "kill",
+      "description": "Kill Boss Tho'grun. Loot him for his Sign of the Earth. Boss Tho'grun patrols across all of Badlands",
+      "classes": null,
+      "races": null,
+      "coords": [36.37, 71.63],
+      "zone": "badlands",
+      "tips": [
+        {
+          "type": "warning",
+          "class": null,
+          "text": "Boss Tho'grun patrols across all of Badlands"
+        }
+      ],
+      "quests": [
+        {
+          "id": 732,
+          "name": "Tremors of the Earth"
+        }
+      ],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "hinterlands_badlands_048",
+      "type": "quest_turnin",
+      "description": "Talk to Garek and turn in Tremors of the Earth",
+      "classes": null,
+      "races": null,
+      "coords": [61.939, 54.26],
+      "zone": "badlands",
+      "tips": [],
+      "quests": [
+        {
+          "id": 732,
+          "name": "Tremors of the Earth"
+        }
+      ],
+      "npc": "Garek",
+      "mobs": []
+    },
+    {
+      "id": "hinterlands_badlands_049",
+      "type": "quest_accept",
+      "description": "Talk to Theldurin the Lost and accept The Lost Fragments",
+      "classes": null,
+      "races": null,
+      "coords": [51.386, 76.874],
+      "zone": "badlands",
+      "tips": [],
+      "quests": [
+        {
+          "id": 692,
+          "name": "The Lost Fragments"
+        }
+      ],
+      "npc": "Theldurin the Lost",
+      "mobs": []
+    },
+    {
+      "id": "hinterlands_badlands_050",
+      "type": "quest_accept",
+      "description": "Talk to Theldurin the Lost and accept Solution to Doom",
+      "classes": null,
+      "races": null,
+      "coords": [51.386, 76.874],
+      "zone": "badlands",
+      "tips": [],
+      "quests": [
+        {
+          "id": 709,
+          "name": "Solution to Doom"
+        }
+      ],
+      "npc": "Theldurin the Lost",
+      "mobs": []
+    },
+    {
+      "id": "hinterlands_badlands_051",
+      "type": "kill",
+      "description": "Kill Enraged Rock Elementals. Loot them for their Scroll Fragments",
+      "classes": null,
+      "races": null,
+      "coords": [54.66, 83.91],
+      "zone": "badlands",
+      "tips": [],
+      "quests": [
+        {
+          "id": 692,
+          "name": "The Lost Fragments"
+        }
+      ],
+      "npc": null,
+      "mobs": ["Enraged Rock Elemental"]
+    },
+    {
+      "id": "hinterlands_badlands_052",
+      "type": "quest_turnin",
+      "description": "Talk to Theldurin the Lost and turn in The Lost Fragments",
+      "classes": null,
+      "races": null,
+      "coords": [51.386, 76.874],
+      "zone": "badlands",
+      "tips": [],
+      "quests": [
+        {
+          "id": 692,
+          "name": "The Lost Fragments"
+        }
+      ],
+      "npc": "Theldurin the Lost",
+      "mobs": []
+    },
+    {
+      "id": "hinterlands_badlands_053",
+      "type": "quest_accept",
+      "description": "Talk to Lotwil Veriatus and accept Study of the Elements: Rock",
+      "classes": null,
+      "races": null,
+      "coords": [25.948, 44.868],
+      "zone": "badlands",
+      "tips": [],
+      "quests": [
+        {
+          "id": 712,
+          "name": "Study of the Elements: Rock"
+        }
+      ],
+      "npc": "Lotwil Veriatus",
+      "mobs": []
+    },
+    {
+      "id": "hinterlands_badlands_054",
+      "type": "info",
+      "description": "You will run Uldaman after completing this quest. Start trying to find a group for Uldaman now",
+      "classes": null,
+      "races": null,
+      "coords": null,
+      "zone": "",
+      "tips": [],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "hinterlands_badlands_055",
+      "type": "kill",
+      "description": "Kill Greater Rock Elementals. Loot them for their Bracers",
+      "classes": null,
+      "races": null,
+      "coords": [2.7, 81.25],
+      "zone": "badlands",
+      "tips": [],
+      "quests": [
+        {
+          "id": 712,
+          "name": "Study of the Elements: Rock"
+        }
+      ],
+      "npc": null,
+      "mobs": ["Greater Rock Elemental"]
+    },
+    {
+      "id": "hinterlands_badlands_056",
+      "type": "quest_turnin",
+      "description": "Talk to Lotwil Veriatus and turn in Study of the Elements: Rock",
+      "classes": null,
+      "races": null,
+      "coords": [25.948, 44.868],
+      "zone": "badlands",
+      "tips": [],
+      "quests": [
+        {
+          "id": 712,
+          "name": "Study of the Elements: Rock"
+        }
+      ],
+      "npc": "Lotwil Veriatus",
+      "mobs": []
+    },
+    {
+      "id": "hinterlands_badlands_057",
+      "type": "quest_turnin",
+      "description": "Talk to Lotwil Veriatus, accept Coolant Heads Prevail, and turn in Coolant Heads Prevail",
+      "classes": null,
+      "races": null,
+      "coords": [25.948, 44.868],
+      "zone": "badlands",
+      "tips": [],
+      "quests": [
+        {
+          "id": 713,
+          "name": "Coolant Heads Prevail"
+        }
+      ],
+      "npc": "Lotwil Veriatus",
+      "mobs": []
+    },
+    {
+      "id": "hinterlands_badlands_058",
+      "type": "quest_turnin",
+      "description": "Talk to Lotwil Veriatus, accept Gyro... What?, and turn in Gyro... What?",
+      "classes": null,
+      "races": null,
+      "coords": [25.948, 44.868],
+      "zone": "badlands",
+      "tips": [],
+      "quests": [
+        {
+          "id": 714,
+          "name": "Gyro... What?"
+        }
+      ],
+      "npc": "Lotwil Veriatus",
+      "mobs": []
+    },
+    {
+      "id": "hinterlands_badlands_059",
+      "type": "quest_accept",
+      "description": "Talk to Lotwil Veriatus and accept This Is Going to Be Hard",
+      "classes": null,
+      "races": null,
+      "coords": [25.948, 44.868],
+      "zone": "badlands",
+      "tips": [],
+      "quests": [
+        {
+          "id": 734,
+          "name": "This Is Going to Be Hard"
+        }
+      ],
+      "npc": "Lotwil Veriatus",
+      "mobs": []
+    },
+    {
+      "id": "hinterlands_badlands_060",
+      "type": "quest_turnin",
+      "description": "Talk to Lucien Tosselwrench, turn in This Is Going to Be Hard, and accept This Is Going to Be Hard",
+      "classes": null,
+      "races": null,
+      "coords": [25.82, 44.24],
+      "zone": "badlands",
+      "tips": [],
+      "quests": [
+        {
+          "id": 734,
+          "name": "This Is Going to Be Hard"
+        },
+        {
+          "id": 777,
+          "name": "This Is Going to Be Hard"
+        }
+      ],
+      "npc": "Lucien Tosselwrench",
+      "mobs": []
+    },
+    {
+      "id": "hinterlands_badlands_061",
+      "type": "quest_turnin",
+      "description": "Talk to Lucien Tosselwrench, accept Stone Is Better than Cloth, and turn in Stone Is Better than Cloth",
+      "classes": null,
+      "races": null,
+      "coords": [25.82, 44.24],
+      "zone": "badlands",
+      "tips": [],
+      "quests": [
+        {
+          "id": 716,
+          "name": "Stone Is Better than Cloth"
+        }
+      ],
+      "npc": "Lucien Tosselwrench",
+      "mobs": []
+    },
+    {
+      "id": "hinterlands_badlands_062",
+      "type": "quest_turnin",
+      "description": "Talk to Lucien Tosselwrench, accept Liquid Stone, and turn in Liquid Stone",
+      "classes": null,
+      "races": null,
+      "coords": [25.82, 44.24],
+      "zone": "badlands",
+      "tips": [],
+      "quests": [
+        {
+          "id": 715,
+          "name": "Liquid Stone"
+        }
+      ],
+      "npc": "Lucien Tosselwrench",
+      "mobs": []
+    },
+    {
+      "id": "hinterlands_badlands_063",
+      "type": "quest_turnin",
+      "description": "Talk to Lotwil Veriatus, turn in This Is Going to Be Hard, and accept This Is Going to Be Hard",
+      "classes": null,
+      "races": null,
+      "coords": [25.948, 44.868],
+      "zone": "badlands",
+      "tips": [],
+      "quests": [
+        {
+          "id": 777,
+          "name": "This Is Going to Be Hard"
+        },
+        {
+          "id": 778,
+          "name": "This Is Going to Be Hard"
+        }
+      ],
+      "npc": "Lotwil Veriatus",
+      "mobs": []
+    },
+    {
+      "id": "hinterlands_badlands_064",
+      "type": "kill",
+      "description": "Kill the Fam'Retor Guardian. Loot it for its Shackles",
+      "classes": null,
+      "races": null,
+      "coords": [26.07, 46.69],
+      "zone": "badlands",
+      "tips": [],
+      "quests": [
+        {
+          "id": 778,
+          "name": "This Is Going to Be Hard"
+        }
+      ],
+      "npc": null,
+      "mobs": ["Fam'retor Guardian"]
+    },
+    {
+      "id": "hinterlands_badlands_065",
+      "type": "quest_turnin",
+      "description": "Talk to Lotwil Veriatus and turn in This Is Going to Be Hard",
+      "classes": null,
+      "races": null,
+      "coords": [25.948, 44.868],
+      "zone": "badlands",
+      "tips": [],
+      "quests": [
+        {
+          "id": 778,
+          "name": "This Is Going to Be Hard"
+        }
+      ],
+      "npc": "Lotwil Veriatus",
+      "mobs": []
+    },
+    {
+      "id": "hinterlands_badlands_066",
+      "type": "grind",
+      "description": "Grind Ogres and Greater Rock Elementals while looking for a group for Uldaman",
+      "classes": null,
+      "races": null,
+      "coords": [44.7, 12.09],
+      "zone": "badlands",
+      "tips": [],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "hinterlands_badlands_067",
+      "type": "travel",
+      "description": "Travel to Uldaman",
+      "classes": null,
+      "races": null,
+      "coords": null,
+      "zone": "",
+      "tips": [],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "hinterlands_badlands_068",
+      "type": "loot",
+      "description": "Loot the Carved Stone Urns on the ground. This can be only be completed OUTSIDE of Uldaman",
+      "classes": null,
+      "races": null,
+      "coords": null,
+      "zone": "",
+      "tips": [
+        {
+          "type": "warning",
+          "class": null,
+          "text": "This can be only be completed OUTSIDE of Uldaman"
+        }
+      ],
+      "quests": [
+        {
+          "id": 704,
+          "name": "Agmond's Fate"
+        }
+      ],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "hinterlands_badlands_069",
+      "type": "loot",
+      "description": "Loot the Magenta Fungus Caps on the ground. This can be completed INSIDE and OUTSIDE of Uldaman",
+      "classes": null,
+      "races": null,
+      "coords": null,
+      "zone": "",
+      "tips": [
+        {
+          "type": "warning",
+          "class": null,
+          "text": "This can be completed INSIDE and OUTSIDE of Uldaman"
+        }
+      ],
+      "quests": [
+        {
+          "id": 17,
+          "name": "Uldaman Reagent Run"
+        }
+      ],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "hinterlands_badlands_070",
+      "type": "quest_turnin",
+      "description": "Talk to Hammertoe Grez, turn in A Sign of Hope, and accept Amulet of Secrets",
+      "classes": null,
+      "races": null,
+      "coords": null,
+      "zone": "",
+      "tips": [],
+      "quests": [
+        {
+          "id": 721,
+          "name": "A Sign of Hope"
+        },
+        {
+          "id": 722,
+          "name": "Amulet of Secrets"
+        }
+      ],
+      "npc": "Hammertoe Grez",
+      "mobs": []
+    },
+    {
+      "id": "hinterlands_badlands_071",
+      "type": "kill",
+      "description": "Kill Magregan Deepshadow. Loot him for Hammertoe's Amulet. This is completed OUTSIDE of Uldaman",
+      "classes": null,
+      "races": null,
+      "coords": null,
+      "zone": "",
+      "tips": [
+        {
+          "type": "warning",
+          "class": null,
+          "text": "This is completed OUTSIDE of Uldaman"
+        }
+      ],
+      "quests": [
+        {
+          "id": 722,
+          "name": "Amulet of Secrets"
+        }
+      ],
+      "npc": null,
+      "mobs": ["Magregan Deepshadow"]
+    },
+    {
+      "id": "hinterlands_badlands_072",
+      "type": "loot",
+      "description": "Open the Ancient Chest. Loot it for the Tablet of Ryun'eh. This is completed OUTSIDE of Uldaman",
+      "classes": null,
+      "races": null,
+      "coords": null,
+      "zone": "",
+      "tips": [
+        {
+          "type": "warning",
+          "class": null,
+          "text": "This is completed OUTSIDE of Uldaman"
+        }
+      ],
+      "quests": [
+        {
+          "id": 709,
+          "name": "Solution to Doom"
+        }
+      ],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "hinterlands_badlands_073",
+      "type": "loot",
+      "description": "Loot Krom Stoutarm's Treasure on the ground. This is completed OUTSIDE of Uldaman",
+      "classes": null,
+      "races": null,
+      "coords": null,
+      "zone": "",
+      "tips": [
+        {
+          "type": "warning",
+          "class": null,
+          "text": "This is completed OUTSIDE of Uldaman"
+        }
+      ],
+      "quests": [
+        {
+          "id": 1360,
+          "name": "Reclaimed Treasures"
+        }
+      ],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "hinterlands_badlands_074",
+      "type": "quest_turnin",
+      "description": "Talk to Hammertoe Grez, turn in Amulet of Secrets, and accept Prospect of Faith",
+      "classes": null,
+      "races": null,
+      "coords": null,
+      "zone": "",
+      "tips": [],
+      "quests": [
+        {
+          "id": 722,
+          "name": "Amulet of Secrets"
+        },
+        {
+          "id": 723,
+          "name": "Prospect of Faith"
+        }
+      ],
+      "npc": "Hammertoe Grez",
+      "mobs": []
+    },
+    {
+      "id": "hinterlands_badlands_075",
+      "type": "loot",
+      "description": "Loot the Carved Stone Urns and Magenta Fungus Caps on the ground.",
+      "classes": null,
+      "races": null,
+      "coords": null,
+      "zone": "",
+      "tips": [
+        {
+          "type": "warning",
+          "class": null,
+          "text": "Prioritize the Carved Stone Urns. This can only be completed OUTSIDE of Uldaman. You can finish the Magenta Fungus Caps once inside"
+        }
+      ],
+      "quests": [
+        {
+          "id": 704,
+          "name": "Agmond's Fate"
+        },
+        {
+          "id": 17,
+          "name": "Uldaman Reagent Run"
+        }
+      ],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "hinterlands_badlands_076",
+      "type": "loot",
+      "description": "Loot the Carved Stone Urns on the ground.",
+      "classes": null,
+      "races": null,
+      "coords": null,
+      "zone": "",
+      "tips": [
+        {
+          "type": "warning",
+          "class": null,
+          "text": "This can be only be completed OUTSIDE of Uldaman"
+        }
+      ],
+      "quests": [
+        {
+          "id": 704,
+          "name": "Agmond's Fate"
+        }
+      ],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "hinterlands_badlands_077",
+      "type": "travel",
+      "description": "Zone into Uldaman",
+      "classes": null,
+      "races": null,
+      "coords": null,
+      "zone": "",
+      "tips": [],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "hinterlands_badlands_078",
+      "type": "loot",
+      "description": "Loot the Magenta Fungus Caps on the ground",
+      "classes": null,
+      "races": null,
+      "coords": null,
+      "zone": "uldaman",
+      "tips": [],
+      "quests": [
+        {
+          "id": 17,
+          "name": "Uldaman Reagent Run"
+        }
+      ],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "hinterlands_badlands_079",
+      "type": "quest_turnin",
+      "description": "Talk to Baelog, turn in The Lost Dwarves, and accept The Hidden Chamber",
+      "classes": null,
+      "races": null,
+      "coords": null,
+      "zone": "uldaman",
+      "tips": [],
+      "quests": [
+        {
+          "id": 2398,
+          "name": "The Lost Dwarves"
+        },
+        {
+          "id": 2240,
+          "name": "The Hidden Chamber"
+        }
+      ],
+      "npc": "Baelog",
+      "mobs": []
+    },
+    {
+      "id": "hinterlands_badlands_080",
+      "type": "quest_accept",
+      "description": "Talk to Baelog and accept The Hidden Chamber",
+      "classes": null,
+      "races": null,
+      "coords": null,
+      "zone": "uldaman",
+      "tips": [],
+      "quests": [
+        {
+          "id": 2240,
+          "name": "The Hidden Chamber"
+        }
+      ],
+      "npc": "Baelog",
+      "mobs": []
+    },
+    {
+      "id": "hinterlands_badlands_081",
+      "type": "info",
+      "description": "Open Baelog's Chest. Loot it for the Gni'kiv Medallion. Kill Revelosh. Loot him for The Shaft of Tsol.",
+      "classes": null,
+      "races": null,
+      "coords": null,
+      "zone": "uldaman",
+      "tips": [
+        {
+          "type": "warning",
+          "class": null,
+          "text": "Note other party members can loot these items, and then combine them to create the Staff of Prehistoria. Only one person in the group needs to do this"
+        }
+      ],
+      "quests": [
+        {
+          "id": 2240,
+          "name": "The Hidden Chamber"
+        }
+      ],
+      "npc": null,
+      "mobs": ["Revelosh"]
+    },
+    {
+      "id": "hinterlands_badlands_082",
+      "type": "info",
+      "description": "Use the Gni'kiv Medallion and The Shaft of Tsol to combine them into the Staff of Prehistoria. Use the Staff of Prehistoria on the Keystone to summon Ironaya. Kill Ironaya. Run into the Hidden Chamber she came from after",
+      "classes": null,
+      "races": null,
+      "coords": null,
+      "zone": "uldaman",
+      "tips": [
+        {
+          "type": "warning",
+          "class": null,
+          "text": "Use the Gni'kiv Medallion and The Shaft of Tsol to combine them into the Staff of Prehistoria"
+        },
+        {
+          "type": "warning",
+          "class": null,
+          "text": "Use the Staff of Prehistoria on the Keystone to summon Ironaya"
+        }
+      ],
+      "quests": [
+        {
+          "id": 2240,
+          "name": "The Hidden Chamber"
+        }
+      ],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "hinterlands_badlands_083",
+      "type": "loot",
+      "description": "Loot the Magenta Fungus Caps on the ground",
+      "classes": null,
+      "races": null,
+      "coords": null,
+      "zone": "uldaman",
+      "tips": [],
+      "quests": [
+        {
+          "id": 17,
+          "name": "Uldaman Reagent Run"
+        }
+      ],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "hinterlands_badlands_084",
+      "type": "quest_accept",
+      "description": "Kill Archaedas. Click The Discs of Norgannon and accept The Platinum Discs",
+      "classes": null,
+      "races": null,
+      "coords": null,
+      "zone": "uldaman",
+      "tips": [],
+      "quests": [
+        {
+          "id": 2278,
+          "name": "The Platinum Discs"
+        }
+      ],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "hinterlands_badlands_085",
+      "type": "info",
+      "description": "Talk to Lore Keeper of Norgannon",
+      "classes": null,
+      "races": null,
+      "coords": null,
+      "zone": "uldaman",
+      "tips": [],
+      "quests": [
+        {
+          "id": 2278,
+          "name": "The Platinum Discs"
+        }
+      ],
+      "npc": "Lore Keeper of Norgannon",
+      "mobs": []
+    },
+    {
+      "id": "hinterlands_badlands_086",
+      "type": "quest_turnin",
+      "description": "Click The Discs of Norgannon, turn in The Platinum Discs, and accept The Platinum Discs",
+      "classes": null,
+      "races": null,
+      "coords": null,
+      "zone": "uldaman",
+      "tips": [],
+      "quests": [
+        {
+          "id": 2278,
+          "name": "The Platinum Discs"
+        },
+        {
+          "id": 2279,
+          "name": "The Platinum Discs"
+        }
+      ],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "hinterlands_badlands_087",
+      "type": "quest_accept",
+      "description": "Use the Shattered Necklace to start the quest and accept The Shattered Necklace",
+      "classes": null,
+      "races": null,
+      "coords": null,
+      "zone": "uldaman",
+      "tips": [
+        {
+          "type": "warning",
+          "class": null,
+          "text": "Use the Shattered Necklace to start the quest"
+        }
+      ],
+      "quests": [
+        {
+          "id": 2198,
+          "name": "The Shattered Necklace"
+        }
+      ],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "hinterlands_badlands_088",
+      "type": "info",
+      "description": "Zone out of Uldaman together as a group to turn in quests in Badlands. The closest exit is the Uldaman backdoor",
+      "classes": null,
+      "races": null,
+      "coords": null,
+      "zone": "uldaman",
+      "tips": [],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "hinterlands_badlands_089",
+      "type": "quest_turnin",
+      "description": "Talk to Theldurin the Lost and turn in Solution to Doom",
+      "classes": null,
+      "races": null,
+      "coords": [51.386, 76.874],
+      "zone": "badlands",
+      "tips": [],
+      "quests": [
+        {
+          "id": 709,
+          "name": "Solution to Doom"
+        }
+      ],
+      "npc": "Theldurin the Lost",
+      "mobs": []
+    },
+    {
+      "id": "hinterlands_badlands_090",
+      "type": "quest_turnin",
+      "description": "Talk to Prospector Ryedol and turn in Prospect of Faith. Accept Prospect of Faith",
+      "classes": null,
+      "races": null,
+      "coords": [53.421, 43.393],
+      "zone": "badlands",
+      "tips": [],
+      "quests": [
+        {
+          "id": 723,
+          "name": "Prospect of Faith"
+        },
+        {
+          "id": 724,
+          "name": "Prospect of Faith"
+        }
+      ],
+      "npc": "Prospector Ryedol",
+      "mobs": []
+    },
+    {
+      "id": "hinterlands_badlands_091",
+      "type": "travel",
+      "description": "Travel to Loch Modan",
+      "classes": null,
+      "races": null,
+      "coords": [46.78, 78.09],
+      "zone": "loch_modan",
+      "tips": [],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "hinterlands_badlands_092",
+      "type": "quest_turnin",
+      "description": "Talk to Prospector Ironband and turn in Agmond's Fate",
+      "classes": null,
+      "races": null,
+      "coords": [65.93, 65.62],
+      "zone": "loch_modan",
+      "tips": [],
+      "quests": [
+        {
+          "id": 704,
+          "name": "Agmond's Fate"
+        }
+      ],
+      "npc": "Prospector Ironband",
+      "mobs": []
+    },
+    {
+      "id": "hinterlands_badlands_093",
+      "type": "quest_turnin",
+      "description": "Talk to Ghak Healtouch and turn in Uldaman Reagent Run",
+      "classes": null,
+      "races": null,
+      "coords": [37.067, 49.379],
+      "zone": "loch_modan",
+      "tips": [],
+      "quests": [
+        {
+          "id": 17,
+          "name": "Uldaman Reagent Run"
+        }
+      ],
+      "npc": "Ghak Healtouch",
+      "mobs": []
+    },
+    {
+      "id": "hinterlands_badlands_094",
+      "type": "fly",
+      "description": "Talk to Thorgrum Borrelson and fly to Ironforge",
+      "classes": null,
+      "races": null,
+      "coords": [33.938, 50.954],
+      "zone": "loch_modan",
+      "tips": [],
+      "quests": [],
+      "npc": "Thorgrum Borrelson",
+      "mobs": []
+    },
+    {
+      "id": "hinterlands_badlands_095",
+      "type": "quest_turnin",
+      "description": "Talk to High Explorer Magellas, turn in The Platinum Discs, and accept The Platinum Discs",
+      "classes": null,
+      "races": null,
+      "coords": [69.93, 18.548],
+      "zone": "ironforge",
+      "tips": [],
+      "quests": [
+        {
+          "id": 2279,
+          "name": "The Platinum Discs"
+        },
+        {
+          "id": 2439,
+          "name": "The Platinum Discs"
+        }
+      ],
+      "npc": "High Explorer Magellas",
+      "mobs": []
+    },
+    {
+      "id": "hinterlands_badlands_096",
+      "type": "quest_turnin",
+      "description": "Talk to Prospector Stormpike and turn in The Hidden Chamber",
+      "classes": null,
+      "races": null,
+      "coords": [74.645, 11.742],
+      "zone": "ironforge",
+      "tips": [],
+      "quests": [
+        {
+          "id": 2240,
+          "name": "The Hidden Chamber"
+        }
+      ],
+      "npc": "Prospector Stormpike",
+      "mobs": []
+    },
+    {
+      "id": "hinterlands_badlands_097",
+      "type": "quest_turnin",
+      "description": "Talk to Krom Stoutarm and turn in Reclaimed Treasures",
+      "classes": null,
+      "races": null,
+      "coords": [74.179, 9.371],
+      "zone": "ironforge",
+      "tips": [],
+      "quests": [
+        {
+          "id": 1360,
+          "name": "Reclaimed Treasures"
+        }
+      ],
+      "npc": "Krom Stoutarm",
+      "mobs": []
+    },
+    {
+      "id": "hinterlands_badlands_098",
+      "type": "quest_turnin",
+      "description": "Talk to Historian Karnik and Advisor Belgrum, turn in Prospect of Faith, accept Passing Word of a Threat, turn in Passing Word of a Threat, accept Passing Word of a Threat, turn in Passing Word of a Threat, and accept An Ambassador of Evil",
+      "classes": null,
+      "races": null,
+      "coords": [77.539, 11.834],
+      "zone": "ironforge",
+      "tips": [],
+      "quests": [
+        {
+          "id": 724,
+          "name": "Prospect of Faith"
+        },
+        {
+          "id": 725,
+          "name": "Passing Word of a Threat"
+        },
+        {
+          "id": 726,
+          "name": "Passing Word of a Threat"
+        },
+        {
+          "id": 762,
+          "name": "An Ambassador of Evil"
+        }
+      ],
+      "npc": "Historian Karnik",
+      "mobs": []
+    },
+    {
+      "id": "hinterlands_badlands_099",
+      "type": "quest_turnin",
+      "description": "Talk to Historian Karnik and Advisor Belgrum, turn in Prospect of Faith, accept Passing Word of a Threat, turn in Passing Word of a Threat, accept Passing Word of a Threat, and turn in Passing Word of a Threat",
+      "classes": null,
+      "races": null,
+      "coords": [77.539, 11.834],
+      "zone": "ironforge",
+      "tips": [],
+      "quests": [
+        {
+          "id": 724,
+          "name": "Prospect of Faith"
+        },
+        {
+          "id": 725,
+          "name": "Passing Word of a Threat"
+        },
+        {
+          "id": 726,
+          "name": "Passing Word of a Threat"
+        }
+      ],
+      "npc": "Historian Karnik",
+      "mobs": []
+    },
+    {
+      "id": "hinterlands_badlands_100",
+      "type": "quest_turnin",
+      "description": "Talk to Dinita Stonemantle and turn in The Platinum Discs",
+      "classes": null,
+      "races": null,
+      "coords": [33.874, 59.136],
+      "zone": "ironforge",
+      "tips": [],
+      "quests": [
+        {
+          "id": 2439,
+          "name": "The Platinum Discs"
+        }
+      ],
+      "npc": "Dinita Stonemantle",
+      "mobs": []
+    },
+    {
+      "id": "hinterlands_badlands_101",
+      "type": "quest_turnin",
+      "description": "Talk to Talvash del Kissel and turn in The Shattered Necklace",
+      "classes": null,
+      "races": null,
+      "coords": [36.377, 3.614],
+      "zone": "ironforge",
+      "tips": [],
+      "quests": [
+        {
+          "id": 2198,
+          "name": "The Shattered Necklace"
+        }
+      ],
+      "npc": "Talvash del Kissel",
+      "mobs": []
+    },
+    {
+      "id": "hinterlands_badlands_102",
+      "type": "quest_accept",
+      "description": "Talk to Talvash del Kissel and accept Lore for a Price",
+      "classes": null,
+      "races": null,
+      "coords": [36.377, 3.614],
+      "zone": "ironforge",
+      "tips": [],
+      "quests": [
+        {
+          "id": 2199,
+          "name": "Lore for a Price"
+        }
+      ],
+      "npc": "Talvash del Kissel",
+      "mobs": []
+    },
+    {
+      "id": "hinterlands_badlands_103",
+      "type": "quest_turnin",
+      "description": "Talk to Talvash del Kissel. Bring 5 Silver Bars to Talvash del Kissel and turn in Lore for a Price.",
+      "classes": null,
+      "races": null,
+      "coords": [36.377, 3.614],
+      "zone": "ironforge",
+      "tips": [
+        {
+          "type": "warning",
+          "class": null,
+          "text": "If you are unable to acquire them, abandon this quest"
+        }
+      ],
+      "quests": [
+        {
+          "id": 2199,
+          "name": "Lore for a Price"
+        }
+      ],
+      "npc": "Talvash del Kissel",
+      "mobs": []
+    },
+    {
+      "id": "hinterlands_badlands_104",
+      "type": "fly",
+      "description": "Talk to Gryth Thurden and fly to Loch Modan",
+      "classes": null,
+      "races": null,
+      "coords": [55.501, 47.742],
+      "zone": "ironforge",
+      "tips": [],
+      "quests": [],
+      "npc": "Gryth Thurden",
+      "mobs": []
+    },
+    {
+      "id": "hinterlands_badlands_105",
+      "type": "info",
+      "description": "Abandon Lore for a Price",
+      "classes": null,
+      "races": null,
+      "coords": null,
+      "zone": "",
+      "tips": [],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "hinterlands_badlands_106",
+      "type": "travel",
+      "description": "Travel to Badlands",
+      "classes": null,
+      "races": null,
+      "coords": [49.23, 7.8],
+      "zone": "badlands",
+      "tips": [],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "hinterlands_badlands_107",
+      "type": "travel",
+      "description": "Enter Angor Fortress",
+      "classes": null,
+      "races": null,
+      "coords": null,
+      "zone": "",
+      "tips": [],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "hinterlands_badlands_108",
+      "type": "kill",
+      "description": "Kill Ambassador Infernus. Loot him for Ambassador Infernus' Bracer. Ambassador Infernus is on the lower level",
+      "classes": null,
+      "races": null,
+      "coords": [42.1, 28.89],
+      "zone": "badlands",
+      "tips": [
+        {
+          "type": "warning",
+          "class": null,
+          "text": "Ambassador Infernus is on the lower level"
+        }
+      ],
+      "quests": [
+        {
+          "id": 762,
+          "name": "An Ambassador of Evil"
+        }
+      ],
+      "npc": null,
+      "mobs": ["Ambassador Infernus"]
+    },
+    {
+      "id": "hinterlands_badlands_109",
+      "type": "travel",
+      "description": "Travel to Searing Gorge",
+      "classes": null,
+      "races": null,
+      "coords": [76.28, 56.39],
+      "zone": "searing_gorge",
+      "tips": [],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "hinterlands_badlands_110",
+      "type": "quest_accept",
+      "description": "Click on the Wooden Outhouse and accept Caught!",
+      "classes": null,
+      "races": null,
+      "coords": [65.592, 62.172],
+      "zone": "searing_gorge",
+      "tips": [],
+      "quests": [
+        {
+          "id": 4449,
+          "name": "Caught!"
+        }
+      ],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "hinterlands_badlands_111",
+      "type": "kill",
+      "description": "Kill Dark Iron Geologists. Loot them for their Silk Cloth if you still need more",
+      "classes": null,
+      "races": null,
+      "coords": [63.1, 60.9],
+      "zone": "searing_gorge",
+      "tips": [],
+      "quests": [
+        {
+          "id": 4449,
+          "name": "Caught!"
+        }
+      ],
+      "npc": null,
+      "mobs": ["Dark Iron Geologist"]
+    },
+    {
+      "id": "hinterlands_badlands_112",
+      "type": "quest_turnin",
+      "description": "Click on the Wooden Outhouse, turn in Caught!, and accept Ledger from Tanaris",
+      "classes": null,
+      "races": null,
+      "coords": [65.592, 62.172],
+      "zone": "searing_gorge",
+      "tips": [],
+      "quests": [
+        {
+          "id": 4449,
+          "name": "Caught!"
+        },
+        {
+          "id": 4450,
+          "name": "Ledger from Tanaris"
+        }
+      ],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "hinterlands_badlands_113",
+      "type": "loot",
+      "description": "Loot the Goodsteel Ledger on the ground",
+      "classes": null,
+      "races": null,
+      "coords": [65.505, 62.184],
+      "zone": "searing_gorge",
+      "tips": [],
+      "quests": [
+        {
+          "id": 4450,
+          "name": "Ledger from Tanaris"
+        }
+      ],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "hinterlands_badlands_114",
+      "type": "kill",
+      "description": "Kill Glassweb Spiders. Loot them for their Solid Crystal Leg Shafts. Prioritize on completing the next steps escort quest. If he isn't there kill Glassweb Spiders while waiting",
+      "classes": null,
+      "races": null,
+      "coords": null,
+      "zone": "",
+      "tips": [
+        {
+          "type": "warning",
+          "class": null,
+          "text": "Prioritize on completing the next steps escort quest. If he isn't there kill Glassweb Spiders while waiting"
+        }
+      ],
+      "quests": [
+        {
+          "id": 4450,
+          "name": "Ledger from Tanaris"
+        }
+      ],
+      "npc": null,
+      "mobs": ["Glassweb Spider"]
+    },
+    {
+      "id": "hinterlands_badlands_115",
+      "type": "quest_accept",
+      "description": "Talk to Dorius Stonetender and accept Suntara Stones. This will start an escort. Clear the surrounding area of the pit before accepting this quest",
+      "classes": null,
+      "races": null,
+      "coords": [63.879, 60.978],
+      "zone": "searing_gorge",
+      "tips": [
+        {
+          "type": "warning",
+          "class": null,
+          "text": "This will start an escort. Clear the surrounding area of the pit before accepting this quest"
+        }
+      ],
+      "quests": [
+        {
+          "id": 3367,
+          "name": "Suntara Stones"
+        }
+      ],
+      "npc": "Dorius Stonetender",
+      "mobs": []
+    },
+    {
+      "id": "hinterlands_badlands_116",
+      "type": "kill",
+      "description": "Kill Glassweb Spiders. Loot them for their Solid Crystal Leg Shafts",
+      "classes": null,
+      "races": null,
+      "coords": null,
+      "zone": "",
+      "tips": [],
+      "quests": [
+        {
+          "id": 4450,
+          "name": "Ledger from Tanaris"
+        }
+      ],
+      "npc": null,
+      "mobs": ["Glassweb Spider"]
+    },
+    {
+      "id": "hinterlands_badlands_117",
+      "type": "info",
+      "description": "Escort Dorius to the Loch Modan Pass Gate",
+      "classes": null,
+      "races": null,
+      "coords": [74.448, 19.287],
+      "zone": "searing_gorge",
+      "tips": [],
+      "quests": [
+        {
+          "id": 3367,
+          "name": "Suntara Stones"
+        }
+      ],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "hinterlands_badlands_118",
+      "type": "quest_turnin",
+      "description": "Click the Singed Letter on the ground, turn in Suntara Stones, and accept Suntara Stones.",
+      "classes": null,
+      "races": null,
+      "coords": [74.448, 19.287],
+      "zone": "searing_gorge",
+      "tips": [
+        {
+          "type": "warning",
+          "class": null,
+          "text": "If the Singed Letter has not spawned, you will need to abandon Suntara Stones and complete the escort again. This is a bug with WoW Classic"
+        }
+      ],
+      "quests": [
+        {
+          "id": 3367,
+          "name": "Suntara Stones"
+        },
+        {
+          "id": 3368,
+          "name": "Suntara Stones"
+        }
+      ],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "hinterlands_badlands_119",
+      "type": "kill",
+      "description": "Kill Glassweb Spiders. Loot them for their Solid Crystal Leg Shafts",
+      "classes": null,
+      "races": null,
+      "coords": [65.4, 48.4],
+      "zone": "searing_gorge",
+      "tips": [],
+      "quests": [
+        {
+          "id": 4450,
+          "name": "Ledger from Tanaris"
+        }
+      ],
+      "npc": null,
+      "mobs": ["Glassweb Spider"]
+    },
+    {
+      "id": "hinterlands_badlands_120",
+      "type": "travel",
+      "description": "Travel to Thorium Point",
+      "classes": null,
+      "races": null,
+      "coords": null,
+      "zone": "",
+      "tips": [],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "hinterlands_badlands_121",
+      "type": "fly",
+      "description": "Talk to Lanie Reed. Get the Thorium Point flight path and fly to Ironforge",
+      "classes": ["!Mage"],
+      "races": null,
+      "coords": [37.934, 30.861],
+      "zone": "searing_gorge",
+      "tips": [],
+      "quests": [],
+      "npc": "Lanie Reed",
+      "mobs": []
+    },
+    {
+      "id": "hinterlands_badlands_122",
+      "type": "info",
+      "description": "Teleport to Ironforge",
+      "classes": ["Mage"],
+      "races": null,
+      "coords": null,
+      "zone": "",
+      "tips": [],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "hinterlands_badlands_123",
+      "type": "quest_accept",
+      "description": "Talk to High Explorer Magellas and Historian Karnik, accept Portents of Uldum, turn in Portents of Uldum, and accept Seeing What Happens",
+      "classes": null,
+      "races": null,
+      "coords": [77.539, 11.834],
+      "zone": "ironforge",
+      "tips": [],
+      "quests": [
+        {
+          "id": 2963,
+          "name": "Portents of Uldum"
+        },
+        {
+          "id": 2946,
+          "name": "Seeing What Happens"
+        }
+      ],
+      "npc": "Historian Karnik",
+      "mobs": []
+    },
+    {
+      "id": "hinterlands_badlands_124",
+      "type": "quest_turnin",
+      "description": "Talk to Advisor Belgrum and turn in An Ambassador of Evil",
+      "classes": null,
+      "races": null,
+      "coords": [77.343, 9.714],
+      "zone": "ironforge",
+      "tips": [],
+      "quests": [
+        {
+          "id": 762,
+          "name": "An Ambassador of Evil"
+        }
+      ],
+      "npc": "Advisor Belgrum",
+      "mobs": []
+    },
+    {
+      "id": "hinterlands_badlands_125",
+      "type": "quest_turnin",
+      "description": "Talk to Curator Thorius and turn in Suntara Stones. Curator Thorius patrols through the Hall of Explorers",
+      "classes": null,
+      "races": null,
+      "coords": [71.83, 16.12],
+      "zone": "ironforge",
+      "tips": [
+        {
+          "type": "warning",
+          "class": null,
+          "text": "Curator Thorius patrols through the Hall of Explorers"
+        }
+      ],
+      "quests": [
+        {
+          "id": 3368,
+          "name": "Suntara Stones"
+        }
+      ],
+      "npc": "Curator Thorius",
+      "mobs": []
+    },
+    {
+      "id": "hinterlands_badlands_126",
+      "type": "travel",
+      "description": "Enter the Deeprun Tram. Take the Tram to Stormwind City",
+      "classes": ["!Mage"],
+      "races": null,
+      "coords": null,
+      "zone": "",
+      "tips": [],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "hinterlands_badlands_127",
+      "type": "fly",
+      "description": "Talk to Lanie Reed. Get the Thorium Point flight path and fly to Stormwind",
+      "classes": ["!Mage"],
+      "races": null,
+      "coords": [37.934, 30.861],
+      "zone": "searing_gorge",
+      "tips": [],
+      "quests": [],
+      "npc": "Lanie Reed",
+      "mobs": []
+    },
+    {
+      "id": "hinterlands_badlands_128",
+      "type": "info",
+      "description": "Teleport to Stormwind",
+      "classes": ["Mage"],
+      "races": null,
+      "coords": null,
+      "zone": "",
+      "tips": [],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "hinterlands_badlands_129",
+      "type": "quest_turnin",
+      "description": "Talk to Brohann Caskbelly and turn in Rhapsody's Tale",
+      "classes": null,
+      "races": null,
+      "coords": [64.328, 20.627],
+      "zone": "stormwind_city",
+      "tips": [],
+      "quests": [
+        {
+          "id": 1469,
+          "name": "Rhapsody's Tale"
+        }
+      ],
+      "npc": "Brohann Caskbelly",
+      "mobs": []
+    },
+    {
+      "id": "hinterlands_badlands_130",
+      "type": "info",
+      "description": "Abandon An Ambassador of Evil",
+      "classes": null,
+      "races": null,
+      "coords": null,
+      "zone": "",
+      "tips": [],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "hinterlands_badlands_131",
+      "type": "info",
+      "description": "Talk to Newton Burnside. Withdraw the following items from your bank: Sack of Barley, Sack of Corn, Sack of Rye, Undelivered Parcel, OOX-22/FE Distress Beacon (If you have it)",
+      "classes": null,
+      "races": null,
+      "coords": [57.06, 73.05],
+      "zone": "stormwind_city",
+      "tips": [],
+      "quests": [],
+      "npc": "Newton Burnside",
+      "mobs": []
+    },
+    {
+      "id": "hinterlands_badlands_132",
+      "type": "info",
+      "description": "Talk to Newton Burnside. Deposit the following items into your bank: Solid Crystal Leg Shaft, Goodsteel Ledger, Singed Letter (If you have it)",
+      "classes": null,
+      "races": null,
+      "coords": [57.06, 73.05],
+      "zone": "stormwind_city",
+      "tips": [],
+      "quests": [],
+      "npc": "Newton Burnside",
+      "mobs": []
+    },
+    {
+      "id": "hinterlands_badlands_133",
+      "type": "info",
+      "description": "Talk to Auctioneer Jaxon. Buy a Truesilver Bar and 2 Elixir of Fortitudes. Skip this step if you aren't able to aquire them",
+      "classes": null,
+      "races": null,
+      "coords": [53.612, 59.764],
+      "zone": "stormwind_city",
+      "tips": [
+        {
+          "type": "warning",
+          "class": null,
+          "text": "Skip this step if you aren't able to aquire them"
+        }
+      ],
+      "quests": [],
+      "npc": "Auctioneer Jaxon",
+      "mobs": []
+    },
+    {
+      "id": "hinterlands_badlands_134",
+      "type": "fly",
+      "description": "Talk to Dungar Longdrink and fly to Westfall",
+      "classes": null,
+      "races": null,
+      "coords": [66.27, 62.12],
+      "zone": "stormwind_city",
+      "tips": [],
+      "quests": [],
+      "npc": "Dungar Longdrink",
+      "mobs": []
+    },
+    {
+      "id": "hinterlands_badlands_135",
+      "type": "quest_turnin",
+      "description": "Talk to Grimbooze Thunderbrew and turn in Sweet Amber",
+      "classes": null,
+      "races": null,
+      "coords": [44.62, 80.254],
+      "zone": "westfall",
+      "tips": [],
+      "quests": [
+        {
+          "id": 49,
+          "name": "Sweet Amber"
+        }
+      ],
+      "npc": "Grimbooze Thunderbrew",
+      "mobs": []
+    },
+    {
+      "id": "hinterlands_badlands_136",
+      "type": "quest_turnin",
+      "description": "Talk to Grimbooze Thunderbrew, accept Sweet Amber, and turn in Sweet Amber",
+      "classes": null,
+      "races": null,
+      "coords": [44.62, 80.254],
+      "zone": "westfall",
+      "tips": [],
+      "quests": [
+        {
+          "id": 50,
+          "name": "Sweet Amber"
+        }
+      ],
+      "npc": "Grimbooze Thunderbrew",
+      "mobs": []
+    },
+    {
+      "id": "hinterlands_badlands_137",
+      "type": "quest_accept",
+      "description": "Talk to Grimbooze Thunderbrew and accept Sweet Amber",
+      "classes": null,
+      "races": null,
+      "coords": [44.62, 80.254],
+      "zone": "westfall",
+      "tips": [],
+      "quests": [
+        {
+          "id": 51,
+          "name": "Sweet Amber"
+        }
+      ],
+      "npc": "Grimbooze Thunderbrew",
+      "mobs": []
+    },
+    {
+      "id": "hinterlands_badlands_138",
+      "type": "info",
+      "description": "Hearth to Feathermoon Stronghold",
+      "classes": null,
+      "races": null,
+      "coords": null,
+      "zone": "",
+      "tips": [],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "hinterlands_badlands_139",
+      "type": "quest_accept",
+      "description": "Talk to Angelas Moonbreeze and accept The Sunken Temple",
+      "classes": null,
+      "races": null,
+      "coords": [31.828, 45.611],
+      "zone": "feralas",
+      "tips": [],
+      "quests": [
+        {
+          "id": 3445,
+          "name": "The Sunken Temple"
+        }
+      ],
+      "npc": "Angelas Moonbreeze",
+      "mobs": []
+    },
+    {
+      "id": "hinterlands_badlands_140",
+      "type": "grind",
+      "description": "Grind to level 47. Kill Hatecrest Nagas until you loot the OOX-22/FE Distress Beacon.",
+      "classes": null,
+      "races": null,
+      "coords": [26.6, 53.4],
+      "zone": "feralas",
+      "tips": [
+        {
+          "type": "warning",
+          "class": null,
+          "text": "Use the OOX-22/FE Distress Beacon to start the quest"
+        },
+        {
+          "type": "warning",
+          "class": null,
+          "text": "If you don't find it by the time you are 47, skip it"
+        }
+      ],
+      "quests": [
+        {
+          "id": 2766,
+          "name": "Find OOX-22/FE!"
+        }
+      ],
+      "npc": null,
+      "mobs": [
+        "Hatecrest Screamer",
+        "Hatecrest Wave Rider",
+        "Hatecrest Warrior",
+        "Hatecrest Siren"
+      ]
+    },
+    {
+      "id": "hinterlands_badlands_141",
+      "type": "quest_accept",
+      "description": "Use the OOX-22/FE Distress Beacon to start the quest and accept Find OOX-22/FE!",
+      "classes": null,
+      "races": null,
+      "coords": null,
+      "zone": "",
+      "tips": [
+        {
+          "type": "warning",
+          "class": null,
+          "text": "Use the OOX-22/FE Distress Beacon to start the quest"
+        }
+      ],
+      "quests": [
+        {
+          "id": 2766,
+          "name": "Find OOX-22/FE!"
+        }
+      ],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "hinterlands_badlands_142",
+      "type": "travel",
+      "description": "Swim to the mainland",
+      "classes": null,
+      "races": null,
+      "coords": null,
+      "zone": "",
+      "tips": [],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "hinterlands_badlands_143",
+      "type": "quest_turnin",
+      "description": "Talk to the Homing Robot OOX-22/FE and turn in Find OOX-22/FE!",
+      "classes": null,
+      "races": null,
+      "coords": [53.353, 55.696],
+      "zone": "feralas",
+      "tips": [
+        {
+          "type": "warning",
+          "class": null,
+          "text": "Do NOT accept the follow up and attempt to do the Escort, unless you are in a group"
+        }
+      ],
+      "quests": [
+        {
+          "id": 2766,
+          "name": "Find OOX-22/FE!"
+        }
+      ],
+      "npc": "Homing Robot OOX-22/FE",
+      "mobs": []
+    },
+    {
+      "id": "hinterlands_badlands_144",
+      "type": "quest_accept",
+      "description": "Talk to the Homing Robot OOX-22/FE and accept Rescue OOX-22/FE!",
+      "classes": null,
+      "races": null,
+      "coords": [53.353, 55.696],
+      "zone": "feralas",
+      "tips": [],
+      "quests": [
+        {
+          "id": 2767,
+          "name": "Rescue OOX-22/FE!"
+        }
+      ],
+      "npc": "Homing Robot OOX-22/FE",
+      "mobs": []
+    },
+    {
+      "id": "hinterlands_badlands_145",
+      "type": "info",
+      "description": "Escort the Homing Robot OOX-22/FE to safety",
+      "classes": null,
+      "races": null,
+      "coords": [45.67, 43.38],
+      "zone": "feralas",
+      "tips": [],
+      "quests": [
+        {
+          "id": 2767,
+          "name": "Rescue OOX-22/FE!"
+        }
+      ],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "hinterlands_badlands_146",
+      "type": "kill",
+      "description": "Kill a Cursed Sycamore. Loot it for its Sycamore Branch.",
+      "classes": null,
+      "races": null,
+      "coords": [54.14, 71.54],
+      "zone": "feralas",
+      "tips": [
+        {
+          "type": "warning",
+          "class": null,
+          "text": "The Cursed Sycamore patrol path is marked on your map"
+        },
+        {
+          "type": "warning",
+          "class": null,
+          "text": "If you cannot find the Cursed Sycamore but instead see a Wandering Forest Walker, kill it and wait until a Cursed Sycamore spawns. There can only ever be one of these alive at a time"
+        }
+      ],
+      "quests": [
+        {
+          "id": 51,
+          "name": "Sweet Amber"
+        }
+      ],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "hinterlands_badlands_147",
+      "type": "loot",
+      "description": "Loot a Hippogryph Egg from a nest",
+      "classes": null,
+      "races": null,
+      "coords": null,
+      "zone": "",
+      "tips": [],
+      "quests": [
+        {
+          "id": 2741,
+          "name": "Hippogryph Egg"
+        }
+      ],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "hinterlands_badlands_148",
+      "type": "quest_accept",
+      "description": "Talk to Kindal Moonweaver and accept An Orphan Looking For a Home",
+      "classes": null,
+      "races": null,
+      "coords": [65.945, 45.651],
+      "zone": "feralas",
+      "tips": [],
+      "quests": [
+        {
+          "id": 3841,
+          "name": "An Orphan Looking For a Home"
+        }
+      ],
+      "npc": "Kindal Moonweaver",
+      "mobs": []
+    },
+    {
+      "id": "hinterlands_badlands_149",
+      "type": "quest_turnin",
+      "description": "Talk to Falfindel Waywarder and turn in Thalanaar Delivery",
+      "classes": null,
+      "races": null,
+      "coords": [89.634, 46.563],
+      "zone": "feralas",
+      "tips": [],
+      "quests": [
+        {
+          "id": 4281,
+          "name": "Thalanaar Delivery"
+        }
+      ],
+      "npc": "Falfindel Waywarder",
+      "mobs": []
+    },
+    {
+      "id": "hinterlands_badlands_150",
+      "type": "fly",
+      "description": "Talk to Thyssiana and fly to Tanaris",
+      "classes": null,
+      "races": null,
+      "coords": [89.497, 45.853],
+      "zone": "feralas",
+      "tips": [],
+      "quests": [],
+      "npc": "Thyssiana",
+      "mobs": []
+    }
+  ]
+}

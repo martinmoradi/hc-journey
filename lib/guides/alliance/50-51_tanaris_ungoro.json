@@ -1,0 +1,2752 @@
+{
+  "zone": "Tanaris/Un'goro",
+  "levelRange": "50-51",
+  "faction": "Alliance",
+  "name": "50-51_tanaris_ungoro",
+  "next": "51-52_blasted_lands",
+  "steps": [
+    {
+      "id": "tanaris_ungoro_001",
+      "type": "quest_turnin",
+      "description": "Talk to Senior Surveyor Fizzledowser and turn in Ledger from Tanaris",
+      "classes": null,
+      "races": null,
+      "coords": [51.465, 28.814],
+      "zone": "tanaris",
+      "tips": [],
+      "quests": [
+        {
+          "id": 4450,
+          "name": "Ledger from Tanaris"
+        }
+      ],
+      "npc": "Krinkle Goodsteel",
+      "mobs": []
+    },
+    {
+      "id": "tanaris_ungoro_002",
+      "type": "quest_accept",
+      "description": "Talk to Marin Noggenfogger and accept The Thirsty Goblin",
+      "classes": null,
+      "races": null,
+      "coords": [51.808, 28.662],
+      "zone": "tanaris",
+      "tips": [],
+      "quests": [
+        {
+          "id": 2605,
+          "name": "The Thirsty Goblin"
+        }
+      ],
+      "npc": "Marin Noggenfogger",
+      "mobs": []
+    },
+    {
+      "id": "tanaris_ungoro_003",
+      "type": "info",
+      "description": "Talk to Gimblethorn. Withdraw Goodsteel Ledger, Solid Crystal Leg Shaft, Overdue Package, Goodsteel's Balanced Flameberge, OOX-17/TN Distress Beacon (If you have it) from your bank",
+      "classes": null,
+      "races": null,
+      "coords": [52.297, 28.915],
+      "zone": "tanaris",
+      "tips": [],
+      "quests": [],
+      "npc": "Gimblethorn",
+      "mobs": []
+    },
+    {
+      "id": "tanaris_ungoro_004",
+      "type": "info",
+      "description": "Talk to Gimblethorn. Deposit Black Dragonflight Molt (If you have it) into your bank",
+      "classes": null,
+      "races": null,
+      "coords": [52.297, 28.915],
+      "zone": "tanaris",
+      "tips": [],
+      "quests": [],
+      "npc": "Gimblethorn",
+      "mobs": []
+    },
+    {
+      "id": "tanaris_ungoro_005",
+      "type": "quest_turnin",
+      "description": "Talk to Senior Surveyor Fizzledowser and turn in Ledger from Tanaris",
+      "classes": null,
+      "races": null,
+      "coords": [51.465, 28.814],
+      "zone": "tanaris",
+      "tips": [],
+      "quests": [
+        {
+          "id": 4450,
+          "name": "Ledger from Tanaris"
+        }
+      ],
+      "npc": "Krinkle Goodsteel",
+      "mobs": []
+    },
+    {
+      "id": "tanaris_ungoro_006",
+      "type": "info",
+      "description": "Talk to Innkeeper Fizzgrimble. Set your Hearthstone to Gadgetzan",
+      "classes": null,
+      "races": null,
+      "coords": [52.51, 27.91],
+      "zone": "tanaris",
+      "tips": [],
+      "quests": [],
+      "npc": "Innkeeper Fizzgrimble",
+      "mobs": []
+    },
+    {
+      "id": "tanaris_ungoro_007",
+      "type": "quest_accept",
+      "description": "Talk to Tran'rek and accept Thistleshrub Valley",
+      "classes": null,
+      "races": null,
+      "coords": [51.566, 26.759],
+      "zone": "tanaris",
+      "tips": [],
+      "quests": [
+        {
+          "id": 3362,
+          "name": "Thistleshrub Valley"
+        }
+      ],
+      "npc": "Tran'rek",
+      "mobs": []
+    },
+    {
+      "id": "tanaris_ungoro_008",
+      "type": "quest_accept",
+      "description": "Talk to Senior Surveyor Fizzledowser and accept The Scrimshank Redemption",
+      "classes": null,
+      "races": null,
+      "coords": [50.21, 27.483],
+      "zone": "tanaris",
+      "tips": [],
+      "quests": [
+        {
+          "id": 10,
+          "name": "The Scrimshank Redemption"
+        }
+      ],
+      "npc": "Senior Surveyor Fizzledowser",
+      "mobs": []
+    },
+    {
+      "id": "tanaris_ungoro_009",
+      "type": "travel",
+      "description": "Enter The Gaping Chasm Hive",
+      "classes": null,
+      "races": null,
+      "coords": [54.63, 70.75],
+      "zone": "tanaris",
+      "tips": [],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "tanaris_ungoro_010",
+      "type": "loot",
+      "description": "Loot the Scrimshank's Surveying Gear on the ground",
+      "classes": null,
+      "races": null,
+      "coords": [55.956, 71.164],
+      "zone": "tanaris",
+      "tips": [
+        {
+          "type": "warning",
+          "class": null,
+          "text": "The Scrimshank's Surveying Gear is inside of the Hive"
+        }
+      ],
+      "quests": [
+        {
+          "id": 10,
+          "name": "The Scrimshank Redemption"
+        }
+      ],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "tanaris_ungoro_011",
+      "type": "quest_accept",
+      "description": "Use the OOX-17/TN Distress Beacon to start the quest. Accept Find OOX-17/TN",
+      "classes": null,
+      "races": null,
+      "coords": [60.235, 64.714],
+      "zone": "tanaris",
+      "tips": [
+        {
+          "type": "warning",
+          "class": null,
+          "text": "Use the OOX-17/TN Distress Beacon to start the quest"
+        },
+        {
+          "type": "warning",
+          "class": null,
+          "text": "Skip this step if you do not have it"
+        }
+      ],
+      "quests": [
+        {
+          "id": 351,
+          "name": "Find OOX-17/TN"
+        }
+      ],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "tanaris_ungoro_012",
+      "type": "quest_turnin",
+      "description": "Talk to the Homing Robot OOX-17/TN and turn in Find OOX-17/TN!",
+      "classes": null,
+      "races": null,
+      "coords": [60.235, 64.714],
+      "zone": "tanaris",
+      "tips": [
+        {
+          "type": "warning",
+          "class": null,
+          "text": "Do NOT accept the follow up and attempt to do the Escort, unless you are in a group"
+        }
+      ],
+      "quests": [
+        {
+          "id": 351,
+          "name": "Find OOX-17/TN!"
+        }
+      ],
+      "npc": "Homing Robot OOX-17/TN",
+      "mobs": []
+    },
+    {
+      "id": "tanaris_ungoro_013",
+      "type": "quest_accept",
+      "description": "Talk to the Homing Robot OOX-17/TN and accept Rescue OOX-17/TN!",
+      "classes": null,
+      "races": null,
+      "coords": [60.235, 64.714],
+      "zone": "tanaris",
+      "tips": [],
+      "quests": [
+        {
+          "id": 648,
+          "name": "Rescue OOX-17/TN!"
+        }
+      ],
+      "npc": "Homing Robot OOX-17/TN",
+      "mobs": []
+    },
+    {
+      "id": "tanaris_ungoro_014",
+      "type": "info",
+      "description": "Escort the Homing Robot OOX-17/TN to safety",
+      "classes": null,
+      "races": null,
+      "coords": [66.99, 23.14],
+      "zone": "tanaris",
+      "tips": [],
+      "quests": [
+        {
+          "id": 648,
+          "name": "Rescue OOX-17/TN!"
+        }
+      ],
+      "npc": "Homing Robot OOX-17/TN",
+      "mobs": []
+    },
+    {
+      "id": "tanaris_ungoro_015",
+      "type": "travel",
+      "description": "Take the mountain path to avoid Elite Dune Smashers",
+      "classes": null,
+      "races": null,
+      "coords": [37.632, 81.398],
+      "zone": "tanaris",
+      "tips": [],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "tanaris_ungoro_016",
+      "type": "quest_turnin",
+      "description": "Click the Uldum Pedestal and turn in Seeing What Happens",
+      "classes": null,
+      "races": null,
+      "coords": [37.632, 81.398],
+      "zone": "tanaris",
+      "tips": [
+        {
+          "type": "warning",
+          "class": null,
+          "text": "There is ONE Elite Dune Smasher which patrols. Ensure you avoid it. The rest are stationary"
+        }
+      ],
+      "quests": [
+        {
+          "id": 2946,
+          "name": "Seeing What Happens"
+        }
+      ],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "tanaris_ungoro_017",
+      "type": "quest_accept",
+      "description": "Click the Uldum Pedestal and accept The Stone Watcher",
+      "classes": null,
+      "races": null,
+      "coords": [37.632, 81.398],
+      "zone": "tanaris",
+      "tips": [],
+      "quests": [
+        {
+          "id": 2954,
+          "name": "The Stone Watcher"
+        }
+      ],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "tanaris_ungoro_018",
+      "type": "info",
+      "description": "Talk to the Stone Watcher of Norgannon",
+      "classes": null,
+      "races": null,
+      "coords": [37.632, 81.398],
+      "zone": "tanaris",
+      "tips": [
+        {
+          "type": "warning",
+          "class": null,
+          "text": "There is ONE Elite Dune Smasher which patrols. Ensure you avoid it"
+        }
+      ],
+      "quests": [],
+      "npc": "Stone Watcher of Norgannon",
+      "mobs": []
+    },
+    {
+      "id": "tanaris_ungoro_019",
+      "type": "quest_accept",
+      "description": "Click the Uldum Pedestal, turn in The Stone Watcher and accept Return to Ironforge",
+      "classes": null,
+      "races": null,
+      "coords": [37.632, 81.398],
+      "zone": "tanaris",
+      "tips": [],
+      "quests": [
+        {
+          "id": 2954,
+          "name": "The Stone Watcher"
+        },
+        {
+          "id": 2977,
+          "name": "Return to Ironforge"
+        }
+      ],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "tanaris_ungoro_020",
+      "type": "kill",
+      "description": "Kill Gnarled Thistleshrubs and Thistleshrub Rootshapers. Kill Thistleshrub Dew Collectors. Loot them for the Laden Dew Gland",
+      "classes": null,
+      "races": null,
+      "coords": [30.45, 66.15],
+      "zone": "tanaris",
+      "tips": [
+        {
+          "type": "warning",
+          "class": null,
+          "text": "Prioritize killing Thistleshrub Dew Collectors as the Laden Dew Gland has a low drop chance"
+        }
+      ],
+      "quests": [
+        {
+          "id": 3362,
+          "name": "Thistleshrub Valley"
+        },
+        {
+          "id": 2605,
+          "name": "The Thirsty Goblin"
+        }
+      ],
+      "npc": null,
+      "mobs": [
+        "Gnarled Thistleshrub",
+        "Thistleshrub Rootshaper",
+        "Thistleshrub Dew Collector"
+      ]
+    },
+    {
+      "id": "tanaris_ungoro_021",
+      "type": "kill",
+      "description": "Kill Thistleshrub Dew Collectors. Loot them for the Laden Dew Gland",
+      "classes": null,
+      "races": null,
+      "coords": [30.45, 66.15],
+      "zone": "tanaris",
+      "tips": [],
+      "quests": [
+        {
+          "id": 2605,
+          "name": "The Thirsty Goblin"
+        }
+      ],
+      "npc": null,
+      "mobs": ["Thistleshrub Dew Collector"]
+    },
+    {
+      "id": "tanaris_ungoro_022",
+      "type": "kill",
+      "description": "Kill Gnarled Thistleshrubs and Thistleshrub Rootshapers",
+      "classes": null,
+      "races": null,
+      "coords": [30.45, 66.15],
+      "zone": "tanaris",
+      "tips": [],
+      "quests": [
+        {
+          "id": 3362,
+          "name": "Thistleshrub Valley"
+        }
+      ],
+      "npc": null,
+      "mobs": ["Gnarled Thistleshrub", "Thistleshrub Rootshaper"]
+    },
+    {
+      "id": "tanaris_ungoro_023",
+      "type": "quest_accept",
+      "description": "Talk to Tooga. This will start an escort quest",
+      "classes": null,
+      "races": null,
+      "coords": [31.66, 74.7],
+      "zone": "tanaris",
+      "tips": [
+        {
+          "type": "warning",
+          "class": null,
+          "text": "This will start an escort quest"
+        },
+        {
+          "type": "warning",
+          "class": null,
+          "text": "If you can't see Tooga anywhere you may skip this step"
+        }
+      ],
+      "quests": [
+        {
+          "id": 1560,
+          "name": "Tooga's Quest"
+        }
+      ],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "tanaris_ungoro_024",
+      "type": "info",
+      "description": "Escort Tooga across Tanaris to Steamwheedle Port",
+      "classes": null,
+      "races": null,
+      "coords": [66.571, 25.632],
+      "zone": "tanaris",
+      "tips": [
+        {
+          "type": "warning",
+          "class": null,
+          "text": "Do not run too far ahead of Tooga otherwise the quest may fail!"
+        }
+      ],
+      "quests": [
+        {
+          "id": 1560,
+          "name": "Tooga's Quest"
+        }
+      ],
+      "npc": "Tooga",
+      "mobs": []
+    },
+    {
+      "id": "tanaris_ungoro_025",
+      "type": "quest_turnin",
+      "description": "Talk to Torta and turn in Tooga's Quest",
+      "classes": null,
+      "races": null,
+      "coords": [66.571, 25.632],
+      "zone": "tanaris",
+      "tips": [],
+      "quests": [
+        {
+          "id": 1560,
+          "name": "Tooga's Quest"
+        }
+      ],
+      "npc": "Torta",
+      "mobs": []
+    },
+    {
+      "id": "tanaris_ungoro_026",
+      "type": "travel",
+      "description": "Travel to Un'goro Crater",
+      "classes": null,
+      "races": null,
+      "coords": [71.63, 75.95],
+      "zone": "ungoro_crater",
+      "tips": [],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "tanaris_ungoro_027",
+      "type": "quest_accept",
+      "description": "Talk to Torwa Pathfinder and accept The Fare of Lar'korwi",
+      "classes": null,
+      "races": null,
+      "coords": [71.639, 75.96],
+      "zone": "ungoro_crater",
+      "tips": [],
+      "quests": [
+        {
+          "id": 4290,
+          "name": "The Fare of Lar'korwi"
+        }
+      ],
+      "npc": "Torwa Pathfinder",
+      "mobs": []
+    },
+    {
+      "id": "tanaris_ungoro_028",
+      "type": "loot",
+      "description": "Loot Power Crystals on the ground as you quest through Un'Goro Crater",
+      "classes": null,
+      "races": null,
+      "coords": null,
+      "zone": "",
+      "tips": [],
+      "quests": [
+        {
+          "id": 4284,
+          "name": "Crystals of Power"
+        }
+      ],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "tanaris_ungoro_029",
+      "type": "loot",
+      "description": "Loot Un'Goro Soil on the ground as you quest through Un'Goro Crater",
+      "classes": null,
+      "races": null,
+      "coords": null,
+      "zone": "",
+      "tips": [],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "tanaris_ungoro_030",
+      "type": "quest_accept",
+      "description": "Click on the Wrecked Raft and accept It's a Secret to Everybody",
+      "classes": null,
+      "races": null,
+      "coords": [63.02, 68.6],
+      "zone": "ungoro_crater",
+      "tips": [],
+      "quests": [
+        {
+          "id": 3844,
+          "name": "It's a Secret to Everybody"
+        }
+      ],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "tanaris_ungoro_031",
+      "type": "quest_accept",
+      "description": "Click the Small Pack underwater, turn in It's a Secret to Everybody and accept It's a Secret to Everybody",
+      "classes": null,
+      "races": null,
+      "coords": [63.107, 69.057],
+      "zone": "ungoro_crater",
+      "tips": [],
+      "quests": [
+        {
+          "id": 3844,
+          "name": "It's a Secret to Everybody"
+        },
+        {
+          "id": 3845,
+          "name": "It's a Secret to Everybody"
+        }
+      ],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "tanaris_ungoro_032",
+      "type": "loot",
+      "description": "Loot the Piece of Threshadon Carcass",
+      "classes": null,
+      "races": null,
+      "coords": [68.73, 56.7],
+      "zone": "ungoro_crater",
+      "tips": [],
+      "quests": [
+        {
+          "id": 4290,
+          "name": "The Fare of Lar'korwi"
+        }
+      ],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "tanaris_ungoro_033",
+      "type": "travel",
+      "description": "Travel to Marshal's Refuge. Loot Power Crystals on the ground en-route",
+      "classes": null,
+      "races": null,
+      "coords": [45.41, 12.13],
+      "zone": "ungoro_crater",
+      "tips": [],
+      "quests": [
+        {
+          "id": 4284,
+          "name": "Crystals of Power"
+        }
+      ],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "tanaris_ungoro_034",
+      "type": "travel",
+      "description": "Travel to Marshal's Refuge",
+      "classes": null,
+      "races": null,
+      "coords": [45.41, 12.13],
+      "zone": "ungoro_crater",
+      "tips": [],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "tanaris_ungoro_035",
+      "type": "quest_accept",
+      "description": "Talk to Muigin and accept Muigin and Larion",
+      "classes": null,
+      "races": null,
+      "coords": [42.942, 9.635],
+      "zone": "ungoro_crater",
+      "tips": [],
+      "quests": [
+        {
+          "id": 4141,
+          "name": "Muigin and Larion"
+        }
+      ],
+      "npc": "Muigin",
+      "mobs": []
+    },
+    {
+      "id": "tanaris_ungoro_036",
+      "type": "info",
+      "description": "Open the Small Pack",
+      "classes": null,
+      "races": null,
+      "coords": [44.658, 8.098],
+      "zone": "ungoro_crater",
+      "tips": [
+        {
+          "type": "warning",
+          "class": null,
+          "text": "Use the Small Pack"
+        }
+      ],
+      "quests": [
+        {
+          "id": 3845,
+          "name": "It's a Secret to Everybody"
+        }
+      ],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "tanaris_ungoro_037",
+      "type": "quest_accept",
+      "description": "Talk to Linken, turn in It's a Secret to Everybody and accept It's a Secret to Everybody",
+      "classes": null,
+      "races": null,
+      "coords": [44.658, 8.098],
+      "zone": "ungoro_crater",
+      "tips": [],
+      "quests": [
+        {
+          "id": 3845,
+          "name": "It's a Secret to Everybody"
+        },
+        {
+          "id": 3908,
+          "name": "It's a Secret to Everybody"
+        }
+      ],
+      "npc": "Linken",
+      "mobs": []
+    },
+    {
+      "id": "tanaris_ungoro_038",
+      "type": "info",
+      "description": "Destroy the Faded Photograph. Destroy the Heavy Throwing Daggers. You no longer need these",
+      "classes": ["!Rogue"],
+      "races": null,
+      "coords": null,
+      "zone": "",
+      "tips": [
+        {
+          "type": "warning",
+          "class": null,
+          "text": "You no longer need these"
+        }
+      ],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "tanaris_ungoro_039",
+      "type": "quest_turnin",
+      "description": "Talk to J.D. Collie, accept Crystals of Power and turn in Crystals of Power",
+      "classes": null,
+      "races": null,
+      "coords": [41.918, 2.703],
+      "zone": "ungoro_crater",
+      "tips": [],
+      "quests": [
+        {
+          "id": 4284,
+          "name": "Crystals of Power"
+        }
+      ],
+      "npc": "J.D. Collie",
+      "mobs": []
+    },
+    {
+      "id": "tanaris_ungoro_040",
+      "type": "fly",
+      "description": "Talk to Gryfe and get the Un'Goro Crater Flight Path",
+      "classes": null,
+      "races": null,
+      "coords": [45.234, 5.831],
+      "zone": "ungoro_crater",
+      "tips": [],
+      "quests": [],
+      "npc": "Gryfe",
+      "mobs": []
+    },
+    {
+      "id": "tanaris_ungoro_041",
+      "type": "kill",
+      "description": "Kill Bloodpetal Lashers, Bloodpetal Threshers and Bloodpetal Flayers. Loot them for their Bloodpetals",
+      "classes": null,
+      "races": null,
+      "coords": null,
+      "zone": "",
+      "tips": [],
+      "quests": [
+        {
+          "id": 4141,
+          "name": "Muigin and Larion"
+        }
+      ],
+      "npc": null,
+      "mobs": ["Bloodpetal Lasher", "Bloodpetal Thresher", "Bloodpetal Flayer"]
+    },
+    {
+      "id": "tanaris_ungoro_042",
+      "type": "quest_turnin",
+      "description": "Talk to Torwa Pathfinder and turn in The Fare of Lar'korwi",
+      "classes": null,
+      "races": null,
+      "coords": [71.639, 75.96],
+      "zone": "ungoro_crater",
+      "tips": [],
+      "quests": [
+        {
+          "id": 4290,
+          "name": "The Fare of Lar'korwi"
+        }
+      ],
+      "npc": "Torwa Pathfinder",
+      "mobs": []
+    },
+    {
+      "id": "tanaris_ungoro_043",
+      "type": "quest_accept",
+      "description": "Talk to Torwa Pathfinder and accept The Scent of Lar'korwi",
+      "classes": null,
+      "races": null,
+      "coords": [71.639, 75.96],
+      "zone": "ungoro_crater",
+      "tips": [],
+      "quests": [
+        {
+          "id": 4291,
+          "name": "The Scent of Lar'korwi"
+        }
+      ],
+      "npc": "Torwa Pathfinder",
+      "mobs": []
+    },
+    {
+      "id": "tanaris_ungoro_044",
+      "type": "kill",
+      "description": "Kill Lar'korwi Mates. Loot them for their Ravasaur Pheromone Glands",
+      "classes": null,
+      "races": null,
+      "coords": [66.601, 66.727],
+      "zone": "ungoro_crater",
+      "tips": [
+        {
+          "type": "warning",
+          "class": null,
+          "text": "Walking over Raptor Nests on the ground will trigger a Lar'korwi Mate to spawn"
+        }
+      ],
+      "quests": [
+        {
+          "id": 4291,
+          "name": "The Scent of Lar'korwi"
+        }
+      ],
+      "npc": null,
+      "mobs": ["Lar'korwi Mate"]
+    },
+    {
+      "id": "tanaris_ungoro_045",
+      "type": "quest_turnin",
+      "description": "Talk to Torwa Pathfinder and turn in The Scent of Lar'korwi",
+      "classes": null,
+      "races": null,
+      "coords": [71.639, 75.96],
+      "zone": "ungoro_crater",
+      "tips": [],
+      "quests": [
+        {
+          "id": 4291,
+          "name": "The Scent of Lar'korwi"
+        }
+      ],
+      "npc": "Torwa Pathfinder",
+      "mobs": []
+    },
+    {
+      "id": "tanaris_ungoro_046",
+      "type": "kill",
+      "description": "Kill Bloodpetal Lashers, Bloodpetal Threshers and Bloodpetal Flayers. Loot them for their Bloodpetals",
+      "classes": null,
+      "races": null,
+      "coords": [67.6, 32.6],
+      "zone": "ungoro_crater",
+      "tips": [],
+      "quests": [
+        {
+          "id": 4141,
+          "name": "Muigin and Larion"
+        }
+      ],
+      "npc": null,
+      "mobs": ["Bloodpetal Lasher", "Bloodpetal Thresher", "Bloodpetal Flayer"]
+    },
+    {
+      "id": "tanaris_ungoro_047",
+      "type": "loot",
+      "description": "Kill Ravasaurs. Loot them for A Mangled Journal. Use A Mangled Journal to start the quest",
+      "classes": null,
+      "races": null,
+      "coords": null,
+      "zone": "",
+      "tips": [
+        {
+          "type": "warning",
+          "class": null,
+          "text": "Any mob in Un'Goro Crater may drop it"
+        },
+        {
+          "type": "warning",
+          "class": null,
+          "text": "Use A Mangled Journal to start the quest"
+        }
+      ],
+      "quests": [
+        {
+          "id": 3884,
+          "name": "Williden's Journal"
+        }
+      ],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "tanaris_ungoro_048",
+      "type": "grind",
+      "description": "Grind Raptors until you've found a Maraudon group. Once your group is starting to fill up, Hearth to Gadgetzan to turn in a few quests, then fly to Desolace. You will have to accept a few quests in Desolace before running Maraudon",
+      "classes": null,
+      "races": null,
+      "coords": [63.04, 66.1],
+      "zone": "ungoro_crater",
+      "tips": [
+        {
+          "type": "warning",
+          "class": null,
+          "text": "Once your group is starting to fill up, Hearth to Gadgetzan to turn in a few quests, then fly to Desolace. You will have to accept a few quests in Desolace before running Maraudon"
+        }
+      ],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "tanaris_ungoro_049",
+      "type": "info",
+      "description": "Hearth to Gadgetzan. Buy food/water if needed",
+      "classes": ["!Warrior", "!Rogue"],
+      "races": null,
+      "coords": null,
+      "zone": "",
+      "tips": [
+        {
+          "type": "warning",
+          "class": null,
+          "text": "Buy food/water if needed"
+        }
+      ],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "tanaris_ungoro_050",
+      "type": "info",
+      "description": "Hearth to Gadgetzan. Buy food if needed",
+      "classes": ["Warrior", "Rogue"],
+      "races": null,
+      "coords": null,
+      "zone": "",
+      "tips": [
+        {
+          "type": "warning",
+          "class": null,
+          "text": "Buy food if needed"
+        }
+      ],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "tanaris_ungoro_051",
+      "type": "quest_turnin",
+      "description": "Talk to Marin Noggenfogger and turn in The Thirsty Goblin",
+      "classes": null,
+      "races": null,
+      "coords": [51.808, 28.662],
+      "zone": "tanaris",
+      "tips": [],
+      "quests": [
+        {
+          "id": 2605,
+          "name": "The Thirsty Goblin"
+        }
+      ],
+      "npc": "Marin Noggenfogger",
+      "mobs": []
+    },
+    {
+      "id": "tanaris_ungoro_052",
+      "type": "quest_accept",
+      "description": "Talk to Marin Noggenfogger and accept In Good Taste",
+      "classes": null,
+      "races": null,
+      "coords": [51.808, 28.662],
+      "zone": "tanaris",
+      "tips": [],
+      "quests": [
+        {
+          "id": 2606,
+          "name": "In Good Taste"
+        }
+      ],
+      "npc": "Marin Noggenfogger",
+      "mobs": []
+    },
+    {
+      "id": "tanaris_ungoro_053",
+      "type": "quest_turnin",
+      "description": "Talk to Senior Surveyor Fizzledowser and turn in The Scrimshank Redemption",
+      "classes": null,
+      "races": null,
+      "coords": [50.21, 27.483],
+      "zone": "tanaris",
+      "tips": [],
+      "quests": [
+        {
+          "id": 10,
+          "name": "The Scrimshank Redemption"
+        }
+      ],
+      "npc": "Senior Surveyor Fizzledowser",
+      "mobs": []
+    },
+    {
+      "id": "tanaris_ungoro_054",
+      "type": "quest_accept",
+      "description": "Talk to Senior Surveyor Fizzledowser and accept Insect Part Analysis",
+      "classes": null,
+      "races": null,
+      "coords": [50.21, 27.483],
+      "zone": "tanaris",
+      "tips": [],
+      "quests": [
+        {
+          "id": 110,
+          "name": "Insect Part Analysis"
+        }
+      ],
+      "npc": "Senior Surveyor Fizzledowser",
+      "mobs": []
+    },
+    {
+      "id": "tanaris_ungoro_055",
+      "type": "quest_accept",
+      "description": "Talk to Alchemist Pestlezugg, turn in Insect Part Analysis and accept Insect Part Analysis",
+      "classes": null,
+      "races": null,
+      "coords": [50.887, 26.963],
+      "zone": "tanaris",
+      "tips": [],
+      "quests": [
+        {
+          "id": 110,
+          "name": "Insect Part Analysis"
+        },
+        {
+          "id": 113,
+          "name": "Insect Part Analysis"
+        }
+      ],
+      "npc": "Alchemist Pestlezugg",
+      "mobs": []
+    },
+    {
+      "id": "tanaris_ungoro_056",
+      "type": "quest_turnin",
+      "description": "Talk to Sprinkle and turn in In Good Taste",
+      "classes": null,
+      "races": null,
+      "coords": [51.059, 26.873],
+      "zone": "tanaris",
+      "tips": [],
+      "quests": [
+        {
+          "id": 2606,
+          "name": "In Good Taste"
+        }
+      ],
+      "npc": "Sprinkle",
+      "mobs": []
+    },
+    {
+      "id": "tanaris_ungoro_057",
+      "type": "quest_accept",
+      "description": "Talk to Sprinkle and accept Sprinkle's Secret Ingredient",
+      "classes": null,
+      "races": null,
+      "coords": [51.059, 26.873],
+      "zone": "tanaris",
+      "tips": [],
+      "quests": [
+        {
+          "id": 2641,
+          "name": "Sprinkle's Secret Ingredient"
+        }
+      ],
+      "npc": "Sprinkle",
+      "mobs": []
+    },
+    {
+      "id": "tanaris_ungoro_058",
+      "type": "quest_turnin",
+      "description": "Talk to Tran'rek and turn in Thistleshrub Valley",
+      "classes": null,
+      "races": null,
+      "coords": [51.566, 26.759],
+      "zone": "tanaris",
+      "tips": [],
+      "quests": [
+        {
+          "id": 3362,
+          "name": "Thistleshrub Valley"
+        }
+      ],
+      "npc": "Tran'rek",
+      "mobs": []
+    },
+    {
+      "id": "tanaris_ungoro_059",
+      "type": "quest_accept",
+      "description": "Talk to Senior Surveyor Fizzledowser, turn in Insect Part Analysis and accept Rise of the Silithid",
+      "classes": null,
+      "races": null,
+      "coords": [50.21, 27.483],
+      "zone": "tanaris",
+      "tips": [],
+      "quests": [
+        {
+          "id": 113,
+          "name": "Insect Part Analysis"
+        },
+        {
+          "id": 162,
+          "name": "Rise of the Silithid"
+        }
+      ],
+      "npc": "Senior Surveyor Fizzledowser",
+      "mobs": []
+    },
+    {
+      "id": "tanaris_ungoro_060",
+      "type": "info",
+      "description": "Talk to Gimblethorn. Withdraw Gorilla Fangs (If you have any), Fool's Stout Report, Pupellyverbos Port from your bank",
+      "classes": null,
+      "races": null,
+      "coords": [52.297, 28.915],
+      "zone": "tanaris",
+      "tips": [],
+      "quests": [],
+      "npc": "Gimblethorn",
+      "mobs": []
+    },
+    {
+      "id": "tanaris_ungoro_061",
+      "type": "info",
+      "description": "Talk to Gimblethorn. Deposit Un'Goro Soil, Linken's Training Sword, Insect Analysis Report into your bank",
+      "classes": null,
+      "races": null,
+      "coords": [52.297, 28.915],
+      "zone": "tanaris",
+      "tips": [],
+      "quests": [],
+      "npc": "Gimblethorn",
+      "mobs": []
+    },
+    {
+      "id": "tanaris_ungoro_062",
+      "type": "fly",
+      "description": "Talk to Bera Stonehammer and fly to Desolace",
+      "classes": null,
+      "races": null,
+      "coords": [51.006, 29.345],
+      "zone": "tanaris",
+      "tips": [],
+      "quests": [],
+      "npc": "Bera Stonehammer",
+      "mobs": []
+    },
+    {
+      "id": "tanaris_ungoro_063",
+      "type": "quest_accept",
+      "description": "Talk to Keeper Marandis and accept Corruption of Earth and Seed",
+      "classes": null,
+      "races": null,
+      "coords": [63.827, 10.669],
+      "zone": "desolace",
+      "tips": [],
+      "quests": [
+        {
+          "id": 7065,
+          "name": "Corruption of Earth and Seed"
+        }
+      ],
+      "npc": "Keeper Marandis",
+      "mobs": []
+    },
+    {
+      "id": "tanaris_ungoro_064",
+      "type": "info",
+      "description": "Talk to Innkeeper Lyshaerya. Set your Hearthstone to Desolace",
+      "classes": null,
+      "races": null,
+      "coords": [66.275, 6.554],
+      "zone": "desolace",
+      "tips": [],
+      "quests": [],
+      "npc": "Innkeeper Lyshaerya",
+      "mobs": []
+    },
+    {
+      "id": "tanaris_ungoro_065",
+      "type": "quest_accept",
+      "description": "Talk to Talendria and accept Vyletongue Corruption",
+      "classes": null,
+      "races": null,
+      "coords": [68.501, 8.88],
+      "zone": "desolace",
+      "tips": [],
+      "quests": [
+        {
+          "id": 7041,
+          "name": "Vyletongue Corruption"
+        }
+      ],
+      "npc": "Keeper Marandis",
+      "mobs": []
+    },
+    {
+      "id": "tanaris_ungoro_066",
+      "type": "quest_accept",
+      "description": "Talk to Willow and accept Twisted Evils",
+      "classes": null,
+      "races": null,
+      "coords": [62.194, 39.624],
+      "zone": "desolace",
+      "tips": [],
+      "quests": [
+        {
+          "id": 7028,
+          "name": "Twisted Evils"
+        }
+      ],
+      "npc": "Willow",
+      "mobs": []
+    },
+    {
+      "id": "tanaris_ungoro_067",
+      "type": "quest_accept",
+      "description": "Talk to the Centaur Pariah and accept The Pariah's Instructions",
+      "classes": null,
+      "races": null,
+      "coords": [50.48, 86.66],
+      "zone": "desolace",
+      "tips": [
+        {
+          "type": "warning",
+          "class": null,
+          "text": "The Centaur Pariah patrols slightly around southern Desolace"
+        }
+      ],
+      "quests": [
+        {
+          "id": 7067,
+          "name": "The Pariah's Instructions"
+        }
+      ],
+      "npc": "Centaur Pariah",
+      "mobs": []
+    },
+    {
+      "id": "tanaris_ungoro_068",
+      "type": "travel",
+      "description": "Travel to Maraudon",
+      "classes": null,
+      "races": null,
+      "coords": [38.43, 57.97],
+      "zone": "maraudon",
+      "tips": [],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "tanaris_ungoro_069",
+      "type": "kill",
+      "description": "Kill all Monsters in Maraudon. Loot them for their Theradric Crystal Carvings",
+      "classes": null,
+      "races": null,
+      "coords": null,
+      "zone": "maraudon",
+      "tips": [
+        {
+          "type": "warning",
+          "class": null,
+          "text": "This can be completed OUTSIDE and INSIDE of the Instance. Don't attempt to complete this now"
+        }
+      ],
+      "quests": [
+        {
+          "id": 7028,
+          "name": "Twisted Evils"
+        }
+      ],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "tanaris_ungoro_070",
+      "type": "kill",
+      "description": "Kill The Nameless Prophet. Loot it for the Amulet of Spirits",
+      "classes": null,
+      "races": null,
+      "coords": null,
+      "zone": "maraudon",
+      "tips": [
+        {
+          "type": "warning",
+          "class": null,
+          "text": "This is completed OUTSIDE of the Instance. The Nameless Prophets may be patrolling"
+        }
+      ],
+      "quests": [
+        {
+          "id": 7067,
+          "name": "The Pariah's Instructions"
+        }
+      ],
+      "npc": null,
+      "mobs": ["The Nameless Prophet"]
+    },
+    {
+      "id": "tanaris_ungoro_071",
+      "type": "info",
+      "description": "Use the Amulet of Spirits on the Spirit of Gelk. Kill Gelk. Loot him for the Gem of the Second Khan",
+      "classes": null,
+      "races": null,
+      "coords": [38.469, 57.287],
+      "zone": "maraudon",
+      "tips": [
+        {
+          "type": "warning",
+          "class": null,
+          "text": "Use the Amulet of Spirits on the Spirit of Gelk"
+        },
+        {
+          "type": "warning",
+          "class": null,
+          "text": "This is completed OUTSIDE of the Instance"
+        }
+      ],
+      "quests": [
+        {
+          "id": 7067,
+          "name": "The Pariah's Instructions"
+        }
+      ],
+      "npc": null,
+      "mobs": ["Spirit of Gelk", "Gelk"]
+    },
+    {
+      "id": "tanaris_ungoro_072",
+      "type": "info",
+      "description": "Use the Amulet of Spirits on the Spirit of Kolk. Kill Kolk. Loot him for the Gem of the First Khan",
+      "classes": null,
+      "races": null,
+      "coords": [38.497, 57.721],
+      "zone": "maraudon",
+      "tips": [
+        {
+          "type": "warning",
+          "class": null,
+          "text": "Use the Amulet of Spirits on the Spirit of Kolk"
+        },
+        {
+          "type": "warning",
+          "class": null,
+          "text": "This is completed OUTSIDE of the Instance"
+        }
+      ],
+      "quests": [
+        {
+          "id": 7067,
+          "name": "The Pariah's Instructions"
+        }
+      ],
+      "npc": null,
+      "mobs": ["Spirit of Kolk", "Kolk"]
+    },
+    {
+      "id": "tanaris_ungoro_073",
+      "type": "quest_accept",
+      "description": "Talk to the Centaur Pariah and accept Legends of Maraudon",
+      "classes": null,
+      "races": null,
+      "coords": [38.77, 58.12],
+      "zone": "maraudon",
+      "tips": [],
+      "quests": [
+        {
+          "id": 7044,
+          "name": "Legends of Maraudon"
+        }
+      ],
+      "npc": "Cavindra",
+      "mobs": []
+    },
+    {
+      "id": "tanaris_ungoro_074",
+      "type": "info",
+      "description": "Use the Coated Cerulean Vial in the Orange pool",
+      "classes": null,
+      "races": null,
+      "coords": [38.928, 58.354],
+      "zone": "maraudon",
+      "tips": [
+        {
+          "type": "warning",
+          "class": null,
+          "text": "Use the Coated Cerulean Vial in the Orange pool"
+        }
+      ],
+      "quests": [
+        {
+          "id": 7041,
+          "name": "Vyletongue Corruption"
+        }
+      ],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "tanaris_ungoro_075",
+      "type": "info",
+      "description": "Use the Amulet of Spirits on the Spirit of Magra. Kill Magra. Loot him for the Gem of the Third Khan",
+      "classes": null,
+      "races": null,
+      "coords": [39.13, 57.68],
+      "zone": "maraudon",
+      "tips": [
+        {
+          "type": "warning",
+          "class": null,
+          "text": "Use the Amulet of Spirits on the Spirit of Magra"
+        },
+        {
+          "type": "warning",
+          "class": null,
+          "text": "This is completed OUTSIDE of the Instance"
+        }
+      ],
+      "quests": [
+        {
+          "id": 7067,
+          "name": "The Pariah's Instructions"
+        }
+      ],
+      "npc": null,
+      "mobs": ["Spirit of Magra", "Magra"]
+    },
+    {
+      "id": "tanaris_ungoro_076",
+      "type": "travel",
+      "description": "Enter the Maraudon Instance through the Orange side",
+      "classes": null,
+      "races": null,
+      "coords": [39.266, 58.205],
+      "zone": "maraudon",
+      "tips": [],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "tanaris_ungoro_077",
+      "type": "kill",
+      "description": "Kill any Monster in Maraudon. Loot them for their Theradric Crystal Carvings",
+      "classes": null,
+      "races": null,
+      "coords": null,
+      "zone": "maraudon",
+      "tips": [],
+      "quests": [
+        {
+          "id": 7028,
+          "name": "Twisted Evils"
+        }
+      ],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "tanaris_ungoro_078",
+      "type": "info",
+      "description": "Use the Filled Cerulean Vial on small flowers/plants inside Orange. Kill the Noxxious Scions that are summoned",
+      "classes": null,
+      "races": null,
+      "coords": null,
+      "zone": "maraudon",
+      "tips": [
+        {
+          "type": "warning",
+          "class": null,
+          "text": "Use the Filled Cerulean Vial on small flowers/plants inside Orange"
+        }
+      ],
+      "quests": [
+        {
+          "id": 7041,
+          "name": "Vyletongue Corruption"
+        }
+      ],
+      "npc": null,
+      "mobs": ["Noxxious Scion"]
+    },
+    {
+      "id": "tanaris_ungoro_079",
+      "type": "info",
+      "description": "Use the Amulet of Spirits on the Spirit of Veng. Kill Veng. Loot him for the Gem of the Fifth Khan",
+      "classes": null,
+      "races": null,
+      "coords": null,
+      "zone": "maraudon",
+      "tips": [
+        {
+          "type": "warning",
+          "class": null,
+          "text": "Veng patrols around INSIDE the Maraudon Orange Instance"
+        }
+      ],
+      "quests": [
+        {
+          "id": 7067,
+          "name": "The Pariah's Instructions"
+        }
+      ],
+      "npc": null,
+      "mobs": ["Spirit of Veng", "Veng"]
+    },
+    {
+      "id": "tanaris_ungoro_080",
+      "type": "kill",
+      "description": "Use the Filled Cerulean Vial on small flowers/plants inside Orange. Kill the Noxxious Scions that are summoned",
+      "classes": null,
+      "races": null,
+      "coords": null,
+      "zone": "maraudon",
+      "tips": [
+        {
+          "type": "warning",
+          "class": null,
+          "text": "Use the Filled Cerulean Vial on small flowers/plants inside Orange"
+        }
+      ],
+      "quests": [
+        {
+          "id": 7041,
+          "name": "Vyletongue Corruption"
+        }
+      ],
+      "npc": null,
+      "mobs": ["Noxxious Scion"]
+    },
+    {
+      "id": "tanaris_ungoro_081",
+      "type": "kill",
+      "description": "Kill Noxxion. Loot him for the Celebrian Rod. Kill Lord Vyletongue. Loot him for the Celebrian Diamond",
+      "classes": null,
+      "races": null,
+      "coords": null,
+      "zone": "maraudon",
+      "tips": [
+        {
+          "type": "warning",
+          "class": null,
+          "text": "Noxxion is in the Orange section and Lord Vyletongue in the Purple"
+        }
+      ],
+      "quests": [
+        {
+          "id": 7044,
+          "name": "Legends of Maraudon"
+        }
+      ],
+      "npc": null,
+      "mobs": ["Noxxion", "Lord Vyletongue"]
+    },
+    {
+      "id": "tanaris_ungoro_082",
+      "type": "info",
+      "description": "Use the Amulet of Spirits on the Spirit of Maraudos. Kill Maraudos. Loot him for the Gem of the Fourth Khan",
+      "classes": null,
+      "races": null,
+      "coords": null,
+      "zone": "maraudon",
+      "tips": [
+        {
+          "type": "warning",
+          "class": null,
+          "text": "Maraudos patrols around INSIDE the Maraudon Purple Instance"
+        }
+      ],
+      "quests": [
+        {
+          "id": 7067,
+          "name": "The Pariah's Instructions"
+        }
+      ],
+      "npc": null,
+      "mobs": ["Spirit of Maraudos", "Maraudos"]
+    },
+    {
+      "id": "tanaris_ungoro_083",
+      "type": "info",
+      "description": "Channel any of the Gems of the Khans to create the Amulet of Union",
+      "classes": null,
+      "races": null,
+      "coords": null,
+      "zone": "maraudon",
+      "tips": [
+        {
+          "type": "warning",
+          "class": null,
+          "text": "Channel any of the Gems of the Khans to create the Amulet of Union"
+        }
+      ],
+      "quests": [
+        {
+          "id": 7067,
+          "name": "The Pariah's Instructions"
+        }
+      ],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "tanaris_ungoro_084",
+      "type": "quest_turnin",
+      "description": "Kill Celebras the Cursed then talk to Celebras the Redeemed and turn in Legends of Maraudon",
+      "classes": null,
+      "races": null,
+      "coords": null,
+      "zone": "maraudon",
+      "tips": [],
+      "quests": [
+        {
+          "id": 7044,
+          "name": "Legends of Maraudon"
+        }
+      ],
+      "npc": "Celebras the Redeemed",
+      "mobs": ["Celebras the Cursed"]
+    },
+    {
+      "id": "tanaris_ungoro_085",
+      "type": "quest_accept",
+      "description": "Talk to Celebras the Redeemed and accept The Scepter of Celebras",
+      "classes": null,
+      "races": null,
+      "coords": null,
+      "zone": "maraudon",
+      "tips": [],
+      "quests": [
+        {
+          "id": 7046,
+          "name": "The Scepter of Celebras"
+        }
+      ],
+      "npc": "Celebras the Redeemed",
+      "mobs": []
+    },
+    {
+      "id": "tanaris_ungoro_086",
+      "type": "info",
+      "description": "Click the Incantation of Celebras on the ground",
+      "classes": null,
+      "races": null,
+      "coords": null,
+      "zone": "maraudon",
+      "tips": [],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "tanaris_ungoro_087",
+      "type": "info",
+      "description": "Wait out the RP",
+      "classes": null,
+      "races": null,
+      "coords": null,
+      "zone": "maraudon",
+      "tips": [
+        {
+          "type": "warning",
+          "class": null,
+          "text": "Wait out the RP"
+        }
+      ],
+      "quests": [
+        {
+          "id": 7046,
+          "name": "The Scepter of Celebras"
+        }
+      ],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "tanaris_ungoro_088",
+      "type": "quest_turnin",
+      "description": "Talk to Celebras the Redeemed and turn in The Scepter of Celebras",
+      "classes": null,
+      "races": null,
+      "coords": null,
+      "zone": "maraudon",
+      "tips": [],
+      "quests": [
+        {
+          "id": 7046,
+          "name": "The Scepter of Celebras"
+        }
+      ],
+      "npc": "Celebras the Redeemed",
+      "mobs": []
+    },
+    {
+      "id": "tanaris_ungoro_089",
+      "type": "kill",
+      "description": "Kill Princess Theradras",
+      "classes": null,
+      "races": null,
+      "coords": null,
+      "zone": "maraudon",
+      "tips": [],
+      "quests": [
+        {
+          "id": 7065,
+          "name": "Corruption of Earth and Seed"
+        }
+      ],
+      "npc": null,
+      "mobs": ["Princess Theradras"]
+    },
+    {
+      "id": "tanaris_ungoro_090",
+      "type": "quest_accept",
+      "description": "Talk to Zaetar's Spirit and accept Seed of Life",
+      "classes": null,
+      "races": null,
+      "coords": null,
+      "zone": "maraudon",
+      "tips": [],
+      "quests": [
+        {
+          "id": 7066,
+          "name": "Seed of Life"
+        }
+      ],
+      "npc": "Zaetar's Spirit",
+      "mobs": []
+    },
+    {
+      "id": "tanaris_ungoro_091",
+      "type": "kill",
+      "description": "Kill any Monster in Maraudon. Loot them for their Theradric Crystal Carvings",
+      "classes": null,
+      "races": null,
+      "coords": null,
+      "zone": "maraudon",
+      "tips": [
+        {
+          "type": "warning",
+          "class": null,
+          "text": "This can be completed OUTSIDE and INSIDE of the Instance"
+        }
+      ],
+      "quests": [
+        {
+          "id": 7028,
+          "name": "Twisted Evils"
+        }
+      ],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "tanaris_ungoro_092",
+      "type": "info",
+      "description": "Cast Teleport: Moonglade",
+      "classes": ["Druid"],
+      "races": null,
+      "coords": null,
+      "zone": "",
+      "tips": [],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "tanaris_ungoro_093",
+      "type": "info",
+      "description": "Teleport to Moonglade. Talk to Loganaar and train your class spells",
+      "classes": ["Druid"],
+      "races": null,
+      "coords": [52.53, 40.56],
+      "zone": "moonglade",
+      "tips": [],
+      "quests": [],
+      "npc": "Loganaar",
+      "mobs": []
+    },
+    {
+      "id": "tanaris_ungoro_094",
+      "type": "quest_turnin",
+      "description": "Talk to the Keeper Remulos and turn in Seed of Life",
+      "classes": ["Druid"],
+      "races": null,
+      "coords": [36.178, 41.798],
+      "zone": "moonglade",
+      "tips": [],
+      "quests": [
+        {
+          "id": 7066,
+          "name": "Seed of Life"
+        }
+      ],
+      "npc": "Keeper Remulos",
+      "mobs": []
+    },
+    {
+      "id": "tanaris_ungoro_095",
+      "type": "info",
+      "description": "Hearth to Nijel's Point",
+      "classes": null,
+      "races": null,
+      "coords": null,
+      "zone": "",
+      "tips": [],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "tanaris_ungoro_096",
+      "type": "quest_turnin",
+      "description": "Talk to Keeper Marandis and turn in Corruption of Earth and Seed",
+      "classes": null,
+      "races": null,
+      "coords": [63.827, 10.669],
+      "zone": "desolace",
+      "tips": [],
+      "quests": [
+        {
+          "id": 7065,
+          "name": "Corruption of Earth and Seed"
+        }
+      ],
+      "npc": "Keeper Marandis",
+      "mobs": []
+    },
+    {
+      "id": "tanaris_ungoro_097",
+      "type": "quest_turnin",
+      "description": "Talk to Talendria and turn in Vyletongue Corruption",
+      "classes": null,
+      "races": null,
+      "coords": [68.501, 8.88],
+      "zone": "desolace",
+      "tips": [],
+      "quests": [
+        {
+          "id": 7041,
+          "name": "Vyletongue Corruption"
+        }
+      ],
+      "npc": "Talendria",
+      "mobs": []
+    },
+    {
+      "id": "tanaris_ungoro_098",
+      "type": "quest_turnin",
+      "description": "Talk to Willow and turn in Twisted Evils",
+      "classes": null,
+      "races": null,
+      "coords": [62.194, 39.624],
+      "zone": "desolace",
+      "tips": [],
+      "quests": [
+        {
+          "id": 7028,
+          "name": "Twisted Evils"
+        }
+      ],
+      "npc": "Willow",
+      "mobs": []
+    },
+    {
+      "id": "tanaris_ungoro_099",
+      "type": "quest_turnin",
+      "description": "Talk to the Centaur Pariah and turn in The Pariah's Instructions",
+      "classes": null,
+      "races": null,
+      "coords": [50.48, 86.66],
+      "zone": "desolace",
+      "tips": [
+        {
+          "type": "warning",
+          "class": null,
+          "text": "The Centaur Pariah patrols slightly around southern Desolace"
+        }
+      ],
+      "quests": [
+        {
+          "id": 7067,
+          "name": "The Pariah's Instructions"
+        }
+      ],
+      "npc": "Centaur Pariah",
+      "mobs": []
+    },
+    {
+      "id": "tanaris_ungoro_100",
+      "type": "fly",
+      "description": "Talk to Baritanas Skyriver and fly to Un'Goro Crater",
+      "classes": null,
+      "races": null,
+      "coords": [64.66, 10.53],
+      "zone": "desolace",
+      "tips": [],
+      "quests": [],
+      "npc": "Baritanas Skyriver",
+      "mobs": []
+    },
+    {
+      "id": "tanaris_ungoro_101",
+      "type": "fly",
+      "description": "Talk to Bera Stonehammer and fly to Un'Goro Crater",
+      "classes": null,
+      "races": null,
+      "coords": [51.006, 29.345],
+      "zone": "tanaris",
+      "tips": [],
+      "quests": [],
+      "npc": "Bera Stonehammer",
+      "mobs": []
+    },
+    {
+      "id": "tanaris_ungoro_102",
+      "type": "quest_turnin",
+      "description": "Talk to Williden Marshal, accept Williden's Journal and turn in Williden's Journal",
+      "classes": null,
+      "races": null,
+      "coords": [43.947, 7.137],
+      "zone": "ungoro_crater",
+      "tips": [],
+      "quests": [
+        {
+          "id": 3884,
+          "name": "Williden's Journal"
+        }
+      ],
+      "npc": "Williden Marshal",
+      "mobs": []
+    },
+    {
+      "id": "tanaris_ungoro_103",
+      "type": "quest_turnin",
+      "description": "Talk to Muigin and turn in Muigin and Larion",
+      "classes": null,
+      "races": null,
+      "coords": [42.942, 9.635],
+      "zone": "ungoro_crater",
+      "tips": [],
+      "quests": [
+        {
+          "id": 4141,
+          "name": "Muigin and Larion"
+        }
+      ],
+      "npc": "Muigin",
+      "mobs": []
+    },
+    {
+      "id": "tanaris_ungoro_104",
+      "type": "quest_accept",
+      "description": "Talk to Muigin and accept A Visit to Gregan",
+      "classes": null,
+      "races": null,
+      "coords": [42.942, 9.635],
+      "zone": "ungoro_crater",
+      "tips": [],
+      "quests": [
+        {
+          "id": 4142,
+          "name": "A Visit to Gregan"
+        }
+      ],
+      "npc": "Muigin",
+      "mobs": []
+    },
+    {
+      "id": "tanaris_ungoro_105",
+      "type": "fly",
+      "description": "Talk to Gryfe and fly to Ratchet",
+      "classes": null,
+      "races": null,
+      "coords": [45.234, 5.831],
+      "zone": "ungoro_crater",
+      "tips": [],
+      "quests": [],
+      "npc": "Gryfe",
+      "mobs": []
+    },
+    {
+      "id": "tanaris_ungoro_106",
+      "type": "travel",
+      "description": "Take the Boat to Booty Bay",
+      "classes": null,
+      "races": null,
+      "coords": [63.74, 38.66],
+      "zone": "the_barrens",
+      "tips": [],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "tanaris_ungoro_107",
+      "type": "quest_accept",
+      "description": "Talk to Captain Hecklebury Smotts and accept The Captain's Chest",
+      "classes": null,
+      "races": null,
+      "coords": [26.694, 73.613],
+      "zone": "stranglethorn_vale",
+      "tips": [],
+      "quests": [
+        {
+          "id": 8551,
+          "name": "The Captain's Chest"
+        }
+      ],
+      "npc": "Captain Hecklebury Smotts",
+      "mobs": []
+    },
+    {
+      "id": "tanaris_ungoro_108",
+      "type": "quest_accept",
+      "description": "Talk to Fin Fizracket and accept Stranglethorn Fever",
+      "classes": null,
+      "races": null,
+      "coords": [27.618, 76.735],
+      "zone": "stranglethorn_vale",
+      "tips": [],
+      "quests": [
+        {
+          "id": 348,
+          "name": "Stranglethorn Fever"
+        }
+      ],
+      "npc": "Fin Fizracket",
+      "mobs": []
+    },
+    {
+      "id": "tanaris_ungoro_109",
+      "type": "quest_turnin",
+      "description": "Talk to Whiskey Slim and turn in Whiskey Slim's Lost Grog",
+      "classes": null,
+      "races": null,
+      "coords": [27.135, 77.451],
+      "zone": "stranglethorn_vale",
+      "tips": [],
+      "quests": [
+        {
+          "id": 580,
+          "name": "Whiskey Slim's Lost Grog"
+        }
+      ],
+      "npc": "Whiskey Slim",
+      "mobs": []
+    },
+    {
+      "id": "tanaris_ungoro_110",
+      "type": "quest_turnin",
+      "description": "Talk to Crank Fizzlebub and turn in Report Back to Fizzlebub",
+      "classes": null,
+      "races": null,
+      "coords": [27.12, 77.208],
+      "zone": "stranglethorn_vale",
+      "tips": [],
+      "quests": [
+        {
+          "id": 1122,
+          "name": "Report Back to Fizzlebub"
+        }
+      ],
+      "npc": "Crank Fizzlebub",
+      "mobs": []
+    },
+    {
+      "id": "tanaris_ungoro_111",
+      "type": "info",
+      "description": "Talk to Viznik or Rickle. Deposit Bloodpetal into your bank",
+      "classes": null,
+      "races": null,
+      "coords": [26.539, 76.57],
+      "zone": "stranglethorn_vale",
+      "tips": [],
+      "quests": [],
+      "npc": "Viznik Goldgrubber",
+      "mobs": []
+    },
+    {
+      "id": "tanaris_ungoro_112",
+      "type": "quest_turnin",
+      "description": "Talk to Oglethorpe Obnoticus and turn in Rescue OOX-22/FE!",
+      "classes": null,
+      "races": null,
+      "coords": [28.358, 76.357],
+      "zone": "stranglethorn_vale",
+      "tips": [],
+      "quests": [
+        {
+          "id": 2767,
+          "name": "Rescue OOX-22/FE!"
+        }
+      ],
+      "npc": "Oglethorpe Obnoticus",
+      "mobs": []
+    },
+    {
+      "id": "tanaris_ungoro_113",
+      "type": "quest_turnin",
+      "description": "Talk to Oglethorpe Obnoticus and turn in Rescue OOX-17/TN!",
+      "classes": null,
+      "races": null,
+      "coords": [28.358, 76.357],
+      "zone": "stranglethorn_vale",
+      "tips": [],
+      "quests": [
+        {
+          "id": 648,
+          "name": "Rescue OOX-17/TN!"
+        }
+      ],
+      "npc": "Oglethorpe Obnoticus",
+      "mobs": []
+    },
+    {
+      "id": "tanaris_ungoro_114",
+      "type": "quest_turnin",
+      "description": "Talk to Oglethorpe Obnoticus and turn in Rescue OOX-09/HL!",
+      "classes": null,
+      "races": null,
+      "coords": [28.358, 76.357],
+      "zone": "stranglethorn_vale",
+      "tips": [],
+      "quests": [
+        {
+          "id": 836,
+          "name": "Rescue OOX-09/HL!"
+        }
+      ],
+      "npc": "Oglethorpe Obnoticus",
+      "mobs": []
+    },
+    {
+      "id": "tanaris_ungoro_115",
+      "type": "quest_accept",
+      "description": "Talk to Oglethorpe Obnoticus, accept An OOX of Your Own and turn in An OOX of Your Own",
+      "classes": null,
+      "races": null,
+      "coords": [28.358, 76.357],
+      "zone": "stranglethorn_vale",
+      "tips": [],
+      "quests": [
+        {
+          "id": 3721,
+          "name": "An OOX of Your Own"
+        }
+      ],
+      "npc": "Oglethorpe Obnoticus",
+      "mobs": []
+    },
+    {
+      "id": "tanaris_ungoro_116",
+      "type": "kill",
+      "description": "Kill Mok'rash. Loot him for the Monogrammed Sash. Use the Monogrammed Sash to start the quest. Accept The Monogrammed Sash",
+      "classes": null,
+      "races": null,
+      "coords": [23.24, 71.92],
+      "zone": "stranglethorn_vale",
+      "tips": [
+        {
+          "type": "warning",
+          "class": null,
+          "text": "Use the Monogrammed Sash to start the quest"
+        },
+        {
+          "type": "warning",
+          "class": null,
+          "text": "Kite Mok'rash around the giant Goblin Statue if needed"
+        },
+        {
+          "type": "link",
+          "class": null,
+          "text": "Click here for video reference",
+          "url": "https://www.twitch.tv/videos/850022146?t=04h16m26s"
+        }
+      ],
+      "quests": [
+        {
+          "id": 8552,
+          "name": "The Monogrammed Sash"
+        }
+      ],
+      "npc": null,
+      "mobs": ["Mok'rash"]
+    },
+    {
+      "id": "tanaris_ungoro_117",
+      "type": "kill",
+      "description": "Kill Gorlash. Loot him for Smotts' Chest",
+      "classes": null,
+      "races": null,
+      "coords": [36.95, 69.73],
+      "zone": "stranglethorn_vale",
+      "tips": [],
+      "quests": [
+        {
+          "id": 8551,
+          "name": "The Captain's Chest"
+        }
+      ],
+      "npc": null,
+      "mobs": ["Gorlash"]
+    },
+    {
+      "id": "tanaris_ungoro_118",
+      "type": "loot",
+      "description": "Open the Half-Buried Bottles along the coast. Loot them for a Carefully Folded Note. Use the Carefully Folded Note to start the quest",
+      "classes": null,
+      "races": null,
+      "coords": [38.66, 61.78],
+      "zone": "stranglethorn_vale",
+      "tips": [
+        {
+          "type": "warning",
+          "class": null,
+          "text": "Use the Carefully Folded Note to start the quest"
+        }
+      ],
+      "quests": [
+        {
+          "id": 594,
+          "name": "Message in a Bottle"
+        }
+      ],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "tanaris_ungoro_119",
+      "type": "travel",
+      "description": "Travel to Jaguero Isle",
+      "classes": null,
+      "races": null,
+      "coords": [37.02, 81.53],
+      "zone": "stranglethorn_vale",
+      "tips": [],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "tanaris_ungoro_120",
+      "type": "quest_turnin",
+      "description": "Talk to Princess Poobah and turn in Message in a Bottle",
+      "classes": null,
+      "races": null,
+      "coords": [38.532, 80.58],
+      "zone": "stranglethorn_vale",
+      "tips": [
+        {
+          "type": "warning",
+          "class": null,
+          "text": "Beware of Jaguero Stalkers in Stealth throughout the Island"
+        }
+      ],
+      "quests": [
+        {
+          "id": 594,
+          "name": "Message in a Bottle"
+        }
+      ],
+      "npc": "Princess Poobah",
+      "mobs": []
+    },
+    {
+      "id": "tanaris_ungoro_121",
+      "type": "quest_accept",
+      "description": "Talk to Princess Poobah and accept Message in a Bottle",
+      "classes": null,
+      "races": null,
+      "coords": [38.532, 80.58],
+      "zone": "stranglethorn_vale",
+      "tips": [],
+      "quests": [
+        {
+          "id": 630,
+          "name": "Message in a Bottle"
+        }
+      ],
+      "npc": "Princess Poobah",
+      "mobs": []
+    },
+    {
+      "id": "tanaris_ungoro_122",
+      "type": "kill",
+      "description": "Kill King Mukla. Loot him for the Shackle Key",
+      "classes": null,
+      "races": null,
+      "coords": [40.94, 83.89],
+      "zone": "stranglethorn_vale",
+      "tips": [],
+      "quests": [
+        {
+          "id": 630,
+          "name": "Message in a Bottle"
+        }
+      ],
+      "npc": null,
+      "mobs": ["King Mukla"]
+    },
+    {
+      "id": "tanaris_ungoro_123",
+      "type": "quest_turnin",
+      "description": "Talk to Princess Poobah and turn in Message in a Bottle",
+      "classes": null,
+      "races": null,
+      "coords": [38.532, 80.58],
+      "zone": "stranglethorn_vale",
+      "tips": [],
+      "quests": [
+        {
+          "id": 630,
+          "name": "Message in a Bottle"
+        }
+      ],
+      "npc": "Princess Poobah",
+      "mobs": []
+    },
+    {
+      "id": "tanaris_ungoro_124",
+      "type": "kill",
+      "description": "Talk to Witch Doctor Unbagwa. Turn in your 10 Gorilla Fangs to summon Mokk the Savage. Kill Mokk the Savage. Loot him for the Heart of Mokk",
+      "classes": null,
+      "races": null,
+      "coords": [35.271, 60.405],
+      "zone": "stranglethorn_vale",
+      "tips": [
+        {
+          "type": "warning",
+          "class": null,
+          "text": "Turn in your 10 Gorilla Fangs to summon Mokk the Savage"
+        },
+        {
+          "type": "warning",
+          "class": null,
+          "text": "You'll have to deal with 3 waves of attacking Gorillas"
+        },
+        {
+          "type": "link",
+          "class": null,
+          "text": "Click here for video reference",
+          "url": "https://www.twitch.tv/videos/850022146?t=04h38m04s"
+        }
+      ],
+      "quests": [
+        {
+          "id": 348,
+          "name": "Stranglethorn Fever"
+        }
+      ],
+      "npc": "Witch Doctor Unbagwa",
+      "mobs": ["Mokk the Savage"]
+    },
+    {
+      "id": "tanaris_ungoro_125",
+      "type": "travel",
+      "description": "Travel to Booty Bay",
+      "classes": null,
+      "races": null,
+      "coords": [28.97, 73.05],
+      "zone": "stranglethorn_vale",
+      "tips": [],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "tanaris_ungoro_126",
+      "type": "quest_accept",
+      "description": "Talk to Captain Hecklebury Smotts and Sprogger, turn in The Captain's Chest and The Monogrammed Sash, accept The Captain's Cutlass",
+      "classes": null,
+      "races": null,
+      "coords": [26.694, 73.613],
+      "zone": "stranglethorn_vale",
+      "tips": [],
+      "quests": [
+        {
+          "id": 8551,
+          "name": "The Captain's Chest"
+        },
+        {
+          "id": 8552,
+          "name": "The Monogrammed Sash"
+        },
+        {
+          "id": 8553,
+          "name": "The Captain's Cutlass"
+        }
+      ],
+      "npc": "Captain Hecklebury Smotts",
+      "mobs": []
+    },
+    {
+      "id": "tanaris_ungoro_127",
+      "type": "quest_turnin",
+      "description": "Talk to Captain Hecklebury Smotts and turn in The Captain's Chest",
+      "classes": null,
+      "races": null,
+      "coords": [26.694, 73.613],
+      "zone": "stranglethorn_vale",
+      "tips": [],
+      "quests": [
+        {
+          "id": 8551,
+          "name": "The Captain's Chest"
+        }
+      ],
+      "npc": "Captain Hecklebury Smotts",
+      "mobs": []
+    },
+    {
+      "id": "tanaris_ungoro_128",
+      "type": "quest_accept",
+      "description": "Talk to Captain Hecklebury Smotts, turn in The Monogrammed Sash and accept The Captain's Cutlass",
+      "classes": null,
+      "races": null,
+      "coords": [26.694, 73.613],
+      "zone": "stranglethorn_vale",
+      "tips": [],
+      "quests": [
+        {
+          "id": 8552,
+          "name": "The Monogrammed Sash"
+        },
+        {
+          "id": 8553,
+          "name": "The Captain's Cutlass"
+        }
+      ],
+      "npc": "Captain Hecklebury Smotts",
+      "mobs": []
+    },
+    {
+      "id": "tanaris_ungoro_129",
+      "type": "quest_turnin",
+      "description": "Talk to Captain Hecklebury Smotts and Sprogger, accept The Captain's Cutlass and turn in The Captain's Cutlass",
+      "classes": null,
+      "races": null,
+      "coords": [26.655, 73.642],
+      "zone": "stranglethorn_vale",
+      "tips": [],
+      "quests": [
+        {
+          "id": 8553,
+          "name": "The Captain's Cutlass"
+        }
+      ],
+      "npc": "Sprogger",
+      "mobs": []
+    },
+    {
+      "id": "tanaris_ungoro_130",
+      "type": "quest_turnin",
+      "description": "Talk to Fin Fizracket and turn in Stranglethorn Fever",
+      "classes": null,
+      "races": null,
+      "coords": [27.618, 76.735],
+      "zone": "stranglethorn_vale",
+      "tips": [],
+      "quests": [
+        {
+          "id": 348,
+          "name": "Stranglethorn Fever"
+        }
+      ],
+      "npc": "Fin Fizracket",
+      "mobs": []
+    },
+    {
+      "id": "tanaris_ungoro_131",
+      "type": "info",
+      "description": "Abandon The Captain's Chest",
+      "classes": null,
+      "races": null,
+      "coords": null,
+      "zone": "",
+      "tips": [],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "tanaris_ungoro_132",
+      "type": "info",
+      "description": "Abandon Stranglethorn Fever",
+      "classes": null,
+      "races": null,
+      "coords": null,
+      "zone": "",
+      "tips": [],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "tanaris_ungoro_133",
+      "type": "info",
+      "description": "Abandon Message in a Bottle",
+      "classes": null,
+      "races": null,
+      "coords": null,
+      "zone": "",
+      "tips": [],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "tanaris_ungoro_134",
+      "type": "fly",
+      "description": "Talk to Gyll and fly to Stormwind",
+      "classes": ["!Mage"],
+      "races": null,
+      "coords": [27.53, 77.787],
+      "zone": "stranglethorn_vale",
+      "tips": [],
+      "quests": [],
+      "npc": "Gyll",
+      "mobs": []
+    },
+    {
+      "id": "tanaris_ungoro_135",
+      "type": "travel",
+      "description": "Teleport to Stormwind City",
+      "classes": ["Mage"],
+      "races": null,
+      "coords": null,
+      "zone": "",
+      "tips": [],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "tanaris_ungoro_136",
+      "type": "info",
+      "description": "Talk to Jennea and train your class spells",
+      "classes": ["Mage"],
+      "races": null,
+      "coords": [36.87, 81.14],
+      "zone": "stormwind_city",
+      "tips": [],
+      "quests": [],
+      "npc": "Jennea Cannon",
+      "mobs": []
+    },
+    {
+      "id": "tanaris_ungoro_137",
+      "type": "info",
+      "description": "Talk to Sheldras Moontree and train your class spells",
+      "classes": ["Druid"],
+      "races": null,
+      "coords": [20.898, 55.491],
+      "zone": "stormwind_city",
+      "tips": [],
+      "quests": [],
+      "npc": "Sheldras Moontree",
+      "mobs": []
+    },
+    {
+      "id": "tanaris_ungoro_138",
+      "type": "travel",
+      "description": "Travel to the Stormwind Cathedral",
+      "classes": ["Priest", "Paladin"],
+      "races": null,
+      "coords": [42.51, 33.51],
+      "zone": "stormwind_city",
+      "tips": [],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "tanaris_ungoro_139",
+      "type": "info",
+      "description": "Talk to Arthur the Faithful and train your class spells",
+      "classes": ["Paladin"],
+      "races": null,
+      "coords": [38.67, 32.82],
+      "zone": "stormwind_city",
+      "tips": [],
+      "quests": [],
+      "npc": "Arthur the Faithful",
+      "mobs": []
+    },
+    {
+      "id": "tanaris_ungoro_140",
+      "type": "info",
+      "description": "Talk to Brother Joshua and train your class spells",
+      "classes": ["Priest"],
+      "races": null,
+      "coords": [38.54, 26.86],
+      "zone": "stormwind_city",
+      "tips": [],
+      "quests": [],
+      "npc": "Brother Joshua",
+      "mobs": []
+    },
+    {
+      "id": "tanaris_ungoro_141",
+      "type": "info",
+      "description": "Talk to Einris Brightspear and train your class spells",
+      "classes": ["Hunter"],
+      "races": null,
+      "coords": [61.609, 15.269],
+      "zone": "stormwind_city",
+      "tips": [],
+      "quests": [],
+      "npc": "Einris Brightspear",
+      "mobs": []
+    },
+    {
+      "id": "tanaris_ungoro_142",
+      "type": "quest_accept",
+      "description": "Talk to Wu or Ilsa and train your class spells. Accept A Troubled Spirit",
+      "classes": ["Warrior"],
+      "races": null,
+      "coords": [78.68, 45.79],
+      "zone": "stormwind_city",
+      "tips": [],
+      "quests": [
+        {
+          "id": 8417,
+          "name": "A Troubled Spirit"
+        }
+      ],
+      "npc": "Ilsa Corbin",
+      "mobs": []
+    },
+    {
+      "id": "tanaris_ungoro_143",
+      "type": "info",
+      "description": "Talk to Osborne and train your class spells",
+      "classes": ["Rogue"],
+      "races": null,
+      "coords": [74.65, 52.83],
+      "zone": "stormwind_city",
+      "tips": [],
+      "quests": [],
+      "npc": "Osborne the Night Man",
+      "mobs": []
+    },
+    {
+      "id": "tanaris_ungoro_144",
+      "type": "travel",
+      "description": "Go into The Slaughtered Lamb and go downstairs",
+      "classes": ["Warlock"],
+      "races": null,
+      "coords": [27.2, 78.1],
+      "zone": "stormwind_city",
+      "tips": [],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "tanaris_ungoro_145",
+      "type": "info",
+      "description": "Talk to Ursula Deline and train your class spells",
+      "classes": ["Warlock"],
+      "races": null,
+      "coords": [26.117, 77.225],
+      "zone": "stormwind_city",
+      "tips": [],
+      "quests": [],
+      "npc": "Ursula Deline",
+      "mobs": []
+    },
+    {
+      "id": "tanaris_ungoro_146",
+      "type": "info",
+      "description": "Talk to Spackle Thornberry. Buy Grimoires for your pets",
+      "classes": ["Warlock"],
+      "races": null,
+      "coords": [25.665, 77.649],
+      "zone": "stormwind_city",
+      "tips": [
+        {
+          "type": "warning",
+          "class": null,
+          "text": "Buy Grimoires for your pets"
+        }
+      ],
+      "quests": [],
+      "npc": "Spackle Thornberry",
+      "mobs": []
+    },
+    {
+      "id": "tanaris_ungoro_147",
+      "type": "info",
+      "description": "Talk to Auctioneer Jaxon. Buy Imperfect Draenethyst Fragment and Flawless Draenethyst Sphere for a faster turn in at Blasted Lands shortly",
+      "classes": null,
+      "races": null,
+      "coords": [53.612, 59.764],
+      "zone": "stormwind_city",
+      "tips": [
+        {
+          "type": "warning",
+          "class": null,
+          "text": "This will save you time as you won't need to run around looking for mobs to kill. Skip this step if you wish to not buy any"
+        },
+        {
+          "type": "warning",
+          "class": null,
+          "text": "The Imperfect Draenethyst Fragment and Flawless Draenethyst Sphere are rare and may not be on the Auction House"
+        }
+      ],
+      "quests": [],
+      "npc": "Auctioneer Jaxon",
+      "mobs": []
+    },
+    {
+      "id": "tanaris_ungoro_148",
+      "type": "fly",
+      "description": "Talk to Dungar Longdrink and fly to Blasted Lands",
+      "classes": null,
+      "races": null,
+      "coords": [66.277, 62.137],
+      "zone": "stormwind_city",
+      "tips": [],
+      "quests": [],
+      "npc": "Dungar Longdrink",
+      "mobs": []
+    }
+  ]
+}

@@ -1,0 +1,1634 @@
+{
+  "zone": "Felwood",
+  "levelRange": "55-56",
+  "faction": "Alliance",
+  "name": "55-56_felwood_2",
+  "next": "56-57_burning_steppes",
+  "steps": [
+    {
+      "id": "felwood_001",
+      "type": "travel",
+      "description": "Travel to Irontree Cavern",
+      "classes": null,
+      "races": null,
+      "coords": [55.78, 17.11],
+      "zone": "felwood",
+      "tips": [],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "felwood_002",
+      "type": "kill",
+      "description": "Kill Warpwood Moss Flayers and Warpwood Shredders. Loot them for their Blood Ambers",
+      "classes": null,
+      "races": null,
+      "coords": [57.3, 17.79],
+      "zone": "felwood",
+      "tips": [],
+      "quests": [
+        {
+          "id": 4101,
+          "name": "Cleansing Felwood"
+        }
+      ],
+      "npc": null,
+      "mobs": ["Warpwood Moss Flayer", "Warpwood Shredder"]
+    },
+    {
+      "id": "felwood_003",
+      "type": "travel",
+      "description": "Travel to the Emerald Sanctuary",
+      "classes": null,
+      "races": null,
+      "coords": [51.21, 82.1],
+      "zone": "felwood",
+      "tips": [],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "felwood_004",
+      "type": "quest_turnin",
+      "description": "Talk to Greta Mosshoof and turn in Cleansed Water Returns to Felwood",
+      "classes": null,
+      "races": null,
+      "coords": [51.21, 82.1],
+      "zone": "felwood",
+      "tips": [],
+      "quests": [
+        {
+          "id": 5159,
+          "name": "Cleansed Water Returns to Felwood"
+        }
+      ],
+      "npc": "Greta Mosshoof",
+      "mobs": []
+    },
+    {
+      "id": "felwood_005",
+      "type": "quest_accept",
+      "description": "Talk to Greta Mosshoof and accept Dousing the Flames of Protection",
+      "classes": null,
+      "races": null,
+      "coords": [51.21, 82.1],
+      "zone": "felwood",
+      "tips": [],
+      "quests": [
+        {
+          "id": 5165,
+          "name": "Dousing the Flames of Protection"
+        }
+      ],
+      "npc": "Greta Mosshoof",
+      "mobs": []
+    },
+    {
+      "id": "felwood_006",
+      "type": "quest_accept",
+      "description": "Talk to Taronn Redfeather and accept Verifying the Corruption",
+      "classes": null,
+      "races": null,
+      "coords": [50.889, 81.619],
+      "zone": "felwood",
+      "tips": [],
+      "quests": [
+        {
+          "id": 5156,
+          "name": "Verifying the Corruption"
+        }
+      ],
+      "npc": "Taronn Redfeather",
+      "mobs": []
+    },
+    {
+      "id": "felwood_007",
+      "type": "quest_accept",
+      "description": "Talk to Eridan Bluewind and accept The Corruption of the Jadefire",
+      "classes": null,
+      "races": null,
+      "coords": [51.35, 81.511],
+      "zone": "felwood",
+      "tips": [],
+      "quests": [
+        {
+          "id": 4421,
+          "name": "The Corruption of the Jadefire"
+        }
+      ],
+      "npc": "Eridan Bluewind",
+      "mobs": []
+    },
+    {
+      "id": "felwood_008",
+      "type": "quest_turnin",
+      "description": "Talk to Arathandris Silversky and turn in Cleansing Felwood",
+      "classes": null,
+      "races": null,
+      "coords": [54.14, 86.83],
+      "zone": "felwood",
+      "tips": [],
+      "quests": [
+        {
+          "id": 4101,
+          "name": "Cleansing Felwood"
+        }
+      ],
+      "npc": "Arathandris Silversky",
+      "mobs": []
+    },
+    {
+      "id": "felwood_009",
+      "type": "info",
+      "description": "Talk to Arathandris Silversky. Select the option: I need a Cenarion beacon",
+      "classes": null,
+      "races": null,
+      "coords": [54.14, 86.83],
+      "zone": "felwood",
+      "tips": [],
+      "quests": [],
+      "npc": "Arathandris Silversky",
+      "mobs": []
+    },
+    {
+      "id": "felwood_010",
+      "type": "kill",
+      "description": "Kill Deadwood Warriors, Deadwood Pathfinders and Deadwood Gardeners. Loot them for their Corrupted Soul Shards",
+      "classes": null,
+      "races": null,
+      "coords": [48.22, 93.81],
+      "zone": "felwood",
+      "tips": [],
+      "quests": [
+        {
+          "id": 5882,
+          "name": "Salve via Hunting"
+        }
+      ],
+      "npc": null,
+      "mobs": ["Deadwood Warrior", "Deadwood Pathfinder", "Deadwood Gardener"]
+    },
+    {
+      "id": "felwood_011",
+      "type": "quest_accept",
+      "description": "Talk to Arathandris Silversky, accept Salve via Hunting, and turn in Salve via Hunting",
+      "classes": null,
+      "races": null,
+      "coords": [54.2, 86.8],
+      "zone": "felwood",
+      "tips": [],
+      "quests": [
+        {
+          "id": 5882,
+          "name": "Salve via Hunting"
+        }
+      ],
+      "npc": "Arathandris Silversky",
+      "mobs": []
+    },
+    {
+      "id": "felwood_012",
+      "type": "info",
+      "description": "From this point on you may cleanse Corrupted Songflowers on the ground. After cleansing it, clicking on the Cleansed Songflower will provide a 5% crit buff as well as increasing all attributes by 15 for 1 hour",
+      "classes": null,
+      "races": null,
+      "coords": null,
+      "zone": "",
+      "tips": [
+        {
+          "type": "warning",
+          "class": null,
+          "text": "This requires you to use two Cenarion Plant Salves"
+        }
+      ],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "felwood_013",
+      "type": "kill",
+      "description": "Kill Jadefire Felsworns, Jadefire Shadowstalkers, Jadefire Rogues and Xavathras",
+      "classes": null,
+      "races": null,
+      "coords": [37.34, 66.91],
+      "zone": "felwood",
+      "tips": [
+        {
+          "type": "warning",
+          "class": null,
+          "text": "This area can be very dangerous. Be extremely cautious"
+        },
+        {
+          "type": "warning",
+          "class": null,
+          "text": "Jadefire Felsworns cast Cripple which slows your movement speed"
+        },
+        {
+          "type": "warning",
+          "class": null,
+          "text": "Jadefire Shadowstalkers are in Stealth and patrol around, as well as apply a Slowing Poison which slows you for 25 seconds"
+        }
+      ],
+      "quests": [
+        {
+          "id": 4421,
+          "name": "The Corruption of the Jadefire"
+        }
+      ],
+      "npc": null,
+      "mobs": [
+        "Jadefire Felsworn",
+        "Jadefire Shadowstalker",
+        "Jadefire Rogue",
+        "Xavathras"
+      ]
+    },
+    {
+      "id": "felwood_014",
+      "type": "travel",
+      "description": "Travel to Shadow Hold",
+      "classes": null,
+      "races": null,
+      "coords": [35.367, 58.376],
+      "zone": "felwood",
+      "tips": [],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "felwood_015",
+      "type": "info",
+      "description": "Click the four Braziers on the ground",
+      "classes": null,
+      "races": null,
+      "coords": [37.677, 52.685],
+      "zone": "felwood",
+      "tips": [],
+      "quests": [
+        {
+          "id": 5165,
+          "name": "Dousing the Flames of Protection"
+        }
+      ],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "felwood_016",
+      "type": "loot",
+      "description": "Kill Jaedenar Enforcers, Jaedenar Darkweavers, Jaedenar Warlocks and Jaedenar Legionnaires. Loot them for a Blood Red Key. Use the Blood Red Key to start the quest",
+      "classes": null,
+      "races": null,
+      "coords": null,
+      "zone": "",
+      "tips": [
+        {
+          "type": "warning",
+          "class": null,
+          "text": "This will begin an escort quest. Start this escort even if you still need to Extinguish Braziers"
+        }
+      ],
+      "quests": [
+        {
+          "id": 5202,
+          "name": "A Strange Red Key"
+        }
+      ],
+      "npc": null,
+      "mobs": [
+        "Jaedenar Enforcer",
+        "Jaedenar Darkweaver",
+        "Jaedenar Warlock",
+        "Jaedenar Legionnaire"
+      ]
+    },
+    {
+      "id": "felwood_017",
+      "type": "quest_accept",
+      "description": "Talk to Captured Arko'narin, turn in A Strange Red Key, and accept Rescue From Jaedenar",
+      "classes": null,
+      "races": null,
+      "coords": [36.207, 55.465],
+      "zone": "felwood",
+      "tips": [],
+      "quests": [
+        {
+          "id": 5202,
+          "name": "A Strange Red Key"
+        },
+        {
+          "id": 5203,
+          "name": "Rescue From Jaedenar"
+        }
+      ],
+      "npc": "Captured Arko'narin",
+      "mobs": []
+    },
+    {
+      "id": "felwood_018",
+      "type": "info",
+      "description": "Click the four Braziers on the ground",
+      "classes": null,
+      "races": null,
+      "coords": [37.677, 52.685],
+      "zone": "felwood",
+      "tips": [],
+      "quests": [
+        {
+          "id": 5165,
+          "name": "Dousing the Flames of Protection"
+        }
+      ],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "felwood_019",
+      "type": "info",
+      "description": "Escort Arko'narin through Shadow Hold. Once you approach the final Brazier, 3 Felguards will spawn which you will have to deal with. After exiting Shadow Hold, you will need to kill the Spirit of Trey Lightforge. Let Arko'narin tank him as much as possible",
+      "classes": null,
+      "races": null,
+      "coords": [35.44, 59.01],
+      "zone": "felwood",
+      "tips": [],
+      "quests": [
+        {
+          "id": 5203,
+          "name": "Rescue From Jaedenar"
+        }
+      ],
+      "npc": "Arko'narin",
+      "mobs": ["Spirit of Trey Lightforge"]
+    },
+    {
+      "id": "felwood_020",
+      "type": "info",
+      "description": "Click the four Braziers on the ground",
+      "classes": null,
+      "races": null,
+      "coords": [37.677, 52.685],
+      "zone": "felwood",
+      "tips": [],
+      "quests": [
+        {
+          "id": 5165,
+          "name": "Dousing the Flames of Protection"
+        }
+      ],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "felwood_021",
+      "type": "quest_turnin",
+      "description": "Talk to Greta Mosshoof, turn in Dousing the Flames of Protection, and accept A Final Blow",
+      "classes": null,
+      "races": null,
+      "coords": [51.21, 82.1],
+      "zone": "felwood",
+      "tips": [],
+      "quests": [
+        {
+          "id": 5165,
+          "name": "Dousing the Flames of Protection"
+        },
+        {
+          "id": 5242,
+          "name": "A Final Blow"
+        }
+      ],
+      "npc": "Greta Mosshoof",
+      "mobs": []
+    },
+    {
+      "id": "felwood_022",
+      "type": "quest_accept",
+      "description": "Talk to Greta Mosshoof and accept A Final Blow",
+      "classes": null,
+      "races": null,
+      "coords": [51.21, 82.1],
+      "zone": "felwood",
+      "tips": [],
+      "quests": [
+        {
+          "id": 5242,
+          "name": "A Final Blow"
+        }
+      ],
+      "npc": "Greta Mosshoof",
+      "mobs": []
+    },
+    {
+      "id": "felwood_023",
+      "type": "info",
+      "description": "Abandon Dousing the Flames of Protection",
+      "classes": null,
+      "races": null,
+      "coords": null,
+      "zone": "",
+      "tips": [],
+      "quests": [
+        {
+          "id": 5165,
+          "name": "Dousing the Flames of Protection"
+        }
+      ],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "felwood_024",
+      "type": "quest_turnin",
+      "description": "Talk to Jessir Moonbow, turn in Rescue From Jaedenar, and accept Retribution of the Light",
+      "classes": null,
+      "races": null,
+      "coords": [51.346, 82.013],
+      "zone": "felwood",
+      "tips": [],
+      "quests": [
+        {
+          "id": 5203,
+          "name": "Rescue From Jaedenar"
+        },
+        {
+          "id": 5204,
+          "name": "Retribution of the Light"
+        }
+      ],
+      "npc": "Jessir Moonbow",
+      "mobs": []
+    },
+    {
+      "id": "felwood_025",
+      "type": "quest_accept",
+      "description": "Talk to Jessir Moonbow and accept Retribution of the Light",
+      "classes": null,
+      "races": null,
+      "coords": [51.346, 82.013],
+      "zone": "felwood",
+      "tips": [],
+      "quests": [
+        {
+          "id": 5204,
+          "name": "Retribution of the Light"
+        }
+      ],
+      "npc": "Jessir Moonbow",
+      "mobs": []
+    },
+    {
+      "id": "felwood_026",
+      "type": "quest_turnin",
+      "description": "Talk to Eridan Bluewind, turn in The Corruption of the Jadefire, and accept Further Corruption",
+      "classes": null,
+      "races": null,
+      "coords": [51.35, 81.511],
+      "zone": "felwood",
+      "tips": [],
+      "quests": [
+        {
+          "id": 4421,
+          "name": "The Corruption of the Jadefire"
+        },
+        {
+          "id": 4906,
+          "name": "Further Corruption"
+        }
+      ],
+      "npc": "Eridan Bluewind",
+      "mobs": []
+    },
+    {
+      "id": "felwood_027",
+      "type": "quest_accept",
+      "description": "Talk to Eridan Bluewind and accept Further Corruption",
+      "classes": null,
+      "races": null,
+      "coords": [51.35, 81.511],
+      "zone": "felwood",
+      "tips": [],
+      "quests": [
+        {
+          "id": 4906,
+          "name": "Further Corruption"
+        }
+      ],
+      "npc": "Eridan Bluewind",
+      "mobs": []
+    },
+    {
+      "id": "felwood_028",
+      "type": "travel",
+      "description": "Travel to Shadow Hold",
+      "classes": null,
+      "races": null,
+      "coords": [35.367, 58.376],
+      "zone": "felwood",
+      "tips": [],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "felwood_029",
+      "type": "kill",
+      "description": "Kill Rakaiah",
+      "classes": null,
+      "races": null,
+      "coords": [38.499, 50.414],
+      "zone": "felwood",
+      "tips": [],
+      "quests": [
+        {
+          "id": 5204,
+          "name": "Retribution of the Light"
+        }
+      ],
+      "npc": null,
+      "mobs": ["Rakaiah"]
+    },
+    {
+      "id": "felwood_030",
+      "type": "quest_accept",
+      "description": "Talk to the Remains of Trey Lightforge, turn in Retribution of the Light, and accept The Remains of Trey Lightforge",
+      "classes": null,
+      "races": null,
+      "coords": [38.499, 50.414],
+      "zone": "felwood",
+      "tips": [],
+      "quests": [
+        {
+          "id": 5204,
+          "name": "Retribution of the Light"
+        },
+        {
+          "id": 5385,
+          "name": "The Remains of Trey Lightforge"
+        }
+      ],
+      "npc": "Remains of Trey Lightforge",
+      "mobs": []
+    },
+    {
+      "id": "felwood_031",
+      "type": "kill",
+      "description": "Continue further into Shadow Hold. Kill Salia, Moora and Shadow Lord Fel'dan. Loot him for his Head",
+      "classes": null,
+      "races": null,
+      "coords": [38.814, 46.782],
+      "zone": "felwood",
+      "tips": [
+        {
+          "type": "warning",
+          "class": null,
+          "text": "Kill Salia first as she casts Mind Control"
+        }
+      ],
+      "quests": [
+        {
+          "id": 5242,
+          "name": "A Final Blow"
+        }
+      ],
+      "npc": null,
+      "mobs": ["Salia", "Moora", "Shadow Lord Fel'dan"]
+    },
+    {
+      "id": "felwood_032",
+      "type": "info",
+      "description": "Perform a Logout skip on the Urn next to Shadow Lord Fel'dan to teleport to Irontree Woods",
+      "classes": null,
+      "races": null,
+      "coords": [38.744, 47.008],
+      "zone": "felwood",
+      "tips": [
+        {
+          "type": "link",
+          "class": null,
+          "text": "Click here for video reference",
+          "url": "https://www.twitch.tv/videos/1219250841?t=02h06m57s"
+        }
+      ],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "felwood_033",
+      "type": "kill",
+      "description": "Kill Xavaric. Loot him for the Flute of Xavaric. Use the Flute of Xavaric to start the quest",
+      "classes": null,
+      "races": null,
+      "coords": [38.98, 22.31],
+      "zone": "felwood",
+      "tips": [],
+      "quests": [
+        {
+          "id": 4906,
+          "name": "Further Corruption"
+        },
+        {
+          "id": 939,
+          "name": "Flute of Xavaric"
+        }
+      ],
+      "npc": null,
+      "mobs": ["Xavaric"]
+    },
+    {
+      "id": "felwood_034",
+      "type": "kill",
+      "description": "Kill Jadefire Hellcallers, Jadefire Betrayers and Jadefire Trickster. Loot them for their Jadefire Felbinds",
+      "classes": null,
+      "races": null,
+      "coords": [38.98, 22.31],
+      "zone": "felwood",
+      "tips": [],
+      "quests": [
+        {
+          "id": 4906,
+          "name": "Further Corruption"
+        },
+        {
+          "id": 939,
+          "name": "Flute of Xavaric"
+        }
+      ],
+      "npc": null,
+      "mobs": ["Jadefire Hellcaller", "Jadefire Betrayer", "Jadefire Trickster"]
+    },
+    {
+      "id": "felwood_035",
+      "type": "kill",
+      "description": "Kill Entropic Beasts and Entropic Horrors",
+      "classes": null,
+      "races": null,
+      "coords": [41.535, 43.007],
+      "zone": "felwood",
+      "tips": [
+        {
+          "type": "warning",
+          "class": null,
+          "text": "Be cautious of the Elite Infernals that patrol the Shatter Scar Vale"
+        }
+      ],
+      "quests": [
+        {
+          "id": 5156,
+          "name": "Verifying the Corruption"
+        }
+      ],
+      "npc": null,
+      "mobs": ["Entropic Beast", "Entropic Horror"]
+    },
+    {
+      "id": "felwood_036",
+      "type": "quest_turnin",
+      "description": "Talk to Taronn Redfeather and turn in Verifying the Corruption",
+      "classes": null,
+      "races": null,
+      "coords": [50.889, 81.619],
+      "zone": "felwood",
+      "tips": [],
+      "quests": [
+        {
+          "id": 5156,
+          "name": "Verifying the Corruption"
+        }
+      ],
+      "npc": "Taronn Redfeather",
+      "mobs": []
+    },
+    {
+      "id": "felwood_037",
+      "type": "quest_turnin",
+      "description": "Talk to Greta Mosshoof and turn in A Final Blow",
+      "classes": null,
+      "races": null,
+      "coords": [51.21, 82.1],
+      "zone": "felwood",
+      "tips": [],
+      "quests": [
+        {
+          "id": 5242,
+          "name": "A Final Blow"
+        }
+      ],
+      "npc": "Greta Mosshoof",
+      "mobs": []
+    },
+    {
+      "id": "felwood_038",
+      "type": "quest_turnin",
+      "description": "Talk to Jessir Moonbow and turn in The Remains of Trey Lightforge",
+      "classes": null,
+      "races": null,
+      "coords": [51.346, 82.013],
+      "zone": "felwood",
+      "tips": [],
+      "quests": [
+        {
+          "id": 5385,
+          "name": "The Remains of Trey Lightforge"
+        }
+      ],
+      "npc": "Jessir Moonbow",
+      "mobs": []
+    },
+    {
+      "id": "felwood_039",
+      "type": "quest_turnin",
+      "description": "Talk to Eridan Bluewind, turn in Further Corruption, and turn in Flute of Xavaric",
+      "classes": null,
+      "races": null,
+      "coords": [51.35, 81.511],
+      "zone": "felwood",
+      "tips": [],
+      "quests": [
+        {
+          "id": 4906,
+          "name": "Further Corruption"
+        },
+        {
+          "id": 939,
+          "name": "Flute of Xavaric"
+        }
+      ],
+      "npc": "Eridan Bluewind",
+      "mobs": []
+    },
+    {
+      "id": "felwood_040",
+      "type": "quest_turnin",
+      "description": "Talk to Eridan Bluewind and turn in Further Corruption",
+      "classes": null,
+      "races": null,
+      "coords": [51.35, 81.511],
+      "zone": "felwood",
+      "tips": [],
+      "quests": [
+        {
+          "id": 4906,
+          "name": "Further Corruption"
+        }
+      ],
+      "npc": "Eridan Bluewind",
+      "mobs": []
+    },
+    {
+      "id": "felwood_041",
+      "type": "quest_turnin",
+      "description": "Talk to Eridan Bluewind and turn in Flute of Xavaric",
+      "classes": null,
+      "races": null,
+      "coords": [51.35, 81.511],
+      "zone": "felwood",
+      "tips": [],
+      "quests": [
+        {
+          "id": 939,
+          "name": "Flute of Xavaric"
+        }
+      ],
+      "npc": "Eridan Bluewind",
+      "mobs": []
+    },
+    {
+      "id": "felwood_042",
+      "type": "info",
+      "description": "Abandon A Final Blow",
+      "classes": null,
+      "races": null,
+      "coords": null,
+      "zone": "",
+      "tips": [],
+      "quests": [
+        {
+          "id": 5242,
+          "name": "A Final Blow"
+        }
+      ],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "felwood_043",
+      "type": "info",
+      "description": "Abandon The Remains of Trey Lightforge",
+      "classes": null,
+      "races": null,
+      "coords": null,
+      "zone": "",
+      "tips": [],
+      "quests": [
+        {
+          "id": 5385,
+          "name": "The Remains of Trey Lightforge"
+        }
+      ],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "felwood_044",
+      "type": "info",
+      "description": "Abandon The Corruption of the Jadefire",
+      "classes": null,
+      "races": null,
+      "coords": null,
+      "zone": "",
+      "tips": [],
+      "quests": [
+        {
+          "id": 4421,
+          "name": "The Corruption of the Jadefire"
+        }
+      ],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "felwood_045",
+      "type": "quest_accept",
+      "description": "Talk to Impsy and accept Trolls of a Feather",
+      "classes": ["Warlock"],
+      "races": null,
+      "coords": [41.52, 44.99],
+      "zone": "felwood",
+      "tips": [],
+      "quests": [
+        {
+          "id": 8422,
+          "name": "Trolls of a Feather"
+        }
+      ],
+      "npc": "Impsy",
+      "mobs": []
+    },
+    {
+      "id": "felwood_046",
+      "type": "quest_accept",
+      "description": "Talk to Nafien and accept Deadwood of the North",
+      "classes": null,
+      "races": null,
+      "coords": [64.769, 8.131],
+      "zone": "felwood",
+      "tips": [],
+      "quests": [
+        {
+          "id": 8461,
+          "name": "Deadwood of the North"
+        }
+      ],
+      "npc": "Nafien",
+      "mobs": []
+    },
+    {
+      "id": "felwood_047",
+      "type": "kill",
+      "description": "Kill Deadwood Den Watchers, Deadwood Den Avengers and Deadwood Den Shamans",
+      "classes": null,
+      "races": null,
+      "coords": [62.61, 10.12],
+      "zone": "felwood",
+      "tips": [
+        {
+          "type": "warning",
+          "class": null,
+          "text": "If you find the Deadwood Ritual Totem, don't start the quest from this item yet"
+        }
+      ],
+      "quests": [
+        {
+          "id": 8461,
+          "name": "Deadwood of the North"
+        }
+      ],
+      "npc": null,
+      "mobs": ["Deadwood Den Watcher", "Deadwood Avenger", "Deadwood Shaman"]
+    },
+    {
+      "id": "felwood_048",
+      "type": "grind",
+      "description": "Grind Furbolgs to level 55",
+      "classes": null,
+      "races": null,
+      "coords": [62.61, 10.12],
+      "zone": "felwood",
+      "tips": [],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "felwood_049",
+      "type": "quest_turnin",
+      "description": "Talk to Nafien, turn in Deadwood of the North, and accept Speak to Salfa",
+      "classes": null,
+      "races": null,
+      "coords": [64.769, 8.131],
+      "zone": "felwood",
+      "tips": [],
+      "quests": [
+        {
+          "id": 8461,
+          "name": "Deadwood of the North"
+        },
+        {
+          "id": 8465,
+          "name": "Speak to Salfa"
+        }
+      ],
+      "npc": "Nafien",
+      "mobs": []
+    },
+    {
+      "id": "felwood_050",
+      "type": "info",
+      "description": "Talk to Nafien. If you have more than 5 Deadwood Headdress Feathers you may turn them in for reputation with Timbermaw Hold",
+      "classes": null,
+      "races": null,
+      "coords": [64.769, 8.131],
+      "zone": "felwood",
+      "tips": [],
+      "quests": [
+        {
+          "id": 8467,
+          "name": "Feathers for Nafien"
+        }
+      ],
+      "npc": "Nafien",
+      "mobs": []
+    },
+    {
+      "id": "felwood_051",
+      "type": "travel",
+      "description": "Travel through Timbermaw Hold to Kernda",
+      "classes": null,
+      "races": null,
+      "coords": [65.48, 3.47],
+      "zone": "felwood",
+      "tips": [],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "felwood_052",
+      "type": "quest_accept",
+      "description": "Talk to Kernda. Use the Deadwood Ritual Totem to start the quest, accept Deadwood Ritual Totem, and turn in Deadwood Ritual Totem. Skip this step if you aren't neutral with Timbermaw Hold",
+      "classes": null,
+      "races": null,
+      "coords": [65.35, 1.37],
+      "zone": "felwood",
+      "tips": [
+        {
+          "type": "warning",
+          "class": null,
+          "text": "Kernda patrols the lower Timbermaw Hold path"
+        }
+      ],
+      "quests": [
+        {
+          "id": 8470,
+          "name": "Deadwood Ritual Totem"
+        }
+      ],
+      "npc": "Kernda",
+      "mobs": []
+    },
+    {
+      "id": "felwood_053",
+      "type": "info",
+      "description": "Talk to Meilosh. Level up your First Aid. Train Journeyman First Aid. Skip this step if you aren't friendly with Timbermaw Hold",
+      "classes": null,
+      "races": null,
+      "coords": [65.692, 2.81],
+      "zone": "felwood",
+      "tips": [],
+      "quests": [
+        {
+          "id": 6031,
+          "name": "Runecloth"
+        }
+      ],
+      "npc": "Meilosh",
+      "mobs": []
+    },
+    {
+      "id": "felwood_054",
+      "type": "travel",
+      "description": "Travel through Timbermaw Hold to Salfa in Winterspring",
+      "classes": null,
+      "races": null,
+      "coords": [27.736, 34.499],
+      "zone": "winterspring",
+      "tips": [],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "felwood_055",
+      "type": "quest_accept",
+      "description": "Talk to Salfa, turn in Speak to Salfa, and accept Winterfall Activity",
+      "classes": null,
+      "races": null,
+      "coords": [27.736, 34.499],
+      "zone": "winterspring",
+      "tips": [],
+      "quests": [
+        {
+          "id": 8465,
+          "name": "Speak to Salfa"
+        },
+        {
+          "id": 8464,
+          "name": "Winterfall Activity"
+        }
+      ],
+      "npc": "Salfa",
+      "mobs": []
+    },
+    {
+      "id": "felwood_056",
+      "type": "quest_turnin",
+      "description": "Talk to Donova Snowden, turn in The Videre Elixir, and turn in The New Springs. Accept Threat of the Winterfall. Do not accept the follow up Meet at the Grave",
+      "classes": null,
+      "races": null,
+      "coords": [31.269, 45.164],
+      "zone": "winterspring",
+      "tips": [],
+      "quests": [
+        {
+          "id": 3909,
+          "name": "The Videre Elixir"
+        },
+        {
+          "id": 980,
+          "name": "The New Springs"
+        },
+        {
+          "id": 5082,
+          "name": "Threat of the Winterfall"
+        }
+      ],
+      "npc": "Donova Snowden",
+      "mobs": []
+    },
+    {
+      "id": "felwood_057",
+      "type": "quest_turnin",
+      "description": "Talk to Donova Snowden, turn in The New Springs, and accept Threat of the Winterfall",
+      "classes": null,
+      "races": null,
+      "coords": [31.269, 45.164],
+      "zone": "winterspring",
+      "tips": [],
+      "quests": [
+        {
+          "id": 980,
+          "name": "The New Springs"
+        },
+        {
+          "id": 5082,
+          "name": "Threat of the Winterfall"
+        }
+      ],
+      "npc": "Donova Snowden",
+      "mobs": []
+    },
+    {
+      "id": "felwood_058",
+      "type": "info",
+      "description": "Delete any Videre Elixirs you have",
+      "classes": null,
+      "races": null,
+      "coords": null,
+      "zone": "",
+      "tips": [],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "felwood_059",
+      "type": "quest_accept",
+      "description": "Talk to Donova Snowden, turn in The Videre Elixir, and accept Meet at the Grave. Turn in The New Springs and accept Threat of the Winterfall",
+      "classes": null,
+      "races": null,
+      "coords": [31.269, 45.164],
+      "zone": "winterspring",
+      "tips": [
+        {
+          "type": "warning",
+          "class": null,
+          "text": "Blizzard has adjusted the quest chain for The Videre Elixir so it will no longer kill you on Official Hardcore Servers"
+        }
+      ],
+      "quests": [
+        {
+          "id": 3909,
+          "name": "The Videre Elixir"
+        },
+        {
+          "id": 3912,
+          "name": "Meet at the Grave"
+        },
+        {
+          "id": 980,
+          "name": "The New Springs"
+        },
+        {
+          "id": 5082,
+          "name": "Threat of the Winterfall"
+        }
+      ],
+      "npc": "Donova Snowden",
+      "mobs": []
+    },
+    {
+      "id": "felwood_060",
+      "type": "quest_accept",
+      "description": "Talk to Donova Snowden and accept Meet at the Grave. Turn in The New Springs and accept Threat of the Winterfall",
+      "classes": null,
+      "races": null,
+      "coords": [31.269, 45.164],
+      "zone": "winterspring",
+      "tips": [
+        {
+          "type": "warning",
+          "class": null,
+          "text": "Blizzard has adjusted the quest chain for The Videre Elixir so it will no longer kill you on Official Hardcore Servers"
+        }
+      ],
+      "quests": [
+        {
+          "id": 3912,
+          "name": "Meet at the Grave"
+        },
+        {
+          "id": 980,
+          "name": "The New Springs"
+        },
+        {
+          "id": 5082,
+          "name": "Threat of the Winterfall"
+        }
+      ],
+      "npc": "Donova Snowden",
+      "mobs": []
+    },
+    {
+      "id": "felwood_061",
+      "type": "quest_turnin",
+      "description": "Talk to Donova Snowden, turn in The New Springs, and accept Threat of the Winterfall",
+      "classes": null,
+      "races": null,
+      "coords": [31.269, 45.164],
+      "zone": "winterspring",
+      "tips": [],
+      "quests": [
+        {
+          "id": 980,
+          "name": "The New Springs"
+        },
+        {
+          "id": 5082,
+          "name": "Threat of the Winterfall"
+        }
+      ],
+      "npc": "Donova Snowden",
+      "mobs": []
+    },
+    {
+      "id": "felwood_062",
+      "type": "loot",
+      "description": "Kill Winterfall Pathfinders, Winterfall Den Watchers and Winterfall Totemics. Loot them for a Empty Firewater Flask. Use the Empty Firewater Flask to start the quest. Ignore the quest to kill the Winterfall for now, just loot the Empty Firewater Flask and move on",
+      "classes": null,
+      "races": null,
+      "coords": [41.3, 43.3],
+      "zone": "winterspring",
+      "tips": [],
+      "quests": [
+        {
+          "id": 5083,
+          "name": "Winterfall Firewater"
+        }
+      ],
+      "npc": null,
+      "mobs": [
+        "Winterfall Pathfinder",
+        "Winterfall Den Watcher",
+        "Winterfall Totemic"
+      ]
+    },
+    {
+      "id": "felwood_063",
+      "type": "quest_accept",
+      "description": "Talk to Donova Snowden, turn in Winterfall Firewater, and accept Falling to Corruption",
+      "classes": null,
+      "races": null,
+      "coords": [31.269, 45.164],
+      "zone": "winterspring",
+      "tips": [],
+      "quests": [
+        {
+          "id": 5083,
+          "name": "Winterfall Firewater"
+        },
+        {
+          "id": 5084,
+          "name": "Falling to Corruption"
+        }
+      ],
+      "npc": "Donova Snowden",
+      "mobs": []
+    },
+    {
+      "id": "felwood_064",
+      "type": "loot",
+      "description": "Loot Moontouched Feathers on the ground",
+      "classes": null,
+      "races": null,
+      "coords": [60.6, 33.7],
+      "zone": "winterspring",
+      "tips": [],
+      "quests": [
+        {
+          "id": 978,
+          "name": "Moontouched Feathers"
+        }
+      ],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "felwood_065",
+      "type": "travel",
+      "description": "Travel to Everlook",
+      "classes": null,
+      "races": null,
+      "coords": [61.348, 38.973],
+      "zone": "winterspring",
+      "tips": [],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "felwood_066",
+      "type": "quest_accept",
+      "description": "Talk to Gregor Greystone and Jessica Redpath and accept The Everlook Report, Duke Nicholas Zverenhoff, and Sister Pamela",
+      "classes": null,
+      "races": null,
+      "coords": [61.281, 38.981],
+      "zone": "winterspring",
+      "tips": [],
+      "quests": [
+        {
+          "id": 6028,
+          "name": "The Everlook Report"
+        },
+        {
+          "id": 6030,
+          "name": "Duke Nicholas Zverenhoff"
+        },
+        {
+          "id": 5601,
+          "name": "Sister Pamela"
+        }
+      ],
+      "npc": "Jessica Redpath",
+      "mobs": []
+    },
+    {
+      "id": "felwood_067",
+      "type": "info",
+      "description": "Hearth to Ratchet. Buy food/water if needed",
+      "classes": ["!Warrior", "!Rogue"],
+      "races": null,
+      "coords": null,
+      "zone": "",
+      "tips": [],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "felwood_068",
+      "type": "info",
+      "description": "Hearth to Ratchet. Buy food if needed",
+      "classes": ["Warrior", "Rogue"],
+      "races": null,
+      "coords": null,
+      "zone": "",
+      "tips": [],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "felwood_069",
+      "type": "info",
+      "description": "Talk to Fuzruckle or Zikkel. Deposit the following items into your bank: Everlook Report, Studies in Spirit Speaking, Deadwood Ritual Totem (If you have it)",
+      "classes": null,
+      "races": null,
+      "coords": [62.68, 37.395],
+      "zone": "the_barrens",
+      "tips": [],
+      "quests": [],
+      "npc": "Zikkel",
+      "mobs": []
+    },
+    {
+      "id": "felwood_070",
+      "type": "info",
+      "description": "Talk to Fuzruckle or Zikkel. Withdraw the following items from your bank: Black Dragonflight Molt (If you have it), Filled Pure Sample Jar, Drawing Kit",
+      "classes": null,
+      "races": null,
+      "coords": [62.68, 37.395],
+      "zone": "the_barrens",
+      "tips": [],
+      "quests": [],
+      "npc": "Zikkel",
+      "mobs": []
+    },
+    {
+      "id": "felwood_071",
+      "type": "fly",
+      "description": "Talk to Bragok and fly to Tanaris",
+      "classes": null,
+      "races": null,
+      "coords": [63.084, 37.163],
+      "zone": "the_barrens",
+      "tips": [],
+      "quests": [],
+      "npc": "Bragok",
+      "mobs": []
+    },
+    {
+      "id": "felwood_072",
+      "type": "info",
+      "description": "Use the Videre Elixir at the Tanaris graveyard",
+      "classes": null,
+      "races": null,
+      "coords": [53.99, 28.63],
+      "zone": "tanaris",
+      "tips": [
+        {
+          "type": "warning",
+          "class": null,
+          "text": "Blizzard has adjusted this quest so consuming this will NOT kill your character on Official Hardcore Servers. It will lower your health to 3% however. Ensure you bandage or eat food before leaving the graveyard"
+        }
+      ],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "felwood_073",
+      "type": "quest_accept",
+      "description": "Talk to Gaeriyan, turn in Meet at the Grave, and accept A Grave Situation. Ensure you bandage or eat food before leaving the graveyard. You must have the Near Death Experience debuff to see Gaeriyan by drinking the Videre Elixir",
+      "classes": null,
+      "races": null,
+      "coords": [53.93, 23.33],
+      "zone": "tanaris",
+      "tips": [
+        {
+          "type": "warning",
+          "class": null,
+          "text": "Blizzard has adjusted this quest so consuming this will NOT kill your character on Official Hardcore Servers"
+        }
+      ],
+      "quests": [
+        {
+          "id": 3912,
+          "name": "Meet at the Grave"
+        },
+        {
+          "id": 3913,
+          "name": "A Grave Situation"
+        }
+      ],
+      "npc": "Gaeriyan",
+      "mobs": []
+    },
+    {
+      "id": "felwood_074",
+      "type": "quest_accept",
+      "description": "Talk to Gaeriyan and accept A Grave Situation. You must have the Near Death Experience debuff to see Gaeriyan by drinking the Videre Elixir",
+      "classes": null,
+      "races": null,
+      "coords": [53.93, 23.33],
+      "zone": "tanaris",
+      "tips": [
+        {
+          "type": "warning",
+          "class": null,
+          "text": "Blizzard has adjusted this quest so consuming this will NOT kill your character on Official Hardcore Servers"
+        }
+      ],
+      "quests": [
+        {
+          "id": 3913,
+          "name": "A Grave Situation"
+        }
+      ],
+      "npc": "Gaeriyan",
+      "mobs": []
+    },
+    {
+      "id": "felwood_075",
+      "type": "quest_accept",
+      "description": "Click the Conspicuous Gravestone, turn in A Grave Situation, and accept Linken's Sword",
+      "classes": null,
+      "races": null,
+      "coords": [53.815, 29.061],
+      "zone": "tanaris",
+      "tips": [],
+      "quests": [
+        {
+          "id": 3913,
+          "name": "A Grave Situation"
+        },
+        {
+          "id": 3914,
+          "name": "Linken's Sword"
+        }
+      ],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "felwood_076",
+      "type": "info",
+      "description": "Delete any remaining Videre Elixirs you have",
+      "classes": null,
+      "races": null,
+      "coords": null,
+      "zone": "",
+      "tips": [],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "felwood_077",
+      "type": "fly",
+      "description": "Talk to Bera Stonehammer and fly to Un'Goro",
+      "classes": null,
+      "races": null,
+      "coords": [51.006, 29.345],
+      "zone": "tanaris",
+      "tips": [],
+      "quests": [],
+      "npc": "Bera Stonehammer",
+      "mobs": []
+    },
+    {
+      "id": "felwood_078",
+      "type": "quest_accept",
+      "description": "Talk to Linken, turn in Linken's Sword, and accept A Gnome's Assistance",
+      "classes": null,
+      "races": null,
+      "coords": [44.658, 8.098],
+      "zone": "ungoro_crater",
+      "tips": [],
+      "quests": [
+        {
+          "id": 3914,
+          "name": "Linken's Sword"
+        },
+        {
+          "id": 3941,
+          "name": "A Gnome's Assistance"
+        }
+      ],
+      "npc": "Linken",
+      "mobs": []
+    },
+    {
+      "id": "felwood_079",
+      "type": "quest_accept",
+      "description": "Talk to J.D. Collie, turn in A Gnome's Assistance, and accept Linken's Memory",
+      "classes": null,
+      "races": null,
+      "coords": [41.918, 2.703],
+      "zone": "ungoro_crater",
+      "tips": [],
+      "quests": [
+        {
+          "id": 3941,
+          "name": "A Gnome's Assistance"
+        },
+        {
+          "id": 3942,
+          "name": "Linken's Memory"
+        }
+      ],
+      "npc": "J.D. Collie",
+      "mobs": []
+    },
+    {
+      "id": "felwood_080",
+      "type": "fly",
+      "description": "Talk to Bragok and fly to Un'Goro",
+      "classes": ["Druid"],
+      "races": null,
+      "coords": [63.084, 37.163],
+      "zone": "the_barrens",
+      "tips": [],
+      "quests": [],
+      "npc": "Bragok",
+      "mobs": []
+    },
+    {
+      "id": "felwood_081",
+      "type": "quest_accept",
+      "description": "Talk to Torwa Pathfinder and accept A Better Ingredient",
+      "classes": ["Druid"],
+      "races": null,
+      "coords": [71.639, 75.96],
+      "zone": "ungoro_crater",
+      "tips": [],
+      "quests": [
+        {
+          "id": 9053,
+          "name": "A Better Ingredient"
+        }
+      ],
+      "npc": "Torwa Pathfinder",
+      "mobs": []
+    },
+    {
+      "id": "felwood_082",
+      "type": "fly",
+      "description": "Talk to Gryfe and fly to Theramore",
+      "classes": ["!Mage"],
+      "races": null,
+      "coords": [45.234, 5.831],
+      "zone": "ungoro_crater",
+      "tips": [],
+      "quests": [],
+      "npc": "Gryfe",
+      "mobs": []
+    },
+    {
+      "id": "felwood_083",
+      "type": "fly",
+      "description": "Talk to Bragok and fly to Theramore",
+      "classes": ["!Mage"],
+      "races": null,
+      "coords": [63.084, 37.163],
+      "zone": "the_barrens",
+      "tips": [],
+      "quests": [],
+      "npc": "Bragok",
+      "mobs": []
+    },
+    {
+      "id": "felwood_084",
+      "type": "travel",
+      "description": "Take the boat from Theramore to Wetlands",
+      "classes": ["!Mage"],
+      "races": null,
+      "coords": [71.4, 56.1],
+      "zone": "dustwallow_marsh",
+      "tips": [],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "felwood_085",
+      "type": "fly",
+      "description": "Talk to Shellei Brondir and fly to Ironforge",
+      "classes": ["!Mage"],
+      "races": null,
+      "coords": [9.49, 59.693],
+      "zone": "wetlands",
+      "tips": [],
+      "quests": [],
+      "npc": "Shellei Brondir",
+      "mobs": []
+    },
+    {
+      "id": "felwood_086",
+      "type": "travel",
+      "description": "Teleport to Ironforge",
+      "classes": ["Mage"],
+      "races": null,
+      "coords": null,
+      "zone": "",
+      "tips": [],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    }
+  ]
+}

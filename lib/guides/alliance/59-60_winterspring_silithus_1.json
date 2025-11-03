@@ -1,0 +1,1411 @@
+{
+  "zone": "Winterspring/Silithus",
+  "levelRange": "59-60",
+  "faction": "Alliance",
+  "name": "59-60_winterspring_silithus_1",
+  "next": "59-60_winterspring_silithus_2",
+  "steps": [
+    {
+      "id": "winterspring_silithus_p1_001",
+      "type": "quest_accept",
+      "description": "Talk to Alchemist Pestlezugg and accept Pawn Captures Queen",
+      "classes": null,
+      "races": null,
+      "coords": [50.887, 26.963],
+      "zone": "tanaris",
+      "tips": [],
+      "quests": [
+        {
+          "id": 4507,
+          "name": "Pawn Captures Queen"
+        }
+      ],
+      "npc": "Alchemist Pestlezugg",
+      "mobs": []
+    },
+    {
+      "id": "winterspring_silithus_p1_002",
+      "type": "info",
+      "description": "Use Umi's Mechanical Yeti on Sprinkle",
+      "classes": null,
+      "races": null,
+      "coords": [51.059, 26.873],
+      "zone": "tanaris",
+      "tips": [],
+      "quests": [],
+      "npc": "Sprinkle",
+      "mobs": []
+    },
+    {
+      "id": "winterspring_silithus_p1_003",
+      "type": "quest_accept",
+      "description": "Talk to Tran'rek and accept Super Sticky",
+      "classes": null,
+      "races": null,
+      "coords": [51.566, 26.759],
+      "zone": "tanaris",
+      "tips": [],
+      "quests": [
+        {
+          "id": 4504,
+          "name": "Super Sticky"
+        }
+      ],
+      "npc": "Tran'rek",
+      "mobs": []
+    },
+    {
+      "id": "winterspring_silithus_p1_004",
+      "type": "quest_turnin",
+      "description": "Talk to Yeh'kinya and turn in The God Hakkar",
+      "classes": null,
+      "races": null,
+      "coords": [66.989, 22.354],
+      "zone": "tanaris",
+      "tips": [],
+      "quests": [
+        {
+          "id": 3528,
+          "name": "The God Hakkar"
+        }
+      ],
+      "npc": "Yeh'kinya",
+      "mobs": []
+    },
+    {
+      "id": "winterspring_silithus_p1_005",
+      "type": "travel",
+      "description": "Travel to Lost Rigger Cove",
+      "classes": null,
+      "races": null,
+      "coords": [68.98, 41.63],
+      "zone": "tanaris",
+      "tips": [],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "winterspring_silithus_p1_006",
+      "type": "info",
+      "description": "Use the Book of Aquor to summon Aquementas at the stone summoning circle within Lost Rigger Cove",
+      "classes": null,
+      "races": null,
+      "coords": [70.43, 49.9],
+      "zone": "tanaris",
+      "tips": [],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "winterspring_silithus_p1_007",
+      "type": "kill",
+      "description": "Kill Aquementas",
+      "classes": null,
+      "races": null,
+      "coords": [70.43, 49.93],
+      "zone": "tanaris",
+      "tips": [],
+      "quests": [
+        {
+          "id": 4005,
+          "name": "Aquementas"
+        }
+      ],
+      "npc": null,
+      "mobs": ["Aquementas"]
+    },
+    {
+      "id": "winterspring_silithus_p1_008",
+      "type": "fly",
+      "description": "Talk to Bera Stonehammer and fly to Un'Goro Crater",
+      "classes": null,
+      "races": null,
+      "coords": [51.006, 29.345],
+      "zone": "tanaris",
+      "tips": [],
+      "quests": [],
+      "npc": "Bera Stonehammer",
+      "mobs": []
+    },
+    {
+      "id": "winterspring_silithus_p1_009",
+      "type": "quest_accept",
+      "description": "Talk to J.D. Collie, turn in Aquementas, and accept Linken's Adventure",
+      "classes": null,
+      "races": null,
+      "coords": [41.918, 2.703],
+      "zone": "ungoro_crater",
+      "tips": [],
+      "quests": [
+        {
+          "id": 4005,
+          "name": "Aquementas"
+        },
+        {
+          "id": 3961,
+          "name": "Linken's Adventure"
+        }
+      ],
+      "npc": "J.D. Collie",
+      "mobs": []
+    },
+    {
+      "id": "winterspring_silithus_p1_010",
+      "type": "quest_accept",
+      "description": "Talk to Linken, turn in Linken's Adventure, and accept It's Dangerous to Go Alone",
+      "classes": null,
+      "races": null,
+      "coords": [44.658, 8.098],
+      "zone": "ungoro_crater",
+      "tips": [],
+      "quests": [
+        {
+          "id": 3961,
+          "name": "Linken's Adventure"
+        },
+        {
+          "id": 3962,
+          "name": "It's Dangerous to Go Alone"
+        }
+      ],
+      "npc": "Linken",
+      "mobs": []
+    },
+    {
+      "id": "winterspring_silithus_p1_011",
+      "type": "info",
+      "description": "Use Umi's Mechanical Yeti on Quixxil",
+      "classes": null,
+      "races": null,
+      "coords": [43.66, 9.371],
+      "zone": "ungoro_crater",
+      "tips": [],
+      "quests": [],
+      "npc": "Quixxil",
+      "mobs": []
+    },
+    {
+      "id": "winterspring_silithus_p1_012",
+      "type": "kill",
+      "description": "Kill Tar Beasts, Tar Creepers, Tar Lurkers and Tar Lords. Loot them for their Super Sticky Tar",
+      "classes": null,
+      "races": null,
+      "coords": [51.6, 24.8],
+      "zone": "ungoro_crater",
+      "tips": [],
+      "quests": [
+        {
+          "id": 4504,
+          "name": "Super Sticky"
+        }
+      ],
+      "npc": null,
+      "mobs": ["Tar Beast", "Tar Creeper", "Tar Lurker", "Tar Lord"]
+    },
+    {
+      "id": "winterspring_silithus_p1_013",
+      "type": "quest_turnin",
+      "description": "Talk to Torwa Pathfinder and turn in A Better Ingredient",
+      "classes": ["Druid"],
+      "races": null,
+      "coords": [71.639, 75.96],
+      "zone": "ungoro_crater",
+      "tips": [],
+      "quests": [
+        {
+          "id": 9053,
+          "name": "A Better Ingredient"
+        }
+      ],
+      "npc": "Torwa Pathfinder",
+      "mobs": []
+    },
+    {
+      "id": "winterspring_silithus_p1_014",
+      "type": "travel",
+      "description": "Make your way to the top of Fire Plume Ridge",
+      "classes": null,
+      "races": null,
+      "coords": null,
+      "zone": "",
+      "tips": [
+        {
+          "type": "warning",
+          "class": null,
+          "text": "Equip the Silver Totem of Aquementas in your off-hand"
+        },
+        {
+          "type": "warning",
+          "class": null,
+          "text": "Use the Silver Totem of Aquementas on Blazerunner to dispel his aura. His aura will knock you back, and he can periodically recast it during combat. Ensure someone is always ready to use the Silver Totem of Aquementas"
+        }
+      ],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "winterspring_silithus_p1_015",
+      "type": "kill",
+      "description": "Use the Silver Totem of Aquementas on Blazerunner to dispel his aura. Kill Blazerunner",
+      "classes": null,
+      "races": null,
+      "coords": [49.401, 49.305],
+      "zone": "ungoro_crater",
+      "tips": [],
+      "quests": [
+        {
+          "id": 3962,
+          "name": "It's Dangerous to Go Alone"
+        }
+      ],
+      "npc": null,
+      "mobs": ["Blazerunner"]
+    },
+    {
+      "id": "winterspring_silithus_p1_016",
+      "type": "loot",
+      "description": "Open the Ornate Chest. Loot it for the Golden Flame",
+      "classes": null,
+      "races": null,
+      "coords": [50.279, 49.973],
+      "zone": "ungoro_crater",
+      "tips": [],
+      "quests": [
+        {
+          "id": 3962,
+          "name": "It's Dangerous to Go Alone"
+        }
+      ],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "winterspring_silithus_p1_017",
+      "type": "travel",
+      "description": "Enter The Slithering Scar Hive",
+      "classes": null,
+      "races": null,
+      "coords": [49.93, 81.7],
+      "zone": "ungoro_crater",
+      "tips": [],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "winterspring_silithus_p1_018",
+      "type": "info",
+      "description": "Use the Gorishi Queen Lure at the Gorishi Silithid Crystal inside of The Slithering Scar. You will have to defeat 3 waves of attacking Gorishi. If you kill the final mob of each wave while OUTSIDE of the main room, you will be able to drink/eat between waves",
+      "classes": null,
+      "races": null,
+      "coords": null,
+      "zone": "",
+      "tips": [],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "winterspring_silithus_p1_019",
+      "type": "kill",
+      "description": "Defeat the 3 waves of Gorishi attackers. Use the outside room as a reset point to eat/drink between waves if needed. Kill the Gorishi Hive Queen. Loot her for her Brain",
+      "classes": null,
+      "races": null,
+      "coords": [43.52, 81.079],
+      "zone": "ungoro_crater",
+      "tips": [],
+      "quests": [
+        {
+          "id": 4507,
+          "name": "Pawn Captures Queen"
+        }
+      ],
+      "npc": null,
+      "mobs": ["Gorishi Hive Queen"]
+    },
+    {
+      "id": "winterspring_silithus_p1_020",
+      "type": "travel",
+      "description": "Travel to Silithus",
+      "classes": null,
+      "races": null,
+      "coords": [88.4, 23.81],
+      "zone": "silithus",
+      "tips": [],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "winterspring_silithus_p1_021",
+      "type": "quest_turnin",
+      "description": "Talk to Layo Starstrike and turn in Wasteland",
+      "classes": null,
+      "races": null,
+      "coords": [81.871, 18.934],
+      "zone": "silithus",
+      "tips": [],
+      "quests": [
+        {
+          "id": 1124,
+          "name": "Wasteland"
+        }
+      ],
+      "npc": "Layo Starstrike",
+      "mobs": []
+    },
+    {
+      "id": "winterspring_silithus_p1_022",
+      "type": "quest_accept",
+      "description": "Talk to Layo Starstrike, turn in Wasteland, and accept The Spirits of Southwind",
+      "classes": null,
+      "races": null,
+      "coords": [81.871, 18.934],
+      "zone": "silithus",
+      "tips": [],
+      "quests": [
+        {
+          "id": 1124,
+          "name": "Wasteland"
+        },
+        {
+          "id": 1125,
+          "name": "The Spirits of Southwind"
+        }
+      ],
+      "npc": "Layo Starstrike",
+      "mobs": []
+    },
+    {
+      "id": "winterspring_silithus_p1_023",
+      "type": "travel",
+      "description": "Travel to Cenarion Hold",
+      "classes": null,
+      "races": null,
+      "coords": null,
+      "zone": "",
+      "tips": [],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "winterspring_silithus_p1_024",
+      "type": "quest_accept",
+      "description": "Talk to Calandrath and accept Desert Recipe",
+      "classes": null,
+      "races": null,
+      "coords": [51.893, 39.163],
+      "zone": "silithus",
+      "tips": [],
+      "quests": [
+        {
+          "id": 8307,
+          "name": "Desert Recipe"
+        }
+      ],
+      "npc": "Calandrath",
+      "mobs": []
+    },
+    {
+      "id": "winterspring_silithus_p1_025",
+      "type": "quest_accept",
+      "description": "Talk to Beetix Ficklespragg upstairs and accept Deadly Desert Venom",
+      "classes": null,
+      "races": null,
+      "coords": [51.8, 38.6],
+      "zone": "silithus",
+      "tips": [],
+      "quests": [
+        {
+          "id": 8277,
+          "name": "Deadly Desert Venom"
+        }
+      ],
+      "npc": "Beetix Ficklespragg",
+      "mobs": []
+    },
+    {
+      "id": "winterspring_silithus_p1_026",
+      "type": "quest_accept",
+      "description": "Click the Wanted Poster: Deathclasp and accept Wanted - Deathclasp, Terror of the Sands",
+      "classes": null,
+      "races": null,
+      "coords": [51.351, 38.273],
+      "zone": "silithus",
+      "tips": [],
+      "quests": [
+        {
+          "id": 8283,
+          "name": "Wanted - Deathclasp, Terror of the Sands"
+        }
+      ],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "winterspring_silithus_p1_027",
+      "type": "quest_accept",
+      "description": "Talk to Windcaller Proudhorn, turn in Taking Back Silithus, and accept Securing the Supply Lines",
+      "classes": null,
+      "races": null,
+      "coords": [51.152, 38.289],
+      "zone": "silithus",
+      "tips": [],
+      "quests": [
+        {
+          "id": 8275,
+          "name": "Taking Back Silithus"
+        },
+        {
+          "id": 8280,
+          "name": "Securing the Supply Lines"
+        }
+      ],
+      "npc": "Windcaller Proudhorn",
+      "mobs": []
+    },
+    {
+      "id": "winterspring_silithus_p1_028",
+      "type": "quest_accept",
+      "description": "Talk to Windcaller Proudhorn and accept Securing the Supply Lines",
+      "classes": null,
+      "races": null,
+      "coords": [51.152, 38.289],
+      "zone": "silithus",
+      "tips": [],
+      "quests": [
+        {
+          "id": 8280,
+          "name": "Securing the Supply Lines"
+        }
+      ],
+      "npc": "Windcaller Proudhorn",
+      "mobs": []
+    },
+    {
+      "id": "winterspring_silithus_p1_029",
+      "type": "quest_accept",
+      "description": "Talk to Geologist Larksbane and accept The Twilight Mystery",
+      "classes": null,
+      "races": null,
+      "coords": [49.673, 37.461],
+      "zone": "silithus",
+      "tips": [],
+      "quests": [
+        {
+          "id": 8284,
+          "name": "The Twilight Mystery"
+        }
+      ],
+      "npc": "Geologist Larksbane",
+      "mobs": []
+    },
+    {
+      "id": "winterspring_silithus_p1_030",
+      "type": "quest_accept",
+      "description": "Talk to Bor Wildmane and accept Secret Communication",
+      "classes": null,
+      "races": null,
+      "coords": [48.574, 37.781],
+      "zone": "silithus",
+      "tips": [],
+      "quests": [
+        {
+          "id": 8318,
+          "name": "Secret Communication"
+        }
+      ],
+      "npc": "Bor Wildmane",
+      "mobs": []
+    },
+    {
+      "id": "winterspring_silithus_p1_031",
+      "type": "quest_turnin",
+      "description": "Click the Sandy Cookbook at the Twilight Base Camp, turn in Desert Recipe, and accept Sharing the Knowledge",
+      "classes": null,
+      "races": null,
+      "coords": [37.943, 45.315],
+      "zone": "silithus",
+      "tips": [
+        {
+          "type": "warning",
+          "class": null,
+          "text": "Approach the Twilight Base Camp from the south for easier access to the Sandy Cookbook"
+        }
+      ],
+      "quests": [
+        {
+          "id": 8307,
+          "name": "Desert Recipe"
+        },
+        {
+          "id": 8313,
+          "name": "Sharing the Knowledge"
+        }
+      ],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "winterspring_silithus_p1_032",
+      "type": "quest_accept",
+      "description": "Talk to Calandrath, turn in Sharing the Knowledge, and accept Kitchen Assistance",
+      "classes": null,
+      "races": null,
+      "coords": [51.893, 39.163],
+      "zone": "silithus",
+      "tips": [],
+      "quests": [
+        {
+          "id": 8313,
+          "name": "Sharing the Knowledge"
+        },
+        {
+          "id": 8317,
+          "name": "Kitchen Assistance"
+        }
+      ],
+      "npc": "Calandrath",
+      "mobs": []
+    },
+    {
+      "id": "winterspring_silithus_p1_033",
+      "type": "kill",
+      "description": "Kill Dredge Strikers. Loot them for their Sandworm Meat. Kill Sand Skitterers. Loot them for their Skitterer Fangs. Kill Stonelash Scorpids. Loot them for their Scorpid Stingers",
+      "classes": null,
+      "races": null,
+      "coords": [58.2, 23.8],
+      "zone": "silithus",
+      "tips": [
+        {
+          "type": "warning",
+          "class": null,
+          "text": "You don't need to collect all Sandworm Meat now"
+        }
+      ],
+      "quests": [
+        {
+          "id": 8280,
+          "name": "Securing the Supply Lines"
+        },
+        {
+          "id": 8277,
+          "name": "Deadly Desert Venom"
+        }
+      ],
+      "npc": null,
+      "mobs": ["Dredge Striker", "Sand Skitterer", "Stonelash Scorpid"]
+    },
+    {
+      "id": "winterspring_silithus_p1_034",
+      "type": "kill",
+      "description": "Kill Dredge Strikers. Kill Sand Skitterers. Loot them for their Skitterer Fangs. Kill Stonelash Scorpids. Loot them for their Scorpid Stingers",
+      "classes": null,
+      "races": null,
+      "coords": [58.2, 23.8],
+      "zone": "silithus",
+      "tips": [],
+      "quests": [
+        {
+          "id": 8280,
+          "name": "Securing the Supply Lines"
+        },
+        {
+          "id": 8277,
+          "name": "Deadly Desert Venom"
+        }
+      ],
+      "npc": null,
+      "mobs": ["Dredge Striker", "Sand Skitterer", "Stonelash Scorpid"]
+    },
+    {
+      "id": "winterspring_silithus_p1_035",
+      "type": "quest_turnin",
+      "description": "Talk to Windcaller Proudhorn, turn in Securing the Supply Lines, and accept Stepping Up Security",
+      "classes": null,
+      "races": null,
+      "coords": [51.152, 38.289],
+      "zone": "silithus",
+      "tips": [],
+      "quests": [
+        {
+          "id": 8280,
+          "name": "Securing the Supply Lines"
+        },
+        {
+          "id": 8281,
+          "name": "Stepping Up Security"
+        }
+      ],
+      "npc": "Windcaller Proudhorn",
+      "mobs": []
+    },
+    {
+      "id": "winterspring_silithus_p1_036",
+      "type": "quest_accept",
+      "description": "Talk to Beetix Ficklespragg upstairs, turn in Deadly Desert Venom, and accept Noggle's Last Hope",
+      "classes": null,
+      "races": null,
+      "coords": [51.7, 38.5],
+      "zone": "silithus",
+      "tips": [],
+      "quests": [
+        {
+          "id": 8277,
+          "name": "Deadly Desert Venom"
+        },
+        {
+          "id": 8278,
+          "name": "Noggle's Last Hope"
+        }
+      ],
+      "npc": "Beetix Ficklespragg",
+      "mobs": []
+    },
+    {
+      "id": "winterspring_silithus_p1_038",
+      "type": "loot",
+      "description": "Enter the small lodge. Open the Dusty Reliquary on the ground. Loot it for the Reliquary of Purity",
+      "classes": null,
+      "races": null,
+      "coords": [63.225, 55.354],
+      "zone": "silithus",
+      "tips": [],
+      "quests": [
+        {
+          "id": 5527,
+          "name": "Reliquary of Purity"
+        }
+      ],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "winterspring_silithus_p1_039",
+      "type": "kill",
+      "description": "Kill Tortured Druids and Tortured Sentinels. Only ever engage ONE Tortured Druid or Tortured Sentinel at a time. When they die they have a chance to spawn a Hive'Ashi Drone which you will also have to kill. Hive'Ashi Drones may drop Brann Bronzebeard's Lost Letter. Use Brann Bronzebeard's Lost Letter to start the quest",
+      "classes": null,
+      "races": null,
+      "coords": [63.72, 48.98],
+      "zone": "silithus",
+      "tips": [],
+      "quests": [
+        {
+          "id": 1125,
+          "name": "The Spirits of Southwind"
+        },
+        {
+          "id": 8308,
+          "name": "Brann Bronzebeard's Lost Letter"
+        }
+      ],
+      "npc": null,
+      "mobs": ["Tortured Druid", "Tortured Sentinel"]
+    },
+    {
+      "id": "winterspring_silithus_p1_040",
+      "type": "quest_accept",
+      "description": "Talk to Layo Starstrike, turn in The Spirits of Southwind, and accept Hive in the Tower",
+      "classes": null,
+      "races": null,
+      "coords": [81.871, 18.934],
+      "zone": "silithus",
+      "tips": [],
+      "quests": [
+        {
+          "id": 1125,
+          "name": "The Spirits of Southwind"
+        },
+        {
+          "id": 1126,
+          "name": "Hive in the Tower"
+        }
+      ],
+      "npc": "Layo Starstrike",
+      "mobs": []
+    },
+    {
+      "id": "winterspring_silithus_p1_041",
+      "type": "loot",
+      "description": "Ascend the Southwind Village Tower. Entering the tower spawns 3 Hive'Ashi Drones which you will need to kill. Click the Hive'Ashi Pod atop the Tower. This will spawn 2 Hive'Ashi Ambushers. Kill the Hive'Ashi Ambushers. Loot them for the Encrusted Silithid Object",
+      "classes": null,
+      "races": null,
+      "coords": [60.354, 52.558],
+      "zone": "silithus",
+      "tips": [],
+      "quests": [
+        {
+          "id": 1126,
+          "name": "Hive in the Tower"
+        }
+      ],
+      "npc": null,
+      "mobs": ["Hive'Ashi Ambusher"]
+    },
+    {
+      "id": "winterspring_silithus_p1_042",
+      "type": "quest_accept",
+      "description": "Talk to Layo Starstrike, turn in Hive in the Tower, and accept Umber, Archivist",
+      "classes": null,
+      "races": null,
+      "coords": [81.871, 18.934],
+      "zone": "silithus",
+      "tips": [],
+      "quests": [
+        {
+          "id": 1126,
+          "name": "Hive in the Tower"
+        },
+        {
+          "id": 6844,
+          "name": "Umber, Archivist"
+        }
+      ],
+      "npc": "Layo Starstrike",
+      "mobs": []
+    },
+    {
+      "id": "winterspring_silithus_p1_043",
+      "type": "travel",
+      "description": "Travel to The Crystal Vale. Avoid the Elite Hive'Ashi mobs en-route",
+      "classes": null,
+      "races": null,
+      "coords": null,
+      "zone": "",
+      "tips": [],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "winterspring_silithus_p1_044",
+      "type": "loot",
+      "description": "Loot the Twilight Tablet Fragments on the ground",
+      "classes": null,
+      "races": null,
+      "coords": [21.8, 10.4],
+      "zone": "silithus",
+      "tips": [],
+      "quests": [
+        {
+          "id": 8284,
+          "name": "The Twilight Mystery"
+        }
+      ],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "winterspring_silithus_p1_045",
+      "type": "travel",
+      "description": "Travel to Cenarion Hold",
+      "classes": null,
+      "races": null,
+      "coords": null,
+      "zone": "",
+      "tips": [],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "winterspring_silithus_p1_046",
+      "type": "quest_accept",
+      "description": "Talk to Geologist Larksbane, turn in The Twilight Mystery, and accept The Deserter",
+      "classes": null,
+      "races": null,
+      "coords": [49.673, 37.461],
+      "zone": "silithus",
+      "tips": [],
+      "quests": [
+        {
+          "id": 8284,
+          "name": "The Twilight Mystery"
+        },
+        {
+          "id": 8285,
+          "name": "The Deserter"
+        }
+      ],
+      "npc": "Geologist Larksbane",
+      "mobs": []
+    },
+    {
+      "id": "winterspring_silithus_p1_047",
+      "type": "quest_accept",
+      "description": "Talk to Commander Mar'alith and accept Dearest Natalia",
+      "classes": null,
+      "races": null,
+      "coords": [49.196, 34.184],
+      "zone": "silithus",
+      "tips": [],
+      "quests": [
+        {
+          "id": 8304,
+          "name": "Dearest Natalia"
+        }
+      ],
+      "npc": "Commander Mar'alith",
+      "mobs": []
+    },
+    {
+      "id": "winterspring_silithus_p1_048",
+      "type": "kill",
+      "description": "Kill Stonelash Flayers and Stonelash Pincers. Loot them for their Stingers. Kill Rock Stalkers. Loot them for their Fangs",
+      "classes": null,
+      "races": null,
+      "coords": null,
+      "zone": "",
+      "tips": [],
+      "quests": [
+        {
+          "id": 8278,
+          "name": "Noggle's Last Hope"
+        }
+      ],
+      "npc": null,
+      "mobs": ["Stonelash Flayer", "Stonelash Pincer", "Rock Stalker"]
+    },
+    {
+      "id": "winterspring_silithus_p1_049",
+      "type": "kill",
+      "description": "Kill Dredge Crushers. Loot them for their Sandworm Meat",
+      "classes": null,
+      "races": null,
+      "coords": null,
+      "zone": "",
+      "tips": [],
+      "quests": [
+        {
+          "id": 8281,
+          "name": "Stepping Up Security"
+        }
+      ],
+      "npc": null,
+      "mobs": ["Dredge Crusher"]
+    },
+    {
+      "id": "winterspring_silithus_p1_051",
+      "type": "quest_accept",
+      "description": "Talk to Rutgar Glyphshaper, accept Brann Bronzebeard's Lost Letter, and turn in Brann Bronzebeard's Lost Letter",
+      "classes": null,
+      "races": null,
+      "coords": [41.279, 88.456],
+      "zone": "silithus",
+      "tips": [],
+      "quests": [
+        {
+          "id": 8308,
+          "name": "Brann Bronzebeard's Lost Letter"
+        }
+      ],
+      "npc": "Rutgar Glyphshaper",
+      "mobs": []
+    },
+    {
+      "id": "winterspring_silithus_p1_052",
+      "type": "info",
+      "description": "Talk to Rutgar Glyphshaper",
+      "classes": null,
+      "races": null,
+      "coords": [41.279, 88.456],
+      "zone": "silithus",
+      "tips": [],
+      "quests": [
+        {
+          "id": 8304,
+          "name": "Dearest Natalia"
+        }
+      ],
+      "npc": "Rutgar Glyphshaper",
+      "mobs": []
+    },
+    {
+      "id": "winterspring_silithus_p1_053",
+      "type": "info",
+      "description": "Talk to Frankal Stonebridge",
+      "classes": null,
+      "races": null,
+      "coords": [40.815, 88.859],
+      "zone": "silithus",
+      "tips": [],
+      "quests": [
+        {
+          "id": 8304,
+          "name": "Dearest Natalia"
+        }
+      ],
+      "npc": "Frankal Stonebridge",
+      "mobs": []
+    },
+    {
+      "id": "winterspring_silithus_p1_054",
+      "type": "kill",
+      "description": "Kill Deathclasp. Loot her for her Pincer.",
+      "classes": null,
+      "races": null,
+      "coords": [44.97, 92.48],
+      "zone": "silithus",
+      "tips": [
+        {
+          "type": "warning",
+          "class": null,
+          "text": "Deathclasp has a knockback abilitiy as well as an 8 second stun. Ensure to stay out of melee range of her at all times. Skip this step if you are not confident"
+        }
+      ],
+      "quests": [
+        {
+          "id": 8283,
+          "name": "Wanted - Deathclasp, Terror of the Sands"
+        }
+      ],
+      "npc": null,
+      "mobs": ["Deathclasp"]
+    },
+    {
+      "id": "winterspring_silithus_p1_055",
+      "type": "kill",
+      "description": "Kill Stonelash Flayers and Stonelash Pincers. Loot them for their Stingers. Kill Rock Stalkers. Loot them for their Fangs",
+      "classes": null,
+      "races": null,
+      "coords": null,
+      "zone": "",
+      "tips": [],
+      "quests": [
+        {
+          "id": 8278,
+          "name": "Noggle's Last Hope"
+        }
+      ],
+      "npc": null,
+      "mobs": ["Stonelash Flayer", "Stonelash Pincer", "Rock Stalker"]
+    },
+    {
+      "id": "winterspring_silithus_p1_056",
+      "type": "kill",
+      "description": "Kill Dredge Crushers. Loot them for their Sandworm Meat",
+      "classes": null,
+      "races": null,
+      "coords": [39.0, 56.2],
+      "zone": "silithus",
+      "tips": [],
+      "quests": [
+        {
+          "id": 8281,
+          "name": "Stepping Up Security"
+        }
+      ],
+      "npc": null,
+      "mobs": ["Dredge Crusher"]
+    },
+    {
+      "id": "winterspring_silithus_p1_057",
+      "type": "kill",
+      "description": "Kill Dredge Crushers",
+      "classes": null,
+      "races": null,
+      "coords": [39.0, 56.2],
+      "zone": "silithus",
+      "tips": [],
+      "quests": [
+        {
+          "id": 8281,
+          "name": "Stepping Up Security"
+        }
+      ],
+      "npc": null,
+      "mobs": ["Dredge Crusher"]
+    },
+    {
+      "id": "winterspring_silithus_p1_058",
+      "type": "kill",
+      "description": "Kill Stonelash Flayers and Stonelash Pincers. Loot them for their Stingers. Kill Rock Stalkers. Loot them for their Fangs",
+      "classes": null,
+      "races": null,
+      "coords": [41.4, 80.8],
+      "zone": "silithus",
+      "tips": [],
+      "quests": [
+        {
+          "id": 8278,
+          "name": "Noggle's Last Hope"
+        }
+      ],
+      "npc": null,
+      "mobs": ["Stonelash Flayer", "Stonelash Pincer", "Rock Stalker"]
+    },
+    {
+      "id": "winterspring_silithus_p1_059",
+      "type": "quest_accept",
+      "description": "Talk to Hermit Ortell, turn in The Deserter, and accept The Twilight Lexicon",
+      "classes": null,
+      "races": null,
+      "coords": [67.192, 69.757],
+      "zone": "silithus",
+      "tips": [],
+      "quests": [
+        {
+          "id": 8285,
+          "name": "The Deserter"
+        },
+        {
+          "id": 8279,
+          "name": "The Twilight Lexicon"
+        }
+      ],
+      "npc": "Hermit Ortell",
+      "mobs": []
+    },
+    {
+      "id": "winterspring_silithus_p1_060",
+      "type": "travel",
+      "description": "Travel to Cenarion Hold",
+      "classes": null,
+      "races": null,
+      "coords": null,
+      "zone": "",
+      "tips": [],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "winterspring_silithus_p1_061",
+      "type": "quest_turnin",
+      "description": "Talk to Windcaller Proudhorn and turn in Stepping Up Security",
+      "classes": null,
+      "races": null,
+      "coords": [51.152, 38.289],
+      "zone": "silithus",
+      "tips": [],
+      "quests": [
+        {
+          "id": 8281,
+          "name": "Stepping Up Security"
+        }
+      ],
+      "npc": "Windcaller Proudhorn",
+      "mobs": []
+    },
+    {
+      "id": "winterspring_silithus_p1_062",
+      "type": "info",
+      "description": "Talk to Mishta. Buy 10 Soothing Spices from her",
+      "classes": null,
+      "races": null,
+      "coords": [49.88, 36.33],
+      "zone": "silithus",
+      "tips": [],
+      "quests": [],
+      "npc": "Mishta",
+      "mobs": []
+    },
+    {
+      "id": "winterspring_silithus_p1_063",
+      "type": "info",
+      "description": "Using your Cooking profession, cook up 10 Smoked Desert Dumplings at the Cooking Brazier in Cenarion Hold",
+      "classes": null,
+      "races": null,
+      "coords": [50.866, 38.414],
+      "zone": "silithus",
+      "tips": [],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "winterspring_silithus_p1_064",
+      "type": "quest_turnin",
+      "description": "Talk to Calandrath and turn in Kitchen Assistance",
+      "classes": null,
+      "races": null,
+      "coords": [51.893, 39.163],
+      "zone": "silithus",
+      "tips": [],
+      "quests": [
+        {
+          "id": 8317,
+          "name": "Kitchen Assistance"
+        }
+      ],
+      "npc": "Calandrath",
+      "mobs": []
+    },
+    {
+      "id": "winterspring_silithus_p1_065",
+      "type": "quest_accept",
+      "description": "Talk to Beetix Ficklespragg and Noggle Ficklespragg upstairs, turn in Noggle's Last Hope, and accept Noggle's Lost Satchel",
+      "classes": null,
+      "races": null,
+      "coords": [51.615, 38.517],
+      "zone": "silithus",
+      "tips": [],
+      "quests": [
+        {
+          "id": 8278,
+          "name": "Noggle's Last Hope"
+        },
+        {
+          "id": 8282,
+          "name": "Noggle's Lost Satchel"
+        }
+      ],
+      "npc": "Noggle Ficklespragg",
+      "mobs": []
+    },
+    {
+      "id": "winterspring_silithus_p1_066",
+      "type": "quest_turnin",
+      "description": "Talk to Commander Mar'alith and turn in Dearest Natalia",
+      "classes": null,
+      "races": null,
+      "coords": [49.196, 34.184],
+      "zone": "silithus",
+      "tips": [],
+      "quests": [
+        {
+          "id": 8304,
+          "name": "Dearest Natalia"
+        }
+      ],
+      "npc": "Commander Mar'alith",
+      "mobs": []
+    },
+    {
+      "id": "winterspring_silithus_p1_067",
+      "type": "quest_turnin",
+      "description": "Talk to Vish Kozus atop the Tower and turn in Wanted - Deathclasp, Terror of the Sands",
+      "classes": null,
+      "races": null,
+      "coords": [50.755, 33.655],
+      "zone": "silithus",
+      "tips": [],
+      "quests": [
+        {
+          "id": 8283,
+          "name": "Wanted - Deathclasp, Terror of the Sands"
+        }
+      ],
+      "npc": "Vish Kozus",
+      "mobs": []
+    },
+    {
+      "id": "winterspring_silithus_p1_068",
+      "type": "kill",
+      "description": "Kill any of the Twilight's Hammer. Loot them for their Encrypted Twilight Texts",
+      "classes": null,
+      "races": null,
+      "coords": null,
+      "zone": "",
+      "tips": [],
+      "quests": [],
+      "npc": null,
+      "mobs": [
+        "Twilight Avenger",
+        "Twilight Stonecaller",
+        "Twilight Geolord",
+        "Twilight Master"
+      ]
+    },
+    {
+      "id": "winterspring_silithus_p1_069",
+      "type": "kill",
+      "description": "Kill Twilight Keeper Havunth. Loot him for the Twilight Lexicon - Chapter 3",
+      "classes": null,
+      "races": null,
+      "coords": [40.86, 42.22],
+      "zone": "silithus",
+      "tips": [],
+      "quests": [
+        {
+          "id": 8279,
+          "name": "The Twilight Lexicon"
+        }
+      ],
+      "npc": null,
+      "mobs": ["Twilight Keeper Havunth"]
+    },
+    {
+      "id": "winterspring_silithus_p1_070",
+      "type": "kill",
+      "description": "Kill Twilight Keeper Mayna. Loot her for the Twilight Lexicon - Chapter 1",
+      "classes": null,
+      "races": null,
+      "coords": [26.66, 36.08],
+      "zone": "silithus",
+      "tips": [],
+      "quests": [
+        {
+          "id": 8279,
+          "name": "The Twilight Lexicon"
+        }
+      ],
+      "npc": null,
+      "mobs": ["Twilight Keeper Mayna"]
+    },
+    {
+      "id": "winterspring_silithus_p1_071",
+      "type": "kill",
+      "description": "Kill Twilight Keeper Exeter. Loot him for the Twilight Lexicon - Chapter 2",
+      "classes": null,
+      "races": null,
+      "coords": [16.13, 86.52],
+      "zone": "silithus",
+      "tips": [],
+      "quests": [
+        {
+          "id": 8279,
+          "name": "The Twilight Lexicon"
+        }
+      ],
+      "npc": null,
+      "mobs": ["Twilight Keeper Exeter"]
+    },
+    {
+      "id": "winterspring_silithus_p1_072",
+      "type": "kill",
+      "description": "Kill any of the Twilight's Hammer. Loot them for their Encrypted Twilight Texts",
+      "classes": null,
+      "races": null,
+      "coords": [19.8, 87.0],
+      "zone": "silithus",
+      "tips": [],
+      "quests": [],
+      "npc": null,
+      "mobs": [
+        "Twilight Avenger",
+        "Twilight Stonecaller",
+        "Twilight Geolord",
+        "Twilight Master"
+      ]
+    },
+    {
+      "id": "winterspring_silithus_p1_073",
+      "type": "loot",
+      "description": "Loot Noggle's Satchel on the ground. Wait for Deathclasp to patrol up the hill before looting Noggle's Satchel",
+      "classes": null,
+      "races": null,
+      "coords": [44.562, 91.379],
+      "zone": "silithus",
+      "tips": [
+        {
+          "type": "warning",
+          "class": null,
+          "text": "Wait for Deathclasp to patrol up the hill before looting Noggle's Satchel"
+        }
+      ],
+      "quests": [
+        {
+          "id": 8282,
+          "name": "Noggle's Lost Satchel"
+        }
+      ],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "winterspring_silithus_p1_074",
+      "type": "quest_accept",
+      "description": "Talk to Hermit Ortell, turn in The Twilight Lexicon, accept A Terrible Purpose and True Believers, and turn in True Believers",
+      "classes": null,
+      "races": null,
+      "coords": [67.192, 69.757],
+      "zone": "silithus",
+      "tips": [],
+      "quests": [
+        {
+          "id": 8279,
+          "name": "The Twilight Lexicon"
+        },
+        {
+          "id": 8287,
+          "name": "A Terrible Purpose"
+        },
+        {
+          "id": 8323,
+          "name": "True Believers"
+        }
+      ],
+      "npc": "Hermit Ortell",
+      "mobs": []
+    },
+    {
+      "id": "winterspring_silithus_p1_075",
+      "type": "info",
+      "description": "Perform a Logout skip on any of the torches next to Hermit Ortell to teleport to Cenarion Hold. If you are unable to do this just run there normally",
+      "classes": null,
+      "races": null,
+      "coords": null,
+      "zone": "",
+      "tips": [
+        {
+          "type": "link",
+          "class": null,
+          "text": "Click here for video reference",
+          "url": "https://www.youtube.com/watch?v=bFS4TUbJse8&ab_channel=RestedXP"
+        }
+      ],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "winterspring_silithus_p1_076",
+      "type": "quest_turnin",
+      "description": "Talk to Bor Wildmane and turn in Secret Communication",
+      "classes": null,
+      "races": null,
+      "coords": [48.574, 37.781],
+      "zone": "silithus",
+      "tips": [],
+      "quests": [
+        {
+          "id": 8318,
+          "name": "Secret Communication"
+        }
+      ],
+      "npc": "Bor Wildmane",
+      "mobs": []
+    },
+    {
+      "id": "winterspring_silithus_p1_077",
+      "type": "quest_turnin",
+      "description": "Talk to Commander Mar'alith and turn in A Terrible Purpose",
+      "classes": null,
+      "races": null,
+      "coords": [49.196, 34.184],
+      "zone": "silithus",
+      "tips": [],
+      "quests": [
+        {
+          "id": 8287,
+          "name": "A Terrible Purpose"
+        }
+      ],
+      "npc": "Commander Mar'alith",
+      "mobs": []
+    },
+    {
+      "id": "winterspring_silithus_p1_078",
+      "type": "quest_turnin",
+      "description": "Talk to Noggle Ficklespragg upstairs and turn in Noggle's Lost Satchel",
+      "classes": null,
+      "races": null,
+      "coords": [51.615, 38.517],
+      "zone": "silithus",
+      "tips": [],
+      "quests": [
+        {
+          "id": 8282,
+          "name": "Noggle's Lost Satchel"
+        }
+      ],
+      "npc": "Noggle Ficklespragg",
+      "mobs": []
+    }
+  ]
+}

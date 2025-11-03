@@ -1,0 +1,813 @@
+{
+  "zone": "Shadowglen",
+  "levelRange": "1-6",
+  "faction": "Alliance",
+  "name": "1-6_shadowglen_NE",
+  "next": "6-11_teldrassil_NE",
+  "steps": [
+    {
+      "id": "shadowglen_001",
+      "type": "quest_accept",
+      "description": "Talk to Conservator Ilthalaine and accept The Balance of Nature",
+      "classes": null,
+      "races": null,
+      "coords": [58.695, 44.266],
+      "zone": "teldrassil",
+      "tips": [],
+      "quests": [
+        {
+          "id": 456,
+          "name": "The Balance of Nature"
+        }
+      ],
+      "npc": "Conservator Ilthalaine",
+      "mobs": []
+    },
+    {
+      "id": "shadowglen_002",
+      "type": "kill",
+      "description": "Kill Young Nightsabers and Young Thistle Boars",
+      "classes": null,
+      "races": null,
+      "coords": [62.0, 42.6],
+      "zone": "teldrassil",
+      "tips": [],
+      "quests": [
+        {
+          "id": 456,
+          "name": "The Balance of Nature"
+        }
+      ],
+      "npc": null,
+      "mobs": ["Young Nightsaber", "Young Thistle Boar"]
+    },
+    {
+      "id": "shadowglen_003",
+      "type": "grind",
+      "description": "Grind to level 2",
+      "classes": null,
+      "races": null,
+      "coords": null,
+      "zone": "",
+      "tips": [],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "shadowglen_004",
+      "type": "quest_accept",
+      "description": "Talk to Dirania Silvershine and Melithar Staghelm, accept A Good Friend and The Woodland Protector",
+      "classes": null,
+      "races": null,
+      "coords": [59.924, 42.474],
+      "zone": "teldrassil",
+      "tips": [],
+      "quests": [
+        {
+          "id": 4495,
+          "name": "A Good Friend"
+        },
+        {
+          "id": 458,
+          "name": "The Woodland Protector"
+        }
+      ],
+      "npc": "Melithar Staghelm",
+      "mobs": []
+    },
+    {
+      "id": "shadowglen_005",
+      "type": "grind",
+      "description": "Grind until you are 610xp away from level 4",
+      "classes": ["Hunter"],
+      "races": null,
+      "coords": [59.8, 34.1],
+      "zone": "teldrassil",
+      "tips": [],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "shadowglen_006",
+      "type": "quest_turnin",
+      "description": "Talk to Iverron, turn in A Good Friend, and accept A Friend in Need",
+      "classes": ["Hunter"],
+      "races": null,
+      "coords": [54.593, 32.992],
+      "zone": "teldrassil",
+      "tips": [],
+      "quests": [
+        {
+          "id": 4495,
+          "name": "A Good Friend"
+        },
+        {
+          "id": 3519,
+          "name": "A Friend in Need"
+        }
+      ],
+      "npc": "Iverron",
+      "mobs": []
+    },
+    {
+      "id": "shadowglen_007",
+      "type": "info",
+      "description": "Hearth to Shadowglen",
+      "classes": ["Hunter"],
+      "races": null,
+      "coords": null,
+      "zone": "",
+      "tips": [],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "shadowglen_008",
+      "type": "quest_turnin",
+      "description": "Talk to Tarindrella, turn in The Woodland Protector, and accept The Woodland Protector",
+      "classes": ["Hunter"],
+      "races": null,
+      "coords": [57.9, 45.1],
+      "zone": "teldrassil",
+      "tips": [],
+      "quests": [
+        {
+          "id": 458,
+          "name": "The Woodland Protector"
+        },
+        {
+          "id": 459,
+          "name": "The Woodland Protector"
+        }
+      ],
+      "npc": "Tarindrella",
+      "mobs": []
+    },
+    {
+      "id": "shadowglen_009",
+      "type": "quest_turnin",
+      "description": "Talk to Conservator Ilthalaine, turn in The Balance of Nature, and accept The Balance of Nature, Simple Sigil, Etched Sigil, Hallowed Sigil, or Verdant Sigil",
+      "classes": null,
+      "races": null,
+      "coords": [58.695, 44.266],
+      "zone": "teldrassil",
+      "tips": [],
+      "quests": [
+        {
+          "id": 456,
+          "name": "The Balance of Nature"
+        },
+        {
+          "id": 457,
+          "name": "The Balance of Nature"
+        },
+        {
+          "id": 3116,
+          "name": "Simple Sigil"
+        },
+        {
+          "id": 3117,
+          "name": "Etched Sigil"
+        },
+        {
+          "id": 3119,
+          "name": "Hallowed Sigil"
+        },
+        {
+          "id": 3120,
+          "name": "Verdant Sigil"
+        }
+      ],
+      "npc": "Conservator Ilthalaine",
+      "mobs": []
+    },
+    {
+      "id": "shadowglen_010",
+      "type": "info",
+      "description": "Talk to Keina. Vendor trash",
+      "classes": ["Warrior"],
+      "races": null,
+      "coords": [59.306, 41.091],
+      "zone": "teldrassil",
+      "tips": [],
+      "quests": [],
+      "npc": "Keina",
+      "mobs": []
+    },
+    {
+      "id": "shadowglen_011",
+      "type": "quest_turnin",
+      "description": "Talk to Alyissia, turn in Simple Sigil, and train your class spells",
+      "classes": ["Warrior"],
+      "races": null,
+      "coords": [59.637, 38.442],
+      "zone": "teldrassil",
+      "tips": [],
+      "quests": [
+        {
+          "id": 3116,
+          "name": "Simple Sigil"
+        }
+      ],
+      "npc": "Alyissia",
+      "mobs": []
+    },
+    {
+      "id": "shadowglen_012",
+      "type": "kill",
+      "description": "Kill Mangy Nightsabers and Thistle Boars",
+      "classes": ["!Hunter"],
+      "races": null,
+      "coords": [59.8, 34.1],
+      "zone": "teldrassil",
+      "tips": [],
+      "quests": [
+        {
+          "id": 457,
+          "name": "The Balance of Nature"
+        }
+      ],
+      "npc": null,
+      "mobs": ["Mangy Nightsaber", "Thistle Boar"]
+    },
+    {
+      "id": "shadowglen_013",
+      "type": "quest_turnin",
+      "description": "Talk to Iverron, turn in A Good Friend, and accept A Friend in Need",
+      "classes": ["!Hunter"],
+      "races": null,
+      "coords": [54.593, 32.992],
+      "zone": "teldrassil",
+      "tips": [],
+      "quests": [
+        {
+          "id": 4495,
+          "name": "A Good Friend"
+        },
+        {
+          "id": 3519,
+          "name": "A Friend in Need"
+        }
+      ],
+      "npc": "Iverron",
+      "mobs": []
+    },
+    {
+      "id": "shadowglen_014",
+      "type": "info",
+      "description": "Hearth to Shadowglen",
+      "classes": ["!Hunter"],
+      "races": null,
+      "coords": null,
+      "zone": "",
+      "tips": [],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "shadowglen_015",
+      "type": "quest_turnin",
+      "description": "Talk to Tarindrella, turn in The Woodland Protector, and accept The Woodland Protector",
+      "classes": ["!Hunter"],
+      "races": null,
+      "coords": [57.9, 45.1],
+      "zone": "teldrassil",
+      "tips": [],
+      "quests": [
+        {
+          "id": 458,
+          "name": "The Woodland Protector"
+        },
+        {
+          "id": 459,
+          "name": "The Woodland Protector"
+        }
+      ],
+      "npc": "Tarindrella",
+      "mobs": []
+    },
+    {
+      "id": "shadowglen_016",
+      "type": "quest_turnin",
+      "description": "Talk to Conservator Ilthalaine and turn in The Balance of Nature",
+      "classes": ["!Hunter"],
+      "races": null,
+      "coords": [58.6, 44.3],
+      "zone": "teldrassil",
+      "tips": [],
+      "quests": [
+        {
+          "id": 457,
+          "name": "The Balance of Nature"
+        }
+      ],
+      "npc": "Conservator Ilthalaine",
+      "mobs": []
+    },
+    {
+      "id": "shadowglen_017",
+      "type": "quest_turnin",
+      "description": "Talk to Dirania Silvershine, turn in A Friend in Need, and accept Iverron's Antidote",
+      "classes": null,
+      "races": null,
+      "coords": [60.899, 41.961],
+      "zone": "teldrassil",
+      "tips": [],
+      "quests": [
+        {
+          "id": 3519,
+          "name": "A Friend in Need"
+        },
+        {
+          "id": 3521,
+          "name": "Iverron's Antidote"
+        }
+      ],
+      "npc": "Dirania Silvershine",
+      "mobs": []
+    },
+    {
+      "id": "shadowglen_018",
+      "type": "info",
+      "description": "Talk to Keina. Buy 3 stacks of Rough Arrows",
+      "classes": ["Hunter"],
+      "races": null,
+      "coords": [59.306, 41.091],
+      "zone": "teldrassil",
+      "tips": [],
+      "quests": [],
+      "npc": "Keina",
+      "mobs": []
+    },
+    {
+      "id": "shadowglen_019",
+      "type": "quest_accept",
+      "description": "Talk to Gilshalan Windwalker and accept Webwood Venom",
+      "classes": null,
+      "races": null,
+      "coords": [57.807, 41.653],
+      "zone": "teldrassil",
+      "tips": [],
+      "quests": [
+        {
+          "id": 916,
+          "name": "Webwood Venom"
+        }
+      ],
+      "npc": "Gilshalan Windwalker",
+      "mobs": []
+    },
+    {
+      "id": "shadowglen_020",
+      "type": "grind",
+      "description": "Grind to level 4",
+      "classes": ["Hunter"],
+      "races": null,
+      "coords": null,
+      "zone": "",
+      "tips": [],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "shadowglen_021",
+      "type": "quest_turnin",
+      "description": "Talk to Ayanna Everstride, turn in Etched Sigil, and train Serpent Sting",
+      "classes": ["Hunter"],
+      "races": null,
+      "coords": [58.659, 40.449],
+      "zone": "teldrassil",
+      "tips": [],
+      "quests": [
+        {
+          "id": 3117,
+          "name": "Etched Sigil"
+        }
+      ],
+      "npc": "Ayanna Everstride",
+      "mobs": []
+    },
+    {
+      "id": "shadowglen_022",
+      "type": "loot",
+      "description": "Loot the Moonpetal Lilies on the ground",
+      "classes": null,
+      "races": null,
+      "coords": [57.95, 38.2],
+      "zone": "teldrassil",
+      "tips": [],
+      "quests": [
+        {
+          "id": 3521,
+          "name": "Iverron's Antidote"
+        }
+      ],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "shadowglen_023",
+      "type": "kill",
+      "description": "Kill Webwood Spiders. Loot them for their Ichor and Venom Sacs",
+      "classes": null,
+      "races": null,
+      "coords": [56.8, 31.7],
+      "zone": "teldrassil",
+      "tips": [],
+      "quests": [
+        {
+          "id": 3521,
+          "name": "Iverron's Antidote"
+        },
+        {
+          "id": 916,
+          "name": "Webwood Venom"
+        }
+      ],
+      "npc": null,
+      "mobs": ["Webwood Spider"]
+    },
+    {
+      "id": "shadowglen_024",
+      "type": "kill",
+      "description": "Kill Grell and Grellkin. Loot them for their Mushrooms and Fel Moss",
+      "classes": null,
+      "races": null,
+      "coords": [55.0, 43.7],
+      "zone": "teldrassil",
+      "tips": [],
+      "quests": [
+        {
+          "id": 3521,
+          "name": "Iverron's Antidote"
+        },
+        {
+          "id": 459,
+          "name": "The Woodland Protector"
+        }
+      ],
+      "npc": null,
+      "mobs": ["Grell", "Grellkin"]
+    },
+    {
+      "id": "shadowglen_025",
+      "type": "quest_turnin",
+      "description": "Talk to Tarindrella and turn in The Woodland Protector",
+      "classes": null,
+      "races": null,
+      "coords": [57.8, 45.1],
+      "zone": "teldrassil",
+      "tips": [],
+      "quests": [
+        {
+          "id": 459,
+          "name": "The Woodland Protector"
+        }
+      ],
+      "npc": "Tarindrella",
+      "mobs": []
+    },
+    {
+      "id": "shadowglen_026",
+      "type": "quest_turnin",
+      "description": "Talk to Dirania Silvershine, turn in Iverron's Antidote, and accept Iverron's Antidote",
+      "classes": null,
+      "races": null,
+      "coords": [60.899, 41.961],
+      "zone": "teldrassil",
+      "tips": [],
+      "quests": [
+        {
+          "id": 3521,
+          "name": "Iverron's Antidote"
+        },
+        {
+          "id": 3522,
+          "name": "Iverron's Antidote"
+        }
+      ],
+      "npc": "Dirania Silvershine",
+      "mobs": []
+    },
+    {
+      "id": "shadowglen_027",
+      "type": "info",
+      "description": "Talk to Keina. Vendor trash",
+      "classes": ["!Priest", "!Hunter"],
+      "races": null,
+      "coords": [59.306, 41.091],
+      "zone": "teldrassil",
+      "tips": [],
+      "quests": [],
+      "npc": "Keina",
+      "mobs": []
+    },
+    {
+      "id": "shadowglen_028",
+      "type": "info",
+      "description": "Talk to Keina. Buy 3 or 4 stacks of Rough Arrows",
+      "classes": ["Hunter"],
+      "races": null,
+      "coords": [59.306, 41.091],
+      "zone": "teldrassil",
+      "tips": [],
+      "quests": [],
+      "npc": "Keina",
+      "mobs": []
+    },
+    {
+      "id": "shadowglen_029",
+      "type": "info",
+      "description": "Talk to Alyissia and train your class spells",
+      "classes": ["Warrior"],
+      "races": null,
+      "coords": [59.637, 38.442],
+      "zone": "teldrassil",
+      "tips": [],
+      "quests": [],
+      "npc": "Alyissia",
+      "mobs": []
+    },
+    {
+      "id": "shadowglen_030",
+      "type": "info",
+      "description": "Talk to Janna Brightmoon upstairs. Vendor trash",
+      "classes": ["Priest"],
+      "races": null,
+      "coords": [59.456, 41.05],
+      "zone": "teldrassil",
+      "tips": [],
+      "quests": [],
+      "npc": "Janna Brightmoon",
+      "mobs": []
+    },
+    {
+      "id": "shadowglen_031",
+      "type": "quest_turnin",
+      "description": "Talk to Shanda upstairs, turn in Hallowed Sigil, and train your class spells",
+      "classes": ["Priest"],
+      "races": null,
+      "coords": [59.174, 40.442],
+      "zone": "teldrassil",
+      "tips": [],
+      "quests": [
+        {
+          "id": 3119,
+          "name": "Hallowed Sigil"
+        }
+      ],
+      "npc": "Shanda",
+      "mobs": []
+    },
+    {
+      "id": "shadowglen_032",
+      "type": "quest_turnin",
+      "description": "Talk to Gilshalan Windwalker, turn in Webwood Venom, and accept Webwood Egg",
+      "classes": null,
+      "races": null,
+      "coords": [57.807, 41.653],
+      "zone": "teldrassil",
+      "tips": [],
+      "quests": [
+        {
+          "id": 916,
+          "name": "Webwood Venom"
+        },
+        {
+          "id": 917,
+          "name": "Webwood Egg"
+        }
+      ],
+      "npc": "Gilshalan Windwalker",
+      "mobs": []
+    },
+    {
+      "id": "shadowglen_033",
+      "type": "quest_turnin",
+      "description": "Talk to Mardant Strongoak, turn in Verdant Sigil, and train Moonfire",
+      "classes": ["Druid"],
+      "races": null,
+      "coords": [58.626, 40.287],
+      "zone": "teldrassil",
+      "tips": [],
+      "quests": [
+        {
+          "id": 3120,
+          "name": "Verdant Sigil"
+        }
+      ],
+      "npc": "Mardant Strongoak",
+      "mobs": []
+    },
+    {
+      "id": "shadowglen_034",
+      "type": "quest_turnin",
+      "description": "Talk to Iverron and turn in Iverron's Antidote",
+      "classes": null,
+      "races": null,
+      "coords": [54.593, 32.992],
+      "zone": "teldrassil",
+      "tips": [],
+      "quests": [
+        {
+          "id": 3522,
+          "name": "Iverron's Antidote"
+        }
+      ],
+      "npc": "Iverron",
+      "mobs": []
+    },
+    {
+      "id": "shadowglen_035",
+      "type": "travel",
+      "description": "Enter the Shadowthread Cave",
+      "classes": null,
+      "races": null,
+      "coords": [56.73, 31.17],
+      "zone": "teldrassil",
+      "tips": [],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "shadowglen_036",
+      "type": "loot",
+      "description": "Loot a Webwood Egg on the ground at the back of the Cave",
+      "classes": null,
+      "races": null,
+      "coords": [57.0, 26.4],
+      "zone": "teldrassil",
+      "tips": [],
+      "quests": [
+        {
+          "id": 917,
+          "name": "Webwood Egg"
+        }
+      ],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "shadowglen_037",
+      "type": "quest_turnin",
+      "description": "Talk to Gilshalan Windwalker, turn in Webwood Egg, and accept Tenaron's Summons",
+      "classes": null,
+      "races": null,
+      "coords": [57.807, 41.653],
+      "zone": "teldrassil",
+      "tips": [],
+      "quests": [
+        {
+          "id": 917,
+          "name": "Webwood Egg"
+        },
+        {
+          "id": 920,
+          "name": "Tenaron's Summons"
+        }
+      ],
+      "npc": "Gilshalan Windwalker",
+      "mobs": []
+    },
+    {
+      "id": "shadowglen_038",
+      "type": "quest_turnin",
+      "description": "Talk to Tenaron Stormgrip, turn in Tenaron's Summons, and accept Crown of the Earth",
+      "classes": null,
+      "races": null,
+      "coords": [59.062, 39.448],
+      "zone": "teldrassil",
+      "tips": [],
+      "quests": [
+        {
+          "id": 920,
+          "name": "Tenaron's Summons"
+        },
+        {
+          "id": 921,
+          "name": "Crown of the Earth"
+        }
+      ],
+      "npc": "Tenaron Stormgrip",
+      "mobs": []
+    },
+    {
+      "id": "shadowglen_039",
+      "type": "loot",
+      "description": "Use the Crystal Phial at the Moonwell",
+      "classes": null,
+      "races": null,
+      "coords": [59.9, 33.0],
+      "zone": "teldrassil",
+      "tips": [],
+      "quests": [
+        {
+          "id": 921,
+          "name": "Crown of the Earth"
+        }
+      ],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "shadowglen_040",
+      "type": "kill",
+      "description": "Kill Mangy Nightsabers and Thistle Boars",
+      "classes": ["Hunter"],
+      "races": null,
+      "coords": [59.8, 34.1],
+      "zone": "teldrassil",
+      "tips": [],
+      "quests": [
+        {
+          "id": 457,
+          "name": "The Balance of Nature"
+        }
+      ],
+      "npc": null,
+      "mobs": ["Mangy Nightsaber", "Thistle Boar"]
+    },
+    {
+      "id": "shadowglen_041",
+      "type": "quest_turnin",
+      "description": "Talk to Conservator Ilthalaine and turn in The Balance of Nature",
+      "classes": ["Hunter"],
+      "races": null,
+      "coords": [58.6, 44.3],
+      "zone": "teldrassil",
+      "tips": [],
+      "quests": [
+        {
+          "id": 457,
+          "name": "The Balance of Nature"
+        }
+      ],
+      "npc": "Conservator Ilthalaine",
+      "mobs": []
+    },
+    {
+      "id": "shadowglen_042",
+      "type": "quest_accept",
+      "description": "Talk to Shanda and accept In Favor of Elune",
+      "classes": ["Priest"],
+      "races": null,
+      "coords": [59.2, 40.5],
+      "zone": "teldrassil",
+      "tips": [],
+      "quests": [
+        {
+          "id": 5622,
+          "name": "In Favor of Elune"
+        }
+      ],
+      "npc": "Shanda",
+      "mobs": []
+    },
+    {
+      "id": "shadowglen_043",
+      "type": "quest_turnin",
+      "description": "Talk to Tenaron Stormgrip, turn in Crown of the Earth, and accept Crown of the Earth",
+      "classes": null,
+      "races": null,
+      "coords": [59.062, 39.448],
+      "zone": "teldrassil",
+      "tips": [],
+      "quests": [
+        {
+          "id": 921,
+          "name": "Crown of the Earth"
+        },
+        {
+          "id": 928,
+          "name": "Crown of the Earth"
+        }
+      ],
+      "npc": "Tenaron Stormgrip",
+      "mobs": []
+    },
+    {
+      "id": "shadowglen_044",
+      "type": "quest_accept",
+      "description": "Talk to Porthannius and accept Dolanaar Delivery",
+      "classes": null,
+      "races": null,
+      "coords": [61.159, 47.644],
+      "zone": "teldrassil",
+      "tips": [],
+      "quests": [
+        {
+          "id": 2159,
+          "name": "Dolanaar Delivery"
+        }
+      ],
+      "npc": "Porthannius",
+      "mobs": []
+    }
+  ]
+}

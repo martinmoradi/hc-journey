@@ -1,0 +1,1819 @@
+{
+  "zone": "Desolace",
+  "levelRange": "36-37",
+  "faction": "Alliance",
+  "name": "36-37_desolace_1",
+  "next": "37-38_stranglethorn_vale_2",
+  "steps": [
+    {
+      "id": "desolace_001",
+      "type": "info",
+      "description": "Talk to Bailey Stonemantle and withdraw Elixir of Water Breathing from your bank (if you have one)",
+      "classes": ["!Warlock"],
+      "races": null,
+      "coords": [35.9, 60.17],
+      "zone": "ironforge",
+      "tips": [],
+      "quests": [],
+      "npc": "Bailey Stonemantle",
+      "mobs": []
+    },
+    {
+      "id": "desolace_002",
+      "type": "info",
+      "description": "Talk to an Ironforge Auctioneer. Buy a Elixir of Water Breathing from the Auction House",
+      "classes": ["!Warlock"],
+      "races": null,
+      "coords": [23.8, 71.8],
+      "zone": "ironforge",
+      "tips": [],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "desolace_003",
+      "type": "travel",
+      "description": "Teleport to Darnassus",
+      "classes": ["Mage"],
+      "races": null,
+      "coords": [55.506, 47.746],
+      "zone": "ironforge",
+      "tips": [],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "desolace_004",
+      "type": "fly",
+      "description": "Talk to Gryth and fly to Wetlands",
+      "classes": ["!Mage"],
+      "races": null,
+      "coords": [55.506, 47.746],
+      "zone": "ironforge",
+      "tips": [],
+      "quests": [],
+      "npc": "Gryth Thurden",
+      "mobs": []
+    },
+    {
+      "id": "desolace_005",
+      "type": "travel",
+      "description": "Travel to the Menethil Harbor docks. Take the boat to Darkshore. Level your First Aid while waiting for the boat to Darkshore",
+      "classes": ["!Mage"],
+      "races": null,
+      "coords": [4.61, 57.26],
+      "zone": "wetlands",
+      "tips": [
+        {
+          "type": "warning",
+          "class": null,
+          "text": "Level your First Aid while waiting for the boat to Darkshore"
+        }
+      ],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "desolace_006",
+      "type": "fly",
+      "description": "Talk to Caylais Moonfeather and fly to Teldrassil",
+      "classes": ["!Mage"],
+      "races": null,
+      "coords": [36.34, 45.58],
+      "zone": "darkshore",
+      "tips": [],
+      "quests": [],
+      "npc": "Caylais Moonfeather",
+      "mobs": []
+    },
+    {
+      "id": "desolace_007",
+      "type": "travel",
+      "description": "Take the purple portal into Darnassus",
+      "classes": ["!Mage"],
+      "races": null,
+      "coords": [55.889, 89.456],
+      "zone": "teldrassil",
+      "tips": [],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "desolace_008",
+      "type": "quest_turnin",
+      "description": "Talk to Thyn'tel Bladeweaver and turn in Answered Questions",
+      "classes": null,
+      "races": null,
+      "coords": [61.777, 39.18],
+      "zone": "darnassus",
+      "tips": [],
+      "quests": [
+        {
+          "id": 1044,
+          "name": "Answered Questions"
+        }
+      ],
+      "npc": "Thyn'tel Bladeweaver",
+      "mobs": []
+    },
+    {
+      "id": "desolace_009",
+      "type": "travel",
+      "description": "Travel through the purple portal to Rut'theran Village",
+      "classes": ["Mage"],
+      "races": null,
+      "coords": [29.466, 41.405],
+      "zone": "darnassus",
+      "tips": [],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "desolace_010",
+      "type": "fly",
+      "description": "Talk to Vesprystus and fly to Desolace",
+      "classes": ["Mage"],
+      "races": null,
+      "coords": [58.39, 94.01],
+      "zone": "teldrassil",
+      "tips": [],
+      "quests": [],
+      "npc": "Vesprystus",
+      "mobs": []
+    },
+    {
+      "id": "desolace_011",
+      "type": "travel",
+      "description": "Travel through the purple portal to Rut'theran Village",
+      "classes": ["!Mage"],
+      "races": null,
+      "coords": [30.0, 41.43],
+      "zone": "darnassus",
+      "tips": [],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "desolace_012",
+      "type": "fly",
+      "description": "Talk to Vesprystus and fly to Desolace",
+      "classes": ["!Mage"],
+      "races": null,
+      "coords": [58.39, 94.01],
+      "zone": "teldrassil",
+      "tips": [],
+      "quests": [],
+      "npc": "Vesprystus",
+      "mobs": []
+    },
+    {
+      "id": "desolace_013",
+      "type": "fly",
+      "description": "Talk to Caylais Moonfeather and fly to Desolace",
+      "classes": null,
+      "races": null,
+      "coords": [36.336, 45.574],
+      "zone": "darkshore",
+      "tips": [],
+      "quests": [],
+      "npc": "Caylais Moonfeather",
+      "mobs": []
+    },
+    {
+      "id": "desolace_014",
+      "type": "info",
+      "description": "Talk to Innkeeper Lyshaerya. Set your Hearthstone to Nijel's Point",
+      "classes": null,
+      "races": null,
+      "coords": [66.275, 6.554],
+      "zone": "desolace",
+      "tips": [],
+      "quests": [],
+      "npc": "Innkeeper Lyshaerya",
+      "mobs": []
+    },
+    {
+      "id": "desolace_015",
+      "type": "quest_turnin",
+      "description": "Talk to Kreldig Ungor, turn in Reclaimers' Business in Desolace, and accept Reagents for Reclaimers Inc. and The Karnitol Shipwreck",
+      "classes": null,
+      "races": null,
+      "coords": [66.201, 9.626],
+      "zone": "desolace",
+      "tips": [],
+      "quests": [
+        {
+          "id": 1453,
+          "name": "Reclaimers' Business in Desolace"
+        },
+        {
+          "id": 1458,
+          "name": "Reagents for Reclaimers Inc."
+        },
+        {
+          "id": 1454,
+          "name": "The Karnitol Shipwreck"
+        }
+      ],
+      "npc": "Kreldig Ungor",
+      "mobs": []
+    },
+    {
+      "id": "desolace_016",
+      "type": "quest_accept",
+      "description": "Talk to Corporal Melkins and Captain Pentigast and accept Centaur Bounty and Strange Alliance",
+      "classes": null,
+      "races": null,
+      "coords": [66.665, 10.933],
+      "zone": "desolace",
+      "tips": [],
+      "quests": [
+        {
+          "id": 1387,
+          "name": "Centaur Bounty"
+        },
+        {
+          "id": 1382,
+          "name": "Strange Alliance"
+        }
+      ],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "desolace_017",
+      "type": "quest_accept",
+      "description": "Talk to Vahlarriel Demonslayer and accept Vahlarriel's Search",
+      "classes": null,
+      "races": null,
+      "coords": [66.44, 11.81],
+      "zone": "desolace",
+      "tips": [],
+      "quests": [
+        {
+          "id": 1437,
+          "name": "Vahlarriel's Search"
+        }
+      ],
+      "npc": "Vahlarriel Demonslayer",
+      "mobs": []
+    },
+    {
+      "id": "desolace_018",
+      "type": "kill",
+      "description": "Kill Hatefury Satyrs. Loot them for their Claws and Horns",
+      "classes": null,
+      "races": null,
+      "coords": [72.51, 17.93],
+      "zone": "desolace",
+      "tips": [],
+      "quests": [
+        {
+          "id": 1458,
+          "name": "Reagents for Reclaimers Inc."
+        }
+      ],
+      "npc": null,
+      "mobs": [
+        "Hatefury Trickster",
+        "Hatefury Shadowstalker",
+        "Hatefury Hellcaller",
+        "Hatefury Betrayer"
+      ]
+    },
+    {
+      "id": "desolace_019",
+      "type": "quest_turnin",
+      "description": "Talk to Kreldig Ungor, turn in Reagents for Reclaimers Inc., and accept Reagents for Reclaimers Inc.",
+      "classes": null,
+      "races": null,
+      "coords": [66.201, 9.626],
+      "zone": "desolace",
+      "tips": [],
+      "quests": [
+        {
+          "id": 1458,
+          "name": "Reagents for Reclaimers Inc."
+        },
+        {
+          "id": 1459,
+          "name": "Reagents for Reclaimers Inc."
+        }
+      ],
+      "npc": "Kreldig Ungor",
+      "mobs": []
+    },
+    {
+      "id": "desolace_020",
+      "type": "quest_turnin",
+      "description": "Click the Malem Chest on the ground and turn in Vahlarriel's Search. Accept Vahlarriel's Search",
+      "classes": null,
+      "races": null,
+      "coords": [56.522, 17.844],
+      "zone": "desolace",
+      "tips": [],
+      "quests": [
+        {
+          "id": 1437,
+          "name": "Vahlarriel's Search"
+        },
+        {
+          "id": 1465,
+          "name": "Vahlarriel's Search"
+        }
+      ],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "desolace_021",
+      "type": "quest_accept",
+      "description": "Talk to Azore Aldamort and accept Sceptre of Light",
+      "classes": null,
+      "races": null,
+      "coords": [38.884, 27.162],
+      "zone": "desolace",
+      "tips": [],
+      "quests": [
+        {
+          "id": 5741,
+          "name": "Sceptre of Light"
+        }
+      ],
+      "npc": "Azore Aldamort",
+      "mobs": []
+    },
+    {
+      "id": "desolace_022",
+      "type": "info",
+      "description": "Click Karnitol's Chest on the ground and turn in The Karnitol Shipwreck. Accept The Karnitol Shipwreck",
+      "classes": null,
+      "races": null,
+      "coords": [36.111, 30.451],
+      "zone": "desolace",
+      "tips": [],
+      "quests": [
+        {
+          "id": 1454,
+          "name": "The Karnitol Shipwreck"
+        },
+        {
+          "id": 1455,
+          "name": "The Karnitol Shipwreck"
+        }
+      ],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "desolace_023",
+      "type": "quest_accept",
+      "description": "Click Rackmore's Log on the small barrel and accept Claim Rackmore's Treasure!",
+      "classes": null,
+      "races": null,
+      "coords": [36.069, 30.407],
+      "zone": "desolace",
+      "tips": [],
+      "quests": [
+        {
+          "id": 6161,
+          "name": "Claim Rackmore's Treasure!"
+        }
+      ],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "desolace_024",
+      "type": "info",
+      "description": "Use your Elixir of Water Breathing if you have one",
+      "classes": ["!Warlock"],
+      "races": null,
+      "coords": null,
+      "zone": "",
+      "tips": [],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "desolace_025",
+      "type": "kill",
+      "description": "Kill Drysnap Pincers and Drysnap Crawlers. Loot them for Rackmore's Silver Key",
+      "classes": ["!Warlock"],
+      "races": null,
+      "coords": [33.2, 31.6],
+      "zone": "desolace",
+      "tips": [],
+      "quests": [
+        {
+          "id": 6161,
+          "name": "Claim Rackmore's Treasure!"
+        }
+      ],
+      "npc": null,
+      "mobs": ["Drysnap Pincer", "Drysnap Crawler"]
+    },
+    {
+      "id": "desolace_026",
+      "type": "kill",
+      "description": "Kill Drysnap Pincers and Drysnap Crawlers. Loot them for Rackmore's Silver Key",
+      "classes": ["Warlock"],
+      "races": null,
+      "coords": [33.2, 31.6],
+      "zone": "desolace",
+      "tips": [
+        {
+          "type": "warning",
+          "class": null,
+          "text": "Buff yourself with Underwater Breathing"
+        }
+      ],
+      "quests": [
+        {
+          "id": 6161,
+          "name": "Claim Rackmore's Treasure!"
+        }
+      ],
+      "npc": null,
+      "mobs": ["Drysnap Pincer", "Drysnap Crawler"]
+    },
+    {
+      "id": "desolace_027",
+      "type": "travel",
+      "description": "Travel to Smeed Scrabblescrew near the Kodo Graveyard",
+      "classes": null,
+      "races": null,
+      "coords": [60.863, 61.859],
+      "zone": "desolace",
+      "tips": [],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "desolace_028",
+      "type": "quest_accept",
+      "description": "Talk to Smeed Scrabblescrew and accept Kodo Roundup",
+      "classes": null,
+      "races": null,
+      "coords": [60.863, 61.859],
+      "zone": "desolace",
+      "tips": [],
+      "quests": [
+        {
+          "id": 5561,
+          "name": "Kodo Roundup"
+        }
+      ],
+      "npc": "Smeed Scrabblescrew",
+      "mobs": []
+    },
+    {
+      "id": "desolace_029",
+      "type": "travel",
+      "description": "Travel to the Kodo Graveyard",
+      "classes": null,
+      "races": null,
+      "coords": [54.95, 63.08],
+      "zone": "desolace",
+      "tips": [],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "desolace_030",
+      "type": "info",
+      "description": "Use the Kodo Kombobulator on Ancient Kodos and Dying Kodos. Take them back to Smeed. Talk to the Tamed Kodo once you've taken it back to Smeed",
+      "classes": null,
+      "races": null,
+      "coords": [51.668, 58.244],
+      "zone": "desolace",
+      "tips": [
+        {
+          "type": "warning",
+          "class": null,
+          "text": "You may only take 1 Tamed Kodo back at a time"
+        }
+      ],
+      "quests": [
+        {
+          "id": 5561,
+          "name": "Kodo Roundup"
+        }
+      ],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "desolace_031",
+      "type": "quest_turnin",
+      "description": "Talk to Smeed Scrabblescrew and turn in Kodo Roundup",
+      "classes": null,
+      "races": null,
+      "coords": [60.863, 61.859],
+      "zone": "desolace",
+      "tips": [],
+      "quests": [
+        {
+          "id": 5561,
+          "name": "Kodo Roundup"
+        }
+      ],
+      "npc": "Smeed Scrabblescrew",
+      "mobs": []
+    },
+    {
+      "id": "desolace_032",
+      "type": "kill",
+      "description": "Kill Magram Centaurs. Loot them for their Ears. Continue killing Magram Centaurs until you've reached Friendly reputation standing with Gelkis Clan Centaur",
+      "classes": null,
+      "races": null,
+      "coords": [69.4, 73.4],
+      "zone": "desolace",
+      "tips": [],
+      "quests": [
+        {
+          "id": 1387,
+          "name": "Centaur Bounty"
+        },
+        {
+          "id": 1382,
+          "name": "Strange Alliance"
+        }
+      ],
+      "npc": null,
+      "mobs": [
+        "Magram Marauder",
+        "Magram Mauler",
+        "Magram Outrunner",
+        "Magram Pack Runner",
+        "Magram Scout",
+        "Magram Stormer",
+        "Magram Windchaser",
+        "Magram Wrangler"
+      ]
+    },
+    {
+      "id": "desolace_033",
+      "type": "quest_turnin",
+      "description": "Talk to Uthek the Wise, turn in Strange Alliance, and accept Raid on the Kolkar",
+      "classes": null,
+      "races": null,
+      "coords": [36.234, 79.245],
+      "zone": "desolace",
+      "tips": [],
+      "quests": [
+        {
+          "id": 1382,
+          "name": "Strange Alliance"
+        },
+        {
+          "id": 1384,
+          "name": "Raid on the Kolkar"
+        }
+      ],
+      "npc": "Uthek the Wise",
+      "mobs": []
+    },
+    {
+      "id": "desolace_034",
+      "type": "info",
+      "description": "Hearth to Nijel's Point. Buy food/water if needed",
+      "classes": ["!Warrior", "!Rogue"],
+      "races": null,
+      "coords": null,
+      "zone": "",
+      "tips": [],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "desolace_035",
+      "type": "info",
+      "description": "Hearth to Nijel's Point. Buy food if needed",
+      "classes": ["Warrior", "Rogue"],
+      "races": null,
+      "coords": null,
+      "zone": "",
+      "tips": [],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "desolace_036",
+      "type": "quest_turnin",
+      "description": "Talk to Kreldig Ungor, turn in The Karnitol Shipwreck, and accept The Karnitol Shipwreck",
+      "classes": null,
+      "races": null,
+      "coords": [66.201, 9.626],
+      "zone": "desolace",
+      "tips": [],
+      "quests": [
+        {
+          "id": 1455,
+          "name": "The Karnitol Shipwreck"
+        },
+        {
+          "id": 1456,
+          "name": "The Karnitol Shipwreck"
+        }
+      ],
+      "npc": "Kreldig Ungor",
+      "mobs": []
+    },
+    {
+      "id": "desolace_037",
+      "type": "quest_turnin",
+      "description": "Talk to Kreldig Ungor and turn in Reagents for Reclaimers Inc.",
+      "classes": null,
+      "races": null,
+      "coords": [66.201, 9.626],
+      "zone": "desolace",
+      "tips": [],
+      "quests": [
+        {
+          "id": 1459,
+          "name": "Reagents for Reclaimers Inc."
+        }
+      ],
+      "npc": "Kreldig Ungor",
+      "mobs": []
+    },
+    {
+      "id": "desolace_038",
+      "type": "quest_turnin",
+      "description": "Talk to Corporal Melkins and turn in Centaur Bounty",
+      "classes": null,
+      "races": null,
+      "coords": [66.743, 10.872],
+      "zone": "desolace",
+      "tips": [],
+      "quests": [
+        {
+          "id": 1387,
+          "name": "Centaur Bounty"
+        }
+      ],
+      "npc": "Corporal Melkins",
+      "mobs": []
+    },
+    {
+      "id": "desolace_039",
+      "type": "quest_turnin",
+      "description": "Talk to Vahlarriel Demonslayer, turn in Vahlarriel's Search, and accept Vahlarriel's Search",
+      "classes": null,
+      "races": null,
+      "coords": [66.44, 11.81],
+      "zone": "desolace",
+      "tips": [],
+      "quests": [
+        {
+          "id": 1465,
+          "name": "Vahlarriel's Search"
+        },
+        {
+          "id": 1438,
+          "name": "Vahlarriel's Search"
+        }
+      ],
+      "npc": "Vahlarriel Demonslayer",
+      "mobs": []
+    },
+    {
+      "id": "desolace_040",
+      "type": "kill",
+      "description": "Kill the Kolkar. Loot them for their Charms",
+      "classes": null,
+      "races": null,
+      "coords": [71.6, 45.6],
+      "zone": "desolace",
+      "tips": [],
+      "quests": [
+        {
+          "id": 1384,
+          "name": "Raid on the Kolkar"
+        }
+      ],
+      "npc": null,
+      "mobs": [
+        "Kolkar Centaur",
+        "Kolkar Scout",
+        "Kolkar Windchaser",
+        "Kolkar Mauler",
+        "Kolkar Destroyer",
+        "Kolkar Battle Lord",
+        "Kolkar Waylayer",
+        "Kolkar Ambusher"
+      ]
+    },
+    {
+      "id": "desolace_041",
+      "type": "quest_accept",
+      "description": "Talk to Bibbly F'utzbuckle and accept Bone Collector",
+      "classes": null,
+      "races": null,
+      "coords": [62.314, 38.965],
+      "zone": "desolace",
+      "tips": [],
+      "quests": [
+        {
+          "id": 5501,
+          "name": "Bone Collector"
+        }
+      ],
+      "npc": "Bibbly F'utzbuckle",
+      "mobs": []
+    },
+    {
+      "id": "desolace_042",
+      "type": "travel",
+      "description": "Travel to Thunder Axe Fortress",
+      "classes": null,
+      "races": null,
+      "coords": [55.75, 28.88],
+      "zone": "desolace",
+      "tips": [],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "desolace_043",
+      "type": "kill",
+      "description": "Ascend the Watchtower. Kill the Burning Blade Seer atop the Tower. Loot it for the Sceptre",
+      "classes": null,
+      "races": null,
+      "coords": [55.17, 30.149],
+      "zone": "desolace",
+      "tips": [
+        {
+          "type": "warning",
+          "class": null,
+          "text": "There may only ever be 1 Burning Blade Seer. You may need to wait for a respawn"
+        }
+      ],
+      "quests": [
+        {
+          "id": 5741,
+          "name": "Sceptre of Light"
+        }
+      ],
+      "npc": null,
+      "mobs": ["Burning Blade Seer"]
+    },
+    {
+      "id": "desolace_044",
+      "type": "travel",
+      "description": "Enter the main Fortress",
+      "classes": null,
+      "races": null,
+      "coords": [55.31, 27.45],
+      "zone": "desolace",
+      "tips": [],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "desolace_045",
+      "type": "quest_turnin",
+      "description": "Talk to Dalinda Malem, turn in Vahlarriel's Search, and accept Search for Tyranis",
+      "classes": null,
+      "races": null,
+      "coords": [54.859, 26.125],
+      "zone": "desolace",
+      "tips": [],
+      "quests": [
+        {
+          "id": 1438,
+          "name": "Vahlarriel's Search"
+        },
+        {
+          "id": 1439,
+          "name": "Search for Tyranis"
+        }
+      ],
+      "npc": "Dalinda Malem",
+      "mobs": []
+    },
+    {
+      "id": "desolace_046",
+      "type": "travel",
+      "description": "Enter the secondary Fortress",
+      "classes": null,
+      "races": null,
+      "coords": [53.32, 29.18],
+      "zone": "desolace",
+      "tips": [],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "desolace_047",
+      "type": "kill",
+      "description": "Kill Tyranis Malem. Loot him for his Pendant",
+      "classes": null,
+      "races": null,
+      "coords": [53.008, 29.078],
+      "zone": "desolace",
+      "tips": [],
+      "quests": [
+        {
+          "id": 1439,
+          "name": "Search for Tyranis"
+        }
+      ],
+      "npc": null,
+      "mobs": ["Tyranis Malem"]
+    },
+    {
+      "id": "desolace_048",
+      "type": "travel",
+      "description": "Travel back towards Dalinda Malem",
+      "classes": null,
+      "races": null,
+      "coords": [55.31, 27.45],
+      "zone": "desolace",
+      "tips": [],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "desolace_049",
+      "type": "quest_turnin",
+      "description": "Talk to Dalinda Malem, turn in Search for Tyranis, and accept Return to Vahlarriel. This will start an escort quest",
+      "classes": null,
+      "races": null,
+      "coords": [54.859, 26.125],
+      "zone": "desolace",
+      "tips": [
+        {
+          "type": "warning",
+          "class": null,
+          "text": "This will start an escort quest"
+        }
+      ],
+      "quests": [
+        {
+          "id": 1439,
+          "name": "Search for Tyranis"
+        },
+        {
+          "id": 1440,
+          "name": "Return to Vahlarriel"
+        }
+      ],
+      "npc": "Dalinda Malem",
+      "mobs": []
+    },
+    {
+      "id": "desolace_050",
+      "type": "info",
+      "description": "Safely exit Thunder Axe Fortress with Dalinda Malem",
+      "classes": null,
+      "races": null,
+      "coords": [58.26, 30.94],
+      "zone": "desolace",
+      "tips": [],
+      "quests": [
+        {
+          "id": 1440,
+          "name": "Return to Vahlarriel"
+        }
+      ],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "desolace_051",
+      "type": "quest_turnin",
+      "description": "Talk to Azore Aldamort, turn in Sceptre of Light, and accept Book of the Ancients",
+      "classes": null,
+      "races": null,
+      "coords": [38.884, 27.162],
+      "zone": "desolace",
+      "tips": [],
+      "quests": [
+        {
+          "id": 5741,
+          "name": "Sceptre of Light"
+        },
+        {
+          "id": 6027,
+          "name": "Book of the Ancients"
+        }
+      ],
+      "npc": "Azore Aldamort",
+      "mobs": []
+    },
+    {
+      "id": "desolace_052",
+      "type": "travel",
+      "description": "Swim to Ranazjar Isle",
+      "classes": null,
+      "races": null,
+      "coords": [30.12, 10.42],
+      "zone": "desolace",
+      "tips": [],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "desolace_053",
+      "type": "kill",
+      "description": "Click the Serpent Statue to summon Lord Kragaru. Kill Lord Kragaru. Loot him for the Book of the Ancients",
+      "classes": null,
+      "races": null,
+      "coords": [28.25, 6.67],
+      "zone": "desolace",
+      "tips": [],
+      "quests": [
+        {
+          "id": 6027,
+          "name": "Book of the Ancients"
+        }
+      ],
+      "npc": null,
+      "mobs": ["Lord Kragaru"]
+    },
+    {
+      "id": "desolace_054",
+      "type": "kill",
+      "description": "Kill Slitherblade Tidehunters and Slitherblade Sea Witches. Loot them for Karnitol's Satchel",
+      "classes": null,
+      "races": null,
+      "coords": [30.8, 8.0],
+      "zone": "desolace",
+      "tips": [
+        {
+          "type": "warning",
+          "class": null,
+          "text": "You may also find Slitherblade Tidehunters and Slitherblade Sea Witches in the water"
+        }
+      ],
+      "quests": [
+        {
+          "id": 1456,
+          "name": "The Karnitol Shipwreck"
+        }
+      ],
+      "npc": null,
+      "mobs": ["Slitherblade Tidehunter", "Slitherblade Sea Witch"]
+    },
+    {
+      "id": "desolace_055",
+      "type": "kill",
+      "description": "Kill the Slitherblades. Loot them for Rackmore's Golden Key",
+      "classes": null,
+      "races": null,
+      "coords": [30.8, 8.0],
+      "zone": "desolace",
+      "tips": [],
+      "quests": [
+        {
+          "id": 6161,
+          "name": "Claim Rackmore's Treasure!"
+        }
+      ],
+      "npc": null,
+      "mobs": [
+        "Slitherblade Sea Witch",
+        "Slitherblade Tidehunter",
+        "Slitherblade Naga",
+        "Slitherblade Sorceress",
+        "Slitherblade Myrmidon",
+        "Slitherblade Oracle",
+        "Slitherblade Razortail"
+      ]
+    },
+    {
+      "id": "desolace_056",
+      "type": "quest_turnin",
+      "description": "Click Rackmore's Chest on the ground and turn in Claim Rackmore's Treasure!",
+      "classes": null,
+      "races": null,
+      "coords": [30.005, 8.706],
+      "zone": "desolace",
+      "tips": [],
+      "quests": [
+        {
+          "id": 6161,
+          "name": "Claim Rackmore's Treasure!"
+        }
+      ],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "desolace_057",
+      "type": "quest_turnin",
+      "description": "Talk to Azore Aldamort and turn in Book of the Ancients",
+      "classes": null,
+      "races": null,
+      "coords": [38.884, 27.162],
+      "zone": "desolace",
+      "tips": [],
+      "quests": [
+        {
+          "id": 6027,
+          "name": "Book of the Ancients"
+        }
+      ],
+      "npc": "Azore Aldamort",
+      "mobs": []
+    },
+    {
+      "id": "desolace_058",
+      "type": "quest_turnin",
+      "description": "Talk to Uthek the Wise, turn in Raid on the Kolkar, and accept Stealing Supplies",
+      "classes": null,
+      "races": null,
+      "coords": [36.234, 79.245],
+      "zone": "desolace",
+      "tips": [],
+      "quests": [
+        {
+          "id": 1384,
+          "name": "Raid on the Kolkar"
+        },
+        {
+          "id": 1370,
+          "name": "Stealing Supplies"
+        }
+      ],
+      "npc": "Uthek the Wise",
+      "mobs": []
+    },
+    {
+      "id": "desolace_059",
+      "type": "loot",
+      "description": "Open the Sacks of Meat. Loot them for the Crudely Dried Meats",
+      "classes": null,
+      "races": null,
+      "coords": [70.9, 75.5],
+      "zone": "desolace",
+      "tips": [],
+      "quests": [
+        {
+          "id": 1370,
+          "name": "Stealing Supplies"
+        }
+      ],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "desolace_060",
+      "type": "loot",
+      "description": "Loot Kodo Bones around the graveyard. Looting them may cause Kodo Apparitions to spawn. Kodo Apparitions do not drop Kodo Bones",
+      "classes": null,
+      "races": null,
+      "coords": [52.5, 58.56],
+      "zone": "desolace",
+      "tips": [
+        {
+          "type": "warning",
+          "class": null,
+          "text": "Looting them may cause Kodo Apparitions to spawn. Kodo Apparitions do not drop Kodo Bones"
+        }
+      ],
+      "quests": [
+        {
+          "id": 5501,
+          "name": "Bone Collector"
+        }
+      ],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "desolace_061",
+      "type": "kill",
+      "description": "Kill Aged Kodos. Loot them for their Aged Kodo Hides. You must complete this step now",
+      "classes": null,
+      "races": null,
+      "coords": [52.19, 57.5],
+      "zone": "desolace",
+      "tips": [
+        {
+          "type": "warning",
+          "class": null,
+          "text": "You must complete this step now"
+        }
+      ],
+      "quests": [
+        {
+          "id": 1459,
+          "name": "Reagents for Reclaimers Inc."
+        }
+      ],
+      "npc": null,
+      "mobs": ["Aged Kodo"]
+    },
+    {
+      "id": "desolace_062",
+      "type": "quest_turnin",
+      "description": "Talk to Bibbly F'utzbuckle and turn in Bone Collector",
+      "classes": null,
+      "races": null,
+      "coords": [62.32, 38.98],
+      "zone": "desolace",
+      "tips": [],
+      "quests": [
+        {
+          "id": 5501,
+          "name": "Bone Collector"
+        }
+      ],
+      "npc": "Bibbly F'utzbuckle",
+      "mobs": []
+    },
+    {
+      "id": "desolace_063",
+      "type": "kill",
+      "description": "Kill Scorpashi Snappers, Scorpashi Lashers and Scorpashi Venomlashs. Loot them for their Venom.",
+      "classes": null,
+      "races": null,
+      "coords": [43.6, 75.2],
+      "zone": "desolace",
+      "tips": [
+        {
+          "type": "warning",
+          "class": null,
+          "text": "You may need to kill Gritjaw Basilisks to force Scorpashi Snappers and Scorpashi Lashers to spawn"
+        },
+        {
+          "type": "warning",
+          "class": null,
+          "text": "You must complete this step now"
+        }
+      ],
+      "quests": [
+        {
+          "id": 1459,
+          "name": "Reagents for Reclaimers Inc."
+        }
+      ],
+      "npc": null,
+      "mobs": ["Scorpashi Snapper", "Scorpashi Lasher", "Scorpashi Venomlash"]
+    },
+    {
+      "id": "desolace_064",
+      "type": "quest_turnin",
+      "description": "Talk to Uthek the Wise, turn in Stealing Supplies, and accept Ongeku",
+      "classes": null,
+      "races": null,
+      "coords": [36.234, 79.245],
+      "zone": "desolace",
+      "tips": [],
+      "quests": [
+        {
+          "id": 1370,
+          "name": "Stealing Supplies"
+        },
+        {
+          "id": 1373,
+          "name": "Ongeku"
+        }
+      ],
+      "npc": "Uthek the Wise",
+      "mobs": []
+    },
+    {
+      "id": "desolace_065",
+      "type": "info",
+      "description": "Hearth to Nijel's Point. Buy food/water if needed",
+      "classes": ["!Warrior", "!Rogue", "!Warlock"],
+      "races": null,
+      "coords": null,
+      "zone": "",
+      "tips": [],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "desolace_066",
+      "type": "info",
+      "description": "Hearth to Nijel's Point. Buy food if needed",
+      "classes": ["Warrior", "Rogue"],
+      "races": null,
+      "coords": null,
+      "zone": "",
+      "tips": [],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "desolace_067",
+      "type": "quest_turnin",
+      "description": "Talk to Kreldig Ungor, turn in The Karnitol Shipwreck, and accept The Karnitol Shipwreck",
+      "classes": null,
+      "races": null,
+      "coords": [66.201, 9.626],
+      "zone": "desolace",
+      "tips": [],
+      "quests": [
+        {
+          "id": 1456,
+          "name": "The Karnitol Shipwreck"
+        },
+        {
+          "id": 1457,
+          "name": "The Karnitol Shipwreck"
+        }
+      ],
+      "npc": "Kreldig Ungor",
+      "mobs": []
+    },
+    {
+      "id": "desolace_068",
+      "type": "quest_turnin",
+      "description": "Talk to Kreldig Ungor and turn in Reagents for Reclaimers Inc.",
+      "classes": null,
+      "races": null,
+      "coords": [66.201, 9.626],
+      "zone": "desolace",
+      "tips": [],
+      "quests": [
+        {
+          "id": 1459,
+          "name": "Reagents for Reclaimers Inc."
+        }
+      ],
+      "npc": "Kreldig Ungor",
+      "mobs": []
+    },
+    {
+      "id": "desolace_069",
+      "type": "quest_turnin",
+      "description": "Talk to Vahlarriel Demonslayer and turn in Return to Vahlarriel",
+      "classes": null,
+      "races": null,
+      "coords": [66.44, 11.81],
+      "zone": "desolace",
+      "tips": [],
+      "quests": [
+        {
+          "id": 1440,
+          "name": "Return to Vahlarriel"
+        }
+      ],
+      "npc": "Vahlarriel Demonslayer",
+      "mobs": []
+    },
+    {
+      "id": "desolace_070",
+      "type": "fly",
+      "description": "Talk to Baritanas Skyriver and fly to Tanaris",
+      "classes": null,
+      "races": null,
+      "coords": [64.66, 10.54],
+      "zone": "desolace",
+      "tips": [],
+      "quests": [],
+      "npc": "Baritanas Skyriver",
+      "mobs": []
+    },
+    {
+      "id": "desolace_071",
+      "type": "info",
+      "description": "Talk to Gimblethorn and withdraw Kravel's Parts from your bank",
+      "classes": null,
+      "races": null,
+      "coords": [52.297, 28.915],
+      "zone": "tanaris",
+      "tips": [],
+      "quests": [],
+      "npc": "Gimblethorn",
+      "mobs": []
+    },
+    {
+      "id": "desolace_072",
+      "type": "info",
+      "description": "Talk to Gimblethorn and deposit Karnitol's Satchel into your bank",
+      "classes": null,
+      "races": null,
+      "coords": [52.297, 28.915],
+      "zone": "tanaris",
+      "tips": [],
+      "quests": [],
+      "npc": "Gimblethorn",
+      "mobs": []
+    },
+    {
+      "id": "desolace_073",
+      "type": "info",
+      "description": "Talk to Innkeeper Fizzgrimble. Set your Hearthstone to Gadgetzan",
+      "classes": ["Warlock"],
+      "races": null,
+      "coords": [52.51, 27.91],
+      "zone": "tanaris",
+      "tips": [],
+      "quests": [],
+      "npc": "Innkeeper Fizzgrimble",
+      "mobs": []
+    },
+    {
+      "id": "desolace_074",
+      "type": "travel",
+      "description": "Travel to The Shimmering Flats",
+      "classes": null,
+      "races": null,
+      "coords": [77.782, 77.263],
+      "zone": "thousand_needles",
+      "tips": [],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "desolace_075",
+      "type": "quest_turnin",
+      "description": "Talk to Kravel Koalbeard and turn in Parts for Kravel",
+      "classes": null,
+      "races": null,
+      "coords": [77.782, 77.263],
+      "zone": "thousand_needles",
+      "tips": [],
+      "quests": [
+        {
+          "id": 1112,
+          "name": "Parts for Kravel"
+        }
+      ],
+      "npc": "Kravel Koalbeard",
+      "mobs": []
+    },
+    {
+      "id": "desolace_076",
+      "type": "quest_accept",
+      "description": "Talk to Wizzle Brassbolts and accept Encrusted Tail Fins",
+      "classes": null,
+      "races": null,
+      "coords": [78.143, 77.12],
+      "zone": "thousand_needles",
+      "tips": [],
+      "quests": [
+        {
+          "id": 1107,
+          "name": "Encrusted Tail Fins"
+        }
+      ],
+      "npc": "Wizzle Brassbolts",
+      "mobs": []
+    },
+    {
+      "id": "desolace_077",
+      "type": "quest_accept",
+      "description": "Talk to Kravel Koalbeard and accept Delivery to the Gnomes",
+      "classes": null,
+      "races": null,
+      "coords": [77.782, 77.263],
+      "zone": "thousand_needles",
+      "tips": [],
+      "quests": [
+        {
+          "id": 1114,
+          "name": "Delivery to the Gnomes"
+        }
+      ],
+      "npc": "Kravel Koalbeard",
+      "mobs": []
+    },
+    {
+      "id": "desolace_078",
+      "type": "quest_turnin",
+      "description": "Talk to Fizzle Brassbolts and turn in Delivery to the Gnomes",
+      "classes": null,
+      "races": null,
+      "coords": [78.064, 77.126],
+      "zone": "thousand_needles",
+      "tips": [],
+      "quests": [
+        {
+          "id": 1114,
+          "name": "Delivery to the Gnomes"
+        }
+      ],
+      "npc": "Fizzle Brassbolts",
+      "mobs": []
+    },
+    {
+      "id": "desolace_079",
+      "type": "quest_accept",
+      "description": "Talk to Kravel Koalbeard and accept The Rumormonger",
+      "classes": null,
+      "races": null,
+      "coords": [77.782, 77.263],
+      "zone": "thousand_needles",
+      "tips": [],
+      "quests": [
+        {
+          "id": 1115,
+          "name": "The Rumormonger"
+        }
+      ],
+      "npc": "Kravel Koalbeard",
+      "mobs": []
+    },
+    {
+      "id": "desolace_080",
+      "type": "fly",
+      "description": "Talk to Bera Stonehammer and fly to Ratchet",
+      "classes": ["!Warlock"],
+      "races": null,
+      "coords": [51.006, 29.345],
+      "zone": "tanaris",
+      "tips": [],
+      "quests": [],
+      "npc": "Bera Stonehammer",
+      "mobs": []
+    },
+    {
+      "id": "desolace_081",
+      "type": "travel",
+      "description": "Travel to Splithoof Hold",
+      "classes": ["Warlock"],
+      "races": null,
+      "coords": [44.29, 36.39],
+      "zone": "thousand_needles",
+      "tips": [],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "desolace_082",
+      "type": "loot",
+      "description": "Open the Damaged Chest. Loot it for the Tattered Manuscript",
+      "classes": ["Warlock"],
+      "races": null,
+      "coords": [43.438, 32.691],
+      "zone": "thousand_needles",
+      "tips": [
+        {
+          "type": "warning",
+          "class": null,
+          "text": "Stick to the right side once you enter Splithoof Hold"
+        }
+      ],
+      "quests": [
+        {
+          "id": 1802,
+          "name": "Tome of the Cabal"
+        }
+      ],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "desolace_083",
+      "type": "info",
+      "description": "Hearth to Tanaris",
+      "classes": ["Warlock"],
+      "races": null,
+      "coords": null,
+      "zone": "",
+      "tips": [],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "desolace_084",
+      "type": "fly",
+      "description": "Talk to Bera Stonehammer and fly to Dustwallow",
+      "classes": ["Warlock"],
+      "races": null,
+      "coords": [51.006, 29.345],
+      "zone": "tanaris",
+      "tips": [],
+      "quests": [],
+      "npc": "Bera Stonehammer",
+      "mobs": []
+    },
+    {
+      "id": "desolace_085",
+      "type": "travel",
+      "description": "Take the boat to Menethil Harbor",
+      "classes": ["Warlock"],
+      "races": null,
+      "coords": [71.4, 56.1],
+      "zone": "dustwallow_marsh",
+      "tips": [],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "desolace_086",
+      "type": "fly",
+      "description": "Talk to Shellei and fly to Ironforge",
+      "classes": ["Warlock"],
+      "races": null,
+      "coords": [9.49, 59.693],
+      "zone": "wetlands",
+      "tips": [],
+      "quests": [],
+      "npc": "Shellei Brondir",
+      "mobs": []
+    },
+    {
+      "id": "desolace_087",
+      "type": "quest_turnin",
+      "description": "Talk to Krom Stoutarm, turn in Tome of the Cabal, and accept Tome of the Cabal",
+      "classes": ["Warlock"],
+      "races": null,
+      "coords": [74.179, 9.371],
+      "zone": "ironforge",
+      "tips": [],
+      "quests": [
+        {
+          "id": 1802,
+          "name": "Tome of the Cabal"
+        },
+        {
+          "id": 1804,
+          "name": "Tome of the Cabal"
+        }
+      ],
+      "npc": "Krom Stoutarm",
+      "mobs": []
+    },
+    {
+      "id": "desolace_088",
+      "type": "fly",
+      "description": "Talk to Gryth Thurden and fly to Wetlands",
+      "classes": ["Warlock"],
+      "races": null,
+      "coords": [55.501, 47.742],
+      "zone": "ironforge",
+      "tips": [],
+      "quests": [],
+      "npc": "Gryth Thurden",
+      "mobs": []
+    },
+    {
+      "id": "desolace_089",
+      "type": "kill",
+      "description": "Kill Dragonmaw Bonewarders and Dragonmaw Shadowwarders. Loot them for their Rods",
+      "classes": ["Warlock"],
+      "races": null,
+      "coords": [47.6, 46.6],
+      "zone": "wetlands",
+      "tips": [],
+      "quests": [
+        {
+          "id": 1804,
+          "name": "Tome of the Cabal"
+        }
+      ],
+      "npc": null,
+      "mobs": ["Dragonmaw Bonewarder", "Dragonmaw Shadowwarder"]
+    },
+    {
+      "id": "desolace_090",
+      "type": "quest_accept",
+      "description": "Click the Dragonmaw Catapult and accept Defeat Nek'rosh",
+      "classes": ["Warlock"],
+      "races": null,
+      "coords": [47.45, 47.01],
+      "zone": "wetlands",
+      "tips": [],
+      "quests": [
+        {
+          "id": 474,
+          "name": "Defeat Nek'rosh"
+        }
+      ],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "desolace_091",
+      "type": "kill",
+      "description": "Kill Chieftain Nek'rosh. Loot him for his Head. This is an easy elite quest to solo, but be careful to not aggro too many mobs",
+      "classes": ["Warlock"],
+      "races": null,
+      "coords": [53.2, 56.0],
+      "zone": "wetlands",
+      "tips": [
+        {
+          "type": "warning",
+          "class": null,
+          "text": "Chieftain Nek'rosh can be Feared"
+        },
+        {
+          "type": "warning",
+          "class": null,
+          "text": "Chieftain Nek'rosh is immune to Fire damage"
+        },
+        {
+          "type": "warning",
+          "class": null,
+          "text": "You can split pull Nek'Rosh from the mobs around him by using Rain of Fire"
+        },
+        {
+          "type": "warning",
+          "class": null,
+          "text": "This is an easy elite quest to solo, but be careful to not aggro too many mobs"
+        },
+        {
+          "type": "link",
+          "class": null,
+          "text": "Click here for video reference",
+          "url": "https://www.twitch.tv/videos/669042748?t=02h57m08s"
+        }
+      ],
+      "quests": [
+        {
+          "id": 474,
+          "name": "Defeat Nek'rosh"
+        }
+      ],
+      "npc": null,
+      "mobs": ["Chieftain Nek'rosh"]
+    },
+    {
+      "id": "desolace_092",
+      "type": "quest_turnin",
+      "description": "Talk to Captain Stoutfist and turn in Defeat Nek'rosh",
+      "classes": ["Warlock"],
+      "races": null,
+      "coords": [9.86, 57.48],
+      "zone": "wetlands",
+      "tips": [],
+      "quests": [
+        {
+          "id": 474,
+          "name": "Defeat Nek'rosh"
+        }
+      ],
+      "npc": "Captain Stoutfist",
+      "mobs": []
+    },
+    {
+      "id": "desolace_093",
+      "type": "travel",
+      "description": "Take the boat to Theramore",
+      "classes": ["Warlock"],
+      "races": null,
+      "coords": [4.79, 63.67],
+      "zone": "wetlands",
+      "tips": [],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "desolace_094",
+      "type": "fly",
+      "description": "Talk to Baldruc and fly to Ratchet",
+      "classes": ["Warlock"],
+      "races": null,
+      "coords": [67.476, 51.3],
+      "zone": "dustwallow_marsh",
+      "tips": [],
+      "quests": [],
+      "npc": "Baldruc",
+      "mobs": []
+    },
+    {
+      "id": "desolace_095",
+      "type": "quest_turnin",
+      "description": "Talk to Strahad Farsan and turn in Tome of the Cabal",
+      "classes": ["Warlock"],
+      "races": null,
+      "coords": [62.627, 35.5],
+      "zone": "the_barrens",
+      "tips": [],
+      "quests": [
+        {
+          "id": 1804,
+          "name": "Tome of the Cabal"
+        }
+      ],
+      "npc": "Strahad Farsan",
+      "mobs": []
+    },
+    {
+      "id": "desolace_096",
+      "type": "quest_accept",
+      "description": "Talk to Strahad Farsan and accept The Binding",
+      "classes": ["Warlock"],
+      "races": null,
+      "coords": [62.627, 35.5],
+      "zone": "the_barrens",
+      "tips": [],
+      "quests": [
+        {
+          "id": 1795,
+          "name": "The Binding"
+        }
+      ],
+      "npc": "Strahad Farsan",
+      "mobs": []
+    },
+    {
+      "id": "desolace_097",
+      "type": "info",
+      "description": "Use the Tome of the Cabal at the summoning circle",
+      "classes": ["Warlock"],
+      "races": null,
+      "coords": [62.6, 35.2],
+      "zone": "the_barrens",
+      "tips": [],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "desolace_098",
+      "type": "kill",
+      "description": "Kill the Summoned Felhunter",
+      "classes": ["Warlock"],
+      "races": null,
+      "coords": [62.6, 35.2],
+      "zone": "the_barrens",
+      "tips": [],
+      "quests": [
+        {
+          "id": 1795,
+          "name": "The Binding"
+        }
+      ],
+      "npc": null,
+      "mobs": ["Summoned Felhunter"]
+    },
+    {
+      "id": "desolace_099",
+      "type": "quest_turnin",
+      "description": "Talk to Strahad Farsan and turn in The Binding",
+      "classes": ["Warlock"],
+      "races": null,
+      "coords": [62.627, 35.5],
+      "zone": "the_barrens",
+      "tips": [],
+      "quests": [
+        {
+          "id": 1795,
+          "name": "The Binding"
+        }
+      ],
+      "npc": "Strahad Farsan",
+      "mobs": []
+    },
+    {
+      "id": "desolace_100",
+      "type": "travel",
+      "description": "Take the Boat to Booty Bay",
+      "classes": null,
+      "races": null,
+      "coords": [63.74, 38.66],
+      "zone": "the_barrens",
+      "tips": [],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "desolace_101",
+      "type": "info",
+      "description": "Talk to Auctioneer O'reely.",
+      "classes": ["!Warlock"],
+      "races": null,
+      "coords": [26.588, 76.348],
+      "zone": "stranglethorn_vale",
+      "tips": [
+        {
+          "type": "warning",
+          "class": null,
+          "text": "If you didn't have any Elixirs of Water Breathing try to buy some from the Auction House"
+        },
+        {
+          "type": "warning",
+          "class": null,
+          "text": "Skip this step if you can't find any"
+        }
+      ],
+      "quests": [],
+      "npc": "Auctioneer O'reely",
+      "mobs": []
+    }
+  ]
+}

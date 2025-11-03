@@ -1,0 +1,3680 @@
+{
+  "zone": "Elwynn Forest",
+  "levelRange": "6-11",
+  "faction": "Alliance",
+  "name": "6-11_elwynn_forest_human",
+  "next": "11-13_loch_modan_human",
+  "steps": [
+    {
+      "id": "elwynn_001",
+      "type": "travel",
+      "description": "Travel to Goldshire",
+      "classes": null,
+      "races": null,
+      "coords": null,
+      "zone": "",
+      "tips": [],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "elwynn_002",
+      "type": "quest_turnin",
+      "description": "Talk to Marshal Dughan and turn in Report to Goldshire. Accept The Fargodeep Mine",
+      "classes": null,
+      "races": null,
+      "coords": [42.105, 65.927],
+      "zone": "elwynn_forest",
+      "tips": [],
+      "quests": [
+        {
+          "id": 54,
+          "name": "Report to Goldshire"
+        },
+        {
+          "id": 62,
+          "name": "The Fargodeep Mine"
+        }
+      ],
+      "npc": "Marshal Dughan",
+      "mobs": []
+    },
+    {
+      "id": "elwynn_003",
+      "type": "info",
+      "description": "Talk to Smith Argus and train Blacksmithing",
+      "classes": ["Warrior", "Rogue", "Paladin"],
+      "races": null,
+      "coords": [41.706, 65.544],
+      "zone": "elwynn_forest",
+      "tips": [
+        {
+          "type": "warning",
+          "class": "Warrior",
+          "text": "This will allow you to make Rough Sharpening Stones which increase melee hits by +2 Damage. This is very significant early on"
+        },
+        {
+          "type": "warning",
+          "class": "Rogue",
+          "text": "This will allow you to make Rough Sharpening Stones which increase melee hits by +2 Damage. This is very significant early on"
+        },
+        {
+          "type": "warning",
+          "class": "Paladin",
+          "text": "This will allow you to make Rough Weightstones which increase melee hits by +2 Damage. This is very significant early on"
+        }
+      ],
+      "quests": [],
+      "npc": "Smith Argus",
+      "mobs": []
+    },
+    {
+      "id": "elwynn_004",
+      "type": "info",
+      "description": "Talk to Corina Steele. Buy and equip a Gladius",
+      "classes": ["Warrior"],
+      "races": null,
+      "coords": [41.529, 65.9],
+      "zone": "elwynn_forest",
+      "tips": [
+        {
+          "type": "warning",
+          "class": null,
+          "text": "Buy and equip a Gladius"
+        }
+      ],
+      "quests": [],
+      "npc": "Corina Steele",
+      "mobs": []
+    },
+    {
+      "id": "elwynn_005",
+      "type": "info",
+      "description": "Talk to Corina Steele. Buy and equip a Stiletto",
+      "classes": ["Rogue"],
+      "races": null,
+      "coords": [41.529, 65.9],
+      "zone": "elwynn_forest",
+      "tips": [
+        {
+          "type": "warning",
+          "class": null,
+          "text": "Buy and equip a Stiletto"
+        }
+      ],
+      "quests": [],
+      "npc": "Corina Steele",
+      "mobs": []
+    },
+    {
+      "id": "elwynn_006",
+      "type": "info",
+      "description": "Talk to Corina Steele. Buy and equip a Wooden Mallet",
+      "classes": ["Paladin"],
+      "races": null,
+      "coords": [41.529, 65.9],
+      "zone": "elwynn_forest",
+      "tips": [
+        {
+          "type": "warning",
+          "class": null,
+          "text": "Buy and equip a Wooden Mallet"
+        }
+      ],
+      "quests": [],
+      "npc": "Corina Steele",
+      "mobs": []
+    },
+    {
+      "id": "elwynn_007",
+      "type": "info",
+      "description": "Talk to Andrew Krighton and vendor trash",
+      "classes": ["Mage", "Priest", "Warlock"],
+      "races": null,
+      "coords": [41.706, 65.786],
+      "zone": "elwynn_forest",
+      "tips": [
+        {
+          "type": "warning",
+          "class": null,
+          "text": "Vendor trash"
+        }
+      ],
+      "quests": [],
+      "npc": "Andrew Krighton",
+      "mobs": []
+    },
+    {
+      "id": "elwynn_008",
+      "type": "quest_turnin",
+      "description": "Talk to Marshal Dughan and turn in Report to Goldshire. Accept The Fargodeep Mine",
+      "classes": null,
+      "races": null,
+      "coords": [42.105, 65.927],
+      "zone": "elwynn_forest",
+      "tips": [],
+      "quests": [
+        {
+          "id": 54,
+          "name": "Report to Goldshire"
+        },
+        {
+          "id": 62,
+          "name": "The Fargodeep Mine"
+        }
+      ],
+      "npc": "Marshal Dughan",
+      "mobs": []
+    },
+    {
+      "id": "elwynn_009",
+      "type": "quest_accept",
+      "description": "Talk to William Pestle and accept Kobold Candles",
+      "classes": null,
+      "races": null,
+      "coords": [43.318, 65.705],
+      "zone": "elwynn_forest",
+      "tips": [],
+      "quests": [
+        {
+          "id": 60,
+          "name": "Kobold Candles"
+        }
+      ],
+      "npc": "William Pestle",
+      "mobs": []
+    },
+    {
+      "id": "elwynn_010",
+      "type": "info",
+      "description": "Talk to Innkeeper Farley and turn in Rest and Relaxation. Set your Hearthstone to Goldshire",
+      "classes": null,
+      "races": null,
+      "coords": [43.771, 65.803],
+      "zone": "elwynn_forest",
+      "tips": [],
+      "quests": [
+        {
+          "id": 2158,
+          "name": "Rest and Relaxation"
+        }
+      ],
+      "npc": "Innkeeper Farley",
+      "mobs": []
+    },
+    {
+      "id": "elwynn_011",
+      "type": "grind",
+      "description": "Grind to level 6",
+      "classes": null,
+      "races": null,
+      "coords": null,
+      "zone": "",
+      "tips": [],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "elwynn_012",
+      "type": "info",
+      "description": "Talk to Brog Hamfist. Buy a Balanced Throwing Dagger and equip it",
+      "classes": ["Rogue"],
+      "races": null,
+      "coords": [43.96, 65.92],
+      "zone": "elwynn_forest",
+      "tips": [
+        {
+          "type": "warning",
+          "class": null,
+          "text": "Buy a Balanced Throwing Dagger and equip it"
+        }
+      ],
+      "quests": [],
+      "npc": "Brog Hamfist",
+      "mobs": []
+    },
+    {
+      "id": "elwynn_013",
+      "type": "travel",
+      "description": "Travel downstairs",
+      "classes": ["Warlock"],
+      "races": null,
+      "coords": [44.1, 66.0],
+      "zone": "elwynn_forest",
+      "tips": [],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "elwynn_014",
+      "type": "info",
+      "description": "Talk to Maximillian Crowe and train your class spells",
+      "classes": ["Warlock"],
+      "races": null,
+      "coords": [44.392, 66.24],
+      "zone": "elwynn_forest",
+      "tips": [],
+      "quests": [],
+      "npc": "Maximillian Crowe",
+      "mobs": []
+    },
+    {
+      "id": "elwynn_015",
+      "type": "info",
+      "description": "Talk to Cylina Darkheart. Buy the Grimoire of Blood Pact (Rank 1) if you can afford it. If not you will buy it later",
+      "classes": ["Warlock"],
+      "races": null,
+      "coords": [44.397, 65.989],
+      "zone": "elwynn_forest",
+      "tips": [
+        {
+          "type": "warning",
+          "class": null,
+          "text": "Buy the Grimoire of Blood Pact (Rank 1) if you can afford it. If not you will buy it later"
+        }
+      ],
+      "quests": [],
+      "npc": "Cylina Darkheart",
+      "mobs": []
+    },
+    {
+      "id": "elwynn_016",
+      "type": "travel",
+      "description": "Travel upstairs in the Inn",
+      "classes": ["Mage", "Rogue", "Priest"],
+      "races": null,
+      "coords": [43.877, 66.546],
+      "zone": "elwynn_forest",
+      "tips": [],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "elwynn_017",
+      "type": "info",
+      "description": "Talk to Zaldimar Wefhellt and train your class spells",
+      "classes": ["Mage"],
+      "races": null,
+      "coords": [43.25, 66.19],
+      "zone": "elwynn_forest",
+      "tips": [],
+      "quests": [],
+      "npc": "Zaldimar Wefhellt",
+      "mobs": []
+    },
+    {
+      "id": "elwynn_018",
+      "type": "quest_turnin",
+      "description": "Talk to Priestess Josetta and turn in In Favor of the Light. Accept Garments of the Light and train your class spells",
+      "classes": ["Priest"],
+      "races": null,
+      "coords": [43.283, 65.721],
+      "zone": "elwynn_forest",
+      "tips": [],
+      "quests": [
+        {
+          "id": 5623,
+          "name": "In Favor of the Light"
+        },
+        {
+          "id": 5624,
+          "name": "Garments of the Light"
+        }
+      ],
+      "npc": "Priestess Josetta",
+      "mobs": []
+    },
+    {
+      "id": "elwynn_019",
+      "type": "info",
+      "description": "Talk to Keryn Sylvius and train your class spells",
+      "classes": ["Rogue"],
+      "races": null,
+      "coords": [43.872, 65.937],
+      "zone": "elwynn_forest",
+      "tips": [],
+      "quests": [],
+      "npc": "Keryn Sylvius",
+      "mobs": []
+    },
+    {
+      "id": "elwynn_020",
+      "type": "info",
+      "description": "Talk to Michelle Belle upstairs and train First Aid",
+      "classes": ["Rogue", "Warrior"],
+      "races": null,
+      "coords": [43.392, 65.55],
+      "zone": "elwynn_forest",
+      "tips": [],
+      "quests": [],
+      "npc": "Michelle Belle",
+      "mobs": []
+    },
+    {
+      "id": "elwynn_021",
+      "type": "info",
+      "description": "Talk to Innkeeper Farley. Buy Dalaran Sharp until you're down to 1 Silver",
+      "classes": ["Warrior", "Rogue"],
+      "races": null,
+      "coords": [43.771, 65.803],
+      "zone": "elwynn_forest",
+      "tips": [
+        {
+          "type": "warning",
+          "class": "Warrior",
+          "text": "Buy Dalaran Sharp until you're down to 1 Silver"
+        },
+        {
+          "type": "warning",
+          "class": "Rogue",
+          "text": "Buy up to 20 Dalaran Sharp"
+        }
+      ],
+      "quests": [],
+      "npc": "Innkeeper Farley",
+      "mobs": []
+    },
+    {
+      "id": "elwynn_022",
+      "type": "info",
+      "description": "Talk to Lyria Du Lac and train your class spells",
+      "classes": ["Warrior"],
+      "races": null,
+      "coords": [41.087, 65.768],
+      "zone": "elwynn_forest",
+      "tips": [],
+      "quests": [],
+      "npc": "Lyria Du Lac",
+      "mobs": []
+    },
+    {
+      "id": "elwynn_023",
+      "type": "info",
+      "description": "Talk to Brother Wilhelm and train your class spells",
+      "classes": ["Paladin"],
+      "races": null,
+      "coords": [41.096, 66.041],
+      "zone": "elwynn_forest",
+      "tips": [],
+      "quests": [],
+      "npc": "Brother Wilhelm",
+      "mobs": []
+    },
+    {
+      "id": "elwynn_024",
+      "type": "quest_accept",
+      "description": "Talk to Remy Two Times and accept Gold Dust Exchange",
+      "classes": null,
+      "races": null,
+      "coords": [42.14, 67.254],
+      "zone": "elwynn_forest",
+      "tips": [],
+      "quests": [
+        {
+          "id": 47,
+          "name": "Gold Dust Exchange"
+        }
+      ],
+      "npc": "Remy Two Times",
+      "mobs": []
+    },
+    {
+      "id": "elwynn_025",
+      "type": "info",
+      "description": "Cast Lesser Heal (Rank 2) and Power Word: Fortitude on Guard Roberts",
+      "classes": ["Priest"],
+      "races": null,
+      "coords": [48.148, 68.046],
+      "zone": "elwynn_forest",
+      "tips": [
+        {
+          "type": "warning",
+          "class": null,
+          "text": "Cast Lesser Heal (Rank 2) and Power Word: Fortitude on Guard Roberts"
+        }
+      ],
+      "quests": [
+        {
+          "id": 5624,
+          "name": "Garments of the Light"
+        }
+      ],
+      "npc": "Guard Roberts",
+      "mobs": []
+    },
+    {
+      "id": "elwynn_026",
+      "type": "quest_accept",
+      "description": "Talk to Ma Stonefield and Auntie Bernice Stonefield. Accept Lost Necklace and Princess Must Die!",
+      "classes": null,
+      "races": null,
+      "coords": [34.66, 84.482],
+      "zone": "elwynn_forest",
+      "tips": [],
+      "quests": [
+        {
+          "id": 85,
+          "name": "Lost Necklace"
+        },
+        {
+          "id": 88,
+          "name": "Princess Must Die!"
+        }
+      ],
+      "npc": "Auntie Bernice Stonefield",
+      "mobs": []
+    },
+    {
+      "id": "elwynn_027",
+      "type": "quest_turnin",
+      "description": "Talk to Billy Maclure and turn in Lost Necklace. Accept Pie for Billy",
+      "classes": null,
+      "races": null,
+      "coords": [43.131, 85.722],
+      "zone": "elwynn_forest",
+      "tips": [],
+      "quests": [
+        {
+          "id": 85,
+          "name": "Lost Necklace"
+        },
+        {
+          "id": 86,
+          "name": "Pie for Billy"
+        }
+      ],
+      "npc": "Billy Maclure",
+      "mobs": []
+    },
+    {
+      "id": "elwynn_028",
+      "type": "quest_accept",
+      "description": "Talk to Maybell Maclure and accept Young Lovers",
+      "classes": null,
+      "races": null,
+      "coords": [43.154, 89.625],
+      "zone": "elwynn_forest",
+      "tips": [],
+      "quests": [
+        {
+          "id": 106,
+          "name": "Young Lovers"
+        }
+      ],
+      "npc": "Maybell Maclure",
+      "mobs": []
+    },
+    {
+      "id": "elwynn_029",
+      "type": "info",
+      "description": "Talk to Joshua Maclure. Buy as much Ice Cold Milk as you can afford. Vendor trash",
+      "classes": null,
+      "races": null,
+      "coords": [42.357, 89.373],
+      "zone": "elwynn_forest",
+      "tips": [
+        {
+          "type": "warning",
+          "class": "Priest",
+          "text": "Buy as much Ice Cold Milk as you can afford"
+        },
+        {
+          "type": "warning",
+          "class": "Warlock",
+          "text": "Buy as much Ice Cold Milk as you can afford"
+        },
+        {
+          "type": "warning",
+          "class": "Mage",
+          "text": "Buy as much Ice Cold Milk as you can afford"
+        }
+      ],
+      "quests": [],
+      "npc": "Joshua Maclure",
+      "mobs": []
+    },
+    {
+      "id": "elwynn_030",
+      "type": "quest_turnin",
+      "description": "Talk to Tommy Joe Stonefield and turn in Young Lovers. Accept Speak with Gramma",
+      "classes": null,
+      "races": null,
+      "coords": [29.84, 85.997],
+      "zone": "elwynn_forest",
+      "tips": [],
+      "quests": [
+        {
+          "id": 106,
+          "name": "Young Lovers"
+        },
+        {
+          "id": 111,
+          "name": "Speak with Gramma"
+        }
+      ],
+      "npc": "Tommy Joe Stonefield",
+      "mobs": []
+    },
+    {
+      "id": "elwynn_031",
+      "type": "loot",
+      "description": "Kill Stonetusk Boars. Loot them for their Chunks of Boar Meat",
+      "classes": null,
+      "races": null,
+      "coords": [32.5, 85.5],
+      "zone": "elwynn_forest",
+      "tips": [],
+      "quests": [
+        {
+          "id": 86,
+          "name": "Pie for Billy"
+        }
+      ],
+      "npc": null,
+      "mobs": ["Stonetusk Boar"]
+    },
+    {
+      "id": "elwynn_032",
+      "type": "quest_turnin",
+      "description": "Talk to Auntie Bernice Stonefield and turn in Pie for Billy. Accept Back to Billy",
+      "classes": null,
+      "races": null,
+      "coords": [34.486, 84.253],
+      "zone": "elwynn_forest",
+      "tips": [],
+      "quests": [
+        {
+          "id": 86,
+          "name": "Pie for Billy"
+        },
+        {
+          "id": 84,
+          "name": "Back to Billy"
+        }
+      ],
+      "npc": "Auntie Bernice Stonefield",
+      "mobs": []
+    },
+    {
+      "id": "elwynn_033",
+      "type": "quest_turnin",
+      "description": "Talk to Gramma Stonefield and turn in Speak with Gramma. Accept Note to William",
+      "classes": null,
+      "races": null,
+      "coords": [34.945, 83.855],
+      "zone": "elwynn_forest",
+      "tips": [],
+      "quests": [
+        {
+          "id": 111,
+          "name": "Speak with Gramma"
+        },
+        {
+          "id": 107,
+          "name": "Note to William"
+        }
+      ],
+      "npc": "Gramma Stonefield",
+      "mobs": []
+    },
+    {
+      "id": "elwynn_034",
+      "type": "quest_turnin",
+      "description": "Talk to Billy Maclure and turn in Back to Billy. Accept Goldtooth",
+      "classes": null,
+      "races": null,
+      "coords": [43.131, 85.722],
+      "zone": "elwynn_forest",
+      "tips": [],
+      "quests": [
+        {
+          "id": 84,
+          "name": "Back to Billy"
+        },
+        {
+          "id": 87,
+          "name": "Goldtooth"
+        }
+      ],
+      "npc": "Billy Maclure",
+      "mobs": []
+    },
+    {
+      "id": "elwynn_035",
+      "type": "info",
+      "description": "Explore Fargodeep Mine",
+      "classes": null,
+      "races": null,
+      "coords": [40.5, 82.3],
+      "zone": "elwynn_forest",
+      "tips": [],
+      "quests": [
+        {
+          "id": 62,
+          "name": "The Fargodeep Mine"
+        }
+      ],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "elwynn_036",
+      "type": "kill",
+      "description": "Kill Goldtooth. Loot him for Bernice's Necklace",
+      "classes": null,
+      "races": null,
+      "coords": [41.7, 78.1],
+      "zone": "elwynn_forest",
+      "tips": [],
+      "quests": [
+        {
+          "id": 87,
+          "name": "Goldtooth"
+        }
+      ],
+      "npc": null,
+      "mobs": ["Goldtooth"]
+    },
+    {
+      "id": "elwynn_037",
+      "type": "kill",
+      "description": "Kill Kobold Tunnelers and Kobold Miners. Loot them for their Candles and Dust",
+      "classes": null,
+      "races": null,
+      "coords": [40.5, 82.3],
+      "zone": "elwynn_forest",
+      "tips": [
+        {
+          "type": "warning",
+          "class": "Warrior",
+          "text": "If you loot any Rough Stones turn them into Rough Sharpening Stones"
+        },
+        {
+          "type": "warning",
+          "class": "Rogue",
+          "text": "If you loot any Rough Stones turn them into Rough Sharpening Stones"
+        },
+        {
+          "type": "warning",
+          "class": "Paladin",
+          "text": "If you loot any Rough Stones turn them into Rough Weightstones"
+        }
+      ],
+      "quests": [
+        {
+          "id": 60,
+          "name": "Kobold Candles"
+        },
+        {
+          "id": 47,
+          "name": "Gold Dust Exchange"
+        }
+      ],
+      "npc": null,
+      "mobs": ["Kobold Tunneler", "Kobold Miner"]
+    },
+    {
+      "id": "elwynn_038",
+      "type": "quest_turnin",
+      "description": "Talk to Auntie Bernice Stonefield and turn in Goldtooth",
+      "classes": null,
+      "races": null,
+      "coords": [34.486, 84.253],
+      "zone": "elwynn_forest",
+      "tips": [],
+      "quests": [
+        {
+          "id": 87,
+          "name": "Goldtooth"
+        }
+      ],
+      "npc": "Auntie Bernice Stonefield",
+      "mobs": []
+    },
+    {
+      "id": "elwynn_039",
+      "type": "grind",
+      "description": "Grind until 2690+/4500xp",
+      "classes": null,
+      "races": null,
+      "coords": [42.1, 67.3],
+      "zone": "elwynn_forest",
+      "tips": [],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "elwynn_040",
+      "type": "travel",
+      "description": "Travel to Goldshire",
+      "classes": null,
+      "races": null,
+      "coords": [42.2, 66.0],
+      "zone": "elwynn_forest",
+      "tips": [],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "elwynn_041",
+      "type": "quest_turnin",
+      "description": "Talk to Remy Two Times and turn in Gold Dust Exchange. Accept A Fishy Peril",
+      "classes": null,
+      "races": null,
+      "coords": [42.14, 67.254],
+      "zone": "elwynn_forest",
+      "tips": [
+        {
+          "type": "warning",
+          "class": null,
+          "text": "Do NOT vendor the Bag of Marbles reward. This is an incredibly valuable item all the way through to level 60"
+        }
+      ],
+      "quests": [
+        {
+          "id": 47,
+          "name": "Gold Dust Exchange"
+        },
+        {
+          "id": 40,
+          "name": "A Fishy Peril"
+        }
+      ],
+      "npc": "Remy Two Times",
+      "mobs": []
+    },
+    {
+      "id": "elwynn_042",
+      "type": "quest_turnin",
+      "description": "Talk to Marshal Dughan and turn in A Fishy Peril. Accept Further Concerns. Turn in The Fargodeep Mine. Accept The Jasperlode Mine",
+      "classes": null,
+      "races": null,
+      "coords": [42.105, 65.927],
+      "zone": "elwynn_forest",
+      "tips": [],
+      "quests": [
+        {
+          "id": 40,
+          "name": "A Fishy Peril"
+        },
+        {
+          "id": 35,
+          "name": "Further Concerns"
+        },
+        {
+          "id": 62,
+          "name": "The Fargodeep Mine"
+        },
+        {
+          "id": 76,
+          "name": "The Jasperlode Mine"
+        }
+      ],
+      "npc": "Marshal Dughan",
+      "mobs": []
+    },
+    {
+      "id": "elwynn_043",
+      "type": "info",
+      "description": "Talk to Corina Steele and vendor trash",
+      "classes": null,
+      "races": null,
+      "coords": [41.529, 65.9],
+      "zone": "elwynn_forest",
+      "tips": [
+        {
+          "type": "warning",
+          "class": null,
+          "text": "Vendor trash"
+        }
+      ],
+      "quests": [],
+      "npc": "Corina Steele",
+      "mobs": []
+    },
+    {
+      "id": "elwynn_044",
+      "type": "quest_turnin",
+      "description": "Talk to William Pestle and turn in Kobold Candles. Accept Shipment to Stormwind. Turn in Note to William. Accept Collecting Kelp",
+      "classes": null,
+      "races": null,
+      "coords": [43.318, 65.705],
+      "zone": "elwynn_forest",
+      "tips": [],
+      "quests": [
+        {
+          "id": 60,
+          "name": "Kobold Candles"
+        },
+        {
+          "id": 61,
+          "name": "Shipment to Stormwind"
+        },
+        {
+          "id": 107,
+          "name": "Note to William"
+        },
+        {
+          "id": 112,
+          "name": "Collecting Kelp"
+        }
+      ],
+      "npc": "William Pestle",
+      "mobs": []
+    },
+    {
+      "id": "elwynn_045",
+      "type": "grind",
+      "description": "Grind to level 8",
+      "classes": null,
+      "races": null,
+      "coords": null,
+      "zone": "",
+      "tips": [],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "elwynn_046",
+      "type": "info",
+      "description": "Talk to Lyria Du Lac and train your class spells",
+      "classes": ["Warrior"],
+      "races": null,
+      "coords": [41.087, 65.768],
+      "zone": "elwynn_forest",
+      "tips": [],
+      "quests": [],
+      "npc": "Lyria Du Lac",
+      "mobs": []
+    },
+    {
+      "id": "elwynn_047",
+      "type": "info",
+      "description": "Talk to Brother Wilhelm and train your class spells",
+      "classes": ["Paladin"],
+      "races": null,
+      "coords": [41.096, 66.041],
+      "zone": "elwynn_forest",
+      "tips": [],
+      "quests": [],
+      "npc": "Brother Wilhelm",
+      "mobs": []
+    },
+    {
+      "id": "elwynn_048",
+      "type": "travel",
+      "description": "Travel downstairs in the Inn",
+      "classes": ["Warlock"],
+      "races": null,
+      "coords": [44.1, 66.0],
+      "zone": "elwynn_forest",
+      "tips": [],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "elwynn_049",
+      "type": "info",
+      "description": "Talk to Maximillian Crowe and train your class spells",
+      "classes": ["Warlock"],
+      "races": null,
+      "coords": [44.392, 66.24],
+      "zone": "elwynn_forest",
+      "tips": [],
+      "quests": [],
+      "npc": "Maximillian Crowe",
+      "mobs": []
+    },
+    {
+      "id": "elwynn_050",
+      "type": "info",
+      "description": "Talk to Cylina Darkheart. Buy the Grimoire of Firebolt (Rank 2) if you can afford it. If not you will buy it later",
+      "classes": ["Warlock"],
+      "races": null,
+      "coords": [44.397, 65.989],
+      "zone": "elwynn_forest",
+      "tips": [
+        {
+          "type": "warning",
+          "class": null,
+          "text": "Buy the Grimoire of Firebolt (Rank 2) if you can afford it. If not you will buy it later"
+        }
+      ],
+      "quests": [],
+      "npc": "Cylina Darkheart",
+      "mobs": []
+    },
+    {
+      "id": "elwynn_051",
+      "type": "travel",
+      "description": "Travel upstairs in the Inn",
+      "classes": ["Mage", "Priest", "Rogue", "Warrior", "Paladin"],
+      "races": null,
+      "coords": [43.877, 66.546],
+      "zone": "elwynn_forest",
+      "tips": [],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "elwynn_052",
+      "type": "info",
+      "description": "Talk to Zaldimar Wefhellt and train your class spells",
+      "classes": ["Mage"],
+      "races": null,
+      "coords": [43.25, 66.19],
+      "zone": "elwynn_forest",
+      "tips": [],
+      "quests": [],
+      "npc": "Zaldimar Wefhellt",
+      "mobs": []
+    },
+    {
+      "id": "elwynn_053",
+      "type": "quest_turnin",
+      "description": "Talk to Priestess Josetta and turn in Garments of the Light. Train your class spells",
+      "classes": ["Priest"],
+      "races": null,
+      "coords": [43.283, 65.721],
+      "zone": "elwynn_forest",
+      "tips": [],
+      "quests": [
+        {
+          "id": 5624,
+          "name": "Garments of the Light"
+        }
+      ],
+      "npc": "Priestess Josetta",
+      "mobs": []
+    },
+    {
+      "id": "elwynn_054",
+      "type": "info",
+      "description": "Talk to Keryn Sylvius and train your class spells",
+      "classes": ["Rogue"],
+      "races": null,
+      "coords": [43.872, 65.937],
+      "zone": "elwynn_forest",
+      "tips": [],
+      "quests": [],
+      "npc": "Keryn Sylvius",
+      "mobs": []
+    },
+    {
+      "id": "elwynn_055",
+      "type": "info",
+      "description": "Talk to Michelle Belle and train First Aid",
+      "classes": ["Rogue", "Warrior", "Paladin"],
+      "races": null,
+      "coords": [43.392, 65.55],
+      "zone": "elwynn_forest",
+      "tips": [],
+      "quests": [],
+      "npc": "Michelle Belle",
+      "mobs": []
+    },
+    {
+      "id": "elwynn_056",
+      "type": "info",
+      "description": "Talk to Brog Hamfist. Buy a Small Brown Pouch if needed",
+      "classes": null,
+      "races": null,
+      "coords": [43.96, 65.92],
+      "zone": "elwynn_forest",
+      "tips": [
+        {
+          "type": "warning",
+          "class": null,
+          "text": "Buy a Small Brown Pouch if needed"
+        }
+      ],
+      "quests": [],
+      "npc": "Brog Hamfist",
+      "mobs": []
+    },
+    {
+      "id": "elwynn_057",
+      "type": "info",
+      "description": "Talk to Innkeeper Farley. Buy up to 40 Ice Cold Milk or Dalaran Sharp",
+      "classes": null,
+      "races": null,
+      "coords": [43.771, 65.803],
+      "zone": "elwynn_forest",
+      "tips": [
+        {
+          "type": "warning",
+          "class": null,
+          "text": "Buy up to 40 Ice Cold Milk"
+        }
+      ],
+      "quests": [],
+      "npc": "Innkeeper Farley",
+      "mobs": []
+    },
+    {
+      "id": "elwynn_058",
+      "type": "loot",
+      "description": "Kill Murlocs and Murloc Streamrunners. Loot them for Kelp Fronds",
+      "classes": null,
+      "races": null,
+      "coords": [57.6, 62.8],
+      "zone": "elwynn_forest",
+      "tips": [],
+      "quests": [
+        {
+          "id": 112,
+          "name": "Collecting Kelp"
+        }
+      ],
+      "npc": null,
+      "mobs": ["Murloc", "Murloc Streamrunner"]
+    },
+    {
+      "id": "elwynn_059",
+      "type": "travel",
+      "description": "Enter the Jasperlode Mine",
+      "classes": null,
+      "races": null,
+      "coords": [61.654, 53.608],
+      "zone": "elwynn_forest",
+      "tips": [],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "elwynn_060",
+      "type": "info",
+      "description": "Follow the path through middle to explore Jasperlode Mine. Exit Jasperlode Mine as soon as the objective completes",
+      "classes": null,
+      "races": null,
+      "coords": [60.4, 50.2],
+      "zone": "elwynn_forest",
+      "tips": [
+        {
+          "type": "warning",
+          "class": null,
+          "text": "Follow the path through middle to explore Jasperlode Mine"
+        },
+        {
+          "type": "warning",
+          "class": null,
+          "text": "Exit Jasperlode Mine as soon as the objective completes"
+        }
+      ],
+      "quests": [
+        {
+          "id": 76,
+          "name": "The Jasperlode Mine"
+        }
+      ],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "elwynn_061",
+      "type": "quest_turnin",
+      "description": "Talk to Guard Thomas and turn in Further Concerns. Accept Find the Lost Guards and Protect the Frontier",
+      "classes": null,
+      "races": null,
+      "coords": [73.973, 72.179],
+      "zone": "elwynn_forest",
+      "tips": [],
+      "quests": [
+        {
+          "id": 35,
+          "name": "Further Concerns"
+        },
+        {
+          "id": 37,
+          "name": "Find the Lost Guards"
+        },
+        {
+          "id": 52,
+          "name": "Protect the Frontier"
+        }
+      ],
+      "npc": "Guard Thomas",
+      "mobs": []
+    },
+    {
+      "id": "elwynn_062",
+      "type": "info",
+      "description": "Click A half-eaten body on the ground and turn in Find the Lost Guards. Accept Discover Rolf's Fate",
+      "classes": null,
+      "races": null,
+      "coords": [72.656, 60.334],
+      "zone": "elwynn_forest",
+      "tips": [],
+      "quests": [
+        {
+          "id": 37,
+          "name": "Find the Lost Guards"
+        },
+        {
+          "id": 45,
+          "name": "Discover Rolf's Fate"
+        }
+      ],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "elwynn_063",
+      "type": "quest_accept",
+      "description": "Talk to Supervisor Raelen and accept A Bundle of Trouble",
+      "classes": null,
+      "races": null,
+      "coords": [81.382, 66.112],
+      "zone": "elwynn_forest",
+      "tips": [],
+      "quests": [
+        {
+          "id": 5545,
+          "name": "A Bundle of Trouble"
+        }
+      ],
+      "npc": "Supervisor Raelen",
+      "mobs": []
+    },
+    {
+      "id": "elwynn_064",
+      "type": "info",
+      "description": "Talk to Rallic Finn and vendor trash",
+      "classes": null,
+      "races": null,
+      "coords": [83.283, 66.089],
+      "zone": "elwynn_forest",
+      "tips": [
+        {
+          "type": "warning",
+          "class": null,
+          "text": "Vendor trash"
+        }
+      ],
+      "quests": [],
+      "npc": "Rallic Finn",
+      "mobs": []
+    },
+    {
+      "id": "elwynn_065",
+      "type": "info",
+      "description": "Click Rolf's corpse on the ground and turn in Discover Rolf's Fate. Accept Report to Thomas",
+      "classes": null,
+      "races": null,
+      "coords": [79.8, 55.5],
+      "zone": "elwynn_forest",
+      "tips": [
+        {
+          "type": "warning",
+          "class": "Priest",
+          "text": "Cast Renew and Power Word: Shield then get full mana. Pull the 2 Murlocs in front of the huts, move away, then nuke one. Run away when you kill one, then kill the other"
+        },
+        {
+          "type": "warning",
+          "class": "Mage",
+          "text": "Pull the 2 Murlocs in front of the huts, move away and Polymorph one whilst killing the other. Kill the Polymorphed one after"
+        },
+        {
+          "type": "warning",
+          "class": "Warrior",
+          "text": "Pool 100 Rage. Pull the 2 Murlocs in front of the huts, move away and keep Hamstring on one whilst killing the other. Also use Bag of Marbles on the one you're killing. Run away and reset the one being kited with Hamstring after you've killed one"
+        },
+        {
+          "type": "warning",
+          "class": "Rogue",
+          "text": "Pull the 2 Murlocs in front of the huts, move away and focus killing one of them. Use Evasion once they're both attacking you. This is a good opportunity to use Bag of Marbles. Run away and reset once you've killed one"
+        },
+        {
+          "type": "warning",
+          "class": "Warlock",
+          "text": "Pull the 2 Murlocs in front of the huts, move away and cast Fear on one of them constantly, and try to keep DoTs on both"
+        },
+        {
+          "type": "warning",
+          "class": "Paladin",
+          "text": "Pull the 2 Murlocs in front of the huts, move away and nuke one of them down fast. Use Divine Protection and your Heals as required. This is a good opportunity to use Bag of Marbles. Run away and reset once you've killed one"
+        }
+      ],
+      "quests": [
+        {
+          "id": 45,
+          "name": "Discover Rolf's Fate"
+        },
+        {
+          "id": 71,
+          "name": "Report to Thomas"
+        }
+      ],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "elwynn_066",
+      "type": "kill",
+      "description": "Kill Prowlers and Young Forest Bears",
+      "classes": null,
+      "races": null,
+      "coords": [86.99, 64.83],
+      "zone": "elwynn_forest",
+      "tips": [
+        {
+          "type": "warning",
+          "class": null,
+          "text": "Prioritize killing any Young Forest Bears you see"
+        }
+      ],
+      "quests": [
+        {
+          "id": 52,
+          "name": "Protect the Frontier"
+        }
+      ],
+      "npc": null,
+      "mobs": ["Prowler", "Young Forest Bear"]
+    },
+    {
+      "id": "elwynn_067",
+      "type": "loot",
+      "description": "Loot the Bundle of Wood on the ground. They are found beneath the trees",
+      "classes": null,
+      "races": null,
+      "coords": [83.7, 59.4],
+      "zone": "elwynn_forest",
+      "tips": [
+        {
+          "type": "warning",
+          "class": null,
+          "text": "They are found beneath the trees"
+        }
+      ],
+      "quests": [
+        {
+          "id": 5545,
+          "name": "A Bundle of Trouble"
+        }
+      ],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "elwynn_068",
+      "type": "quest_turnin",
+      "description": "Talk to Supervisor Raelen and turn in A Bundle of Trouble",
+      "classes": null,
+      "races": null,
+      "coords": [81.382, 66.112],
+      "zone": "elwynn_forest",
+      "tips": [],
+      "quests": [
+        {
+          "id": 5545,
+          "name": "A Bundle of Trouble"
+        }
+      ],
+      "npc": "Supervisor Raelen",
+      "mobs": []
+    },
+    {
+      "id": "elwynn_069",
+      "type": "grind",
+      "description": "Grind to level 9",
+      "classes": null,
+      "races": null,
+      "coords": [76.8, 62.4],
+      "zone": "elwynn_forest",
+      "tips": [],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "elwynn_070",
+      "type": "quest_accept",
+      "description": "Talk to Sara Timberlain and accept Red Linen Goods",
+      "classes": null,
+      "races": null,
+      "coords": [79.457, 68.789],
+      "zone": "elwynn_forest",
+      "tips": [],
+      "quests": [
+        {
+          "id": 83,
+          "name": "Red Linen Goods"
+        }
+      ],
+      "npc": "Sara Timberlain",
+      "mobs": []
+    },
+    {
+      "id": "elwynn_071",
+      "type": "quest_turnin",
+      "description": "Talk to Guard Thomas and turn in Protect the Frontier and Report to Thomas. Accept Deliver Thomas' Report and Report to Gryan Stoutmantle",
+      "classes": null,
+      "races": null,
+      "coords": [73.973, 72.179],
+      "zone": "elwynn_forest",
+      "tips": [],
+      "quests": [
+        {
+          "id": 52,
+          "name": "Protect the Frontier"
+        },
+        {
+          "id": 71,
+          "name": "Report to Thomas"
+        },
+        {
+          "id": 39,
+          "name": "Deliver Thomas' Report"
+        },
+        {
+          "id": 109,
+          "name": "Report to Gryan Stoutmantle"
+        }
+      ],
+      "npc": "Guard Thomas",
+      "mobs": []
+    },
+    {
+      "id": "elwynn_072",
+      "type": "kill",
+      "description": "Kill Princess. Loot her for her Collar",
+      "classes": null,
+      "races": null,
+      "coords": [69.3, 79.0],
+      "zone": "elwynn_forest",
+      "tips": [
+        {
+          "type": "warning",
+          "class": null,
+          "text": "Princess will agro with both of her Porcine Entourage"
+        },
+        {
+          "type": "warning",
+          "class": null,
+          "text": "Princess will also cast Rushing Charge which deals heavy damage"
+        },
+        {
+          "type": "warning",
+          "class": "Warrior",
+          "text": "Pool 100 Rage before you engage Princess"
+        },
+        {
+          "type": "warning",
+          "class": "Rogue",
+          "text": "Be sure Evasion is ready. If you're struggling, you can use the Fence with Throwing Weapons to abuse pathing and buy time"
+        },
+        {
+          "type": "warning",
+          "class": null,
+          "text": "Be ready to use a Lesser Healing Potion"
+        },
+        {
+          "type": "link",
+          "class": null,
+          "text": "Click here for video reference",
+          "url": "https://www.youtube.com/watch?v=GRrXOV-UvD4"
+        }
+      ],
+      "quests": [
+        {
+          "id": 88,
+          "name": "Princess Must Die!"
+        }
+      ],
+      "npc": null,
+      "mobs": ["Princess"]
+    },
+    {
+      "id": "elwynn_073",
+      "type": "kill",
+      "description": "Kill Defias Bandits. Loot them for their Bandanas",
+      "classes": null,
+      "races": null,
+      "coords": [69.3, 79.0],
+      "zone": "elwynn_forest",
+      "tips": [],
+      "quests": [
+        {
+          "id": 83,
+          "name": "Red Linen Goods"
+        }
+      ],
+      "npc": null,
+      "mobs": ["Defias Bandit"]
+    },
+    {
+      "id": "elwynn_074",
+      "type": "grind",
+      "description": "Grind until 3400+/6500xp",
+      "classes": null,
+      "races": null,
+      "coords": [69.53, 79.47],
+      "zone": "elwynn_forest",
+      "tips": [],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "elwynn_075",
+      "type": "quest_turnin",
+      "description": "Talk to Sara Timberlain and turn in Red Linen Goods",
+      "classes": null,
+      "races": null,
+      "coords": [79.457, 68.789],
+      "zone": "elwynn_forest",
+      "tips": [],
+      "quests": [
+        {
+          "id": 83,
+          "name": "Red Linen Goods"
+        }
+      ],
+      "npc": "Sara Timberlain",
+      "mobs": []
+    },
+    {
+      "id": "elwynn_076",
+      "type": "fly",
+      "description": "Talk to Ariena Stormfeather and get the Redridge Mountains flight path",
+      "classes": null,
+      "races": null,
+      "coords": [30.59, 59.41],
+      "zone": "redridge_mountains",
+      "tips": [
+        {
+          "type": "warning",
+          "class": null,
+          "text": "STICK TO THE MAIN ROAD AND AVOID ANY CLOSE MOBS EN-ROUTE"
+        }
+      ],
+      "quests": [],
+      "npc": "Ariena Stormfeather",
+      "mobs": []
+    },
+    {
+      "id": "elwynn_077",
+      "type": "info",
+      "description": "Hearth to Goldshire",
+      "classes": null,
+      "races": null,
+      "coords": null,
+      "zone": "",
+      "tips": [],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "elwynn_078",
+      "type": "quest_turnin",
+      "description": "Talk to William Pestle and turn in Collecting Kelp. Accept The Escape",
+      "classes": null,
+      "races": null,
+      "coords": [43.318, 65.705],
+      "zone": "elwynn_forest",
+      "tips": [],
+      "quests": [
+        {
+          "id": 112,
+          "name": "Collecting Kelp"
+        },
+        {
+          "id": 114,
+          "name": "The Escape"
+        }
+      ],
+      "npc": "William Pestle",
+      "mobs": []
+    },
+    {
+      "id": "elwynn_079",
+      "type": "travel",
+      "description": "Travel upstairs in the Inn",
+      "classes": null,
+      "races": null,
+      "coords": [43.877, 66.546],
+      "zone": "elwynn_forest",
+      "tips": [],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "elwynn_080",
+      "type": "info",
+      "description": "Talk to Michelle Belle and train First Aid",
+      "classes": null,
+      "races": null,
+      "coords": [43.392, 65.55],
+      "zone": "elwynn_forest",
+      "tips": [],
+      "quests": [],
+      "npc": "Michelle Belle",
+      "mobs": []
+    },
+    {
+      "id": "elwynn_081",
+      "type": "quest_turnin",
+      "description": "Talk to Marshal Dughan and turn in Deliver Thomas' Report and The Jasperlode Mine. Accept Westbrook Garrison Needs Help! and Cloth and Leather Armor. Accept Report to Gryan Stoutmantle",
+      "classes": null,
+      "races": null,
+      "coords": [42.105, 65.927],
+      "zone": "elwynn_forest",
+      "tips": [],
+      "quests": [
+        {
+          "id": 39,
+          "name": "Deliver Thomas' Report"
+        },
+        {
+          "id": 76,
+          "name": "The Jasperlode Mine"
+        },
+        {
+          "id": 239,
+          "name": "Westbrook Garrison Needs Help!"
+        },
+        {
+          "id": 59,
+          "name": "Cloth and Leather Armor"
+        },
+        {
+          "id": 109,
+          "name": "Report to Gryan Stoutmantle"
+        }
+      ],
+      "npc": "Marshal Dughan",
+      "mobs": []
+    },
+    {
+      "id": "elwynn_082",
+      "type": "quest_accept",
+      "description": "Talk to Smith Argus and accept Elmore's Task",
+      "classes": null,
+      "races": null,
+      "coords": [41.706, 65.544],
+      "zone": "elwynn_forest",
+      "tips": [],
+      "quests": [
+        {
+          "id": 1097,
+          "name": "Elmore's Task"
+        }
+      ],
+      "npc": "Smith Argus",
+      "mobs": []
+    },
+    {
+      "id": "elwynn_083",
+      "type": "grind",
+      "description": "Grind to level 10",
+      "classes": null,
+      "races": null,
+      "coords": null,
+      "zone": "",
+      "tips": [],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "elwynn_084",
+      "type": "info",
+      "description": "Vendor trash and repair",
+      "classes": null,
+      "races": null,
+      "coords": [41.7, 65.9],
+      "zone": "elwynn_forest",
+      "tips": [],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "elwynn_085",
+      "type": "quest_accept",
+      "description": "Talk to Lyria Du Lac and accept A Warrior's Training. Train your class spells",
+      "classes": ["Warrior"],
+      "races": null,
+      "coords": [41.087, 65.768],
+      "zone": "elwynn_forest",
+      "tips": [],
+      "quests": [
+        {
+          "id": 1638,
+          "name": "A Warrior's Training"
+        }
+      ],
+      "npc": "Lyria Du Lac",
+      "mobs": []
+    },
+    {
+      "id": "elwynn_086",
+      "type": "info",
+      "description": "Talk to Brother Wilhelm and train your class spells",
+      "classes": ["Paladin"],
+      "races": null,
+      "coords": [41.096, 66.041],
+      "zone": "elwynn_forest",
+      "tips": [],
+      "quests": [],
+      "npc": "Brother Wilhelm",
+      "mobs": []
+    },
+    {
+      "id": "elwynn_087",
+      "type": "travel",
+      "description": "Travel downstairs in the Inn",
+      "classes": ["Warlock"],
+      "races": null,
+      "coords": [44.1, 66.0],
+      "zone": "elwynn_forest",
+      "tips": [],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "elwynn_088",
+      "type": "info",
+      "description": "Talk to Maximillian Crowe and train your class spells",
+      "classes": ["Warlock"],
+      "races": null,
+      "coords": [44.392, 66.24],
+      "zone": "elwynn_forest",
+      "tips": [],
+      "quests": [],
+      "npc": "Maximillian Crowe",
+      "mobs": []
+    },
+    {
+      "id": "elwynn_089",
+      "type": "quest_accept",
+      "description": "Talk to Remen Marcot and accept Gakin's Summons",
+      "classes": ["Warlock"],
+      "races": null,
+      "coords": [44.485, 66.268],
+      "zone": "elwynn_forest",
+      "tips": [],
+      "quests": [
+        {
+          "id": 1685,
+          "name": "Gakin's Summons"
+        }
+      ],
+      "npc": "Remen Marcot",
+      "mobs": []
+    },
+    {
+      "id": "elwynn_090",
+      "type": "travel",
+      "description": "Go Upstairs",
+      "classes": ["Mage", "Rogue", "Priest"],
+      "races": null,
+      "coords": [43.7, 66.4],
+      "zone": "elwynn_forest",
+      "tips": [],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "elwynn_091",
+      "type": "quest_accept",
+      "description": "Talk to Priestess Josetta and accept Desperate Prayer. Train your class spells",
+      "classes": ["Priest"],
+      "races": null,
+      "coords": [43.283, 65.721],
+      "zone": "elwynn_forest",
+      "tips": [],
+      "quests": [
+        {
+          "id": 5635,
+          "name": "Desperate Prayer"
+        }
+      ],
+      "npc": "Priestess Josetta",
+      "mobs": []
+    },
+    {
+      "id": "elwynn_092",
+      "type": "info",
+      "description": "Talk to Zaldimar Wefhellt and train your class spells",
+      "classes": ["Mage"],
+      "races": null,
+      "coords": [43.25, 66.19],
+      "zone": "elwynn_forest",
+      "tips": [],
+      "quests": [],
+      "npc": "Zaldimar Wefhellt",
+      "mobs": []
+    },
+    {
+      "id": "elwynn_093",
+      "type": "info",
+      "description": "Talk to Keryn Sylvius and train your class spells. Train Dual Wield and Sprint as a minimum. Do not train excess abilities. Save your money",
+      "classes": ["Rogue"],
+      "races": null,
+      "coords": [43.872, 65.937],
+      "zone": "elwynn_forest",
+      "tips": [
+        {
+          "type": "warning",
+          "class": null,
+          "text": "Train Dual Wield and Sprint as a minimum. Do not train excess abilities. Save your money"
+        }
+      ],
+      "quests": [],
+      "npc": "Keryn Sylvius",
+      "mobs": []
+    },
+    {
+      "id": "elwynn_094",
+      "type": "quest_turnin",
+      "description": "Talk to Maybell Maclure and turn in The Escape",
+      "classes": null,
+      "races": null,
+      "coords": [43.154, 89.625],
+      "zone": "elwynn_forest",
+      "tips": [],
+      "quests": [
+        {
+          "id": 114,
+          "name": "The Escape"
+        }
+      ],
+      "npc": "Maybell Maclure",
+      "mobs": []
+    },
+    {
+      "id": "elwynn_095",
+      "type": "quest_turnin",
+      "description": "Talk to Ma Stonefield and turn in Princess Must Die!",
+      "classes": null,
+      "races": null,
+      "coords": [34.66, 84.482],
+      "zone": "elwynn_forest",
+      "tips": [],
+      "quests": [
+        {
+          "id": 88,
+          "name": "Princess Must Die!"
+        }
+      ],
+      "npc": "Ma Stonefield",
+      "mobs": []
+    },
+    {
+      "id": "elwynn_096",
+      "type": "travel",
+      "description": "Travel to Westbrook Garrison",
+      "classes": null,
+      "races": null,
+      "coords": [24.82, 76.25],
+      "zone": "elwynn_forest",
+      "tips": [],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "elwynn_097",
+      "type": "quest_turnin",
+      "description": "Talk to Deputy Rainer and turn in Westbrook Garrison Needs Help!. Accept Riverpaw Gnoll Bounty. Click the Wanted Poster and accept Wanted: Hogger",
+      "classes": null,
+      "races": null,
+      "coords": [24.548, 74.672],
+      "zone": "elwynn_forest",
+      "tips": [],
+      "quests": [
+        {
+          "id": 239,
+          "name": "Westbrook Garrison Needs Help!"
+        },
+        {
+          "id": 11,
+          "name": "Riverpaw Gnoll Bounty"
+        },
+        {
+          "id": 176,
+          "name": "Wanted: Hogger"
+        }
+      ],
+      "npc": "Deputy Rainer",
+      "mobs": []
+    },
+    {
+      "id": "elwynn_098",
+      "type": "kill",
+      "description": "Kill Hogger. Loot him for his Claw",
+      "classes": null,
+      "races": null,
+      "coords": [25.9, 93.9],
+      "zone": "elwynn_forest",
+      "tips": [
+        {
+          "type": "warning",
+          "class": null,
+          "text": "Hogger can spawn in multiple locations"
+        },
+        {
+          "type": "warning",
+          "class": "Warlock",
+          "text": "Cast Fear on Hogger continously and use your regular DoTs to kill him"
+        },
+        {
+          "type": "warning",
+          "class": null,
+          "text": "This quest is difficult. Find a group for him if needed. Skip this step if you're unable to find a group or solo him"
+        }
+      ],
+      "quests": [
+        {
+          "id": 176,
+          "name": "Wanted: Hogger"
+        }
+      ],
+      "npc": null,
+      "mobs": ["Hogger"]
+    },
+    {
+      "id": "elwynn_099",
+      "type": "kill",
+      "description": "Kill Riverpaw Runts and Riverpaw Outrunners. Loot them for their Armbands",
+      "classes": null,
+      "races": null,
+      "coords": [25.9, 93.9],
+      "zone": "elwynn_forest",
+      "tips": [],
+      "quests": [
+        {
+          "id": 11,
+          "name": "Riverpaw Gnoll Bounty"
+        }
+      ],
+      "npc": null,
+      "mobs": ["Riverpaw Runt", "Riverpaw Outrunner"]
+    },
+    {
+      "id": "elwynn_100",
+      "type": "quest_turnin",
+      "description": "Talk to Marshal Dughan and turn in Wanted: Hogger and The Collector",
+      "classes": null,
+      "races": null,
+      "coords": [42.105, 65.927],
+      "zone": "elwynn_forest",
+      "tips": [],
+      "quests": [
+        {
+          "id": 176,
+          "name": "Wanted: Hogger"
+        },
+        {
+          "id": 123,
+          "name": "The Collector"
+        }
+      ],
+      "npc": "Marshal Dughan",
+      "mobs": []
+    },
+    {
+      "id": "elwynn_101",
+      "type": "quest_turnin",
+      "description": "Talk to Deputy Rainer and turn in Riverpaw Gnoll Bounty",
+      "classes": null,
+      "races": null,
+      "coords": [24.234, 74.45],
+      "zone": "elwynn_forest",
+      "tips": [],
+      "quests": [
+        {
+          "id": 11,
+          "name": "Riverpaw Gnoll Bounty"
+        }
+      ],
+      "npc": "Deputy Rainer",
+      "mobs": []
+    },
+    {
+      "id": "elwynn_102",
+      "type": "travel",
+      "description": "Travel to Westfall",
+      "classes": null,
+      "races": null,
+      "coords": [59.95, 19.35],
+      "zone": "westfall",
+      "tips": [],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "elwynn_103",
+      "type": "quest_turnin",
+      "description": "Talk to Farmer Furlbrow and turn in Furlbrow's Deed",
+      "classes": null,
+      "races": null,
+      "coords": [59.95, 19.35],
+      "zone": "westfall",
+      "tips": [],
+      "quests": [
+        {
+          "id": 184,
+          "name": "Furlbrow's Deed"
+        }
+      ],
+      "npc": "Farmer Furlbrow",
+      "mobs": []
+    },
+    {
+      "id": "elwynn_104",
+      "type": "quest_accept",
+      "description": "Talk to Farmer Furlbrow and Verna Furlbrow. Accept The Forgotten Heirloom, Poor Old Blanchy, and Westfall Stew",
+      "classes": null,
+      "races": null,
+      "coords": [59.92, 19.42],
+      "zone": "westfall",
+      "tips": [],
+      "quests": [
+        {
+          "id": 64,
+          "name": "The Forgotten Heirloom"
+        },
+        {
+          "id": 151,
+          "name": "Poor Old Blanchy"
+        },
+        {
+          "id": 36,
+          "name": "Westfall Stew"
+        }
+      ],
+      "npc": "Verna Furlbrow",
+      "mobs": []
+    },
+    {
+      "id": "elwynn_105",
+      "type": "quest_accept",
+      "description": "Talk to Farmer Saldean and accept The Killing Fields",
+      "classes": null,
+      "races": null,
+      "coords": [56.04, 31.23],
+      "zone": "westfall",
+      "tips": [],
+      "quests": [
+        {
+          "id": 9,
+          "name": "The Killing Fields"
+        }
+      ],
+      "npc": "Farmer Saldean",
+      "mobs": []
+    },
+    {
+      "id": "elwynn_106",
+      "type": "quest_turnin",
+      "description": "Talk to Salma Saldean and turn in Westfall Stew. Accept Westfall Stew and Goretusk Liver Pie",
+      "classes": null,
+      "races": null,
+      "coords": [56.416, 30.519],
+      "zone": "westfall",
+      "tips": [],
+      "quests": [
+        {
+          "id": 36,
+          "name": "Westfall Stew"
+        },
+        {
+          "id": 38,
+          "name": "Westfall Stew"
+        },
+        {
+          "id": 22,
+          "name": "Goretusk Liver Pie"
+        }
+      ],
+      "npc": "Salma Saldean",
+      "mobs": []
+    },
+    {
+      "id": "elwynn_107",
+      "type": "info",
+      "description": "Die and respawn at the Spirit Healer",
+      "classes": null,
+      "races": null,
+      "coords": null,
+      "zone": "",
+      "tips": [],
+      "quests": [],
+      "npc": "Spirit Healer",
+      "mobs": []
+    },
+    {
+      "id": "elwynn_108",
+      "type": "quest_turnin",
+      "description": "Talk to Gryan Stoutmantle and turn in Report to Gryan Stoutmantle. Accept The People's Militia",
+      "classes": null,
+      "races": null,
+      "coords": [56.327, 47.52],
+      "zone": "westfall",
+      "tips": [],
+      "quests": [
+        {
+          "id": 109,
+          "name": "Report to Gryan Stoutmantle"
+        },
+        {
+          "id": 12,
+          "name": "The People's Militia"
+        }
+      ],
+      "npc": "Gryan Stoutmantle",
+      "mobs": []
+    },
+    {
+      "id": "elwynn_109",
+      "type": "quest_accept",
+      "description": "Talk to Captain Danuvin and accept Patrolling Westfall",
+      "classes": null,
+      "races": null,
+      "coords": [56.421, 47.623],
+      "zone": "westfall",
+      "tips": [],
+      "quests": [
+        {
+          "id": 102,
+          "name": "Patrolling Westfall"
+        }
+      ],
+      "npc": "Captain Danuvin",
+      "mobs": []
+    },
+    {
+      "id": "elwynn_110",
+      "type": "quest_accept",
+      "description": "Talk to Quartermaster Lewis and accept A Swift Message. Vendor trash",
+      "classes": ["Human"],
+      "races": null,
+      "coords": [57.002, 47.169],
+      "zone": "westfall",
+      "tips": [
+        {
+          "type": "warning",
+          "class": null,
+          "text": "Vendor trash"
+        }
+      ],
+      "quests": [
+        {
+          "id": 6181,
+          "name": "A Swift Message"
+        }
+      ],
+      "npc": "Quartermaster Lewis",
+      "mobs": []
+    },
+    {
+      "id": "elwynn_111",
+      "type": "quest_turnin",
+      "description": "Talk to Thor and turn in A Swift Message. Accept Continue To Stormwind",
+      "classes": ["Human"],
+      "races": null,
+      "coords": [56.55, 52.64],
+      "zone": "westfall",
+      "tips": [],
+      "quests": [
+        {
+          "id": 6181,
+          "name": "A Swift Message"
+        },
+        {
+          "id": 6281,
+          "name": "Continue To Stormwind"
+        }
+      ],
+      "npc": "Thor",
+      "mobs": []
+    },
+    {
+      "id": "elwynn_112",
+      "type": "fly",
+      "description": "Talk to Thor and fly to Stormwind",
+      "classes": null,
+      "races": null,
+      "coords": [56.55, 52.64],
+      "zone": "westfall",
+      "tips": [],
+      "quests": [],
+      "npc": "Thor",
+      "mobs": []
+    },
+    {
+      "id": "elwynn_113",
+      "type": "info",
+      "description": "Go inside the building. Buy the level 11 thrown from Thurman. Equip it when you're level 11",
+      "classes": ["Rogue"],
+      "races": null,
+      "coords": [58.37, 61.69],
+      "zone": "stormwind_city",
+      "tips": [],
+      "quests": [],
+      "npc": "Thurman Mullby",
+      "mobs": []
+    },
+    {
+      "id": "elwynn_114",
+      "type": "info",
+      "description": "Talk to Thurman Mullby. Buy a Balanced Throwing Dagger. Equip it",
+      "classes": ["Rogue"],
+      "races": null,
+      "coords": [58.362, 61.678],
+      "zone": "stormwind_city",
+      "tips": [
+        {
+          "type": "warning",
+          "class": null,
+          "text": "Buy a Balanced Throwing Dagger. Equip it"
+        }
+      ],
+      "quests": [],
+      "npc": "Thurman Mullby",
+      "mobs": []
+    },
+    {
+      "id": "elwynn_115",
+      "type": "quest_turnin",
+      "description": "Talk to Morgan Pestle and turn in Shipment to Stormwind",
+      "classes": null,
+      "races": null,
+      "coords": [56.201, 64.585],
+      "zone": "stormwind_city",
+      "tips": [
+        {
+          "type": "warning",
+          "class": null,
+          "text": "We choose the Explosive Rockets as the reward. It deals decent damage, and can be used for Split pulling which is incredibly useful"
+        },
+        {
+          "type": "link",
+          "class": null,
+          "text": "Click here for video reference on Split pulling. It is a short video and invaluable to learn",
+          "url": "https://www.youtube.com/watch?v=H-IwZ6P-ldY"
+        }
+      ],
+      "quests": [
+        {
+          "id": 61,
+          "name": "Shipment to Stormwind"
+        }
+      ],
+      "npc": "Morgan Pestle",
+      "mobs": []
+    },
+    {
+      "id": "elwynn_116",
+      "type": "info",
+      "description": "Talk to Woo Ping and train 1h Swords, Staves, or 2h Swords",
+      "classes": null,
+      "races": null,
+      "coords": [57.129, 57.698],
+      "zone": "stormwind_city",
+      "tips": [
+        {
+          "type": "warning",
+          "class": "Warrior",
+          "text": "Train 2h Swords if you have enough money. You must save 20s for later"
+        },
+        {
+          "type": "warning",
+          "class": "Mage",
+          "text": "Train 1h Swords as well if you still have money"
+        },
+        {
+          "type": "warning",
+          "class": "Warlock",
+          "text": "Train 1h Swords as well if you still have money"
+        }
+      ],
+      "quests": [],
+      "npc": "Woo Ping",
+      "mobs": []
+    },
+    {
+      "id": "elwynn_117",
+      "type": "info",
+      "description": "Talk to Gunther Weller. Buy a Cutlass and equip it in your Main-Hand",
+      "classes": ["Rogue"],
+      "races": null,
+      "coords": [57.547, 57.076],
+      "zone": "stormwind_city",
+      "tips": [
+        {
+          "type": "warning",
+          "class": null,
+          "text": "Buy a Cutlass and equip it in your Main-Hand"
+        }
+      ],
+      "quests": [],
+      "npc": "Gunther Weller",
+      "mobs": []
+    },
+    {
+      "id": "elwynn_118",
+      "type": "info",
+      "description": "Talk to Innkeeper Allison and set your Hearthstone to Stormwind City",
+      "classes": null,
+      "races": null,
+      "coords": [52.623, 65.701],
+      "zone": "stormwind_city",
+      "tips": [],
+      "quests": [],
+      "npc": "Innkeeper Allison",
+      "mobs": []
+    },
+    {
+      "id": "elwynn_119",
+      "type": "travel",
+      "description": "Travel to The Slaughtered Lamb and go downstairs",
+      "classes": ["Warlock"],
+      "races": null,
+      "coords": [27.2, 78.1],
+      "zone": "stormwind_city",
+      "tips": [],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "elwynn_120",
+      "type": "quest_turnin",
+      "description": "Talk to Gakin the Darkbinder and turn in Gakin's Summons. Accept Surena Caledon",
+      "classes": ["Warlock"],
+      "races": null,
+      "coords": [25.25, 78.59],
+      "zone": "stormwind_city",
+      "tips": [],
+      "quests": [
+        {
+          "id": 1685,
+          "name": "Gakin's Summons"
+        },
+        {
+          "id": 1688,
+          "name": "Surena Caledon"
+        }
+      ],
+      "npc": "Gakin the Darkbinder",
+      "mobs": []
+    },
+    {
+      "id": "elwynn_121",
+      "type": "info",
+      "description": "Die and respawn at the Spirit Healer by using Life Tap and standing on the Bonfire next to you",
+      "classes": ["Warlock"],
+      "races": null,
+      "coords": null,
+      "zone": "",
+      "tips": [],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "elwynn_122",
+      "type": "travel",
+      "description": "Exit Stormwind. Travel to Goldshire",
+      "classes": ["Warlock"],
+      "races": null,
+      "coords": [42.105, 65.927],
+      "zone": "elwynn_forest",
+      "tips": [],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "elwynn_123",
+      "type": "quest_turnin",
+      "description": "Talk to Marshal Dughan and turn in Wanted: Hogger and The Collector. Accept Manhunt",
+      "classes": ["Warlock"],
+      "races": null,
+      "coords": [42.105, 65.927],
+      "zone": "elwynn_forest",
+      "tips": [
+        {
+          "type": "warning",
+          "class": null,
+          "text": "Choose the Balanced Fighting Stick as your reward. Equip it"
+        }
+      ],
+      "quests": [
+        {
+          "id": 176,
+          "name": "Wanted: Hogger"
+        },
+        {
+          "id": 123,
+          "name": "The Collector"
+        },
+        {
+          "id": 147,
+          "name": "Manhunt"
+        }
+      ],
+      "npc": "Marshal Dughan",
+      "mobs": []
+    },
+    {
+      "id": "elwynn_124",
+      "type": "grind",
+      "description": "Grind to level 11",
+      "classes": ["Warlock"],
+      "races": null,
+      "coords": null,
+      "zone": "",
+      "tips": [],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "elwynn_125",
+      "type": "kill",
+      "description": "Kill Surena Caledon. Loot her for her Choker. Kill Morgan the Collector. Loot him for The Collector's Ring",
+      "classes": ["Warlock"],
+      "races": null,
+      "coords": [71.1, 80.66],
+      "zone": "elwynn_forest",
+      "tips": [
+        {
+          "type": "warning",
+          "class": null,
+          "text": "Focus on killing Surena Caledon very quickly"
+        },
+        {
+          "type": "warning",
+          "class": null,
+          "text": "Cast Fear on Morgan the Collector continously"
+        }
+      ],
+      "quests": [
+        {
+          "id": 1688,
+          "name": "Surena Caledon"
+        },
+        {
+          "id": 147,
+          "name": "Manhunt"
+        }
+      ],
+      "npc": null,
+      "mobs": ["Surena Caledon", "Morgan the Collector"]
+    },
+    {
+      "id": "elwynn_126",
+      "type": "quest_turnin",
+      "description": "Talk to Sara Timberlain and turn in Cloth and Leather Armor",
+      "classes": ["Warlock"],
+      "races": null,
+      "coords": [79.457, 68.789],
+      "zone": "elwynn_forest",
+      "tips": [],
+      "quests": [
+        {
+          "id": 59,
+          "name": "Cloth and Leather Armor"
+        }
+      ],
+      "npc": "Sara Timberlain",
+      "mobs": []
+    },
+    {
+      "id": "elwynn_127",
+      "type": "quest_accept",
+      "description": "Talk to Guard Parker and accept Encroaching Gnolls",
+      "classes": ["Warlock"],
+      "races": null,
+      "coords": [17.4, 69.6],
+      "zone": "redridge_mountains",
+      "tips": [
+        {
+          "type": "warning",
+          "class": null,
+          "text": "Grind en-route. Make sure you have at least 2 Soul Shards by using Drain Soul"
+        }
+      ],
+      "quests": [
+        {
+          "id": 244,
+          "name": "Encroaching Gnolls"
+        }
+      ],
+      "npc": "Guard Parker",
+      "mobs": []
+    },
+    {
+      "id": "elwynn_128",
+      "type": "quest_turnin",
+      "description": "Talk to Deputy Feldon and turn in Encroaching Gnolls",
+      "classes": ["Warlock"],
+      "races": null,
+      "coords": [30.733, 59.996],
+      "zone": "redridge_mountains",
+      "tips": [
+        {
+          "type": "warning",
+          "class": null,
+          "text": "STICK TO THE MAIN ROAD AND AVOID ANY CLOSE MOBS EN-ROUTE"
+        }
+      ],
+      "quests": [
+        {
+          "id": 244,
+          "name": "Encroaching Gnolls"
+        }
+      ],
+      "npc": "Deputy Feldon",
+      "mobs": []
+    },
+    {
+      "id": "elwynn_129",
+      "type": "fly",
+      "description": "Talk to Ariena Stormfeather and get the Redridge Mountains flight path. Fly to Stormwind",
+      "classes": ["Warlock"],
+      "races": null,
+      "coords": [30.59, 59.41],
+      "zone": "redridge_mountains",
+      "tips": [],
+      "quests": [],
+      "npc": "Ariena Stormfeather",
+      "mobs": []
+    },
+    {
+      "id": "elwynn_130",
+      "type": "travel",
+      "description": "Exit Stormwind. Travel to Goldshire",
+      "classes": ["Warlock"],
+      "races": null,
+      "coords": [42.105, 65.927],
+      "zone": "elwynn_forest",
+      "tips": [],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "elwynn_131",
+      "type": "quest_turnin",
+      "description": "Talk to Marshal Dughan and turn in Manhunt",
+      "classes": ["Warlock"],
+      "races": null,
+      "coords": [42.105, 65.927],
+      "zone": "elwynn_forest",
+      "tips": [],
+      "quests": [
+        {
+          "id": 147,
+          "name": "Manhunt"
+        }
+      ],
+      "npc": "Marshal Dughan",
+      "mobs": []
+    },
+    {
+      "id": "elwynn_132",
+      "type": "travel",
+      "description": "Travel to Stormwind City",
+      "classes": ["Warlock"],
+      "races": null,
+      "coords": [70.07, 86.82],
+      "zone": "stormwind_city",
+      "tips": [],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "elwynn_133",
+      "type": "travel",
+      "description": "Travel to The Slaughtered Lamb and go downstairs",
+      "classes": ["Warlock"],
+      "races": null,
+      "coords": [27.2, 78.1],
+      "zone": "stormwind_city",
+      "tips": [],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "elwynn_134",
+      "type": "info",
+      "description": "Talk to Ursula Deline and train your class spells",
+      "classes": ["Warlock"],
+      "races": null,
+      "coords": [26.117, 77.225],
+      "zone": "stormwind_city",
+      "tips": [],
+      "quests": [],
+      "npc": "Ursula Deline",
+      "mobs": []
+    },
+    {
+      "id": "elwynn_135",
+      "type": "quest_turnin",
+      "description": "Talk to Gakin the Darkbinder and turn in Surena Caledon. Accept The Binding",
+      "classes": ["Warlock"],
+      "races": null,
+      "coords": [25.25, 78.59],
+      "zone": "stormwind_city",
+      "tips": [],
+      "quests": [
+        {
+          "id": 1688,
+          "name": "Surena Caledon"
+        },
+        {
+          "id": 1689,
+          "name": "The Binding"
+        }
+      ],
+      "npc": "Gakin the Darkbinder",
+      "mobs": []
+    },
+    {
+      "id": "elwynn_136",
+      "type": "info",
+      "description": "Travel to the bottom of The Slaughtered Lamb. Use the Bloodstone Choker to call forth a Summoned Voidwalker",
+      "classes": ["Warlock"],
+      "races": null,
+      "coords": [25.154, 77.406],
+      "zone": "stormwind_city",
+      "tips": [
+        {
+          "type": "warning",
+          "class": null,
+          "text": "Travel to the bottom of The Slaughtered Lamb"
+        },
+        {
+          "type": "warning",
+          "class": null,
+          "text": "Use the Bloodstone Choker to call forth a Summoned Voidwalker"
+        }
+      ],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "elwynn_137",
+      "type": "kill",
+      "description": "Kill the Summoned Voidwalker",
+      "classes": ["Warlock"],
+      "races": null,
+      "coords": [25.154, 77.406],
+      "zone": "stormwind_city",
+      "tips": [],
+      "quests": [
+        {
+          "id": 1689,
+          "name": "The Binding"
+        }
+      ],
+      "npc": null,
+      "mobs": ["Summoned Voidwalker"]
+    },
+    {
+      "id": "elwynn_138",
+      "type": "quest_turnin",
+      "description": "Talk to Gakin the Darkbinder and turn in The Binding",
+      "classes": ["Warlock"],
+      "races": null,
+      "coords": [25.25, 78.59],
+      "zone": "stormwind_city",
+      "tips": [],
+      "quests": [
+        {
+          "id": 1689,
+          "name": "The Binding"
+        }
+      ],
+      "npc": "Gakin the Darkbinder",
+      "mobs": []
+    },
+    {
+      "id": "elwynn_139",
+      "type": "quest_turnin",
+      "description": "Talk to Osric Strang and turn in Continue to Stormwind. Accept Dungar Longdrink",
+      "classes": ["Human"],
+      "races": null,
+      "coords": [74.312, 47.24],
+      "zone": "stormwind_city",
+      "tips": [],
+      "quests": [
+        {
+          "id": 6281,
+          "name": "Continue to Stormwind"
+        },
+        {
+          "id": 6261,
+          "name": "Dungar Longdrink"
+        }
+      ],
+      "npc": "Osric Strang",
+      "mobs": []
+    },
+    {
+      "id": "elwynn_140",
+      "type": "quest_turnin",
+      "description": "Talk to Harry Burlguard and turn in A Warrior's Training. Accept Bartleby the Drunk",
+      "classes": ["Warrior"],
+      "races": null,
+      "coords": [74.249, 37.244],
+      "zone": "stormwind_city",
+      "tips": [],
+      "quests": [
+        {
+          "id": 1638,
+          "name": "A Warrior's Training"
+        },
+        {
+          "id": 1639,
+          "name": "Bartleby the Drunk"
+        }
+      ],
+      "npc": "Harry Burlguard",
+      "mobs": []
+    },
+    {
+      "id": "elwynn_141",
+      "type": "quest_turnin",
+      "description": "Talk to Bartleby and turn in Bartleby the Drunk. Accept Beat Bartleby",
+      "classes": ["Warrior"],
+      "races": null,
+      "coords": [73.787, 36.323],
+      "zone": "stormwind_city",
+      "tips": [],
+      "quests": [
+        {
+          "id": 1639,
+          "name": "Bartleby the Drunk"
+        },
+        {
+          "id": 1640,
+          "name": "Beat Bartleby"
+        }
+      ],
+      "npc": "Bartleby",
+      "mobs": []
+    },
+    {
+      "id": "elwynn_142",
+      "type": "kill",
+      "description": "Attack Bartleby. He will submit at 1%",
+      "classes": ["Warrior"],
+      "races": null,
+      "coords": [73.787, 36.323],
+      "zone": "stormwind_city",
+      "tips": [],
+      "quests": [
+        {
+          "id": 1640,
+          "name": "Beat Bartleby"
+        }
+      ],
+      "npc": null,
+      "mobs": ["Bartleby"]
+    },
+    {
+      "id": "elwynn_143",
+      "type": "quest_turnin",
+      "description": "Talk to Bartleby and turn in Beat Bartleby. Accept Bartleby's Mug",
+      "classes": ["Warrior"],
+      "races": null,
+      "coords": [73.787, 36.323],
+      "zone": "stormwind_city",
+      "tips": [],
+      "quests": [
+        {
+          "id": 1640,
+          "name": "Beat Bartleby"
+        },
+        {
+          "id": 1665,
+          "name": "Bartleby's Mug"
+        }
+      ],
+      "npc": "Bartleby",
+      "mobs": []
+    },
+    {
+      "id": "elwynn_144",
+      "type": "quest_turnin",
+      "description": "Talk to Harry Burlguard and turn in Bartleby's Mug",
+      "classes": ["Warrior"],
+      "races": null,
+      "coords": [74.249, 37.244],
+      "zone": "stormwind_city",
+      "tips": [],
+      "quests": [
+        {
+          "id": 1665,
+          "name": "Bartleby's Mug"
+        }
+      ],
+      "npc": "Harry Burlguard",
+      "mobs": []
+    },
+    {
+      "id": "elwynn_145",
+      "type": "travel",
+      "description": "Travel to the Stormwind Cathedral",
+      "classes": ["Priest"],
+      "races": null,
+      "coords": [42.51, 33.51],
+      "zone": "stormwind_city",
+      "tips": [],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "elwynn_146",
+      "type": "quest_turnin",
+      "description": "Talk to High Priestess Laurena and train your class spells. Turn in Desperate Prayer",
+      "classes": ["Priest"],
+      "races": null,
+      "coords": [38.54, 26.86],
+      "zone": "stormwind_city",
+      "tips": [],
+      "quests": [
+        {
+          "id": 5635,
+          "name": "Desperate Prayer"
+        }
+      ],
+      "npc": "High Priestess Laurena",
+      "mobs": []
+    },
+    {
+      "id": "elwynn_147",
+      "type": "info",
+      "description": "Talk to High Priestess Laurena and train Desperate Prayer",
+      "classes": ["Priest"],
+      "races": null,
+      "coords": [38.62, 26.1],
+      "zone": "stormwind_city",
+      "tips": [],
+      "quests": [],
+      "npc": "High Priestess Laurena",
+      "mobs": []
+    },
+    {
+      "id": "elwynn_148",
+      "type": "quest_turnin",
+      "description": "Talk to Grimand Elmore and turn in Elmore's Task",
+      "classes": null,
+      "races": null,
+      "coords": [51.757, 12.091],
+      "zone": "stormwind_city",
+      "tips": [],
+      "quests": [
+        {
+          "id": 1097,
+          "name": "Elmore's Task"
+        }
+      ],
+      "npc": "Grimand Elmore",
+      "mobs": []
+    },
+    {
+      "id": "elwynn_149",
+      "type": "quest_accept",
+      "description": "Talk to Grimand Elmore and accept Stormpike's Delivery",
+      "classes": null,
+      "races": null,
+      "coords": [51.757, 12.091],
+      "zone": "stormwind_city",
+      "tips": [],
+      "quests": [
+        {
+          "id": 353,
+          "name": "Stormpike's Delivery"
+        }
+      ],
+      "npc": "Grimand Elmore",
+      "mobs": []
+    },
+    {
+      "id": "elwynn_150",
+      "type": "info",
+      "description": "Talk to Kaita Deepforge. Buy a Mining Pick. You'll train Mining very soon",
+      "classes": ["Warrior", "Paladin", "Rogue"],
+      "races": null,
+      "coords": [56.3, 17.0],
+      "zone": "stormwind_city",
+      "tips": [
+        {
+          "type": "warning",
+          "class": null,
+          "text": "Buy a Mining Pick. You'll train Mining very soon"
+        }
+      ],
+      "quests": [],
+      "npc": "Kaita Deepforge",
+      "mobs": []
+    },
+    {
+      "id": "elwynn_151",
+      "type": "travel",
+      "description": "Enter the Deeprun Tram. Take the Tram to Ironforge",
+      "classes": null,
+      "races": null,
+      "coords": [64.0, 8.1],
+      "zone": "stormwind_city",
+      "tips": [
+        {
+          "type": "warning",
+          "class": null,
+          "text": "Level your First Aid if needed while waiting for the tram"
+        }
+      ],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "elwynn_152",
+      "type": "quest_accept",
+      "description": "Get on the Tram once it arrives. Get off on the other side and look for Monty on the middle platform. Talk to Monty and accept Deeprun Rat Roundup",
+      "classes": null,
+      "races": null,
+      "coords": null,
+      "zone": "",
+      "tips": [
+        {
+          "type": "warning",
+          "class": "Warlock",
+          "text": "Cast Summon Voidwalker and Create Healthstone while waiting"
+        }
+      ],
+      "quests": [
+        {
+          "id": 6661,
+          "name": "Deeprun Rat Roundup"
+        }
+      ],
+      "npc": "Monty",
+      "mobs": []
+    },
+    {
+      "id": "elwynn_153",
+      "type": "info",
+      "description": "Use the Rat Catcher's Flute on Deeprun Rats",
+      "classes": null,
+      "races": null,
+      "coords": null,
+      "zone": "",
+      "tips": [
+        {
+          "type": "warning",
+          "class": null,
+          "text": "Use the Rat Catcher's Flute on Deeprun Rats"
+        }
+      ],
+      "quests": [
+        {
+          "id": 6661,
+          "name": "Deeprun Rat Roundup"
+        }
+      ],
+      "npc": null,
+      "mobs": ["Deeprun Rat"]
+    },
+    {
+      "id": "elwynn_154",
+      "type": "quest_turnin",
+      "description": "Talk to Monty and turn in Deeprun Rat Roundup",
+      "classes": null,
+      "races": null,
+      "coords": null,
+      "zone": "",
+      "tips": [],
+      "quests": [
+        {
+          "id": 6661,
+          "name": "Deeprun Rat Roundup"
+        }
+      ],
+      "npc": "Monty",
+      "mobs": []
+    },
+    {
+      "id": "elwynn_155",
+      "type": "travel",
+      "description": "Enter Ironforge",
+      "classes": null,
+      "races": null,
+      "coords": null,
+      "zone": "",
+      "tips": [],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "elwynn_156",
+      "type": "fly",
+      "description": "Talk to Gryth Thurden and get the Ironforge flight path",
+      "classes": null,
+      "races": null,
+      "coords": [55.501, 47.742],
+      "zone": "ironforge",
+      "tips": [],
+      "quests": [],
+      "npc": "Gryth Thurden",
+      "mobs": []
+    },
+    {
+      "id": "elwynn_157",
+      "type": "info",
+      "description": "Talk to Bixi Wobblebonk and Buliwyf Stonehand. Train Thrown and 2h Maces",
+      "classes": ["Warrior"],
+      "races": null,
+      "coords": [61.177, 89.508],
+      "zone": "ironforge",
+      "tips": [],
+      "quests": [],
+      "npc": "Buliwyf Stonehand",
+      "mobs": []
+    },
+    {
+      "id": "elwynn_158",
+      "type": "info",
+      "description": "Talk to Brenwyn Wintersteel down stairs. Buy a Balanced Throwing Dagger and equip it",
+      "classes": ["Warrior"],
+      "races": null,
+      "coords": [62.375, 88.679],
+      "zone": "ironforge",
+      "tips": [
+        {
+          "type": "warning",
+          "class": null,
+          "text": "Buy a Balanced Throwing Dagger and equip it"
+        }
+      ],
+      "quests": [],
+      "npc": "Brenwyn Wintersteel",
+      "mobs": []
+    },
+    {
+      "id": "elwynn_159",
+      "type": "info",
+      "description": "Talk to an Ironforge Auctioneer. Buy Boar Intestines, Bear Meat, and Spider Ichor",
+      "classes": null,
+      "races": null,
+      "coords": [23.8, 71.8],
+      "zone": "ironforge",
+      "tips": [
+        {
+          "type": "info",
+          "class": null,
+          "text": "Buy the following items for a faster turn in at Loch Modan shortly"
+        },
+        {
+          "type": "info",
+          "class": null,
+          "text": "This will save you time as you won't need to run around looking for mobs to kill. Skip this step if you wish to not buy any"
+        }
+      ],
+      "quests": [],
+      "npc": "Auctioneer Buckler",
+      "mobs": []
+    },
+    {
+      "id": "elwynn_160",
+      "type": "travel",
+      "description": "Exit Ironforge",
+      "classes": null,
+      "races": null,
+      "coords": [52.251, 37.592],
+      "zone": "dun_morogh",
+      "tips": [],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "elwynn_161",
+      "type": "travel",
+      "description": "Travel to Kharanos",
+      "classes": null,
+      "races": null,
+      "coords": [46.005, 48.637],
+      "zone": "dun_morogh",
+      "tips": [],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "elwynn_162",
+      "type": "quest_accept",
+      "description": "Talk to Razzle Sprysprocket and accept Operation Recombobulation",
+      "classes": null,
+      "races": null,
+      "coords": [45.846, 49.365],
+      "zone": "dun_morogh",
+      "tips": [],
+      "quests": [
+        {
+          "id": 412,
+          "name": "Operation Recombobulation"
+        }
+      ],
+      "npc": "Razzle Sprysprocket",
+      "mobs": []
+    },
+    {
+      "id": "elwynn_163",
+      "type": "quest_accept",
+      "description": "Talk to Senir Whitebeard and accept Frostmane Hold",
+      "classes": null,
+      "races": null,
+      "coords": [46.726, 53.826],
+      "zone": "dun_morogh",
+      "tips": [],
+      "quests": [
+        {
+          "id": 287,
+          "name": "Frostmane Hold"
+        }
+      ],
+      "npc": "Senir Whitebeard",
+      "mobs": []
+    },
+    {
+      "id": "elwynn_164",
+      "type": "quest_accept",
+      "description": "Talk to Tundra MacGrann and accept Tundra MacGrann's Stolen Stash",
+      "classes": null,
+      "races": null,
+      "coords": [34.577, 51.652],
+      "zone": "dun_morogh",
+      "tips": [],
+      "quests": [
+        {
+          "id": 312,
+          "name": "Tundra MacGrann's Stolen Stash"
+        }
+      ],
+      "npc": "Tundra MacGrann",
+      "mobs": []
+    },
+    {
+      "id": "elwynn_165",
+      "type": "loot",
+      "description": "Open MacGrann's Meat Locker. Loot it for MacGrann's Dried Meats",
+      "classes": null,
+      "races": null,
+      "coords": [38.517, 53.927],
+      "zone": "dun_morogh",
+      "tips": [
+        {
+          "type": "warning",
+          "class": null,
+          "text": "Wait until Old Icebeard patrols out of the Cave. Once he patrols out of the Cave you can enter and loot MacGrann's Meat Locker"
+        },
+        {
+          "type": "link",
+          "class": null,
+          "text": "Click here for video reference",
+          "url": "https://www.youtube.com/watch?v=o55Y3LjgKoE"
+        },
+        {
+          "type": "warning",
+          "class": "Mage",
+          "text": "Cast Polymorph on Old Icebeard"
+        },
+        {
+          "type": "warning",
+          "class": "Warlock",
+          "text": "Cast Fear on Old Icebeard"
+        }
+      ],
+      "quests": [
+        {
+          "id": 312,
+          "name": "Tundra MacGrann's Stolen Stash"
+        }
+      ],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "elwynn_166",
+      "type": "quest_turnin",
+      "description": "Talk to Tundra MacGrann and turn in Tundra MacGrann's Stolen Stash",
+      "classes": null,
+      "races": null,
+      "coords": [34.577, 51.652],
+      "zone": "dun_morogh",
+      "tips": [],
+      "quests": [
+        {
+          "id": 312,
+          "name": "Tundra MacGrann's Stolen Stash"
+        }
+      ],
+      "npc": "Tundra MacGrann",
+      "mobs": []
+    },
+    {
+      "id": "elwynn_167",
+      "type": "kill",
+      "description": "Kill Leper Gnomes. Loot them for their Gears and Cogs",
+      "classes": null,
+      "races": null,
+      "coords": [25.0, 43.5],
+      "zone": "dun_morogh",
+      "tips": [],
+      "quests": [
+        {
+          "id": 412,
+          "name": "Operation Recombobulation"
+        }
+      ],
+      "npc": null,
+      "mobs": ["Leper Gnome"]
+    },
+    {
+      "id": "elwynn_168",
+      "type": "travel",
+      "description": "Enter Frostmane Hold",
+      "classes": null,
+      "races": null,
+      "coords": [24.509, 50.831],
+      "zone": "dun_morogh",
+      "tips": [],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "elwynn_169",
+      "type": "info",
+      "description": "Drop down to this location to explore Frostmane Hold. If there are mobs below, clear around normally and do NOT drop down",
+      "classes": null,
+      "races": null,
+      "coords": [22.86, 52.16],
+      "zone": "dun_morogh",
+      "tips": [
+        {
+          "type": "warning",
+          "class": null,
+          "text": "Drop down to this location to explore Frostmane Hold. If there are mobs below, clear around normally and do NOT drop down"
+        }
+      ],
+      "quests": [
+        {
+          "id": 287,
+          "name": "Frostmane Hold"
+        }
+      ],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "elwynn_170",
+      "type": "kill",
+      "description": "Kill Frostmane Headhunters",
+      "classes": null,
+      "races": null,
+      "coords": [21.3, 52.9],
+      "zone": "dun_morogh",
+      "tips": [],
+      "quests": [
+        {
+          "id": 287,
+          "name": "Frostmane Hold"
+        }
+      ],
+      "npc": null,
+      "mobs": ["Frostmane Headhunter"]
+    },
+    {
+      "id": "elwynn_171",
+      "type": "travel",
+      "description": "Travel to Kharanos",
+      "classes": null,
+      "races": null,
+      "coords": [45.846, 49.365],
+      "zone": "dun_morogh",
+      "tips": [],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "elwynn_172",
+      "type": "quest_turnin",
+      "description": "Talk to Razzle Sprysprocket and turn in Operation Recombobulation",
+      "classes": null,
+      "races": null,
+      "coords": [45.846, 49.365],
+      "zone": "dun_morogh",
+      "tips": [],
+      "quests": [
+        {
+          "id": 412,
+          "name": "Operation Recombobulation"
+        }
+      ],
+      "npc": "Razzle Sprysprocket",
+      "mobs": []
+    },
+    {
+      "id": "elwynn_173",
+      "type": "quest_turnin",
+      "description": "Talk to Senir Whitebeard and turn in Frostmane Hold. Accept The Reports",
+      "classes": null,
+      "races": null,
+      "coords": [46.726, 53.826],
+      "zone": "dun_morogh",
+      "tips": [],
+      "quests": [
+        {
+          "id": 287,
+          "name": "Frostmane Hold"
+        },
+        {
+          "id": 291,
+          "name": "The Reports"
+        }
+      ],
+      "npc": "Senir Whitebeard",
+      "mobs": []
+    },
+    {
+      "id": "elwynn_174",
+      "type": "quest_accept",
+      "description": "Talk to Rudra Amberstill and accept Protecting the Herd",
+      "classes": null,
+      "races": null,
+      "coords": [63.082, 49.851],
+      "zone": "dun_morogh",
+      "tips": [],
+      "quests": [
+        {
+          "id": 314,
+          "name": "Protecting the Herd"
+        }
+      ],
+      "npc": "Rudra Amberstill",
+      "mobs": []
+    },
+    {
+      "id": "elwynn_175",
+      "type": "travel",
+      "description": "Run up this part of the mountain",
+      "classes": null,
+      "races": null,
+      "coords": [62.2, 49.4],
+      "zone": "dun_morogh",
+      "tips": [],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "elwynn_176",
+      "type": "kill",
+      "description": "Kill Vagash. Loot him for his Fang",
+      "classes": null,
+      "races": null,
+      "coords": [62.6, 46.1],
+      "zone": "dun_morogh",
+      "tips": [
+        {
+          "type": "warning",
+          "class": null,
+          "text": "This quest is difficult. Find a group for him if needed. Skip this step if you're unable to find a group or solo him"
+        },
+        {
+          "type": "warning",
+          "class": null,
+          "text": "Watch the video below before you attempt to kill Vagash. It can be soloed on any class"
+        },
+        {
+          "type": "link",
+          "class": null,
+          "text": "Click here for video reference",
+          "url": "https://www.youtube.com/watch?v=ZJX6sCkm5JY"
+        }
+      ],
+      "quests": [
+        {
+          "id": 314,
+          "name": "Protecting the Herd"
+        }
+      ],
+      "npc": null,
+      "mobs": ["Vagash"]
+    },
+    {
+      "id": "elwynn_177",
+      "type": "quest_turnin",
+      "description": "Talk to Rudra Amberstill and turn in Protecting the Herd",
+      "classes": null,
+      "races": null,
+      "coords": [63.082, 49.851],
+      "zone": "dun_morogh",
+      "tips": [],
+      "quests": [
+        {
+          "id": 314,
+          "name": "Protecting the Herd"
+        }
+      ],
+      "npc": "Rudra Amberstill",
+      "mobs": []
+    },
+    {
+      "id": "elwynn_178",
+      "type": "info",
+      "description": "Talk to Cook Ghilm and train Cooking",
+      "classes": null,
+      "races": null,
+      "coords": [68.379, 54.492],
+      "zone": "dun_morogh",
+      "tips": [],
+      "quests": [],
+      "npc": "Cook Ghilm",
+      "mobs": []
+    },
+    {
+      "id": "elwynn_179",
+      "type": "info",
+      "description": "Talk to Kazan Mogosh. Buy Freshly Baked Bread if needed. Buy Freshly Baked Bread and Ice Cold Milk if needed",
+      "classes": null,
+      "races": null,
+      "coords": [68.614, 54.643],
+      "zone": "dun_morogh",
+      "tips": [
+        {
+          "type": "warning",
+          "class": "Warrior",
+          "text": "Buy Freshly Baked Bread if needed"
+        },
+        {
+          "type": "warning",
+          "class": "Rogue",
+          "text": "Buy Freshly Baked Bread if needed"
+        }
+      ],
+      "quests": [],
+      "npc": "Kazan Mogosh",
+      "mobs": []
+    },
+    {
+      "id": "elwynn_180",
+      "type": "quest_accept",
+      "description": "Talk to Senator Mehr Stonehallow and Foreman Stonebrow. Accept The Public Servant and Those Blasted Troggs!",
+      "classes": null,
+      "races": null,
+      "coords": [69.084, 56.33],
+      "zone": "dun_morogh",
+      "tips": [],
+      "quests": [
+        {
+          "id": 433,
+          "name": "The Public Servant"
+        },
+        {
+          "id": 432,
+          "name": "Those Blasted Troggs!"
+        }
+      ],
+      "npc": "Foreman Stonebrow",
+      "mobs": []
+    },
+    {
+      "id": "elwynn_181",
+      "type": "info",
+      "description": "Talk to Dank Drizzlecut and train Mining",
+      "classes": ["Warrior", "Paladin", "Rogue"],
+      "races": null,
+      "coords": [69.324, 55.456],
+      "zone": "dun_morogh",
+      "tips": [],
+      "quests": [],
+      "npc": "Dank Drizzlecut",
+      "mobs": []
+    },
+    {
+      "id": "elwynn_182",
+      "type": "info",
+      "description": "Cast Find Minerals",
+      "classes": ["Warrior", "Paladin", "Rogue"],
+      "races": null,
+      "coords": null,
+      "zone": "",
+      "tips": [
+        {
+          "type": "warning",
+          "class": null,
+          "text": "Cast Find Minerals"
+        }
+      ],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "elwynn_183",
+      "type": "kill",
+      "description": "Kill Rockjaw Skullthumpers and Rockjaw Bonesnappers",
+      "classes": null,
+      "races": null,
+      "coords": [70.7, 56.4],
+      "zone": "dun_morogh",
+      "tips": [],
+      "quests": [
+        {
+          "id": 432,
+          "name": "Those Blasted Troggs!"
+        },
+        {
+          "id": 433,
+          "name": "The Public Servant"
+        }
+      ],
+      "npc": null,
+      "mobs": ["Rockjaw Skullthumper", "Rockjaw Bonesnapper"]
+    },
+    {
+      "id": "elwynn_184",
+      "type": "grind",
+      "description": "Grind until 6350+/7600xp",
+      "classes": null,
+      "races": null,
+      "coords": null,
+      "zone": "",
+      "tips": [],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "elwynn_185",
+      "type": "quest_turnin",
+      "description": "Talk to Foreman Stonebrow and Senator Mehr Stonehallow. Turn in Those Blasted Troggs! and The Public Servant",
+      "classes": null,
+      "races": null,
+      "coords": [68.671, 55.969],
+      "zone": "dun_morogh",
+      "tips": [],
+      "quests": [
+        {
+          "id": 432,
+          "name": "Those Blasted Troggs!"
+        },
+        {
+          "id": 433,
+          "name": "The Public Servant"
+        }
+      ],
+      "npc": "Senator Mehr Stonehallow",
+      "mobs": []
+    },
+    {
+      "id": "elwynn_186",
+      "type": "info",
+      "description": "Talk to Kazan Mogosh. Vendor trash. Buy 20 Ice Cold Milk",
+      "classes": null,
+      "races": null,
+      "coords": [68.614, 54.643],
+      "zone": "dun_morogh",
+      "tips": [
+        {
+          "type": "warning",
+          "class": "Priest",
+          "text": "Buy 20 Ice Cold Milk"
+        },
+        {
+          "type": "warning",
+          "class": "Warlock",
+          "text": "Buy 20 Ice Cold Milk"
+        },
+        {
+          "type": "warning",
+          "class": "Mage",
+          "text": "Buy 20 Ice Cold Milk"
+        }
+      ],
+      "quests": [],
+      "npc": "Kazan Mogosh",
+      "mobs": []
+    },
+    {
+      "id": "elwynn_187",
+      "type": "grind",
+      "description": "Grind to level 11",
+      "classes": null,
+      "races": null,
+      "coords": null,
+      "zone": "",
+      "tips": [],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "elwynn_188",
+      "type": "quest_accept",
+      "description": "Talk to Pilot Hammerfoot and accept The Lost Pilot",
+      "classes": null,
+      "races": null,
+      "coords": [83.892, 39.188],
+      "zone": "dun_morogh",
+      "tips": [],
+      "quests": [
+        {
+          "id": 419,
+          "name": "The Lost Pilot"
+        }
+      ],
+      "npc": "Pilot Hammerfoot",
+      "mobs": []
+    },
+    {
+      "id": "elwynn_189",
+      "type": "info",
+      "description": "Click the Dwarven Corpse and turn in The Lost Pilot. Accept A Pilot's Revenge",
+      "classes": null,
+      "races": null,
+      "coords": [79.672, 36.171],
+      "zone": "dun_morogh",
+      "tips": [],
+      "quests": [
+        {
+          "id": 419,
+          "name": "The Lost Pilot"
+        },
+        {
+          "id": 417,
+          "name": "A Pilot's Revenge"
+        }
+      ],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "elwynn_190",
+      "type": "kill",
+      "description": "Kill Mangeclaw. Loot him for his Claw",
+      "classes": null,
+      "races": null,
+      "coords": [78.97, 37.14],
+      "zone": "dun_morogh",
+      "tips": [],
+      "quests": [
+        {
+          "id": 417,
+          "name": "A Pilot's Revenge"
+        }
+      ],
+      "npc": null,
+      "mobs": ["Mangeclaw"]
+    },
+    {
+      "id": "elwynn_191",
+      "type": "quest_turnin",
+      "description": "Talk to Pilot Hammerfoot and turn in A Pilot's Revenge",
+      "classes": null,
+      "races": null,
+      "coords": [83.892, 39.188],
+      "zone": "dun_morogh",
+      "tips": [
+        {
+          "type": "warning",
+          "class": "Rogue",
+          "text": "Choose the Craftsman's Dagger as your reward. Equip it in your Off-Hand"
+        }
+      ],
+      "quests": [
+        {
+          "id": 417,
+          "name": "A Pilot's Revenge"
+        }
+      ],
+      "npc": "Pilot Hammerfoot",
+      "mobs": []
+    },
+    {
+      "id": "elwynn_192",
+      "type": "travel",
+      "description": "Travel to Loch Modan",
+      "classes": null,
+      "races": null,
+      "coords": [84.4, 31.1],
+      "zone": "dun_morogh",
+      "tips": [],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    }
+  ]
+}

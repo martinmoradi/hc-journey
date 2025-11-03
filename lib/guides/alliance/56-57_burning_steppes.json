@@ -1,0 +1,1417 @@
+{
+  "zone": "Burning Steppes",
+  "levelRange": "56-57",
+  "faction": "Alliance",
+  "name": "56-57_burning_steppes",
+  "next": "57-58_western_eastern_plaguelands",
+  "steps": [
+    {
+      "id": "burning_steppes_001",
+      "type": "quest_turnin",
+      "description": "Talk to Tymor and turn in Return to Tymor",
+      "classes": ["Mage"],
+      "races": null,
+      "coords": [30.96, 4.82],
+      "zone": "ironforge",
+      "tips": [],
+      "quests": [
+        {
+          "id": 3461,
+          "name": "Return to Tymor"
+        }
+      ],
+      "npc": "Tymor",
+      "mobs": []
+    },
+    {
+      "id": "burning_steppes_002",
+      "type": "quest_turnin",
+      "description": "Talk to Laris Geardawdle and turn in A Little Slime Goes a Long Way",
+      "classes": null,
+      "races": null,
+      "coords": [75.768, 23.389],
+      "zone": "ironforge",
+      "tips": [],
+      "quests": [
+        {
+          "id": 4513,
+          "name": "A Little Slime Goes a Long Way"
+        }
+      ],
+      "npc": "Laris Geardawdle",
+      "mobs": []
+    },
+    {
+      "id": "burning_steppes_003",
+      "type": "quest_turnin",
+      "description": "Talk to Tymor and turn in Return to Tymor",
+      "classes": ["!Mage"],
+      "races": null,
+      "coords": [30.96, 4.82],
+      "zone": "ironforge",
+      "tips": [],
+      "quests": [
+        {
+          "id": 3461,
+          "name": "Return to Tymor"
+        }
+      ],
+      "npc": "Tymor",
+      "mobs": []
+    },
+    {
+      "id": "burning_steppes_004",
+      "type": "quest_accept",
+      "description": "Talk to Royal Historian Archesonus and accept The Smoldering Ruins of Thaurissan",
+      "classes": null,
+      "races": null,
+      "coords": [38.368, 55.303],
+      "zone": "ironforge",
+      "tips": [],
+      "quests": [
+        {
+          "id": 3702,
+          "name": "The Smoldering Ruins of Thaurissan"
+        }
+      ],
+      "npc": "Royal Historian Archesonus",
+      "mobs": []
+    },
+    {
+      "id": "burning_steppes_005",
+      "type": "info",
+      "description": "Talk to Royal Historian Archesonus",
+      "classes": null,
+      "races": null,
+      "coords": [38.368, 55.303],
+      "zone": "ironforge",
+      "tips": [],
+      "quests": [
+        {
+          "id": 3702,
+          "name": "The Smoldering Ruins of Thaurissan"
+        }
+      ],
+      "npc": "Royal Historian Archesonus",
+      "mobs": []
+    },
+    {
+      "id": "burning_steppes_006",
+      "type": "quest_turnin",
+      "description": "Talk to Royal Historian Archesonus, turn in The Smoldering Ruins of Thaurissan, and accept The Smoldering Ruins of Thaurissan",
+      "classes": null,
+      "races": null,
+      "coords": [38.368, 55.303],
+      "zone": "ironforge",
+      "tips": [],
+      "quests": [
+        {
+          "id": 3702,
+          "name": "The Smoldering Ruins of Thaurissan"
+        },
+        {
+          "id": 3701,
+          "name": "The Smoldering Ruins of Thaurissan"
+        }
+      ],
+      "npc": "Royal Historian Archesonus",
+      "mobs": []
+    },
+    {
+      "id": "burning_steppes_007",
+      "type": "info",
+      "description": "Talk to Innkeeper Firebrew. Set your Hearthstone to Ironforge",
+      "classes": null,
+      "races": null,
+      "coords": [18.1, 51.6],
+      "zone": "ironforge",
+      "tips": [],
+      "quests": [],
+      "npc": "Innkeeper Firebrew",
+      "mobs": []
+    },
+    {
+      "id": "burning_steppes_008",
+      "type": "fly",
+      "description": "Talk to Gryth Thurden and fly to Burning Steppes",
+      "classes": null,
+      "races": null,
+      "coords": [55.492, 47.728],
+      "zone": "ironforge",
+      "tips": [],
+      "quests": [],
+      "npc": "Gryth Thurden",
+      "mobs": []
+    },
+    {
+      "id": "burning_steppes_009",
+      "type": "quest_accept",
+      "description": "Talk to Oralius and accept FIFTY! YEP! and Gor'tesh the Brute Lord",
+      "classes": null,
+      "races": null,
+      "coords": [84.554, 68.679],
+      "zone": "burning_steppes",
+      "tips": [],
+      "quests": [
+        {
+          "id": 4283,
+          "name": "FIFTY! YEP!"
+        },
+        {
+          "id": 3824,
+          "name": "Gor'tesh the Brute Lord"
+        }
+      ],
+      "npc": "Oralius",
+      "mobs": []
+    },
+    {
+      "id": "burning_steppes_010",
+      "type": "quest_accept",
+      "description": "Talk to Helendis Riverhorn and accept Dragonkin Menace",
+      "classes": null,
+      "races": null,
+      "coords": [85.82, 68.948],
+      "zone": "burning_steppes",
+      "tips": [],
+      "quests": [
+        {
+          "id": 4182,
+          "name": "Dragonkin Menace"
+        }
+      ],
+      "npc": "Helendis Riverhorn",
+      "mobs": []
+    },
+    {
+      "id": "burning_steppes_011",
+      "type": "travel",
+      "description": "Travel to Flame Crest",
+      "classes": null,
+      "races": null,
+      "coords": [65.236, 24.007],
+      "zone": "burning_steppes",
+      "tips": [],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "burning_steppes_012",
+      "type": "quest_accept",
+      "description": "Talk to Tinkee Steamboil and Maxwort Uberglint, and accept Broodling Essence and Tablet of the Seven",
+      "classes": null,
+      "races": null,
+      "coords": [65.152, 23.911],
+      "zone": "burning_steppes",
+      "tips": [],
+      "quests": [
+        {
+          "id": 4726,
+          "name": "Broodling Essence"
+        },
+        {
+          "id": 4296,
+          "name": "Tablet of the Seven"
+        }
+      ],
+      "npc": "Maxwort Uberglint",
+      "mobs": []
+    },
+    {
+      "id": "burning_steppes_013",
+      "type": "kill",
+      "description": "Kill Black Broodlings, Black Dragonspawns, Black Wyrmkins and a Black Drake",
+      "classes": null,
+      "races": null,
+      "coords": null,
+      "zone": "",
+      "tips": [],
+      "quests": [
+        {
+          "id": 4182,
+          "name": "Dragonkin Menace"
+        }
+      ],
+      "npc": null,
+      "mobs": [
+        "Black Broodling",
+        "Black Dragonspawn",
+        "Black Drake",
+        "Black Wyrmkin"
+      ]
+    },
+    {
+      "id": "burning_steppes_014",
+      "type": "loot",
+      "description": "Use the Draco-Incarcinatrix 900 on Black Broodlings, then kill them. Note that taking damage will stop your cast. Loot the Broodling Essence on the ground after they die",
+      "classes": null,
+      "races": null,
+      "coords": null,
+      "zone": "",
+      "tips": [
+        {
+          "type": "warning",
+          "class": null,
+          "text": "Use the Draco-Incarcinatrix 900 on Black Broodlings, then kill them. Note that taking damage will stop your cast"
+        }
+      ],
+      "quests": [
+        {
+          "id": 4726,
+          "name": "Broodling Essence"
+        }
+      ],
+      "npc": null,
+      "mobs": ["Black Broodling"]
+    },
+    {
+      "id": "burning_steppes_015",
+      "type": "quest_accept",
+      "description": "Talk to Cyrus Therepentous and accept A Taste of Flame",
+      "classes": null,
+      "races": null,
+      "coords": [95.074, 31.553],
+      "zone": "burning_steppes",
+      "tips": [],
+      "quests": [
+        {
+          "id": 4022,
+          "name": "A Taste of Flame"
+        }
+      ],
+      "npc": "Cyrus Therepentous",
+      "mobs": []
+    },
+    {
+      "id": "burning_steppes_016",
+      "type": "quest_turnin",
+      "description": "Talk to Cyrus Therepentous. Select the gossip option: I present you with proof of my deeds, Cyrus, and turn in A Taste of Flame",
+      "classes": null,
+      "races": null,
+      "coords": [95.074, 31.553],
+      "zone": "burning_steppes",
+      "tips": [],
+      "quests": [
+        {
+          "id": 4022,
+          "name": "A Taste of Flame"
+        }
+      ],
+      "npc": "Cyrus Therepentous",
+      "mobs": []
+    },
+    {
+      "id": "burning_steppes_017",
+      "type": "loot",
+      "description": "Use the Draco-Incarcinatrix 900 on Black Broodlings, then kill them. Note that taking damage will stop your cast. Loot the Broodling Essence on the ground after they die",
+      "classes": null,
+      "races": null,
+      "coords": [90.6, 43.6],
+      "zone": "burning_steppes",
+      "tips": [
+        {
+          "type": "warning",
+          "class": null,
+          "text": "Use the Draco-Incarcinatrix 900 on Black Broodlings, then kill them. Note that taking damage will stop your cast"
+        }
+      ],
+      "quests": [
+        {
+          "id": 4726,
+          "name": "Broodling Essence"
+        }
+      ],
+      "npc": null,
+      "mobs": ["Black Broodling"]
+    },
+    {
+      "id": "burning_steppes_018",
+      "type": "kill",
+      "description": "Kill Black Broodlings, Black Dragonspawns, Black Wyrmkins and a Black Drake",
+      "classes": null,
+      "races": null,
+      "coords": [90.6, 43.6],
+      "zone": "burning_steppes",
+      "tips": [],
+      "quests": [
+        {
+          "id": 4182,
+          "name": "Dragonkin Menace"
+        }
+      ],
+      "npc": null,
+      "mobs": [
+        "Black Broodling",
+        "Black Dragonspawn",
+        "Black Drake",
+        "Black Wyrmkin"
+      ]
+    },
+    {
+      "id": "burning_steppes_019",
+      "type": "loot",
+      "description": "Click the Thaurissan Relics on the ground",
+      "classes": null,
+      "races": null,
+      "coords": null,
+      "zone": "",
+      "tips": [],
+      "quests": [
+        {
+          "id": 3701,
+          "name": "The Smoldering Ruins of Thaurissan"
+        }
+      ],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "burning_steppes_020",
+      "type": "loot",
+      "description": "Click the Tablet of the Seven. Loot it for the Tablet Transcript",
+      "classes": null,
+      "races": null,
+      "coords": [54.121, 40.757],
+      "zone": "burning_steppes",
+      "tips": [],
+      "quests": [
+        {
+          "id": 4296,
+          "name": "Tablet of the Seven"
+        }
+      ],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "burning_steppes_021",
+      "type": "loot",
+      "description": "Click the Thaurissan Relics on the ground",
+      "classes": null,
+      "races": null,
+      "coords": [57.4, 36.4],
+      "zone": "burning_steppes",
+      "tips": [],
+      "quests": [
+        {
+          "id": 3701,
+          "name": "The Smoldering Ruins of Thaurissan"
+        }
+      ],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "burning_steppes_022",
+      "type": "kill",
+      "description": "Kill Blackrock Orcs and Worgs. Loot them for their Blackrock Medallions",
+      "classes": null,
+      "races": null,
+      "coords": null,
+      "zone": "",
+      "tips": [],
+      "quests": [
+        {
+          "id": 4283,
+          "name": "FIFTY! YEP!"
+        }
+      ],
+      "npc": null,
+      "mobs": [
+        "Blackrock Slayer",
+        "Blackrock Warlock",
+        "Blackrock Sorcerer",
+        "Blackrock Soldier",
+        "Blackrock Worg",
+        "Slavering Ember Worg",
+        "Giant Ember Worg"
+      ]
+    },
+    {
+      "id": "burning_steppes_023",
+      "type": "kill",
+      "description": "Kill Gor'tesh. Loot him for his Head. Gor'tesh hits very hard and has a thrash attack, be careful",
+      "classes": null,
+      "races": null,
+      "coords": [39.21, 55.27],
+      "zone": "burning_steppes",
+      "tips": [
+        {
+          "type": "warning",
+          "class": null,
+          "text": "Gor'tesh hits very hard and has a thrash attack, be careful"
+        }
+      ],
+      "quests": [
+        {
+          "id": 3824,
+          "name": "Gor'tesh the Brute Lord"
+        }
+      ],
+      "npc": null,
+      "mobs": ["Gor'tesh"]
+    },
+    {
+      "id": "burning_steppes_024",
+      "type": "kill",
+      "description": "Kill Blackrock Orcs and Worgs. Loot them for their Blackrock Medallions",
+      "classes": null,
+      "races": null,
+      "coords": [48.8, 59.6],
+      "zone": "burning_steppes",
+      "tips": [],
+      "quests": [
+        {
+          "id": 4283,
+          "name": "FIFTY! YEP!"
+        }
+      ],
+      "npc": null,
+      "mobs": [
+        "Blackrock Slayer",
+        "Blackrock Warlock",
+        "Blackrock Sorcerer",
+        "Blackrock Soldier",
+        "Blackrock Worg",
+        "Slavering Ember Worg",
+        "Giant Ember Worg"
+      ]
+    },
+    {
+      "id": "burning_steppes_025",
+      "type": "quest_turnin",
+      "description": "Talk to Oralius, turn in FIFTY! YEP! and Gor'tesh the Brute Lord, and accept Ogre Head On A Stick = Party",
+      "classes": null,
+      "races": null,
+      "coords": [84.554, 68.679],
+      "zone": "burning_steppes",
+      "tips": [],
+      "quests": [
+        {
+          "id": 4283,
+          "name": "FIFTY! YEP!"
+        },
+        {
+          "id": 3824,
+          "name": "Gor'tesh the Brute Lord"
+        },
+        {
+          "id": 3825,
+          "name": "Ogre Head On A Stick = Party"
+        }
+      ],
+      "npc": "Oralius",
+      "mobs": []
+    },
+    {
+      "id": "burning_steppes_026",
+      "type": "quest_turnin",
+      "description": "Talk to Helendis Riverhorn, turn in Dragonkin Menace, and accept The True Masters",
+      "classes": null,
+      "races": null,
+      "coords": [85.82, 68.948],
+      "zone": "burning_steppes",
+      "tips": [],
+      "quests": [
+        {
+          "id": 4182,
+          "name": "Dragonkin Menace"
+        },
+        {
+          "id": 4183,
+          "name": "The True Masters"
+        }
+      ],
+      "npc": "Helendis Riverhorn",
+      "mobs": []
+    },
+    {
+      "id": "burning_steppes_027",
+      "type": "quest_accept",
+      "description": "Talk to Helendis Riverhorn and accept The True Masters",
+      "classes": null,
+      "races": null,
+      "coords": [85.82, 68.948],
+      "zone": "burning_steppes",
+      "tips": [],
+      "quests": [
+        {
+          "id": 4183,
+          "name": "The True Masters"
+        }
+      ],
+      "npc": "Helendis Riverhorn",
+      "mobs": []
+    },
+    {
+      "id": "burning_steppes_028",
+      "type": "info",
+      "description": "Abandon Dragonkin Menace",
+      "classes": null,
+      "races": null,
+      "coords": null,
+      "zone": "",
+      "tips": [],
+      "quests": [
+        {
+          "id": 4182,
+          "name": "Dragonkin Menace"
+        }
+      ],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "burning_steppes_029",
+      "type": "fly",
+      "description": "Talk to Borgus Stoutarm and fly to Redridge",
+      "classes": null,
+      "races": null,
+      "coords": [84.333, 68.328],
+      "zone": "burning_steppes",
+      "tips": [],
+      "quests": [],
+      "npc": "Borgus Stoutarm",
+      "mobs": []
+    },
+    {
+      "id": "burning_steppes_030",
+      "type": "quest_turnin",
+      "description": "Talk to Magistrate Solomon, turn in The True Masters, and accept The True Masters",
+      "classes": null,
+      "races": null,
+      "coords": [29.98, 44.45],
+      "zone": "redridge_mountains",
+      "tips": [],
+      "quests": [
+        {
+          "id": 4183,
+          "name": "The True Masters"
+        },
+        {
+          "id": 4184,
+          "name": "The True Masters"
+        }
+      ],
+      "npc": "Magistrate Solomon",
+      "mobs": []
+    },
+    {
+      "id": "burning_steppes_031",
+      "type": "fly",
+      "description": "Talk to Ariena Stormfeather and fly to Stormwind",
+      "classes": null,
+      "races": null,
+      "coords": [30.59, 59.41],
+      "zone": "redridge_mountains",
+      "tips": [],
+      "quests": [],
+      "npc": "Ariena Stormfeather",
+      "mobs": []
+    },
+    {
+      "id": "burning_steppes_032",
+      "type": "quest_accept",
+      "description": "Talk to Highlord Bolvar Fordragon, accept The First and the Last, turn in The True Masters, and accept The True Masters",
+      "classes": null,
+      "races": null,
+      "coords": [78.213, 17.98],
+      "zone": "stormwind_city",
+      "tips": [],
+      "quests": [
+        {
+          "id": 6182,
+          "name": "The First and the Last"
+        },
+        {
+          "id": 4184,
+          "name": "The True Masters"
+        },
+        {
+          "id": 4185,
+          "name": "The True Masters"
+        }
+      ],
+      "npc": "Highlord Bolvar Fordragon",
+      "mobs": []
+    },
+    {
+      "id": "burning_steppes_033",
+      "type": "quest_turnin",
+      "description": "Talk to Highlord Bolvar Fordragon, turn in The True Masters, and accept The True Masters",
+      "classes": null,
+      "races": null,
+      "coords": [78.213, 17.98],
+      "zone": "stormwind_city",
+      "tips": [],
+      "quests": [
+        {
+          "id": 4184,
+          "name": "The True Masters"
+        },
+        {
+          "id": 4185,
+          "name": "The True Masters"
+        }
+      ],
+      "npc": "Highlord Bolvar Fordragon",
+      "mobs": []
+    },
+    {
+      "id": "burning_steppes_034",
+      "type": "info",
+      "description": "Talk to Lady Katrana Prestor. Select the gossip option",
+      "classes": null,
+      "races": null,
+      "coords": [78.102, 17.75],
+      "zone": "stormwind_city",
+      "tips": [],
+      "quests": [
+        {
+          "id": 4185,
+          "name": "The True Masters"
+        }
+      ],
+      "npc": "Lady Katrana Prestor",
+      "mobs": []
+    },
+    {
+      "id": "burning_steppes_035",
+      "type": "quest_turnin",
+      "description": "Talk to Highlord Bolvar Fordragon, turn in The True Masters, and accept The True Masters",
+      "classes": null,
+      "races": null,
+      "coords": [78.213, 17.98],
+      "zone": "stormwind_city",
+      "tips": [],
+      "quests": [
+        {
+          "id": 4185,
+          "name": "The True Masters"
+        },
+        {
+          "id": 4186,
+          "name": "The True Masters"
+        }
+      ],
+      "npc": "Highlord Bolvar Fordragon",
+      "mobs": []
+    },
+    {
+      "id": "burning_steppes_036",
+      "type": "travel",
+      "description": "Enter the SI:7 Headquarters. Travel up stairs toward Master Mathias Shaw",
+      "classes": null,
+      "races": null,
+      "coords": [78.67, 60.13],
+      "zone": "stormwind_city",
+      "tips": [],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "burning_steppes_037",
+      "type": "quest_turnin",
+      "description": "Talk to Master Mathias Shaw, turn in The First and the Last, accept Honor the Dead, turn in Honor the Dead, and accept Flint Shadowmore",
+      "classes": null,
+      "races": null,
+      "coords": [75.78, 59.84],
+      "zone": "stormwind_city",
+      "tips": [],
+      "quests": [
+        {
+          "id": 6182,
+          "name": "The First and the Last"
+        },
+        {
+          "id": 6183,
+          "name": "Honor the Dead"
+        },
+        {
+          "id": 6184,
+          "name": "Flint Shadowmore"
+        }
+      ],
+      "npc": "Master Mathias Shaw",
+      "mobs": []
+    },
+    {
+      "id": "burning_steppes_038",
+      "type": "fly",
+      "description": "Talk to Dungar Longdrink and fly to Redridge",
+      "classes": null,
+      "races": null,
+      "coords": [66.277, 62.137],
+      "zone": "stormwind_city",
+      "tips": [],
+      "quests": [],
+      "npc": "Dungar Longdrink",
+      "mobs": []
+    },
+    {
+      "id": "burning_steppes_039",
+      "type": "quest_turnin",
+      "description": "Talk to Magistrate Solomon, turn in The True Masters, and accept The True Masters",
+      "classes": null,
+      "races": null,
+      "coords": [29.98, 44.45],
+      "zone": "redridge_mountains",
+      "tips": [],
+      "quests": [
+        {
+          "id": 4186,
+          "name": "The True Masters"
+        },
+        {
+          "id": 4223,
+          "name": "The True Masters"
+        }
+      ],
+      "npc": "Magistrate Solomon",
+      "mobs": []
+    },
+    {
+      "id": "burning_steppes_040",
+      "type": "fly",
+      "description": "Talk to Ariena Stormfeather and fly to Burning Steppes",
+      "classes": null,
+      "races": null,
+      "coords": [30.59, 59.41],
+      "zone": "redridge_mountains",
+      "tips": [],
+      "quests": [],
+      "npc": "Ariena Stormfeather",
+      "mobs": []
+    },
+    {
+      "id": "burning_steppes_041",
+      "type": "quest_turnin",
+      "description": "Talk to Marshal Maxwell, turn in The True Masters, and accept The True Masters",
+      "classes": null,
+      "races": null,
+      "coords": [84.744, 69.015],
+      "zone": "burning_steppes",
+      "tips": [],
+      "quests": [
+        {
+          "id": 4223,
+          "name": "The True Masters"
+        },
+        {
+          "id": 4224,
+          "name": "The True Masters"
+        }
+      ],
+      "npc": "Marshal Maxwell",
+      "mobs": []
+    },
+    {
+      "id": "burning_steppes_042",
+      "type": "info",
+      "description": "Delete any leftover Blackrock Medallions",
+      "classes": null,
+      "races": null,
+      "coords": null,
+      "zone": "",
+      "tips": [],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "burning_steppes_043",
+      "type": "travel",
+      "description": "Travel to Flame Crest",
+      "classes": null,
+      "races": null,
+      "coords": [65.236, 24.007],
+      "zone": "burning_steppes",
+      "tips": [],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "burning_steppes_044",
+      "type": "quest_turnin",
+      "description": "Talk to Tinkee Steamboil and Maxwort Uberglint, turn in Broodling Essence and Tablet of the Seven, and accept Felnok Steelspring",
+      "classes": null,
+      "races": null,
+      "coords": [65.152, 23.911],
+      "zone": "burning_steppes",
+      "tips": [],
+      "quests": [
+        {
+          "id": 4726,
+          "name": "Broodling Essence"
+        },
+        {
+          "id": 4808,
+          "name": "Felnok Steelspring"
+        },
+        {
+          "id": 4296,
+          "name": "Tablet of the Seven"
+        }
+      ],
+      "npc": "Maxwort Uberglint",
+      "mobs": []
+    },
+    {
+      "id": "burning_steppes_045",
+      "type": "info",
+      "description": "Talk to Ragged John. Select the gossip option",
+      "classes": null,
+      "races": null,
+      "coords": [65.012, 23.757],
+      "zone": "burning_steppes",
+      "tips": [],
+      "quests": [
+        {
+          "id": 4224,
+          "name": "The True Masters"
+        }
+      ],
+      "npc": "Ragged John",
+      "mobs": []
+    },
+    {
+      "id": "burning_steppes_046",
+      "type": "loot",
+      "description": "Click the Soft Dirt Mound atop the mountain",
+      "classes": null,
+      "races": null,
+      "coords": [80.997, 46.79],
+      "zone": "burning_steppes",
+      "tips": [],
+      "quests": [
+        {
+          "id": 3825,
+          "name": "Ogre Head On A Stick = Party"
+        }
+      ],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "burning_steppes_047",
+      "type": "quest_turnin",
+      "description": "Talk to Oralius and turn in Ogre Head On A Stick = Party",
+      "classes": null,
+      "races": null,
+      "coords": [84.554, 68.679],
+      "zone": "burning_steppes",
+      "tips": [],
+      "quests": [
+        {
+          "id": 3825,
+          "name": "Ogre Head On A Stick = Party"
+        }
+      ],
+      "npc": "Oralius",
+      "mobs": []
+    },
+    {
+      "id": "burning_steppes_048",
+      "type": "quest_turnin",
+      "description": "Talk to Marshal Maxwell and turn in The True Masters",
+      "classes": null,
+      "races": null,
+      "coords": [84.744, 69.015],
+      "zone": "burning_steppes",
+      "tips": [],
+      "quests": [
+        {
+          "id": 4224,
+          "name": "The True Masters"
+        }
+      ],
+      "npc": "Marshal Maxwell",
+      "mobs": []
+    },
+    {
+      "id": "burning_steppes_049",
+      "type": "fly",
+      "description": "Talk to Borgus Stoutarm and fly to Stormwind",
+      "classes": null,
+      "races": null,
+      "coords": [84.333, 68.328],
+      "zone": "burning_steppes",
+      "tips": [],
+      "quests": [],
+      "npc": "Borgus Stoutarm",
+      "mobs": []
+    },
+    {
+      "id": "burning_steppes_050",
+      "type": "info",
+      "description": "Talk to Clavicus Knavingham up stairs.",
+      "classes": null,
+      "races": null,
+      "coords": [44.274, 73.973],
+      "zone": "stormwind_city",
+      "tips": [
+        {
+          "type": "warning",
+          "class": null,
+          "text": "Do the Stormwind cloth turn ins. You'll need 3 stacks of each cloth. Skip this step if you're unable to complete all of them"
+        }
+      ],
+      "quests": [
+        {
+          "id": 7791,
+          "name": "A Donation of Wool"
+        },
+        {
+          "id": 7793,
+          "name": "A Donation of Silk"
+        },
+        {
+          "id": 7794,
+          "name": "A Donation of Mageweave"
+        },
+        {
+          "id": 7795,
+          "name": "A Donation of Runecloth"
+        }
+      ],
+      "npc": "Clavicus Knavingham",
+      "mobs": []
+    },
+    {
+      "id": "burning_steppes_051",
+      "type": "quest_accept",
+      "description": "Talk to Highlord Bolvar Fordragon and accept The First and the Last",
+      "classes": null,
+      "races": null,
+      "coords": [78.213, 17.98],
+      "zone": "stormwind_city",
+      "tips": [],
+      "quests": [
+        {
+          "id": 6182,
+          "name": "The First and the Last"
+        }
+      ],
+      "npc": "Highlord Bolvar Fordragon",
+      "mobs": []
+    },
+    {
+      "id": "burning_steppes_052",
+      "type": "travel",
+      "description": "Enter the SI:7 Headquarters. Travel up stairs toward Master Mathias Shaw",
+      "classes": null,
+      "races": null,
+      "coords": [78.67, 60.13],
+      "zone": "stormwind_city",
+      "tips": [],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "burning_steppes_053",
+      "type": "quest_turnin",
+      "description": "Talk to Master Mathias Shaw, turn in The First and the Last, accept Honor the Dead, turn in Honor the Dead, and accept Flint Shadowmore",
+      "classes": null,
+      "races": null,
+      "coords": [75.78, 59.84],
+      "zone": "stormwind_city",
+      "tips": [],
+      "quests": [
+        {
+          "id": 6182,
+          "name": "The First and the Last"
+        },
+        {
+          "id": 6183,
+          "name": "Honor the Dead"
+        },
+        {
+          "id": 6184,
+          "name": "Flint Shadowmore"
+        }
+      ],
+      "npc": "Master Mathias Shaw",
+      "mobs": []
+    },
+    {
+      "id": "burning_steppes_054",
+      "type": "travel",
+      "description": "Travel to the Stormwind Cathedral",
+      "classes": ["Priest", "Paladin"],
+      "races": null,
+      "coords": [42.51, 33.51],
+      "zone": "stormwind_city",
+      "tips": [],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "burning_steppes_055",
+      "type": "info",
+      "description": "Talk to Arthur the Faithful and train your class spells",
+      "classes": ["Paladin"],
+      "races": null,
+      "coords": [38.67, 32.82],
+      "zone": "stormwind_city",
+      "tips": [],
+      "quests": [],
+      "npc": "Arthur the Faithful",
+      "mobs": []
+    },
+    {
+      "id": "burning_steppes_056",
+      "type": "info",
+      "description": "Talk to Brother Joshua and train your class spells",
+      "classes": ["Priest"],
+      "races": null,
+      "coords": [38.54, 26.86],
+      "zone": "stormwind_city",
+      "tips": [],
+      "quests": [],
+      "npc": "Brother Joshua",
+      "mobs": []
+    },
+    {
+      "id": "burning_steppes_057",
+      "type": "info",
+      "description": "Talk to Wu or Ilsa and train your class spells",
+      "classes": ["Warrior"],
+      "races": null,
+      "coords": [78.68, 45.79],
+      "zone": "stormwind_city",
+      "tips": [],
+      "quests": [],
+      "npc": "Ilsa Corbin",
+      "mobs": []
+    },
+    {
+      "id": "burning_steppes_058",
+      "type": "info",
+      "description": "Talk to Osborne and train your class spells",
+      "classes": ["Rogue"],
+      "races": null,
+      "coords": [74.65, 52.83],
+      "zone": "stormwind_city",
+      "tips": [],
+      "quests": [],
+      "npc": "Osborne the Night Man",
+      "mobs": []
+    },
+    {
+      "id": "burning_steppes_059",
+      "type": "info",
+      "description": "Talk to Einris Brightspear and train your class spells",
+      "classes": ["Hunter"],
+      "races": null,
+      "coords": [61.609, 15.269],
+      "zone": "stormwind_city",
+      "tips": [],
+      "quests": [],
+      "npc": "Einris Brightspear",
+      "mobs": []
+    },
+    {
+      "id": "burning_steppes_060",
+      "type": "info",
+      "description": "Talk to Jennea and train your class spells",
+      "classes": ["Mage"],
+      "races": null,
+      "coords": [36.87, 81.14],
+      "zone": "stormwind_city",
+      "tips": [],
+      "quests": [],
+      "npc": "Jennea Cannon",
+      "mobs": []
+    },
+    {
+      "id": "burning_steppes_061",
+      "type": "info",
+      "description": "Talk to Ursula Deline and train your class spells",
+      "classes": ["Warlock"],
+      "races": null,
+      "coords": [26.117, 77.225],
+      "zone": "stormwind_city",
+      "tips": [],
+      "quests": [],
+      "npc": "Ursula Deline",
+      "mobs": []
+    },
+    {
+      "id": "burning_steppes_062",
+      "type": "info",
+      "description": "Talk to Spackle Thornberry. Buy Grimoires for your pets",
+      "classes": ["Warlock"],
+      "races": null,
+      "coords": [25.665, 77.649],
+      "zone": "stormwind_city",
+      "tips": [
+        {
+          "type": "warning",
+          "class": null,
+          "text": "Buy Grimoires for your pets"
+        }
+      ],
+      "quests": [],
+      "npc": "Spackle Thornberry",
+      "mobs": []
+    },
+    {
+      "id": "burning_steppes_063",
+      "type": "info",
+      "description": "Talk to Sheldras Moontree and train your class spells",
+      "classes": ["Druid"],
+      "races": null,
+      "coords": [20.898, 55.491],
+      "zone": "stormwind_city",
+      "tips": [],
+      "quests": [],
+      "npc": "Sheldras Moontree",
+      "mobs": []
+    },
+    {
+      "id": "burning_steppes_064",
+      "type": "info",
+      "description": "Hearth to Ironforge. Buy food/water if needed",
+      "classes": ["!Warrior", "!Rogue"],
+      "races": null,
+      "coords": null,
+      "zone": "",
+      "tips": [
+        {
+          "type": "warning",
+          "class": null,
+          "text": "Buy food/water if needed"
+        }
+      ],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "burning_steppes_065",
+      "type": "info",
+      "description": "Hearth to Ironforge. Buy food if needed",
+      "classes": ["Warrior", "Rogue"],
+      "races": null,
+      "coords": null,
+      "zone": "",
+      "tips": [
+        {
+          "type": "warning",
+          "class": null,
+          "text": "Buy food if needed"
+        }
+      ],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "burning_steppes_066",
+      "type": "quest_accept",
+      "description": "Talk to Lieutenant Rotimer and accept The Sovereign Imperative",
+      "classes": null,
+      "races": null,
+      "coords": [32.209, 63.266],
+      "zone": "ironforge",
+      "tips": [],
+      "quests": [
+        {
+          "id": 7261,
+          "name": "The Sovereign Imperative"
+        }
+      ],
+      "npc": "Lieutenant Rotimer",
+      "mobs": []
+    },
+    {
+      "id": "burning_steppes_067",
+      "type": "info",
+      "description": "Talk to Bailey Stonemantle. Withdraw the following items from your bank: Everlook Report and Studies in Spirit Speaking",
+      "classes": null,
+      "races": null,
+      "coords": [35.9, 60.17],
+      "zone": "ironforge",
+      "tips": [
+        {
+          "type": "warning",
+          "class": null,
+          "text": "Withdraw the following items from your bank: Everlook Report and Studies in Spirit Speaking"
+        }
+      ],
+      "quests": [],
+      "npc": "Bailey Stonemantle",
+      "mobs": []
+    },
+    {
+      "id": "burning_steppes_068",
+      "type": "info",
+      "description": "Talk to Bailey Stonemantle. Deposit the following items into your bank: Tinkee's Letter",
+      "classes": null,
+      "races": null,
+      "coords": [35.9, 60.17],
+      "zone": "ironforge",
+      "tips": [
+        {
+          "type": "warning",
+          "class": null,
+          "text": "Deposit the following items into your bank: Tinkee's Letter"
+        }
+      ],
+      "quests": [],
+      "npc": "Bailey Stonemantle",
+      "mobs": []
+    },
+    {
+      "id": "burning_steppes_069",
+      "type": "info",
+      "description": "Talk to an Ironforge Auctioneer. Buy the following items from the Auction House. You will need these later for a free quest turn in in EPL",
+      "classes": null,
+      "races": null,
+      "coords": null,
+      "zone": "",
+      "tips": [
+        {
+          "type": "warning",
+          "class": null,
+          "text": "Buy the following items from the Auction House. You will need these later for a free quest turn in in EPL"
+        }
+      ],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "burning_steppes_070",
+      "type": "info",
+      "description": "Talk to an Ironforge Auctioneer. Buy the following items from the Auction House. You will need these later for multiple free quest turn ins in EPL. There are 5 different quests and each require 30. If you can't get 30 of one type then skip it",
+      "classes": null,
+      "races": null,
+      "coords": null,
+      "zone": "",
+      "tips": [
+        {
+          "type": "warning",
+          "class": null,
+          "text": "Buy the following items from the Auction House. You will need these later for multiple free quest turn ins in EPL"
+        },
+        {
+          "type": "warning",
+          "class": null,
+          "text": "There are 5 different quests and each require 30. If you can't get 30 of one type then skip it"
+        }
+      ],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "burning_steppes_071",
+      "type": "info",
+      "description": "Talk to Bubulo Acerbus.",
+      "classes": null,
+      "races": null,
+      "coords": [74.082, 48.208],
+      "zone": "ironforge",
+      "tips": [
+        {
+          "type": "warning",
+          "class": null,
+          "text": "Do the Gnomeregan cloth turn ins. You'll need 3 stacks of each cloth. Skip this step if you're unable to complete all of them"
+        }
+      ],
+      "quests": [
+        {
+          "id": 7807,
+          "name": "A Donation of Wool"
+        },
+        {
+          "id": 7808,
+          "name": "A Donation of Silk"
+        },
+        {
+          "id": 7809,
+          "name": "A Donation of Mageweave"
+        },
+        {
+          "id": 7811,
+          "name": "A Donation of Runecloth"
+        }
+      ],
+      "npc": "Bubulo Acerbus",
+      "mobs": []
+    },
+    {
+      "id": "burning_steppes_072",
+      "type": "info",
+      "description": "Talk to Mistina Steelshield.",
+      "classes": null,
+      "races": null,
+      "coords": [43.224, 31.574],
+      "zone": "ironforge",
+      "tips": [
+        {
+          "type": "warning",
+          "class": null,
+          "text": "Do the Ironforge cloth turn ins. You'll need 3 stacks of each cloth. Skip this step if you're unable to complete all of them"
+        }
+      ],
+      "quests": [
+        {
+          "id": 7802,
+          "name": "A Donation of Wool"
+        },
+        {
+          "id": 7803,
+          "name": "A Donation of Silk"
+        },
+        {
+          "id": 7804,
+          "name": "A Donation of Mageweave"
+        },
+        {
+          "id": 7805,
+          "name": "A Donation of Runecloth"
+        }
+      ],
+      "npc": "Mistina Steelshield",
+      "mobs": []
+    },
+    {
+      "id": "burning_steppes_073",
+      "type": "quest_turnin",
+      "description": "Talk to Royal Historian Archesonus and turn in The Smoldering Ruins of Thaurissan",
+      "classes": null,
+      "races": null,
+      "coords": [38.368, 55.303],
+      "zone": "ironforge",
+      "tips": [],
+      "quests": [
+        {
+          "id": 3701,
+          "name": "The Smoldering Ruins of Thaurissan"
+        }
+      ],
+      "npc": "Royal Historian Archesonus",
+      "mobs": []
+    },
+    {
+      "id": "burning_steppes_074",
+      "type": "fly",
+      "description": "Talk to Gryth and fly to Southshore",
+      "classes": null,
+      "races": null,
+      "coords": [55.501, 47.742],
+      "zone": "ironforge",
+      "tips": [],
+      "quests": [],
+      "npc": "Gryth Thurden",
+      "mobs": []
+    }
+  ]
+}

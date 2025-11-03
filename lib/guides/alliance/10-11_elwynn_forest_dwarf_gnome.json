@@ -1,0 +1,1826 @@
+{
+  "zone": "Elwynn Forest",
+  "levelRange": "10-11",
+  "faction": "Alliance",
+  "name": "10-11_elwynn_forest_dwarf_gnome",
+  "next": "11-13_loch_modan_dwarf_gnome",
+  "steps": [
+    {
+      "id": "elwynn_001",
+      "type": "fly",
+      "description": "Talk to Dungar Longdrink and get the Stormwind City flight path",
+      "classes": null,
+      "races": null,
+      "coords": [66.277, 62.137],
+      "zone": "stormwind_city",
+      "tips": [],
+      "quests": [],
+      "npc": "Dungar Longdrink",
+      "mobs": []
+    },
+    {
+      "id": "elwynn_002",
+      "type": "travel",
+      "description": "Travel to Goldshire",
+      "classes": null,
+      "races": null,
+      "coords": [42.107, 65.93],
+      "zone": "elwynn_forest",
+      "tips": [],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "elwynn_003",
+      "type": "quest_accept",
+      "description": "Talk to Marshal Dughan and accept The Fargodeep Mine",
+      "classes": null,
+      "races": null,
+      "coords": [42.107, 65.93],
+      "zone": "elwynn_forest",
+      "tips": [],
+      "quests": [
+        {
+          "id": 62,
+          "name": "The Fargodeep Mine"
+        }
+      ],
+      "npc": "Marshal Dughan",
+      "mobs": []
+    },
+    {
+      "id": "elwynn_004",
+      "type": "quest_accept",
+      "description": "Talk to William Pestle and accept Kobold Candles",
+      "classes": null,
+      "races": null,
+      "coords": [43.318, 65.705],
+      "zone": "elwynn_forest",
+      "tips": [],
+      "quests": [
+        {
+          "id": 60,
+          "name": "Kobold Candles"
+        }
+      ],
+      "npc": "William Pestle",
+      "mobs": []
+    },
+    {
+      "id": "elwynn_006",
+      "type": "info",
+      "description": "Talk to Zaldimar Wefhellt upstairs in the inn and train your class spells",
+      "classes": ["Mage"],
+      "races": null,
+      "coords": [43.25, 66.19],
+      "zone": "elwynn_forest",
+      "tips": [],
+      "quests": [],
+      "npc": "Zaldimar Wefhellt",
+      "mobs": []
+    },
+    {
+      "id": "elwynn_007",
+      "type": "info",
+      "description": "Talk to Keryn Sylvius upstairs in the inn and train your class spells",
+      "classes": ["Rogue"],
+      "races": null,
+      "coords": [43.872, 65.937],
+      "zone": "elwynn_forest",
+      "tips": [],
+      "quests": [],
+      "npc": "Keryn Sylvius",
+      "mobs": []
+    },
+    {
+      "id": "elwynn_008",
+      "type": "quest_accept",
+      "description": "Talk to Remy Two Times and accept A Fishy Peril and Gold Dust Exchange",
+      "classes": null,
+      "races": null,
+      "coords": [42.14, 67.254],
+      "zone": "elwynn_forest",
+      "tips": [],
+      "quests": [
+        {
+          "id": 40,
+          "name": "A Fishy Peril"
+        },
+        {
+          "id": 47,
+          "name": "Gold Dust Exchange"
+        }
+      ],
+      "npc": "Remy \"Two Times\"",
+      "mobs": []
+    },
+    {
+      "id": "elwynn_009",
+      "type": "quest_accept",
+      "description": "Talk to Ma Stonefield and Auntie Bernice Stonefield, accept Princess Must Die! and Lost Necklace",
+      "classes": null,
+      "races": null,
+      "coords": [34.486, 84.252],
+      "zone": "elwynn_forest",
+      "tips": [],
+      "quests": [
+        {
+          "id": 88,
+          "name": "Princess Must Die!"
+        },
+        {
+          "id": 85,
+          "name": "Lost Necklace"
+        }
+      ],
+      "npc": "Auntie Bernice Stonefield",
+      "mobs": []
+    },
+    {
+      "id": "elwynn_010",
+      "type": "quest_turnin",
+      "description": "Talk to Billy Maclure, turn in Lost Necklace, and accept Pie for Billy",
+      "classes": null,
+      "races": null,
+      "coords": [43.131, 85.722],
+      "zone": "elwynn_forest",
+      "tips": [],
+      "quests": [
+        {
+          "id": 85,
+          "name": "Lost Necklace"
+        },
+        {
+          "id": 86,
+          "name": "Pie for Billy"
+        }
+      ],
+      "npc": "Billy Maclure",
+      "mobs": []
+    },
+    {
+      "id": "elwynn_011",
+      "type": "quest_accept",
+      "description": "Talk to Maybell Maclure and accept Young Lovers",
+      "classes": null,
+      "races": null,
+      "coords": [43.154, 89.625],
+      "zone": "elwynn_forest",
+      "tips": [],
+      "quests": [
+        {
+          "id": 106,
+          "name": "Young Lovers"
+        }
+      ],
+      "npc": "Maybell Maclure",
+      "mobs": []
+    },
+    {
+      "id": "elwynn_012",
+      "type": "quest_turnin",
+      "description": "Talk to Tommy Joe Stonefield, turn in Young Lovers, and accept Speak with Gramma",
+      "classes": null,
+      "races": null,
+      "coords": [29.84, 85.997],
+      "zone": "elwynn_forest",
+      "tips": [],
+      "quests": [
+        {
+          "id": 106,
+          "name": "Young Lovers"
+        },
+        {
+          "id": 111,
+          "name": "Speak with Gramma"
+        }
+      ],
+      "npc": "Tommy Joe Stonefield",
+      "mobs": []
+    },
+    {
+      "id": "elwynn_013",
+      "type": "quest_turnin",
+      "description": "Talk to Auntie Bernice Stonefield and turn in Pie for Billy",
+      "classes": null,
+      "races": null,
+      "coords": [34.486, 84.252],
+      "zone": "elwynn_forest",
+      "tips": [
+        {
+          "type": "warning",
+          "class": null,
+          "text": "Skip the turn in for now if you don't have enough Chunks of Boar Meat"
+        }
+      ],
+      "quests": [
+        {
+          "id": 86,
+          "name": "Pie for Billy"
+        }
+      ],
+      "npc": "Auntie Bernice Stonefield",
+      "mobs": []
+    },
+    {
+      "id": "elwynn_014",
+      "type": "quest_turnin",
+      "description": "Talk to Gramma Stonefield, turn in Speak with Gramma, and accept Note to William",
+      "classes": null,
+      "races": null,
+      "coords": [34.943, 83.861],
+      "zone": "elwynn_forest",
+      "tips": [],
+      "quests": [
+        {
+          "id": 111,
+          "name": "Speak with Gramma"
+        },
+        {
+          "id": 107,
+          "name": "Note to William"
+        }
+      ],
+      "npc": "Gramma Stonefield",
+      "mobs": []
+    },
+    {
+      "id": "elwynn_015",
+      "type": "kill",
+      "description": "Kill Kobold Tunnelers and Kobold Miners. Loot them for their Candles and Dust",
+      "classes": null,
+      "races": null,
+      "coords": [40.5, 82.3],
+      "zone": "elwynn_forest",
+      "tips": [
+        {
+          "type": "warning",
+          "class": null,
+          "text": "The level 5 mobs may turn gray during this quest. Still finish it as you need to complete this quest to unlock the follow up's"
+        }
+      ],
+      "quests": [
+        {
+          "id": 60,
+          "name": "Kobold Candles"
+        },
+        {
+          "id": 47,
+          "name": "Gold Dust Exchange"
+        }
+      ],
+      "npc": null,
+      "mobs": ["Kobold Tunneler", "Kobold Miner"]
+    },
+    {
+      "id": "elwynn_016",
+      "type": "info",
+      "description": "Enter and explore Fargodeep Mine",
+      "classes": null,
+      "races": null,
+      "coords": [40.5, 82.3],
+      "zone": "elwynn_forest",
+      "tips": [
+        {
+          "type": "warning",
+          "class": null,
+          "text": "Enter and explore Fargodeep Mine"
+        }
+      ],
+      "quests": [
+        {
+          "id": 62,
+          "name": "The Fargodeep Mine"
+        }
+      ],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "elwynn_017",
+      "type": "kill",
+      "description": "Kill Kobold Tunnelers and Kobold Miners. Loot them for their Candles and Dust",
+      "classes": null,
+      "races": null,
+      "coords": [40.5, 82.3],
+      "zone": "elwynn_forest",
+      "tips": [
+        {
+          "type": "warning",
+          "class": null,
+          "text": "The level 5 mobs may turn gray during this quest. Still finish it as you need to complete this quest to unlock the follow up's"
+        }
+      ],
+      "quests": [
+        {
+          "id": 60,
+          "name": "Kobold Candles"
+        },
+        {
+          "id": 47,
+          "name": "Gold Dust Exchange"
+        }
+      ],
+      "npc": null,
+      "mobs": ["Kobold Tunneler", "Kobold Miner"]
+    },
+    {
+      "id": "elwynn_018",
+      "type": "travel",
+      "description": "Travel to Goldshire",
+      "classes": null,
+      "races": null,
+      "coords": [42.2, 66.0],
+      "zone": "elwynn_forest",
+      "tips": [],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "elwynn_019",
+      "type": "quest_turnin",
+      "description": "Talk to Remy Two Times and turn in Gold Dust Exchange",
+      "classes": null,
+      "races": null,
+      "coords": [42.14, 67.254],
+      "zone": "elwynn_forest",
+      "tips": [
+        {
+          "type": "warning",
+          "class": null,
+          "text": "Do NOT vendor the Bag of Marbles reward. This is an incredibly valuable item all the way through to level 60"
+        }
+      ],
+      "quests": [
+        {
+          "id": 47,
+          "name": "Gold Dust Exchange"
+        }
+      ],
+      "npc": "Remy \"Two Times\"",
+      "mobs": []
+    },
+    {
+      "id": "elwynn_020",
+      "type": "quest_turnin",
+      "description": "Talk to Marshal Dughan, turn in The Fargodeep Mine and A Fishy Peril, and accept The Jasperlode Mine and Further Concerns",
+      "classes": null,
+      "races": null,
+      "coords": [42.108, 65.928],
+      "zone": "elwynn_forest",
+      "tips": [],
+      "quests": [
+        {
+          "id": 62,
+          "name": "The Fargodeep Mine"
+        },
+        {
+          "id": 40,
+          "name": "A Fishy Peril"
+        },
+        {
+          "id": 76,
+          "name": "The Jasperlode Mine"
+        },
+        {
+          "id": 35,
+          "name": "Further Concerns"
+        }
+      ],
+      "npc": "Marshal Dughan",
+      "mobs": []
+    },
+    {
+      "id": "elwynn_021",
+      "type": "quest_turnin",
+      "description": "Talk to William Pestle, turn in Kobold Candles and Note to William, and accept Shipment to Stormwind and Collecting Kelp",
+      "classes": null,
+      "races": null,
+      "coords": [43.318, 65.705],
+      "zone": "elwynn_forest",
+      "tips": [],
+      "quests": [
+        {
+          "id": 60,
+          "name": "Kobold Candles"
+        },
+        {
+          "id": 107,
+          "name": "Note to William"
+        },
+        {
+          "id": 61,
+          "name": "Shipment to Stormwind"
+        },
+        {
+          "id": 112,
+          "name": "Collecting Kelp"
+        }
+      ],
+      "npc": "William Pestle",
+      "mobs": []
+    },
+    {
+      "id": "elwynn_022",
+      "type": "kill",
+      "description": "Kill Murlocs and Murloc Streamrunners. Loot them for Kelp Fronds",
+      "classes": null,
+      "races": null,
+      "coords": [57.6, 62.8],
+      "zone": "elwynn_forest",
+      "tips": [],
+      "quests": [
+        {
+          "id": 112,
+          "name": "Collecting Kelp"
+        }
+      ],
+      "npc": null,
+      "mobs": ["Murloc", "Murloc Streamrunner"]
+    },
+    {
+      "id": "elwynn_023",
+      "type": "travel",
+      "description": "Enter the Jasperlode Mine",
+      "classes": null,
+      "races": null,
+      "coords": [61.654, 53.608],
+      "zone": "elwynn_forest",
+      "tips": [],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "elwynn_024",
+      "type": "info",
+      "description": "Follow the path through middle to explore Jasperlode Mine. Exit Jasperlode Mine as soon as the objective completes",
+      "classes": null,
+      "races": null,
+      "coords": [60.4, 50.2],
+      "zone": "elwynn_forest",
+      "tips": [
+        {
+          "type": "warning",
+          "class": null,
+          "text": "Follow the path through middle to explore Jasperlode Mine"
+        },
+        {
+          "type": "warning",
+          "class": null,
+          "text": "Exit Jasperlode Mine as soon as the objective completes"
+        }
+      ],
+      "quests": [
+        {
+          "id": 76,
+          "name": "The Jasperlode Mine"
+        }
+      ],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "elwynn_025",
+      "type": "quest_turnin",
+      "description": "Talk to Guard Thomas and turn in Further Concerns",
+      "classes": null,
+      "races": null,
+      "coords": [73.973, 72.179],
+      "zone": "elwynn_forest",
+      "tips": [],
+      "quests": [
+        {
+          "id": 35,
+          "name": "Further Concerns"
+        }
+      ],
+      "npc": "Guard Thomas",
+      "mobs": []
+    },
+    {
+      "id": "elwynn_026",
+      "type": "quest_accept",
+      "description": "Talk to Guard Thomas and accept Find the Lost Guards and Protect the Frontier",
+      "classes": null,
+      "races": null,
+      "coords": [73.973, 72.179],
+      "zone": "elwynn_forest",
+      "tips": [],
+      "quests": [
+        {
+          "id": 37,
+          "name": "Find the Lost Guards"
+        },
+        {
+          "id": 52,
+          "name": "Protect the Frontier"
+        }
+      ],
+      "npc": "Guard Thomas",
+      "mobs": []
+    },
+    {
+      "id": "elwynn_027",
+      "type": "kill",
+      "description": "Kill Prowlers and Young Forest Bears",
+      "classes": null,
+      "races": null,
+      "coords": null,
+      "zone": "",
+      "tips": [
+        {
+          "type": "warning",
+          "class": null,
+          "text": "Prioritize killing any Young Forest Bears you see"
+        }
+      ],
+      "quests": [
+        {
+          "id": 52,
+          "name": "Protect the Frontier"
+        }
+      ],
+      "npc": null,
+      "mobs": ["Prowler", "Young Forest Bear"]
+    },
+    {
+      "id": "elwynn_028",
+      "type": "quest_turnin",
+      "description": "Click A half-eaten body on the ground, turn in Find the Lost Guards, and accept Discover Rolf's Fate",
+      "classes": null,
+      "races": null,
+      "coords": [72.656, 60.334],
+      "zone": "elwynn_forest",
+      "tips": [],
+      "quests": [
+        {
+          "id": 37,
+          "name": "Find the Lost Guards"
+        },
+        {
+          "id": 45,
+          "name": "Discover Rolf's Fate"
+        }
+      ],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "elwynn_029",
+      "type": "quest_accept",
+      "description": "Talk to Supervisor Raelen and accept A Bundle of Trouble",
+      "classes": null,
+      "races": null,
+      "coords": [81.382, 66.112],
+      "zone": "elwynn_forest",
+      "tips": [],
+      "quests": [
+        {
+          "id": 5545,
+          "name": "A Bundle of Trouble"
+        }
+      ],
+      "npc": "Supervisor Raelen",
+      "mobs": []
+    },
+    {
+      "id": "elwynn_030",
+      "type": "loot",
+      "description": "Loot the Bundle of Wood on the ground",
+      "classes": null,
+      "races": null,
+      "coords": null,
+      "zone": "",
+      "tips": [
+        {
+          "type": "warning",
+          "class": null,
+          "text": "They are found beneath the trees"
+        }
+      ],
+      "quests": [
+        {
+          "id": 5545,
+          "name": "A Bundle of Trouble"
+        }
+      ],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "elwynn_031",
+      "type": "quest_turnin",
+      "description": "Click Rolf's corpse on the ground, turn in Discover Rolf's Fate, and accept Report to Thomas",
+      "classes": null,
+      "races": null,
+      "coords": [79.8, 55.5],
+      "zone": "elwynn_forest",
+      "tips": [
+        {
+          "type": "warning",
+          "class": null,
+          "text": "Be careful as nearby Murlocs may agro once you click Rolf's corpse"
+        },
+        {
+          "type": "warning",
+          "class": null,
+          "text": "Murloc Foragers will cast Drink Minor Potion which heals themselves for 61-68"
+        }
+      ],
+      "quests": [
+        {
+          "id": 45,
+          "name": "Discover Rolf's Fate"
+        },
+        {
+          "id": 71,
+          "name": "Report to Thomas"
+        }
+      ],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "elwynn_032",
+      "type": "kill",
+      "description": "Kill Prowlers and Young Forest Bears",
+      "classes": null,
+      "races": null,
+      "coords": [86.99, 64.83],
+      "zone": "elwynn_forest",
+      "tips": [],
+      "quests": [
+        {
+          "id": 52,
+          "name": "Protect the Frontier"
+        }
+      ],
+      "npc": null,
+      "mobs": ["Prowler", "Young Forest Bear"]
+    },
+    {
+      "id": "elwynn_033",
+      "type": "loot",
+      "description": "Loot the Bundle of Wood on the ground",
+      "classes": null,
+      "races": null,
+      "coords": [83.7, 59.4],
+      "zone": "elwynn_forest",
+      "tips": [
+        {
+          "type": "warning",
+          "class": null,
+          "text": "They are found beneath the trees"
+        }
+      ],
+      "quests": [
+        {
+          "id": 5545,
+          "name": "A Bundle of Trouble"
+        }
+      ],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "elwynn_034",
+      "type": "quest_turnin",
+      "description": "Talk to Supervisor Raelen and turn in A Bundle of Trouble",
+      "classes": null,
+      "races": null,
+      "coords": [81.382, 66.112],
+      "zone": "elwynn_forest",
+      "tips": [],
+      "quests": [
+        {
+          "id": 5545,
+          "name": "A Bundle of Trouble"
+        }
+      ],
+      "npc": "Supervisor Raelen",
+      "mobs": []
+    },
+    {
+      "id": "elwynn_035",
+      "type": "quest_accept",
+      "description": "Talk to Sara Timberlain and accept Red Linen Goods",
+      "classes": null,
+      "races": null,
+      "coords": [79.457, 68.789],
+      "zone": "elwynn_forest",
+      "tips": [],
+      "quests": [
+        {
+          "id": 83,
+          "name": "Red Linen Goods"
+        }
+      ],
+      "npc": "Sara Timberlain",
+      "mobs": []
+    },
+    {
+      "id": "elwynn_036",
+      "type": "quest_turnin",
+      "description": "Talk to Guard Thomas, turn in Protect the Frontier and Report to Thomas, and accept Deliver Thomas' Report and Report to Gryan Stoutmantle",
+      "classes": null,
+      "races": null,
+      "coords": [73.973, 72.179],
+      "zone": "elwynn_forest",
+      "tips": [],
+      "quests": [
+        {
+          "id": 52,
+          "name": "Protect the Frontier"
+        },
+        {
+          "id": 71,
+          "name": "Report to Thomas"
+        },
+        {
+          "id": 39,
+          "name": "Deliver Thomas' Report"
+        },
+        {
+          "id": 109,
+          "name": "Report to Gryan Stoutmantle"
+        }
+      ],
+      "npc": "Guard Thomas",
+      "mobs": []
+    },
+    {
+      "id": "elwynn_037",
+      "type": "kill",
+      "description": "Kill Surena Caledon. Loot her for her Choker",
+      "classes": ["Warlock"],
+      "races": null,
+      "coords": [71.1, 80.66],
+      "zone": "elwynn_forest",
+      "tips": [
+        {
+          "type": "warning",
+          "class": null,
+          "text": "Focus on killing Surena Caledon very quickly"
+        },
+        {
+          "type": "warning",
+          "class": null,
+          "text": "Cast Fear on Morgan the Collector continously"
+        }
+      ],
+      "quests": [
+        {
+          "id": 1688,
+          "name": "Surena Caledon"
+        }
+      ],
+      "npc": null,
+      "mobs": ["Surena Caledon"]
+    },
+    {
+      "id": "elwynn_038",
+      "type": "kill",
+      "description": "Kill Defias Bandits. Loot them for their Bandanas",
+      "classes": null,
+      "races": null,
+      "coords": null,
+      "zone": "",
+      "tips": [],
+      "quests": [
+        {
+          "id": 83,
+          "name": "Red Linen Goods"
+        }
+      ],
+      "npc": null,
+      "mobs": ["Defias Bandit"]
+    },
+    {
+      "id": "elwynn_039",
+      "type": "kill",
+      "description": "Kill Princess. Loot her for her Collar",
+      "classes": null,
+      "races": null,
+      "coords": [69.3, 79.0],
+      "zone": "elwynn_forest",
+      "tips": [
+        {
+          "type": "warning",
+          "class": null,
+          "text": "Princess will agro with both of her Porcine Entourage"
+        },
+        {
+          "type": "warning",
+          "class": null,
+          "text": "Princess will also cast Rushing Charge which deals heavy damage"
+        }
+      ],
+      "quests": [
+        {
+          "id": 88,
+          "name": "Princess Must Die!"
+        }
+      ],
+      "npc": null,
+      "mobs": ["Princess"]
+    },
+    {
+      "id": "elwynn_040",
+      "type": "kill",
+      "description": "Kill Defias Bandits. Loot them for the Westfall Deed.",
+      "classes": null,
+      "races": null,
+      "coords": null,
+      "zone": "",
+      "tips": [
+        {
+          "type": "warning",
+          "class": null,
+          "text": "Use the Westfall Deed to start the quest"
+        },
+        {
+          "type": "warning",
+          "class": null,
+          "text": "The Westfall Deed is a very rare drop. Ignore this step if you don't get it"
+        }
+      ],
+      "quests": [
+        {
+          "id": 184,
+          "name": "Furlbrow's Deed"
+        }
+      ],
+      "npc": null,
+      "mobs": ["Defias Bandit"]
+    },
+    {
+      "id": "elwynn_041",
+      "type": "kill",
+      "description": "Kill Defias Bandits. Loot them for their Bandanas",
+      "classes": null,
+      "races": null,
+      "coords": [69.3, 79.0],
+      "zone": "elwynn_forest",
+      "tips": [],
+      "quests": [
+        {
+          "id": 83,
+          "name": "Red Linen Goods"
+        }
+      ],
+      "npc": null,
+      "mobs": ["Defias Bandit"]
+    },
+    {
+      "id": "elwynn_042",
+      "type": "info",
+      "description": "Die and respawn at the Spirit Healer if you're low health, otherwise just run back and handin",
+      "classes": null,
+      "races": null,
+      "coords": [83.6, 69.7],
+      "zone": "elwynn_forest",
+      "tips": [],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "elwynn_043",
+      "type": "quest_turnin",
+      "description": "Talk to Sara Timberlain and turn in Red Linen Goods",
+      "classes": null,
+      "races": null,
+      "coords": [79.457, 68.789],
+      "zone": "elwynn_forest",
+      "tips": [],
+      "quests": [
+        {
+          "id": 83,
+          "name": "Red Linen Goods"
+        }
+      ],
+      "npc": "Sara Timberlain",
+      "mobs": []
+    },
+    {
+      "id": "elwynn_044",
+      "type": "travel",
+      "description": "Travel to Redridge Mountains",
+      "classes": null,
+      "races": null,
+      "coords": [17.4, 69.6],
+      "zone": "redridge_mountains",
+      "tips": [],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "elwynn_045",
+      "type": "quest_accept",
+      "description": "Talk to Guard Parker and accept Encroaching Gnolls",
+      "classes": null,
+      "races": null,
+      "coords": [17.4, 69.6],
+      "zone": "redridge_mountains",
+      "tips": [],
+      "quests": [
+        {
+          "id": 244,
+          "name": "Encroaching Gnolls"
+        }
+      ],
+      "npc": "Guard Parker",
+      "mobs": []
+    },
+    {
+      "id": "elwynn_046",
+      "type": "quest_turnin",
+      "description": "Talk to Deputy Feldon and turn in Encroaching Gnolls",
+      "classes": null,
+      "races": null,
+      "coords": [30.733, 59.996],
+      "zone": "redridge_mountains",
+      "tips": [
+        {
+          "type": "warning",
+          "class": null,
+          "text": "STICK TO THE MAIN ROAD AND AVOID ANY CLOSE MOBS EN-ROUTE"
+        }
+      ],
+      "quests": [
+        {
+          "id": 244,
+          "name": "Encroaching Gnolls"
+        }
+      ],
+      "npc": "Deputy Feldon",
+      "mobs": []
+    },
+    {
+      "id": "elwynn_047",
+      "type": "fly",
+      "description": "Talk to Ariena Stormfeather, get the Redridge Mountains flight path, and fly to Stormwind",
+      "classes": null,
+      "races": null,
+      "coords": [30.59, 59.41],
+      "zone": "redridge_mountains",
+      "tips": [],
+      "quests": [],
+      "npc": "Ariena Stormfeather",
+      "mobs": []
+    },
+    {
+      "id": "elwynn_048",
+      "type": "info",
+      "description": "Talk to Auctioneer Jaxon. Buy Boar Intestines, Bear Meat, Spider Ichor, and Chunk of Boar Meat for a faster turn in at Loch Modan shortly. Skip this step if you wish to not buy any",
+      "classes": null,
+      "races": null,
+      "coords": [53.612, 59.764],
+      "zone": "stormwind_city",
+      "tips": [],
+      "quests": [],
+      "npc": "Auctioneer Jaxon",
+      "mobs": []
+    },
+    {
+      "id": "elwynn_049",
+      "type": "quest_turnin",
+      "description": "Talk to Morgan Pestle and turn in Shipment to Stormwind",
+      "classes": null,
+      "races": null,
+      "coords": [56.201, 64.585],
+      "zone": "stormwind_city",
+      "tips": [
+        {
+          "type": "warning",
+          "class": null,
+          "text": "We choose the Explosive Rockets as the reward. It deals decent damage, and can be used for Split pulling which is incredibly useful"
+        },
+        {
+          "type": "link",
+          "class": null,
+          "text": "Click here for video reference on Split pulling. It is a short video and invaluable to learn",
+          "url": "https://www.youtube.com/watch?v=H-IwZ6P-ldY"
+        }
+      ],
+      "quests": [
+        {
+          "id": 61,
+          "name": "Shipment to Stormwind"
+        }
+      ],
+      "npc": "Morgan Pestle",
+      "mobs": []
+    },
+    {
+      "id": "elwynn_050",
+      "type": "travel",
+      "description": "Travel to The Slaughtered Lamb and go downstairs",
+      "classes": ["Warlock"],
+      "races": null,
+      "coords": [27.2, 78.1],
+      "zone": "stormwind_city",
+      "tips": [],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "elwynn_051",
+      "type": "quest_turnin",
+      "description": "Talk to Gakin the Darkbinder, train your class spells, turn in Surena Caledon, and accept The Binding",
+      "classes": ["Warlock"],
+      "races": null,
+      "coords": [25.25, 78.59],
+      "zone": "stormwind_city",
+      "tips": [],
+      "quests": [
+        {
+          "id": 1688,
+          "name": "Surena Caledon"
+        },
+        {
+          "id": 1689,
+          "name": "The Binding"
+        }
+      ],
+      "npc": "Gakin the Darkbinder",
+      "mobs": []
+    },
+    {
+      "id": "elwynn_052",
+      "type": "info",
+      "description": "Travel to the bottom of The Slaughtered Lamb. Use the Bloodstone Choker to call forth a Summoned Voidwalker",
+      "classes": ["Warlock"],
+      "races": null,
+      "coords": [25.154, 77.406],
+      "zone": "stormwind_city",
+      "tips": [
+        {
+          "type": "warning",
+          "class": null,
+          "text": "Travel to the bottom of The Slaughtered Lamb"
+        },
+        {
+          "type": "warning",
+          "class": null,
+          "text": "Use the Bloodstone Choker to call forth a Summoned Voidwalker"
+        }
+      ],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "elwynn_053",
+      "type": "kill",
+      "description": "Kill the Summoned Voidwalker",
+      "classes": ["Warlock"],
+      "races": null,
+      "coords": [25.154, 77.406],
+      "zone": "stormwind_city",
+      "tips": [],
+      "quests": [
+        {
+          "id": 1689,
+          "name": "The Binding"
+        }
+      ],
+      "npc": null,
+      "mobs": ["Summoned Voidwalker"]
+    },
+    {
+      "id": "elwynn_054",
+      "type": "quest_turnin",
+      "description": "Life tap on your way back to Gakin the Darkbinder and turn in The Binding",
+      "classes": ["Warlock"],
+      "races": null,
+      "coords": [25.2, 78.5],
+      "zone": "stormwind_city",
+      "tips": [],
+      "quests": [
+        {
+          "id": 1689,
+          "name": "The Binding"
+        }
+      ],
+      "npc": "Gakin the Darkbinder",
+      "mobs": []
+    },
+    {
+      "id": "elwynn_055",
+      "type": "info",
+      "description": "Die and respawn at the Spirit Healer by using Life Tap and standing on the Bonfire next to you",
+      "classes": ["Warlock"],
+      "races": null,
+      "coords": [25.2, 78.5],
+      "zone": "stormwind_city",
+      "tips": [],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "elwynn_056",
+      "type": "travel",
+      "description": "Travel to Goldshire",
+      "classes": null,
+      "races": null,
+      "coords": [42.2, 66.0],
+      "zone": "elwynn_forest",
+      "tips": [],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "elwynn_057",
+      "type": "info",
+      "description": "Talk to Lyria Du Lac and train your class spells",
+      "classes": ["Warrior"],
+      "races": null,
+      "coords": [41.09, 65.77],
+      "zone": "elwynn_forest",
+      "tips": [],
+      "quests": [],
+      "npc": "Lyria Du Lac",
+      "mobs": []
+    },
+    {
+      "id": "elwynn_058",
+      "type": "quest_turnin",
+      "description": "Talk to Marshal Dughan, turn in Deliver Thomas' Report and The Jasperlode Mine, and accept Westbrook Garrison Needs Help!",
+      "classes": null,
+      "races": null,
+      "coords": [42.105, 65.927],
+      "zone": "elwynn_forest",
+      "tips": [],
+      "quests": [
+        {
+          "id": 39,
+          "name": "Deliver Thomas' Report"
+        },
+        {
+          "id": 76,
+          "name": "The Jasperlode Mine"
+        },
+        {
+          "id": 239,
+          "name": "Westbrook Garrison Needs Help!"
+        }
+      ],
+      "npc": "Marshal Dughan",
+      "mobs": []
+    },
+    {
+      "id": "elwynn_059",
+      "type": "quest_turnin",
+      "description": "Talk to William Pestle, turn in Collecting Kelp, and accept The Escape",
+      "classes": null,
+      "races": null,
+      "coords": [43.318, 65.705],
+      "zone": "elwynn_forest",
+      "tips": [],
+      "quests": [
+        {
+          "id": 112,
+          "name": "Collecting Kelp"
+        },
+        {
+          "id": 114,
+          "name": "The Escape"
+        }
+      ],
+      "npc": "William Pestle",
+      "mobs": []
+    },
+    {
+      "id": "elwynn_060",
+      "type": "travel",
+      "description": "Travel upstairs in the Inn",
+      "classes": ["Mage", "Rogue", "Priest"],
+      "races": null,
+      "coords": [43.877, 66.546],
+      "zone": "elwynn_forest",
+      "tips": [],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "elwynn_061",
+      "type": "info",
+      "description": "Talk to Zaldimar Wefhellt and train your class spells",
+      "classes": ["Mage"],
+      "races": null,
+      "coords": [43.25, 66.19],
+      "zone": "elwynn_forest",
+      "tips": [],
+      "quests": [],
+      "npc": "Zaldimar Wefhellt",
+      "mobs": []
+    },
+    {
+      "id": "elwynn_062",
+      "type": "info",
+      "description": "Talk to Keryn Sylvius and train your class spells",
+      "classes": ["Rogue"],
+      "races": null,
+      "coords": [43.872, 65.937],
+      "zone": "elwynn_forest",
+      "tips": [],
+      "quests": [],
+      "npc": "Keryn Sylvius",
+      "mobs": []
+    },
+    {
+      "id": "elwynn_063",
+      "type": "info",
+      "description": "Talk to Priestess Josetta and train your class spells",
+      "classes": ["Priest"],
+      "races": null,
+      "coords": [43.283, 65.719],
+      "zone": "elwynn_forest",
+      "tips": [],
+      "quests": [],
+      "npc": "Priestess Josetta",
+      "mobs": []
+    },
+    {
+      "id": "elwynn_064",
+      "type": "travel",
+      "description": "Travel to The Maclure Vineyards",
+      "classes": null,
+      "races": null,
+      "coords": [43.154, 89.625],
+      "zone": "elwynn_forest",
+      "tips": [],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "elwynn_065",
+      "type": "quest_turnin",
+      "description": "Talk to Maybell Maclure and turn in The Escape",
+      "classes": null,
+      "races": null,
+      "coords": [43.154, 89.625],
+      "zone": "elwynn_forest",
+      "tips": [],
+      "quests": [
+        {
+          "id": 114,
+          "name": "The Escape"
+        }
+      ],
+      "npc": "Maybell Maclure",
+      "mobs": []
+    },
+    {
+      "id": "elwynn_066",
+      "type": "quest_turnin",
+      "description": "Talk to Ma Stonefield and turn in Princess Must Die!",
+      "classes": null,
+      "races": null,
+      "coords": [34.66, 84.483],
+      "zone": "elwynn_forest",
+      "tips": [],
+      "quests": [
+        {
+          "id": 88,
+          "name": "Princess Must Die!"
+        }
+      ],
+      "npc": "Ma Stonefield",
+      "mobs": []
+    },
+    {
+      "id": "elwynn_067",
+      "type": "quest_turnin",
+      "description": "Talk to Auntie Bernice Stonefield and turn in Pie for Billy",
+      "classes": null,
+      "races": null,
+      "coords": [34.486, 84.252],
+      "zone": "elwynn_forest",
+      "tips": [
+        {
+          "type": "warning",
+          "class": null,
+          "text": "Skip the turn in for now if you don't have enough Chunks of Boar Meat"
+        }
+      ],
+      "quests": [
+        {
+          "id": 86,
+          "name": "Pie for Billy"
+        }
+      ],
+      "npc": "Auntie Bernice Stonefield",
+      "mobs": []
+    },
+    {
+      "id": "elwynn_068",
+      "type": "travel",
+      "description": "Travel to Westbrook Garrison",
+      "classes": null,
+      "races": null,
+      "coords": [24.82, 76.25],
+      "zone": "elwynn_forest",
+      "tips": [],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "elwynn_069",
+      "type": "quest_turnin",
+      "description": "Talk to Deputy Rainer, turn in Westbrook Garrison Needs Help!, and accept Riverpaw Gnoll Bounty. Click the Wanted Poster and accept Wanted: Hogger",
+      "classes": ["Warlock"],
+      "races": null,
+      "coords": [24.548, 74.672],
+      "zone": "elwynn_forest",
+      "tips": [],
+      "quests": [
+        {
+          "id": 239,
+          "name": "Westbrook Garrison Needs Help!"
+        },
+        {
+          "id": 11,
+          "name": "Riverpaw Gnoll Bounty"
+        },
+        {
+          "id": 176,
+          "name": "Wanted: \"Hogger\""
+        }
+      ],
+      "npc": "Deputy Rainer",
+      "mobs": []
+    },
+    {
+      "id": "elwynn_070",
+      "type": "quest_turnin",
+      "description": "Talk to Deputy Rainer, turn in Westbrook Garrison Needs Help!, and accept Riverpaw Gnoll Bounty. Click the Wanted Poster and accept Wanted: Hogger",
+      "classes": ["!Warlock"],
+      "races": null,
+      "coords": [24.548, 74.672],
+      "zone": "elwynn_forest",
+      "tips": [],
+      "quests": [
+        {
+          "id": 239,
+          "name": "Westbrook Garrison Needs Help!"
+        },
+        {
+          "id": 11,
+          "name": "Riverpaw Gnoll Bounty"
+        },
+        {
+          "id": 176,
+          "name": "Wanted: \"Hogger\""
+        }
+      ],
+      "npc": "Deputy Rainer",
+      "mobs": []
+    },
+    {
+      "id": "elwynn_071",
+      "type": "kill",
+      "description": "Kill Riverpaw Runts and Riverpaw Outrunners. Loot them for the Gold Pickup Schedule. Use the Gold Pickup Schedule to start the quest",
+      "classes": null,
+      "races": null,
+      "coords": null,
+      "zone": "",
+      "tips": [
+        {
+          "type": "warning",
+          "class": null,
+          "text": "Use the Gold Pickup Schedule to start the quest"
+        },
+        {
+          "type": "warning",
+          "class": null,
+          "text": "The Gold Pickup Schedule is a very rare drop. Ignore this step if you don't get it"
+        },
+        {
+          "type": "warning",
+          "class": null,
+          "text": "Gruff Swiftbite a rare spawn, does have a 100% drop chance"
+        }
+      ],
+      "quests": [
+        {
+          "id": 123,
+          "name": "The Collector"
+        }
+      ],
+      "npc": null,
+      "mobs": ["Riverpaw Runt", "Riverpaw Outrunner"]
+    },
+    {
+      "id": "elwynn_072",
+      "type": "kill",
+      "description": "Kill Riverpaw Runts and Riverpaw Outrunners. Loot them for their Armbands",
+      "classes": ["!Warlock"],
+      "races": null,
+      "coords": null,
+      "zone": "",
+      "tips": [
+        {
+          "type": "warning",
+          "class": "Paladin",
+          "text": "Ensure you have 10 Linen Cloth for your upcoming Paladin class quest"
+        }
+      ],
+      "quests": [
+        {
+          "id": 11,
+          "name": "Riverpaw Gnoll Bounty"
+        }
+      ],
+      "npc": null,
+      "mobs": ["Riverpaw Runt", "Riverpaw Outrunner"]
+    },
+    {
+      "id": "elwynn_073",
+      "type": "kill",
+      "description": "Kill Riverpaw Runts and Riverpaw Outrunners. Loot them for their Armbands",
+      "classes": ["Warlock"],
+      "races": null,
+      "coords": null,
+      "zone": "",
+      "tips": [
+        {
+          "type": "warning",
+          "class": "Paladin",
+          "text": "Ensure you have 10 Linen Cloth for your upcoming Paladin class quest"
+        }
+      ],
+      "quests": [
+        {
+          "id": 11,
+          "name": "Riverpaw Gnoll Bounty"
+        }
+      ],
+      "npc": null,
+      "mobs": ["Riverpaw Runt", "Riverpaw Outrunner"]
+    },
+    {
+      "id": "elwynn_074",
+      "type": "kill",
+      "description": "Kill Hogger. Loot him for his Claw",
+      "classes": ["Warlock"],
+      "races": null,
+      "coords": [25.9, 93.9],
+      "zone": "elwynn_forest",
+      "tips": [
+        {
+          "type": "warning",
+          "class": null,
+          "text": "Hogger can spawn in multiple locations"
+        },
+        {
+          "type": "warning",
+          "class": null,
+          "text": "Cast Fear on Hogger continously and use your regular DoTs to kill him"
+        },
+        {
+          "type": "warning",
+          "class": null,
+          "text": "This quest is difficult. Find a group for him if needed. Skip this step if you're unable to find a group or solo him"
+        }
+      ],
+      "quests": [
+        {
+          "id": 176,
+          "name": "Wanted: \"Hogger\""
+        }
+      ],
+      "npc": null,
+      "mobs": ["Hogger"]
+    },
+    {
+      "id": "elwynn_075",
+      "type": "kill",
+      "description": "Kill Hogger. Loot him for his Claw",
+      "classes": ["!Warlock"],
+      "races": null,
+      "coords": [25.9, 93.9],
+      "zone": "elwynn_forest",
+      "tips": [
+        {
+          "type": "warning",
+          "class": null,
+          "text": "Hogger can spawn in multiple locations"
+        },
+        {
+          "type": "warning",
+          "class": null,
+          "text": "This quest is difficult. Find a group for him if needed. Skip this step if you're unable to find a group or solo him"
+        }
+      ],
+      "quests": [
+        {
+          "id": 176,
+          "name": "Wanted: \"Hogger\""
+        }
+      ],
+      "npc": null,
+      "mobs": ["Hogger"]
+    },
+    {
+      "id": "elwynn_076",
+      "type": "kill",
+      "description": "Kill Riverpaw Runts and Riverpaw Outrunners. Loot them for their Armbands",
+      "classes": null,
+      "races": null,
+      "coords": [25.9, 93.9],
+      "zone": "elwynn_forest",
+      "tips": [
+        {
+          "type": "warning",
+          "class": "Paladin",
+          "text": "Ensure you have 10 Linen Cloth for your upcoming Paladin class quest"
+        }
+      ],
+      "quests": [
+        {
+          "id": 11,
+          "name": "Riverpaw Gnoll Bounty"
+        }
+      ],
+      "npc": null,
+      "mobs": ["Riverpaw Runt", "Riverpaw Outrunner"]
+    },
+    {
+      "id": "elwynn_077",
+      "type": "quest_turnin",
+      "description": "Talk to Marshal Dughan and turn in Wanted: Hogger",
+      "classes": null,
+      "races": null,
+      "coords": [42.105, 65.927],
+      "zone": "elwynn_forest",
+      "tips": [],
+      "quests": [
+        {
+          "id": 176,
+          "name": "Wanted: \"Hogger\""
+        }
+      ],
+      "npc": "Marshal Dughan",
+      "mobs": []
+    },
+    {
+      "id": "elwynn_078",
+      "type": "quest_turnin",
+      "description": "Talk to Marshal Dughan and turn in The Collector",
+      "classes": null,
+      "races": null,
+      "coords": [42.105, 65.927],
+      "zone": "elwynn_forest",
+      "tips": [],
+      "quests": [
+        {
+          "id": 123,
+          "name": "The Collector"
+        }
+      ],
+      "npc": "Marshal Dughan",
+      "mobs": []
+    },
+    {
+      "id": "elwynn_079",
+      "type": "quest_turnin",
+      "description": "Talk to Deputy Rainer and turn in Riverpaw Gnoll Bounty",
+      "classes": null,
+      "races": null,
+      "coords": [24.234, 74.45],
+      "zone": "elwynn_forest",
+      "tips": [],
+      "quests": [
+        {
+          "id": 11,
+          "name": "Riverpaw Gnoll Bounty"
+        }
+      ],
+      "npc": "Deputy Rainer",
+      "mobs": []
+    },
+    {
+      "id": "elwynn_080",
+      "type": "travel",
+      "description": "Travel to Westfall",
+      "classes": null,
+      "races": null,
+      "coords": [59.95, 19.35],
+      "zone": "westfall",
+      "tips": [],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "elwynn_081",
+      "type": "quest_turnin",
+      "description": "Talk to Farmer Furlbrow and turn in Furlbrow's Deed",
+      "classes": null,
+      "races": null,
+      "coords": [59.95, 19.35],
+      "zone": "westfall",
+      "tips": [],
+      "quests": [
+        {
+          "id": 184,
+          "name": "Furlbrow's Deed"
+        }
+      ],
+      "npc": "Farmer Furlbrow",
+      "mobs": []
+    },
+    {
+      "id": "elwynn_082",
+      "type": "quest_accept",
+      "description": "Talk to Farmer Furlbrow and Verna Furlbrow, accept The Forgotten Heirloom, Poor Old Blanchy, and Westfall Stew",
+      "classes": null,
+      "races": null,
+      "coords": [59.92, 19.42],
+      "zone": "westfall",
+      "tips": [],
+      "quests": [
+        {
+          "id": 64,
+          "name": "The Forgotten Heirloom"
+        },
+        {
+          "id": 151,
+          "name": "Poor Old Blanchy"
+        },
+        {
+          "id": 36,
+          "name": "Westfall Stew"
+        }
+      ],
+      "npc": "Verna Furlbrow",
+      "mobs": []
+    },
+    {
+      "id": "elwynn_083",
+      "type": "quest_accept",
+      "description": "Talk to Farmer Saldean and accept The Killing Fields",
+      "classes": null,
+      "races": null,
+      "coords": [56.04, 31.23],
+      "zone": "westfall",
+      "tips": [],
+      "quests": [
+        {
+          "id": 9,
+          "name": "The Killing Fields"
+        }
+      ],
+      "npc": "Farmer Saldean",
+      "mobs": []
+    },
+    {
+      "id": "elwynn_084",
+      "type": "quest_turnin",
+      "description": "Talk to Salma Saldean, turn in Westfall Stew, and accept Westfall Stew and Goretusk Liver Pie",
+      "classes": null,
+      "races": null,
+      "coords": [56.4, 30.5],
+      "zone": "westfall",
+      "tips": [],
+      "quests": [
+        {
+          "id": 36,
+          "name": "Westfall Stew"
+        },
+        {
+          "id": 38,
+          "name": "Westfall Stew"
+        },
+        {
+          "id": 22,
+          "name": "Goretusk Liver Pie"
+        }
+      ],
+      "npc": "Salma Saldean",
+      "mobs": []
+    },
+    {
+      "id": "elwynn_085",
+      "type": "info",
+      "description": "Die and respawn at the Spirit Healer, or run to Sentinel Hill",
+      "classes": null,
+      "races": null,
+      "coords": null,
+      "zone": "",
+      "tips": [],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "elwynn_086",
+      "type": "quest_turnin",
+      "description": "Talk to Gryan Stoutmantle, turn in Report to Gryan Stoutmantle, and accept The People's Militia",
+      "classes": null,
+      "races": null,
+      "coords": [56.33, 47.52],
+      "zone": "westfall",
+      "tips": [],
+      "quests": [
+        {
+          "id": 109,
+          "name": "Report to Gryan Stoutmantle"
+        },
+        {
+          "id": 12,
+          "name": "The People's Militia"
+        }
+      ],
+      "npc": "Gryan Stoutmantle",
+      "mobs": []
+    },
+    {
+      "id": "elwynn_087",
+      "type": "quest_accept",
+      "description": "Talk to Captain Danuvin and accept Patrolling Westfall",
+      "classes": null,
+      "races": null,
+      "coords": [56.42, 47.62],
+      "zone": "westfall",
+      "tips": [],
+      "quests": [
+        {
+          "id": 102,
+          "name": "Patrolling Westfall"
+        }
+      ],
+      "npc": "Captain Danuvin",
+      "mobs": []
+    },
+    {
+      "id": "elwynn_088",
+      "type": "quest_accept",
+      "description": "Talk to Scout Galiaan and accept Red Leather Bandanas",
+      "classes": null,
+      "races": null,
+      "coords": [54.0, 53.0],
+      "zone": "westfall",
+      "tips": [],
+      "quests": [
+        {
+          "id": 153,
+          "name": "Red Leather Bandanas"
+        }
+      ],
+      "npc": "Scout Galiaan",
+      "mobs": []
+    },
+    {
+      "id": "elwynn_089",
+      "type": "fly",
+      "description": "Talk to Thor, get the Sentinel Hill flight path, and fly to Stormwind",
+      "classes": ["Paladin"],
+      "races": ["Dwarf"],
+      "coords": [56.55, 52.64],
+      "zone": "westfall",
+      "tips": [],
+      "quests": [],
+      "npc": "Thor",
+      "mobs": []
+    },
+    {
+      "id": "elwynn_090",
+      "type": "info",
+      "description": "Hearth to Loch Modan",
+      "classes": ["!Paladin"],
+      "races": null,
+      "coords": null,
+      "zone": "",
+      "tips": [],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "elwynn_091",
+      "type": "travel",
+      "description": "Enter the Deeprun Tram. Take the Tram to Ironforge",
+      "classes": ["Paladin"],
+      "races": ["Dwarf"],
+      "coords": [64.0, 8.1],
+      "zone": "stormwind_city",
+      "tips": [],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    }
+  ]
+}

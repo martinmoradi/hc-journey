@@ -1,0 +1,2601 @@
+{
+  "zone": "Alterac/Arathi",
+  "levelRange": "40-41",
+  "faction": "Alliance",
+  "name": "40-41_alterac_arathi",
+  "next": "41-42_badlands",
+  "steps": [
+    {
+      "id": "alterac_arathi_001",
+      "type": "quest_accept",
+      "description": "Talk to Skuerto and accept Wand over Fist",
+      "classes": null,
+      "races": null,
+      "coords": [46.652, 47.01],
+      "zone": "arathi_highlands",
+      "tips": [],
+      "quests": [
+        {
+          "id": 693,
+          "name": "Wand over Fist"
+        }
+      ],
+      "npc": "Skuerto",
+      "mobs": []
+    },
+    {
+      "id": "alterac_arathi_002",
+      "type": "quest_accept",
+      "description": "Click the Shards of Myzrael and accept The Princess Trapped",
+      "classes": null,
+      "races": null,
+      "coords": [62.5, 33.72],
+      "zone": "arathi_highlands",
+      "tips": [],
+      "quests": [
+        {
+          "id": 642,
+          "name": "The Princess Trapped"
+        }
+      ],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "alterac_arathi_003",
+      "type": "loot",
+      "description": "Mine the Lesser Bloodstone Deposits. Loot it for Lesser Bloodstone Ore",
+      "classes": null,
+      "races": null,
+      "coords": [84.3, 30.95],
+      "zone": "arathi_highlands",
+      "tips": [
+        {
+          "type": "warning",
+          "class": null,
+          "text": "These are found inside of the Cave"
+        }
+      ],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "alterac_arathi_004",
+      "type": "kill",
+      "description": "Kill Drywhisker Kobolds, Drywhisker Diggers and Drywhisker Surveyors. Loot them for their Motes",
+      "classes": null,
+      "races": null,
+      "coords": [84.3, 30.95],
+      "zone": "arathi_highlands",
+      "tips": [
+        {
+          "type": "warning",
+          "class": null,
+          "text": "The quest turn in for this is inside the Cave. Clear your way to the back while completing it"
+        }
+      ],
+      "quests": [
+        {
+          "id": 642,
+          "name": "The Princess Trapped"
+        }
+      ],
+      "npc": null,
+      "mobs": ["Drywhisker Kobold", "Drywhisker Digger", "Drywhisker Surveyor"]
+    },
+    {
+      "id": "alterac_arathi_005",
+      "type": "quest_turnin",
+      "description": "Click the Iridescent Shards at the back of the Cave, turn in The Princess Trapped, and accept Stones of Binding",
+      "classes": null,
+      "races": null,
+      "coords": [84.3, 30.95],
+      "zone": "arathi_highlands",
+      "tips": [],
+      "quests": [
+        {
+          "id": 642,
+          "name": "The Princess Trapped"
+        },
+        {
+          "id": 651,
+          "name": "Stones of Binding"
+        }
+      ],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "alterac_arathi_006",
+      "type": "loot",
+      "description": "Open the Stone of East Binding. Loot it for the Cresting Key",
+      "classes": null,
+      "races": null,
+      "coords": [66.71, 29.725],
+      "zone": "arathi_highlands",
+      "tips": [],
+      "quests": [
+        {
+          "id": 651,
+          "name": "Stones of Binding"
+        }
+      ],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "alterac_arathi_007",
+      "type": "kill",
+      "description": "Kill Cresting Exiles. Loot them for their Cresting Charms",
+      "classes": ["Warrior"],
+      "races": null,
+      "coords": [66.82, 29.77],
+      "zone": "arathi_highlands",
+      "tips": [],
+      "quests": [],
+      "npc": null,
+      "mobs": ["Cresting Exile"]
+    },
+    {
+      "id": "alterac_arathi_008",
+      "type": "quest_accept",
+      "description": "Talk to Quae and accept Hints of a New Plague?",
+      "classes": null,
+      "races": null,
+      "coords": [60.18, 53.84],
+      "zone": "arathi_highlands",
+      "tips": [],
+      "quests": [
+        {
+          "id": 658,
+          "name": "Hints of a New Plague?"
+        }
+      ],
+      "npc": "Quae",
+      "mobs": []
+    },
+    {
+      "id": "alterac_arathi_009",
+      "type": "kill",
+      "description": "Kill the Forsaken Courier. Loot her for her Sealed Folder",
+      "classes": null,
+      "races": null,
+      "coords": [60.37, 59.02],
+      "zone": "arathi_highlands",
+      "tips": [
+        {
+          "type": "warning",
+          "class": null,
+          "text": "The Forsaken Courier patrols the road between Tarren Mill and Go'Shek Farm"
+        },
+        {
+          "type": "warning",
+          "class": "Hunter",
+          "text": "Cast Eagle Eye to try and find the Forsaken Courier"
+        },
+        {
+          "type": "warning",
+          "class": null,
+          "text": "If you can't see them in Hillsbrad, look for them in Arathi after. Her patrol route is marked on your map in Hillsbrad and Arathi"
+        }
+      ],
+      "quests": [
+        {
+          "id": 658,
+          "name": "Hints of a New Plague?"
+        }
+      ],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "alterac_arathi_010",
+      "type": "quest_turnin",
+      "description": "Talk to Quae and turn in Hints of a New Plague?",
+      "classes": null,
+      "races": null,
+      "coords": [60.185, 53.848],
+      "zone": "arathi_highlands",
+      "tips": [],
+      "quests": [
+        {
+          "id": 658,
+          "name": "Hints of a New Plague?"
+        }
+      ],
+      "npc": "Quae",
+      "mobs": []
+    },
+    {
+      "id": "alterac_arathi_011",
+      "type": "quest_accept",
+      "description": "Talk to Quae and Kinelory, turn in Hints of a New Plague?, and accept Hints of a New Plague?",
+      "classes": null,
+      "races": null,
+      "coords": [60.238, 53.92],
+      "zone": "arathi_highlands",
+      "tips": [
+        {
+          "type": "warning",
+          "class": null,
+          "text": "Someone may be doing the Kinelory escort if she isn't there. Wait until she returns"
+        }
+      ],
+      "quests": [
+        {
+          "id": 657,
+          "name": "Hints of a New Plague?"
+        },
+        {
+          "id": 660,
+          "name": "Hints of a New Plague?"
+        }
+      ],
+      "npc": "Kinelory",
+      "mobs": []
+    },
+    {
+      "id": "alterac_arathi_012",
+      "type": "info",
+      "description": "Escort Kinelory through Go'Shek Farm",
+      "classes": null,
+      "races": null,
+      "coords": null,
+      "zone": "",
+      "tips": [],
+      "quests": [
+        {
+          "id": 660,
+          "name": "Hints of a New Plague?"
+        }
+      ],
+      "npc": "Kinelory",
+      "mobs": []
+    },
+    {
+      "id": "alterac_arathi_013",
+      "type": "quest_turnin",
+      "description": "Talk to Quae, turn in Hints of a New Plague?, and accept Hints of a New Plague?",
+      "classes": null,
+      "races": null,
+      "coords": [60.185, 53.848],
+      "zone": "arathi_highlands",
+      "tips": [],
+      "quests": [
+        {
+          "id": 660,
+          "name": "Hints of a New Plague?"
+        },
+        {
+          "id": 661,
+          "name": "Hints of a New Plague?"
+        }
+      ],
+      "npc": "Quae",
+      "mobs": []
+    },
+    {
+      "id": "alterac_arathi_014",
+      "type": "travel",
+      "description": "Enter the Bolderfist Hall Cave",
+      "classes": null,
+      "races": null,
+      "coords": [54.21, 77.8],
+      "zone": "arathi_highlands",
+      "tips": [],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "alterac_arathi_015",
+      "type": "kill",
+      "description": "Kill Kor'gresh Coldrage. Loot him for Trelane's Wand",
+      "classes": null,
+      "races": null,
+      "coords": [54.75, 81.87],
+      "zone": "arathi_highlands",
+      "tips": [],
+      "quests": [
+        {
+          "id": 693,
+          "name": "Wand over Fist"
+        }
+      ],
+      "npc": null,
+      "mobs": ["Kor'gresh Coldrage"]
+    },
+    {
+      "id": "alterac_arathi_016",
+      "type": "info",
+      "description": "Perform a Logout skip on the banner next to Kor'gresh Coldrage to teleport closer to Refuge Point. If you are unable to do this just run out normally",
+      "classes": null,
+      "races": null,
+      "coords": [54.428, 80.8],
+      "zone": "arathi_highlands",
+      "tips": [
+        {
+          "type": "link",
+          "class": null,
+          "text": "Click here for video reference",
+          "url": "https://youtu.be/SWBtPqm5M0Q?t=61"
+        }
+      ],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "alterac_arathi_017",
+      "type": "quest_turnin",
+      "description": "Talk to Skuerto and turn in Wand over Fist",
+      "classes": null,
+      "races": null,
+      "coords": [46.652, 47.01],
+      "zone": "arathi_highlands",
+      "tips": [],
+      "quests": [
+        {
+          "id": 693,
+          "name": "Wand over Fist"
+        }
+      ],
+      "npc": "Skuerto",
+      "mobs": []
+    },
+    {
+      "id": "alterac_arathi_018",
+      "type": "quest_accept",
+      "description": "Talk to Skuerto and accept Trelane's Defenses",
+      "classes": null,
+      "races": null,
+      "coords": [46.652, 47.01],
+      "zone": "arathi_highlands",
+      "tips": [],
+      "quests": [
+        {
+          "id": 694,
+          "name": "Trelane's Defenses"
+        }
+      ],
+      "npc": "Skuerto",
+      "mobs": []
+    },
+    {
+      "id": "alterac_arathi_019",
+      "type": "fly",
+      "description": "Talk to Cedrik Prose and fly to Southshore",
+      "classes": null,
+      "races": null,
+      "coords": [45.73, 46.09],
+      "zone": "arathi_highlands",
+      "tips": [],
+      "quests": [],
+      "npc": "Cedrik Prose",
+      "mobs": []
+    },
+    {
+      "id": "alterac_arathi_020",
+      "type": "quest_accept",
+      "description": "If you ever see a Shadowy Assassin in Southshore, kill them. Loot them for the Assassin's Contract. Use the Assassin's Contract to start the quest.",
+      "classes": null,
+      "races": null,
+      "coords": null,
+      "zone": "",
+      "tips": [
+        {
+          "type": "warning",
+          "class": null,
+          "text": "The Shadowy Assassin attack on Southshore is a random event"
+        },
+        {
+          "type": "warning",
+          "class": null,
+          "text": "Skip this step if you don't see the event"
+        }
+      ],
+      "quests": [
+        {
+          "id": 522,
+          "name": "Assassin's Contract"
+        }
+      ],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "alterac_arathi_021",
+      "type": "info",
+      "description": "Talk to Innkeeper Anderson and set your Hearthstone to Southshore",
+      "classes": null,
+      "races": null,
+      "coords": [51.17, 58.927],
+      "zone": "hillsbrad_foothills",
+      "tips": [],
+      "quests": [],
+      "npc": "Innkeeper Anderson",
+      "mobs": []
+    },
+    {
+      "id": "alterac_arathi_022",
+      "type": "quest_turnin",
+      "description": "Talk to Raleigh the Devout up stairs and turn in Down the Scarlet Path",
+      "classes": null,
+      "races": null,
+      "coords": [51.468, 58.354],
+      "zone": "hillsbrad_foothills",
+      "tips": [],
+      "quests": [
+        {
+          "id": 1052,
+          "name": "Down the Scarlet Path"
+        }
+      ],
+      "npc": "Raleigh the Devout",
+      "mobs": []
+    },
+    {
+      "id": "alterac_arathi_023",
+      "type": "quest_accept",
+      "description": "Talk to Raleigh the Devout up stairs and accept In the Name of the Light",
+      "classes": null,
+      "races": null,
+      "coords": [51.468, 58.354],
+      "zone": "hillsbrad_foothills",
+      "tips": [],
+      "quests": [
+        {
+          "id": 1053,
+          "name": "In the Name of the Light"
+        }
+      ],
+      "npc": "Raleigh the Devout",
+      "mobs": []
+    },
+    {
+      "id": "alterac_arathi_024",
+      "type": "quest_turnin",
+      "description": "Talk to Magistrate Henry Maleb and turn in Assassin's Contract",
+      "classes": null,
+      "races": null,
+      "coords": [48.145, 59.121],
+      "zone": "hillsbrad_foothills",
+      "tips": [],
+      "quests": [
+        {
+          "id": 522,
+          "name": "Assassin's Contract"
+        }
+      ],
+      "npc": "Magistrate Henry Maleb",
+      "mobs": []
+    },
+    {
+      "id": "alterac_arathi_025",
+      "type": "quest_turnin",
+      "description": "Talk to Phin Odelic and turn in Hints of a New Plague?",
+      "classes": null,
+      "races": null,
+      "coords": [50.34, 59.04],
+      "zone": "hillsbrad_foothills",
+      "tips": [],
+      "quests": [
+        {
+          "id": 661,
+          "name": "Hints of a New Plague?"
+        }
+      ],
+      "npc": "Phin Odelic",
+      "mobs": []
+    },
+    {
+      "id": "alterac_arathi_026",
+      "type": "quest_accept",
+      "description": "Talk to Magistrate Henry Maleb and accept Baron's Demise",
+      "classes": null,
+      "races": null,
+      "coords": [48.145, 59.121],
+      "zone": "hillsbrad_foothills",
+      "tips": [],
+      "quests": [
+        {
+          "id": 523,
+          "name": "Baron's Demise"
+        }
+      ],
+      "npc": "Magistrate Henry Maleb",
+      "mobs": []
+    },
+    {
+      "id": "alterac_arathi_027",
+      "type": "quest_turnin",
+      "description": "Talk to Magistrate Henry Maleb, turn in Further Mysteries, accept Dark Council and Noble Deaths",
+      "classes": null,
+      "races": null,
+      "coords": [48.145, 59.121],
+      "zone": "hillsbrad_foothills",
+      "tips": [],
+      "quests": [
+        {
+          "id": 525,
+          "name": "Further Mysteries"
+        },
+        {
+          "id": 537,
+          "name": "Dark Council"
+        },
+        {
+          "id": 512,
+          "name": "Noble Deaths"
+        }
+      ],
+      "npc": "Magistrate Henry Maleb",
+      "mobs": []
+    },
+    {
+      "id": "alterac_arathi_028",
+      "type": "quest_accept",
+      "description": "Talk to Marshal Redpath and accept Crushridge Warmongers",
+      "classes": null,
+      "races": null,
+      "coords": [49.473, 58.732],
+      "zone": "hillsbrad_foothills",
+      "tips": [],
+      "quests": [
+        {
+          "id": 504,
+          "name": "Crushridge Warmongers"
+        }
+      ],
+      "npc": "Marshal Redpath",
+      "mobs": []
+    },
+    {
+      "id": "alterac_arathi_029",
+      "type": "quest_turnin",
+      "description": "Talk to Loremaster Dibbs and turn in Southshore",
+      "classes": null,
+      "races": null,
+      "coords": [50.57, 57.093],
+      "zone": "hillsbrad_foothills",
+      "tips": [],
+      "quests": [
+        {
+          "id": 538,
+          "name": "Southshore"
+        }
+      ],
+      "npc": "Loremaster Dibbs",
+      "mobs": []
+    },
+    {
+      "id": "alterac_arathi_030",
+      "type": "quest_accept",
+      "description": "Talk to Loremaster Dibbs and accept Preserving Knowledge",
+      "classes": null,
+      "races": null,
+      "coords": [50.57, 57.093],
+      "zone": "hillsbrad_foothills",
+      "tips": [],
+      "quests": [
+        {
+          "id": 540,
+          "name": "Preserving Knowledge"
+        }
+      ],
+      "npc": "Loremaster Dibbs",
+      "mobs": []
+    },
+    {
+      "id": "alterac_arathi_031",
+      "type": "quest_turnin",
+      "description": "Talk to Archmage Ansirem Runeweaver, turn in Magical Analysis, and accept Ansirem's Key",
+      "classes": null,
+      "races": null,
+      "coords": [18.83, 78.48],
+      "zone": "alterac_mountains",
+      "tips": [],
+      "quests": [
+        {
+          "id": 602,
+          "name": "Magical Analysis"
+        },
+        {
+          "id": 603,
+          "name": "Ansirem's Key"
+        }
+      ],
+      "npc": "Archmage Ansirem Runeweaver",
+      "mobs": []
+    },
+    {
+      "id": "alterac_arathi_032",
+      "type": "grind",
+      "description": "Grind Crushridge Ogres and Crushridge Brutes while looking for a group for Scarlet Monastery",
+      "classes": null,
+      "races": null,
+      "coords": [48.54, 40.72],
+      "zone": "alterac_mountains",
+      "tips": [],
+      "quests": [],
+      "npc": null,
+      "mobs": ["Crushridge Ogre", "Crushridge Brute"]
+    },
+    {
+      "id": "alterac_arathi_033",
+      "type": "travel",
+      "description": "Enter Scarlet Monastery. Start with Library so you can loot the The Scarlet Key at the end",
+      "classes": null,
+      "races": null,
+      "coords": [47.792, 19.611],
+      "zone": "1415",
+      "tips": [],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "alterac_arathi_034",
+      "type": "loot",
+      "description": "Loot the Mythology of the Titans",
+      "classes": null,
+      "races": null,
+      "coords": null,
+      "zone": "scarlet_monastery",
+      "tips": [
+        {
+          "type": "warning",
+          "class": null,
+          "text": "This can spawn randomly on the ground or in bookshelves throughout the Library wing"
+        }
+      ],
+      "quests": [
+        {
+          "id": 1050,
+          "name": "Mythology of the Titans"
+        }
+      ],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "alterac_arathi_035",
+      "type": "kill",
+      "description": "Kill Houndmaster Loksey, Herod, High Inquisitor Whitemane and Scarlet Commander Mograine",
+      "classes": null,
+      "races": null,
+      "coords": null,
+      "zone": "scarlet_monastery",
+      "tips": [
+        {
+          "type": "warning",
+          "class": null,
+          "text": "Houndmaster Loksey is located in the Library"
+        },
+        {
+          "type": "warning",
+          "class": null,
+          "text": "Herod is located in the Armory"
+        },
+        {
+          "type": "warning",
+          "class": null,
+          "text": "High Inquisitor Whitemane and Scarlet Commander Mograine are located in the Cathedral"
+        }
+      ],
+      "quests": [
+        {
+          "id": 1053,
+          "name": "In the Name of the Light"
+        }
+      ],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "alterac_arathi_036",
+      "type": "info",
+      "description": "Hearth to Southshore. Buy food/water if needed",
+      "classes": ["!Warrior", "!Rogue"],
+      "races": null,
+      "coords": null,
+      "zone": "",
+      "tips": [],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "alterac_arathi_037",
+      "type": "info",
+      "description": "Hearth to Southshore. Buy food if needed",
+      "classes": ["Warrior", "Rogue"],
+      "races": null,
+      "coords": null,
+      "zone": "",
+      "tips": [],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "alterac_arathi_038",
+      "type": "quest_turnin",
+      "description": "Talk to Raleigh the Devout up stairs and turn in In the Name of the Light",
+      "classes": null,
+      "races": null,
+      "coords": [51.468, 58.354],
+      "zone": "hillsbrad_foothills",
+      "tips": [],
+      "quests": [
+        {
+          "id": 1053,
+          "name": "In the Name of the Light"
+        }
+      ],
+      "npc": "Raleigh the Devout",
+      "mobs": []
+    },
+    {
+      "id": "alterac_arathi_039",
+      "type": "travel",
+      "description": "Travel to the Ruins of Alterac. This location will also serve as your exit route, should you need it",
+      "classes": null,
+      "races": null,
+      "coords": [37.55, 61.44],
+      "zone": "alterac_mountains",
+      "tips": [],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "alterac_arathi_040",
+      "type": "kill",
+      "description": "Kill Crushridge Warmongers",
+      "classes": null,
+      "races": null,
+      "coords": null,
+      "zone": "",
+      "tips": [
+        {
+          "type": "warning",
+          "class": null,
+          "text": "Crushridge Warmongers call for help at 25% HP"
+        }
+      ],
+      "quests": [
+        {
+          "id": 504,
+          "name": "Crushridge Warmongers"
+        }
+      ],
+      "npc": null,
+      "mobs": ["Crushridge Warmonger"]
+    },
+    {
+      "id": "alterac_arathi_041",
+      "type": "kill",
+      "description": "Kill Grel'borg the Miser. Loot him for the Perenolde Tiara",
+      "classes": null,
+      "races": null,
+      "coords": [40.36, 47.05],
+      "zone": "alterac_mountains",
+      "tips": [
+        {
+          "type": "warning",
+          "class": null,
+          "text": "Grel'borg the Miser patrols the Ruins of Alterac. He is a level 39 Elite and easy to kill so long as you don't agro additional mobs. His patrol route is marked on your map"
+        }
+      ],
+      "quests": [
+        {
+          "id": 543,
+          "name": "The Perenolde Tiara"
+        }
+      ],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "alterac_arathi_042",
+      "type": "loot",
+      "description": "Enter the Town Hall. Open the Weathered Bookcase. Loot it for the Worn Leather Book",
+      "classes": null,
+      "races": null,
+      "coords": [38.421, 46.368],
+      "zone": "alterac_mountains",
+      "tips": [
+        {
+          "type": "warning",
+          "class": null,
+          "text": "You may kill Muckrake or just CC him, loot and then run away"
+        }
+      ],
+      "quests": [
+        {
+          "id": 540,
+          "name": "Preserving Knowledge"
+        }
+      ],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "alterac_arathi_043",
+      "type": "kill",
+      "description": "Kill Crushridge Warmongers",
+      "classes": null,
+      "races": null,
+      "coords": [36.855, 53.237],
+      "zone": "alterac_mountains",
+      "tips": [
+        {
+          "type": "warning",
+          "class": null,
+          "text": "Crushridge Warmongers call for help at 25% HP"
+        }
+      ],
+      "quests": [
+        {
+          "id": 504,
+          "name": "Crushridge Warmongers"
+        }
+      ],
+      "npc": null,
+      "mobs": ["Crushridge Warmonger"]
+    },
+    {
+      "id": "alterac_arathi_044",
+      "type": "travel",
+      "description": "Travel to Dandred's Fold. Be careful of fall damage if dropping down from the Ruins of Alterac",
+      "classes": null,
+      "races": null,
+      "coords": [39.66, 18.24],
+      "zone": "alterac_mountains",
+      "tips": [],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "alterac_arathi_045",
+      "type": "travel",
+      "description": "Travel to Dandred's Fold",
+      "classes": null,
+      "races": null,
+      "coords": [39.66, 18.24],
+      "zone": "alterac_mountains",
+      "tips": [],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "alterac_arathi_046",
+      "type": "kill",
+      "description": "Kill the Syndicate. Loot them for their Signet Rings",
+      "classes": null,
+      "races": null,
+      "coords": null,
+      "zone": "",
+      "tips": [
+        {
+          "type": "warning",
+          "class": null,
+          "text": "Syndicate Assassins and Syndicate Spies will be in Stealth"
+        }
+      ],
+      "quests": [
+        {
+          "id": 512,
+          "name": "Noble Deaths"
+        }
+      ],
+      "npc": null,
+      "mobs": [
+        "Syndicate Assassin",
+        "Syndicate Enforcer",
+        "Syndicate Saboteur",
+        "Syndicate Sentry",
+        "Syndicate Spy",
+        "Syndicate Wizard"
+      ]
+    },
+    {
+      "id": "alterac_arathi_047",
+      "type": "kill",
+      "description": "Kill Nagaz. Loot him for his Head",
+      "classes": null,
+      "races": null,
+      "coords": [39.22, 14.31],
+      "zone": "alterac_mountains",
+      "tips": [],
+      "quests": [
+        {
+          "id": 537,
+          "name": "Dark Council"
+        }
+      ],
+      "npc": null,
+      "mobs": ["Nagaz"]
+    },
+    {
+      "id": "alterac_arathi_048",
+      "type": "loot",
+      "description": "Open the Worn Wooden Chest. Loot it for the Ensorcelled Parchment. Use the Ensorcelled Parchment to start the quest",
+      "classes": null,
+      "races": null,
+      "coords": [39.177, 14.661],
+      "zone": "alterac_mountains",
+      "tips": [],
+      "quests": [
+        {
+          "id": 551,
+          "name": "The Ensorcelled Parchment"
+        }
+      ],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "alterac_arathi_049",
+      "type": "kill",
+      "description": "Kill Argus Shadow Mages",
+      "classes": null,
+      "races": null,
+      "coords": null,
+      "zone": "",
+      "tips": [],
+      "quests": [
+        {
+          "id": 537,
+          "name": "Dark Council"
+        }
+      ],
+      "npc": null,
+      "mobs": ["Argus Shadow Mage"]
+    },
+    {
+      "id": "alterac_arathi_050",
+      "type": "kill",
+      "description": "Kill Baron Vardus. Loot him for his Head",
+      "classes": null,
+      "races": null,
+      "coords": [59.7, 43.9],
+      "zone": "alterac_mountains",
+      "tips": [
+        {
+          "type": "warning",
+          "class": null,
+          "text": "Baron Vardus can be in the outside camps, as well as the basement Inn of Strahnbrad"
+        }
+      ],
+      "quests": [
+        {
+          "id": 523,
+          "name": "Baron's Demise"
+        }
+      ],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "alterac_arathi_051",
+      "type": "kill",
+      "description": "Kill Argus Shadow Mages",
+      "classes": null,
+      "races": null,
+      "coords": [62.3, 40.6],
+      "zone": "alterac_mountains",
+      "tips": [
+        {
+          "type": "warning",
+          "class": null,
+          "text": "You may find Argus Shadow Mages in Strahnbrad as well as The Uplands"
+        }
+      ],
+      "quests": [
+        {
+          "id": 537,
+          "name": "Dark Council"
+        }
+      ],
+      "npc": null,
+      "mobs": ["Argus Shadow Mage"]
+    },
+    {
+      "id": "alterac_arathi_052",
+      "type": "kill",
+      "description": "Kill the Syndicate. Loot them for their Signet Rings",
+      "classes": null,
+      "races": null,
+      "coords": [62.3, 40.6],
+      "zone": "alterac_mountains",
+      "tips": [
+        {
+          "type": "warning",
+          "class": null,
+          "text": "Syndicate Assassins and Syndicate Spies will be in Stealth"
+        }
+      ],
+      "quests": [
+        {
+          "id": 512,
+          "name": "Noble Deaths"
+        }
+      ],
+      "npc": null,
+      "mobs": [
+        "Syndicate Assassin",
+        "Syndicate Enforcer",
+        "Syndicate Saboteur",
+        "Syndicate Sentry",
+        "Syndicate Spy",
+        "Syndicate Wizard"
+      ]
+    },
+    {
+      "id": "alterac_arathi_053",
+      "type": "kill",
+      "description": "Kill Crushridge Ogres and Crushridge Brutes. Loot them for their Tomes",
+      "classes": null,
+      "races": null,
+      "coords": [48.54, 40.72],
+      "zone": "alterac_mountains",
+      "tips": [],
+      "quests": [
+        {
+          "id": 540,
+          "name": "Preserving Knowledge"
+        }
+      ],
+      "npc": null,
+      "mobs": ["Crushridge Ogre", "Crushridge Brute"]
+    },
+    {
+      "id": "alterac_arathi_054",
+      "type": "fly",
+      "description": "Talk to Bibilfaz Featherwhistle and fly to Southshore",
+      "classes": null,
+      "races": null,
+      "coords": [42.924, 85.061],
+      "zone": "western_plaguelands",
+      "tips": [],
+      "quests": [],
+      "npc": "Bibilfaz Featherwhistle",
+      "mobs": []
+    },
+    {
+      "id": "alterac_arathi_055",
+      "type": "quest_turnin",
+      "description": "Talk to Marshal Redpath and turn in Crushridge Warmongers",
+      "classes": null,
+      "races": null,
+      "coords": [49.473, 58.732],
+      "zone": "hillsbrad_foothills",
+      "tips": [],
+      "quests": [
+        {
+          "id": 504,
+          "name": "Crushridge Warmongers"
+        }
+      ],
+      "npc": "Marshal Redpath",
+      "mobs": []
+    },
+    {
+      "id": "alterac_arathi_056",
+      "type": "quest_turnin",
+      "description": "Talk to Magistrate Henry Maleb, turn in Noble Deaths and Dark Council",
+      "classes": null,
+      "races": null,
+      "coords": [48.145, 59.121],
+      "zone": "hillsbrad_foothills",
+      "tips": [],
+      "quests": [
+        {
+          "id": 512,
+          "name": "Noble Deaths"
+        },
+        {
+          "id": 537,
+          "name": "Dark Council"
+        }
+      ],
+      "npc": "Magistrate Henry Maleb",
+      "mobs": []
+    },
+    {
+      "id": "alterac_arathi_057",
+      "type": "quest_turnin",
+      "description": "Talk to Magistrate Henry Maleb and turn in Baron's Demise",
+      "classes": null,
+      "races": null,
+      "coords": [48.145, 59.121],
+      "zone": "hillsbrad_foothills",
+      "tips": [],
+      "quests": [
+        {
+          "id": 523,
+          "name": "Baron's Demise"
+        }
+      ],
+      "npc": "Magistrate Henry Maleb",
+      "mobs": []
+    },
+    {
+      "id": "alterac_arathi_058",
+      "type": "quest_turnin",
+      "description": "Talk to Loremaster Dibbs, turn in Preserving Knowledge and The Ensorcelled Parchment, and accept Return to Milton and Stormpike's Deciphering",
+      "classes": null,
+      "races": null,
+      "coords": [50.57, 57.093],
+      "zone": "hillsbrad_foothills",
+      "tips": [],
+      "quests": [
+        {
+          "id": 540,
+          "name": "Preserving Knowledge"
+        },
+        {
+          "id": 551,
+          "name": "The Ensorcelled Parchment"
+        },
+        {
+          "id": 542,
+          "name": "Return to Milton"
+        },
+        {
+          "id": 554,
+          "name": "Stormpike's Deciphering"
+        }
+      ],
+      "npc": "Loremaster Dibbs",
+      "mobs": []
+    },
+    {
+      "id": "alterac_arathi_059",
+      "type": "quest_turnin",
+      "description": "Talk to Loremaster Dibbs, turn in The Ensorcelled Parchment, and accept Return to Milton and Stormpike's Deciphering",
+      "classes": null,
+      "races": null,
+      "coords": [50.57, 57.093],
+      "zone": "hillsbrad_foothills",
+      "tips": [],
+      "quests": [
+        {
+          "id": 551,
+          "name": "The Ensorcelled Parchment"
+        },
+        {
+          "id": 542,
+          "name": "Return to Milton"
+        },
+        {
+          "id": 554,
+          "name": "Stormpike's Deciphering"
+        }
+      ],
+      "npc": "Loremaster Dibbs",
+      "mobs": []
+    },
+    {
+      "id": "alterac_arathi_060",
+      "type": "quest_turnin",
+      "description": "Talk to Loremaster Dibbs, turn in The Ensorcelled Parchment, and accept Stormpike's Deciphering",
+      "classes": null,
+      "races": null,
+      "coords": [50.57, 57.093],
+      "zone": "hillsbrad_foothills",
+      "tips": [],
+      "quests": [
+        {
+          "id": 551,
+          "name": "The Ensorcelled Parchment"
+        },
+        {
+          "id": 554,
+          "name": "Stormpike's Deciphering"
+        }
+      ],
+      "npc": "Loremaster Dibbs",
+      "mobs": []
+    },
+    {
+      "id": "alterac_arathi_061",
+      "type": "quest_turnin",
+      "description": "Talk to Loremaster Dibbs, turn in The Ensorcelled Parchment, and accept Stormpike's Deciphering",
+      "classes": null,
+      "races": null,
+      "coords": [50.57, 57.093],
+      "zone": "hillsbrad_foothills",
+      "tips": [],
+      "quests": [
+        {
+          "id": 551,
+          "name": "The Ensorcelled Parchment"
+        },
+        {
+          "id": 554,
+          "name": "Stormpike's Deciphering"
+        }
+      ],
+      "npc": "Loremaster Dibbs",
+      "mobs": []
+    },
+    {
+      "id": "alterac_arathi_062",
+      "type": "fly",
+      "description": "Talk to Darla Harris and fly to Arathi Highlands",
+      "classes": null,
+      "races": null,
+      "coords": [49.338, 52.272],
+      "zone": "hillsbrad_foothills",
+      "tips": [],
+      "quests": [],
+      "npc": "Darla Harris",
+      "mobs": []
+    },
+    {
+      "id": "alterac_arathi_063",
+      "type": "kill",
+      "description": "Kill Thundering Exiles. Loot them for their Thundering Charms",
+      "classes": ["Warrior"],
+      "races": null,
+      "coords": null,
+      "zone": "",
+      "tips": [],
+      "quests": [],
+      "npc": null,
+      "mobs": ["Thundering Exile"]
+    },
+    {
+      "id": "alterac_arathi_064",
+      "type": "loot",
+      "description": "Open the Stone of Outer Binding. Loot it for the Thundering Key",
+      "classes": null,
+      "races": null,
+      "coords": [52.042, 50.734],
+      "zone": "arathi_highlands",
+      "tips": [],
+      "quests": [
+        {
+          "id": 651,
+          "name": "Stones of Binding"
+        }
+      ],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "alterac_arathi_065",
+      "type": "kill",
+      "description": "Kill Thundering Exiles. Loot them for their Thundering Charms",
+      "classes": ["Warrior"],
+      "races": null,
+      "coords": [52.12, 51.11],
+      "zone": "arathi_highlands",
+      "tips": [],
+      "quests": [],
+      "npc": null,
+      "mobs": ["Thundering Exile"]
+    },
+    {
+      "id": "alterac_arathi_066",
+      "type": "travel",
+      "description": "Travel to the Circle of West Binding",
+      "classes": null,
+      "races": null,
+      "coords": [25.56, 30.32],
+      "zone": "arathi_highlands",
+      "tips": [],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "alterac_arathi_067",
+      "type": "kill",
+      "description": "Kill Burning Exiles. Loot them for their Burning Charms",
+      "classes": ["Warrior"],
+      "races": null,
+      "coords": null,
+      "zone": "",
+      "tips": [],
+      "quests": [],
+      "npc": null,
+      "mobs": ["Burning Exile"]
+    },
+    {
+      "id": "alterac_arathi_068",
+      "type": "loot",
+      "description": "Open the Stone of West Binding. Loot it for the Burning Key",
+      "classes": null,
+      "races": null,
+      "coords": [25.468, 30.11],
+      "zone": "arathi_highlands",
+      "tips": [],
+      "quests": [
+        {
+          "id": 651,
+          "name": "Stones of Binding"
+        }
+      ],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "alterac_arathi_069",
+      "type": "kill",
+      "description": "Kill Burning Exiles. Loot them for their Burning Charms",
+      "classes": ["Warrior"],
+      "races": null,
+      "coords": [66.82, 29.77],
+      "zone": "arathi_highlands",
+      "tips": [],
+      "quests": [],
+      "npc": null,
+      "mobs": ["Burning Exile"]
+    },
+    {
+      "id": "alterac_arathi_070",
+      "type": "travel",
+      "description": "Travel to Chillwind Point in Alterac Mountains",
+      "classes": ["Warrior"],
+      "races": null,
+      "coords": [79.318, 66.811],
+      "zone": "alterac_mountains",
+      "tips": [],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "alterac_arathi_071",
+      "type": "info",
+      "description": "Click Bath'rah's Cauldron",
+      "classes": ["Warrior"],
+      "races": null,
+      "coords": [79.318, 66.811],
+      "zone": "alterac_mountains",
+      "tips": [],
+      "quests": [
+        {
+          "id": 1712,
+          "name": "Cyclonian"
+        }
+      ],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "alterac_arathi_072",
+      "type": "info",
+      "description": "Before Accepting The Summoning watch the video below on how to solo Cyclonian",
+      "classes": ["Warrior"],
+      "races": null,
+      "coords": null,
+      "zone": "",
+      "tips": [
+        {
+          "type": "link",
+          "class": null,
+          "text": "Click here for video reference",
+          "url": "https://www.youtube.com/watch?v=BiuWeMSHEhA"
+        }
+      ],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "alterac_arathi_073",
+      "type": "quest_turnin",
+      "description": "Talk to Bath'rah the Windwatcher and turn in Cyclonian",
+      "classes": ["Warrior"],
+      "races": null,
+      "coords": [80.497, 66.919],
+      "zone": "alterac_mountains",
+      "tips": [],
+      "quests": [
+        {
+          "id": 1712,
+          "name": "Cyclonian"
+        }
+      ],
+      "npc": "Bath'rah the Windwatcher",
+      "mobs": []
+    },
+    {
+      "id": "alterac_arathi_074",
+      "type": "quest_accept",
+      "description": "Talk to Bath'rah the Windwatcher and accept The Summoning.",
+      "classes": ["Warrior"],
+      "races": null,
+      "coords": [80.497, 66.919],
+      "zone": "alterac_mountains",
+      "tips": [
+        {
+          "type": "warning",
+          "class": null,
+          "text": "Accepting this quest will summon Cyclonian. He hits fairly hard, but can be solo'd. Be sure to check the video for pointers on how to do so"
+        },
+        {
+          "type": "link",
+          "class": null,
+          "text": "Click here for video reference",
+          "url": "https://www.youtube.com/watch?v=BiuWeMSHEhA"
+        }
+      ],
+      "quests": [
+        {
+          "id": 1713,
+          "name": "The Summoning"
+        }
+      ],
+      "npc": "Bath'rah the Windwatcher",
+      "mobs": []
+    },
+    {
+      "id": "alterac_arathi_075",
+      "type": "kill",
+      "description": "Follow Bath'rah the Windwatcher to where he will summon Cyclonian. Kill Cyclonian. Loot him for his Whirlwind Heart",
+      "classes": ["Warrior"],
+      "races": null,
+      "coords": [80.65, 62.1],
+      "zone": "alterac_mountains",
+      "tips": [
+        {
+          "type": "warning",
+          "class": null,
+          "text": "Cyclonian hits fairly hard, but can be solo'd. Be sure to check the video for pointers on how to do so"
+        },
+        {
+          "type": "link",
+          "class": null,
+          "text": "Click here for video reference",
+          "url": "https://www.youtube.com/watch?v=BiuWeMSHEhA"
+        }
+      ],
+      "quests": [
+        {
+          "id": 1713,
+          "name": "The Summoning"
+        }
+      ],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "alterac_arathi_076",
+      "type": "quest_turnin",
+      "description": "Talk to Bath'rah the Windwatcher and turn in The Summoning",
+      "classes": ["Warrior"],
+      "races": null,
+      "coords": [80.497, 66.919],
+      "zone": "alterac_mountains",
+      "tips": [],
+      "quests": [
+        {
+          "id": 1713,
+          "name": "The Summoning"
+        }
+      ],
+      "npc": "Bath'rah the Windwatcher",
+      "mobs": []
+    },
+    {
+      "id": "alterac_arathi_077",
+      "type": "quest_turnin",
+      "description": "Talk to Bath'rah the Windwatcher and turn in Whirlwind Weapon",
+      "classes": ["Warrior"],
+      "races": null,
+      "coords": [80.497, 66.919],
+      "zone": "alterac_mountains",
+      "tips": [
+        {
+          "type": "warning",
+          "class": null,
+          "text": "The Whirlwind Axe is the best reward out of them all. However, if you do wish to choose a different weapon, it's only a small loss"
+        }
+      ],
+      "quests": [
+        {
+          "id": 1792,
+          "name": "Whirlwind Weapon"
+        }
+      ],
+      "npc": "Bath'rah the Windwatcher",
+      "mobs": []
+    },
+    {
+      "id": "alterac_arathi_078",
+      "type": "travel",
+      "description": "Travel to The Hinterlands",
+      "classes": null,
+      "races": null,
+      "coords": [6.23, 61.87],
+      "zone": "the_hinterlands",
+      "tips": [],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "alterac_arathi_079",
+      "type": "travel",
+      "description": "Travel to The Hinterlands",
+      "classes": null,
+      "races": null,
+      "coords": [6.23, 61.87],
+      "zone": "the_hinterlands",
+      "tips": [],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "alterac_arathi_080",
+      "type": "quest_turnin",
+      "description": "Talk to Falstad Wildhammer, turn in To The Hinterlands, and accept Gryphon Master Talonaxe",
+      "classes": null,
+      "races": null,
+      "coords": [11.806, 46.755],
+      "zone": "the_hinterlands",
+      "tips": [],
+      "quests": [
+        {
+          "id": 1449,
+          "name": "To The Hinterlands"
+        },
+        {
+          "id": 1450,
+          "name": "Gryphon Master Talonaxe"
+        }
+      ],
+      "npc": "Falstad Wildhammer",
+      "mobs": []
+    },
+    {
+      "id": "alterac_arathi_081",
+      "type": "fly",
+      "description": "Talk to Guthrum Thunderfist and get The Hinterlands Flight Path",
+      "classes": null,
+      "races": null,
+      "coords": [11.071, 46.153],
+      "zone": "the_hinterlands",
+      "tips": [],
+      "quests": [],
+      "npc": "Guthrum Thunderfist",
+      "mobs": []
+    },
+    {
+      "id": "alterac_arathi_082",
+      "type": "quest_turnin",
+      "description": "Talk to Gryphon Master Talonaxe, turn in Gryphon Master Talonaxe, and accept Rhapsody Shindigger",
+      "classes": null,
+      "races": null,
+      "coords": [9.752, 44.473],
+      "zone": "the_hinterlands",
+      "tips": [],
+      "quests": [
+        {
+          "id": 1450,
+          "name": "Gryphon Master Talonaxe"
+        },
+        {
+          "id": 1451,
+          "name": "Rhapsody Shindigger"
+        }
+      ],
+      "npc": "Gryphon Master Talonaxe",
+      "mobs": []
+    },
+    {
+      "id": "alterac_arathi_083",
+      "type": "quest_turnin",
+      "description": "Talk to Rhapsody Shindigger, turn in Rhapsody Shindigger, and accept Rhapsody's Kalimdor Kocktail",
+      "classes": null,
+      "races": null,
+      "coords": [26.943, 48.588],
+      "zone": "the_hinterlands",
+      "tips": [],
+      "quests": [
+        {
+          "id": 1451,
+          "name": "Rhapsody Shindigger"
+        },
+        {
+          "id": 1452,
+          "name": "Rhapsody's Kalimdor Kocktail"
+        }
+      ],
+      "npc": "Rhapsody Shindigger",
+      "mobs": []
+    },
+    {
+      "id": "alterac_arathi_084",
+      "type": "info",
+      "description": "Hearth to Southshore. Buy food/water if needed",
+      "classes": ["!Warrior", "!Rogue"],
+      "races": null,
+      "coords": null,
+      "zone": "",
+      "tips": [],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "alterac_arathi_085",
+      "type": "info",
+      "description": "Hearth to Southshore. Buy food if needed",
+      "classes": ["Warrior", "Rogue"],
+      "races": null,
+      "coords": null,
+      "zone": "",
+      "tips": [],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "alterac_arathi_086",
+      "type": "fly",
+      "description": "Talk to Darla Harris and fly to Arathi Highlands",
+      "classes": null,
+      "races": null,
+      "coords": [49.338, 52.272],
+      "zone": "hillsbrad_foothills",
+      "tips": [],
+      "quests": [],
+      "npc": "Darla Harris",
+      "mobs": []
+    },
+    {
+      "id": "alterac_arathi_087",
+      "type": "quest_accept",
+      "description": "Talk to Captain Nials and accept Stromgarde Badges",
+      "classes": null,
+      "races": null,
+      "coords": [45.832, 47.545],
+      "zone": "arathi_highlands",
+      "tips": [],
+      "quests": [
+        {
+          "id": 682,
+          "name": "Stromgarde Badges"
+        }
+      ],
+      "npc": "Captain Nials",
+      "mobs": []
+    },
+    {
+      "id": "alterac_arathi_088",
+      "type": "quest_accept",
+      "description": "Click the Wanted Board, accept Wanted! Marez Cowl and Wanted! Otto and Falconcrest",
+      "classes": null,
+      "races": null,
+      "coords": [46.042, 47.764],
+      "zone": "arathi_highlands",
+      "tips": [],
+      "quests": [
+        {
+          "id": 684,
+          "name": "Wanted! Marez Cowl"
+        },
+        {
+          "id": 685,
+          "name": "Wanted! Otto and Falconcrest"
+        }
+      ],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "alterac_arathi_089",
+      "type": "quest_turnin",
+      "description": "Click the Stone of Inner Binding and turn in Stones of Binding",
+      "classes": null,
+      "races": null,
+      "coords": [36.229, 57.375],
+      "zone": "arathi_highlands",
+      "tips": [],
+      "quests": [
+        {
+          "id": 651,
+          "name": "Stones of Binding"
+        }
+      ],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "alterac_arathi_090",
+      "type": "quest_turnin",
+      "description": "Click the Stone of Inner Binding, turn in Stones of Binding, and accept Breaking the Keystone",
+      "classes": null,
+      "races": null,
+      "coords": [36.229, 57.375],
+      "zone": "arathi_highlands",
+      "tips": [],
+      "quests": [
+        {
+          "id": 651,
+          "name": "Stones of Binding"
+        },
+        {
+          "id": 652,
+          "name": "Breaking the Keystone"
+        }
+      ],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "alterac_arathi_091",
+      "type": "kill",
+      "description": "Kill Syndicate Thieves, Syndicate Conjurors and Syndicate Prowlers. Loot them for their Badges",
+      "classes": null,
+      "races": null,
+      "coords": null,
+      "zone": "",
+      "tips": [],
+      "quests": [
+        {
+          "id": 682,
+          "name": "Stromgarde Badges"
+        }
+      ],
+      "npc": null,
+      "mobs": ["Syndicate Thief", "Syndicate Conjuror", "Syndicate Prowler"]
+    },
+    {
+      "id": "alterac_arathi_092",
+      "type": "kill",
+      "description": "Kill Marez Cowl. Loot her for her Head",
+      "classes": null,
+      "races": null,
+      "coords": [29.624, 62.975],
+      "zone": "arathi_highlands",
+      "tips": [
+        {
+          "type": "warning",
+          "class": null,
+          "text": "Marez Cowl has 2 different spawn locations. One is on the high ground location, and the other is below behind the house. They are marked on your map"
+        },
+        {
+          "type": "warning",
+          "class": "Hunter",
+          "text": "Cast Eagle Eye to try and find which location she is in"
+        }
+      ],
+      "quests": [
+        {
+          "id": 684,
+          "name": "Wanted! Marez Cowl"
+        }
+      ],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "alterac_arathi_093",
+      "type": "kill",
+      "description": "Kill Otto and Lord Falconcrest. Loot them for their Heads",
+      "classes": null,
+      "races": null,
+      "coords": [26.026, 65.656],
+      "zone": "arathi_highlands",
+      "tips": [],
+      "quests": [
+        {
+          "id": 685,
+          "name": "Wanted! Otto and Falconcrest"
+        }
+      ],
+      "npc": null,
+      "mobs": ["Otto", "Lord Falconcrest"]
+    },
+    {
+      "id": "alterac_arathi_094",
+      "type": "kill",
+      "description": "Kill Marez Cowl. Loot her for her Head",
+      "classes": null,
+      "races": null,
+      "coords": [29.624, 62.975],
+      "zone": "arathi_highlands",
+      "tips": [
+        {
+          "type": "warning",
+          "class": null,
+          "text": "Marez Cowl has 2 different spawn locations. One is on the high ground location, and the other is below behind the house. They are marked on your map"
+        },
+        {
+          "type": "warning",
+          "class": "Hunter",
+          "text": "Cast Eagle Eye to try and find which location she is in"
+        }
+      ],
+      "quests": [
+        {
+          "id": 684,
+          "name": "Wanted! Marez Cowl"
+        }
+      ],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "alterac_arathi_095",
+      "type": "kill",
+      "description": "Kill Syndicate Thieves, Syndicate Conjurors and Syndicate Prowlers. Loot them for their Badges",
+      "classes": null,
+      "races": null,
+      "coords": [26.04, 62.8],
+      "zone": "arathi_highlands",
+      "tips": [],
+      "quests": [
+        {
+          "id": 682,
+          "name": "Stromgarde Badges"
+        }
+      ],
+      "npc": null,
+      "mobs": ["Syndicate Thief", "Syndicate Conjuror", "Syndicate Prowler"]
+    },
+    {
+      "id": "alterac_arathi_096",
+      "type": "kill",
+      "description": "Kill Boulderfist Shamans. Loot them for the Azure Agate",
+      "classes": null,
+      "races": null,
+      "coords": [20.21, 67.17],
+      "zone": "arathi_highlands",
+      "tips": [],
+      "quests": [
+        {
+          "id": 694,
+          "name": "Trelane's Defenses"
+        }
+      ],
+      "npc": null,
+      "mobs": ["Boulderfist Shaman"]
+    },
+    {
+      "id": "alterac_arathi_097",
+      "type": "kill",
+      "description": "Kill Fozruk. Loot him for the Rod of Order",
+      "classes": null,
+      "races": null,
+      "coords": [51.41, 62.92],
+      "zone": "arathi_highlands",
+      "tips": [
+        {
+          "type": "warning",
+          "class": null,
+          "text": "Focus on killing and interrupting the casts of Sleeby, Znort and Feeboz before killing Fozruk"
+        },
+        {
+          "type": "warning",
+          "class": null,
+          "text": "Fozruk can be CC'd"
+        },
+        {
+          "type": "warning",
+          "class": null,
+          "text": "Their patrol path is marked on your map"
+        },
+        {
+          "type": "warning",
+          "class": "Hunter",
+          "text": "Cast Eagle Eye to try and find Fozruk"
+        },
+        {
+          "type": "link",
+          "class": "Hunter",
+          "text": "Click here for video reference",
+          "url": "https://www.twitch.tv/videos/778346703"
+        },
+        {
+          "type": "link",
+          "class": "Warlock",
+          "text": "Click here for video reference",
+          "url": "https://www.twitch.tv/videos/669107037?t=05h51m54s"
+        }
+      ],
+      "quests": [
+        {
+          "id": 652,
+          "name": "Breaking the Keystone"
+        }
+      ],
+      "npc": null,
+      "mobs": ["Sleeby", "Znort", "Feeboz"]
+    },
+    {
+      "id": "alterac_arathi_098",
+      "type": "quest_turnin",
+      "description": "Click on the Keystone and turn in Breaking the Keystone",
+      "classes": null,
+      "races": null,
+      "coords": [36.07, 58.09],
+      "zone": "arathi_highlands",
+      "tips": [
+        {
+          "type": "warning",
+          "class": null,
+          "text": "If you are still in a group, hand in this quest while with your party! Thenan, a level 42 Elite will spawn. You can either kill him or run away and reset him if you're solo"
+        }
+      ],
+      "quests": [
+        {
+          "id": 652,
+          "name": "Breaking the Keystone"
+        }
+      ],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "alterac_arathi_099",
+      "type": "quest_accept",
+      "description": "Click on the Keystone and accept Myzrael's Allies",
+      "classes": null,
+      "races": null,
+      "coords": [36.07, 58.09],
+      "zone": "arathi_highlands",
+      "tips": [],
+      "quests": [
+        {
+          "id": 653,
+          "name": "Myzrael's Allies"
+        }
+      ],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "alterac_arathi_100",
+      "type": "quest_turnin",
+      "description": "Talk to Captain Nials, turn in Stromgarde Badges, Wanted! Marez Cowl, and Wanted! Otto and Falconcrest",
+      "classes": null,
+      "races": null,
+      "coords": [45.832, 47.545],
+      "zone": "arathi_highlands",
+      "tips": [],
+      "quests": [
+        {
+          "id": 682,
+          "name": "Stromgarde Badges"
+        },
+        {
+          "id": 684,
+          "name": "Wanted! Marez Cowl"
+        },
+        {
+          "id": 685,
+          "name": "Wanted! Otto and Falconcrest"
+        }
+      ],
+      "npc": "Captain Nials",
+      "mobs": []
+    },
+    {
+      "id": "alterac_arathi_101",
+      "type": "quest_turnin",
+      "description": "Talk to Captain Nials and turn in Wanted! Marez Cowl",
+      "classes": null,
+      "races": null,
+      "coords": [45.832, 47.545],
+      "zone": "arathi_highlands",
+      "tips": [],
+      "quests": [
+        {
+          "id": 684,
+          "name": "Wanted! Marez Cowl"
+        }
+      ],
+      "npc": "Captain Nials",
+      "mobs": []
+    },
+    {
+      "id": "alterac_arathi_102",
+      "type": "quest_turnin",
+      "description": "Talk to Captain Nials and turn in Wanted! Otto and Falconcrest",
+      "classes": null,
+      "races": null,
+      "coords": [45.832, 47.545],
+      "zone": "arathi_highlands",
+      "tips": [],
+      "quests": [
+        {
+          "id": 685,
+          "name": "Wanted! Otto and Falconcrest"
+        }
+      ],
+      "npc": "Captain Nials",
+      "mobs": []
+    },
+    {
+      "id": "alterac_arathi_103",
+      "type": "quest_turnin",
+      "description": "Talk to Captain Nials and turn in Stromgarde Badges",
+      "classes": null,
+      "races": null,
+      "coords": [45.832, 47.545],
+      "zone": "arathi_highlands",
+      "tips": [],
+      "quests": [
+        {
+          "id": 682,
+          "name": "Stromgarde Badges"
+        }
+      ],
+      "npc": "Captain Nials",
+      "mobs": []
+    },
+    {
+      "id": "alterac_arathi_104",
+      "type": "quest_turnin",
+      "description": "Talk to Apprentice Kryten and turn in Trelane's Defenses",
+      "classes": null,
+      "races": null,
+      "coords": [46.197, 47.752],
+      "zone": "arathi_highlands",
+      "tips": [],
+      "quests": [
+        {
+          "id": 694,
+          "name": "Trelane's Defenses"
+        }
+      ],
+      "npc": "Apprentice Kryten",
+      "mobs": []
+    },
+    {
+      "id": "alterac_arathi_105",
+      "type": "quest_accept",
+      "description": "Talk to Apprentice Kryten and accept An Apprentice's Enchantment",
+      "classes": null,
+      "races": null,
+      "coords": [46.197, 47.752],
+      "zone": "arathi_highlands",
+      "tips": [],
+      "quests": [
+        {
+          "id": 695,
+          "name": "An Apprentice's Enchantment"
+        }
+      ],
+      "npc": "Apprentice Kryten",
+      "mobs": []
+    },
+    {
+      "id": "alterac_arathi_106",
+      "type": "quest_turnin",
+      "description": "Talk to Skuerto and turn in An Apprentice's Enchantment. Skip the follow up. It is way too dangerous in Hardcore",
+      "classes": null,
+      "races": null,
+      "coords": [46.652, 47.01],
+      "zone": "arathi_highlands",
+      "tips": [
+        {
+          "type": "warning",
+          "class": null,
+          "text": "Skip the follow up. It is way too dangerous in Hardcore"
+        }
+      ],
+      "quests": [
+        {
+          "id": 695,
+          "name": "An Apprentice's Enchantment"
+        }
+      ],
+      "npc": "Skuerto",
+      "mobs": []
+    },
+    {
+      "id": "alterac_arathi_107",
+      "type": "travel",
+      "description": "Travel to Faldir's Cove",
+      "classes": null,
+      "races": null,
+      "coords": [21.98, 79.96],
+      "zone": "arathi_highlands",
+      "tips": [],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "alterac_arathi_108",
+      "type": "quest_accept",
+      "description": "Talk to Lolo the Lookout and accept Land Ho!",
+      "classes": null,
+      "races": null,
+      "coords": [31.78, 82.68],
+      "zone": "arathi_highlands",
+      "tips": [],
+      "quests": [
+        {
+          "id": 663,
+          "name": "Land Ho!"
+        }
+      ],
+      "npc": "Lolo the Lookout",
+      "mobs": []
+    },
+    {
+      "id": "alterac_arathi_109",
+      "type": "quest_turnin",
+      "description": "Talk to Shakes O'Breen and turn in Land Ho!",
+      "classes": null,
+      "races": null,
+      "coords": [32.283, 81.364],
+      "zone": "arathi_highlands",
+      "tips": [],
+      "quests": [
+        {
+          "id": 663,
+          "name": "Land Ho!"
+        }
+      ],
+      "npc": "Shakes O'Breen",
+      "mobs": []
+    },
+    {
+      "id": "alterac_arathi_110",
+      "type": "quest_accept",
+      "description": "Talk to First Mate Nilzlix and accept Deep Sea Salvage",
+      "classes": null,
+      "races": null,
+      "coords": [32.79, 81.48],
+      "zone": "arathi_highlands",
+      "tips": [],
+      "quests": [
+        {
+          "id": 662,
+          "name": "Deep Sea Salvage"
+        }
+      ],
+      "npc": "First Mate Nilzlix",
+      "mobs": []
+    },
+    {
+      "id": "alterac_arathi_111",
+      "type": "quest_accept",
+      "description": "Talk to Captain Steelgut and accept Drowned Sorrows",
+      "classes": null,
+      "races": null,
+      "coords": [34.002, 80.792],
+      "zone": "arathi_highlands",
+      "tips": [],
+      "quests": [
+        {
+          "id": 664,
+          "name": "Drowned Sorrows"
+        }
+      ],
+      "npc": "Captain Steelgut",
+      "mobs": []
+    },
+    {
+      "id": "alterac_arathi_112",
+      "type": "quest_accept",
+      "description": "Talk to Professor Phizzlethorpe and accept Sunken Treasure. This will start an escort.",
+      "classes": null,
+      "races": null,
+      "coords": [33.869, 80.549],
+      "zone": "arathi_highlands",
+      "tips": [
+        {
+          "type": "warning",
+          "class": null,
+          "text": "This will start an escort. If Professor Phizzlethorpe is not there, someone may already be doing it. Wait for him to return"
+        }
+      ],
+      "quests": [
+        {
+          "id": 665,
+          "name": "Sunken Treasure"
+        }
+      ],
+      "npc": "Professor Phizzlethorpe",
+      "mobs": []
+    },
+    {
+      "id": "alterac_arathi_113",
+      "type": "info",
+      "description": "Escort Professor Phizzlethorpe into the small Cave. Kill the Vengeful Surges that attack once inside. Follow Professor Phizzlethorpe back to the camp afterwards",
+      "classes": null,
+      "races": null,
+      "coords": [33.856, 80.444],
+      "zone": "arathi_highlands",
+      "tips": [],
+      "quests": [
+        {
+          "id": 665,
+          "name": "Sunken Treasure"
+        }
+      ],
+      "npc": "Professor Phizzlethorpe",
+      "mobs": ["Vengeful Surge"]
+    },
+    {
+      "id": "alterac_arathi_114",
+      "type": "quest_turnin",
+      "description": "Talk to Doctor Draxlegauge, turn in Sunken Treasure, and accept Sunken Treasure",
+      "classes": null,
+      "races": null,
+      "coords": [33.856, 80.444],
+      "zone": "arathi_highlands",
+      "tips": [],
+      "quests": [
+        {
+          "id": 665,
+          "name": "Sunken Treasure"
+        },
+        {
+          "id": 666,
+          "name": "Sunken Treasure"
+        }
+      ],
+      "npc": "Doctor Draxlegauge",
+      "mobs": []
+    },
+    {
+      "id": "alterac_arathi_115",
+      "type": "info",
+      "description": "Use your Elixir of Water Breathing if you have one.",
+      "classes": ["!Warlock", "!Druid"],
+      "races": null,
+      "coords": null,
+      "zone": "",
+      "tips": [
+        {
+          "type": "warning",
+          "class": null,
+          "text": "PAY CLOSE ATTENTION TO YOUR BREATH BAR IF YOU DO NOT HAVE ONE!"
+        }
+      ],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "alterac_arathi_116",
+      "type": "loot",
+      "description": "Loot the Elven Gems on the sea floor. Equip your Goggles of Gem Hunting so the Elven Gems show up on your minimap",
+      "classes": null,
+      "races": null,
+      "coords": null,
+      "zone": "",
+      "tips": [
+        {
+          "type": "warning",
+          "class": "Warlock",
+          "text": "Ensure you have buffed yourself with Unending Breath"
+        },
+        {
+          "type": "warning",
+          "class": "Druid",
+          "text": "Cast Aquatic Form once your Breath Bar gets low"
+        }
+      ],
+      "quests": [
+        {
+          "id": 666,
+          "name": "Sunken Treasure"
+        }
+      ],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "alterac_arathi_117",
+      "type": "kill",
+      "description": "Kill Daggerspine Raiders and Daggerspine Sorceresses",
+      "classes": null,
+      "races": null,
+      "coords": null,
+      "zone": "",
+      "tips": [
+        {
+          "type": "warning",
+          "class": null,
+          "text": "Be aware the Daggerspine Raiders will cast Net on you"
+        }
+      ],
+      "quests": [
+        {
+          "id": 664,
+          "name": "Drowned Sorrows"
+        }
+      ],
+      "npc": null,
+      "mobs": ["Daggerspine Raider", "Daggerspine Sorceress"]
+    },
+    {
+      "id": "alterac_arathi_118",
+      "type": "loot",
+      "description": "Loot Maiden's Folly Log on the 2nd floor of the ship. It is inside of the Cauldron",
+      "classes": null,
+      "races": null,
+      "coords": [23.394, 85.086],
+      "zone": "arathi_highlands",
+      "tips": [],
+      "quests": [
+        {
+          "id": 662,
+          "name": "Deep Sea Salvage"
+        }
+      ],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "alterac_arathi_119",
+      "type": "loot",
+      "description": "Loot Maiden's Folly Charts on the 2nd floor of the ship. It is on the Pillar",
+      "classes": null,
+      "races": null,
+      "coords": [23.045, 84.51],
+      "zone": "arathi_highlands",
+      "tips": [],
+      "quests": [
+        {
+          "id": 662,
+          "name": "Deep Sea Salvage"
+        }
+      ],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "alterac_arathi_120",
+      "type": "travel",
+      "description": "Swim to the other sunken ship",
+      "classes": null,
+      "races": null,
+      "coords": [20.5, 85.6],
+      "zone": "arathi_highlands",
+      "tips": [],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "alterac_arathi_121",
+      "type": "loot",
+      "description": "Loot the Spirit of Silverpine Charts on the 2nd floor of the ship. It is on top of the Crate next to the Cannon",
+      "classes": null,
+      "races": null,
+      "coords": [20.458, 85.612],
+      "zone": "arathi_highlands",
+      "tips": [],
+      "quests": [
+        {
+          "id": 662,
+          "name": "Deep Sea Salvage"
+        }
+      ],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "alterac_arathi_122",
+      "type": "loot",
+      "description": "Loot the Spirit of Silverpine Charts on the bottom of the ship. It is on the sea floor",
+      "classes": null,
+      "races": null,
+      "coords": [20.649, 85.103],
+      "zone": "arathi_highlands",
+      "tips": [],
+      "quests": [
+        {
+          "id": 662,
+          "name": "Deep Sea Salvage"
+        }
+      ],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "alterac_arathi_123",
+      "type": "loot",
+      "description": "Loot the Elven Gems on the sea floor. Equip your Goggles of Gem Hunting so the Elven Gems show up on your minimap",
+      "classes": null,
+      "races": null,
+      "coords": null,
+      "zone": "",
+      "tips": [
+        {
+          "type": "warning",
+          "class": "Warlock",
+          "text": "Ensure you have buffed yourself with Unending Breath"
+        },
+        {
+          "type": "warning",
+          "class": "Druid",
+          "text": "Cast Aquatic Form once your Breath Bar gets low"
+        }
+      ],
+      "quests": [
+        {
+          "id": 666,
+          "name": "Sunken Treasure"
+        }
+      ],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "alterac_arathi_124",
+      "type": "kill",
+      "description": "Kill Daggerspine Raiders and Daggerspine Sorceresses",
+      "classes": null,
+      "races": null,
+      "coords": [19.3, 84.1],
+      "zone": "arathi_highlands",
+      "tips": [
+        {
+          "type": "warning",
+          "class": null,
+          "text": "Be aware the Daggerspine Raiders will cast Net on you"
+        }
+      ],
+      "quests": [
+        {
+          "id": 664,
+          "name": "Drowned Sorrows"
+        }
+      ],
+      "npc": null,
+      "mobs": ["Daggerspine Raider", "Daggerspine Sorceress"]
+    },
+    {
+      "id": "alterac_arathi_125",
+      "type": "loot",
+      "description": "Loot the Elven Gems on the sea floor. Equip your Goggles of Gem Hunting so the Elven Gems show up on your minimap",
+      "classes": null,
+      "races": null,
+      "coords": [22.7, 88.6],
+      "zone": "arathi_highlands",
+      "tips": [
+        {
+          "type": "warning",
+          "class": "Warlock",
+          "text": "Ensure you have buffed yourself with Unending Breath"
+        },
+        {
+          "type": "warning",
+          "class": "Druid",
+          "text": "Cast Aquatic Form once your Breath Bar gets low"
+        }
+      ],
+      "quests": [
+        {
+          "id": 666,
+          "name": "Sunken Treasure"
+        }
+      ],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "alterac_arathi_126",
+      "type": "info",
+      "description": "Equip your normal Helmet",
+      "classes": null,
+      "races": null,
+      "coords": null,
+      "zone": "",
+      "tips": [],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "alterac_arathi_127",
+      "type": "quest_turnin",
+      "description": "Talk to First Mate Nilzlix and turn in Deep Sea Salvage",
+      "classes": null,
+      "races": null,
+      "coords": [32.79, 81.48],
+      "zone": "arathi_highlands",
+      "tips": [],
+      "quests": [
+        {
+          "id": 662,
+          "name": "Deep Sea Salvage"
+        }
+      ],
+      "npc": "First Mate Nilzlix",
+      "mobs": []
+    },
+    {
+      "id": "alterac_arathi_128",
+      "type": "quest_turnin",
+      "description": "Talk to Captain Steelgut and Doctor Draxlegauge, turn in Drowned Sorrows and Sunken Treasure, and accept Sunken Treasure",
+      "classes": null,
+      "races": null,
+      "coords": [33.856, 80.444],
+      "zone": "arathi_highlands",
+      "tips": [],
+      "quests": [
+        {
+          "id": 664,
+          "name": "Drowned Sorrows"
+        },
+        {
+          "id": 666,
+          "name": "Sunken Treasure"
+        },
+        {
+          "id": 668,
+          "name": "Sunken Treasure"
+        }
+      ],
+      "npc": "Doctor Draxlegauge",
+      "mobs": []
+    },
+    {
+      "id": "alterac_arathi_129",
+      "type": "quest_turnin",
+      "description": "Talk to Shakes O'Breen, turn in Sunken Treasure, and accept Sunken Treasure",
+      "classes": null,
+      "races": null,
+      "coords": [32.283, 81.364],
+      "zone": "arathi_highlands",
+      "tips": [],
+      "quests": [
+        {
+          "id": 668,
+          "name": "Sunken Treasure"
+        },
+        {
+          "id": 669,
+          "name": "Sunken Treasure"
+        }
+      ],
+      "npc": "Shakes O'Breen",
+      "mobs": []
+    },
+    {
+      "id": "alterac_arathi_130",
+      "type": "info",
+      "description": "Logout on top of the rock in the cave where you escorted Professor Phizzlethorpe, then log back in",
+      "classes": null,
+      "races": null,
+      "coords": [35.79, 79.52],
+      "zone": "arathi_highlands",
+      "tips": [
+        {
+          "type": "link",
+          "class": null,
+          "text": "Click here for video reference",
+          "url": "https://www.youtube.com/watch?v=SWBtPqm5M0Q&t=114s"
+        }
+      ],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "alterac_arathi_131",
+      "type": "fly",
+      "description": "Talk to Cedrik Prose and fly to Ironforge",
+      "classes": null,
+      "races": null,
+      "coords": [45.73, 46.09],
+      "zone": "arathi_highlands",
+      "tips": [],
+      "quests": [],
+      "npc": "Cedrik Prose",
+      "mobs": []
+    }
+  ]
+}

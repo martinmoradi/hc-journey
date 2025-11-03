@@ -1,0 +1,1596 @@
+{
+  "zone": "Feralas",
+  "levelRange": "45-46",
+  "faction": "Alliance",
+  "name": "45-46_feralas",
+  "next": "46-47_hinterlands_badlands",
+  "steps": [
+    {
+      "id": "feralas_001",
+      "type": "fly",
+      "description": "Talk to Bera Stonehammer and fly to Feathermoon",
+      "classes": null,
+      "races": null,
+      "coords": [51.006, 29.345],
+      "zone": "tanaris",
+      "tips": [],
+      "quests": [],
+      "npc": "Bera Stonehammer",
+      "mobs": []
+    },
+    {
+      "id": "feralas_002",
+      "type": "info",
+      "description": "Talk to Antarius and stable your pet. You will tame a Longtooth Runner shortly",
+      "classes": ["Hunter"],
+      "races": null,
+      "coords": [31.466, 43.145],
+      "zone": "feralas",
+      "tips": [],
+      "quests": [],
+      "npc": "Antarius",
+      "mobs": []
+    },
+    {
+      "id": "feralas_003",
+      "type": "info",
+      "description": "Cast Tame Beast on a Longtooth Runner to tame it. Attack mobs with it to learn Bite (Rank 6)",
+      "classes": ["Hunter"],
+      "races": null,
+      "coords": [29.8, 49.19],
+      "zone": "feralas",
+      "tips": [
+        {
+          "type": "link",
+          "class": null,
+          "text": "Click here for more info about pet training",
+          "url": "https://www.wow-petopia.com/classic/training.php"
+        }
+      ],
+      "quests": [],
+      "npc": null,
+      "mobs": ["Longtooth Runner"]
+    },
+    {
+      "id": "feralas_004",
+      "type": "info",
+      "description": "Talk to Mardrack Greenwell. Buy 5 stacks of food/water. Restock on Food/Water. There is a long grind section ahead",
+      "classes": null,
+      "races": null,
+      "coords": [31.043, 43.116],
+      "zone": "feralas",
+      "tips": [
+        {
+          "type": "warning",
+          "class": null,
+          "text": "Restock on Food/Water. There is a long grind section ahead"
+        }
+      ],
+      "quests": [],
+      "npc": "Mardrack Greenwell",
+      "mobs": []
+    },
+    {
+      "id": "feralas_005",
+      "type": "quest_accept",
+      "description": "Talk to Pratt McGrubben and accept The Mark of Quality",
+      "classes": null,
+      "races": null,
+      "coords": [30.632, 42.706],
+      "zone": "feralas",
+      "tips": [],
+      "quests": [
+        {
+          "id": 2821,
+          "name": "The Mark of Quality"
+        }
+      ],
+      "npc": "Pratt McGrubben",
+      "mobs": []
+    },
+    {
+      "id": "feralas_006",
+      "type": "info",
+      "description": "Talk to Faralorn. Buy 25 stacks of Ammo",
+      "classes": ["Hunter"],
+      "races": null,
+      "coords": [30.645, 43.433],
+      "zone": "feralas",
+      "tips": [],
+      "quests": [],
+      "npc": "Faralorn",
+      "mobs": []
+    },
+    {
+      "id": "feralas_007",
+      "type": "info",
+      "description": "Talk to Innkeeper Shyria. Set your Hearthstone to Feralas",
+      "classes": null,
+      "races": null,
+      "coords": [30.966, 43.488],
+      "zone": "feralas",
+      "tips": [],
+      "quests": [],
+      "npc": "Innkeeper Shyria",
+      "mobs": []
+    },
+    {
+      "id": "feralas_008",
+      "type": "info",
+      "description": "Talk to Antarius. Withdraw your pet from the Stable",
+      "classes": ["Hunter"],
+      "races": null,
+      "coords": [31.466, 43.145],
+      "zone": "feralas",
+      "tips": [],
+      "quests": [],
+      "npc": "Antarius",
+      "mobs": []
+    },
+    {
+      "id": "feralas_009",
+      "type": "quest_accept",
+      "description": "Talk to Latronicus Moonspear and Shandris Feathermoon, accept The Missing Courier and The Ruins of Solarsal",
+      "classes": null,
+      "races": null,
+      "coords": [30.276, 46.168],
+      "zone": "feralas",
+      "tips": [],
+      "quests": [
+        {
+          "id": 4124,
+          "name": "The Missing Courier"
+        },
+        {
+          "id": 2866,
+          "name": "The Ruins of Solarsal"
+        }
+      ],
+      "npc": "Shandris Feathermoon",
+      "mobs": []
+    },
+    {
+      "id": "feralas_010",
+      "type": "quest_accept",
+      "description": "Talk to Troyas Moonbreeze and Angelas Moonbreeze, accept In Search of Knowledge and The High Wilderness",
+      "classes": null,
+      "races": null,
+      "coords": [31.828, 45.611],
+      "zone": "feralas",
+      "tips": [],
+      "quests": [
+        {
+          "id": 2939,
+          "name": "In Search of Knowledge"
+        },
+        {
+          "id": 2982,
+          "name": "The High Wilderness"
+        }
+      ],
+      "npc": "Angelas Moonbreeze",
+      "mobs": []
+    },
+    {
+      "id": "feralas_011",
+      "type": "quest_turnin",
+      "description": "Talk to Ginro Hearthkindle up stairs, turn in The Missing Courier, and accept The Missing Courier",
+      "classes": null,
+      "races": null,
+      "coords": [31.86, 45.13],
+      "zone": "feralas",
+      "tips": [],
+      "quests": [
+        {
+          "id": 4124,
+          "name": "The Missing Courier"
+        },
+        {
+          "id": 4125,
+          "name": "The Missing Courier"
+        }
+      ],
+      "npc": "Ginro Hearthkindle",
+      "mobs": []
+    },
+    {
+      "id": "feralas_012",
+      "type": "info",
+      "description": "Talk to Logannas. Buy Superior Healing Potions from him. Skip this step if Logannas has none in stock",
+      "classes": null,
+      "races": null,
+      "coords": [32.671, 44.029],
+      "zone": "feralas",
+      "tips": [
+        {
+          "type": "warning",
+          "class": null,
+          "text": "Skip this step if Logannas has none in stock"
+        }
+      ],
+      "quests": [],
+      "npc": "Logannas",
+      "mobs": []
+    },
+    {
+      "id": "feralas_013",
+      "type": "quest_turnin",
+      "description": "Click the Solarsal Gazebo, turn in The Ruins of Solarsal, and accept Return to Feathermoon Stronghold",
+      "classes": null,
+      "races": null,
+      "coords": [26.316, 52.343],
+      "zone": "feralas",
+      "tips": [],
+      "quests": [
+        {
+          "id": 2866,
+          "name": "The Ruins of Solarsal"
+        },
+        {
+          "id": 2867,
+          "name": "Return to Feathermoon Stronghold"
+        }
+      ],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "feralas_014",
+      "type": "quest_turnin",
+      "description": "Talk to Shandris Feathermoon and Latronicus Moonspear, turn in Return to Feathermoon Stronghold and Against the Hatecrest, accept Against the Hatecrest",
+      "classes": null,
+      "races": null,
+      "coords": [30.379, 46.17],
+      "zone": "feralas",
+      "tips": [],
+      "quests": [
+        {
+          "id": 2867,
+          "name": "Return to Feathermoon Stronghold"
+        },
+        {
+          "id": 3130,
+          "name": "Against the Hatecrest"
+        },
+        {
+          "id": 2869,
+          "name": "Against the Hatecrest"
+        }
+      ],
+      "npc": "Latronicus Moonspear",
+      "mobs": []
+    },
+    {
+      "id": "feralas_015",
+      "type": "kill",
+      "description": "Kill Hatecrest Screamers, Hatecrest Wave Riders, Hatecrest Warriors and Hatecrest Sirens. Loot them for their Naga Scales",
+      "classes": null,
+      "races": null,
+      "coords": [26.6, 53.4],
+      "zone": "feralas",
+      "tips": [],
+      "quests": [
+        {
+          "id": 2869,
+          "name": "Against the Hatecrest"
+        }
+      ],
+      "npc": null,
+      "mobs": [
+        "Hatecrest Screamer",
+        "Hatecrest Wave Rider",
+        "Hatecrest Warrior",
+        "Hatecrest Siren"
+      ]
+    },
+    {
+      "id": "feralas_016",
+      "type": "quest_turnin",
+      "description": "Talk to Latronicus Moonspear and turn in Against the Hatecrest",
+      "classes": null,
+      "races": null,
+      "coords": [30.379, 46.17],
+      "zone": "feralas",
+      "tips": [],
+      "quests": [
+        {
+          "id": 2869,
+          "name": "Against the Hatecrest"
+        }
+      ],
+      "npc": "Latronicus Moonspear",
+      "mobs": []
+    },
+    {
+      "id": "feralas_017",
+      "type": "travel",
+      "description": "Swim to the mainland",
+      "classes": null,
+      "races": null,
+      "coords": [45.07, 44.89],
+      "zone": "feralas",
+      "tips": [],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "feralas_018",
+      "type": "quest_turnin",
+      "description": "Click on the Wrecked Row Boat in the water, turn in The Missing Courier, and accept Boat Wreckage",
+      "classes": null,
+      "races": null,
+      "coords": [45.44, 64.96],
+      "zone": "feralas",
+      "tips": [],
+      "quests": [
+        {
+          "id": 4125,
+          "name": "The Missing Courier"
+        },
+        {
+          "id": 4127,
+          "name": "Boat Wreckage"
+        }
+      ],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "feralas_019",
+      "type": "info",
+      "description": "Cast Teleport: Moonglade",
+      "classes": ["Druid"],
+      "races": null,
+      "coords": null,
+      "zone": "",
+      "tips": [],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "feralas_020",
+      "type": "info",
+      "description": "Talk to Loganaar and train your class spells",
+      "classes": ["Druid"],
+      "races": null,
+      "coords": [52.53, 40.56],
+      "zone": "moonglade",
+      "tips": [],
+      "quests": [],
+      "npc": "Loganaar",
+      "mobs": []
+    },
+    {
+      "id": "feralas_021",
+      "type": "info",
+      "description": "Teleport to Stormwind City",
+      "classes": ["Mage"],
+      "races": null,
+      "coords": null,
+      "zone": "",
+      "tips": [],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "feralas_022",
+      "type": "info",
+      "description": "Talk to Jennea and train your class spells",
+      "classes": ["Mage"],
+      "races": null,
+      "coords": [36.87, 81.14],
+      "zone": "stormwind_city",
+      "tips": [],
+      "quests": [],
+      "npc": "Jennea Cannon",
+      "mobs": []
+    },
+    {
+      "id": "feralas_023",
+      "type": "info",
+      "description": "Hearth to Feathermoon Stronghold. Buy food/water if needed",
+      "classes": ["!Warrior", "!Rogue"],
+      "races": null,
+      "coords": null,
+      "zone": "",
+      "tips": [],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "feralas_024",
+      "type": "info",
+      "description": "Hearth to Feathermoon Stronghold. Buy food if needed",
+      "classes": ["Warrior", "Rogue"],
+      "races": null,
+      "coords": null,
+      "zone": "",
+      "tips": [],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "feralas_025",
+      "type": "quest_turnin",
+      "description": "Talk to Ginro Hearthkindle up stairs, turn in Boat Wreckage, and accept The Knife Revealed",
+      "classes": null,
+      "races": null,
+      "coords": [31.86, 45.13],
+      "zone": "feralas",
+      "tips": [],
+      "quests": [
+        {
+          "id": 4127,
+          "name": "Boat Wreckage"
+        },
+        {
+          "id": 4129,
+          "name": "The Knife Revealed"
+        }
+      ],
+      "npc": "Ginro Hearthkindle",
+      "mobs": []
+    },
+    {
+      "id": "feralas_026",
+      "type": "quest_turnin",
+      "description": "Talk to Quintis Jonespyre atop the tree house, turn in The Knife Revealed, and accept Psychometric Reading",
+      "classes": null,
+      "races": null,
+      "coords": [32.447, 43.788],
+      "zone": "feralas",
+      "tips": [],
+      "quests": [
+        {
+          "id": 4129,
+          "name": "The Knife Revealed"
+        },
+        {
+          "id": 4130,
+          "name": "Psychometric Reading"
+        }
+      ],
+      "npc": "Quintis Jonespyre",
+      "mobs": []
+    },
+    {
+      "id": "feralas_027",
+      "type": "quest_turnin",
+      "description": "Talk to Ginro Hearthkindle up stairs, turn in Psychometric Reading, and accept The Woodpaw Gnolls",
+      "classes": null,
+      "races": null,
+      "coords": [31.86, 45.13],
+      "zone": "feralas",
+      "tips": [],
+      "quests": [
+        {
+          "id": 4130,
+          "name": "Psychometric Reading"
+        },
+        {
+          "id": 4131,
+          "name": "The Woodpaw Gnolls"
+        }
+      ],
+      "npc": "Ginro Hearthkindle",
+      "mobs": []
+    },
+    {
+      "id": "feralas_028",
+      "type": "travel",
+      "description": "Swim to the mainland",
+      "classes": null,
+      "races": null,
+      "coords": [47.3, 44.7],
+      "zone": "feralas",
+      "tips": [],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "feralas_029",
+      "type": "kill",
+      "description": "Kill Vale Screechers and Rogue Vale Screechers. Use Yeh'kinya's Bramble on their corpses to summon a Screecher Spirit. Talk to the Screecher Spirit",
+      "classes": null,
+      "races": null,
+      "coords": [60.6, 62.2],
+      "zone": "feralas",
+      "tips": [],
+      "quests": [
+        {
+          "id": 3520,
+          "name": "Screecher Spirits"
+        }
+      ],
+      "npc": null,
+      "mobs": ["Vale Screecher", "Rogue Vale Screecher"]
+    },
+    {
+      "id": "feralas_030",
+      "type": "kill",
+      "description": "Kill Ironfur Bears, Grizzled Ironfur Bears and Groddoc Apes. Loot them for their Livers",
+      "classes": null,
+      "races": null,
+      "coords": [59.28, 60.55],
+      "zone": "feralas",
+      "tips": [],
+      "quests": [
+        {
+          "id": 1452,
+          "name": "Rhapsody's Kalimdor Kocktail"
+        }
+      ],
+      "npc": null,
+      "mobs": ["Ironfur Bear", "Grizzled Ironfur Bear", "Groddoc Ape"]
+    },
+    {
+      "id": "feralas_031",
+      "type": "travel",
+      "description": "You must explore the Dire Maul zone as a pre-requisite to unlock a quest later on. Get close to the Dire Maul zone border until your General Chat changes to Dire Maul",
+      "classes": null,
+      "races": null,
+      "coords": [55.41, 45.54],
+      "zone": "feralas",
+      "tips": [
+        {
+          "type": "link",
+          "class": null,
+          "text": "Click here for video reference",
+          "url": "https://youtu.be/ayEKuXSUU2A"
+        }
+      ],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "feralas_032",
+      "type": "kill",
+      "description": "Kill Feral Scar Yetis, Enraged Feral Scars and Hulking Feral Scars. Loot them for their Thick Yeti Hides.",
+      "classes": null,
+      "races": null,
+      "coords": [53.5, 55.47],
+      "zone": "feralas",
+      "tips": [
+        {
+          "type": "warning",
+          "class": null,
+          "text": "Do not enter the main Yeti cave if you are not confident"
+        }
+      ],
+      "quests": [
+        {
+          "id": 2821,
+          "name": "The Mark of Quality"
+        }
+      ],
+      "npc": null,
+      "mobs": ["Feral Scar Yeti", "Enraged Feral Scar", "Hulking Feral Scar"]
+    },
+    {
+      "id": "feralas_033",
+      "type": "kill",
+      "description": "Kill Gordunni Shamans, Gordunni Warlocks and Gordunni Brutes.",
+      "classes": null,
+      "races": null,
+      "coords": [61.02, 56.1],
+      "zone": "feralas",
+      "tips": [
+        {
+          "type": "warning",
+          "class": null,
+          "text": "Prioritize killing Gordunni Shamans. You may need to kill other Gordunni Ogres to force Gordunni Shamans to spawn"
+        }
+      ],
+      "quests": [
+        {
+          "id": 2982,
+          "name": "The High Wilderness"
+        }
+      ],
+      "npc": null,
+      "mobs": ["Gordunni Shaman", "Gordunni Warlock", "Gordunni Brute"]
+    },
+    {
+      "id": "feralas_034",
+      "type": "kill",
+      "description": "Kill Vale Screechers and Rogue Vale Screechers. Use Yeh'kinya's Bramble on their corpses to summon a Screecher Spirit. Talk to the Screecher Spirit",
+      "classes": null,
+      "races": null,
+      "coords": [60.6, 62.2],
+      "zone": "feralas",
+      "tips": [],
+      "quests": [
+        {
+          "id": 3520,
+          "name": "Screecher Spirits"
+        }
+      ],
+      "npc": null,
+      "mobs": ["Vale Screecher", "Rogue Vale Screecher"]
+    },
+    {
+      "id": "feralas_035",
+      "type": "kill",
+      "description": "Kill Ironfur Bears, Grizzled Ironfur Bears and Groddoc Apes. Loot them for their Livers",
+      "classes": null,
+      "races": null,
+      "coords": [59.28, 60.55],
+      "zone": "feralas",
+      "tips": [],
+      "quests": [
+        {
+          "id": 1452,
+          "name": "Rhapsody's Kalimdor Kocktail"
+        }
+      ],
+      "npc": null,
+      "mobs": ["Ironfur Bear", "Grizzled Ironfur Bear", "Groddoc Ape"]
+    },
+    {
+      "id": "feralas_036",
+      "type": "quest_accept",
+      "description": "Talk to Kindal Moonweaver and accept Freedom for All Creatures.",
+      "classes": null,
+      "races": null,
+      "coords": [65.945, 45.651],
+      "zone": "feralas",
+      "tips": [
+        {
+          "type": "warning",
+          "class": null,
+          "text": "Kill some of the Grimtotem around the giant cage containing Captured Sprite Darters before accepting this escort quest"
+        },
+        {
+          "type": "warning",
+          "class": null,
+          "text": "Grimtotem Raiders cast Net which immobilizes movement for 10 seconds"
+        }
+      ],
+      "quests": [
+        {
+          "id": 2969,
+          "name": "Freedom for All Creatures"
+        }
+      ],
+      "npc": "Kindal Moonweaver",
+      "mobs": ["Grimtotem Naturalist", "Grimtotem Raider", "Grimtotem Shaman"]
+    },
+    {
+      "id": "feralas_037",
+      "type": "info",
+      "description": "Click the Cage Door to release the Captured Sprite Darters. Kill any Grimtotem that are attacking the Captured Sprite Darters.",
+      "classes": null,
+      "races": null,
+      "coords": [66.666, 46.754],
+      "zone": "feralas",
+      "tips": [
+        {
+          "type": "warning",
+          "class": null,
+          "text": "Grimtotem Raiders cast Net which immobilizes movement for 10 seconds"
+        }
+      ],
+      "quests": [
+        {
+          "id": 2969,
+          "name": "Freedom for All Creatures"
+        }
+      ],
+      "npc": null,
+      "mobs": ["Grimtotem Naturalist", "Grimtotem Raider", "Grimtotem Shaman"]
+    },
+    {
+      "id": "feralas_038",
+      "type": "quest_turnin",
+      "description": "Talk to Kindal Moonweaver and Jer'kai Moonweaver, turn in Freedom for All Creatures, and accept Doling Justice",
+      "classes": null,
+      "races": null,
+      "coords": [65.946, 45.607],
+      "zone": "feralas",
+      "tips": [],
+      "quests": [
+        {
+          "id": 2969,
+          "name": "Freedom for All Creatures"
+        },
+        {
+          "id": 2970,
+          "name": "Doling Justice"
+        }
+      ],
+      "npc": "Jer'kai Moonweaver",
+      "mobs": []
+    },
+    {
+      "id": "feralas_039",
+      "type": "kill",
+      "description": "Kill Grimtotem Naturalists, Grimtotem Raiders and Grimtotem Shamans.",
+      "classes": null,
+      "races": null,
+      "coords": [69.14, 39.1],
+      "zone": "feralas",
+      "tips": [
+        {
+          "type": "warning",
+          "class": null,
+          "text": "Grimtotem Raiders cast Net which immobilizes movement for 10 seconds"
+        }
+      ],
+      "quests": [
+        {
+          "id": 2970,
+          "name": "Doling Justice"
+        }
+      ],
+      "npc": null,
+      "mobs": ["Grimtotem Naturalist", "Grimtotem Raider", "Grimtotem Shaman"]
+    },
+    {
+      "id": "feralas_040",
+      "type": "quest_turnin",
+      "description": "Talk to Jer'kai Moonweaver, turn in Doling Justice, and accept Doling Justice",
+      "classes": null,
+      "races": null,
+      "coords": [65.946, 45.607],
+      "zone": "feralas",
+      "tips": [],
+      "quests": [
+        {
+          "id": 2970,
+          "name": "Doling Justice"
+        },
+        {
+          "id": 2972,
+          "name": "Doling Justice"
+        }
+      ],
+      "npc": "Jer'kai Moonweaver",
+      "mobs": []
+    },
+    {
+      "id": "feralas_041",
+      "type": "quest_turnin",
+      "description": "Click the Large Leather Backpacks on the tree, turn in The Woodpaw Gnolls, and accept The Writhing Deep",
+      "classes": null,
+      "races": null,
+      "coords": [73.314, 56.311],
+      "zone": "feralas",
+      "tips": [],
+      "quests": [
+        {
+          "id": 4131,
+          "name": "The Woodpaw Gnolls"
+        },
+        {
+          "id": 4135,
+          "name": "The Writhing Deep"
+        }
+      ],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "feralas_042",
+      "type": "quest_accept",
+      "description": "Use the Undelivered Parcel to start the quest and accept Thalanaar Delivery",
+      "classes": null,
+      "races": null,
+      "coords": [73.31, 56.3],
+      "zone": "feralas",
+      "tips": [],
+      "quests": [
+        {
+          "id": 4281,
+          "name": "Thalanaar Delivery"
+        }
+      ],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "feralas_043",
+      "type": "travel",
+      "description": "Enter The Writhering Deep Hive from the lower southwest entrance",
+      "classes": null,
+      "races": null,
+      "coords": [72.78, 64.48],
+      "zone": "feralas",
+      "tips": [],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "feralas_044",
+      "type": "quest_turnin",
+      "description": "Click the Zukk'ash Pod, turn in The Writhing Deep, and accept Freed from the Hive.",
+      "classes": null,
+      "races": null,
+      "coords": [72.08, 63.713],
+      "zone": "feralas",
+      "tips": [
+        {
+          "type": "warning",
+          "class": null,
+          "text": "Wait out the RP"
+        }
+      ],
+      "quests": [
+        {
+          "id": 4135,
+          "name": "The Writhing Deep"
+        },
+        {
+          "id": 4265,
+          "name": "Freed from the Hive"
+        }
+      ],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "feralas_045",
+      "type": "grind",
+      "description": "Grind until your Hearthstone is off cooldown",
+      "classes": null,
+      "races": null,
+      "coords": [66.65, 46.58],
+      "zone": "feralas",
+      "tips": [],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "feralas_046",
+      "type": "info",
+      "description": "Hearth to Feathermoon Stronghold",
+      "classes": null,
+      "races": null,
+      "coords": null,
+      "zone": "",
+      "tips": [],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "feralas_047",
+      "type": "quest_turnin",
+      "description": "Talk to Pratt McGrubben and turn in The Mark of Quality",
+      "classes": null,
+      "races": null,
+      "coords": [30.632, 42.706],
+      "zone": "feralas",
+      "tips": [],
+      "quests": [
+        {
+          "id": 2821,
+          "name": "The Mark of Quality"
+        }
+      ],
+      "npc": "Pratt McGrubben",
+      "mobs": []
+    },
+    {
+      "id": "feralas_048",
+      "type": "info",
+      "description": "Talk to Mardrack Greenwell. Buy food/water if needed",
+      "classes": ["!Warrior", "!Rogue"],
+      "races": null,
+      "coords": [31.043, 43.116],
+      "zone": "feralas",
+      "tips": [],
+      "quests": [],
+      "npc": "Mardrack Greenwell",
+      "mobs": []
+    },
+    {
+      "id": "feralas_049",
+      "type": "info",
+      "description": "Talk to Mardrack Greenwell. Buy food if needed",
+      "classes": ["Warrior", "Rogue"],
+      "races": null,
+      "coords": [31.043, 43.116],
+      "zone": "feralas",
+      "tips": [],
+      "quests": [],
+      "npc": "Mardrack Greenwell",
+      "mobs": []
+    },
+    {
+      "id": "feralas_050",
+      "type": "info",
+      "description": "Talk to Faralorn. Buy Ammo if needed",
+      "classes": ["Hunter"],
+      "races": null,
+      "coords": [30.645, 43.433],
+      "zone": "feralas",
+      "tips": [],
+      "quests": [],
+      "npc": "Faralorn",
+      "mobs": []
+    },
+    {
+      "id": "feralas_051",
+      "type": "info",
+      "description": "Talk to Logannas. Buy Superior Healing Potions from him.",
+      "classes": null,
+      "races": null,
+      "coords": [32.671, 44.029],
+      "zone": "feralas",
+      "tips": [
+        {
+          "type": "warning",
+          "class": null,
+          "text": "Skip this step if Logannas has none in stock"
+        }
+      ],
+      "quests": [],
+      "npc": "Logannas",
+      "mobs": []
+    },
+    {
+      "id": "feralas_052",
+      "type": "quest_turnin",
+      "description": "Talk to Ginro Hearthkindle up stairs, turn in Freed from the Hive, and accept A Hero's Welcome",
+      "classes": null,
+      "races": null,
+      "coords": [31.86, 45.13],
+      "zone": "feralas",
+      "tips": [],
+      "quests": [
+        {
+          "id": 4265,
+          "name": "Freed from the Hive"
+        },
+        {
+          "id": 4266,
+          "name": "A Hero's Welcome"
+        }
+      ],
+      "npc": "Ginro Hearthkindle",
+      "mobs": []
+    },
+    {
+      "id": "feralas_053",
+      "type": "quest_turnin",
+      "description": "Talk to Latronicus Moonspear and Shandris Feathermoon, accept Against Lord Shalzaru, turn in A Hero's Welcome, and accept Rise of the Silithid",
+      "classes": null,
+      "races": null,
+      "coords": [30.276, 46.168],
+      "zone": "feralas",
+      "tips": [],
+      "quests": [
+        {
+          "id": 2870,
+          "name": "Against Lord Shalzaru"
+        },
+        {
+          "id": 4266,
+          "name": "A Hero's Welcome"
+        },
+        {
+          "id": 4267,
+          "name": "Rise of the Silithid"
+        }
+      ],
+      "npc": "Shandris Feathermoon",
+      "mobs": []
+    },
+    {
+      "id": "feralas_054",
+      "type": "grind",
+      "description": "Grind to level 46. Kill Hatecrest Screamers, Hatecrest Wave Riders, Hatecrest Warriors and Hatecrest Sirens. Loot them for the OOX-22/FE Distress Beacon. Continue questing normally. You will do it later.",
+      "classes": null,
+      "races": null,
+      "coords": [26.6, 53.4],
+      "zone": "feralas",
+      "tips": [
+        {
+          "type": "warning",
+          "class": null,
+          "text": "Don't accept the quest for it yet. Continue questing normally. You will do it later"
+        },
+        {
+          "type": "warning",
+          "class": null,
+          "text": "If you don't find it by the time you are 46, skip it for now. You may also grind the Nagas on the southern island"
+        }
+      ],
+      "quests": [],
+      "npc": null,
+      "mobs": [
+        "Hatecrest Screamer",
+        "Hatecrest Wave Rider",
+        "Hatecrest Warrior",
+        "Hatecrest Siren"
+      ]
+    },
+    {
+      "id": "feralas_055",
+      "type": "travel",
+      "description": "Travel to the Isle of Dread. Enter Shalzaru's Lair",
+      "classes": null,
+      "races": null,
+      "coords": [26.13, 67.41],
+      "zone": "feralas",
+      "tips": [],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "feralas_056",
+      "type": "kill",
+      "description": "Kill Lord Shalzaru. Loot him for the Mysterious Relic",
+      "classes": null,
+      "races": null,
+      "coords": [28.51, 70.59],
+      "zone": "feralas",
+      "tips": [],
+      "quests": [
+        {
+          "id": 2870,
+          "name": "Against Lord Shalzaru"
+        }
+      ],
+      "npc": null,
+      "mobs": ["Lord Shalzaru"]
+    },
+    {
+      "id": "feralas_057",
+      "type": "travel",
+      "description": "Travel to Feathermoon Stronghold",
+      "classes": null,
+      "races": null,
+      "coords": [30.276, 46.168],
+      "zone": "feralas",
+      "tips": [],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "feralas_058",
+      "type": "quest_turnin",
+      "description": "Talk to Latronicus Moonspear, turn in Against Lord Shalzaru, and accept Delivering the Relic",
+      "classes": null,
+      "races": null,
+      "coords": [30.379, 46.17],
+      "zone": "feralas",
+      "tips": [],
+      "quests": [
+        {
+          "id": 2870,
+          "name": "Against Lord Shalzaru"
+        },
+        {
+          "id": 2871,
+          "name": "Delivering the Relic"
+        }
+      ],
+      "npc": "Latronicus Moonspear",
+      "mobs": []
+    },
+    {
+      "id": "feralas_059",
+      "type": "quest_turnin",
+      "description": "Talk to Vestia Moonspear and turn in Delivering the Relic",
+      "classes": null,
+      "races": null,
+      "coords": [30.077, 45.06],
+      "zone": "feralas",
+      "tips": [],
+      "quests": [
+        {
+          "id": 2871,
+          "name": "Delivering the Relic"
+        }
+      ],
+      "npc": "Vestia Moonspear",
+      "mobs": []
+    },
+    {
+      "id": "feralas_060",
+      "type": "quest_turnin",
+      "description": "Talk to Angelas Moonbreeze and turn in The High Wilderness",
+      "classes": null,
+      "races": null,
+      "coords": [31.828, 45.611],
+      "zone": "feralas",
+      "tips": [],
+      "quests": [
+        {
+          "id": 2982,
+          "name": "The High Wilderness"
+        }
+      ],
+      "npc": "Angelas Moonbreeze",
+      "mobs": []
+    },
+    {
+      "id": "feralas_061",
+      "type": "fly",
+      "description": "Talk to Fyldren Moonfeather and fly to Teldrassil",
+      "classes": ["!Mage", "!Druid"],
+      "races": null,
+      "coords": [30.239, 43.251],
+      "zone": "feralas",
+      "tips": [],
+      "quests": [],
+      "npc": "Fyldren Moonfeather",
+      "mobs": []
+    },
+    {
+      "id": "feralas_062",
+      "type": "info",
+      "description": "Cast Teleport: Moonglade",
+      "classes": ["Druid"],
+      "races": null,
+      "coords": null,
+      "zone": "",
+      "tips": [],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "feralas_063",
+      "type": "info",
+      "description": "Talk to Loganaar and train your class spells. Skip this step if you trained earlier",
+      "classes": ["Druid"],
+      "races": null,
+      "coords": [52.53, 40.56],
+      "zone": "moonglade",
+      "tips": [
+        {
+          "type": "warning",
+          "class": null,
+          "text": "Skip this step if you trained earlier"
+        }
+      ],
+      "quests": [],
+      "npc": "Loganaar",
+      "mobs": []
+    },
+    {
+      "id": "feralas_064",
+      "type": "fly",
+      "description": "Talk to Silva Fil'naveth and fly to Darnassus",
+      "classes": ["Druid"],
+      "races": null,
+      "coords": [44.148, 45.229],
+      "zone": "moonglade",
+      "tips": [],
+      "quests": [],
+      "npc": "Silva Fil'naveth",
+      "mobs": []
+    },
+    {
+      "id": "feralas_065",
+      "type": "info",
+      "description": "Teleport to Darnassus. If you don't have Teleport: Darnassus trained then fly there",
+      "classes": ["Mage"],
+      "races": null,
+      "coords": [30.239, 43.251],
+      "zone": "feralas",
+      "tips": [],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "feralas_066",
+      "type": "quest_turnin",
+      "description": "Talk to Gracina Spiritmight up stairs and turn in Rise of the Silithid",
+      "classes": ["Mage"],
+      "races": null,
+      "coords": [41.833, 85.622],
+      "zone": "darnassus",
+      "tips": [],
+      "quests": [
+        {
+          "id": 4267,
+          "name": "Rise of the Silithid"
+        }
+      ],
+      "npc": "Gracina Spiritmight",
+      "mobs": []
+    },
+    {
+      "id": "feralas_067",
+      "type": "quest_turnin",
+      "description": "Talk to Tyrande Whisperwind and turn in Doling Justice",
+      "classes": ["Mage"],
+      "races": null,
+      "coords": [39.094, 81.583],
+      "zone": "darnassus",
+      "tips": [],
+      "quests": [
+        {
+          "id": 2972,
+          "name": "Doling Justice"
+        }
+      ],
+      "npc": "Tyrande Whisperwind",
+      "mobs": []
+    },
+    {
+      "id": "feralas_068",
+      "type": "travel",
+      "description": "Take the purple portal to Rut'theran Village",
+      "classes": ["Mage"],
+      "races": null,
+      "coords": [29.466, 41.405],
+      "zone": "darnassus",
+      "tips": [],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "feralas_069",
+      "type": "quest_turnin",
+      "description": "Talk to Erelas Ambersky, turn in Handle With Care, and accept Favored of Elune?",
+      "classes": null,
+      "races": null,
+      "coords": [55.497, 92.045],
+      "zone": "teldrassil",
+      "tips": [],
+      "quests": [
+        {
+          "id": 3022,
+          "name": "Handle With Care"
+        },
+        {
+          "id": 3661,
+          "name": "Favored of Elune?"
+        }
+      ],
+      "npc": "Erelas Ambersky",
+      "mobs": []
+    },
+    {
+      "id": "feralas_070",
+      "type": "quest_turnin",
+      "description": "Talk to Daryn Lightwind up stairs and turn in In Search of Knowledge",
+      "classes": null,
+      "races": null,
+      "coords": [55.414, 92.23],
+      "zone": "teldrassil",
+      "tips": [],
+      "quests": [
+        {
+          "id": 2939,
+          "name": "In Search of Knowledge"
+        }
+      ],
+      "npc": "Daryn Lightwind",
+      "mobs": []
+    },
+    {
+      "id": "feralas_071",
+      "type": "quest_accept",
+      "description": "Click the Feralas: A History book on the ground and accept Feralas: A History",
+      "classes": null,
+      "races": null,
+      "coords": [55.219, 91.454],
+      "zone": "teldrassil",
+      "tips": [],
+      "quests": [
+        {
+          "id": 2940,
+          "name": "Feralas: A History"
+        }
+      ],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "feralas_072",
+      "type": "quest_turnin",
+      "description": "Talk to Daryn Lightwind, turn in Feralas: A History, and accept The Borrower",
+      "classes": null,
+      "races": null,
+      "coords": [55.414, 92.23],
+      "zone": "teldrassil",
+      "tips": [],
+      "quests": [
+        {
+          "id": 2940,
+          "name": "Feralas: A History"
+        },
+        {
+          "id": 2941,
+          "name": "The Borrower"
+        }
+      ],
+      "npc": "Daryn Lightwind",
+      "mobs": []
+    },
+    {
+      "id": "feralas_073",
+      "type": "travel",
+      "description": "Take the purple portal into Darnassus",
+      "classes": null,
+      "races": null,
+      "coords": [55.889, 89.456],
+      "zone": "teldrassil",
+      "tips": [],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "feralas_074",
+      "type": "info",
+      "description": "Talk to Garryeth, Lairn or Idriana and deposit the following items into your bank: A Short Note, Undelivered Parcel, OOX-22/FE Distress Beacon (If you have it)",
+      "classes": null,
+      "races": null,
+      "coords": [39.7, 42.1],
+      "zone": "darnassus",
+      "tips": [],
+      "quests": [],
+      "npc": "Idriana",
+      "mobs": []
+    },
+    {
+      "id": "feralas_075",
+      "type": "info",
+      "description": "Talk to Garryeth, Lairn or Idriana and withdraw the following items from your bank: Seahorn's Sealed Letter",
+      "classes": null,
+      "races": null,
+      "coords": [39.7, 42.1],
+      "zone": "darnassus",
+      "tips": [],
+      "quests": [],
+      "npc": "Idriana",
+      "mobs": []
+    },
+    {
+      "id": "feralas_076",
+      "type": "info",
+      "description": "Talk to a Darnassus Auctioneer. Buy 5 Troll Tribal Necklaces for a instant turn in at Hinterlands shortly. Skip this step if you wish to not buy any",
+      "classes": null,
+      "races": null,
+      "coords": [56.374, 51.82],
+      "zone": "darnassus",
+      "tips": [],
+      "quests": [],
+      "npc": "Auctioneer Golothas",
+      "mobs": []
+    },
+    {
+      "id": "feralas_077",
+      "type": "travel",
+      "description": "Travel to the Temple of the Moon",
+      "classes": null,
+      "races": null,
+      "coords": [39.01, 81.43],
+      "zone": "darnassus",
+      "tips": [],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "feralas_078",
+      "type": "quest_turnin",
+      "description": "Talk to Gracina Spiritmight up stairs and turn in Rise of the Silithid",
+      "classes": null,
+      "races": null,
+      "coords": [41.833, 85.622],
+      "zone": "darnassus",
+      "tips": [],
+      "quests": [
+        {
+          "id": 4267,
+          "name": "Rise of the Silithid"
+        }
+      ],
+      "npc": "Gracina Spiritmight",
+      "mobs": []
+    },
+    {
+      "id": "feralas_079",
+      "type": "quest_turnin",
+      "description": "Talk to Tyrande Whisperwind and turn in Doling Justice",
+      "classes": null,
+      "races": null,
+      "coords": [39.094, 81.583],
+      "zone": "darnassus",
+      "tips": [],
+      "quests": [
+        {
+          "id": 2972,
+          "name": "Doling Justice"
+        }
+      ],
+      "npc": "Tyrande Whisperwind",
+      "mobs": []
+    },
+    {
+      "id": "feralas_080",
+      "type": "info",
+      "description": "Talk to Elissa Dumas and train Teleport: Darnassus",
+      "classes": ["Mage"],
+      "races": null,
+      "coords": [40.599, 82.13],
+      "zone": "darnassus",
+      "tips": [],
+      "quests": [],
+      "npc": "Elissa Dumas",
+      "mobs": []
+    },
+    {
+      "id": "feralas_081",
+      "type": "info",
+      "description": "Teleport to Ironforge",
+      "classes": ["Mage"],
+      "races": null,
+      "coords": null,
+      "zone": "",
+      "tips": [],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "feralas_082",
+      "type": "info",
+      "description": "Talk to Dink and train your class spells",
+      "classes": ["Mage"],
+      "races": null,
+      "coords": [27.169, 8.579],
+      "zone": "ironforge",
+      "tips": [],
+      "quests": [],
+      "npc": "Dink",
+      "mobs": []
+    },
+    {
+      "id": "feralas_083",
+      "type": "fly",
+      "description": "Talk to Gryth and fly to Arathi Highlands",
+      "classes": ["Mage"],
+      "races": null,
+      "coords": [55.506, 47.746],
+      "zone": "ironforge",
+      "tips": [],
+      "quests": [],
+      "npc": "Gryth Thurden",
+      "mobs": []
+    },
+    {
+      "id": "feralas_084",
+      "type": "info",
+      "description": "Buy your Mount if you can afford it! Talk to Lelanai and Jartsam. Buy a Frostsaber or Nightsaber and train Tiger Riding",
+      "classes": null,
+      "races": ["NightElf"],
+      "coords": [38.694, 15.857],
+      "zone": "darnassus",
+      "tips": [],
+      "quests": [],
+      "npc": "Jartsam",
+      "mobs": []
+    },
+    {
+      "id": "feralas_085",
+      "type": "info",
+      "description": "Talk to Arias'ta Bladesinger and train your class spells",
+      "classes": ["Warrior"],
+      "races": null,
+      "coords": [58.72, 34.92],
+      "zone": "darnassus",
+      "tips": [],
+      "quests": [],
+      "npc": "Arias'ta Bladesinger",
+      "mobs": []
+    },
+    {
+      "id": "feralas_086",
+      "type": "info",
+      "description": "Talk to Jandria and train your class spells",
+      "classes": ["Priest"],
+      "races": null,
+      "coords": [37.9, 82.74],
+      "zone": "darnassus",
+      "tips": [],
+      "quests": [],
+      "npc": "Jandria",
+      "mobs": []
+    },
+    {
+      "id": "feralas_087",
+      "type": "info",
+      "description": "Talk to Syurna and train your class spells",
+      "classes": ["Rogue"],
+      "races": null,
+      "coords": [37.0, 21.92],
+      "zone": "darnassus",
+      "tips": [],
+      "quests": [],
+      "npc": "Syurna",
+      "mobs": []
+    },
+    {
+      "id": "feralas_088",
+      "type": "info",
+      "description": "Talk to Jocaste and train your class spells",
+      "classes": ["Hunter"],
+      "races": null,
+      "coords": [40.377, 8.545],
+      "zone": "darnassus",
+      "tips": [],
+      "quests": [],
+      "npc": "Jocaste",
+      "mobs": []
+    },
+    {
+      "id": "feralas_089",
+      "type": "travel",
+      "description": "Take the purple portal to Rut'theran Village",
+      "classes": ["!Mage"],
+      "races": null,
+      "coords": [29.466, 41.405],
+      "zone": "darnassus",
+      "tips": [],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "feralas_090",
+      "type": "fly",
+      "description": "Talk to Vesprystus and fly to Darkshore",
+      "classes": ["!Mage"],
+      "races": null,
+      "coords": [58.39, 94.01],
+      "zone": "teldrassil",
+      "tips": [],
+      "quests": [],
+      "npc": "Vesprystus",
+      "mobs": []
+    },
+    {
+      "id": "feralas_091",
+      "type": "travel",
+      "description": "Take the boat to Menethil Harbor",
+      "classes": ["!Mage"],
+      "races": null,
+      "coords": [32.44, 43.71],
+      "zone": "darkshore",
+      "tips": [
+        {
+          "type": "warning",
+          "class": null,
+          "text": "Level your First Aid while waiting for the Menethil Harbor boat"
+        }
+      ],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "feralas_092",
+      "type": "fly",
+      "description": "Talk to Shellei Brondir and fly to Arathi Highlands",
+      "classes": ["!Mage"],
+      "races": null,
+      "coords": [9.49, 59.694],
+      "zone": "wetlands",
+      "tips": [],
+      "quests": [],
+      "npc": "Shellei Brondir",
+      "mobs": []
+    }
+  ]
+}

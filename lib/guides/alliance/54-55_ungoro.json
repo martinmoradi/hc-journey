@@ -1,0 +1,1768 @@
+{
+  "zone": "Un'Goro Crater",
+  "levelRange": "54-55",
+  "faction": "Alliance",
+  "name": "54-55_ungoro",
+  "next": "55-56_felwood_2",
+  "steps": [
+    {
+      "id": "ungoro_001",
+      "type": "info",
+      "description": "Talk to Gimblethorn and withdraw Un'Goro Soil (If you have any), Violet Tragan, and Bag of Empty Ooze Containers from your bank",
+      "classes": null,
+      "races": null,
+      "coords": [52.297, 28.915],
+      "zone": "tanaris",
+      "tips": [],
+      "quests": [],
+      "npc": "Gimblethorn",
+      "mobs": []
+    },
+    {
+      "id": "ungoro_002",
+      "type": "info",
+      "description": "Talk to Gimblethorn and deposit Drawing Kit into your bank",
+      "classes": null,
+      "races": null,
+      "coords": [52.297, 28.915],
+      "zone": "tanaris",
+      "tips": [],
+      "quests": [],
+      "npc": "Gimblethorn",
+      "mobs": []
+    },
+    {
+      "id": "ungoro_003",
+      "type": "quest_turnin",
+      "description": "Talk to Sprinkle, turn in Sprinkle's Secret Ingredient, and accept Delivery for Marin",
+      "classes": null,
+      "races": null,
+      "coords": [51.059, 26.873],
+      "zone": "tanaris",
+      "tips": [],
+      "quests": [
+        {
+          "id": 2641,
+          "name": "Sprinkle's Secret Ingredient"
+        },
+        {
+          "id": 2661,
+          "name": "Delivery for Marin"
+        }
+      ],
+      "npc": "Sprinkle",
+      "mobs": []
+    },
+    {
+      "id": "ungoro_004",
+      "type": "quest_turnin",
+      "description": "Talk to Alchemist Pestlezugg, turn in March of the Silithid, and accept Bungle in the Jungle",
+      "classes": null,
+      "races": null,
+      "coords": [50.887, 26.963],
+      "zone": "tanaris",
+      "tips": [],
+      "quests": [
+        {
+          "id": 4493,
+          "name": "March of the Silithid"
+        },
+        {
+          "id": 4496,
+          "name": "Bungle in the Jungle"
+        }
+      ],
+      "npc": "Alchemist Pestlezugg",
+      "mobs": []
+    },
+    {
+      "id": "ungoro_005",
+      "type": "quest_turnin",
+      "description": "Talk to Marin Noggenfogger, turn in Delivery for Marin, accept Noggenfogger Elixir, and turn in Noggenfogger Elixir",
+      "classes": null,
+      "races": null,
+      "coords": [51.808, 28.662],
+      "zone": "tanaris",
+      "tips": [],
+      "quests": [
+        {
+          "id": 2661,
+          "name": "Delivery for Marin"
+        },
+        {
+          "id": 2662,
+          "name": "Noggenfogger Elixir"
+        }
+      ],
+      "npc": "Marin Noggenfogger",
+      "mobs": []
+    },
+    {
+      "id": "ungoro_006",
+      "type": "quest_turnin",
+      "description": "Talk to Marvon Rivetseeker and turn in The Stone Circle",
+      "classes": null,
+      "races": null,
+      "coords": [52.707, 45.923],
+      "zone": "tanaris",
+      "tips": [],
+      "quests": [
+        {
+          "id": 3444,
+          "name": "The Stone Circle"
+        }
+      ],
+      "npc": "Marvon Rivetseeker",
+      "mobs": []
+    },
+    {
+      "id": "ungoro_007",
+      "type": "fly",
+      "description": "Talk to Bera Stonehammer and fly to Un'Goro",
+      "classes": null,
+      "races": null,
+      "coords": [51.006, 29.345],
+      "zone": "tanaris",
+      "tips": [],
+      "quests": [],
+      "npc": "Bera Stonehammer",
+      "mobs": []
+    },
+    {
+      "id": "ungoro_008",
+      "type": "quest_accept",
+      "description": "Talk to Williden Marshal and Hol'anyee Marshal, and accept Expedition Salvation and Alien Ecology",
+      "classes": null,
+      "races": null,
+      "coords": [43.889, 7.24],
+      "zone": "un'goro_crater",
+      "tips": [],
+      "quests": [
+        {
+          "id": 3881,
+          "name": "Expedition Salvation"
+        },
+        {
+          "id": 3883,
+          "name": "Alien Ecology"
+        }
+      ],
+      "npc": "Hol'anyee Marshal",
+      "mobs": []
+    },
+    {
+      "id": "ungoro_009",
+      "type": "quest_accept",
+      "description": "Talk to Spark Nilminer and accept Roll the Bones",
+      "classes": null,
+      "races": null,
+      "coords": [43.497, 7.42],
+      "zone": "un'goro_crater",
+      "tips": [],
+      "quests": [
+        {
+          "id": 3882,
+          "name": "Roll the Bones"
+        }
+      ],
+      "npc": "Spark Nilminer",
+      "mobs": []
+    },
+    {
+      "id": "ungoro_010",
+      "type": "loot",
+      "description": "Open the Bag of Empty Ooze Containers",
+      "classes": null,
+      "races": null,
+      "coords": null,
+      "zone": "",
+      "tips": [],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "ungoro_011",
+      "type": "quest_accept",
+      "description": "Talk to J.D. Collie and accept The Northern Pylon, The Eastern Pylon, and The Western Pylon",
+      "classes": null,
+      "races": null,
+      "coords": [41.918, 2.703],
+      "zone": "un'goro_crater",
+      "tips": [],
+      "quests": [
+        {
+          "id": 4285,
+          "name": "The Northern Pylon"
+        },
+        {
+          "id": 4287,
+          "name": "The Eastern Pylon"
+        },
+        {
+          "id": 4288,
+          "name": "The Western Pylon"
+        }
+      ],
+      "npc": "J.D. Collie",
+      "mobs": []
+    },
+    {
+      "id": "ungoro_012",
+      "type": "quest_accept",
+      "description": "Click the Wanted Poster and accept Beware of Pterrordax",
+      "classes": null,
+      "races": null,
+      "coords": [43.533, 8.436],
+      "zone": "un'goro_crater",
+      "tips": [],
+      "quests": [
+        {
+          "id": 4501,
+          "name": "Beware of Pterrordax"
+        }
+      ],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "ungoro_013",
+      "type": "quest_accept",
+      "description": "Talk to Spraggle Frock and accept Lost!",
+      "classes": null,
+      "races": null,
+      "coords": [43.615, 8.499],
+      "zone": "un'goro_crater",
+      "tips": [],
+      "quests": [
+        {
+          "id": 4492,
+          "name": "Lost!"
+        }
+      ],
+      "npc": "Spraggle Frock",
+      "mobs": []
+    },
+    {
+      "id": "ungoro_014",
+      "type": "quest_accept",
+      "description": "Talk to Shizzle and accept Shizzle's Flyer",
+      "classes": null,
+      "races": null,
+      "coords": [44.232, 11.583],
+      "zone": "un'goro_crater",
+      "tips": [],
+      "quests": [
+        {
+          "id": 4503,
+          "name": "Shizzle's Flyer"
+        }
+      ],
+      "npc": "Shizzle",
+      "mobs": []
+    },
+    {
+      "id": "ungoro_015",
+      "type": "loot",
+      "description": "Click the Northern Crystal Pylon",
+      "classes": null,
+      "races": null,
+      "coords": [56.503, 12.492],
+      "zone": "un'goro_crater",
+      "tips": [],
+      "quests": [
+        {
+          "id": 4285,
+          "name": "The Northern Pylon"
+        }
+      ],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "ungoro_016",
+      "type": "loot",
+      "description": "Loot the Crate of Foodstuffs on the ground",
+      "classes": null,
+      "races": null,
+      "coords": [68.541, 36.539],
+      "zone": "un'goro_crater",
+      "tips": [],
+      "quests": [
+        {
+          "id": 3881,
+          "name": "Expedition Salvation"
+        }
+      ],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "ungoro_017",
+      "type": "loot",
+      "description": "Click the Eastern Crystal Pylon",
+      "classes": null,
+      "races": null,
+      "coords": [77.225, 49.98],
+      "zone": "un'goro_crater",
+      "tips": [],
+      "quests": [
+        {
+          "id": 4287,
+          "name": "The Eastern Pylon"
+        }
+      ],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "ungoro_018",
+      "type": "quest_accept",
+      "description": "Talk to Torwa Pathfinder and accept The Bait for Lar'korwi",
+      "classes": null,
+      "races": null,
+      "coords": [71.639, 75.96],
+      "zone": "un'goro_crater",
+      "tips": [],
+      "quests": [
+        {
+          "id": 4292,
+          "name": "The Bait for Lar'korwi"
+        }
+      ],
+      "npc": "Torwa Pathfinder",
+      "mobs": []
+    },
+    {
+      "id": "ungoro_019",
+      "type": "quest_turnin",
+      "description": "Talk to Torwa Pathfinder, turn in Torwa Pathfinder, and accept Bloodpetal Poison",
+      "classes": ["Druid"],
+      "races": null,
+      "coords": [71.639, 75.96],
+      "zone": "un'goro_crater",
+      "tips": [],
+      "quests": [
+        {
+          "id": 9063,
+          "name": "Torwa Pathfinder"
+        },
+        {
+          "id": 9052,
+          "name": "Bloodpetal Poison"
+        }
+      ],
+      "npc": "Torwa Pathfinder",
+      "mobs": []
+    },
+    {
+      "id": "ungoro_020",
+      "type": "quest_accept",
+      "description": "Talk to Torwa Pathfinder and accept The Apes of Un'Goro",
+      "classes": null,
+      "races": null,
+      "coords": [71.639, 75.96],
+      "zone": "un'goro_crater",
+      "tips": [],
+      "quests": [
+        {
+          "id": 4289,
+          "name": "The Apes of Un'Goro"
+        }
+      ],
+      "npc": "Torwa Pathfinder",
+      "mobs": []
+    },
+    {
+      "id": "ungoro_021",
+      "type": "loot",
+      "description": "Open Torwa's Pouch for the Preserved Threshadon Meat and Preserved Pheromone Mixture",
+      "classes": null,
+      "races": null,
+      "coords": null,
+      "zone": "",
+      "tips": [],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "ungoro_022",
+      "type": "kill",
+      "description": "Use the Preserved Threshadon Meat on the stone-slab, then use the Preserved Pheromone Mixture on it to summon Lar'korwi. Kill Lar'korwi. Loot him for his Head",
+      "classes": null,
+      "races": null,
+      "coords": [79.929, 49.896],
+      "zone": "un'goro_crater",
+      "tips": [],
+      "quests": [
+        {
+          "id": 4292,
+          "name": "The Bait for Lar'korwi"
+        }
+      ],
+      "npc": null,
+      "mobs": ["Lar'korwi"]
+    },
+    {
+      "id": "ungoro_023",
+      "type": "quest_turnin",
+      "description": "Talk to Torwa Pathfinder and turn in The Bait for Lar'korwi",
+      "classes": null,
+      "races": null,
+      "coords": [71.639, 75.96],
+      "zone": "un'goro_crater",
+      "tips": [],
+      "quests": [
+        {
+          "id": 4292,
+          "name": "The Bait for Lar'korwi"
+        }
+      ],
+      "npc": "Torwa Pathfinder",
+      "mobs": []
+    },
+    {
+      "id": "ungoro_024",
+      "type": "kill",
+      "description": "Kill Pterrordaxes. Loot them for their Webbed Pterrordax Scales",
+      "classes": null,
+      "races": null,
+      "coords": [44.3, 90.4],
+      "zone": "un'goro_crater",
+      "tips": [
+        {
+          "type": "warning",
+          "class": null,
+          "text": "You don't need to collect all Webbed Pterrordax Scales right now"
+        }
+      ],
+      "quests": [
+        {
+          "id": 4501,
+          "name": "Beware of Pterrordax"
+        },
+        {
+          "id": 4503,
+          "name": "Shizzle's Flyer"
+        }
+      ],
+      "npc": null,
+      "mobs": ["Pterrordax"]
+    },
+    {
+      "id": "ungoro_025",
+      "type": "travel",
+      "description": "Enter The Slithering Scar Hive",
+      "classes": null,
+      "races": null,
+      "coords": [49.93, 81.7],
+      "zone": "un'goro_crater",
+      "tips": [],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "ungoro_026",
+      "type": "loot",
+      "description": "Enter The Slithering Scar Hive. Use the Unused Scraping Vial in the centre of the circular room",
+      "classes": null,
+      "races": null,
+      "coords": [48.671, 85.322],
+      "zone": "un'goro_crater",
+      "tips": [],
+      "quests": [
+        {
+          "id": 3883,
+          "name": "Alien Ecology"
+        }
+      ],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "ungoro_027",
+      "type": "kill",
+      "description": "Kill the Gorishi. Loot them for their Gorishi Scent Gland",
+      "classes": null,
+      "races": null,
+      "coords": [48.8, 85.3],
+      "zone": "un'goro_crater",
+      "tips": [],
+      "quests": [
+        {
+          "id": 4496,
+          "name": "Bungle in the Jungle"
+        }
+      ],
+      "npc": null,
+      "mobs": [
+        "Gorishi Worker",
+        "Gorishi Wasp",
+        "Gorishi Reaver",
+        "Gorishi Tunneler",
+        "Gorishi Stinger"
+      ]
+    },
+    {
+      "id": "ungoro_028",
+      "type": "kill",
+      "description": "Kill Gorishi Stingers and Gorishi Wasps. Loot them for their Gorishi Stings",
+      "classes": ["Druid"],
+      "races": null,
+      "coords": [48.8, 85.3],
+      "zone": "un'goro_crater",
+      "tips": [],
+      "quests": [
+        {
+          "id": 9052,
+          "name": "Bloodpetal Poison"
+        }
+      ],
+      "npc": null,
+      "mobs": ["Gorishi Wasp", "Gorishi Stinger"]
+    },
+    {
+      "id": "ungoro_029",
+      "type": "loot",
+      "description": "Loot the Research Equipment on the ground",
+      "classes": null,
+      "races": null,
+      "coords": [38.457, 66.066],
+      "zone": "un'goro_crater",
+      "tips": [],
+      "quests": [
+        {
+          "id": 3881,
+          "name": "Expedition Salvation"
+        }
+      ],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "ungoro_030",
+      "type": "quest_accept",
+      "description": "Talk to Krakle and accept Finding the Source",
+      "classes": null,
+      "races": null,
+      "coords": [30.928, 50.438],
+      "zone": "un'goro_crater",
+      "tips": [],
+      "quests": [
+        {
+          "id": 974,
+          "name": "Finding the Source"
+        }
+      ],
+      "npc": "Krakle",
+      "mobs": []
+    },
+    {
+      "id": "ungoro_031",
+      "type": "loot",
+      "description": "Click the Western Crystal Pylon",
+      "classes": null,
+      "races": null,
+      "coords": [23.827, 59.201],
+      "zone": "un'goro_crater",
+      "tips": [],
+      "quests": [
+        {
+          "id": 4288,
+          "name": "The Western Pylon"
+        }
+      ],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "ungoro_032",
+      "type": "kill",
+      "description": "Kill Frenzied Pterrordaxes. Loot them for their Webbed Pterrordax Scales",
+      "classes": null,
+      "races": null,
+      "coords": [24.6, 61.6],
+      "zone": "un'goro_crater",
+      "tips": [],
+      "quests": [
+        {
+          "id": 4501,
+          "name": "Beware of Pterrordax"
+        },
+        {
+          "id": 4503,
+          "name": "Shizzle's Flyer"
+        }
+      ],
+      "npc": null,
+      "mobs": ["Frenzied Pterrordax"]
+    },
+    {
+      "id": "ungoro_033",
+      "type": "kill",
+      "description": "Kill Muculent Oozes and Glutinous Oozes. Use the Empty Pure Sample Jars on their corpses",
+      "classes": null,
+      "races": null,
+      "coords": [28.4, 60.8],
+      "zone": "un'goro_crater",
+      "tips": [],
+      "quests": [
+        {
+          "id": 4513,
+          "name": "Corrupted Ooze"
+        }
+      ],
+      "npc": null,
+      "mobs": ["Muculent Ooze", "Glutinous Ooze"]
+    },
+    {
+      "id": "ungoro_034",
+      "type": "kill",
+      "description": "Kill Diemetradons and Elder Diemetradons. Loot them for their Dinosaur Bones and Webbed Diemetradon Scales. Dinosaur Bones may also be looted from the ground. The location is marked on your map to the southwest",
+      "classes": null,
+      "races": null,
+      "coords": [28.4, 60.8],
+      "zone": "un'goro_crater",
+      "tips": [],
+      "quests": [
+        {
+          "id": 3882,
+          "name": "Roll the Bones"
+        },
+        {
+          "id": 4503,
+          "name": "Shizzle's Flyer"
+        }
+      ],
+      "npc": null,
+      "mobs": ["Elder Diemetradon", "Diemetradon"]
+    },
+    {
+      "id": "ungoro_035",
+      "type": "travel",
+      "description": "Travel up the Lava Path of Fire Plume Ridge for a shortcut to the top. Follow the Arrow precisely",
+      "classes": null,
+      "races": null,
+      "coords": [48.81, 45.94],
+      "zone": "un'goro_crater",
+      "tips": [
+        {
+          "type": "warning",
+          "class": null,
+          "text": "Travel up the Lava Path of Fire Plume Ridge for a shortcut to the top. Follow the Arrow precisely"
+        }
+      ],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "ungoro_036",
+      "type": "loot",
+      "description": "Use Krakle's Thermometer atop Fire Plume Ridge at the Hot Spot",
+      "classes": null,
+      "races": null,
+      "coords": [49.631, 45.694],
+      "zone": "un'goro_crater",
+      "tips": [],
+      "quests": [
+        {
+          "id": 974,
+          "name": "Finding the Source"
+        }
+      ],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "ungoro_037",
+      "type": "quest_turnin",
+      "description": "Talk to Krakle, turn in Finding the Source, and accept The New Springs",
+      "classes": null,
+      "races": null,
+      "coords": [30.928, 50.438],
+      "zone": "un'goro_crater",
+      "tips": [],
+      "quests": [
+        {
+          "id": 974,
+          "name": "Finding the Source"
+        },
+        {
+          "id": 980,
+          "name": "The New Springs"
+        }
+      ],
+      "npc": "Krakle",
+      "mobs": []
+    },
+    {
+      "id": "ungoro_038",
+      "type": "kill",
+      "description": "Kill Scorching Elementals and Living Blazes. Loot them for their Ash",
+      "classes": null,
+      "races": null,
+      "coords": [49.8, 53.4],
+      "zone": "un'goro_crater",
+      "tips": [],
+      "quests": [
+        {
+          "id": 4502,
+          "name": "Volcanic Activity"
+        }
+      ],
+      "npc": null,
+      "mobs": ["Scorching Elemental", "Living Blaze"]
+    },
+    {
+      "id": "ungoro_039",
+      "type": "loot",
+      "description": "Open the Bloodpetal Sprouts on the ground. Loot them for Bloodcaps",
+      "classes": ["Druid"],
+      "races": null,
+      "coords": [45.5, 24.5],
+      "zone": "un'goro_crater",
+      "tips": [],
+      "quests": [
+        {
+          "id": 9052,
+          "name": "Bloodpetal Poison"
+        }
+      ],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "ungoro_040",
+      "type": "quest_turnin",
+      "description": "Talk to Torwa Pathfinder, turn in Bloodpetal Poison, and accept Toxic Test",
+      "classes": ["Druid"],
+      "races": null,
+      "coords": [71.639, 75.96],
+      "zone": "un'goro_crater",
+      "tips": [],
+      "quests": [
+        {
+          "id": 9052,
+          "name": "Bloodpetal Poison"
+        },
+        {
+          "id": 9051,
+          "name": "Toxic Test"
+        }
+      ],
+      "npc": "Torwa Pathfinder",
+      "mobs": []
+    },
+    {
+      "id": "ungoro_041",
+      "type": "info",
+      "description": "Look for a Devilsaur or Ironhide Devilsaur. Avoid Tyrant Devilsaurs. The way you do this is spamming Hibernate. Use the Devilsaur Barb on it once it has been Hibernated. Shift into Travel Form and run away to reset it after",
+      "classes": ["Druid"],
+      "races": null,
+      "coords": null,
+      "zone": "",
+      "tips": [
+        {
+          "type": "warning",
+          "class": null,
+          "text": "You should be able to see their patrols on your map"
+        },
+        {
+          "type": "warning",
+          "class": null,
+          "text": "The way you do this is spamming Hibernate. You should only spam Hibernate and nothing else. If it breaks early start spamming Hibernate again, they run with 170% movement speed so you can't outrun a Devilsaur"
+        },
+        {
+          "type": "warning",
+          "class": null,
+          "text": "Use the Devilsaur Barb on it once it has been Hibernated"
+        },
+        {
+          "type": "warning",
+          "class": null,
+          "text": "Shift into Travel Form and run away to reset it after"
+        }
+      ],
+      "quests": [
+        {
+          "id": 9051,
+          "name": "Toxic Test"
+        }
+      ],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "ungoro_042",
+      "type": "quest_turnin",
+      "description": "Talk to Torwa Pathfinder and turn in Toxic Test",
+      "classes": ["Druid"],
+      "races": null,
+      "coords": [71.639, 75.96],
+      "zone": "un'goro_crater",
+      "tips": [],
+      "quests": [
+        {
+          "id": 9051,
+          "name": "Toxic Test"
+        }
+      ],
+      "npc": "Torwa Pathfinder",
+      "mobs": []
+    },
+    {
+      "id": "ungoro_043",
+      "type": "quest_accept",
+      "description": "Talk to Ringo and accept A Little Help From My Friends. This will start an escort quest",
+      "classes": null,
+      "races": null,
+      "coords": [51.909, 49.87],
+      "zone": "un'goro_crater",
+      "tips": [
+        {
+          "type": "warning",
+          "class": null,
+          "text": "This will start an escort quest"
+        }
+      ],
+      "quests": [
+        {
+          "id": 4491,
+          "name": "A Little Help From My Friends"
+        }
+      ],
+      "npc": "Ringo",
+      "mobs": []
+    },
+    {
+      "id": "ungoro_044",
+      "type": "info",
+      "description": "Escort Ringo to Marshal's Refuge.",
+      "classes": null,
+      "races": null,
+      "coords": [43.617, 8.497],
+      "zone": "un'goro_crater",
+      "tips": [
+        {
+          "type": "warning",
+          "class": null,
+          "text": "Use Spraggle's Canteen on him when he faints and stops following you"
+        }
+      ],
+      "quests": [
+        {
+          "id": 4491,
+          "name": "A Little Help From My Friends"
+        }
+      ],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "ungoro_045",
+      "type": "quest_turnin",
+      "description": "Talk to Spraggle Frock, turn in A Little Help From My Friends, and turn in Beware of Pterrordax",
+      "classes": null,
+      "races": null,
+      "coords": [43.617, 8.497],
+      "zone": "un'goro_crater",
+      "tips": [],
+      "quests": [
+        {
+          "id": 4491,
+          "name": "A Little Help From My Friends"
+        },
+        {
+          "id": 4501,
+          "name": "Beware of Pterrordax"
+        }
+      ],
+      "npc": "Spraggle Frock",
+      "mobs": []
+    },
+    {
+      "id": "ungoro_046",
+      "type": "quest_turnin",
+      "description": "Talk to Spark Nilminer and turn in Roll the Bones",
+      "classes": null,
+      "races": null,
+      "coords": [43.497, 7.42],
+      "zone": "un'goro_crater",
+      "tips": [],
+      "quests": [
+        {
+          "id": 3882,
+          "name": "Roll the Bones"
+        }
+      ],
+      "npc": "Spark Nilminer",
+      "mobs": []
+    },
+    {
+      "id": "ungoro_047",
+      "type": "quest_turnin",
+      "description": "Talk to Hol'anyee Marshal and Williden Marshal, turn in Alien Ecology and Expedition Salvation",
+      "classes": null,
+      "races": null,
+      "coords": [43.947, 7.137],
+      "zone": "un'goro_crater",
+      "tips": [],
+      "quests": [
+        {
+          "id": 3883,
+          "name": "Alien Ecology"
+        },
+        {
+          "id": 3881,
+          "name": "Expedition Salvation"
+        }
+      ],
+      "npc": "Williden Marshal",
+      "mobs": []
+    },
+    {
+      "id": "ungoro_048",
+      "type": "quest_turnin",
+      "description": "Talk to J.D. Collie, turn in The Northern Pylon, The Eastern Pylon, and The Western Pylon, accept Making Sense of It, and turn in Making Sense of It",
+      "classes": null,
+      "races": null,
+      "coords": [41.918, 2.703],
+      "zone": "un'goro_crater",
+      "tips": [],
+      "quests": [
+        {
+          "id": 4285,
+          "name": "The Northern Pylon"
+        },
+        {
+          "id": 4287,
+          "name": "The Eastern Pylon"
+        },
+        {
+          "id": 4288,
+          "name": "The Western Pylon"
+        },
+        {
+          "id": 4321,
+          "name": "Making Sense of It"
+        }
+      ],
+      "npc": "J.D. Collie",
+      "mobs": []
+    },
+    {
+      "id": "ungoro_049",
+      "type": "info",
+      "description": "Destroy the Crystal Pylon User's Manual",
+      "classes": null,
+      "races": null,
+      "coords": null,
+      "zone": "",
+      "tips": [],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "ungoro_050",
+      "type": "quest_turnin",
+      "description": "Talk to Shizzle and turn in Shizzle's Flyer",
+      "classes": null,
+      "races": null,
+      "coords": [44.232, 11.586],
+      "zone": "un'goro_crater",
+      "tips": [],
+      "quests": [
+        {
+          "id": 4503,
+          "name": "Shizzle's Flyer"
+        }
+      ],
+      "npc": "Shizzle",
+      "mobs": []
+    },
+    {
+      "id": "ungoro_051",
+      "type": "quest_accept",
+      "description": "Talk to Karna Remtravel and accept Chasing A-Me 01",
+      "classes": null,
+      "races": null,
+      "coords": [46.378, 13.444],
+      "zone": "un'goro_crater",
+      "tips": [],
+      "quests": [
+        {
+          "id": 4243,
+          "name": "Chasing A-Me 01"
+        }
+      ],
+      "npc": "Karna Remtravel",
+      "mobs": []
+    },
+    {
+      "id": "ungoro_052",
+      "type": "travel",
+      "description": "Travel to Fungal Rock",
+      "classes": null,
+      "races": null,
+      "coords": [63.66, 16.56],
+      "zone": "un'goro_crater",
+      "tips": [],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "ungoro_053",
+      "type": "kill",
+      "description": "Kill Un'Goro Gorillas, Un'Goro Stompers and Un'Goro Thunderer. Loot them for their Pelts.",
+      "classes": null,
+      "races": null,
+      "coords": [65.47, 16.48],
+      "zone": "un'goro_crater",
+      "tips": [
+        {
+          "type": "warning",
+          "class": null,
+          "text": "Un'Goro Gorillas will call for help at low health, pay attention to your surroundings when this happens"
+        },
+        {
+          "type": "warning",
+          "class": null,
+          "text": "Un'Goro Stompers will Enrage at low health"
+        },
+        {
+          "type": "warning",
+          "class": null,
+          "text": "Un'Goro Thunderer cast a high damage Thunderclap"
+        }
+      ],
+      "quests": [
+        {
+          "id": 4289,
+          "name": "The Apes of Un'Goro"
+        }
+      ],
+      "npc": null,
+      "mobs": ["Un'Goro Gorilla", "Un'Goro Stomper", "Un'Goro Thunderer"]
+    },
+    {
+      "id": "ungoro_054",
+      "type": "quest_turnin",
+      "description": "Talk to Torwa Pathfinder, turn in The Apes of Un'Goro, and accept The Mighty U'cha",
+      "classes": null,
+      "races": null,
+      "coords": [71.639, 75.96],
+      "zone": "un'goro_crater",
+      "tips": [],
+      "quests": [
+        {
+          "id": 4289,
+          "name": "The Apes of Un'Goro"
+        },
+        {
+          "id": 4301,
+          "name": "The Mighty U'cha"
+        }
+      ],
+      "npc": "Torwa Pathfinder",
+      "mobs": []
+    },
+    {
+      "id": "ungoro_055",
+      "type": "quest_turnin",
+      "description": "Talk to A-Me 01 and turn in Chasing A-Me 01",
+      "classes": null,
+      "races": null,
+      "coords": [67.657, 16.758],
+      "zone": "un'goro_crater",
+      "tips": [],
+      "quests": [
+        {
+          "id": 4243,
+          "name": "Chasing A-Me 01"
+        }
+      ],
+      "npc": "A-Me 01",
+      "mobs": []
+    },
+    {
+      "id": "ungoro_056",
+      "type": "kill",
+      "description": "Kill U'cha. Loot him for his Pelt",
+      "classes": null,
+      "races": null,
+      "coords": [68.49, 12.18],
+      "zone": "un'goro_crater",
+      "tips": [],
+      "quests": [
+        {
+          "id": 4301,
+          "name": "The Mighty U'cha"
+        }
+      ],
+      "npc": null,
+      "mobs": ["U'cha"]
+    },
+    {
+      "id": "ungoro_057",
+      "type": "quest_accept",
+      "description": "Talk to A-Me 01, accept Chasing A-Me 01, turn in Chasing A-Me 01, and accept Chasing A-Me 01",
+      "classes": null,
+      "races": null,
+      "coords": [67.657, 16.758],
+      "zone": "un'goro_crater",
+      "tips": [],
+      "quests": [
+        {
+          "id": 4244,
+          "name": "Chasing A-Me 01"
+        },
+        {
+          "id": 4245,
+          "name": "Chasing A-Me 01"
+        }
+      ],
+      "npc": "A-Me 01",
+      "mobs": []
+    },
+    {
+      "id": "ungoro_058",
+      "type": "info",
+      "description": "Escort A-Me 01 to Karna Remtravel at Marshal's Refuge",
+      "classes": null,
+      "races": null,
+      "coords": [46.378, 13.444],
+      "zone": "un'goro_crater",
+      "tips": [],
+      "quests": [
+        {
+          "id": 4245,
+          "name": "Chasing A-Me 01"
+        }
+      ],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "ungoro_059",
+      "type": "quest_turnin",
+      "description": "Talk to Karna Remtravel and turn in Chasing A-Me 01",
+      "classes": null,
+      "races": null,
+      "coords": [46.378, 13.444],
+      "zone": "un'goro_crater",
+      "tips": [],
+      "quests": [
+        {
+          "id": 4245,
+          "name": "Chasing A-Me 01"
+        }
+      ],
+      "npc": "Karna Remtravel",
+      "mobs": []
+    },
+    {
+      "id": "ungoro_060",
+      "type": "loot",
+      "description": "Loot Un'Goro Soil on the ground",
+      "classes": null,
+      "races": null,
+      "coords": [45.5, 24.5],
+      "zone": "un'goro_crater",
+      "tips": [],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "ungoro_061",
+      "type": "quest_turnin",
+      "description": "Talk to Torwa Pathfinder and turn in The Mighty U'cha",
+      "classes": null,
+      "races": null,
+      "coords": [71.639, 75.96],
+      "zone": "un'goro_crater",
+      "tips": [],
+      "quests": [
+        {
+          "id": 4301,
+          "name": "The Mighty U'cha"
+        }
+      ],
+      "npc": "Torwa Pathfinder",
+      "mobs": []
+    },
+    {
+      "id": "ungoro_062",
+      "type": "fly",
+      "description": "Talk to Gryfe and fly to Tanaris",
+      "classes": null,
+      "races": null,
+      "coords": [45.234, 5.831],
+      "zone": "un'goro_crater",
+      "tips": [],
+      "quests": [],
+      "npc": "Gryfe",
+      "mobs": []
+    },
+    {
+      "id": "ungoro_063",
+      "type": "travel",
+      "description": "Travel to Tanaris",
+      "classes": null,
+      "races": null,
+      "coords": [50.88, 26.96],
+      "zone": "tanaris",
+      "tips": [],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "ungoro_064",
+      "type": "quest_turnin",
+      "description": "Talk to Alchemist Pestlezugg and turn in Bungle in the Jungle",
+      "classes": null,
+      "races": null,
+      "coords": [50.887, 26.963],
+      "zone": "tanaris",
+      "tips": [],
+      "quests": [
+        {
+          "id": 4496,
+          "name": "Bungle in the Jungle"
+        }
+      ],
+      "npc": "Alchemist Pestlezugg",
+      "mobs": []
+    },
+    {
+      "id": "ungoro_065",
+      "type": "info",
+      "description": "Talk to Gimblethorn and withdraw Purified Moonwell Water and Moontouched Feathers (If you have them) from your bank",
+      "classes": null,
+      "races": null,
+      "coords": [52.297, 28.915],
+      "zone": "tanaris",
+      "tips": [],
+      "quests": [],
+      "npc": "Gimblethorn",
+      "mobs": []
+    },
+    {
+      "id": "ungoro_066",
+      "type": "info",
+      "description": "Talk to Gimblethorn and deposit Filled Pure Sample Jar into your bank",
+      "classes": null,
+      "races": null,
+      "coords": [52.297, 28.915],
+      "zone": "tanaris",
+      "tips": [],
+      "quests": [],
+      "npc": "Gimblethorn",
+      "mobs": []
+    },
+    {
+      "id": "ungoro_067",
+      "type": "info",
+      "description": "Hearth to Ratchet. Buy food/water if needed",
+      "classes": ["!Warrior", "!Rogue"],
+      "races": null,
+      "coords": null,
+      "zone": "",
+      "tips": [
+        {
+          "type": "warning",
+          "class": null,
+          "text": "Buy food/water if needed"
+        }
+      ],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "ungoro_068",
+      "type": "info",
+      "description": "Hearth to Ratchet. Buy food if needed",
+      "classes": ["Warrior", "Rogue"],
+      "races": null,
+      "coords": null,
+      "zone": "",
+      "tips": [
+        {
+          "type": "warning",
+          "class": null,
+          "text": "Buy food if needed"
+        }
+      ],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "ungoro_069",
+      "type": "quest_turnin",
+      "description": "Talk to Liv Rizzlefix and turn in Volcanic Activity",
+      "classes": null,
+      "races": null,
+      "coords": [62.448, 38.734],
+      "zone": "the_barrens",
+      "tips": [],
+      "quests": [
+        {
+          "id": 4502,
+          "name": "Volcanic Activity"
+        }
+      ],
+      "npc": "Liv Rizzlefix",
+      "mobs": []
+    },
+    {
+      "id": "ungoro_070",
+      "type": "info",
+      "description": "Teleport to Darnassus",
+      "classes": ["Mage"],
+      "races": null,
+      "coords": null,
+      "zone": "",
+      "tips": [],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "ungoro_071",
+      "type": "fly",
+      "description": "Talk to Bragok and fly to Teldrassil",
+      "classes": ["!Mage"],
+      "races": null,
+      "coords": [63.084, 37.163],
+      "zone": "the_barrens",
+      "tips": [],
+      "quests": [],
+      "npc": "Bragok",
+      "mobs": []
+    },
+    {
+      "id": "ungoro_072",
+      "type": "quest_turnin",
+      "description": "Talk to Erelas Ambersky and turn in Moontouched Wildkin",
+      "classes": ["!Mage"],
+      "races": null,
+      "coords": [55.497, 92.045],
+      "zone": "teldrassil",
+      "tips": [],
+      "quests": [
+        {
+          "id": 978,
+          "name": "Moontouched Wildkin"
+        }
+      ],
+      "npc": "Erelas Ambersky",
+      "mobs": []
+    },
+    {
+      "id": "ungoro_073",
+      "type": "quest_accept",
+      "description": "Talk to Erelas Ambersky and accept Moontouched Wildkin",
+      "classes": ["!Mage"],
+      "races": null,
+      "coords": [55.497, 92.045],
+      "zone": "teldrassil",
+      "tips": [],
+      "quests": [
+        {
+          "id": 978,
+          "name": "Moontouched Wildkin"
+        }
+      ],
+      "npc": "Erelas Ambersky",
+      "mobs": []
+    },
+    {
+      "id": "ungoro_074",
+      "type": "quest_accept",
+      "description": "Talk to Daryn Lightwind up stairs and accept Starfall",
+      "classes": ["!Mage"],
+      "races": null,
+      "coords": [55.414, 92.23],
+      "zone": "teldrassil",
+      "tips": [],
+      "quests": [
+        {
+          "id": 5250,
+          "name": "Starfall"
+        }
+      ],
+      "npc": "Daryn Lightwind",
+      "mobs": []
+    },
+    {
+      "id": "ungoro_075",
+      "type": "travel",
+      "description": "Take the purple portal into Darnassus",
+      "classes": ["!Mage"],
+      "races": null,
+      "coords": [55.889, 89.456],
+      "zone": "teldrassil",
+      "tips": [],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "ungoro_076",
+      "type": "quest_accept",
+      "description": "Talk to Herald Moonstalker and accept The New Frontier.",
+      "classes": ["Hunter"],
+      "races": null,
+      "coords": [61.6, 40.6],
+      "zone": "darnassus",
+      "tips": [
+        {
+          "type": "warning",
+          "class": null,
+          "text": "Herald Moonstalker patrols throughout Darnassus"
+        },
+        {
+          "type": "warning",
+          "class": "Hunter",
+          "text": "Cast Eagle Eye to try and find her faster"
+        }
+      ],
+      "quests": [
+        {
+          "id": 1047,
+          "name": "The New Frontier"
+        }
+      ],
+      "npc": "Herald Moonstalker",
+      "mobs": []
+    },
+    {
+      "id": "ungoro_077",
+      "type": "info",
+      "description": "Talk to Raedon Duskstriker.",
+      "classes": null,
+      "races": null,
+      "coords": [64.021, 23.0],
+      "zone": "darnassus",
+      "tips": [
+        {
+          "type": "warning",
+          "class": null,
+          "text": "Do the Darnassus cloth turn ins. You'll need 3 stacks of each cloth. Skip this step if you're unable to complete all of them"
+        }
+      ],
+      "quests": [
+        {
+          "id": 7792,
+          "name": "A Donation of Wool"
+        },
+        {
+          "id": 7798,
+          "name": "A Donation of Silk"
+        },
+        {
+          "id": 7799,
+          "name": "A Donation of Mageweave"
+        },
+        {
+          "id": 7800,
+          "name": "A Donation of Runecloth"
+        }
+      ],
+      "npc": "Raedon Duskstriker",
+      "mobs": []
+    },
+    {
+      "id": "ungoro_078",
+      "type": "quest_accept",
+      "description": "Talk to Innkeeper Saelienne and accept Assisting Arch Druid Staghelm",
+      "classes": null,
+      "races": null,
+      "coords": [67.427, 15.655],
+      "zone": "darnassus",
+      "tips": [],
+      "quests": [
+        {
+          "id": 3763,
+          "name": "Assisting Arch Druid Staghelm"
+        }
+      ],
+      "npc": "Innkeeper Saelienne",
+      "mobs": []
+    },
+    {
+      "id": "ungoro_079",
+      "type": "quest_accept",
+      "description": "Talk to Herald Moonstalker and accept The New Frontier.",
+      "classes": ["Hunter"],
+      "races": null,
+      "coords": [61.6, 40.6],
+      "zone": "darnassus",
+      "tips": [
+        {
+          "type": "warning",
+          "class": null,
+          "text": "Herald Moonstalker patrols throughout Darnassus"
+        },
+        {
+          "type": "warning",
+          "class": "Hunter",
+          "text": "Cast Eagle Eye to try and find her faster"
+        }
+      ],
+      "quests": [
+        {
+          "id": 1047,
+          "name": "The New Frontier"
+        }
+      ],
+      "npc": "Herald Moonstalker",
+      "mobs": []
+    },
+    {
+      "id": "ungoro_080",
+      "type": "quest_turnin",
+      "description": "Talk to Arch Druid Fandral Staghelm, turn in Assisting Arch Druid Staghelm, accept Un'Goro Soil, turn in The New Frontier, and accept The New Frontier",
+      "classes": null,
+      "races": null,
+      "coords": [34.814, 9.255],
+      "zone": "darnassus",
+      "tips": [],
+      "quests": [
+        {
+          "id": 3763,
+          "name": "Assisting Arch Druid Staghelm"
+        },
+        {
+          "id": 3764,
+          "name": "Un'Goro Soil"
+        },
+        {
+          "id": 1047,
+          "name": "The New Frontier"
+        },
+        {
+          "id": 6761,
+          "name": "The New Frontier"
+        }
+      ],
+      "npc": "Arch Druid Fandral Staghelm",
+      "mobs": []
+    },
+    {
+      "id": "ungoro_081",
+      "type": "quest_turnin",
+      "description": "Talk to Jenal and turn in Un'Goro Soil",
+      "classes": null,
+      "races": null,
+      "coords": [31.485, 8.237],
+      "zone": "darnassus",
+      "tips": [],
+      "quests": [
+        {
+          "id": 3764,
+          "name": "Un'Goro Soil"
+        }
+      ],
+      "npc": "Jenal",
+      "mobs": []
+    },
+    {
+      "id": "ungoro_082",
+      "type": "quest_accept",
+      "description": "Talk to Arch Druid Fandral Staghelm and accept Morrowgrain Research",
+      "classes": null,
+      "races": null,
+      "coords": [34.814, 9.255],
+      "zone": "darnassus",
+      "tips": [],
+      "quests": [
+        {
+          "id": 3781,
+          "name": "Morrowgrain Research"
+        }
+      ],
+      "npc": "Arch Druid Fandral Staghelm",
+      "mobs": []
+    },
+    {
+      "id": "ungoro_083",
+      "type": "quest_turnin",
+      "description": "Talk to Mathrengyl Bearwalker on the middle floor, turn in Morrowgrain Research, turn in The New Frontier, and accept Rabine Saturna",
+      "classes": null,
+      "races": null,
+      "coords": [35.375, 8.405],
+      "zone": "darnassus",
+      "tips": [],
+      "quests": [
+        {
+          "id": 3781,
+          "name": "Morrowgrain Research"
+        },
+        {
+          "id": 6761,
+          "name": "The New Frontier"
+        },
+        {
+          "id": 6762,
+          "name": "Rabine Saturna"
+        }
+      ],
+      "npc": "Mathrengyl Bearwalker",
+      "mobs": []
+    },
+    {
+      "id": "ungoro_084",
+      "type": "info",
+      "description": "Talk to Mathrengyl Bearwalker and train your class spells",
+      "classes": ["Druid"],
+      "races": null,
+      "coords": [35.375, 8.405],
+      "zone": "darnassus",
+      "tips": [],
+      "quests": [],
+      "npc": "Mathrengyl Bearwalker",
+      "mobs": []
+    },
+    {
+      "id": "ungoro_085",
+      "type": "info",
+      "description": "Talk to Arias'ta Bladesinger and train your class spells",
+      "classes": ["Warrior"],
+      "races": null,
+      "coords": [58.718, 34.905],
+      "zone": "darnassus",
+      "tips": [],
+      "quests": [],
+      "npc": "Arias'ta Bladesinger",
+      "mobs": []
+    },
+    {
+      "id": "ungoro_086",
+      "type": "info",
+      "description": "Talk to Jandria and train your class spells",
+      "classes": ["Priest"],
+      "races": null,
+      "coords": [37.901, 82.742],
+      "zone": "darnassus",
+      "tips": [],
+      "quests": [],
+      "npc": "Jandria",
+      "mobs": []
+    },
+    {
+      "id": "ungoro_087",
+      "type": "info",
+      "description": "Talk to Syurna and train your class spells",
+      "classes": ["Rogue"],
+      "races": null,
+      "coords": [36.99, 21.91],
+      "zone": "darnassus",
+      "tips": [],
+      "quests": [],
+      "npc": "Syurna",
+      "mobs": []
+    },
+    {
+      "id": "ungoro_088",
+      "type": "info",
+      "description": "Talk to Jocaste and train your class spells",
+      "classes": ["Hunter"],
+      "races": null,
+      "coords": [40.377, 8.545],
+      "zone": "darnassus",
+      "tips": [],
+      "quests": [],
+      "npc": "Jocaste",
+      "mobs": []
+    },
+    {
+      "id": "ungoro_089",
+      "type": "travel",
+      "description": "Travel through the purple portal to Rut'theran Village",
+      "classes": null,
+      "races": null,
+      "coords": [29.466, 41.405],
+      "zone": "darnassus",
+      "tips": [],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "ungoro_090",
+      "type": "quest_turnin",
+      "description": "Talk to Erelas Ambersky and turn in Moontouched Wildkin",
+      "classes": ["Mage"],
+      "races": null,
+      "coords": [55.497, 92.045],
+      "zone": "teldrassil",
+      "tips": [],
+      "quests": [
+        {
+          "id": 978,
+          "name": "Moontouched Wildkin"
+        }
+      ],
+      "npc": "Erelas Ambersky",
+      "mobs": []
+    },
+    {
+      "id": "ungoro_091",
+      "type": "quest_accept",
+      "description": "Talk to Erelas Ambersky and accept Moontouched Wildkin",
+      "classes": ["Mage"],
+      "races": null,
+      "coords": [55.497, 92.045],
+      "zone": "teldrassil",
+      "tips": [],
+      "quests": [
+        {
+          "id": 978,
+          "name": "Moontouched Wildkin"
+        }
+      ],
+      "npc": "Erelas Ambersky",
+      "mobs": []
+    },
+    {
+      "id": "ungoro_092",
+      "type": "quest_accept",
+      "description": "Talk to Daryn Lightwind up stairs and accept Starfall",
+      "classes": ["Mage"],
+      "races": null,
+      "coords": [55.414, 92.23],
+      "zone": "teldrassil",
+      "tips": [],
+      "quests": [
+        {
+          "id": 5250,
+          "name": "Starfall"
+        }
+      ],
+      "npc": "Daryn Lightwind",
+      "mobs": []
+    },
+    {
+      "id": "ungoro_093",
+      "type": "fly",
+      "description": "Talk to Vesprystus and fly to Felwood",
+      "classes": null,
+      "races": null,
+      "coords": [58.399, 94.016],
+      "zone": "teldrassil",
+      "tips": [],
+      "quests": [],
+      "npc": "Vesprystus",
+      "mobs": []
+    }
+  ]
+}

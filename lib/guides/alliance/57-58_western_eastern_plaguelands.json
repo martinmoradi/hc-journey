@@ -1,0 +1,4294 @@
+{
+  "zone": "Western Plaguelands",
+  "levelRange": "57-58",
+  "faction": "Alliance",
+  "name": "57-58_western_eastern_plaguelands",
+  "next": "58-59_felwood_winterspring",
+  "steps": [
+    {
+      "id": "westernplaguelands_001",
+      "type": "info",
+      "description": "Talk to Innkeeper Anderson and set your Hearthstone to Southshore",
+      "classes": null,
+      "races": null,
+      "coords": [51.17, 58.927],
+      "zone": "hillsbrad_foothills",
+      "tips": [],
+      "quests": [],
+      "npc": "Innkeeper Anderson",
+      "mobs": []
+    },
+    {
+      "id": "westernplaguelands_002",
+      "type": "fly",
+      "description": "Talk to Darla Harris and fly to Western Plaguelands",
+      "classes": null,
+      "races": null,
+      "coords": [49.338, 52.272],
+      "zone": "hillsbrad_foothills",
+      "tips": [],
+      "quests": [],
+      "npc": "Darla Harris",
+      "mobs": []
+    },
+    {
+      "id": "westernplaguelands_003",
+      "type": "travel",
+      "description": "Travel towards Lieutenant Haggerdin in Alterac Mountains",
+      "classes": null,
+      "races": null,
+      "coords": [39.461, 81.23],
+      "zone": "alterac_mountains",
+      "tips": [],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "westernplaguelands_004",
+      "type": "quest_turnin",
+      "description": "Talk to Lieutenant Haggerdin and turn in The Sovereign Imperative",
+      "classes": null,
+      "races": null,
+      "coords": [39.461, 81.23],
+      "zone": "alterac_mountains",
+      "tips": [],
+      "quests": [
+        {
+          "id": 7261,
+          "name": "The Sovereign Imperative"
+        }
+      ],
+      "npc": "Lieutenant Haggerdin",
+      "mobs": []
+    },
+    {
+      "id": "westernplaguelands_005",
+      "type": "travel",
+      "description": "Travel to Western Plaguelands",
+      "classes": null,
+      "races": null,
+      "coords": [42.702, 84.031],
+      "zone": "western_plaguelands",
+      "tips": [],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "westernplaguelands_006",
+      "type": "quest_accept",
+      "description": "Talk to Commander Ashlam Valorfist and accept The Scourge Cauldrons and All Along the Watchtowers",
+      "classes": null,
+      "races": null,
+      "coords": [42.702, 84.031],
+      "zone": "western_plaguelands",
+      "tips": [],
+      "quests": [
+        {
+          "id": 5215,
+          "name": "The Scourge Cauldrons"
+        },
+        {
+          "id": 5097,
+          "name": "All Along the Watchtowers"
+        }
+      ],
+      "npc": "Commander Ashlam Valorfist",
+      "mobs": []
+    },
+    {
+      "id": "westernplaguelands_007",
+      "type": "quest_turnin",
+      "description": "Talk to Argent Officer Pureheart and turn in The Everlook Report",
+      "classes": null,
+      "races": null,
+      "coords": [42.967, 83.546],
+      "zone": "western_plaguelands",
+      "tips": [],
+      "quests": [
+        {
+          "id": 6028,
+          "name": "The Everlook Report"
+        }
+      ],
+      "npc": "Argent Officer Pureheart",
+      "mobs": []
+    },
+    {
+      "id": "westernplaguelands_008",
+      "type": "quest_accept",
+      "description": "Talk to High Priestess MacDonnell, turn in The Scourge Cauldrons, and accept Target: Felstone Field",
+      "classes": null,
+      "races": null,
+      "coords": [42.972, 84.501],
+      "zone": "western_plaguelands",
+      "tips": [],
+      "quests": [
+        {
+          "id": 5215,
+          "name": "The Scourge Cauldrons"
+        },
+        {
+          "id": 5216,
+          "name": "Target: Felstone Field"
+        }
+      ],
+      "npc": "High Priestess MacDonnell",
+      "mobs": []
+    },
+    {
+      "id": "westernplaguelands_009",
+      "type": "quest_accept",
+      "description": "Talk to Nathaniel Dumah and accept A Plague Upon Thee",
+      "classes": null,
+      "races": null,
+      "coords": [43.419, 84.834],
+      "zone": "western_plaguelands",
+      "tips": [],
+      "quests": [
+        {
+          "id": 5903,
+          "name": "A Plague Upon Thee"
+        }
+      ],
+      "npc": "Nathaniel Dumah",
+      "mobs": []
+    },
+    {
+      "id": "westernplaguelands_010",
+      "type": "quest_accept",
+      "description": "Talk to Flint Shadowmore, turn in Flint Shadowmore, and accept The Eastern Plagues",
+      "classes": null,
+      "races": null,
+      "coords": [43.607, 84.506],
+      "zone": "western_plaguelands",
+      "tips": [],
+      "quests": [
+        {
+          "id": 6184,
+          "name": "Flint Shadowmore"
+        },
+        {
+          "id": 6185,
+          "name": "The Eastern Plagues"
+        }
+      ],
+      "npc": "Flint Shadowmore",
+      "mobs": []
+    },
+    {
+      "id": "westernplaguelands_011",
+      "type": "info",
+      "description": "Equip the Argent Dawn Commission to start collecting Scourgestones",
+      "classes": null,
+      "races": null,
+      "coords": null,
+      "zone": "",
+      "tips": [],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "westernplaguelands_012",
+      "type": "kill",
+      "description": "Kill Cauldron Lord Bilemaw. Loot him for the Felstone Field Cauldron Key",
+      "classes": null,
+      "races": null,
+      "coords": [37.015, 57.145],
+      "zone": "western_plaguelands",
+      "tips": [
+        {
+          "type": "info",
+          "class": null,
+          "text": "Cauldron Lord Bilemaw may spawn as you approach the Cauldron"
+        }
+      ],
+      "quests": [
+        {
+          "id": 5216,
+          "name": "Target: Felstone Field"
+        }
+      ],
+      "npc": null,
+      "mobs": ["Cauldron Lord Bilemaw"]
+    },
+    {
+      "id": "westernplaguelands_013",
+      "type": "quest_accept",
+      "description": "Click on the Scourge Cauldron, turn in Target: Felstone Field, and accept Return to Chillwind Camp",
+      "classes": null,
+      "races": null,
+      "coords": [37.194, 56.86],
+      "zone": "western_plaguelands",
+      "tips": [],
+      "quests": [
+        {
+          "id": 5216,
+          "name": "Target: Felstone Field"
+        },
+        {
+          "id": 5217,
+          "name": "Return to Chillwind Camp"
+        }
+      ],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "westernplaguelands_014",
+      "type": "travel",
+      "description": "Go inside the house",
+      "classes": null,
+      "races": null,
+      "coords": [38.05, 54.59],
+      "zone": "western_plaguelands",
+      "tips": [],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "westernplaguelands_015",
+      "type": "quest_accept",
+      "description": "Talk to Janice Felstone up stairs and accept Better Late Than Never",
+      "classes": null,
+      "races": null,
+      "coords": [38.4, 54.05],
+      "zone": "western_plaguelands",
+      "tips": [],
+      "quests": [
+        {
+          "id": 5021,
+          "name": "Better Late Than Never"
+        }
+      ],
+      "npc": "Janice Felstone",
+      "mobs": []
+    },
+    {
+      "id": "westernplaguelands_016",
+      "type": "travel",
+      "description": "Exit the house and go inside the barn",
+      "classes": null,
+      "races": null,
+      "coords": [38.58, 55.33],
+      "zone": "western_plaguelands",
+      "tips": [],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "westernplaguelands_017",
+      "type": "quest_accept",
+      "description": "Click Janice's Parcel on the ground, turn in Better Late Than Never, and accept Better Late Than Never",
+      "classes": null,
+      "races": null,
+      "coords": [38.72, 55.24],
+      "zone": "western_plaguelands",
+      "tips": [
+        {
+          "type": "warning",
+          "class": null,
+          "text": "This has a 5 second cast time"
+        },
+        {
+          "type": "warning",
+          "class": null,
+          "text": "You can do this from behind the wall to avoid aggroing anything inside"
+        },
+        {
+          "type": "warning",
+          "class": null,
+          "text": "Avoid aggroing the Scarlets outside the barn. If you do, run away"
+        }
+      ],
+      "quests": [
+        {
+          "id": 5021,
+          "name": "Better Late Than Never"
+        },
+        {
+          "id": 5022,
+          "name": "Better Late Than Never"
+        }
+      ],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "westernplaguelands_018",
+      "type": "travel",
+      "description": "Travel to Chillwind Camp",
+      "classes": null,
+      "races": null,
+      "coords": null,
+      "zone": "",
+      "tips": [],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "westernplaguelands_019",
+      "type": "quest_accept",
+      "description": "Talk to High Priestess MacDonnell, turn in Return to Chillwind Camp, and accept Target: Dalson's Tears",
+      "classes": null,
+      "races": null,
+      "coords": [42.972, 84.501],
+      "zone": "western_plaguelands",
+      "tips": [],
+      "quests": [
+        {
+          "id": 5217,
+          "name": "Return to Chillwind Camp"
+        },
+        {
+          "id": 5219,
+          "name": "Target: Dalson's Tears"
+        }
+      ],
+      "npc": "High Priestess MacDonnell",
+      "mobs": []
+    },
+    {
+      "id": "westernplaguelands_020",
+      "type": "info",
+      "description": "Use the Beacon Torch next to the Tower entrance. You can do this without agroing the Elite Skeletal Warlord inside",
+      "classes": null,
+      "races": null,
+      "coords": [46.681, 71.135],
+      "zone": "western_plaguelands",
+      "tips": [],
+      "quests": [
+        {
+          "id": 5097,
+          "name": "All Along the Watchtowers"
+        }
+      ],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "westernplaguelands_021",
+      "type": "quest_accept",
+      "description": "Talk to Mulgris Deepriver and accept The Wildlife Suffers Too",
+      "classes": null,
+      "races": null,
+      "coords": [53.733, 64.662],
+      "zone": "western_plaguelands",
+      "tips": [
+        {
+          "type": "info",
+          "class": null,
+          "text": "Freezing Ghouls cast Flash Freeze. This ability stuns for 5 seconds. Avoid agroing multiple at the same time at all costs"
+        }
+      ],
+      "quests": [
+        {
+          "id": 4984,
+          "name": "The Wildlife Suffers Too"
+        }
+      ],
+      "npc": "Mulgris Deepriver",
+      "mobs": []
+    },
+    {
+      "id": "westernplaguelands_022",
+      "type": "kill",
+      "description": "Kill Diseased Wolves",
+      "classes": null,
+      "races": null,
+      "coords": null,
+      "zone": "",
+      "tips": [
+        {
+          "type": "info",
+          "class": null,
+          "text": "Diseased Wolves share spawns with Carrion Lurkers. You may need to kill them to force Diseased Wolves to spawn"
+        }
+      ],
+      "quests": [
+        {
+          "id": 4984,
+          "name": "The Wildlife Suffers Too"
+        }
+      ],
+      "npc": null,
+      "mobs": ["Diseased Wolf"]
+    },
+    {
+      "id": "westernplaguelands_023",
+      "type": "quest_accept",
+      "description": "Enter the Dalson's Tears Barn. Click Mrs. Dalson's Diary on the ground and accept Mrs. Dalson Diary. Turn in Mrs. Dalson Diary",
+      "classes": null,
+      "races": null,
+      "coords": [47.796, 50.671],
+      "zone": "western_plaguelands",
+      "tips": [],
+      "quests": [
+        {
+          "id": 5058,
+          "name": "Mrs. Dalson Diary"
+        }
+      ],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "westernplaguelands_024",
+      "type": "loot",
+      "description": "Kill the Wandering Skeleton. Loot it for the Dalson Outhouse Key",
+      "classes": null,
+      "races": null,
+      "coords": [47.86, 49.88],
+      "zone": "western_plaguelands",
+      "tips": [
+        {
+          "type": "info",
+          "class": null,
+          "text": "The Wandering Skeleton patrols around the Dalson's Tear Barn and House"
+        }
+      ],
+      "quests": [],
+      "npc": null,
+      "mobs": ["Wandering Skeleton"]
+    },
+    {
+      "id": "westernplaguelands_025",
+      "type": "quest_turnin",
+      "description": "Click the Outhouse to summon Farmer Dalson and turn in Locked Away",
+      "classes": null,
+      "races": null,
+      "coords": [48.109, 49.654],
+      "zone": "western_plaguelands",
+      "tips": [],
+      "quests": [
+        {
+          "id": 5059,
+          "name": "Locked Away"
+        }
+      ],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "westernplaguelands_026",
+      "type": "loot",
+      "description": "Kill Farmer Dalson. Loot him for the Dalson Cabinet Key",
+      "classes": null,
+      "races": null,
+      "coords": [48.115, 49.814],
+      "zone": "western_plaguelands",
+      "tips": [],
+      "quests": [],
+      "npc": null,
+      "mobs": ["Farmer Dalson"]
+    },
+    {
+      "id": "westernplaguelands_027",
+      "type": "quest_turnin",
+      "description": "Click the Locked Cabinet up stairs in the house and turn in Locked Away",
+      "classes": null,
+      "races": null,
+      "coords": [47.353, 49.626],
+      "zone": "western_plaguelands",
+      "tips": [],
+      "quests": [
+        {
+          "id": 5060,
+          "name": "Locked Away"
+        }
+      ],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "westernplaguelands_028",
+      "type": "kill",
+      "description": "Kill Cauldron Lord Malvinious. Loot him for the Dalson's Tears Cauldron Key",
+      "classes": null,
+      "races": null,
+      "coords": [46.156, 52.427],
+      "zone": "western_plaguelands",
+      "tips": [
+        {
+          "type": "info",
+          "class": null,
+          "text": "Cauldron Lord Malvinious may spawn as you approach the Cauldron"
+        }
+      ],
+      "quests": [
+        {
+          "id": 5219,
+          "name": "Target: Dalson's Tears"
+        }
+      ],
+      "npc": null,
+      "mobs": ["Cauldron Lord Malvinious"]
+    },
+    {
+      "id": "westernplaguelands_029",
+      "type": "quest_accept",
+      "description": "Click on the Scourge Cauldron, turn in Target: Dalson's Tears, and accept Return to Chillwind Camp",
+      "classes": null,
+      "races": null,
+      "coords": [46.176, 52.009],
+      "zone": "western_plaguelands",
+      "tips": [],
+      "quests": [
+        {
+          "id": 5219,
+          "name": "Target: Dalson's Tears"
+        },
+        {
+          "id": 5220,
+          "name": "Return to Chillwind Camp"
+        }
+      ],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "westernplaguelands_030",
+      "type": "kill",
+      "description": "Kill Diseased Wolves",
+      "classes": null,
+      "races": null,
+      "coords": null,
+      "zone": "",
+      "tips": [
+        {
+          "type": "info",
+          "class": null,
+          "text": "Diseased Wolves share spawns with Carrion Lurkers. You may need to kill them to force Diseased Wolves to spawn"
+        }
+      ],
+      "quests": [
+        {
+          "id": 4984,
+          "name": "The Wildlife Suffers Too"
+        }
+      ],
+      "npc": null,
+      "mobs": ["Diseased Wolf"]
+    },
+    {
+      "id": "westernplaguelands_031",
+      "type": "info",
+      "description": "Use the Beacon Torch next to the Tower entrance. You can do this without agroing the Elite Skeletal Warlord inside",
+      "classes": null,
+      "races": null,
+      "coords": [44.217, 63.319],
+      "zone": "western_plaguelands",
+      "tips": [],
+      "quests": [
+        {
+          "id": 5097,
+          "name": "All Along the Watchtowers"
+        }
+      ],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "westernplaguelands_032",
+      "type": "info",
+      "description": "Use the Beacon Torch next to the Tower entrance. You can do this without agroing the Elite Skeletal Warlord inside",
+      "classes": null,
+      "races": null,
+      "coords": [42.326, 66.105],
+      "zone": "western_plaguelands",
+      "tips": [],
+      "quests": [
+        {
+          "id": 5097,
+          "name": "All Along the Watchtowers"
+        }
+      ],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "westernplaguelands_033",
+      "type": "info",
+      "description": "Use the Beacon Torch next to the Tower entrance. You can do this without agroing the Elite Skeletal Warlord inside",
+      "classes": null,
+      "races": null,
+      "coords": [40.116, 71.561],
+      "zone": "western_plaguelands",
+      "tips": [],
+      "quests": [
+        {
+          "id": 5097,
+          "name": "All Along the Watchtowers"
+        }
+      ],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "westernplaguelands_034",
+      "type": "travel",
+      "description": "Travel to Chillwind Camp",
+      "classes": null,
+      "races": null,
+      "coords": null,
+      "zone": "",
+      "tips": [],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "westernplaguelands_035",
+      "type": "quest_accept",
+      "description": "Talk to Commander Ashlam Valorfist, turn in All Along the Watchtowers, and accept Scholomance",
+      "classes": null,
+      "races": null,
+      "coords": [42.702, 84.031],
+      "zone": "western_plaguelands",
+      "tips": [],
+      "quests": [
+        {
+          "id": 5097,
+          "name": "All Along the Watchtowers"
+        },
+        {
+          "id": 5533,
+          "name": "Scholomance"
+        }
+      ],
+      "npc": "Commander Ashlam Valorfist",
+      "mobs": []
+    },
+    {
+      "id": "westernplaguelands_036",
+      "type": "quest_turnin",
+      "description": "Talk to Alchemist Arbington and turn in Scholomance",
+      "classes": null,
+      "races": null,
+      "coords": [42.665, 83.774],
+      "zone": "western_plaguelands",
+      "tips": [],
+      "quests": [
+        {
+          "id": 5533,
+          "name": "Scholomance"
+        }
+      ],
+      "npc": "Alchemist Arbington",
+      "mobs": []
+    },
+    {
+      "id": "westernplaguelands_037",
+      "type": "quest_accept",
+      "description": "Talk to High Priestess MacDonnell, turn in Return to Chillwind Camp, and accept Target: Writhing Haunt",
+      "classes": null,
+      "races": null,
+      "coords": [42.972, 84.501],
+      "zone": "western_plaguelands",
+      "tips": [],
+      "quests": [
+        {
+          "id": 5220,
+          "name": "Return to Chillwind Camp"
+        },
+        {
+          "id": 5222,
+          "name": "Target: Writhing Haunt"
+        }
+      ],
+      "npc": "High Priestess MacDonnell",
+      "mobs": []
+    },
+    {
+      "id": "westernplaguelands_038",
+      "type": "info",
+      "description": "Delete the Beacon Torch",
+      "classes": null,
+      "races": null,
+      "coords": null,
+      "zone": "",
+      "tips": [],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "westernplaguelands_039",
+      "type": "kill",
+      "description": "Kill Cauldron Lord Razarch. Loot him for the Writhing Haunt Cauldron Key",
+      "classes": null,
+      "races": null,
+      "coords": [53.021, 66.052],
+      "zone": "western_plaguelands",
+      "tips": [
+        {
+          "type": "info",
+          "class": null,
+          "text": "Cauldron Lord Razarch may spawn as you approach the Cauldron"
+        },
+        {
+          "type": "info",
+          "class": null,
+          "text": "Freezing Ghouls cast Flash Freeze. This ability stuns for 5 seconds. Avoid agroing multiple at the same time at all costs"
+        }
+      ],
+      "quests": [
+        {
+          "id": 5222,
+          "name": "Target: Writhing Haunt"
+        }
+      ],
+      "npc": null,
+      "mobs": ["Cauldron Lord Razarch"]
+    },
+    {
+      "id": "westernplaguelands_040",
+      "type": "quest_accept",
+      "description": "Click on the Scourge Cauldron, turn in Target: Writhing Haunt, and accept Return to Chillwind Camp",
+      "classes": null,
+      "races": null,
+      "coords": [53.02, 65.718],
+      "zone": "western_plaguelands",
+      "tips": [],
+      "quests": [
+        {
+          "id": 5222,
+          "name": "Target: Writhing Haunt"
+        },
+        {
+          "id": 5223,
+          "name": "Return to Chillwind Camp"
+        }
+      ],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "westernplaguelands_041",
+      "type": "quest_accept",
+      "description": "Talk to Mulgris Deepriver, turn in The Wildlife Suffers Too, and accept The Wildlife Suffers Too",
+      "classes": null,
+      "races": null,
+      "coords": [53.733, 64.662],
+      "zone": "western_plaguelands",
+      "tips": [
+        {
+          "type": "info",
+          "class": null,
+          "text": "Freezing Ghouls cast Flash Freeze. This ability stuns for 5 seconds. Avoid agroing multiple at the same time at all costs"
+        }
+      ],
+      "quests": [
+        {
+          "id": 4984,
+          "name": "The Wildlife Suffers Too"
+        },
+        {
+          "id": 4985,
+          "name": "The Wildlife Suffers Too"
+        }
+      ],
+      "npc": "Mulgris Deepriver",
+      "mobs": []
+    },
+    {
+      "id": "westernplaguelands_042",
+      "type": "kill",
+      "description": "Kill any Diseased Grizzlies you see en-route to Eastern Plaguelands",
+      "classes": null,
+      "races": null,
+      "coords": null,
+      "zone": "",
+      "tips": [
+        {
+          "type": "warning",
+          "class": null,
+          "text": "It is important you kill any you see along the way, but you don't have to complete it now"
+        }
+      ],
+      "quests": [
+        {
+          "id": 4985,
+          "name": "The Wildlife Suffers Too"
+        }
+      ],
+      "npc": null,
+      "mobs": ["Diseased Grizzly"]
+    },
+    {
+      "id": "westernplaguelands_043",
+      "type": "travel",
+      "description": "Travel to Eastern Plaguelands",
+      "classes": null,
+      "races": null,
+      "coords": [9.57, 66.2],
+      "zone": "eastern_plaguelands",
+      "tips": [],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "westernplaguelands_044",
+      "type": "quest_accept",
+      "description": "Talk to Tirion Fordring and accept Demon Dogs, Blood Tinged Skies, and Carrion Grubbage",
+      "classes": null,
+      "races": null,
+      "coords": [7.53, 43.635],
+      "zone": "eastern_plaguelands",
+      "tips": [],
+      "quests": [
+        {
+          "id": 5542,
+          "name": "Demon Dogs"
+        },
+        {
+          "id": 5543,
+          "name": "Blood Tinged Skies"
+        },
+        {
+          "id": 5544,
+          "name": "Carrion Grubbage"
+        }
+      ],
+      "npc": "Tirion Fordring",
+      "mobs": []
+    },
+    {
+      "id": "westernplaguelands_045",
+      "type": "kill",
+      "description": "Kill Plaguebats, Plaguehound Runts, and Carrion Grubs. Loot them for their Worm Meat",
+      "classes": null,
+      "races": null,
+      "coords": null,
+      "zone": "",
+      "tips": [],
+      "quests": [
+        {
+          "id": 5543,
+          "name": "Blood Tinged Skies"
+        },
+        {
+          "id": 5542,
+          "name": "Demon Dogs"
+        },
+        {
+          "id": 5544,
+          "name": "Carrion Grubbage"
+        }
+      ],
+      "npc": null,
+      "mobs": ["Plaguebat", "Plaguehound Runt", "Carrion Grub"]
+    },
+    {
+      "id": "westernplaguelands_046",
+      "type": "loot",
+      "description": "Click the Mangled Human Remains on the ground. Loot it for the SI:7 Insignia (Fredo)",
+      "classes": null,
+      "races": null,
+      "coords": [27.266, 74.956],
+      "zone": "eastern_plaguelands",
+      "tips": [],
+      "quests": [
+        {
+          "id": 6185,
+          "name": "The Eastern Plagues"
+        }
+      ],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "westernplaguelands_047",
+      "type": "loot",
+      "description": "Click the Mangled Human Remains on the ground. Loot it for the SI:7 Insignia (Turyen)",
+      "classes": null,
+      "races": null,
+      "coords": [28.805, 74.88],
+      "zone": "eastern_plaguelands",
+      "tips": [],
+      "quests": [
+        {
+          "id": 6185,
+          "name": "The Eastern Plagues"
+        }
+      ],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "westernplaguelands_048",
+      "type": "loot",
+      "description": "Click the Mangled Human Remains on the ground. Loot it for the SI:7 Insignia (Rutger)",
+      "classes": null,
+      "races": null,
+      "coords": [28.806, 79.853],
+      "zone": "eastern_plaguelands",
+      "tips": [],
+      "quests": [
+        {
+          "id": 6185,
+          "name": "The Eastern Plagues"
+        }
+      ],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "westernplaguelands_049",
+      "type": "quest_accept",
+      "description": "Talk to Pamela Redpath, turn in Sister Pamela, and accept Pamela's Doll",
+      "classes": null,
+      "races": null,
+      "coords": [36.489, 90.718],
+      "zone": "eastern_plaguelands",
+      "tips": [],
+      "quests": [
+        {
+          "id": 5601,
+          "name": "Sister Pamela"
+        },
+        {
+          "id": 5149,
+          "name": "Pamela's Doll"
+        }
+      ],
+      "npc": "Pamela Redpath",
+      "mobs": []
+    },
+    {
+      "id": "westernplaguelands_050",
+      "type": "loot",
+      "description": "Loot Pamela's Doll's Head, Pamela's Doll's Left Side and Pamela's Doll's Right Side throughout the buildings",
+      "classes": null,
+      "races": null,
+      "coords": [39.622, 90.079],
+      "zone": "eastern_plaguelands",
+      "tips": [
+        {
+          "type": "warning",
+          "class": null,
+          "text": "They all spawn randomly in any of the 3 buildings in Darrowshire"
+        }
+      ],
+      "quests": [
+        {
+          "id": 5149,
+          "name": "Pamela's Doll"
+        }
+      ],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "westernplaguelands_051",
+      "type": "info",
+      "description": "Use Pamela's Doll's Head, Pamela's Doll's Left Side or Pamela's Doll's Right Side to combine them into Pamela's Doll",
+      "classes": null,
+      "races": null,
+      "coords": null,
+      "zone": "",
+      "tips": [],
+      "quests": [
+        {
+          "id": 5149,
+          "name": "Pamela's Doll"
+        }
+      ],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "westernplaguelands_052",
+      "type": "quest_accept",
+      "description": "Talk to Pamela Redpath, turn in Pamela's Doll, and accept Auntie Marlene and Uncle Carlin",
+      "classes": null,
+      "races": null,
+      "coords": [36.489, 90.718],
+      "zone": "eastern_plaguelands",
+      "tips": [],
+      "quests": [
+        {
+          "id": 5149,
+          "name": "Pamela's Doll"
+        },
+        {
+          "id": 5152,
+          "name": "Auntie Marlene"
+        },
+        {
+          "id": 5241,
+          "name": "Uncle Carlin"
+        }
+      ],
+      "npc": "Pamela Redpath",
+      "mobs": []
+    },
+    {
+      "id": "westernplaguelands_053",
+      "type": "kill",
+      "description": "Kill Plaguebats, Plaguehound Runts and Plaguehounds, and Carrion Grubs. Loot them for their Worm Meat",
+      "classes": null,
+      "races": null,
+      "coords": [31.6, 71.6],
+      "zone": "eastern_plaguelands",
+      "tips": [],
+      "quests": [
+        {
+          "id": 5543,
+          "name": "Blood Tinged Skies"
+        },
+        {
+          "id": 5542,
+          "name": "Demon Dogs"
+        },
+        {
+          "id": 5544,
+          "name": "Carrion Grubbage"
+        }
+      ],
+      "npc": null,
+      "mobs": ["Plaguebat", "Plaguehound Runt", "Plaguehound", "Carrion Grub"]
+    },
+    {
+      "id": "westernplaguelands_054",
+      "type": "quest_turnin",
+      "description": "Talk to Duke Nicholas Zverenhoff and turn in Duke Nicholas Zverenhoff",
+      "classes": null,
+      "races": null,
+      "coords": [81.437, 59.82],
+      "zone": "eastern_plaguelands",
+      "tips": [],
+      "quests": [
+        {
+          "id": 6030,
+          "name": "Duke Nicholas Zverenhoff"
+        }
+      ],
+      "npc": "Duke Nicholas Zverenhoff",
+      "mobs": []
+    },
+    {
+      "id": "westernplaguelands_055",
+      "type": "quest_accept",
+      "description": "Talk to Carlin Redpath, turn in Uncle Carlin, and accept Defenders of Darrowshire",
+      "classes": null,
+      "races": null,
+      "coords": [81.518, 59.766],
+      "zone": "eastern_plaguelands",
+      "tips": [],
+      "quests": [
+        {
+          "id": 5241,
+          "name": "Uncle Carlin"
+        },
+        {
+          "id": 5211,
+          "name": "Defenders of Darrowshire"
+        }
+      ],
+      "npc": "Carlin Redpath",
+      "mobs": []
+    },
+    {
+      "id": "westernplaguelands_056",
+      "type": "quest_turnin",
+      "description": "Talk to Smokey LaRue, accept That's Asking A Lot, and turn in That's Asking A Lot",
+      "classes": null,
+      "races": null,
+      "coords": [80.605, 57.979],
+      "zone": "eastern_plaguelands",
+      "tips": [],
+      "quests": [
+        {
+          "id": 6026,
+          "name": "That's Asking A Lot"
+        }
+      ],
+      "npc": "Smokey LaRue",
+      "mobs": []
+    },
+    {
+      "id": "westernplaguelands_057",
+      "type": "fly",
+      "description": "Talk to Khaelyn Steelwing and get the Light's Hope Chapel flight path",
+      "classes": null,
+      "races": null,
+      "coords": [81.637, 59.28],
+      "zone": "eastern_plaguelands",
+      "tips": [],
+      "quests": [],
+      "npc": "Khaelyn Steelwing",
+      "mobs": []
+    },
+    {
+      "id": "westernplaguelands_058",
+      "type": "quest_accept",
+      "description": "Talk to Caretaker Alen and accept The Restless Souls and Zaeldarr the Outcast",
+      "classes": null,
+      "races": null,
+      "coords": [79.405, 63.983],
+      "zone": "eastern_plaguelands",
+      "tips": [],
+      "quests": [
+        {
+          "id": 5281,
+          "name": "The Restless Souls"
+        },
+        {
+          "id": 6021,
+          "name": "Zaeldarr the Outcast"
+        }
+      ],
+      "npc": "Caretaker Alen",
+      "mobs": []
+    },
+    {
+      "id": "westernplaguelands_059",
+      "type": "kill",
+      "description": "Kill Diseased Flayers, Gibbering Ghouls and Cannibal Ghouls. Talk to the Darrowshire Spirits that spawn from their corpses",
+      "classes": null,
+      "races": null,
+      "coords": null,
+      "zone": "",
+      "tips": [],
+      "quests": [
+        {
+          "id": 5211,
+          "name": "Defenders of Darrowshire"
+        }
+      ],
+      "npc": null,
+      "mobs": ["Diseased Flayer", "Gibbering Ghoul", "Cannibal Ghoul"]
+    },
+    {
+      "id": "westernplaguelands_060",
+      "type": "kill",
+      "description": "Kill Frenzied Plaguehounds",
+      "classes": null,
+      "races": null,
+      "coords": [50.9, 38.3],
+      "zone": "eastern_plaguelands",
+      "tips": [],
+      "quests": [
+        {
+          "id": 5542,
+          "name": "Demon Dogs"
+        }
+      ],
+      "npc": null,
+      "mobs": ["Frenzied Plaguehound"]
+    },
+    {
+      "id": "westernplaguelands_061",
+      "type": "loot",
+      "description": "Open the Large Termite Mounds throughout Plaguewood. Loot them for the Plagueland Termites",
+      "classes": null,
+      "races": null,
+      "coords": [31.4, 29.6],
+      "zone": "eastern_plaguelands",
+      "tips": [],
+      "quests": [
+        {
+          "id": 5903,
+          "name": "A Plague Upon Thee"
+        }
+      ],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "westernplaguelands_062",
+      "type": "quest_turnin",
+      "description": "Talk to Egan and turn in The Restless Souls",
+      "classes": null,
+      "races": null,
+      "coords": [14.448, 33.74],
+      "zone": "eastern_plaguelands",
+      "tips": [],
+      "quests": [
+        {
+          "id": 5281,
+          "name": "The Restless Souls"
+        }
+      ],
+      "npc": "Egan",
+      "mobs": []
+    },
+    {
+      "id": "westernplaguelands_063",
+      "type": "kill",
+      "description": "Kill Diseased Flayers, Gibbering Ghouls and Cannibal Ghouls. Talk to the Darrowshire Spirits that spawn from their corpses",
+      "classes": null,
+      "races": null,
+      "coords": [66.0, 39.2],
+      "zone": "eastern_plaguelands",
+      "tips": [],
+      "quests": [
+        {
+          "id": 5211,
+          "name": "Defenders of Darrowshire"
+        }
+      ],
+      "npc": null,
+      "mobs": ["Diseased Flayer", "Gibbering Ghoul", "Cannibal Ghoul"]
+    },
+    {
+      "id": "westernplaguelands_064",
+      "type": "quest_turnin",
+      "description": "Talk to Carlin Redpath and turn in Defenders of Darrowshire",
+      "classes": null,
+      "races": null,
+      "coords": [81.518, 59.766],
+      "zone": "eastern_plaguelands",
+      "tips": [],
+      "quests": [
+        {
+          "id": 5211,
+          "name": "Defenders of Darrowshire"
+        }
+      ],
+      "npc": "Carlin Redpath",
+      "mobs": []
+    },
+    {
+      "id": "westernplaguelands_065",
+      "type": "quest_accept",
+      "description": "Talk to Tirion Fordring, turn in Demon Dogs, Blood Tinged Skies, and Carrion Grubbage, and accept Redemption",
+      "classes": null,
+      "races": null,
+      "coords": [7.53, 43.635],
+      "zone": "eastern_plaguelands",
+      "tips": [],
+      "quests": [
+        {
+          "id": 5542,
+          "name": "Demon Dogs"
+        },
+        {
+          "id": 5543,
+          "name": "Blood Tinged Skies"
+        },
+        {
+          "id": 5544,
+          "name": "Carrion Grubbage"
+        },
+        {
+          "id": 5742,
+          "name": "Redemption"
+        }
+      ],
+      "npc": "Tirion Fordring",
+      "mobs": []
+    },
+    {
+      "id": "westernplaguelands_066",
+      "type": "info",
+      "description": "Talk to Tirion Fordring",
+      "classes": null,
+      "races": null,
+      "coords": [7.53, 43.635],
+      "zone": "eastern_plaguelands",
+      "tips": [],
+      "quests": [
+        {
+          "id": 5742,
+          "name": "Redemption"
+        }
+      ],
+      "npc": "Tirion Fordring",
+      "mobs": []
+    },
+    {
+      "id": "westernplaguelands_067",
+      "type": "quest_turnin",
+      "description": "Talk to Tirion Fordring and turn in Redemption",
+      "classes": null,
+      "races": null,
+      "coords": [7.53, 43.635],
+      "zone": "eastern_plaguelands",
+      "tips": [],
+      "quests": [
+        {
+          "id": 5742,
+          "name": "Redemption"
+        }
+      ],
+      "npc": "Tirion Fordring",
+      "mobs": []
+    },
+    {
+      "id": "westernplaguelands_068",
+      "type": "quest_accept",
+      "description": "Talk to Tirion Fordring and accept Of Forgotten Memories",
+      "classes": null,
+      "races": null,
+      "coords": [7.53, 43.635],
+      "zone": "eastern_plaguelands",
+      "tips": [],
+      "quests": [
+        {
+          "id": 5781,
+          "name": "Of Forgotten Memories"
+        }
+      ],
+      "npc": "Tirion Fordring",
+      "mobs": []
+    },
+    {
+      "id": "westernplaguelands_069",
+      "type": "travel",
+      "description": "Enter The Undercroft crypt",
+      "classes": null,
+      "races": null,
+      "coords": [27.85, 86.245],
+      "zone": "eastern_plaguelands",
+      "tips": [],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "westernplaguelands_070",
+      "type": "kill",
+      "description": "Kill Zaeldarr the Outcast. Loot him for his Head",
+      "classes": null,
+      "races": null,
+      "coords": [27.467, 84.853],
+      "zone": "eastern_plaguelands",
+      "tips": [],
+      "quests": [
+        {
+          "id": 6021,
+          "name": "Zaeldarr the Outcast"
+        }
+      ],
+      "npc": null,
+      "mobs": ["Zaeldarr the Outcast"]
+    },
+    {
+      "id": "westernplaguelands_071",
+      "type": "quest_accept",
+      "description": "Click the Torn Scroll on the ground and accept Hameya's Plea",
+      "classes": null,
+      "races": null,
+      "coords": [27.276, 85.213],
+      "zone": "eastern_plaguelands",
+      "tips": [],
+      "quests": [
+        {
+          "id": 6024,
+          "name": "Hameya's Plea"
+        }
+      ],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "westernplaguelands_072",
+      "type": "info",
+      "description": "Click the Loose Dirt Mound to summon Mercutio Filthgorger and 3 additional Crypt Robbers",
+      "classes": null,
+      "races": null,
+      "coords": [28.307, 86.885],
+      "zone": "eastern_plaguelands",
+      "tips": [],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "westernplaguelands_073",
+      "type": "kill",
+      "description": "Kill Mercutio Filthgorger. Loot him for Taelan's Hammer",
+      "classes": null,
+      "races": null,
+      "coords": [28.307, 86.885],
+      "zone": "eastern_plaguelands",
+      "tips": [],
+      "quests": [
+        {
+          "id": 5781,
+          "name": "Of Forgotten Memories"
+        }
+      ],
+      "npc": null,
+      "mobs": ["Mercutio Filthgorger"]
+    },
+    {
+      "id": "westernplaguelands_074",
+      "type": "quest_accept",
+      "description": "Talk to Tirion Fordring, turn in Of Forgotten Memories, and accept Of Lost Honor",
+      "classes": null,
+      "races": null,
+      "coords": [7.53, 43.635],
+      "zone": "eastern_plaguelands",
+      "tips": [],
+      "quests": [
+        {
+          "id": 5781,
+          "name": "Of Forgotten Memories"
+        },
+        {
+          "id": 5845,
+          "name": "Of Lost Honor"
+        }
+      ],
+      "npc": "Tirion Fordring",
+      "mobs": []
+    },
+    {
+      "id": "westernplaguelands_075",
+      "type": "quest_accept",
+      "description": "Talk to Tirion Fordring and accept Of Lost Honor",
+      "classes": null,
+      "races": null,
+      "coords": [7.53, 43.635],
+      "zone": "eastern_plaguelands",
+      "tips": [],
+      "quests": [
+        {
+          "id": 5845,
+          "name": "Of Lost Honor"
+        }
+      ],
+      "npc": "Tirion Fordring",
+      "mobs": []
+    },
+    {
+      "id": "westernplaguelands_076",
+      "type": "info",
+      "description": "Abandon Of Forgotten Memories",
+      "classes": null,
+      "races": null,
+      "coords": null,
+      "zone": "",
+      "tips": [],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "westernplaguelands_077",
+      "type": "info",
+      "description": "Hearth to Southshore",
+      "classes": null,
+      "races": null,
+      "coords": null,
+      "zone": "",
+      "tips": [],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "westernplaguelands_078",
+      "type": "fly",
+      "description": "Talk to Darla Harris and fly to Western Plaguelands",
+      "classes": null,
+      "races": null,
+      "coords": [49.338, 52.272],
+      "zone": "hillsbrad_foothills",
+      "tips": [],
+      "quests": [],
+      "npc": "Darla Harris",
+      "mobs": []
+    },
+    {
+      "id": "westernplaguelands_079",
+      "type": "quest_accept",
+      "description": "Talk to High Priestess MacDonnell, turn in Return to Chillwind Camp, and accept Target: Gahrron's Withering",
+      "classes": null,
+      "races": null,
+      "coords": [42.972, 84.501],
+      "zone": "western_plaguelands",
+      "tips": [],
+      "quests": [
+        {
+          "id": 5223,
+          "name": "Return to Chillwind Camp"
+        },
+        {
+          "id": 5225,
+          "name": "Target: Gahrron's Withering"
+        }
+      ],
+      "npc": "High Priestess MacDonnell",
+      "mobs": []
+    },
+    {
+      "id": "westernplaguelands_080",
+      "type": "quest_accept",
+      "description": "Talk to Nathaniel Dumah, turn in A Plague Upon Thee, and accept A Plague Upon Thee",
+      "classes": null,
+      "races": null,
+      "coords": [43.418, 84.834],
+      "zone": "western_plaguelands",
+      "tips": [],
+      "quests": [
+        {
+          "id": 5903,
+          "name": "A Plague Upon Thee"
+        },
+        {
+          "id": 5904,
+          "name": "A Plague Upon Thee"
+        }
+      ],
+      "npc": "Nathaniel Dumah",
+      "mobs": []
+    },
+    {
+      "id": "westernplaguelands_081",
+      "type": "quest_accept",
+      "description": "Talk to Flint Shadowmore, turn in The Eastern Plagues, and accept The Blightcaller Cometh",
+      "classes": null,
+      "races": null,
+      "coords": [43.607, 84.506],
+      "zone": "western_plaguelands",
+      "tips": [],
+      "quests": [
+        {
+          "id": 6185,
+          "name": "The Eastern Plagues"
+        },
+        {
+          "id": 6186,
+          "name": "The Blightcaller Cometh"
+        }
+      ],
+      "npc": "Flint Shadowmore",
+      "mobs": []
+    },
+    {
+      "id": "westernplaguelands_082",
+      "type": "quest_accept",
+      "description": "Talk to Alchemist Arbington and accept Skeletal Fragments",
+      "classes": null,
+      "races": null,
+      "coords": [42.665, 83.774],
+      "zone": "western_plaguelands",
+      "tips": [],
+      "quests": [
+        {
+          "id": 5537,
+          "name": "Skeletal Fragments"
+        }
+      ],
+      "npc": "Alchemist Arbington",
+      "mobs": []
+    },
+    {
+      "id": "westernplaguelands_083",
+      "type": "info",
+      "description": "Delete any left over Plagueland Termites",
+      "classes": null,
+      "races": null,
+      "coords": null,
+      "zone": "",
+      "tips": [],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "westernplaguelands_084",
+      "type": "quest_accept",
+      "description": "Talk to Marlene Redpath, turn in Auntie Marlene, and accept A Strange Historian",
+      "classes": null,
+      "races": null,
+      "coords": [49.2, 78.6],
+      "zone": "western_plaguelands",
+      "tips": [
+        {
+          "type": "info",
+          "class": null,
+          "text": "Marlene Redpath may also be upstairs"
+        }
+      ],
+      "quests": [
+        {
+          "id": 5152,
+          "name": "Auntie Marlene"
+        },
+        {
+          "id": 5153,
+          "name": "A Strange Historian"
+        }
+      ],
+      "npc": "Marlene Redpath",
+      "mobs": []
+    },
+    {
+      "id": "westernplaguelands_085",
+      "type": "loot",
+      "description": "Click Joseph Redpath's Monument. Loot it for Joseph's Wedding Ring",
+      "classes": null,
+      "races": null,
+      "coords": [49.696, 76.754],
+      "zone": "western_plaguelands",
+      "tips": [],
+      "quests": [
+        {
+          "id": 5153,
+          "name": "A Strange Historian"
+        }
+      ],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "westernplaguelands_086",
+      "type": "kill",
+      "description": "Kill Skeletal Executioners and Skeletal Acolytes. Loot them for their Skeletal Fragments",
+      "classes": null,
+      "races": null,
+      "coords": null,
+      "zone": "",
+      "tips": [],
+      "quests": [
+        {
+          "id": 5537,
+          "name": "Skeletal Fragments"
+        }
+      ],
+      "npc": null,
+      "mobs": ["Skeletal Executioner", "Skeletal Acolyte"]
+    },
+    {
+      "id": "westernplaguelands_087",
+      "type": "quest_accept",
+      "description": "Talk to Chromie upstairs, turn in A Strange Historian, and accept The Annals of Darrowshire",
+      "classes": null,
+      "races": null,
+      "coords": [39.456, 66.76],
+      "zone": "western_plaguelands",
+      "tips": [],
+      "quests": [
+        {
+          "id": 5153,
+          "name": "A Strange Historian"
+        },
+        {
+          "id": 5154,
+          "name": "The Annals of Darrowshire"
+        }
+      ],
+      "npc": "Chromie",
+      "mobs": []
+    },
+    {
+      "id": "westernplaguelands_088",
+      "type": "quest_accept",
+      "description": "Talk to Chromie upstairs, turn in A Strange Historian, and accept The Annals of Darrowshire and A Matter of Time",
+      "classes": null,
+      "races": null,
+      "coords": [39.456, 66.76],
+      "zone": "western_plaguelands",
+      "tips": [],
+      "quests": [
+        {
+          "id": 5153,
+          "name": "A Strange Historian"
+        },
+        {
+          "id": 5154,
+          "name": "The Annals of Darrowshire"
+        },
+        {
+          "id": 4971,
+          "name": "A Matter of Time"
+        }
+      ],
+      "npc": "Chromie",
+      "mobs": []
+    },
+    {
+      "id": "westernplaguelands_089",
+      "type": "travel",
+      "description": "Enter the Ruins of Andorhal Town Hall",
+      "classes": null,
+      "races": null,
+      "coords": [43.822, 69.25],
+      "zone": "western_plaguelands",
+      "tips": [
+        {
+          "type": "link",
+          "class": null,
+          "text": "Click here for video reference on how to enter the Town Hall safely",
+          "url": "https://youtu.be/GUb1Ny4NwQw"
+        }
+      ],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "westernplaguelands_090",
+      "type": "loot",
+      "description": "Enter the Ruins of Andorhal Town Hall. Open the Musty Tomes. Loot them for the Annals of Darrowshire",
+      "classes": null,
+      "races": null,
+      "coords": [43.5, 69.46],
+      "zone": "western_plaguelands",
+      "tips": [
+        {
+          "type": "warning",
+          "class": null,
+          "text": "The correct Musty Tome will have its pages be a completely dark-shade, or have a brown stain. If it's only half white and half black, that is a trap"
+        },
+        {
+          "type": "warning",
+          "class": null,
+          "text": "There can be times where all Musty Tomes are traps and you must open them to force a correct one to spawn"
+        },
+        {
+          "type": "link",
+          "class": null,
+          "text": "Click here for video reference on how to identify the correct Musty Tome",
+          "url": "https://youtu.be/GUb1Ny4NwQw"
+        }
+      ],
+      "quests": [
+        {
+          "id": 5154,
+          "name": "The Annals of Darrowshire"
+        }
+      ],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "westernplaguelands_091",
+      "type": "kill",
+      "description": "Kill Temporal Parasites",
+      "classes": null,
+      "races": null,
+      "coords": [48.06, 66.18],
+      "zone": "western_plaguelands",
+      "tips": [
+        {
+          "type": "warning",
+          "class": null,
+          "text": "Use the Temporal Displacer at the silos to make them spawn. If the silo isn't pulsing blue then it cannot spawn any Temporal Parasites"
+        },
+        {
+          "type": "warning",
+          "class": null,
+          "text": "Multiple Temporal Parasites can spawn at the same time, and once one dies, another one can instantly spawn"
+        }
+      ],
+      "quests": [
+        {
+          "id": 4971,
+          "name": "A Matter of Time"
+        }
+      ],
+      "npc": null,
+      "mobs": ["Temporal Parasite"]
+    },
+    {
+      "id": "westernplaguelands_092",
+      "type": "quest_accept",
+      "description": "Talk to Chromie upstairs, turn in A Matter of Time, accept Counting Out Time, turn in The Annals of Darrowshire, and accept Brother Carlin",
+      "classes": null,
+      "races": null,
+      "coords": [39.456, 66.76],
+      "zone": "western_plaguelands",
+      "tips": [],
+      "quests": [
+        {
+          "id": 4971,
+          "name": "A Matter of Time"
+        },
+        {
+          "id": 4972,
+          "name": "Counting Out Time"
+        },
+        {
+          "id": 5154,
+          "name": "The Annals of Darrowshire"
+        },
+        {
+          "id": 5210,
+          "name": "Brother Carlin"
+        }
+      ],
+      "npc": "Chromie",
+      "mobs": []
+    },
+    {
+      "id": "westernplaguelands_093",
+      "type": "quest_accept",
+      "description": "Talk to Chromie upstairs, accept Counting Out Time, turn in The Annals of Darrowshire, and accept Brother Carlin",
+      "classes": null,
+      "races": null,
+      "coords": [39.456, 66.76],
+      "zone": "western_plaguelands",
+      "tips": [],
+      "quests": [
+        {
+          "id": 4972,
+          "name": "Counting Out Time"
+        },
+        {
+          "id": 5154,
+          "name": "The Annals of Darrowshire"
+        },
+        {
+          "id": 5210,
+          "name": "Brother Carlin"
+        }
+      ],
+      "npc": "Chromie",
+      "mobs": []
+    },
+    {
+      "id": "westernplaguelands_094",
+      "type": "quest_accept",
+      "description": "Talk to Chromie upstairs, turn in The Annals of Darrowshire, and accept Brother Carlin",
+      "classes": null,
+      "races": null,
+      "coords": [39.456, 66.76],
+      "zone": "western_plaguelands",
+      "tips": [],
+      "quests": [
+        {
+          "id": 5154,
+          "name": "The Annals of Darrowshire"
+        },
+        {
+          "id": 5210,
+          "name": "Brother Carlin"
+        }
+      ],
+      "npc": "Chromie",
+      "mobs": []
+    },
+    {
+      "id": "westernplaguelands_095",
+      "type": "info",
+      "description": "Abandon A Matter of Time",
+      "classes": null,
+      "races": null,
+      "coords": null,
+      "zone": "",
+      "tips": [],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "westernplaguelands_096",
+      "type": "loot",
+      "description": "Open the Small Lockboxes. Loot them for Andorhal Watches",
+      "classes": null,
+      "races": null,
+      "coords": [42.67, 70.31],
+      "zone": "western_plaguelands",
+      "tips": [
+        {
+          "type": "warning",
+          "class": null,
+          "text": "These are found inside of the burnt-down houses"
+        }
+      ],
+      "quests": [
+        {
+          "id": 4972,
+          "name": "Counting Out Time"
+        }
+      ],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "westernplaguelands_097",
+      "type": "quest_turnin",
+      "description": "Talk to Chromie and turn in Counting Out Time",
+      "classes": null,
+      "races": null,
+      "coords": [39.456, 66.76],
+      "zone": "western_plaguelands",
+      "tips": [],
+      "quests": [
+        {
+          "id": 4972,
+          "name": "Counting Out Time"
+        }
+      ],
+      "npc": "Chromie",
+      "mobs": []
+    },
+    {
+      "id": "westernplaguelands_098",
+      "type": "kill",
+      "description": "Kill Skeletal Executioners and Skeletal Acolytes. Loot them for their Skeletal Fragments",
+      "classes": null,
+      "races": null,
+      "coords": [39.8, 67.4],
+      "zone": "western_plaguelands",
+      "tips": [],
+      "quests": [
+        {
+          "id": 5537,
+          "name": "Skeletal Fragments"
+        }
+      ],
+      "npc": null,
+      "mobs": ["Skeletal Executioner", "Skeletal Acolyte"]
+    },
+    {
+      "id": "westernplaguelands_099",
+      "type": "quest_turnin",
+      "description": "Talk to Alchemist Arbington and turn in Skeletal Fragments",
+      "classes": null,
+      "races": null,
+      "coords": [42.665, 83.774],
+      "zone": "western_plaguelands",
+      "tips": [],
+      "quests": [
+        {
+          "id": 5537,
+          "name": "Skeletal Fragments"
+        }
+      ],
+      "npc": "Alchemist Arbington",
+      "mobs": []
+    },
+    {
+      "id": "westernplaguelands_100",
+      "type": "fly",
+      "description": "Talk to Bibilfaz Featherwhistle and fly to Eastern Plaguelands",
+      "classes": null,
+      "races": null,
+      "coords": [42.924, 85.061],
+      "zone": "western_plaguelands",
+      "tips": [],
+      "quests": [],
+      "npc": "Bibilfaz Featherwhistle",
+      "mobs": []
+    },
+    {
+      "id": "westernplaguelands_101",
+      "type": "quest_accept",
+      "description": "Talk to Carlin Redpath, turn in Brother Carlin, and accept Villains of Darrowshire",
+      "classes": null,
+      "races": null,
+      "coords": [81.518, 59.766],
+      "zone": "eastern_plaguelands",
+      "tips": [],
+      "quests": [
+        {
+          "id": 5210,
+          "name": "Brother Carlin"
+        },
+        {
+          "id": 5181,
+          "name": "Villains of Darrowshire"
+        }
+      ],
+      "npc": "Carlin Redpath",
+      "mobs": []
+    },
+    {
+      "id": "westernplaguelands_102",
+      "type": "quest_accept",
+      "description": "Talk to Carlin Redpath and accept Heroes of Darrowshire",
+      "classes": null,
+      "races": null,
+      "coords": [81.518, 59.766],
+      "zone": "eastern_plaguelands",
+      "tips": [],
+      "quests": [
+        {
+          "id": 5168,
+          "name": "Heroes of Darrowshire"
+        }
+      ],
+      "npc": "Carlin Redpath",
+      "mobs": []
+    },
+    {
+      "id": "westernplaguelands_103",
+      "type": "quest_turnin",
+      "description": "Talk to Caretaker Alen and turn in Zaeldarr the Outcast",
+      "classes": null,
+      "races": null,
+      "coords": [79.405, 63.983],
+      "zone": "eastern_plaguelands",
+      "tips": [],
+      "quests": [
+        {
+          "id": 6021,
+          "name": "Zaeldarr the Outcast"
+        }
+      ],
+      "npc": "Caretaker Alen",
+      "mobs": []
+    },
+    {
+      "id": "westernplaguelands_104",
+      "type": "loot",
+      "description": "Loot the Symbol of Lost Honor underwater",
+      "classes": null,
+      "races": null,
+      "coords": [71.3, 33.959],
+      "zone": "eastern_plaguelands",
+      "tips": [],
+      "quests": [
+        {
+          "id": 5845,
+          "name": "Of Lost Honor"
+        }
+      ],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "westernplaguelands_105",
+      "type": "kill",
+      "description": "Kill Infiltrator Hameya. Loot him for Hameya's Key",
+      "classes": null,
+      "races": null,
+      "coords": [70.8, 16.2],
+      "zone": "eastern_plaguelands",
+      "tips": [
+        {
+          "type": "info",
+          "class": null,
+          "text": "Mossflayer Scouts will run away and call for help as soon as you agro them"
+        },
+        {
+          "type": "info",
+          "class": null,
+          "text": "Infiltrator Hameya patrols around the graves of Zul'Mashar"
+        }
+      ],
+      "quests": [
+        {
+          "id": 6024,
+          "name": "Hameya's Plea"
+        }
+      ],
+      "npc": null,
+      "mobs": ["Infiltrator Hameya"]
+    },
+    {
+      "id": "westernplaguelands_106",
+      "type": "loot",
+      "description": "Loot the Skull of Horgus underwater",
+      "classes": null,
+      "races": null,
+      "coords": [51.106, 49.937],
+      "zone": "eastern_plaguelands",
+      "tips": [],
+      "quests": [
+        {
+          "id": 5181,
+          "name": "Villains of Darrowshire"
+        }
+      ],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "westernplaguelands_107",
+      "type": "loot",
+      "description": "Loot the Shattered Sword of Marduk on the ground",
+      "classes": null,
+      "races": null,
+      "coords": [53.913, 65.755],
+      "zone": "eastern_plaguelands",
+      "tips": [],
+      "quests": [
+        {
+          "id": 5181,
+          "name": "Villains of Darrowshire"
+        }
+      ],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "westernplaguelands_108",
+      "type": "quest_turnin",
+      "description": "Click the Mound of Dirt and turn in Hameya's Plea",
+      "classes": null,
+      "races": null,
+      "coords": [28.036, 86.155],
+      "zone": "eastern_plaguelands",
+      "tips": [],
+      "quests": [
+        {
+          "id": 6024,
+          "name": "Hameya's Plea"
+        }
+      ],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "westernplaguelands_109",
+      "type": "info",
+      "description": "Abandon Hameya's Plea",
+      "classes": null,
+      "races": null,
+      "coords": null,
+      "zone": "",
+      "tips": [],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "westernplaguelands_110",
+      "type": "quest_accept",
+      "description": "Talk to Tirion Fordring, turn in Of Lost Honor, and accept Of Love and Family",
+      "classes": null,
+      "races": null,
+      "coords": [7.53, 43.635],
+      "zone": "eastern_plaguelands",
+      "tips": [],
+      "quests": [
+        {
+          "id": 5845,
+          "name": "Of Lost Honor"
+        },
+        {
+          "id": 5846,
+          "name": "Of Love and Family"
+        }
+      ],
+      "npc": "Tirion Fordring",
+      "mobs": []
+    },
+    {
+      "id": "westernplaguelands_111",
+      "type": "kill",
+      "description": "Kill Diseased Grizzlies",
+      "classes": null,
+      "races": null,
+      "coords": null,
+      "zone": "",
+      "tips": [
+        {
+          "type": "info",
+          "class": null,
+          "text": "Diseased Grizzlies share spawns with Plague Lurkers. You may need to kill them to force Diseased Grizzlies to spawn"
+        }
+      ],
+      "quests": [
+        {
+          "id": 4985,
+          "name": "The Wildlife Suffers Too"
+        }
+      ],
+      "npc": null,
+      "mobs": ["Diseased Grizzly"]
+    },
+    {
+      "id": "westernplaguelands_112",
+      "type": "loot",
+      "description": "Loot Redpath's Shield on the ground",
+      "classes": null,
+      "races": null,
+      "coords": [63.789, 57.192],
+      "zone": "western_plaguelands",
+      "tips": [
+        {
+          "type": "warning",
+          "class": null,
+          "text": "The other objective of this quest requires going into Hearthglen. If you are not comfortable going into Hearthglen with a group later, skip this step now and abandon Heroes of Darrowshire"
+        }
+      ],
+      "quests": [
+        {
+          "id": 5168,
+          "name": "Heroes of Darrowshire"
+        }
+      ],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "westernplaguelands_113",
+      "type": "kill",
+      "description": "Kill Cauldron Lord Soulwrath. Loot him for the Gahrron's Withering Cauldron Key",
+      "classes": null,
+      "races": null,
+      "coords": [62.644, 58.945],
+      "zone": "western_plaguelands",
+      "tips": [
+        {
+          "type": "info",
+          "class": null,
+          "text": "Cauldron Lord Soulwrath may spawn as you approach the Cauldron"
+        }
+      ],
+      "quests": [
+        {
+          "id": 5225,
+          "name": "Target: Gahrron's Withering"
+        }
+      ],
+      "npc": null,
+      "mobs": ["Cauldron Lord Soulwrath"]
+    },
+    {
+      "id": "westernplaguelands_114",
+      "type": "quest_accept",
+      "description": "Click on the Scourge Cauldron, turn in Target: Gahrron's Withering, and accept Return to Chillwind Camp",
+      "classes": null,
+      "races": null,
+      "coords": [62.573, 58.573],
+      "zone": "western_plaguelands",
+      "tips": [],
+      "quests": [
+        {
+          "id": 5225,
+          "name": "Target: Gahrron's Withering"
+        },
+        {
+          "id": 5226,
+          "name": "Return to Chillwind Camp"
+        }
+      ],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "westernplaguelands_115",
+      "type": "kill",
+      "description": "Kill Diseased Grizzlies",
+      "classes": null,
+      "races": null,
+      "coords": [60.8, 50.8],
+      "zone": "western_plaguelands",
+      "tips": [
+        {
+          "type": "info",
+          "class": null,
+          "text": "Diseased Grizzlies share spawns with Plague Lurkers. You may need to kill them to force Diseased Grizzlies to spawn"
+        }
+      ],
+      "quests": [
+        {
+          "id": 4985,
+          "name": "The Wildlife Suffers Too"
+        }
+      ],
+      "npc": null,
+      "mobs": ["Diseased Grizzly"]
+    },
+    {
+      "id": "westernplaguelands_116",
+      "type": "quest_accept",
+      "description": "Talk to Mulgris Deepriver, turn in The Wildlife Suffers Too, and accept Glyphed Oaken Branch",
+      "classes": null,
+      "races": null,
+      "coords": [53.733, 64.662],
+      "zone": "western_plaguelands",
+      "tips": [
+        {
+          "type": "info",
+          "class": null,
+          "text": "Freezing Ghouls cast Flash Freeze. This ability stuns for 5 seconds. Avoid agroing multiple at the same time at all costs"
+        }
+      ],
+      "quests": [
+        {
+          "id": 4985,
+          "name": "The Wildlife Suffers Too"
+        },
+        {
+          "id": 4986,
+          "name": "Glyphed Oaken Branch"
+        }
+      ],
+      "npc": "Mulgris Deepriver",
+      "mobs": []
+    },
+    {
+      "id": "westernplaguelands_117",
+      "type": "travel",
+      "description": "Travel to Caer Darrow",
+      "classes": null,
+      "races": null,
+      "coords": [65.7, 75.4],
+      "zone": "western_plaguelands",
+      "tips": [],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "westernplaguelands_118",
+      "type": "quest_turnin",
+      "description": "Talk to Artist Renfray and turn in Of Love and Family",
+      "classes": null,
+      "races": null,
+      "coords": [65.7, 75.4],
+      "zone": "western_plaguelands",
+      "tips": [],
+      "quests": [
+        {
+          "id": 5846,
+          "name": "Of Love and Family"
+        }
+      ],
+      "npc": "Artist Renfray",
+      "mobs": []
+    },
+    {
+      "id": "westernplaguelands_119",
+      "type": "quest_accept",
+      "description": "Click on the Northridge Lumber Mill Crate to place the Termite Barrel and then click on the Termite Barrel after, turn in A Plague Upon Thee, and accept A Plague Upon Thee",
+      "classes": null,
+      "races": null,
+      "coords": [48.348, 31.996],
+      "zone": "western_plaguelands",
+      "tips": [],
+      "quests": [
+        {
+          "id": 5904,
+          "name": "A Plague Upon Thee"
+        },
+        {
+          "id": 6389,
+          "name": "A Plague Upon Thee"
+        }
+      ],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "westernplaguelands_120",
+      "type": "quest_accept",
+      "description": "Talk to Kirsta Deepshadow and accept Unfinished Business",
+      "classes": null,
+      "races": null,
+      "coords": [51.923, 28.062],
+      "zone": "western_plaguelands",
+      "tips": [],
+      "quests": [
+        {
+          "id": 6004,
+          "name": "Unfinished Business"
+        }
+      ],
+      "npc": "Kirsta Deepshadow",
+      "mobs": []
+    },
+    {
+      "id": "westernplaguelands_121",
+      "type": "kill",
+      "description": "Kill Scarlet Medics, Scarlet Hunters, Scarlet Mages and Scarlet Knights",
+      "classes": null,
+      "races": null,
+      "coords": [50.85, 40.68],
+      "zone": "western_plaguelands",
+      "tips": [
+        {
+          "type": "info",
+          "class": null,
+          "text": "Scarlet Medics and Scarlet Hunters share spawns"
+        },
+        {
+          "type": "info",
+          "class": null,
+          "text": "Scarlet Mages and Scarlet Knights share spawns"
+        }
+      ],
+      "quests": [
+        {
+          "id": 6004,
+          "name": "Unfinished Business"
+        }
+      ],
+      "npc": null,
+      "mobs": [
+        "Scarlet Medic",
+        "Scarlet Hunter",
+        "Scarlet Mage",
+        "Scarlet Knight"
+      ]
+    },
+    {
+      "id": "westernplaguelands_122",
+      "type": "quest_accept",
+      "description": "Talk to Kirsta Deepshadow, turn in Unfinished Business, and accept Unfinished Business",
+      "classes": null,
+      "races": null,
+      "coords": [51.923, 28.062],
+      "zone": "western_plaguelands",
+      "tips": [],
+      "quests": [
+        {
+          "id": 6004,
+          "name": "Unfinished Business"
+        },
+        {
+          "id": 6023,
+          "name": "Unfinished Business"
+        }
+      ],
+      "npc": "Kirsta Deepshadow",
+      "mobs": []
+    },
+    {
+      "id": "westernplaguelands_123",
+      "type": "kill",
+      "description": "Kill Huntsman Radley",
+      "classes": null,
+      "races": null,
+      "coords": [57.83, 36.1],
+      "zone": "western_plaguelands",
+      "tips": [],
+      "quests": [
+        {
+          "id": 6023,
+          "name": "Unfinished Business"
+        }
+      ],
+      "npc": null,
+      "mobs": ["Huntsman Radley"]
+    },
+    {
+      "id": "westernplaguelands_124",
+      "type": "kill",
+      "description": "Kill Cavalier Durgen",
+      "classes": null,
+      "races": null,
+      "coords": [54.52, 23.818],
+      "zone": "western_plaguelands",
+      "tips": [
+        {
+          "type": "warning",
+          "class": null,
+          "text": "Cavalier Durgen will patrol up and down the Tower. Wait at the bottom for him to come to you instead of going inside"
+        }
+      ],
+      "quests": [
+        {
+          "id": 6023,
+          "name": "Unfinished Business"
+        }
+      ],
+      "npc": null,
+      "mobs": ["Cavalier Durgen"]
+    },
+    {
+      "id": "westernplaguelands_126",
+      "type": "quest_accept",
+      "description": "Talk to Kirsta Deepshadow, turn in Unfinished Business, and accept Unfinished Business",
+      "classes": null,
+      "races": null,
+      "coords": [51.923, 28.062],
+      "zone": "western_plaguelands",
+      "tips": [],
+      "quests": [
+        {
+          "id": 6023,
+          "name": "Unfinished Business"
+        },
+        {
+          "id": 6025,
+          "name": "Unfinished Business"
+        }
+      ],
+      "npc": "Kirsta Deepshadow",
+      "mobs": []
+    },
+    {
+      "id": "westernplaguelands_127",
+      "type": "travel",
+      "description": "Travel to Hearthglen",
+      "classes": null,
+      "races": null,
+      "coords": [45.7, 18.8],
+      "zone": "western_plaguelands",
+      "tips": [],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "westernplaguelands_128",
+      "type": "info",
+      "description": "Ascend the Hearthglen Tower",
+      "classes": null,
+      "races": null,
+      "coords": [45.7, 18.8],
+      "zone": "western_plaguelands",
+      "tips": [
+        {
+          "type": "warning",
+          "class": null,
+          "text": "You may either run straight to the top and jump down or clear your way up"
+        },
+        {
+          "type": "warning",
+          "class": null,
+          "text": "Avoid High Protector Lorik who is a strong Elite that roams Hearthglen"
+        },
+        {
+          "type": "warning",
+          "class": null,
+          "text": "This quest can be difficult. Skip it if you are not confident going into Hearthglen"
+        },
+        {
+          "type": "link",
+          "class": null,
+          "text": "Click here for video reference",
+          "url": "https://www.twitch.tv/videos/680869322?t=00h43m31s"
+        }
+      ],
+      "quests": [
+        {
+          "id": 6025,
+          "name": "Unfinished Business"
+        }
+      ],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "westernplaguelands_129",
+      "type": "loot",
+      "description": "Loot Davil's Libram on the table",
+      "classes": null,
+      "races": null,
+      "coords": [42.519, 18.99],
+      "zone": "western_plaguelands",
+      "tips": [
+        {
+          "type": "warning",
+          "class": null,
+          "text": "Avoid High Protector Lorik who is a strong Elite that roams Hearthglen"
+        },
+        {
+          "type": "warning",
+          "class": null,
+          "text": "This quest can be difficult. Skip it if you are not confident going into Hearthglen"
+        }
+      ],
+      "quests": [
+        {
+          "id": 5168,
+          "name": "Heroes of Darrowshire"
+        }
+      ],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "westernplaguelands_130",
+      "type": "quest_turnin",
+      "description": "Talk to Kirsta Deepshadow and turn in Unfinished Business",
+      "classes": null,
+      "races": null,
+      "coords": [51.923, 28.062],
+      "zone": "western_plaguelands",
+      "tips": [],
+      "quests": [
+        {
+          "id": 6025,
+          "name": "Unfinished Business"
+        }
+      ],
+      "npc": "Kirsta Deepshadow",
+      "mobs": []
+    },
+    {
+      "id": "westernplaguelands_131",
+      "type": "info",
+      "description": "Abandon Unfinished Business",
+      "classes": null,
+      "races": null,
+      "coords": null,
+      "zone": "",
+      "tips": [],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "westernplaguelands_132",
+      "type": "info",
+      "description": "Hearth to Southshore",
+      "classes": null,
+      "races": null,
+      "coords": null,
+      "zone": "",
+      "tips": [],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "westernplaguelands_133",
+      "type": "fly",
+      "description": "Talk to Darla Harris and fly to Western Plaguelands",
+      "classes": null,
+      "races": null,
+      "coords": [49.338, 52.272],
+      "zone": "hillsbrad_foothills",
+      "tips": [],
+      "quests": [],
+      "npc": "Darla Harris",
+      "mobs": []
+    },
+    {
+      "id": "westernplaguelands_134",
+      "type": "quest_turnin",
+      "description": "Talk to High Priestess MacDonnell and turn in Return to Chillwind Camp",
+      "classes": null,
+      "races": null,
+      "coords": [42.972, 84.501],
+      "zone": "western_plaguelands",
+      "tips": [],
+      "quests": [
+        {
+          "id": 5226,
+          "name": "Return to Chillwind Camp"
+        }
+      ],
+      "npc": "High Priestess MacDonnell",
+      "mobs": []
+    },
+    {
+      "id": "westernplaguelands_135",
+      "type": "quest_accept",
+      "description": "Talk to Commander Ashlam Valorfist, accept Mission Accomplished!, and turn in Mission Accomplished!",
+      "classes": null,
+      "races": null,
+      "coords": [42.702, 84.031],
+      "zone": "western_plaguelands",
+      "tips": [],
+      "quests": [
+        {
+          "id": 5237,
+          "name": "Mission Accomplished!"
+        }
+      ],
+      "npc": "Commander Ashlam Valorfist",
+      "mobs": []
+    },
+    {
+      "id": "westernplaguelands_136",
+      "type": "quest_turnin",
+      "description": "Talk to Nathaniel Dumah and turn in A Plague Upon Thee",
+      "classes": null,
+      "races": null,
+      "coords": [43.418, 84.834],
+      "zone": "western_plaguelands",
+      "tips": [],
+      "quests": [
+        {
+          "id": 6389,
+          "name": "A Plague Upon Thee"
+        }
+      ],
+      "npc": "Nathaniel Dumah",
+      "mobs": []
+    },
+    {
+      "id": "westernplaguelands_137",
+      "type": "quest_accept",
+      "description": "Talk to Commander Ashlam Valorfist and accept Forging the Mightstone",
+      "classes": ["Paladin"],
+      "races": null,
+      "coords": [42.702, 84.031],
+      "zone": "western_plaguelands",
+      "tips": [],
+      "quests": [
+        {
+          "id": 8418,
+          "name": "Forging the Mightstone"
+        }
+      ],
+      "npc": "Commander Ashlam Valorfist",
+      "mobs": []
+    },
+    {
+      "id": "westernplaguelands_138",
+      "type": "fly",
+      "description": "Talk to Bibilfaz Featherwhistle and fly to Eastern Plaguelands",
+      "classes": null,
+      "races": null,
+      "coords": [42.924, 85.061],
+      "zone": "western_plaguelands",
+      "tips": [],
+      "quests": [],
+      "npc": "Bibilfaz Featherwhistle",
+      "mobs": []
+    },
+    {
+      "id": "westernplaguelands_139",
+      "type": "quest_turnin",
+      "description": "Talk to Carlin Redpath and turn in Villains of Darrowshire and Heroes of Darrowshire",
+      "classes": null,
+      "races": null,
+      "coords": [81.518, 59.766],
+      "zone": "eastern_plaguelands",
+      "tips": [],
+      "quests": [
+        {
+          "id": 5181,
+          "name": "Villains of Darrowshire"
+        },
+        {
+          "id": 5168,
+          "name": "Heroes of Darrowshire"
+        }
+      ],
+      "npc": "Carlin Redpath",
+      "mobs": []
+    },
+    {
+      "id": "westernplaguelands_140",
+      "type": "quest_turnin",
+      "description": "Talk to Carlin Redpath and turn in Villains of Darrowshire",
+      "classes": null,
+      "races": null,
+      "coords": [81.518, 59.766],
+      "zone": "eastern_plaguelands",
+      "tips": [],
+      "quests": [
+        {
+          "id": 5181,
+          "name": "Villains of Darrowshire"
+        }
+      ],
+      "npc": "Carlin Redpath",
+      "mobs": []
+    },
+    {
+      "id": "westernplaguelands_141",
+      "type": "info",
+      "description": "If you bought Dark Iron Scraps / Core of Elements / Crypt Fiend Parts / Bone Fragments / Savage Fronds take them out of your mail. If you did not buy any, skip this step",
+      "classes": null,
+      "races": null,
+      "coords": [80.937, 58.515],
+      "zone": "eastern_plaguelands",
+      "tips": [],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "westernplaguelands_142",
+      "type": "info",
+      "description": "If you do not have the Reputation required to accept these quests, grind on nearby Undead until you are Friendly with the Argent Dawn",
+      "classes": null,
+      "races": null,
+      "coords": null,
+      "zone": "",
+      "tips": [],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "westernplaguelands_143",
+      "type": "quest_turnin",
+      "description": "Talk to Rayne, accept Savage Flora, and turn in Savage Flora",
+      "classes": null,
+      "races": null,
+      "coords": [81.2, 59.0],
+      "zone": "eastern_plaguelands",
+      "tips": [],
+      "quests": [
+        {
+          "id": 9136,
+          "name": "Savage Flora"
+        }
+      ],
+      "npc": "Rayne",
+      "mobs": []
+    },
+    {
+      "id": "westernplaguelands_144",
+      "type": "quest_turnin",
+      "description": "Talk to Huntsman Leopold, accept Cryptstalker Armor Doesn't Make Itself..., and turn in Cryptstalker Armor Doesn't Make Itself...",
+      "classes": null,
+      "races": null,
+      "coords": [81.505, 58.556],
+      "zone": "eastern_plaguelands",
+      "tips": [],
+      "quests": [
+        {
+          "id": 9124,
+          "name": "Cryptstalker Armor Doesn't Make Itself..."
+        }
+      ],
+      "npc": "Huntsman Leopold",
+      "mobs": []
+    },
+    {
+      "id": "westernplaguelands_145",
+      "type": "quest_turnin",
+      "description": "Talk to Rohan the Assassin, accept Bonescythe Digs, and turn in Bonescythe Digs",
+      "classes": null,
+      "races": null,
+      "coords": [81.428, 58.507],
+      "zone": "eastern_plaguelands",
+      "tips": [],
+      "quests": [
+        {
+          "id": 9126,
+          "name": "Bonescythe Digs"
+        }
+      ],
+      "npc": "Rohan the Assassin",
+      "mobs": []
+    },
+    {
+      "id": "westernplaguelands_146",
+      "type": "quest_turnin",
+      "description": "Talk to Archmage Angela Dosantos, accept The Elemental Equation, and turn in The Elemental Equation",
+      "classes": null,
+      "races": null,
+      "coords": [81.523, 58.269],
+      "zone": "eastern_plaguelands",
+      "tips": [],
+      "quests": [
+        {
+          "id": 9128,
+          "name": "The Elemental Equation"
+        }
+      ],
+      "npc": "Archmage Angela Dosantos",
+      "mobs": []
+    },
+    {
+      "id": "westernplaguelands_147",
+      "type": "quest_turnin",
+      "description": "Talk to Korfax, accept Binding the Dreadnaught, and turn in Binding the Dreadnaught",
+      "classes": null,
+      "races": null,
+      "coords": [81.798, 58.079],
+      "zone": "eastern_plaguelands",
+      "tips": [],
+      "quests": [
+        {
+          "id": 9131,
+          "name": "Binding the Dreadnaught"
+        }
+      ],
+      "npc": "Korfax, Champion of the Light",
+      "mobs": []
+    },
+    {
+      "id": "westernplaguelands_148",
+      "type": "quest_turnin",
+      "description": "Talk to Smokey LaRue, accept That's Asking A Lot, and turn in That's Asking A Lot",
+      "classes": null,
+      "races": null,
+      "coords": [80.605, 57.979],
+      "zone": "eastern_plaguelands",
+      "tips": [],
+      "quests": [
+        {
+          "id": 6026,
+          "name": "That's Asking A Lot"
+        }
+      ],
+      "npc": "Smokey LaRue",
+      "mobs": []
+    },
+    {
+      "id": "westernplaguelands_149",
+      "type": "info",
+      "description": "Abandon Heroes of Darrowshire",
+      "classes": null,
+      "races": null,
+      "coords": null,
+      "zone": "",
+      "tips": [],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "westernplaguelands_150",
+      "type": "travel",
+      "description": "Teleport to Stormwind City",
+      "classes": ["Mage"],
+      "races": null,
+      "coords": null,
+      "zone": "",
+      "tips": [],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "westernplaguelands_151",
+      "type": "info",
+      "description": "Talk to Jennea and train your class spells",
+      "classes": ["Mage"],
+      "races": null,
+      "coords": [36.87, 81.14],
+      "zone": "stormwind_city",
+      "tips": [],
+      "quests": [],
+      "npc": "Jennea Cannon",
+      "mobs": []
+    },
+    {
+      "id": "westernplaguelands_152",
+      "type": "fly",
+      "description": "Talk to Khaelyn Steelwing and fly to Stormwind",
+      "classes": ["!Mage"],
+      "races": null,
+      "coords": [81.637, 59.28],
+      "zone": "eastern_plaguelands",
+      "tips": [],
+      "quests": [],
+      "npc": "Khaelyn Steelwing",
+      "mobs": []
+    },
+    {
+      "id": "westernplaguelands_153",
+      "type": "info",
+      "description": "You will now fly around and pickup quests for Sunken Temple. Start looking for a group to run Sunken Temple",
+      "classes": null,
+      "races": null,
+      "coords": null,
+      "zone": "",
+      "tips": [
+        {
+          "type": "warning",
+          "class": "Warrior",
+          "text": "You still need to complete 2 quests in Blasted Lands to unlock you class quests soon. 1 of them requires killing 50 mobs"
+        }
+      ],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "westernplaguelands_154",
+      "type": "fly",
+      "description": "Talk to Khaelyn Steelwing and fly to Hinterlands",
+      "classes": null,
+      "races": null,
+      "coords": [81.637, 59.28],
+      "zone": "eastern_plaguelands",
+      "tips": [],
+      "quests": [],
+      "npc": "Khaelyn Steelwing",
+      "mobs": []
+    },
+    {
+      "id": "westernplaguelands_155",
+      "type": "quest_accept",
+      "description": "Talk to the Atal'ai Exile and accept Jammal'an the Prophet",
+      "classes": null,
+      "races": null,
+      "coords": [33.751, 75.21],
+      "zone": "the_hinterlands",
+      "tips": [],
+      "quests": [
+        {
+          "id": 1446,
+          "name": "Jammal'an the Prophet"
+        }
+      ],
+      "npc": "Atal'ai Exile",
+      "mobs": []
+    },
+    {
+      "id": "westernplaguelands_156",
+      "type": "fly",
+      "description": "Talk to Guthrum Thunderfist and fly to Wetlands",
+      "classes": null,
+      "races": null,
+      "coords": [11.071, 46.153],
+      "zone": "the_hinterlands",
+      "tips": [],
+      "quests": [],
+      "npc": "Guthrum Thunderfist",
+      "mobs": []
+    },
+    {
+      "id": "westernplaguelands_157",
+      "type": "travel",
+      "description": "Take the boat to Theramore",
+      "classes": null,
+      "races": null,
+      "coords": [5.075, 63.408],
+      "zone": "wetlands",
+      "tips": [],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "westernplaguelands_158",
+      "type": "fly",
+      "description": "Talk to Baldruc and fly to Tanaris",
+      "classes": null,
+      "races": null,
+      "coords": [67.476, 51.3],
+      "zone": "dustwallow_marsh",
+      "tips": [],
+      "quests": [],
+      "npc": "Baldruc",
+      "mobs": []
+    },
+    {
+      "id": "westernplaguelands_159",
+      "type": "quest_accept",
+      "description": "Talk to Marvon Rivetseeker and accept Into the Depths and Secret of the Circle",
+      "classes": null,
+      "races": null,
+      "coords": [52.707, 45.923],
+      "zone": "tanaris",
+      "tips": [],
+      "quests": [
+        {
+          "id": 3446,
+          "name": "Into the Depths"
+        },
+        {
+          "id": 3447,
+          "name": "Secret of the Circle"
+        }
+      ],
+      "npc": "Marvon Rivetseeker",
+      "mobs": []
+    },
+    {
+      "id": "westernplaguelands_160",
+      "type": "quest_accept",
+      "description": "Talk to Yeh'kinya and accept The God Hakkar",
+      "classes": null,
+      "races": null,
+      "coords": [66.989, 22.354],
+      "zone": "tanaris",
+      "tips": [],
+      "quests": [
+        {
+          "id": 3528,
+          "name": "The God Hakkar"
+        }
+      ],
+      "npc": "Yeh'kinya",
+      "mobs": []
+    },
+    {
+      "id": "westernplaguelands_161",
+      "type": "travel",
+      "description": "Teleport to Stormwind City",
+      "classes": ["Mage"],
+      "races": null,
+      "coords": null,
+      "zone": "",
+      "tips": [],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "westernplaguelands_162",
+      "type": "info",
+      "description": "Talk to Jennea and train your class spells",
+      "classes": ["Mage"],
+      "races": null,
+      "coords": [36.87, 81.14],
+      "zone": "stormwind_city",
+      "tips": [],
+      "quests": [],
+      "npc": "Jennea Cannon",
+      "mobs": []
+    },
+    {
+      "id": "westernplaguelands_163",
+      "type": "fly",
+      "description": "Talk to Bera Stonehammer and fly to Ratchet",
+      "classes": ["!Mage"],
+      "races": null,
+      "coords": [51.006, 29.345],
+      "zone": "tanaris",
+      "tips": [],
+      "quests": [],
+      "npc": "Bera Stonehammer",
+      "mobs": []
+    },
+    {
+      "id": "westernplaguelands_164",
+      "type": "travel",
+      "description": "Take the Boat to Booty Bay",
+      "classes": ["!Mage"],
+      "races": null,
+      "coords": [63.74, 38.66],
+      "zone": "the_barrens",
+      "tips": [],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "westernplaguelands_165",
+      "type": "fly",
+      "description": "Talk to Gyll and fly to Stormwind",
+      "classes": ["!Mage"],
+      "races": null,
+      "coords": [27.53, 77.787],
+      "zone": "stranglethorn_vale",
+      "tips": [],
+      "quests": [],
+      "npc": "Gyll",
+      "mobs": []
+    },
+    {
+      "id": "westernplaguelands_166",
+      "type": "quest_accept",
+      "description": "Talk to Brohann Caskbelly and accept Into The Temple of Atal'Hakkar",
+      "classes": null,
+      "races": null,
+      "coords": [64.328, 20.627],
+      "zone": "stormwind_city",
+      "tips": [],
+      "quests": [
+        {
+          "id": 1475,
+          "name": "Into The Temple of Atal'Hakkar"
+        }
+      ],
+      "npc": "Brohann Caskbelly",
+      "mobs": []
+    },
+    {
+      "id": "westernplaguelands_167",
+      "type": "travel",
+      "description": "Travel toward Royal Factor Bathrilor upstairs",
+      "classes": null,
+      "races": null,
+      "coords": [47.87, 31.31],
+      "zone": "stormwind_city",
+      "tips": [],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "westernplaguelands_168",
+      "type": "quest_accept",
+      "description": "Talk to Royal Factor Bathrilor inside on the 2nd floor, turn in Better Late Than Never, and accept Good Natured Emma",
+      "classes": null,
+      "races": null,
+      "coords": [48.47, 30.56],
+      "zone": "stormwind_city",
+      "tips": [],
+      "quests": [
+        {
+          "id": 5022,
+          "name": "Better Late Than Never"
+        },
+        {
+          "id": 5048,
+          "name": "Good Natured Emma"
+        }
+      ],
+      "npc": "Royal Factor Bathrilor",
+      "mobs": []
+    },
+    {
+      "id": "westernplaguelands_169",
+      "type": "quest_turnin",
+      "description": "Talk to Ol' Emma either inside her home on the 2nd floor, or patrolling the Trade District and turn in Good Natured Emma",
+      "classes": null,
+      "races": null,
+      "coords": [52.37, 42.14],
+      "zone": "stormwind_city",
+      "tips": [
+        {
+          "type": "info",
+          "class": null,
+          "text": "Skip the follow up as you won't return to WPL before hitting 60"
+        }
+      ],
+      "quests": [
+        {
+          "id": 5048,
+          "name": "Good Natured Emma"
+        }
+      ],
+      "npc": "Ol' Emma",
+      "mobs": []
+    },
+    {
+      "id": "westernplaguelands_170",
+      "type": "quest_turnin",
+      "description": "Talk to Highlord Bolvar Fordragon and turn in The Blightcaller Cometh",
+      "classes": null,
+      "races": null,
+      "coords": [78.213, 17.98],
+      "zone": "stormwind_city",
+      "tips": [],
+      "quests": [
+        {
+          "id": 6186,
+          "name": "The Blightcaller Cometh"
+        }
+      ],
+      "npc": "Highlord Bolvar Fordragon",
+      "mobs": []
+    },
+    {
+      "id": "westernplaguelands_171",
+      "type": "travel",
+      "description": "Travel to the Stormwind Cathedral",
+      "classes": ["Priest", "Paladin"],
+      "races": null,
+      "coords": [42.51, 33.51],
+      "zone": "stormwind_city",
+      "tips": [],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "westernplaguelands_172",
+      "type": "info",
+      "description": "Talk to Arthur the Faithful and train your class spells",
+      "classes": ["Paladin"],
+      "races": null,
+      "coords": [38.67, 32.82],
+      "zone": "stormwind_city",
+      "tips": [],
+      "quests": [],
+      "npc": "Arthur the Faithful",
+      "mobs": []
+    },
+    {
+      "id": "westernplaguelands_173",
+      "type": "info",
+      "description": "Talk to Brother Joshua and train your class spells",
+      "classes": ["Priest"],
+      "races": null,
+      "coords": [38.54, 26.86],
+      "zone": "stormwind_city",
+      "tips": [],
+      "quests": [],
+      "npc": "Brother Joshua",
+      "mobs": []
+    },
+    {
+      "id": "westernplaguelands_174",
+      "type": "info",
+      "description": "Talk to Wu or Ilsa and train your class spells",
+      "classes": ["Warrior"],
+      "races": null,
+      "coords": [78.68, 45.79],
+      "zone": "stormwind_city",
+      "tips": [],
+      "quests": [],
+      "npc": "Ilsa Corbin",
+      "mobs": []
+    },
+    {
+      "id": "westernplaguelands_175",
+      "type": "info",
+      "description": "Talk to Osborne and train your class spells",
+      "classes": ["Rogue"],
+      "races": null,
+      "coords": [74.65, 52.83],
+      "zone": "stormwind_city",
+      "tips": [],
+      "quests": [],
+      "npc": "Osborne the Night Man",
+      "mobs": []
+    },
+    {
+      "id": "westernplaguelands_176",
+      "type": "info",
+      "description": "Talk to Einris Brightspear and train your class spells",
+      "classes": ["Hunter"],
+      "races": null,
+      "coords": [61.609, 15.269],
+      "zone": "stormwind_city",
+      "tips": [],
+      "quests": [],
+      "npc": "Einris Brightspear",
+      "mobs": []
+    },
+    {
+      "id": "westernplaguelands_177",
+      "type": "travel",
+      "description": "Go into The Slaughtered Lamb and go downstairs",
+      "classes": ["Warlock"],
+      "races": null,
+      "coords": [27.2, 78.1],
+      "zone": "stormwind_city",
+      "tips": [],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "westernplaguelands_178",
+      "type": "info",
+      "description": "Talk to Ursula Deline and train your class spells",
+      "classes": ["Warlock"],
+      "races": null,
+      "coords": [26.117, 77.225],
+      "zone": "stormwind_city",
+      "tips": [],
+      "quests": [],
+      "npc": "Ursula Deline",
+      "mobs": []
+    },
+    {
+      "id": "westernplaguelands_179",
+      "type": "info",
+      "description": "Talk to Spackle Thornberry. Buy Grimoires for your pets",
+      "classes": ["Warlock"],
+      "races": null,
+      "coords": [25.665, 77.649],
+      "zone": "stormwind_city",
+      "tips": [],
+      "quests": [],
+      "npc": "Spackle Thornberry",
+      "mobs": []
+    },
+    {
+      "id": "westernplaguelands_180",
+      "type": "travel",
+      "description": "You will now run Sunken Temple. Continue to look for a group if you need. You may fly to Blasted Lands and grind mobs there while you form a group",
+      "classes": ["!Warrior"],
+      "races": null,
+      "coords": null,
+      "zone": "",
+      "tips": [],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "westernplaguelands_181",
+      "type": "travel",
+      "description": "Continue to look for a Sunken Temple group if needed while you fly and complete you 2 class quests in Blasted Lands",
+      "classes": ["Warrior"],
+      "races": null,
+      "coords": null,
+      "zone": "",
+      "tips": [],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "westernplaguelands_182",
+      "type": "fly",
+      "description": "Talk to Dungar Longdrink and fly to Blasted Lands",
+      "classes": ["Warrior"],
+      "races": null,
+      "coords": [66.277, 62.137],
+      "zone": "stormwind_city",
+      "tips": [],
+      "quests": [],
+      "npc": "Dungar Longdrink",
+      "mobs": []
+    },
+    {
+      "id": "westernplaguelands_183",
+      "type": "fly",
+      "description": "Talk to Dungar Longdrink and fly to Blasted Lands",
+      "classes": null,
+      "races": null,
+      "coords": [66.277, 62.137],
+      "zone": "stormwind_city",
+      "tips": [],
+      "quests": [],
+      "npc": "Dungar Longdrink",
+      "mobs": []
+    },
+    {
+      "id": "westernplaguelands_184",
+      "type": "quest_accept",
+      "description": "Talk to the Fallen Hero of the Horde and accept Warrior Kinship",
+      "classes": ["Warrior"],
+      "races": null,
+      "coords": [34.287, 66.134],
+      "zone": "swamp_of_sorrows",
+      "tips": [],
+      "quests": [
+        {
+          "id": 8423,
+          "name": "Warrior Kinship"
+        }
+      ],
+      "npc": "Fallen Hero of the Horde",
+      "mobs": []
+    },
+    {
+      "id": "westernplaguelands_185",
+      "type": "kill",
+      "description": "Kill Helboars",
+      "classes": ["Warrior"],
+      "races": null,
+      "coords": [49.0, 36.6],
+      "zone": "blasted_lands",
+      "tips": [],
+      "quests": [
+        {
+          "id": 8423,
+          "name": "Warrior Kinship"
+        }
+      ],
+      "npc": null,
+      "mobs": ["Helboar"]
+    },
+    {
+      "id": "westernplaguelands_186",
+      "type": "quest_accept",
+      "description": "Talk to the Fallen Hero of the Horde, turn in Warrior Kinship, and accept War on the Shadowsworn",
+      "classes": ["Warrior"],
+      "races": null,
+      "coords": [34.287, 66.134],
+      "zone": "swamp_of_sorrows",
+      "tips": [],
+      "quests": [
+        {
+          "id": 8423,
+          "name": "Warrior Kinship"
+        },
+        {
+          "id": 8424,
+          "name": "War on the Shadowsworn"
+        }
+      ],
+      "npc": "Fallen Hero of the Horde",
+      "mobs": []
+    },
+    {
+      "id": "westernplaguelands_187",
+      "type": "kill",
+      "description": "Kill Shadowsworn Adepts, Shadowsworn Cultists and Shadowsworn Thugs",
+      "classes": ["Warrior"],
+      "races": null,
+      "coords": [63.6, 39.2],
+      "zone": "blasted_lands",
+      "tips": [],
+      "quests": [
+        {
+          "id": 8424,
+          "name": "War on the Shadowsworn"
+        }
+      ],
+      "npc": null,
+      "mobs": ["Shadowsworn Adept", "Shadowsworn Cultist", "Shadowsworn Thug"]
+    },
+    {
+      "id": "westernplaguelands_188",
+      "type": "quest_turnin",
+      "description": "Talk to the Fallen Hero of the Horde and turn in War on the Shadowsworn",
+      "classes": ["Warrior"],
+      "races": null,
+      "coords": [34.287, 66.134],
+      "zone": "swamp_of_sorrows",
+      "tips": [],
+      "quests": [
+        {
+          "id": 8424,
+          "name": "War on the Shadowsworn"
+        }
+      ],
+      "npc": "Fallen Hero of the Horde",
+      "mobs": []
+    },
+    {
+      "id": "westernplaguelands_189",
+      "type": "fly",
+      "description": "Talk to Alexandra Constantine and fly to Booty Bay",
+      "classes": ["Warrior"],
+      "races": null,
+      "coords": [65.535, 24.337],
+      "zone": "blasted_lands",
+      "tips": [],
+      "quests": [],
+      "npc": "Alexandra Constantine",
+      "mobs": []
+    },
+    {
+      "id": "westernplaguelands_190",
+      "type": "quest_accept",
+      "description": "Talk to the Fallen Hero of the Horde and accept Voodoo Feathers",
+      "classes": ["Warrior"],
+      "races": null,
+      "coords": [34.287, 66.134],
+      "zone": "swamp_of_sorrows",
+      "tips": [],
+      "quests": [
+        {
+          "id": 8425,
+          "name": "Voodoo Feathers"
+        }
+      ],
+      "npc": "Fallen Hero of the Horde",
+      "mobs": []
+    },
+    {
+      "id": "westernplaguelands_191",
+      "type": "travel",
+      "description": "Travel to Sunken Temple",
+      "classes": null,
+      "races": null,
+      "coords": [56.33, 76.28],
+      "zone": "swamp_of_sorrows",
+      "tips": [],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "westernplaguelands_192",
+      "type": "loot",
+      "description": "Loot the Atal'ai Tablets on the ground",
+      "classes": null,
+      "races": null,
+      "coords": null,
+      "zone": "",
+      "tips": [
+        {
+          "type": "warning",
+          "class": null,
+          "text": "These can be looted en-route to the instance portal, as well as inside Sunken Temple"
+        }
+      ],
+      "quests": [
+        {
+          "id": 1475,
+          "name": "Into The Temple of Atal'Hakkar"
+        }
+      ],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "westernplaguelands_193",
+      "type": "travel",
+      "description": "Zone into Sunken Temple",
+      "classes": null,
+      "races": null,
+      "coords": [56.809, 75.151],
+      "zone": "swamp_of_sorrows",
+      "tips": [],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "westernplaguelands_194",
+      "type": "loot",
+      "description": "Loot the Atal'ai Tablets on the ground",
+      "classes": null,
+      "races": null,
+      "coords": null,
+      "zone": "sunken_temple",
+      "tips": [],
+      "quests": [
+        {
+          "id": 1475,
+          "name": "Into The Temple of Atal'Hakkar"
+        }
+      ],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "westernplaguelands_195",
+      "type": "kill",
+      "description": "Kill Atal'alarion. Loot him for the Putrid Vine",
+      "classes": ["Druid"],
+      "races": null,
+      "coords": null,
+      "zone": "sunken_temple",
+      "tips": [
+        {
+          "type": "info",
+          "class": null,
+          "text": "Atal'alarion is on the lower level of Sunken Temple and is summoned by clicking all Atal'ai Statues on the platforms"
+        }
+      ],
+      "quests": [
+        {
+          "id": 9053,
+          "name": "Glyphed Oaken Branch"
+        }
+      ],
+      "npc": null,
+      "mobs": ["Atal'alarion"]
+    },
+    {
+      "id": "westernplaguelands_196",
+      "type": "quest_turnin",
+      "description": "Click on the Altar of Hakkar and turn in Into the Depths",
+      "classes": null,
+      "races": null,
+      "coords": null,
+      "zone": "sunken_temple",
+      "tips": [
+        {
+          "type": "warning",
+          "class": null,
+          "text": "The Altar of Hakkar is located on the lower level of Sunken Temple"
+        }
+      ],
+      "quests": [
+        {
+          "id": 3446,
+          "name": "Into the Depths"
+        }
+      ],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "westernplaguelands_197",
+      "type": "quest_turnin",
+      "description": "Click on the Idol of Hakkar and turn in Secret of the Circle",
+      "classes": null,
+      "races": null,
+      "coords": null,
+      "zone": "sunken_temple",
+      "tips": [
+        {
+          "type": "warning",
+          "class": null,
+          "text": "Clicking all of the Atal'ai Statues on the platforms will activate the Idol of Hakkar"
+        },
+        {
+          "type": "warning",
+          "class": null,
+          "text": "The Idol of Hakkar is located on the lower level of Sunken Temple"
+        }
+      ],
+      "quests": [
+        {
+          "id": 3447,
+          "name": "Secret of the Circle"
+        }
+      ],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "westernplaguelands_198",
+      "type": "quest_turnin",
+      "description": "Click on the Altar of Hakkar and turn in Into the Depths",
+      "classes": null,
+      "races": null,
+      "coords": null,
+      "zone": "sunken_temple",
+      "tips": [
+        {
+          "type": "warning",
+          "class": null,
+          "text": "The Altar of Hakkar is located on the lower level of Sunken Temple"
+        }
+      ],
+      "quests": [
+        {
+          "id": 3446,
+          "name": "Into the Depths"
+        }
+      ],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "westernplaguelands_199",
+      "type": "kill",
+      "description": "Kill Atal'alarion. Loot him for the Putrid Vine",
+      "classes": ["Druid"],
+      "races": null,
+      "coords": null,
+      "zone": "sunken_temple",
+      "tips": [
+        {
+          "type": "info",
+          "class": null,
+          "text": "Atal'alarion is on the lower level of Sunken Temple and is summoned by clicking all Atal'ai Statues on the platforms"
+        }
+      ],
+      "quests": [
+        {
+          "id": 9053,
+          "name": "Glyphed Oaken Branch"
+        }
+      ],
+      "npc": null,
+      "mobs": ["Atal'alarion"]
+    },
+    {
+      "id": "westernplaguelands_200",
+      "type": "kill",
+      "description": "Kill Gasher and Zul'Lor. Loot them for their Amber Voodoo Feathers. Kill Mijan and Hukku. Loot them for their Blue Voodoo Feathers. Kill Zolo and Loro. Loot them for their Green Voodoo Feathers",
+      "classes": ["Paladin", "Warrior", "Warlock"],
+      "races": null,
+      "coords": null,
+      "zone": "sunken_temple",
+      "tips": [
+        {
+          "type": "warning",
+          "class": null,
+          "text": "This quest is completed on the upper level of Sunken Temple"
+        }
+      ],
+      "quests": [
+        {
+          "id": 8418,
+          "name": "Forging the Mightstone"
+        },
+        {
+          "id": 8425,
+          "name": "Voodoo Feathers"
+        },
+        {
+          "id": 8422,
+          "name": "Voodoo Feathers"
+        }
+      ],
+      "npc": null,
+      "mobs": ["Gasher", "Zul'Lor", "Mijan", "Hukku", "Zolo", "Loro"]
+    },
+    {
+      "id": "westernplaguelands_201",
+      "type": "info",
+      "description": "Use the Egg of Hakkar while next to the Dragonflayer Skeleton, then complete the event. Kill the minions of Hakkar until the Avatar of Hakkar joins. Kill the Avatar of Hakkar. Loot it for the Essence of Hakkar. Use the Essence of Hakkar to fill the Egg of Hakkar",
+      "classes": null,
+      "races": null,
+      "coords": null,
+      "zone": "sunken_temple",
+      "tips": [],
+      "quests": [
+        {
+          "id": 3528,
+          "name": "The God Hakkar"
+        }
+      ],
+      "npc": null,
+      "mobs": ["Avatar of Hakkar"]
+    },
+    {
+      "id": "westernplaguelands_202",
+      "type": "kill",
+      "description": "Kill Jammal'an the Prophet. Loot him for his Head",
+      "classes": null,
+      "races": null,
+      "coords": null,
+      "zone": "sunken_temple",
+      "tips": [
+        {
+          "type": "warning",
+          "class": null,
+          "text": "You must kill the 6 Trolls on the upper platforms to gain access to Jammal'an the Prophet"
+        }
+      ],
+      "quests": [
+        {
+          "id": 1446,
+          "name": "Jammal'an the Prophet"
+        }
+      ],
+      "npc": null,
+      "mobs": ["Jammal'an the Prophet"]
+    },
+    {
+      "id": "westernplaguelands_203",
+      "type": "kill",
+      "description": "Kill Morphaz. Loot it for the Tooth of Morphaz",
+      "classes": ["Hunter"],
+      "races": null,
+      "coords": null,
+      "zone": "sunken_temple",
+      "tips": [],
+      "quests": [
+        {
+          "id": 8232,
+          "name": "The Green Drake"
+        }
+      ],
+      "npc": null,
+      "mobs": ["Morphaz"]
+    },
+    {
+      "id": "westernplaguelands_204",
+      "type": "kill",
+      "description": "Kill Morphaz. Loot it for the Arcane Shard",
+      "classes": ["Mage"],
+      "races": null,
+      "coords": null,
+      "zone": "sunken_temple",
+      "tips": [],
+      "quests": [
+        {
+          "id": 8253,
+          "name": "The Shard of the Arcane"
+        }
+      ],
+      "npc": null,
+      "mobs": ["Morphaz"]
+    },
+    {
+      "id": "westernplaguelands_205",
+      "type": "kill",
+      "description": "Kill Morphaz. Loot it for the Blood of Morphaz",
+      "classes": ["Priest"],
+      "races": null,
+      "coords": null,
+      "zone": "sunken_temple",
+      "tips": [],
+      "quests": [
+        {
+          "id": 8257,
+          "name": "Blood of Morphaz"
+        }
+      ],
+      "npc": null,
+      "mobs": ["Morphaz"]
+    },
+    {
+      "id": "westernplaguelands_206",
+      "type": "kill",
+      "description": "Kill Morphaz. Loot it for the Azure Key",
+      "classes": ["Rogue"],
+      "races": null,
+      "coords": null,
+      "zone": "sunken_temple",
+      "tips": [],
+      "quests": [
+        {
+          "id": 8236,
+          "name": "The Azure Key"
+        }
+      ],
+      "npc": null,
+      "mobs": ["Morphaz"]
+    },
+    {
+      "id": "westernplaguelands_207",
+      "type": "quest_accept",
+      "description": "Kill the Shade of Eranikus. Loot him for the Essence of Eranikus. Use the Essence of Eranikus to start the quest",
+      "classes": null,
+      "races": null,
+      "coords": null,
+      "zone": "sunken_temple",
+      "tips": [
+        {
+          "type": "warning",
+          "class": null,
+          "text": "Ensure you have killed all Dragonkin mobs on the upper level before engaging the Shade of Eranikus otherwise they will all aggro onto you"
+        }
+      ],
+      "quests": [
+        {
+          "id": 3373,
+          "name": "The Essence of Eranikus"
+        }
+      ],
+      "npc": null,
+      "mobs": ["Shade of Eranikus"]
+    },
+    {
+      "id": "westernplaguelands_208",
+      "type": "quest_turnin",
+      "description": "Click the Essence Font and turn in The Essence of Eranikus",
+      "classes": null,
+      "races": null,
+      "coords": null,
+      "zone": "sunken_temple",
+      "tips": [],
+      "quests": [
+        {
+          "id": 3373,
+          "name": "The Essence of Eranikus"
+        }
+      ],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "westernplaguelands_209",
+      "type": "quest_turnin",
+      "description": "Talk to the Fallen Hero of the Horde and turn in Voodoo Feathers",
+      "classes": ["Warrior"],
+      "races": null,
+      "coords": [34.287, 66.134],
+      "zone": "swamp_of_sorrows",
+      "tips": [
+        {
+          "type": "warning",
+          "class": null,
+          "text": "It is strongly advised you choose the Diamond Flask as your reward. Although the other rewards are also very good, you will not ever replace the Diamond Flask"
+        }
+      ],
+      "quests": [
+        {
+          "id": 8425,
+          "name": "Voodoo Feathers"
+        }
+      ],
+      "npc": "Fallen Hero of the Horde",
+      "mobs": []
+    },
+    {
+      "id": "westernplaguelands_210",
+      "type": "travel",
+      "description": "Travel to Stormwind",
+      "classes": null,
+      "races": null,
+      "coords": null,
+      "zone": "",
+      "tips": [],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "westernplaguelands_211",
+      "type": "fly",
+      "description": "Talk to Alexandra Constantine and fly to Stormwind",
+      "classes": null,
+      "races": null,
+      "coords": [65.535, 24.337],
+      "zone": "blasted_lands",
+      "tips": [],
+      "quests": [],
+      "npc": "Alexandra Constantine",
+      "mobs": []
+    },
+    {
+      "id": "westernplaguelands_212",
+      "type": "quest_turnin",
+      "description": "Talk to Brohann Caskbelly and turn in Into The Temple of Atal'Hakkar",
+      "classes": null,
+      "races": null,
+      "coords": [64.328, 20.627],
+      "zone": "stormwind_city",
+      "tips": [],
+      "quests": [
+        {
+          "id": 1475,
+          "name": "Into The Temple of Atal'Hakkar"
+        }
+      ],
+      "npc": "Brohann Caskbelly",
+      "mobs": []
+    },
+    {
+      "id": "westernplaguelands_213",
+      "type": "info",
+      "description": "Hearth to Southshore",
+      "classes": null,
+      "races": null,
+      "coords": null,
+      "zone": "",
+      "tips": [],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "westernplaguelands_214",
+      "type": "travel",
+      "description": "Travel to Ravenholdt Manor",
+      "classes": ["Rogue"],
+      "races": null,
+      "coords": [86.026, 78.879],
+      "zone": "hillsbrad_foothills",
+      "tips": [],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "westernplaguelands_215",
+      "type": "quest_turnin",
+      "description": "Talk to Lord Jorach Ravenholdt upstairs and turn in The Azure Key",
+      "classes": ["Rogue"],
+      "races": null,
+      "coords": [86.026, 78.879],
+      "zone": "hillsbrad_foothills",
+      "tips": [],
+      "quests": [
+        {
+          "id": 8236,
+          "name": "The Azure Key"
+        }
+      ],
+      "npc": "Lord Jorach Ravenholdt",
+      "mobs": []
+    },
+    {
+      "id": "westernplaguelands_216",
+      "type": "travel",
+      "description": "Travel to The Hinterlands",
+      "classes": ["Rogue"],
+      "races": null,
+      "coords": [7.5, 58.87],
+      "zone": "the_hinterlands",
+      "tips": [],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "westernplaguelands_217",
+      "type": "fly",
+      "description": "Talk to Darla Harris and fly to Hinterlands",
+      "classes": null,
+      "races": null,
+      "coords": [49.338, 52.272],
+      "zone": "hillsbrad_foothills",
+      "tips": [],
+      "quests": [],
+      "npc": "Darla Harris",
+      "mobs": []
+    },
+    {
+      "id": "westernplaguelands_218",
+      "type": "quest_turnin",
+      "description": "Talk to the Atal'ai Exile and turn in Jammal'an the Prophet",
+      "classes": null,
+      "races": null,
+      "coords": [33.751, 75.21],
+      "zone": "the_hinterlands",
+      "tips": [],
+      "quests": [
+        {
+          "id": 1446,
+          "name": "Jammal'an the Prophet"
+        }
+      ],
+      "npc": "Atal'ai Exile",
+      "mobs": []
+    },
+    {
+      "id": "westernplaguelands_219",
+      "type": "fly",
+      "description": "Talk to Guthrum Thunderfist and fly to Booty Bay",
+      "classes": ["Warrior", "Priest", "Hunter", "Rogue", "Warlock"],
+      "races": null,
+      "coords": [11.071, 46.153],
+      "zone": "the_hinterlands",
+      "tips": [],
+      "quests": [],
+      "npc": "Guthrum Thunderfist",
+      "mobs": []
+    },
+    {
+      "id": "westernplaguelands_220",
+      "type": "fly",
+      "description": "Talk to Guthrum Thunderfist and fly to Western Plaguelands",
+      "classes": ["Paladin"],
+      "races": null,
+      "coords": [11.071, 46.153],
+      "zone": "the_hinterlands",
+      "tips": [],
+      "quests": [],
+      "npc": "Guthrum Thunderfist",
+      "mobs": []
+    },
+    {
+      "id": "westernplaguelands_221",
+      "type": "quest_turnin",
+      "description": "Talk to Commander Ashlam Valorfist and turn in Forging the Mightstone",
+      "classes": ["Paladin"],
+      "races": null,
+      "coords": [42.702, 84.031],
+      "zone": "western_plaguelands",
+      "tips": [],
+      "quests": [
+        {
+          "id": 8418,
+          "name": "Forging the Mightstone"
+        }
+      ],
+      "npc": "Commander Ashlam Valorfist",
+      "mobs": []
+    },
+    {
+      "id": "westernplaguelands_222",
+      "type": "fly",
+      "description": "Talk to Bibilfaz Featherwhistle and fly to Booty Bay",
+      "classes": ["Paladin"],
+      "races": null,
+      "coords": [42.924, 85.061],
+      "zone": "western_plaguelands",
+      "tips": [],
+      "quests": [],
+      "npc": "Bibilfaz Featherwhistle",
+      "mobs": []
+    },
+    {
+      "id": "westernplaguelands_223",
+      "type": "info",
+      "description": "Teleport to Darnassus",
+      "classes": ["Mage"],
+      "races": null,
+      "coords": null,
+      "zone": "",
+      "tips": [],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "westernplaguelands_224",
+      "type": "quest_turnin",
+      "description": "Talk to Mathrengyl Bearwalker and turn in Glyphed Oaken Branch",
+      "classes": ["Mage"],
+      "races": null,
+      "coords": [35.375, 8.405],
+      "zone": "darnassus",
+      "tips": [],
+      "quests": [
+        {
+          "id": 4986,
+          "name": "Glyphed Oaken Branch"
+        }
+      ],
+      "npc": "Mathrengyl Bearwalker",
+      "mobs": []
+    },
+    {
+      "id": "westernplaguelands_225",
+      "type": "travel",
+      "description": "Take the purple portal to Rut'theran Village",
+      "classes": ["Mage"],
+      "races": null,
+      "coords": [29.466, 41.405],
+      "zone": "darnassus",
+      "tips": [],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "westernplaguelands_226",
+      "type": "quest_turnin",
+      "description": "Talk to Erelas Ambersky and turn in Moontouched Wildkin",
+      "classes": ["Mage"],
+      "races": null,
+      "coords": [55.497, 92.045],
+      "zone": "teldrassil",
+      "tips": [],
+      "quests": [
+        {
+          "id": 978,
+          "name": "Moontouched Wildkin"
+        }
+      ],
+      "npc": "Erelas Ambersky",
+      "mobs": []
+    },
+    {
+      "id": "westernplaguelands_227",
+      "type": "fly",
+      "description": "Talk to Vesprystus and fly to Azshara",
+      "classes": ["Mage"],
+      "races": null,
+      "coords": [58.399, 94.016],
+      "zone": "teldrassil",
+      "tips": [],
+      "quests": [],
+      "npc": "Vesprystus",
+      "mobs": []
+    },
+    {
+      "id": "westernplaguelands_228",
+      "type": "info",
+      "description": "Cast Teleport: Moonglade",
+      "classes": ["Druid"],
+      "races": null,
+      "coords": null,
+      "zone": "",
+      "tips": [],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "westernplaguelands_229",
+      "type": "info",
+      "description": "Talk to Loganaar and train your class spells",
+      "classes": ["Druid"],
+      "races": null,
+      "coords": [52.53, 40.56],
+      "zone": "moonglade",
+      "tips": [],
+      "quests": [],
+      "npc": "Loganaar",
+      "mobs": []
+    },
+    {
+      "id": "westernplaguelands_230",
+      "type": "quest_turnin",
+      "description": "Talk to Rabine Saturna and turn in Rabine Saturna",
+      "classes": ["Druid"],
+      "races": null,
+      "coords": [51.685, 45.096],
+      "zone": "moonglade",
+      "tips": [],
+      "quests": [
+        {
+          "id": 6762,
+          "name": "Rabine Saturna"
+        }
+      ],
+      "npc": "Rabine Saturna",
+      "mobs": []
+    },
+    {
+      "id": "westernplaguelands_231",
+      "type": "fly",
+      "description": "Talk to Sindrayl and fly to Azshara",
+      "classes": ["Druid"],
+      "races": null,
+      "coords": [48.102, 67.345],
+      "zone": "moonglade",
+      "tips": [],
+      "quests": [],
+      "npc": "Sindrayl",
+      "mobs": []
+    },
+    {
+      "id": "westernplaguelands_232",
+      "type": "fly",
+      "description": "Talk to Dungar Longdrink and fly to Booty Bay",
+      "classes": ["!Druid", "!Mage"],
+      "races": null,
+      "coords": [66.277, 62.137],
+      "zone": "stormwind_city",
+      "tips": [],
+      "quests": [],
+      "npc": "Dungar Longdrink",
+      "mobs": []
+    },
+    {
+      "id": "westernplaguelands_233",
+      "type": "travel",
+      "description": "Take the Boat to Ratchet",
+      "classes": ["!Druid", "!Mage"],
+      "races": null,
+      "coords": [25.8, 73.1],
+      "zone": "stranglethorn_vale",
+      "tips": [],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    }
+  ]
+}

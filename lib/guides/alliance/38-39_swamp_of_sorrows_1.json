@@ -1,0 +1,1238 @@
+{
+  "zone": "Swamp of Sorrows",
+  "levelRange": "38-39",
+  "faction": "Alliance",
+  "name": "38-39_swamp_of_sorrows_1",
+  "next": "39-39_dustwallow_marsh",
+  "steps": [
+    {
+      "id": "swampofsorrows_001",
+      "type": "info",
+      "description": "Talk to Newton Burnside and deposit Silk Cloth, Bag of Water Elemental Bracers, Fuel Regulator Blueprints, Encrusted Tail Fin (if you have them), Blue Pearl (if you have them), and any Green Hills of Stranglethorn Pages you found into your bank",
+      "classes": ["!Mage"],
+      "races": null,
+      "coords": [57.06, 73.05],
+      "zone": "stormwind_city",
+      "tips": [],
+      "quests": [],
+      "npc": "Newton Burnside",
+      "mobs": []
+    },
+    {
+      "id": "swampofsorrows_002",
+      "type": "travel",
+      "description": "Go into The Slaughtered Lamb and go downstairs",
+      "classes": ["Warlock"],
+      "races": null,
+      "coords": [27.2, 78.1],
+      "zone": "stormwind_city",
+      "tips": [],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "swampofsorrows_003",
+      "type": "info",
+      "description": "Talk to Ursula Deline and train your class spells",
+      "classes": ["Warlock"],
+      "races": null,
+      "coords": [26.117, 77.225],
+      "zone": "stormwind_city",
+      "tips": [],
+      "quests": [],
+      "npc": "Ursula Deline",
+      "mobs": []
+    },
+    {
+      "id": "swampofsorrows_004",
+      "type": "info",
+      "description": "Talk to Spackle Thornberry. Buy Grimoires for your pets",
+      "classes": ["Warlock"],
+      "races": null,
+      "coords": [25.665, 77.649],
+      "zone": "stormwind_city",
+      "tips": [],
+      "quests": [],
+      "npc": "Spackle Thornberry",
+      "mobs": []
+    },
+    {
+      "id": "swampofsorrows_005",
+      "type": "quest_accept",
+      "description": "Talk to Angus Stern and accept Morgan Stern",
+      "classes": null,
+      "races": null,
+      "coords": [41.497, 89.385],
+      "zone": "stormwind_city",
+      "tips": [],
+      "quests": [
+        {
+          "id": 1260,
+          "name": "Morgan Stern"
+        }
+      ],
+      "npc": "Angus Stern",
+      "mobs": []
+    },
+    {
+      "id": "swampofsorrows_006",
+      "type": "quest_accept",
+      "description": "Talk to Mazen Mac'Nadir and accept Mazen's Behest",
+      "classes": null,
+      "races": null,
+      "coords": [41.521, 64.35],
+      "zone": "stormwind_city",
+      "tips": [],
+      "quests": [
+        {
+          "id": 1363,
+          "name": "Mazen's Behest"
+        }
+      ],
+      "npc": "Mazen Mac'Nadir",
+      "mobs": []
+    },
+    {
+      "id": "swampofsorrows_007",
+      "type": "quest_turnin",
+      "description": "Talk to Acolyte Dellis upstairs, turn in Mazen's Behest, and accept Mazen's Behest",
+      "classes": null,
+      "races": null,
+      "coords": [40.996, 63.808],
+      "zone": "stormwind_city",
+      "tips": [],
+      "quests": [
+        {
+          "id": 1363,
+          "name": "Mazen's Behest"
+        },
+        {
+          "id": 1364,
+          "name": "Mazen's Behest"
+        }
+      ],
+      "npc": "Acolyte Dellis",
+      "mobs": []
+    },
+    {
+      "id": "swampofsorrows_008",
+      "type": "travel",
+      "description": "Travel to the Stormwind Cathedral",
+      "classes": ["Priest", "Paladin"],
+      "races": null,
+      "coords": [42.51, 33.51],
+      "zone": "stormwind_city",
+      "tips": [],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "swampofsorrows_009",
+      "type": "info",
+      "description": "Talk to Arthur the Faithful and train your class spells",
+      "classes": ["Paladin"],
+      "races": null,
+      "coords": [38.67, 32.82],
+      "zone": "stormwind_city",
+      "tips": [],
+      "quests": [],
+      "npc": "Arthur the Faithful",
+      "mobs": []
+    },
+    {
+      "id": "swampofsorrows_010",
+      "type": "info",
+      "description": "Talk to Brother Joshua and train your class spells",
+      "classes": ["Priest"],
+      "races": null,
+      "coords": [38.54, 26.86],
+      "zone": "stormwind_city",
+      "tips": [],
+      "quests": [],
+      "npc": "Brother Joshua",
+      "mobs": []
+    },
+    {
+      "id": "swampofsorrows_011",
+      "type": "quest_accept",
+      "description": "Talk to Brohann Caskbelly and accept In Search of The Temple",
+      "classes": null,
+      "races": null,
+      "coords": [64.328, 20.627],
+      "zone": "stormwind_city",
+      "tips": [],
+      "quests": [
+        {
+          "id": 1448,
+          "name": "In Search of The Temple"
+        }
+      ],
+      "npc": "Brohann Caskbelly",
+      "mobs": []
+    },
+    {
+      "id": "swampofsorrows_012",
+      "type": "info",
+      "description": "Talk to Wu Shen or Ilsa Corbin and train your class spells",
+      "classes": ["Warrior"],
+      "races": null,
+      "coords": [78.68, 45.79],
+      "zone": "stormwind_city",
+      "tips": [],
+      "quests": [],
+      "npc": "Ilsa Corbin",
+      "mobs": []
+    },
+    {
+      "id": "swampofsorrows_013",
+      "type": "info",
+      "description": "Talk to Osborne the Night Man and train your class spells",
+      "classes": ["Rogue"],
+      "races": null,
+      "coords": [74.65, 52.83],
+      "zone": "stormwind_city",
+      "tips": [],
+      "quests": [],
+      "npc": "Osborne the Night Man",
+      "mobs": []
+    },
+    {
+      "id": "swampofsorrows_014",
+      "type": "info",
+      "description": "Talk to Einris Brightspear and train your class spells",
+      "classes": ["Hunter"],
+      "races": null,
+      "coords": [61.609, 15.269],
+      "zone": "stormwind_city",
+      "tips": [],
+      "quests": [],
+      "npc": "Einris Brightspear",
+      "mobs": []
+    },
+    {
+      "id": "swampofsorrows_015",
+      "type": "info",
+      "description": "Talk to Karrina Mekenda and train your pet spells",
+      "classes": ["Hunter"],
+      "races": null,
+      "coords": [61.576, 15.996],
+      "zone": "stormwind_city",
+      "tips": [],
+      "quests": [],
+      "npc": "Karrina Mekenda",
+      "mobs": []
+    },
+    {
+      "id": "swampofsorrows_016",
+      "type": "info",
+      "description": "Talk to Newton Burnside and deposit Silk Cloth, Bag of Water Elemental Bracers, Fuel Regulator Blueprints, Encrusted Tail Fin (if you have them), Blue Pearl (if you have them), and any Green Hills of Stranglethorn Pages you found into your bank",
+      "classes": ["Mage"],
+      "races": null,
+      "coords": [57.06, 73.05],
+      "zone": "stormwind_city",
+      "tips": [],
+      "quests": [],
+      "npc": "Newton Burnside",
+      "mobs": []
+    },
+    {
+      "id": "swampofsorrows_017",
+      "type": "fly",
+      "description": "Talk to Dungar Longdrink and fly to Duskwood",
+      "classes": null,
+      "races": null,
+      "coords": [66.277, 62.137],
+      "zone": "stormwind_city",
+      "tips": [],
+      "quests": [],
+      "npc": "Dungar Longdrink",
+      "mobs": []
+    },
+    {
+      "id": "swampofsorrows_018",
+      "type": "quest_turnin",
+      "description": "Talk to Commander Althea Ebonlocke, turn in Mor'Ladim, and accept The Daughter Who Lived",
+      "classes": null,
+      "races": null,
+      "coords": [73.59, 46.89],
+      "zone": "duskwood",
+      "tips": [],
+      "quests": [
+        {
+          "id": 228,
+          "name": "Mor'Ladim"
+        },
+        {
+          "id": 229,
+          "name": "The Daughter Who Lived"
+        }
+      ],
+      "npc": "Commander Althea Ebonlocke",
+      "mobs": []
+    },
+    {
+      "id": "swampofsorrows_019",
+      "type": "quest_turnin",
+      "description": "Talk to Watcher Ladimore, turn in The Daughter Who Lived, and accept A Daughter's Love",
+      "classes": null,
+      "races": null,
+      "coords": [74.54, 46.08],
+      "zone": "duskwood",
+      "tips": [],
+      "quests": [
+        {
+          "id": 229,
+          "name": "The Daughter Who Lived"
+        },
+        {
+          "id": 231,
+          "name": "A Daughter's Love"
+        }
+      ],
+      "npc": "Watcher Ladimore",
+      "mobs": []
+    },
+    {
+      "id": "swampofsorrows_020",
+      "type": "fly",
+      "description": "Talk to Felicia Maline and fly to Westfall",
+      "classes": null,
+      "races": null,
+      "coords": [77.49, 44.28],
+      "zone": "duskwood",
+      "tips": [],
+      "quests": [],
+      "npc": "Felicia Maline",
+      "mobs": []
+    },
+    {
+      "id": "swampofsorrows_021",
+      "type": "quest_turnin",
+      "description": "Click A Weathered Grave and turn in A Daughter's Love",
+      "classes": null,
+      "races": null,
+      "coords": [17.72, 29.07],
+      "zone": "duskwood",
+      "tips": [],
+      "quests": [
+        {
+          "id": 231,
+          "name": "A Daughter's Love"
+        }
+      ],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "swampofsorrows_022",
+      "type": "travel",
+      "description": "Travel to Swamp of Sorrows",
+      "classes": null,
+      "races": null,
+      "coords": [6.59, 60.19],
+      "zone": "swamp_of_sorrows",
+      "tips": [],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "swampofsorrows_023",
+      "type": "kill",
+      "description": "Kill Adolescent Whelps and Dreaming Whelps. Loot them for their Specks of Dream Dust",
+      "classes": null,
+      "races": null,
+      "coords": null,
+      "zone": "",
+      "tips": [
+        {
+          "type": "warning",
+          "class": null,
+          "text": "You won't find enough Whelps to finish this quest in 1 pass, so continue with other quests"
+        }
+      ],
+      "quests": [
+        {
+          "id": 1116,
+          "name": "Dream Dust in the Swamp"
+        }
+      ],
+      "npc": null,
+      "mobs": ["Adolescent Whelp", "Dreaming Whelp"]
+    },
+    {
+      "id": "swampofsorrows_024",
+      "type": "quest_accept",
+      "description": "Talk to Watcher Biggs and accept Encroaching Wildlife",
+      "classes": null,
+      "races": null,
+      "coords": [26.74, 59.82],
+      "zone": "swamp_of_sorrows",
+      "tips": [],
+      "quests": [
+        {
+          "id": 1396,
+          "name": "Encroaching Wildlife"
+        }
+      ],
+      "npc": "Watcher Biggs",
+      "mobs": []
+    },
+    {
+      "id": "swampofsorrows_025",
+      "type": "info",
+      "description": "Be very careful of Stonard Scouts anytime you are in Swamp of Sorrows. If one ever attacks you, you will be PvP Flagged for 5 minutes",
+      "classes": null,
+      "races": null,
+      "coords": null,
+      "zone": "",
+      "tips": [],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "swampofsorrows_026",
+      "type": "kill",
+      "description": "Kill Young Sawtooth Crocolisks, Sorrow Spinners and Swamp Jaguars. Loot them for their quest items",
+      "classes": null,
+      "races": null,
+      "coords": [28.2, 43.83],
+      "zone": "swamp_of_sorrows",
+      "tips": [],
+      "quests": [
+        {
+          "id": 1396,
+          "name": "Encroaching Wildlife"
+        }
+      ],
+      "npc": null,
+      "mobs": ["Young Sawtooth Crocolisk", "Sorrow Spinner", "Swamp Jaguar"]
+    },
+    {
+      "id": "swampofsorrows_027",
+      "type": "kill",
+      "description": "Kill Noboru the Cudgel. Loot him for Noboru's Cudgel",
+      "classes": null,
+      "races": null,
+      "coords": [55.184, 34.158],
+      "zone": "swamp_of_sorrows",
+      "tips": [
+        {
+          "type": "warning",
+          "class": null,
+          "text": "Use Noboru's Cudgel to start the quest"
+        },
+        {
+          "type": "warning",
+          "class": null,
+          "text": "Noboru the Cudgel patrols a large section of Swamp of Sorrows. The patrol path is marked on your map. He spawns where the patrol route starts on the eastern point"
+        }
+      ],
+      "quests": [
+        {
+          "id": 1392,
+          "name": "Noboru the Cudgel"
+        }
+      ],
+      "npc": null,
+      "mobs": ["Noboru the Cudgel"]
+    },
+    {
+      "id": "swampofsorrows_028",
+      "type": "quest_turnin",
+      "description": "Talk to Magtoor, turn in Noboru the Cudgel, and accept Draenethyst Crystals",
+      "classes": null,
+      "races": null,
+      "coords": [25.983, 31.412],
+      "zone": "swamp_of_sorrows",
+      "tips": [],
+      "quests": [
+        {
+          "id": 1392,
+          "name": "Noboru the Cudgel"
+        },
+        {
+          "id": 1389,
+          "name": "Draenethyst Crystals"
+        }
+      ],
+      "npc": "Magtoor",
+      "mobs": []
+    },
+    {
+      "id": "swampofsorrows_029",
+      "type": "travel",
+      "description": "Travel to Misty Valley",
+      "classes": null,
+      "races": null,
+      "coords": [14.97, 37.31],
+      "zone": "swamp_of_sorrows",
+      "tips": [],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "swampofsorrows_030",
+      "type": "kill",
+      "description": "Kill Adolescent Whelps and Dreaming Whelps. Loot them for their Specks of Dream Dust",
+      "classes": null,
+      "races": null,
+      "coords": [14.2, 58.8],
+      "zone": "swamp_of_sorrows",
+      "tips": [],
+      "quests": [
+        {
+          "id": 1116,
+          "name": "Dream Dust in the Swamp"
+        }
+      ],
+      "npc": null,
+      "mobs": ["Adolescent Whelp", "Dreaming Whelp"]
+    },
+    {
+      "id": "swampofsorrows_031",
+      "type": "kill",
+      "description": "Kill Young Sawtooth Crocolisks. Loot them for their quest items",
+      "classes": null,
+      "races": null,
+      "coords": [26.6, 52.4],
+      "zone": "swamp_of_sorrows",
+      "tips": [],
+      "quests": [
+        {
+          "id": 1396,
+          "name": "Encroaching Wildlife"
+        }
+      ],
+      "npc": null,
+      "mobs": ["Young Sawtooth Crocolisk"]
+    },
+    {
+      "id": "swampofsorrows_032",
+      "type": "kill",
+      "description": "Kill Sorrow Spinners. Loot them for their quest items",
+      "classes": null,
+      "races": null,
+      "coords": [26.6, 47.0],
+      "zone": "swamp_of_sorrows",
+      "tips": [],
+      "quests": [
+        {
+          "id": 1396,
+          "name": "Encroaching Wildlife"
+        }
+      ],
+      "npc": null,
+      "mobs": ["Sorrow Spinner"]
+    },
+    {
+      "id": "swampofsorrows_033",
+      "type": "kill",
+      "description": "Kill Swamp Jaguars. Loot them for their quest items",
+      "classes": null,
+      "races": null,
+      "coords": [44.0, 41.6],
+      "zone": "swamp_of_sorrows",
+      "tips": [],
+      "quests": [
+        {
+          "id": 1396,
+          "name": "Encroaching Wildlife"
+        }
+      ],
+      "npc": null,
+      "mobs": ["Swamp Jaguar"]
+    },
+    {
+      "id": "swampofsorrows_034",
+      "type": "quest_turnin",
+      "description": "Talk to Watcher Biggs, turn in Encroaching Wildlife, and accept The Lost Caravan",
+      "classes": null,
+      "races": null,
+      "coords": [26.74, 59.82],
+      "zone": "swamp_of_sorrows",
+      "tips": [],
+      "quests": [
+        {
+          "id": 1396,
+          "name": "Encroaching Wildlife"
+        },
+        {
+          "id": 1421,
+          "name": "The Lost Caravan"
+        }
+      ],
+      "npc": "Watcher Biggs",
+      "mobs": []
+    },
+    {
+      "id": "swampofsorrows_035",
+      "type": "travel",
+      "description": "Travel to Fallow Sanctuary",
+      "classes": null,
+      "races": null,
+      "coords": [57.29, 30.73],
+      "zone": "swamp_of_sorrows",
+      "tips": [],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "swampofsorrows_036",
+      "type": "loot",
+      "description": "Loot the Draenethyst Crystals on the ground",
+      "classes": null,
+      "races": null,
+      "coords": [63.26, 22.35],
+      "zone": "swamp_of_sorrows",
+      "tips": [],
+      "quests": [
+        {
+          "id": 1389,
+          "name": "Draenethyst Crystals"
+        }
+      ],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "swampofsorrows_037",
+      "type": "kill",
+      "description": "Kill Ongeku. Loot him for his Shard",
+      "classes": null,
+      "races": null,
+      "coords": [60.537, 23.175],
+      "zone": "swamp_of_sorrows",
+      "tips": [
+        {
+          "type": "warning",
+          "class": null,
+          "text": "Ongeku can be in a random location throughout Fallow Sanctuary"
+        }
+      ],
+      "quests": [
+        {
+          "id": 1373,
+          "name": "Ongeku"
+        }
+      ],
+      "npc": null,
+      "mobs": ["Ongeku"]
+    },
+    {
+      "id": "swampofsorrows_038",
+      "type": "loot",
+      "description": "Open the Caravan Chest. Loot it for the Wizards' Reagents",
+      "classes": null,
+      "races": null,
+      "coords": [64.468, 18.313],
+      "zone": "swamp_of_sorrows",
+      "tips": [
+        {
+          "type": "warning",
+          "class": null,
+          "text": "Avoid going through the middle of Fallow Sanctuary"
+        }
+      ],
+      "quests": [
+        {
+          "id": 1421,
+          "name": "The Lost Caravan"
+        }
+      ],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "swampofsorrows_039",
+      "type": "loot",
+      "description": "Loot the Draenethyst Crystals on the ground",
+      "classes": null,
+      "races": null,
+      "coords": [57.43, 26.08],
+      "zone": "swamp_of_sorrows",
+      "tips": [],
+      "quests": [
+        {
+          "id": 1389,
+          "name": "Draenethyst Crystals"
+        }
+      ],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "swampofsorrows_040",
+      "type": "info",
+      "description": "Swim to the middle of the Pool of Tears",
+      "classes": null,
+      "races": null,
+      "coords": [67.0, 47.0],
+      "zone": "swamp_of_sorrows",
+      "tips": [],
+      "quests": [
+        {
+          "id": 1448,
+          "name": "In Search of The Temple"
+        }
+      ],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "swampofsorrows_041",
+      "type": "quest_turnin",
+      "description": "Talk to Magtoor and turn in Draenethyst Crystals",
+      "classes": null,
+      "races": null,
+      "coords": [25.983, 31.412],
+      "zone": "swamp_of_sorrows",
+      "tips": [],
+      "quests": [
+        {
+          "id": 1389,
+          "name": "Draenethyst Crystals"
+        }
+      ],
+      "npc": "Magtoor",
+      "mobs": []
+    },
+    {
+      "id": "swampofsorrows_042",
+      "type": "quest_turnin",
+      "description": "Talk to Watcher Biggs and turn in The Lost Caravan",
+      "classes": null,
+      "races": null,
+      "coords": [26.74, 59.82],
+      "zone": "swamp_of_sorrows",
+      "tips": [],
+      "quests": [
+        {
+          "id": 1421,
+          "name": "The Lost Caravan"
+        }
+      ],
+      "npc": "Watcher Biggs",
+      "mobs": []
+    },
+    {
+      "id": "swampofsorrows_043",
+      "type": "grind",
+      "description": "Grind Young Sawtooth Crocolisks, Sorrow Spinners and Swamp Jaguars until you're level 39",
+      "classes": null,
+      "races": null,
+      "coords": [28.2, 43.83],
+      "zone": "swamp_of_sorrows",
+      "tips": [],
+      "quests": [],
+      "npc": null,
+      "mobs": ["Young Sawtooth Crocolisk", "Sorrow Spinner", "Swamp Jaguar"]
+    },
+    {
+      "id": "swampofsorrows_044",
+      "type": "info",
+      "description": "Grind mobs until your Hearthstone is off cooldown. Hearth to Booty Bay. Buy food/water if needed",
+      "classes": ["!Warrior", "!Rogue"],
+      "races": null,
+      "coords": null,
+      "zone": "",
+      "tips": [
+        {
+          "type": "warning",
+          "class": null,
+          "text": "Grind mobs until your Hearthstone is off cooldown"
+        }
+      ],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "swampofsorrows_045",
+      "type": "info",
+      "description": "Grind mobs until your Hearthstone is off cooldown. Hearth to Booty Bay. Buy food if needed",
+      "classes": ["Warrior", "Rogue"],
+      "races": null,
+      "coords": null,
+      "zone": "",
+      "tips": [
+        {
+          "type": "warning",
+          "class": null,
+          "text": "Grind mobs until your Hearthstone is off cooldown"
+        }
+      ],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "swampofsorrows_046",
+      "type": "info",
+      "description": "Talk to Ian Strom upstairs and train your class spells",
+      "classes": ["Rogue"],
+      "races": null,
+      "coords": [26.817, 77.149],
+      "zone": "stranglethorn_vale",
+      "tips": [],
+      "quests": [],
+      "npc": "Ian Strom",
+      "mobs": []
+    },
+    {
+      "id": "swampofsorrows_047",
+      "type": "quest_turnin",
+      "description": "Talk to Krazek upstairs and turn in Dream Dust in the Swamp",
+      "classes": null,
+      "races": null,
+      "coords": [26.943, 77.207],
+      "zone": "stranglethorn_vale",
+      "tips": [
+        {
+          "type": "warning",
+          "class": null,
+          "text": "Wait out the RP"
+        }
+      ],
+      "quests": [
+        {
+          "id": 1116,
+          "name": "Dream Dust in the Swamp"
+        }
+      ],
+      "npc": "Krazek",
+      "mobs": []
+    },
+    {
+      "id": "swampofsorrows_048",
+      "type": "quest_accept",
+      "description": "Talk to Krazek and accept Rumors for Kravel",
+      "classes": null,
+      "races": null,
+      "coords": [26.943, 77.207],
+      "zone": "stranglethorn_vale",
+      "tips": [],
+      "quests": [
+        {
+          "id": 1117,
+          "name": "Rumors for Kravel"
+        }
+      ],
+      "npc": "Krazek",
+      "mobs": []
+    },
+    {
+      "id": "swampofsorrows_049",
+      "type": "fly",
+      "description": "Talk to Gyll and fly to Stormwind",
+      "classes": ["!Mage"],
+      "races": null,
+      "coords": [27.53, 77.787],
+      "zone": "stranglethorn_vale",
+      "tips": [],
+      "quests": [],
+      "npc": "Gyll",
+      "mobs": []
+    },
+    {
+      "id": "swampofsorrows_050",
+      "type": "travel",
+      "description": "Teleport to Stormwind City",
+      "classes": ["Mage"],
+      "races": null,
+      "coords": null,
+      "zone": "",
+      "tips": [],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "swampofsorrows_051",
+      "type": "info",
+      "description": "Talk to Jennea Cannon and train your class spells",
+      "classes": ["Mage"],
+      "races": null,
+      "coords": [36.87, 81.14],
+      "zone": "stormwind_city",
+      "tips": [],
+      "quests": [],
+      "npc": "Jennea Cannon",
+      "mobs": []
+    },
+    {
+      "id": "swampofsorrows_052",
+      "type": "info",
+      "description": "Talk to Newton Burnside and withdraw Karnitol's Satchel and Elixir of Water Breathing (if you have one) from your bank",
+      "classes": ["!Warlock"],
+      "races": null,
+      "coords": [57.06, 73.05],
+      "zone": "stormwind_city",
+      "tips": [],
+      "quests": [],
+      "npc": "Newton Burnside",
+      "mobs": []
+    },
+    {
+      "id": "swampofsorrows_053",
+      "type": "info",
+      "description": "Talk to Newton Burnside and withdraw Karnitol's Satchel from your bank",
+      "classes": ["Warlock"],
+      "races": null,
+      "coords": [57.06, 73.05],
+      "zone": "stormwind_city",
+      "tips": [],
+      "quests": [],
+      "npc": "Newton Burnside",
+      "mobs": []
+    },
+    {
+      "id": "swampofsorrows_054",
+      "type": "info",
+      "description": "Talk to Newton Burnside and deposit Khadgar's Essays on Dimensional Convergence (if you have it) and Goblin Rumors into your bank",
+      "classes": null,
+      "races": null,
+      "coords": [57.06, 73.05],
+      "zone": "stormwind_city",
+      "tips": [],
+      "quests": [],
+      "npc": "Newton Burnside",
+      "mobs": []
+    },
+    {
+      "id": "swampofsorrows_055",
+      "type": "info",
+      "description": "Talk to Ardwyn Cailen. Buy a Pitchwood Wand from her if it's better than your current wand. Equip it at 40",
+      "classes": ["Priest"],
+      "races": null,
+      "coords": [42.85, 65.14],
+      "zone": "stormwind_city",
+      "tips": [],
+      "quests": [],
+      "npc": "Ardwyn Cailen",
+      "mobs": []
+    },
+    {
+      "id": "swampofsorrows_056",
+      "type": "travel",
+      "description": "Travel to the Stormwind Cathedral",
+      "classes": ["Priest", "Paladin"],
+      "races": null,
+      "coords": [42.51, 33.51],
+      "zone": "stormwind_city",
+      "tips": [],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "swampofsorrows_057",
+      "type": "info",
+      "description": "Talk to Arthur the Faithful and train your class spells",
+      "classes": ["Paladin"],
+      "races": null,
+      "coords": [38.67, 32.82],
+      "zone": "stormwind_city",
+      "tips": [],
+      "quests": [],
+      "npc": "Arthur the Faithful",
+      "mobs": []
+    },
+    {
+      "id": "swampofsorrows_058",
+      "type": "info",
+      "description": "Talk to Brother Joshua and train your class spells",
+      "classes": ["Priest"],
+      "races": null,
+      "coords": [38.54, 26.86],
+      "zone": "stormwind_city",
+      "tips": [],
+      "quests": [],
+      "npc": "Brother Joshua",
+      "mobs": []
+    },
+    {
+      "id": "swampofsorrows_059",
+      "type": "info",
+      "description": "Talk to Wu Shen or Ilsa Corbin and train your class spells",
+      "classes": ["Warrior"],
+      "races": null,
+      "coords": [78.68, 45.79],
+      "zone": "stormwind_city",
+      "tips": [],
+      "quests": [],
+      "npc": "Ilsa Corbin",
+      "mobs": []
+    },
+    {
+      "id": "swampofsorrows_060",
+      "type": "quest_accept",
+      "description": "Talk to Count Remington Ridgewell and accept The Perenolde Tiara",
+      "classes": null,
+      "races": null,
+      "coords": [74.01, 30.231],
+      "zone": "stormwind_city",
+      "tips": [],
+      "quests": [
+        {
+          "id": 543,
+          "name": "The Perenolde Tiara"
+        }
+      ],
+      "npc": "Count Remington Ridgewell",
+      "mobs": []
+    },
+    {
+      "id": "swampofsorrows_061",
+      "type": "quest_turnin",
+      "description": "Talk to Brohann Caskbelly, turn in In Search of The Temple, and accept To The Hinterlands",
+      "classes": null,
+      "races": null,
+      "coords": [64.328, 20.627],
+      "zone": "stormwind_city",
+      "tips": [],
+      "quests": [
+        {
+          "id": 1448,
+          "name": "In Search of The Temple"
+        },
+        {
+          "id": 1449,
+          "name": "To The Hinterlands"
+        }
+      ],
+      "npc": "Brohann Caskbelly",
+      "mobs": []
+    },
+    {
+      "id": "swampofsorrows_062",
+      "type": "info",
+      "description": "Talk to Einris Brightspear and train your class spells",
+      "classes": ["Hunter"],
+      "races": null,
+      "coords": [61.609, 15.269],
+      "zone": "stormwind_city",
+      "tips": [],
+      "quests": [],
+      "npc": "Einris Brightspear",
+      "mobs": []
+    },
+    {
+      "id": "swampofsorrows_063",
+      "type": "info",
+      "description": "Talk to Karrina Mekenda and train your pet spells",
+      "classes": ["Hunter"],
+      "races": null,
+      "coords": [61.576, 15.996],
+      "zone": "stormwind_city",
+      "tips": [],
+      "quests": [],
+      "npc": "Karrina Mekenda",
+      "mobs": []
+    },
+    {
+      "id": "swampofsorrows_064",
+      "type": "travel",
+      "description": "Enter the Deeprun Tram. Take the Tram to Ironforge. Level your First Aid if needed while waiting for the Tram",
+      "classes": ["!Mage"],
+      "races": null,
+      "coords": [64.0, 8.1],
+      "zone": "stormwind_city",
+      "tips": [
+        {
+          "type": "warning",
+          "class": null,
+          "text": "Level your First Aid if needed while waiting for the Tram"
+        },
+        {
+          "type": "link",
+          "class": null,
+          "text": "Do a logout skip inside the Tram. Click here for video reference",
+          "url": "https://www.youtube.com/watch?v=M_tXROi9nMQ"
+        }
+      ],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "swampofsorrows_065",
+      "type": "travel",
+      "description": "Teleport to Ironforge",
+      "classes": ["Mage"],
+      "races": null,
+      "coords": null,
+      "zone": "",
+      "tips": [],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "swampofsorrows_066",
+      "type": "quest_turnin",
+      "description": "Talk to Roetten Stonehammer and turn in The Karnitol Shipwreck",
+      "classes": null,
+      "races": null,
+      "coords": [69.93, 21.25],
+      "zone": "ironforge",
+      "tips": [],
+      "quests": [
+        {
+          "id": 1457,
+          "name": "The Karnitol Shipwreck"
+        }
+      ],
+      "npc": "Roetten Stonehammer",
+      "mobs": []
+    },
+    {
+      "id": "swampofsorrows_067",
+      "type": "quest_accept",
+      "description": "Talk to Prospector Stormpike and accept Further Mysteries",
+      "classes": null,
+      "races": null,
+      "coords": [74.645, 11.742],
+      "zone": "ironforge",
+      "tips": [],
+      "quests": [
+        {
+          "id": 525,
+          "name": "Further Mysteries"
+        }
+      ],
+      "npc": "Prospector Stormpike",
+      "mobs": []
+    },
+    {
+      "id": "swampofsorrows_068",
+      "type": "info",
+      "description": "Talk to Jubahl Corpseseeker. Buy Grimoires for your pets",
+      "classes": ["Warlock"],
+      "races": null,
+      "coords": [52.701, 6.07],
+      "zone": "ironforge",
+      "tips": [],
+      "quests": [],
+      "npc": "Jubahl Corpseseeker",
+      "mobs": []
+    },
+    {
+      "id": "swampofsorrows_069",
+      "type": "quest_accept",
+      "description": "Talk to Briarthorn, accept Knowledge of the Orb of Orahil, and train your class spells",
+      "classes": ["Warlock"],
+      "races": null,
+      "coords": [50.343, 5.657],
+      "zone": "ironforge",
+      "tips": [],
+      "quests": [
+        {
+          "id": 4965,
+          "name": "Knowledge of the Orb of Orahil"
+        }
+      ],
+      "npc": "Briarthorn",
+      "mobs": []
+    },
+    {
+      "id": "swampofsorrows_070",
+      "type": "info",
+      "description": "Talk to an Ironforge Auctioneer. Buy a Moonsteel Broadsword from the Auction House. Skip this step if you cannot afford it",
+      "classes": null,
+      "races": null,
+      "coords": null,
+      "zone": "",
+      "tips": [
+        {
+          "type": "info",
+          "class": null,
+          "text": "This is for a free 3,450 XP turnin in Dustwallow Marsh later. Skip this step if you're unable to acquire one"
+        }
+      ],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "swampofsorrows_071",
+      "type": "info",
+      "description": "Talk to an Ironforge Auctioneer. Buy an Elixir of Water Breathing from the Auction House. Skip this step if you're unable to acquire one",
+      "classes": ["!Warlock"],
+      "races": null,
+      "coords": null,
+      "zone": "",
+      "tips": [
+        {
+          "type": "warning",
+          "class": null,
+          "text": "It is very important you try to buy one here as it will making questing coming up in Arathi Highlands soon much easier. Skip this step if you're unable to acquire one"
+        }
+      ],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "swampofsorrows_072",
+      "type": "info",
+      "description": "Talk to an Ironforge Auctioneer. Level up your First Aid to 225 if possible. Buy Mageweave Cloth from the Auction House if required",
+      "classes": null,
+      "races": null,
+      "coords": null,
+      "zone": "",
+      "tips": [
+        {
+          "type": "warning",
+          "class": null,
+          "text": "Level up your First Aid to 225 if possible as you're about to head to Theramore and can complete the First Aid quest there. If you can't reach 225 now, skip this step. You will complete it later"
+        }
+      ],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "swampofsorrows_073",
+      "type": "info",
+      "description": "Talk to an Ironforge Auctioneer. Buy Burning Charms, Thundering Charms, and Cresting Charms from the Auction House. Skip this step if you are planning on running Scarlet Monastery for the Bonebiter",
+      "classes": ["Warrior"],
+      "races": null,
+      "coords": null,
+      "zone": "",
+      "tips": [
+        {
+          "type": "warning",
+          "class": null,
+          "text": "It isn't required but will save you time later when going for your Whirlwind Axe"
+        },
+        {
+          "type": "warning",
+          "class": null,
+          "text": "If you are planning on running Scarlet Monastery for the Bonebiter, you may skip this step"
+        }
+      ],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "swampofsorrows_074",
+      "type": "fly",
+      "description": "Talk to Gryth Thurden and fly to Wetlands",
+      "classes": null,
+      "races": null,
+      "coords": [55.501, 47.742],
+      "zone": "ironforge",
+      "tips": [],
+      "quests": [],
+      "npc": "Gryth Thurden",
+      "mobs": []
+    }
+  ]
+}

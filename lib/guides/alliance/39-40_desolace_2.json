@@ -1,0 +1,1780 @@
+{
+  "zone": "Desolace",
+  "levelRange": "39-40",
+  "faction": "Alliance",
+  "name": "39-40_desolace_2",
+  "next": "40-41_alterac_arathi",
+  "steps": [
+    {
+      "id": "desolace_001",
+      "type": "fly",
+      "description": "Talk to Baldruc and fly to Ratchet",
+      "classes": ["Warlock"],
+      "races": null,
+      "coords": [67.476, 51.3],
+      "zone": "dustwallow_marsh",
+      "tips": [],
+      "quests": [],
+      "npc": "Baldruc",
+      "mobs": []
+    },
+    {
+      "id": "desolace_002",
+      "type": "quest_turnin",
+      "description": "Talk to Menara Voidrender and turn in Knowledge of the Orb of Orahil",
+      "classes": ["Warlock"],
+      "races": null,
+      "coords": [62.509, 35.449],
+      "zone": "the_barrens",
+      "tips": [],
+      "quests": [
+        {
+          "id": 4965,
+          "name": "Knowledge of the Orb of Orahil"
+        }
+      ],
+      "npc": "Menara Voidrender",
+      "mobs": []
+    },
+    {
+      "id": "desolace_003",
+      "type": "quest_turnin",
+      "description": "Talk to Menara Voidrender and turn in Knowledge of the Orb of Orahil",
+      "classes": ["Warlock"],
+      "races": null,
+      "coords": [62.509, 35.449],
+      "zone": "the_barrens",
+      "tips": [],
+      "quests": [
+        {
+          "id": 4968,
+          "name": "Knowledge of the Orb of Orahil"
+        }
+      ],
+      "npc": "Menara Voidrender",
+      "mobs": []
+    },
+    {
+      "id": "desolace_004",
+      "type": "quest_accept",
+      "description": "Talk to Menara Voidrender and accept Fragments of the Orb of Orahil",
+      "classes": ["Warlock"],
+      "races": null,
+      "coords": [62.509, 35.449],
+      "zone": "the_barrens",
+      "tips": [],
+      "quests": [
+        {
+          "id": 1799,
+          "name": "Fragments of the Orb of Orahil"
+        }
+      ],
+      "npc": "Menara Voidrender",
+      "mobs": []
+    },
+    {
+      "id": "desolace_005",
+      "type": "quest_accept",
+      "description": "Talk to Menara Voidrender and accept Fragments of the Orb of Orahil",
+      "classes": ["Warlock"],
+      "races": null,
+      "coords": [62.509, 35.449],
+      "zone": "the_barrens",
+      "tips": [],
+      "quests": [
+        {
+          "id": 1799,
+          "name": "Fragments of the Orb of Orahil"
+        }
+      ],
+      "npc": "Menara Voidrender",
+      "mobs": []
+    },
+    {
+      "id": "desolace_006",
+      "type": "quest_turnin",
+      "description": "Talk to Strahad Farsan and turn in Summon Felsteed",
+      "classes": ["Warlock"],
+      "races": null,
+      "coords": [62.627, 35.5],
+      "zone": "the_barrens",
+      "tips": [],
+      "quests": [
+        {
+          "id": 4488,
+          "name": "Summon Felsteed"
+        }
+      ],
+      "npc": "Strahad Farsan",
+      "mobs": []
+    },
+    {
+      "id": "desolace_007",
+      "type": "quest_turnin",
+      "description": "Talk to Strahad Farsan and turn in Summon Felsteed",
+      "classes": ["Warlock"],
+      "races": null,
+      "coords": [62.627, 35.5],
+      "zone": "the_barrens",
+      "tips": [],
+      "quests": [
+        {
+          "id": 4487,
+          "name": "Summon Felsteed"
+        }
+      ],
+      "npc": "Strahad Farsan",
+      "mobs": []
+    },
+    {
+      "id": "desolace_008",
+      "type": "quest_accept",
+      "description": "Talk to Strahad Farsan, accept Summon Felsteed, and turn in Summon Felsteed",
+      "classes": ["Warlock"],
+      "races": null,
+      "coords": [62.627, 35.5],
+      "zone": "the_barrens",
+      "tips": [],
+      "quests": [
+        {
+          "id": 4490,
+          "name": "Summon Felsteed"
+        }
+      ],
+      "npc": "Strahad Farsan",
+      "mobs": []
+    },
+    {
+      "id": "desolace_009",
+      "type": "quest_accept",
+      "description": "Talk to Acolyte Wytula and accept Shard of a Felhound",
+      "classes": ["Warlock"],
+      "races": null,
+      "coords": [62.641, 35.304],
+      "zone": "the_barrens",
+      "tips": [],
+      "quests": [
+        {
+          "id": 4962,
+          "name": "Shard of a Felhound"
+        }
+      ],
+      "npc": "Acolyte Wytula",
+      "mobs": []
+    },
+    {
+      "id": "desolace_010",
+      "type": "quest_accept",
+      "description": "Talk to Acolyte Wytula and accept Shard of a Felhound",
+      "classes": ["Warlock"],
+      "races": null,
+      "coords": [62.641, 35.304],
+      "zone": "the_barrens",
+      "tips": [],
+      "quests": [
+        {
+          "id": 4962,
+          "name": "Shard of a Felhound"
+        }
+      ],
+      "npc": "Acolyte Wytula",
+      "mobs": []
+    },
+    {
+      "id": "desolace_011",
+      "type": "fly",
+      "description": "Talk to Bragok and fly to Desolace",
+      "classes": ["Warlock"],
+      "races": null,
+      "coords": [63.084, 37.163],
+      "zone": "the_barrens",
+      "tips": [],
+      "quests": [],
+      "npc": "Bragok",
+      "mobs": []
+    },
+    {
+      "id": "desolace_012",
+      "type": "fly",
+      "description": "Talk to Baldruc and fly to Desolace",
+      "classes": ["!Warlock"],
+      "races": null,
+      "coords": [67.476, 51.3],
+      "zone": "dustwallow_marsh",
+      "tips": [],
+      "quests": [],
+      "npc": "Baldruc",
+      "mobs": []
+    },
+    {
+      "id": "desolace_013",
+      "type": "info",
+      "description": "Talk to Innkeeper Lyshaerya and set your Hearthstone to Desolace",
+      "classes": null,
+      "races": null,
+      "coords": [66.275, 6.554],
+      "zone": "desolace",
+      "tips": [],
+      "quests": [],
+      "npc": "Innkeeper Lyshaerya",
+      "mobs": []
+    },
+    {
+      "id": "desolace_014",
+      "type": "quest_accept",
+      "description": "Talk to Brother Anton and accept Down the Scarlet Path",
+      "classes": null,
+      "races": null,
+      "coords": [66.519, 7.907],
+      "zone": "desolace",
+      "tips": [],
+      "quests": [
+        {
+          "id": 261,
+          "name": "Down the Scarlet Path"
+        }
+      ],
+      "npc": "Brother Anton",
+      "mobs": []
+    },
+    {
+      "id": "desolace_015",
+      "type": "quest_accept",
+      "description": "Talk to Kreldig Ungor and accept Reagents for Reclaimers Inc.",
+      "classes": null,
+      "races": null,
+      "coords": [66.201, 9.626],
+      "zone": "desolace",
+      "tips": [],
+      "quests": [
+        {
+          "id": 1466,
+          "name": "Reagents for Reclaimers Inc."
+        }
+      ],
+      "npc": "Kreldig Ungor",
+      "mobs": []
+    },
+    {
+      "id": "desolace_016",
+      "type": "travel",
+      "description": "Travel to Hornizz at the Kodo Graveyard",
+      "classes": null,
+      "races": null,
+      "coords": [47.83, 61.82],
+      "zone": "desolace",
+      "tips": [],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "desolace_017",
+      "type": "quest_accept",
+      "description": "Talk to Hornizz Brimbuzzle and accept Ghost-o-plasm Round Up",
+      "classes": null,
+      "races": null,
+      "coords": [47.83, 61.825],
+      "zone": "desolace",
+      "tips": [],
+      "quests": [
+        {
+          "id": 6134,
+          "name": "Ghost-o-plasm Round Up"
+        }
+      ],
+      "npc": "Hornizz Brimbuzzle",
+      "mobs": []
+    },
+    {
+      "id": "desolace_018",
+      "type": "quest_turnin",
+      "description": "Talk to Uthek the Wise, turn in Ongeku, and accept Khan Jehn",
+      "classes": null,
+      "races": null,
+      "coords": [36.234, 79.245],
+      "zone": "desolace",
+      "tips": [],
+      "quests": [
+        {
+          "id": 1373,
+          "name": "Ongeku"
+        },
+        {
+          "id": 1374,
+          "name": "Khan Jehn"
+        }
+      ],
+      "npc": "Uthek the Wise",
+      "mobs": []
+    },
+    {
+      "id": "desolace_019",
+      "type": "kill",
+      "description": "Kill Ley Hunters, Mana Eaters and Mage Hunters. Loot them for their Brains. Kill Nether Sisters, Nether Maidens and Nether Sorceresses. Loot them for their Wings. Kill Doomwarder Captains. Loot them for their Blood",
+      "classes": null,
+      "races": null,
+      "coords": [51.72, 83.92],
+      "zone": "desolace",
+      "tips": [
+        {
+          "type": "warning",
+          "class": null,
+          "text": "Prioritize Doomwarder Captains as you may need to wait for their respawns. Regular Doomwarders do not drop Blood. You could also ask someone to invite you so you change layers"
+        }
+      ],
+      "quests": [
+        {
+          "id": 1466,
+          "name": "Reagents for Reclaimers Inc."
+        }
+      ],
+      "npc": null,
+      "mobs": [
+        "Ley Hunter",
+        "Mana Eater",
+        "Mage Hunter",
+        "Nether Sister",
+        "Nether Maiden",
+        "Nether Sorceress",
+        "Doomwarder Captain"
+      ]
+    },
+    {
+      "id": "desolace_020",
+      "type": "loot",
+      "description": "Channel the Felhas Ruby on a Ley Hunter, Mana Eater or Mage Hunter as it is about to die",
+      "classes": ["Warlock"],
+      "races": null,
+      "coords": [53.6, 77.6],
+      "zone": "desolace",
+      "tips": [
+        {
+          "type": "warning",
+          "class": null,
+          "text": "Channel the Felhas Ruby on a Ley Hunter, Mana Eater or Mage Hunter as it is about to die"
+        }
+      ],
+      "quests": [
+        {
+          "id": 4962,
+          "name": "Shard of a Felhound"
+        }
+      ],
+      "npc": null,
+      "mobs": ["Ley Hunter", "Mana Eater", "Mage Hunter"]
+    },
+    {
+      "id": "desolace_021",
+      "type": "kill",
+      "description": "Kill Burning Blade Summoners. Loot them for their Infernal Orb",
+      "classes": ["Warlock"],
+      "races": null,
+      "coords": [55.0, 77.8],
+      "zone": "desolace",
+      "tips": [],
+      "quests": [
+        {
+          "id": 1799,
+          "name": "Fragments of the Orb of Orahil"
+        }
+      ],
+      "npc": null,
+      "mobs": ["Burning Blade Summoner"]
+    },
+    {
+      "id": "desolace_022",
+      "type": "loot",
+      "description": "Kill Magrami Spectres that spawn from it. Loot them for their Ghost-o-plasms",
+      "classes": null,
+      "races": null,
+      "coords": [64.0, 91.7],
+      "zone": "desolace",
+      "tips": [
+        {
+          "type": "warning",
+          "class": null,
+          "text": "Use the Crate of Ghost Magnets at the Valley of Bones between the two giant skeleton remains"
+        }
+      ],
+      "quests": [
+        {
+          "id": 6134,
+          "name": "Ghost-o-plasm Round Up"
+        }
+      ],
+      "npc": null,
+      "mobs": ["Magrami Spectre"]
+    },
+    {
+      "id": "desolace_023",
+      "type": "kill",
+      "description": "Kill Undead Ravagers",
+      "classes": null,
+      "races": null,
+      "coords": [64.0, 91.7],
+      "zone": "desolace",
+      "tips": [],
+      "quests": [
+        {
+          "id": 261,
+          "name": "Down the Scarlet Path"
+        }
+      ],
+      "npc": null,
+      "mobs": ["Undead Ravager"]
+    },
+    {
+      "id": "desolace_024",
+      "type": "kill",
+      "description": "Kill Khan Jehn. Loot him for his Head",
+      "classes": null,
+      "races": null,
+      "coords": [65.94, 80.4],
+      "zone": "desolace",
+      "tips": [],
+      "quests": [
+        {
+          "id": 1374,
+          "name": "Khan Jehn"
+        }
+      ],
+      "npc": null,
+      "mobs": ["Khan Jehn"]
+    },
+    {
+      "id": "desolace_025",
+      "type": "quest_turnin",
+      "description": "Talk to Hornizz Brimbuzzle and turn in Ghost-o-plasm Round Up",
+      "classes": null,
+      "races": null,
+      "coords": [47.83, 61.825],
+      "zone": "desolace",
+      "tips": [],
+      "quests": [
+        {
+          "id": 6134,
+          "name": "Ghost-o-plasm Round Up"
+        }
+      ],
+      "npc": "Hornizz Brimbuzzle",
+      "mobs": []
+    },
+    {
+      "id": "desolace_026",
+      "type": "quest_turnin",
+      "description": "Talk to Uthek the Wise and turn in Khan Jehn",
+      "classes": null,
+      "races": null,
+      "coords": [36.234, 79.245],
+      "zone": "desolace",
+      "tips": [],
+      "quests": [
+        {
+          "id": 1374,
+          "name": "Khan Jehn"
+        }
+      ],
+      "npc": "Uthek the Wise",
+      "mobs": []
+    },
+    {
+      "id": "desolace_027",
+      "type": "travel",
+      "description": "Travel to Feralas",
+      "classes": null,
+      "races": null,
+      "coords": [45.44, 3.07],
+      "zone": "feralas",
+      "tips": [],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "desolace_028",
+      "type": "travel",
+      "description": "Follow the road to Feathermoon Stronghold. You don't need to wait for the boat, just swim across",
+      "classes": null,
+      "races": null,
+      "coords": [30.238, 43.248],
+      "zone": "feralas",
+      "tips": [],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "desolace_029",
+      "type": "info",
+      "description": "Talk to Logannas. Buy Superior Healing Potions from him",
+      "classes": null,
+      "races": null,
+      "coords": [32.671, 44.029],
+      "zone": "feralas",
+      "tips": [
+        {
+          "type": "warning",
+          "class": null,
+          "text": "Skip this step if Logannas has none in stock"
+        }
+      ],
+      "quests": [],
+      "npc": "Logannas",
+      "mobs": []
+    },
+    {
+      "id": "desolace_030",
+      "type": "fly",
+      "description": "Talk to Fyldren Moonfeather, get the Feathermoon flight path, and fly to Tanaris",
+      "classes": null,
+      "races": null,
+      "coords": [30.238, 43.248],
+      "zone": "feralas",
+      "tips": [],
+      "quests": [],
+      "npc": "Fyldren Moonfeather",
+      "mobs": []
+    },
+    {
+      "id": "desolace_031",
+      "type": "info",
+      "description": "Talk to Gimblethorn and withdraw Fuel Regulator Blueprints, Goblin Rumors, Bag of Water Elemental Bracers, and Encrusted Tail Fins if you have them",
+      "classes": null,
+      "races": null,
+      "coords": [52.297, 28.915],
+      "zone": "tanaris",
+      "tips": [],
+      "quests": [],
+      "npc": "Gimblethorn",
+      "mobs": []
+    },
+    {
+      "id": "desolace_032",
+      "type": "info",
+      "description": "Talk to Laziphus and stable your pet. You will tame a Scorpid Hunter shortly",
+      "classes": ["Hunter"],
+      "races": null,
+      "coords": [52.253, 28.001],
+      "zone": "tanaris",
+      "tips": [],
+      "quests": [],
+      "npc": "Laziphus",
+      "mobs": []
+    },
+    {
+      "id": "desolace_033",
+      "type": "info",
+      "description": "Cast Tame Beast on a Scorpid Hunter to tame it. Attack mobs with it to learn Claw (Rank 6)",
+      "classes": ["Hunter"],
+      "races": null,
+      "coords": [54.07, 32.21],
+      "zone": "tanaris",
+      "tips": [
+        {
+          "type": "link",
+          "class": null,
+          "text": "Click here for more info about pet training",
+          "url": "https://www.wow-petopia.com/classic/training.php"
+        }
+      ],
+      "quests": [],
+      "npc": null,
+      "mobs": ["Scorpid Hunter"]
+    },
+    {
+      "id": "desolace_034",
+      "type": "travel",
+      "description": "Travel to The Shimmering Flats",
+      "classes": null,
+      "races": null,
+      "coords": [77.782, 77.263],
+      "zone": "thousand_needles",
+      "tips": [],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "desolace_035",
+      "type": "quest_accept",
+      "description": "Talk to Fizzle Brassbolts and accept Martek the Exiled",
+      "classes": null,
+      "races": null,
+      "coords": [78.064, 77.126],
+      "zone": "thousand_needles",
+      "tips": [],
+      "quests": [
+        {
+          "id": 1106,
+          "name": "Martek the Exiled"
+        }
+      ],
+      "npc": "Fizzle Brassbolts",
+      "mobs": []
+    },
+    {
+      "id": "desolace_036",
+      "type": "quest_turnin",
+      "description": "Talk to Wizzle Brassbolts and turn in Encrusted Tail Fins",
+      "classes": null,
+      "races": null,
+      "coords": [78.143, 77.12],
+      "zone": "thousand_needles",
+      "tips": [],
+      "quests": [
+        {
+          "id": 1107,
+          "name": "Encrusted Tail Fins"
+        }
+      ],
+      "npc": "Wizzle Brassbolts",
+      "mobs": []
+    },
+    {
+      "id": "desolace_037",
+      "type": "quest_turnin",
+      "description": "Talk to Kravel Koalbeard, turn in Rumors for Kravel, and accept Back to Booty Bay",
+      "classes": null,
+      "races": null,
+      "coords": [77.782, 77.263],
+      "zone": "thousand_needles",
+      "tips": [],
+      "quests": [
+        {
+          "id": 1117,
+          "name": "Rumors for Kravel"
+        },
+        {
+          "id": 1118,
+          "name": "Back to Booty Bay"
+        }
+      ],
+      "npc": "Kravel Koalbeard",
+      "mobs": []
+    },
+    {
+      "id": "desolace_038",
+      "type": "quest_turnin",
+      "description": "Talk to Pozzik, turn in Goblin Sponsorship, and accept The Eighteenth Pilot",
+      "classes": null,
+      "races": null,
+      "coords": [80.178, 75.882],
+      "zone": "thousand_needles",
+      "tips": [],
+      "quests": [
+        {
+          "id": 1183,
+          "name": "Goblin Sponsorship"
+        },
+        {
+          "id": 1186,
+          "name": "The Eighteenth Pilot"
+        }
+      ],
+      "npc": "Pozzik",
+      "mobs": []
+    },
+    {
+      "id": "desolace_039",
+      "type": "quest_turnin",
+      "description": "Talk to Razzeric, turn in The Eighteenth Pilot, and accept Razzeric's Tweaking",
+      "classes": null,
+      "races": null,
+      "coords": [80.326, 76.096],
+      "zone": "thousand_needles",
+      "tips": [],
+      "quests": [
+        {
+          "id": 1186,
+          "name": "The Eighteenth Pilot"
+        },
+        {
+          "id": 1187,
+          "name": "Razzeric's Tweaking"
+        }
+      ],
+      "npc": "Razzeric",
+      "mobs": []
+    },
+    {
+      "id": "desolace_040",
+      "type": "info",
+      "description": "Cast Teleport: Moonglade",
+      "classes": ["Druid"],
+      "races": null,
+      "coords": null,
+      "zone": "",
+      "tips": [],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "desolace_041",
+      "type": "info",
+      "description": "Talk to Loganaar and train your class spells",
+      "classes": ["Druid"],
+      "races": null,
+      "coords": [52.53, 40.56],
+      "zone": "moonglade",
+      "tips": [],
+      "quests": [],
+      "npc": "Loganaar",
+      "mobs": []
+    },
+    {
+      "id": "desolace_042",
+      "type": "info",
+      "description": "Hearth to Desolace. Buy food and water if needed",
+      "classes": null,
+      "races": null,
+      "coords": null,
+      "zone": "",
+      "tips": [],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "desolace_043",
+      "type": "quest_turnin",
+      "description": "Talk to Brother Anton, turn in Down the Scarlet Path, and accept Down the Scarlet Path",
+      "classes": null,
+      "races": null,
+      "coords": [66.519, 7.907],
+      "zone": "desolace",
+      "tips": [],
+      "quests": [
+        {
+          "id": 261,
+          "name": "Down the Scarlet Path"
+        },
+        {
+          "id": 1052,
+          "name": "Down the Scarlet Path"
+        }
+      ],
+      "npc": "Brother Anton",
+      "mobs": []
+    },
+    {
+      "id": "desolace_044",
+      "type": "quest_turnin",
+      "description": "Talk to Kreldig Ungor, turn in Reagents for Reclaimers Inc., and accept Reagents for Reclaimers Inc.",
+      "classes": null,
+      "races": null,
+      "coords": [66.201, 9.626],
+      "zone": "desolace",
+      "tips": [],
+      "quests": [
+        {
+          "id": 1466,
+          "name": "Reagents for Reclaimers Inc."
+        },
+        {
+          "id": 1467,
+          "name": "Reagents for Reclaimers Inc."
+        }
+      ],
+      "npc": "Kreldig Ungor",
+      "mobs": []
+    },
+    {
+      "id": "desolace_045",
+      "type": "info",
+      "description": "Teleport to Stormwind",
+      "classes": ["Mage"],
+      "races": ["Human"],
+      "coords": null,
+      "zone": "",
+      "tips": [],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "desolace_046",
+      "type": "info",
+      "description": "Talk to Jennea and train your class spells",
+      "classes": ["Mage"],
+      "races": ["Human"],
+      "coords": [36.87, 81.14],
+      "zone": "stormwind_city",
+      "tips": [],
+      "quests": [],
+      "npc": "Jennea Cannon",
+      "mobs": []
+    },
+    {
+      "id": "desolace_047",
+      "type": "fly",
+      "description": "Talk to Dungar Longdrink and fly to Redridge",
+      "classes": ["Mage"],
+      "races": ["Human"],
+      "coords": [66.277, 62.137],
+      "zone": "stormwind_city",
+      "tips": [],
+      "quests": [],
+      "npc": "Dungar Longdrink",
+      "mobs": []
+    },
+    {
+      "id": "desolace_048",
+      "type": "info",
+      "description": "Talk to Katie Hunter and Randal Hunter. Buy a Horse and train Horse Riding",
+      "classes": ["Mage"],
+      "races": ["Human"],
+      "coords": [84.321, 64.869],
+      "zone": "elwynn_forest",
+      "tips": [],
+      "quests": [],
+      "npc": "Randal Hunter",
+      "mobs": []
+    },
+    {
+      "id": "desolace_049",
+      "type": "info",
+      "description": "Teleport to Ironforge",
+      "classes": ["Mage"],
+      "races": ["Human"],
+      "coords": null,
+      "zone": "",
+      "tips": [],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "desolace_050",
+      "type": "fly",
+      "description": "Talk to Baritanas Skyriver and fly to Teldrassil",
+      "classes": null,
+      "races": ["NightElf"],
+      "coords": [64.66, 10.53],
+      "zone": "desolace",
+      "tips": [],
+      "quests": [],
+      "npc": "Baritanas Skyriver",
+      "mobs": []
+    },
+    {
+      "id": "desolace_051",
+      "type": "travel",
+      "description": "Take the purple portal into Darnassus",
+      "classes": null,
+      "races": ["NightElf"],
+      "coords": [55.889, 89.456],
+      "zone": "teldrassil",
+      "tips": [],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "desolace_052",
+      "type": "info",
+      "description": "Talk to Jartsam and Lelanai. Train Tiger Riding and buy a Frostsaber or Nightsaber",
+      "classes": null,
+      "races": ["NightElf"],
+      "coords": [38.283, 15.365],
+      "zone": "darnassus",
+      "tips": [],
+      "quests": [],
+      "npc": "Lelanai",
+      "mobs": []
+    },
+    {
+      "id": "desolace_053",
+      "type": "info",
+      "description": "Talk to Arias'ta Bladesinger and train your class spells",
+      "classes": ["Warrior"],
+      "races": ["NightElf"],
+      "coords": [58.72, 34.92],
+      "zone": "darnassus",
+      "tips": [],
+      "quests": [],
+      "npc": "Arias'ta Bladesinger",
+      "mobs": []
+    },
+    {
+      "id": "desolace_054",
+      "type": "info",
+      "description": "Talk to Jandria and train your class spells",
+      "classes": ["Priest"],
+      "races": ["NightElf"],
+      "coords": [37.9, 82.74],
+      "zone": "darnassus",
+      "tips": [],
+      "quests": [],
+      "npc": "Jandria",
+      "mobs": []
+    },
+    {
+      "id": "desolace_055",
+      "type": "info",
+      "description": "Talk to Syurna and train your class spells",
+      "classes": ["Rogue"],
+      "races": ["NightElf"],
+      "coords": [37.0, 21.92],
+      "zone": "darnassus",
+      "tips": [],
+      "quests": [],
+      "npc": "Syurna",
+      "mobs": []
+    },
+    {
+      "id": "desolace_056",
+      "type": "info",
+      "description": "Talk to Jocaste and train your class spells",
+      "classes": ["Hunter"],
+      "races": ["NightElf"],
+      "coords": [40.377, 8.545],
+      "zone": "darnassus",
+      "tips": [],
+      "quests": [],
+      "npc": "Jocaste",
+      "mobs": []
+    },
+    {
+      "id": "desolace_057",
+      "type": "travel",
+      "description": "Take the purple portal back to Rut'theran Village",
+      "classes": null,
+      "races": ["NightElf"],
+      "coords": [29.466, 41.405],
+      "zone": "darnassus",
+      "tips": [],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "desolace_058",
+      "type": "fly",
+      "description": "Talk to Vesprystus and fly to Theramore",
+      "classes": null,
+      "races": ["NightElf"],
+      "coords": [58.399, 94.016],
+      "zone": "teldrassil",
+      "tips": [],
+      "quests": [],
+      "npc": "Vesprystus",
+      "mobs": []
+    },
+    {
+      "id": "desolace_059",
+      "type": "fly",
+      "description": "Talk to Baritanas Skyriver and fly to Theramore",
+      "classes": ["!Mage"],
+      "races": null,
+      "coords": [64.66, 10.53],
+      "zone": "desolace",
+      "tips": [],
+      "quests": [],
+      "npc": "Baritanas Skyriver",
+      "mobs": []
+    },
+    {
+      "id": "desolace_060",
+      "type": "quest_accept",
+      "description": "Talk to Doctor Gustaf VanHowzen and accept Triage",
+      "classes": ["!Mage"],
+      "races": null,
+      "coords": [67.756, 48.968],
+      "zone": "dustwallow_marsh",
+      "tips": [],
+      "quests": [
+        {
+          "id": 6624,
+          "name": "Triage"
+        }
+      ],
+      "npc": "Doctor Gustaf VanHowzen",
+      "mobs": []
+    },
+    {
+      "id": "desolace_061",
+      "type": "loot",
+      "description": "Channel the Triage Bandage on the Alliance Soldiers. Prioritize Critically Injured Soldiers first",
+      "classes": ["!Mage"],
+      "races": null,
+      "coords": [67.756, 48.968],
+      "zone": "dustwallow_marsh",
+      "tips": [],
+      "quests": [
+        {
+          "id": 6624,
+          "name": "Triage"
+        }
+      ],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "desolace_062",
+      "type": "quest_turnin",
+      "description": "Talk to Doctor Gustaf VanHowzen and turn in Triage",
+      "classes": ["!Mage"],
+      "races": null,
+      "coords": [67.756, 48.968],
+      "zone": "dustwallow_marsh",
+      "tips": [],
+      "quests": [
+        {
+          "id": 6624,
+          "name": "Triage"
+        }
+      ],
+      "npc": "Doctor Gustaf VanHowzen",
+      "mobs": []
+    },
+    {
+      "id": "desolace_063",
+      "type": "info",
+      "description": "Delete the Triage Bandage. You no longer need it",
+      "classes": ["!Mage"],
+      "races": null,
+      "coords": null,
+      "zone": "",
+      "tips": [],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "desolace_064",
+      "type": "travel",
+      "description": "Swim west towards Tabetha",
+      "classes": ["Warlock"],
+      "races": null,
+      "coords": [55.26, 50.54],
+      "zone": "dustwallow_marsh",
+      "tips": [],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "desolace_065",
+      "type": "quest_turnin",
+      "description": "Talk to Tabetha, turn in Fragments of the Orb of Orahil, and accept Cleansing of the Orb of Orahil",
+      "classes": ["Warlock"],
+      "races": null,
+      "coords": [46.021, 57.096],
+      "zone": "dustwallow_marsh",
+      "tips": [
+        {
+          "type": "warning",
+          "class": null,
+          "text": "The follow up quest will have Tabetha summon Demon of the Orb which is a level 40 Elite that you need to kill. This quest is simple so long as you don't agro additional mobs"
+        },
+        {
+          "type": "warning",
+          "class": null,
+          "text": "Kill any mobs around Tabetha's farm before accepting the next quest"
+        }
+      ],
+      "quests": [
+        {
+          "id": 1799,
+          "name": "Fragments of the Orb of Orahil"
+        },
+        {
+          "id": 4961,
+          "name": "Cleansing of the Orb of Orahil"
+        }
+      ],
+      "npc": "Tabetha",
+      "mobs": []
+    },
+    {
+      "id": "desolace_066",
+      "type": "kill",
+      "description": "Kill Demon of the Orb.",
+      "classes": ["Warlock"],
+      "races": null,
+      "coords": [45.87, 56.74],
+      "zone": "dustwallow_marsh",
+      "tips": [
+        {
+          "type": "warning",
+          "class": null,
+          "text": "Cast Fear continously on Demon of the Orb until your DoTs kill it"
+        }
+      ],
+      "quests": [
+        {
+          "id": 4961,
+          "name": "Cleansing of the Orb of Orahil"
+        }
+      ],
+      "npc": null,
+      "mobs": ["Demon of the Orb"]
+    },
+    {
+      "id": "desolace_067",
+      "type": "quest_turnin",
+      "description": "Talk to Tabetha, turn in Cleansing of the Orb of Orahil, and accept Returning the Cleansed Orb",
+      "classes": ["Warlock"],
+      "races": null,
+      "coords": [46.021, 57.096],
+      "zone": "dustwallow_marsh",
+      "tips": [],
+      "quests": [
+        {
+          "id": 4961,
+          "name": "Cleansing of the Orb of Orahil"
+        },
+        {
+          "id": 4976,
+          "name": "Returning the Cleansed Orb"
+        }
+      ],
+      "npc": "Tabetha",
+      "mobs": []
+    },
+    {
+      "id": "desolace_068",
+      "type": "travel",
+      "description": "Swim to Theramore Isle",
+      "classes": ["Warlock"],
+      "races": null,
+      "coords": [69.38, 53.29],
+      "zone": "dustwallow_marsh",
+      "tips": [],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "desolace_069",
+      "type": "info",
+      "description": "Talk to Captain Evencane up stairs in the Keep and train your class spells",
+      "classes": ["Warrior"],
+      "races": null,
+      "coords": [67.875, 48.409],
+      "zone": "dustwallow_marsh",
+      "tips": [],
+      "quests": [],
+      "npc": "Captain Evencane",
+      "mobs": []
+    },
+    {
+      "id": "desolace_070",
+      "type": "info",
+      "description": "Talk to Brother Karman and train your class spells",
+      "classes": ["Paladin"],
+      "races": null,
+      "coords": [67.396, 47.41],
+      "zone": "dustwallow_marsh",
+      "tips": [],
+      "quests": [],
+      "npc": "Brother Karman",
+      "mobs": []
+    },
+    {
+      "id": "desolace_071",
+      "type": "travel",
+      "description": "Take the boat to Menethil Harbor",
+      "classes": ["!Mage"],
+      "races": null,
+      "coords": [71.46, 56.3],
+      "zone": "dustwallow_marsh",
+      "tips": [],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "desolace_072",
+      "type": "fly",
+      "description": "Talk to Shellei and fly to Arathi",
+      "classes": ["Druid", "Warrior"],
+      "races": ["NightElf"],
+      "coords": [9.49, 59.694],
+      "zone": "wetlands",
+      "tips": [],
+      "quests": [],
+      "npc": "Shellei Brondir",
+      "mobs": []
+    },
+    {
+      "id": "desolace_073",
+      "type": "fly",
+      "description": "Talk to Shellei and fly to Ironforge",
+      "classes": ["!Warlock", "!Mage", "!Paladin"],
+      "races": ["Gnome", "Dwarf"],
+      "coords": [9.49, 59.694],
+      "zone": "wetlands",
+      "tips": [
+        {
+          "type": "warning",
+          "class": null,
+          "text": "Travel to Kharanos and buy your Mechanostrider"
+        },
+        {
+          "type": "warning",
+          "class": null,
+          "text": "Travel to Amberstill Ranch and buy your Ram"
+        }
+      ],
+      "quests": [],
+      "npc": "Shellei Brondir",
+      "mobs": []
+    },
+    {
+      "id": "desolace_074",
+      "type": "info",
+      "description": "Teleport to Ironforge",
+      "classes": ["Mage"],
+      "races": ["Gnome"],
+      "coords": null,
+      "zone": "",
+      "tips": [],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "desolace_075",
+      "type": "info",
+      "description": "Talk to Dink and train your class spells",
+      "classes": ["Mage"],
+      "races": ["Gnome"],
+      "coords": [27.169, 8.579],
+      "zone": "ironforge",
+      "tips": [],
+      "quests": [],
+      "npc": "Dink",
+      "mobs": []
+    },
+    {
+      "id": "desolace_076",
+      "type": "info",
+      "description": "Talk to Binjy Featherwhistle and Milli Featherwhistle. Train Mechanostrider Piloting and buy a Mechanostrider",
+      "classes": ["!Warlock"],
+      "races": ["Gnome"],
+      "coords": [49.123, 47.956],
+      "zone": "dun_morogh",
+      "tips": [],
+      "quests": [],
+      "npc": "Milli Featherwhistle",
+      "mobs": []
+    },
+    {
+      "id": "desolace_077",
+      "type": "info",
+      "description": "Talk to Veron Amberstill and Ultham Ironhorn. Buy a Ram and train Ram Riding",
+      "classes": ["!Paladin"],
+      "races": ["Dwarf"],
+      "coords": [63.944, 50.095],
+      "zone": "dun_morogh",
+      "tips": [],
+      "quests": [],
+      "npc": "Ultham Ironhorn",
+      "mobs": []
+    },
+    {
+      "id": "desolace_078",
+      "type": "fly",
+      "description": "Talk to Shellei and fly to Redridge",
+      "classes": ["!Warlock", "!Paladin", "!Mage"],
+      "races": ["Human"],
+      "coords": [9.49, 59.694],
+      "zone": "wetlands",
+      "tips": [
+        {
+          "type": "warning",
+          "class": null,
+          "text": "Travel to the Eastvale Logging Camp to buy your Horse"
+        }
+      ],
+      "quests": [],
+      "npc": "Shellei Brondir",
+      "mobs": []
+    },
+    {
+      "id": "desolace_079",
+      "type": "info",
+      "description": "Talk to Katie Hunter and Randal Hunter. Buy a Horse and train Horse Riding",
+      "classes": ["!Warlock", "!Paladin", "!Mage"],
+      "races": ["Human"],
+      "coords": [84.321, 64.869],
+      "zone": "elwynn_forest",
+      "tips": [],
+      "quests": [],
+      "npc": "Randal Hunter",
+      "mobs": []
+    },
+    {
+      "id": "desolace_080",
+      "type": "fly",
+      "description": "Talk to Ariena Stormfeather and fly to Arathi",
+      "classes": ["Warrior"],
+      "races": ["Human"],
+      "coords": [30.59, 59.41],
+      "zone": "redridge_mountains",
+      "tips": [],
+      "quests": [],
+      "npc": "Ariena Stormfeather",
+      "mobs": []
+    },
+    {
+      "id": "desolace_081",
+      "type": "fly",
+      "description": "Talk to Ariena Stormfeather and fly to Ironforge",
+      "classes": ["!Warlock", "!Paladin", "!Mage"],
+      "races": ["Human"],
+      "coords": [30.59, 59.41],
+      "zone": "redridge_mountains",
+      "tips": [],
+      "quests": [],
+      "npc": "Ariena Stormfeather",
+      "mobs": []
+    },
+    {
+      "id": "desolace_082",
+      "type": "fly",
+      "description": "Talk to Shellei and fly to Ironforge",
+      "classes": ["Druid", "Warrior"],
+      "races": null,
+      "coords": [9.49, 59.694],
+      "zone": "wetlands",
+      "tips": [],
+      "quests": [],
+      "npc": "Shellei Brondir",
+      "mobs": []
+    },
+    {
+      "id": "desolace_083",
+      "type": "fly",
+      "description": "Talk to Shellei and fly to Stormwind to learn Summon Warhorse",
+      "classes": ["Paladin"],
+      "races": null,
+      "coords": [9.49, 59.694],
+      "zone": "wetlands",
+      "tips": [],
+      "quests": [],
+      "npc": "Shellei Brondir",
+      "mobs": []
+    },
+    {
+      "id": "desolace_084",
+      "type": "fly",
+      "description": "Talk to Shellei and fly to Ironforge",
+      "classes": ["!Mage", "!Druid", "!Warrior"],
+      "races": null,
+      "coords": [9.49, 59.694],
+      "zone": "wetlands",
+      "tips": [],
+      "quests": [],
+      "npc": "Shellei Brondir",
+      "mobs": []
+    },
+    {
+      "id": "desolace_085",
+      "type": "quest_accept",
+      "description": "Talk to Librarian Mae Paledust and accept Mythology of the Titans",
+      "classes": null,
+      "races": null,
+      "coords": [74.98, 12.486],
+      "zone": "ironforge",
+      "tips": [],
+      "quests": [
+        {
+          "id": 1050,
+          "name": "Mythology of the Titans"
+        }
+      ],
+      "npc": "Librarian Mae Paledust",
+      "mobs": []
+    },
+    {
+      "id": "desolace_086",
+      "type": "quest_turnin",
+      "description": "Talk to Roetten Stonehammer and turn in Reagents for Reclaimers Inc.",
+      "classes": null,
+      "races": null,
+      "coords": [69.93, 21.25],
+      "zone": "ironforge",
+      "tips": [],
+      "quests": [
+        {
+          "id": 1467,
+          "name": "Reagents for Reclaimers Inc."
+        }
+      ],
+      "npc": "Roetten Stonehammer",
+      "mobs": []
+    },
+    {
+      "id": "desolace_087",
+      "type": "info",
+      "description": "Talk to Fenthwick and train your class spells",
+      "classes": ["Rogue"],
+      "races": null,
+      "coords": [51.495, 15.33],
+      "zone": "ironforge",
+      "tips": [],
+      "quests": [],
+      "npc": "Fenthwick",
+      "mobs": []
+    },
+    {
+      "id": "desolace_088",
+      "type": "info",
+      "description": "Talk to Toldren Deepiron and train your class spells",
+      "classes": ["Priest"],
+      "races": null,
+      "coords": [25.207, 10.756],
+      "zone": "ironforge",
+      "tips": [],
+      "quests": [],
+      "npc": "Toldren Deepiron",
+      "mobs": []
+    },
+    {
+      "id": "desolace_089",
+      "type": "info",
+      "description": "Talk to Regnus Thundergranite and train your class spells",
+      "classes": ["Hunter"],
+      "races": null,
+      "coords": [69.872, 82.89],
+      "zone": "ironforge",
+      "tips": [],
+      "quests": [],
+      "npc": "Regnus Thundergranite",
+      "mobs": []
+    },
+    {
+      "id": "desolace_090",
+      "type": "fly",
+      "description": "Talk to Gryth and fly to Stormwind to learn Summon Warhorse",
+      "classes": ["Paladin"],
+      "races": null,
+      "coords": [55.501, 47.742],
+      "zone": "ironforge",
+      "tips": [
+        {
+          "type": "warning",
+          "class": null,
+          "text": "Skip this step if you already have your mount"
+        }
+      ],
+      "quests": [],
+      "npc": "Gryth Thurden",
+      "mobs": []
+    },
+    {
+      "id": "desolace_091",
+      "type": "quest_turnin",
+      "description": "Talk to Duthorian Rall and turn in The Tome of Nobility",
+      "classes": ["Paladin"],
+      "races": null,
+      "coords": [39.81, 29.79],
+      "zone": "stormwind_city",
+      "tips": [],
+      "quests": [
+        {
+          "id": 4485,
+          "name": "The Tome of Nobility"
+        },
+        {
+          "id": 1661,
+          "name": "The Tome of Nobility"
+        }
+      ],
+      "npc": "Duthorian Rall",
+      "mobs": []
+    },
+    {
+      "id": "desolace_092",
+      "type": "quest_turnin",
+      "description": "Talk to Duthorian Rall and turn in The Tome of Nobility",
+      "classes": ["Paladin"],
+      "races": null,
+      "coords": [39.81, 29.79],
+      "zone": "stormwind_city",
+      "tips": [],
+      "quests": [
+        {
+          "id": 4486,
+          "name": "The Tome of Nobility"
+        },
+        {
+          "id": 1661,
+          "name": "The Tome of Nobility"
+        }
+      ],
+      "npc": "Duthorian Rall",
+      "mobs": []
+    },
+    {
+      "id": "desolace_093",
+      "type": "quest_turnin",
+      "description": "Talk to Duthorian Rall and turn in The Tome of Nobility.",
+      "classes": ["Paladin"],
+      "races": null,
+      "coords": [39.81, 29.79],
+      "zone": "stormwind_city",
+      "tips": [
+        {
+          "type": "warning",
+          "class": null,
+          "text": "This is a simple quest turn in. You don't need to have the quest currently in your quest log"
+        }
+      ],
+      "quests": [
+        {
+          "id": 1661,
+          "name": "The Tome of Nobility"
+        }
+      ],
+      "npc": "Duthorian Rall",
+      "mobs": []
+    },
+    {
+      "id": "desolace_094",
+      "type": "fly",
+      "description": "Talk to Dungar Longdrink and fly to Arathi",
+      "classes": ["Paladin"],
+      "races": null,
+      "coords": [66.277, 62.137],
+      "zone": "stormwind_city",
+      "tips": [],
+      "quests": [],
+      "npc": "Dungar Longdrink",
+      "mobs": []
+    },
+    {
+      "id": "desolace_095",
+      "type": "info",
+      "description": "Talk to Jubahl Corpseseeker. Buy Grimoires for your pets",
+      "classes": ["Warlock"],
+      "races": null,
+      "coords": [52.701, 6.07],
+      "zone": "ironforge",
+      "tips": [],
+      "quests": [],
+      "npc": "Jubahl Corpseseeker",
+      "mobs": []
+    },
+    {
+      "id": "desolace_096",
+      "type": "quest_accept",
+      "description": "Talk to Briarthorn, accept Summon Felsteed, and train your class spells",
+      "classes": ["Warlock"],
+      "races": null,
+      "coords": [50.343, 5.657],
+      "zone": "ironforge",
+      "tips": [],
+      "quests": [
+        {
+          "id": 4487,
+          "name": "Summon Felsteed"
+        }
+      ],
+      "npc": "Briarthorn",
+      "mobs": []
+    },
+    {
+      "id": "desolace_097",
+      "type": "fly",
+      "description": "Talk to Gryth and fly to Wetlands",
+      "classes": ["Warlock"],
+      "races": null,
+      "coords": [55.501, 47.742],
+      "zone": "ironforge",
+      "tips": [],
+      "quests": [],
+      "npc": "Gryth Thurden",
+      "mobs": []
+    },
+    {
+      "id": "desolace_098",
+      "type": "travel",
+      "description": "Take the boat to Theramore",
+      "classes": ["Warlock"],
+      "races": null,
+      "coords": [4.79, 63.67],
+      "zone": "wetlands",
+      "tips": [],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "desolace_099",
+      "type": "fly",
+      "description": "Talk to Baldruc and fly to Ratchet",
+      "classes": ["Warlock"],
+      "races": null,
+      "coords": [67.47, 51.3],
+      "zone": "dustwallow_marsh",
+      "tips": [],
+      "quests": [],
+      "npc": "Baldruc",
+      "mobs": []
+    },
+    {
+      "id": "desolace_100",
+      "type": "quest_turnin",
+      "description": "Talk to Strahad Farsan, turn in Summon Felsteed, accept Summon Felsteed, and turn in Summon Felsteed",
+      "classes": ["Warlock"],
+      "races": null,
+      "coords": [62.627, 35.5],
+      "zone": "the_barrens",
+      "tips": [],
+      "quests": [
+        {
+          "id": 4488,
+          "name": "Summon Felsteed"
+        },
+        {
+          "id": 4490,
+          "name": "Summon Felsteed"
+        }
+      ],
+      "npc": "Strahad Farsan",
+      "mobs": []
+    },
+    {
+      "id": "desolace_101",
+      "type": "quest_turnin",
+      "description": "Talk to Strahad Farsan, turn in Summon Felsteed, accept Summon Felsteed, and turn in Summon Felsteed",
+      "classes": ["Warlock"],
+      "races": null,
+      "coords": [62.627, 35.5],
+      "zone": "the_barrens",
+      "tips": [],
+      "quests": [
+        {
+          "id": 4487,
+          "name": "Summon Felsteed"
+        },
+        {
+          "id": 4490,
+          "name": "Summon Felsteed"
+        }
+      ],
+      "npc": "Strahad Farsan",
+      "mobs": []
+    },
+    {
+      "id": "desolace_102",
+      "type": "quest_accept",
+      "description": "Talk to Strahad Farsan, accept Summon Felsteed, and turn in Summon Felsteed",
+      "classes": ["Warlock"],
+      "races": null,
+      "coords": [62.627, 35.5],
+      "zone": "the_barrens",
+      "tips": [],
+      "quests": [
+        {
+          "id": 4490,
+          "name": "Summon Felsteed"
+        }
+      ],
+      "npc": "Strahad Farsan",
+      "mobs": []
+    },
+    {
+      "id": "desolace_103",
+      "type": "quest_turnin",
+      "description": "Talk to Menara Voidrender, turn in Shard of a Felhound and Returning the Cleansed Orb, wait out the RP, accept The Completed Orb of Dar'Orahil, and turn in The Completed Orb of Dar'Orahil",
+      "classes": ["Warlock"],
+      "races": null,
+      "coords": [62.509, 35.449],
+      "zone": "the_barrens",
+      "tips": [
+        {
+          "type": "warning",
+          "class": null,
+          "text": "Wait out the RP"
+        }
+      ],
+      "quests": [
+        {
+          "id": 4962,
+          "name": "Shard of a Felhound"
+        },
+        {
+          "id": 4976,
+          "name": "Returning the Cleansed Orb"
+        },
+        {
+          "id": 4964,
+          "name": "The Completed Orb of Dar'Orahil"
+        }
+      ],
+      "npc": "Menara Voidrender",
+      "mobs": []
+    },
+    {
+      "id": "desolace_104",
+      "type": "fly",
+      "description": "Talk to Bragok and fly to Theramore",
+      "classes": ["Warlock"],
+      "races": null,
+      "coords": [63.084, 37.163],
+      "zone": "the_barrens",
+      "tips": [],
+      "quests": [],
+      "npc": "Bragok",
+      "mobs": []
+    },
+    {
+      "id": "desolace_105",
+      "type": "travel",
+      "description": "Take the boat to Menethil Harbor",
+      "classes": ["Warlock"],
+      "races": null,
+      "coords": [71.46, 56.3],
+      "zone": "dustwallow_marsh",
+      "tips": [],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "desolace_106",
+      "type": "fly",
+      "description": "Talk to Shellei and fly to Arathi",
+      "classes": ["Warlock"],
+      "races": null,
+      "coords": [9.49, 59.694],
+      "zone": "wetlands",
+      "tips": [],
+      "quests": [],
+      "npc": "Shellei Brondir",
+      "mobs": []
+    },
+    {
+      "id": "desolace_107",
+      "type": "fly",
+      "description": "Talk to Shellei and fly to Arathi",
+      "classes": ["Warrior"],
+      "races": ["Human", "Gnome", "Dwarf"],
+      "coords": [9.49, 59.694],
+      "zone": "wetlands",
+      "tips": [],
+      "quests": [],
+      "npc": "Shellei Brondir",
+      "mobs": []
+    },
+    {
+      "id": "desolace_108",
+      "type": "fly",
+      "description": "Talk to Gryth Thurden and fly to Arathi",
+      "classes": null,
+      "races": null,
+      "coords": [55.501, 47.742],
+      "zone": "ironforge",
+      "tips": [],
+      "quests": [],
+      "npc": "Gryth Thurden",
+      "mobs": []
+    }
+  ]
+}

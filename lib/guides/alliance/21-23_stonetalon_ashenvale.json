@@ -1,0 +1,1295 @@
+{
+  "zone": "Stonetalon/Ashenvale",
+  "levelRange": "21-23",
+  "faction": "Alliance",
+  "name": "21-23_stonetalon_ashenvale",
+  "next": "23-24_wetlands_1",
+  "steps": [
+    {
+      "id": "stonetalon_001",
+      "type": "quest_accept",
+      "description": "Talk to Pelturas Whitemoon and accept Elune's Tear",
+      "classes": null,
+      "races": null,
+      "coords": [37.36, 51.79],
+      "zone": "ashenvale",
+      "tips": [],
+      "quests": [
+        {
+          "id": 1033,
+          "name": "Elune's Tear"
+        }
+      ],
+      "npc": "Pelturas Whitemoon",
+      "mobs": []
+    },
+    {
+      "id": "stonetalon_002",
+      "type": "loot",
+      "description": "Loot Elune's Tear on the ground",
+      "classes": null,
+      "races": null,
+      "coords": [46.37, 46.38],
+      "zone": "ashenvale",
+      "tips": [],
+      "quests": [
+        {
+          "id": 1033,
+          "name": "Elune's Tear"
+        }
+      ],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "stonetalon_003",
+      "type": "quest_turnin",
+      "description": "Talk to Pelturas Whitemoon and turn in Elune's Tear. Accept The Ruins of Stardust",
+      "classes": null,
+      "races": null,
+      "coords": [37.36, 51.79],
+      "zone": "ashenvale",
+      "tips": [],
+      "quests": [
+        {
+          "id": 1033,
+          "name": "Elune's Tear"
+        },
+        {
+          "id": 1034,
+          "name": "The Ruins of Stardust"
+        }
+      ],
+      "npc": "Pelturas Whitemoon",
+      "mobs": []
+    },
+    {
+      "id": "stonetalon_004",
+      "type": "loot",
+      "description": "Loot the Stardust Covered Bushes for the Handful of Stardust",
+      "classes": null,
+      "races": null,
+      "coords": [33.3, 67.79],
+      "zone": "ashenvale",
+      "tips": [
+        {
+          "type": "warning",
+          "class": null,
+          "text": "Their spawn locations are scattered throughout the island"
+        }
+      ],
+      "quests": [
+        {
+          "id": 1034,
+          "name": "The Ruins of Stardust"
+        }
+      ],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "stonetalon_005",
+      "type": "travel",
+      "description": "Head to the base of the mountain. Run straight north while climbing the mountain",
+      "classes": null,
+      "races": null,
+      "coords": [31.21, 61.6],
+      "zone": "ashenvale",
+      "tips": [],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "stonetalon_006",
+      "type": "quest_turnin",
+      "description": "Talk to Therysil and turn in Therylune's Escape",
+      "classes": null,
+      "races": null,
+      "coords": [22.64, 51.91],
+      "zone": "ashenvale",
+      "tips": [],
+      "quests": [
+        {
+          "id": 945,
+          "name": "Therylune's Escape"
+        }
+      ],
+      "npc": "Therysil",
+      "mobs": []
+    },
+    {
+      "id": "stonetalon_007",
+      "type": "travel",
+      "description": "Travel to The Zoram Strand",
+      "classes": null,
+      "races": null,
+      "coords": [14.79, 31.29],
+      "zone": "ashenvale",
+      "tips": [],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "stonetalon_008",
+      "type": "quest_accept",
+      "description": "Talk to Talen and accept The Ancient Statuette",
+      "classes": null,
+      "races": null,
+      "coords": [14.79, 31.29],
+      "zone": "ashenvale",
+      "tips": [],
+      "quests": [
+        {
+          "id": 1007,
+          "name": "The Ancient Statuette"
+        }
+      ],
+      "npc": "Talen",
+      "mobs": []
+    },
+    {
+      "id": "stonetalon_009",
+      "type": "loot",
+      "description": "Loot the Ancient Statuette on the ground",
+      "classes": null,
+      "races": null,
+      "coords": [14.2, 20.64],
+      "zone": "ashenvale",
+      "tips": [],
+      "quests": [
+        {
+          "id": 1007,
+          "name": "The Ancient Statuette"
+        }
+      ],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "stonetalon_010",
+      "type": "quest_turnin",
+      "description": "Talk to Talen and turn in The Ancient Statuette",
+      "classes": null,
+      "races": null,
+      "coords": [14.79, 31.29],
+      "zone": "ashenvale",
+      "tips": [],
+      "quests": [
+        {
+          "id": 1007,
+          "name": "The Ancient Statuette"
+        }
+      ],
+      "npc": "Talen",
+      "mobs": []
+    },
+    {
+      "id": "stonetalon_011",
+      "type": "kill",
+      "description": "Kill Wrathtail Nagas. Loot them for their Heads",
+      "classes": null,
+      "races": null,
+      "coords": [14.46, 17.15],
+      "zone": "ashenvale",
+      "tips": [],
+      "quests": [
+        {
+          "id": 1008,
+          "name": "The Zoram Strand"
+        }
+      ],
+      "npc": null,
+      "mobs": [
+        "Wrathtail Wave Rider",
+        "Wrathtail Sorceress",
+        "Wrathtail Myrmidon",
+        "Wrathtail Priestess",
+        "Wrathtail Razortail",
+        "Wrathtail Sea Witch"
+      ]
+    },
+    {
+      "id": "stonetalon_012",
+      "type": "quest_turnin",
+      "description": "Talk to Talen and turn in The Ancient Statuette. Accept Ruuzel",
+      "classes": null,
+      "races": null,
+      "coords": [14.79, 31.29],
+      "zone": "ashenvale",
+      "tips": [],
+      "quests": [
+        {
+          "id": 1007,
+          "name": "The Ancient Statuette"
+        },
+        {
+          "id": 1009,
+          "name": "Ruuzel"
+        }
+      ],
+      "npc": "Talen",
+      "mobs": []
+    },
+    {
+      "id": "stonetalon_013",
+      "type": "kill",
+      "description": "Kill Ruuzel. Loot her for the Ring of Zoram",
+      "classes": null,
+      "races": null,
+      "coords": [6.528, 13.361],
+      "zone": "ashenvale",
+      "tips": [
+        {
+          "type": "warning",
+          "class": null,
+          "text": "Ruuzel patrols the island with a Wrathtail Myrmidon and Wrathtail Sea Witch. Kill one of them and then reset them if needed"
+        },
+        {
+          "type": "warning",
+          "class": null,
+          "text": "Lady Vespia is a rarespawn that can also drop the Ring of Zoram if you see her"
+        }
+      ],
+      "quests": [
+        {
+          "id": 1009,
+          "name": "Ruuzel"
+        }
+      ],
+      "npc": null,
+      "mobs": ["Ruuzel"]
+    },
+    {
+      "id": "stonetalon_014",
+      "type": "kill",
+      "description": "Kill Wrathtail Nagas. Loot them for their Heads",
+      "classes": null,
+      "races": null,
+      "coords": [14.46, 17.15],
+      "zone": "ashenvale",
+      "tips": [],
+      "quests": [
+        {
+          "id": 1008,
+          "name": "The Zoram Strand"
+        }
+      ],
+      "npc": null,
+      "mobs": [
+        "Wrathtail Wave Rider",
+        "Wrathtail Sorceress",
+        "Wrathtail Myrmidon",
+        "Wrathtail Priestess",
+        "Wrathtail Razortail",
+        "Wrathtail Sea Witch"
+      ]
+    },
+    {
+      "id": "stonetalon_015",
+      "type": "quest_turnin",
+      "description": "Talk to Talen and turn in Ruuzel",
+      "classes": null,
+      "races": null,
+      "coords": [14.79, 31.29],
+      "zone": "ashenvale",
+      "tips": [],
+      "quests": [
+        {
+          "id": 1009,
+          "name": "Ruuzel"
+        }
+      ],
+      "npc": "Talen",
+      "mobs": []
+    },
+    {
+      "id": "stonetalon_016",
+      "type": "quest_turnin",
+      "description": "Talk to Teronis' Corpse and turn in Raene's Cleansing. Accept Raene's Cleansing",
+      "classes": null,
+      "races": null,
+      "coords": [20.31, 42.33],
+      "zone": "ashenvale",
+      "tips": [],
+      "quests": [
+        {
+          "id": 991,
+          "name": "Raene's Cleansing"
+        },
+        {
+          "id": 1023,
+          "name": "Raene's Cleansing"
+        }
+      ],
+      "npc": "Teronis' Corpse",
+      "mobs": []
+    },
+    {
+      "id": "stonetalon_017",
+      "type": "kill",
+      "description": "Kill Saltspittle Murlocs. Loot them for the Glowing Gem",
+      "classes": null,
+      "races": null,
+      "coords": [20.31, 42.33],
+      "zone": "ashenvale",
+      "tips": [],
+      "quests": [
+        {
+          "id": 1023,
+          "name": "Raene's Cleansing"
+        }
+      ],
+      "npc": null,
+      "mobs": [
+        "Saltspittle Warrior",
+        "Saltspittle Muckdweller",
+        "Saltspittle Oracle",
+        "Saltspittle Puddlejumper"
+      ]
+    },
+    {
+      "id": "stonetalon_018",
+      "type": "travel",
+      "description": "Travel to Astranaar",
+      "classes": null,
+      "races": null,
+      "coords": [34.67, 48.83],
+      "zone": "ashenvale",
+      "tips": [],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "stonetalon_019",
+      "type": "quest_turnin",
+      "description": "Talk to Shindrell Swiftfire and turn in The Zoram Strand. Accept Pridewings of Stonetalon",
+      "classes": null,
+      "races": null,
+      "coords": [34.67, 48.83],
+      "zone": "ashenvale",
+      "tips": [],
+      "quests": [
+        {
+          "id": 1008,
+          "name": "The Zoram Strand"
+        },
+        {
+          "id": 1134,
+          "name": "Pridewings of Stonetalon"
+        }
+      ],
+      "npc": "Shindrell Swiftfire",
+      "mobs": []
+    },
+    {
+      "id": "stonetalon_020",
+      "type": "quest_turnin",
+      "description": "Talk to Raene Wolfrunner and turn in Raene's Cleansing",
+      "classes": null,
+      "races": null,
+      "coords": [36.61, 49.58],
+      "zone": "ashenvale",
+      "tips": [],
+      "quests": [
+        {
+          "id": 1023,
+          "name": "Raene's Cleansing"
+        }
+      ],
+      "npc": "Raene Wolfrunner",
+      "mobs": []
+    },
+    {
+      "id": "stonetalon_021",
+      "type": "info",
+      "description": "Destroy Teronis' Journal. You no longer need it",
+      "classes": null,
+      "races": null,
+      "coords": null,
+      "zone": "",
+      "tips": [],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "stonetalon_022",
+      "type": "quest_turnin",
+      "description": "Talk to Pelturas Whitemoon and turn in The Ruins of Stardust",
+      "classes": null,
+      "races": null,
+      "coords": [37.36, 51.79],
+      "zone": "ashenvale",
+      "tips": [],
+      "quests": [
+        {
+          "id": 1034,
+          "name": "The Ruins of Stardust"
+        }
+      ],
+      "npc": "Pelturas Whitemoon",
+      "mobs": []
+    },
+    {
+      "id": "stonetalon_023",
+      "type": "fly",
+      "description": "Talk to Daelyshia and fly to Auberdine",
+      "classes": null,
+      "races": null,
+      "coords": [34.41, 47.99],
+      "zone": "ashenvale",
+      "tips": [],
+      "quests": [],
+      "npc": "Daelyshia",
+      "mobs": []
+    },
+    {
+      "id": "stonetalon_024",
+      "type": "quest_turnin",
+      "description": "Talk to Gwennyth Bly'Leggonde and turn in Beached Sea Creature and Beached Sea Turtle quests",
+      "classes": null,
+      "races": null,
+      "coords": [36.62, 45.59],
+      "zone": "darkshore",
+      "tips": [],
+      "quests": [
+        {
+          "id": 4730,
+          "name": "Beached Sea Creature"
+        },
+        {
+          "id": 4731,
+          "name": "Beached Sea Turtle"
+        },
+        {
+          "id": 4732,
+          "name": "Beached Sea Turtle"
+        },
+        {
+          "id": 4733,
+          "name": "Beached Sea Creature"
+        }
+      ],
+      "npc": "Gwennyth Bly'Leggonde",
+      "mobs": []
+    },
+    {
+      "id": "stonetalon_025",
+      "type": "quest_turnin",
+      "description": "Talk to Sentinel Glynda Nal'Shea and turn in WANTED: Murkdeep!",
+      "classes": null,
+      "races": null,
+      "coords": [37.7, 43.39],
+      "zone": "darkshore",
+      "tips": [],
+      "quests": [
+        {
+          "id": 4740,
+          "name": "WANTED: Murkdeep!"
+        }
+      ],
+      "npc": "Sentinel Glynda Nal'Shea",
+      "mobs": []
+    },
+    {
+      "id": "stonetalon_026",
+      "type": "quest_turnin",
+      "description": "Talk to Terenthis and turn in A Lost Master",
+      "classes": null,
+      "races": null,
+      "coords": [39.37, 43.48],
+      "zone": "darkshore",
+      "tips": [],
+      "quests": [
+        {
+          "id": 986,
+          "name": "A Lost Master"
+        }
+      ],
+      "npc": "Terenthis",
+      "mobs": []
+    },
+    {
+      "id": "stonetalon_027",
+      "type": "quest_turnin",
+      "description": "Talk to Terenthis and turn in Escape Through Stealth",
+      "classes": null,
+      "races": null,
+      "coords": [39.37, 43.48],
+      "zone": "darkshore",
+      "tips": [],
+      "quests": [
+        {
+          "id": 995,
+          "name": "Escape Through Stealth"
+        }
+      ],
+      "npc": "Terenthis",
+      "mobs": []
+    },
+    {
+      "id": "stonetalon_028",
+      "type": "quest_turnin",
+      "description": "Talk to Archaeologist Hollee and turn in The Absent Minded Prospector. Accept The Absent Minded Prospector",
+      "classes": null,
+      "races": null,
+      "coords": [37.44, 41.83],
+      "zone": "darkshore",
+      "tips": [],
+      "quests": [
+        {
+          "id": 731,
+          "name": "The Absent Minded Prospector"
+        },
+        {
+          "id": 741,
+          "name": "The Absent Minded Prospector"
+        }
+      ],
+      "npc": "Archaeologist Hollee",
+      "mobs": []
+    },
+    {
+      "id": "stonetalon_029",
+      "type": "fly",
+      "description": "Talk to Caylais Moonfeather and fly to Teldrassil",
+      "classes": ["!Mage", "!Paladin", "!Warlock"],
+      "races": null,
+      "coords": [36.336, 45.574],
+      "zone": "darkshore",
+      "tips": [],
+      "quests": [],
+      "npc": "Caylais Moonfeather",
+      "mobs": []
+    },
+    {
+      "id": "stonetalon_030",
+      "type": "travel",
+      "description": "Travel to the Auberdine Docks. Wait for the Rut'theran Village boat",
+      "classes": ["Mage", "Paladin", "Warlock"],
+      "races": null,
+      "coords": [32.75, 42.21],
+      "zone": "darkshore",
+      "tips": [],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "stonetalon_031",
+      "type": "travel",
+      "description": "Take the boat to Rut'theran Village",
+      "classes": ["Mage", "Paladin", "Warlock"],
+      "races": null,
+      "coords": [33.168, 40.21],
+      "zone": "darkshore",
+      "tips": [],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "stonetalon_032",
+      "type": "fly",
+      "description": "Talk to Vesprystus and get the Rut'theran Village Flight Path",
+      "classes": ["Mage", "Paladin"],
+      "races": null,
+      "coords": [58.39, 94.01],
+      "zone": "teldrassil",
+      "tips": [],
+      "quests": [],
+      "npc": "Vesprystus",
+      "mobs": []
+    },
+    {
+      "id": "stonetalon_033",
+      "type": "travel",
+      "description": "Take the purple portal into Darnassus",
+      "classes": null,
+      "races": null,
+      "coords": [55.889, 89.456],
+      "zone": "teldrassil",
+      "tips": [],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "stonetalon_034",
+      "type": "info",
+      "description": "Talk to Garryeth, Lairn or Idriana and deposit Glyph of Azora into your bank",
+      "classes": null,
+      "races": null,
+      "coords": [39.7, 42.1],
+      "zone": "darnassus",
+      "tips": [],
+      "quests": [],
+      "npc": "Garryeth",
+      "mobs": []
+    },
+    {
+      "id": "stonetalon_035",
+      "type": "info",
+      "description": "Talk to Ilyenia Moonfire and train Thrown",
+      "classes": ["Warrior"],
+      "races": null,
+      "coords": [57.559, 46.721],
+      "zone": "darnassus",
+      "tips": [],
+      "quests": [],
+      "npc": "Ilyenia Moonfire",
+      "mobs": []
+    },
+    {
+      "id": "stonetalon_036",
+      "type": "info",
+      "description": "Talk to Syurna and train your class spells",
+      "classes": ["Rogue"],
+      "races": null,
+      "coords": [36.99, 21.91],
+      "zone": "darnassus",
+      "tips": [],
+      "quests": [],
+      "npc": "Syurna",
+      "mobs": []
+    },
+    {
+      "id": "stonetalon_037",
+      "type": "info",
+      "description": "Talk to Denatharion and train your class spells",
+      "classes": ["Druid"],
+      "races": null,
+      "coords": [34.768, 7.374],
+      "zone": "darnassus",
+      "tips": [],
+      "quests": [],
+      "npc": "Denatharion",
+      "mobs": []
+    },
+    {
+      "id": "stonetalon_038",
+      "type": "info",
+      "description": "Talk to Jocaste and train your class spells",
+      "classes": ["Hunter"],
+      "races": null,
+      "coords": [40.377, 8.545],
+      "zone": "darnassus",
+      "tips": [],
+      "quests": [],
+      "npc": "Jocaste",
+      "mobs": []
+    },
+    {
+      "id": "stonetalon_039",
+      "type": "quest_turnin",
+      "description": "Talk to Mathrengyl Bearwalker up stairs and turn in Power over Poison",
+      "classes": ["Druid"],
+      "races": null,
+      "coords": [35.375, 8.405],
+      "zone": "darnassus",
+      "tips": [],
+      "quests": [
+        {
+          "id": 6125,
+          "name": "Power over Poison"
+        }
+      ],
+      "npc": "Mathrengyl Bearwalker",
+      "mobs": []
+    },
+    {
+      "id": "stonetalon_040",
+      "type": "quest_turnin",
+      "description": "Talk to Chief Archaeologist Greywhisker and turn in The Absent Minded Prospector. Accept The Absent Minded Prospector",
+      "classes": null,
+      "races": null,
+      "coords": [23.7, 64.51],
+      "zone": "teldrassil",
+      "tips": [],
+      "quests": [
+        {
+          "id": 741,
+          "name": "The Absent Minded Prospector"
+        },
+        {
+          "id": 942,
+          "name": "The Absent Minded Prospector"
+        }
+      ],
+      "npc": "Chief Archaeologist Greywhisker",
+      "mobs": []
+    },
+    {
+      "id": "stonetalon_041",
+      "type": "info",
+      "description": "Talk to Jandria and train your class spells",
+      "classes": ["Priest"],
+      "races": null,
+      "coords": [37.901, 82.742],
+      "zone": "darnassus",
+      "tips": [],
+      "quests": [],
+      "npc": "Jandria",
+      "mobs": []
+    },
+    {
+      "id": "stonetalon_042",
+      "type": "info",
+      "description": "Hearth to Astranaar. Buy food/water if needed",
+      "classes": ["!Warlock"],
+      "races": null,
+      "coords": null,
+      "zone": "",
+      "tips": [
+        {
+          "type": "tip",
+          "class": "Warrior",
+          "text": "Buy food if needed"
+        },
+        {
+          "type": "tip",
+          "class": "Rogue",
+          "text": "Buy food if needed"
+        }
+      ],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "stonetalon_043",
+      "type": "travel",
+      "description": "Travel through the purple portal to Rut'theran Village",
+      "classes": null,
+      "races": null,
+      "coords": [29.466, 41.405],
+      "zone": "darnassus",
+      "tips": [],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "stonetalon_044",
+      "type": "fly",
+      "description": "Talk to Vesprystus and fly to Ashenvale",
+      "classes": null,
+      "races": null,
+      "coords": [58.39, 94.01],
+      "zone": "teldrassil",
+      "tips": [],
+      "quests": [],
+      "npc": "Vesprystus",
+      "mobs": []
+    },
+    {
+      "id": "stonetalon_045",
+      "type": "info",
+      "description": "Buy 1 Flint and Tinder, and 2 Simple Wood",
+      "classes": ["Warlock"],
+      "races": null,
+      "coords": [34.85, 50.87],
+      "zone": "ashenvale",
+      "tips": [],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "stonetalon_046",
+      "type": "travel",
+      "description": "Travel to Stonetalon Mountains",
+      "classes": null,
+      "races": null,
+      "coords": [42.5, 71.7],
+      "zone": "ashenvale",
+      "tips": [],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "stonetalon_047",
+      "type": "quest_turnin",
+      "description": "Talk to Kaela Shadowspear and turn in On Guard in Stonetalon. Accept On Guard in Stonetalon",
+      "classes": null,
+      "races": null,
+      "coords": [59.899, 66.844],
+      "zone": "stonetalon_mountains",
+      "tips": [],
+      "quests": [
+        {
+          "id": 1070,
+          "name": "On Guard in Stonetalon"
+        },
+        {
+          "id": 1085,
+          "name": "On Guard in Stonetalon"
+        }
+      ],
+      "npc": "Kaela Shadowspear",
+      "mobs": []
+    },
+    {
+      "id": "stonetalon_048",
+      "type": "quest_turnin",
+      "description": "Talk to Gaxim Rustfizzle and turn in On Guard in Stonetalon. Accept A Gnome's Respite",
+      "classes": null,
+      "races": null,
+      "coords": [59.516, 67.146],
+      "zone": "stonetalon_mountains",
+      "tips": [],
+      "quests": [
+        {
+          "id": 1085,
+          "name": "On Guard in Stonetalon"
+        },
+        {
+          "id": 1071,
+          "name": "A Gnome's Respite"
+        }
+      ],
+      "npc": "Gaxim Rustfizzle",
+      "mobs": []
+    },
+    {
+      "id": "stonetalon_049",
+      "type": "quest_accept",
+      "description": "Talk to Ziz Fizziks and accept Super Reaper 6000",
+      "classes": null,
+      "races": null,
+      "coords": [58.989, 62.601],
+      "zone": "stonetalon_mountains",
+      "tips": [],
+      "quests": [
+        {
+          "id": 1093,
+          "name": "Super Reaper 6000"
+        }
+      ],
+      "npc": "Ziz Fizziks",
+      "mobs": []
+    },
+    {
+      "id": "stonetalon_050",
+      "type": "kill",
+      "description": "Kill Venture Co. Deforesters and Venture Co. Loggers",
+      "classes": null,
+      "races": null,
+      "coords": [62.36, 53.0],
+      "zone": "stonetalon_mountains",
+      "tips": [],
+      "quests": [
+        {
+          "id": 1071,
+          "name": "A Gnome's Respite"
+        }
+      ],
+      "npc": null,
+      "mobs": ["Venture Co. Deforester", "Venture Co. Logger"]
+    },
+    {
+      "id": "stonetalon_051",
+      "type": "quest_turnin",
+      "description": "Talk to Ziz Fizziks and turn in Super Reaper 6000. Accept Further Instructions",
+      "classes": null,
+      "races": null,
+      "coords": [58.989, 62.601],
+      "zone": "stonetalon_mountains",
+      "tips": [],
+      "quests": [
+        {
+          "id": 1093,
+          "name": "Super Reaper 6000"
+        },
+        {
+          "id": 1094,
+          "name": "Further Instructions"
+        }
+      ],
+      "npc": "Ziz Fizziks",
+      "mobs": []
+    },
+    {
+      "id": "stonetalon_052",
+      "type": "quest_turnin",
+      "description": "Talk to Gaxim Rustfizzle and turn in A Gnome's Respite. Accept An Old Colleague and A Scroll from Mauren",
+      "classes": null,
+      "races": null,
+      "coords": [59.516, 67.146],
+      "zone": "stonetalon_mountains",
+      "tips": [],
+      "quests": [
+        {
+          "id": 1071,
+          "name": "A Gnome's Respite"
+        },
+        {
+          "id": 1072,
+          "name": "An Old Colleague"
+        },
+        {
+          "id": 1075,
+          "name": "A Scroll from Mauren"
+        }
+      ],
+      "npc": "Gaxim Rustfizzle",
+      "mobs": []
+    },
+    {
+      "id": "stonetalon_053",
+      "type": "kill",
+      "description": "Kill Pridewing Wyverns and Pridewing Consorts. Loot them for their Pridewing Venom Sacs",
+      "classes": null,
+      "races": null,
+      "coords": [54.56, 38.12],
+      "zone": "stonetalon_mountains",
+      "tips": [],
+      "quests": [
+        {
+          "id": 1134,
+          "name": "Pridewings of Stonetalon"
+        }
+      ],
+      "npc": null,
+      "mobs": ["Pridewing Wyvern", "Pridewing Consort"]
+    },
+    {
+      "id": "stonetalon_054",
+      "type": "travel",
+      "description": "Travel to Stonetalon Peak",
+      "classes": null,
+      "races": null,
+      "coords": [37.103, 8.1],
+      "zone": "stonetalon_mountains",
+      "tips": [],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "stonetalon_055",
+      "type": "quest_turnin",
+      "description": "Talk to Keeper Albagorm and turn in Journey to Stonetalon Peak",
+      "classes": null,
+      "races": null,
+      "coords": [37.103, 8.1],
+      "zone": "stonetalon_mountains",
+      "tips": [],
+      "quests": [
+        {
+          "id": 1056,
+          "name": "Journey to Stonetalon Peak"
+        }
+      ],
+      "npc": "Keeper Albagorm",
+      "mobs": []
+    },
+    {
+      "id": "stonetalon_056",
+      "type": "info",
+      "description": "Talk to Illyanie and vendor trash",
+      "classes": ["Warlock"],
+      "races": null,
+      "coords": [35.595, 7.351],
+      "zone": "stonetalon_mountains",
+      "tips": [
+        {
+          "type": "warning",
+          "class": null,
+          "text": "Vendor trash"
+        }
+      ],
+      "quests": [],
+      "npc": "Illyanie",
+      "mobs": []
+    },
+    {
+      "id": "stonetalon_057",
+      "type": "fly",
+      "description": "Talk to Teloren and get the Stonetalon Flight Path. Fly to Ashenvale",
+      "classes": null,
+      "races": null,
+      "coords": [36.438, 7.181],
+      "zone": "stonetalon_mountains",
+      "tips": [],
+      "quests": [],
+      "npc": "Teloren",
+      "mobs": []
+    },
+    {
+      "id": "stonetalon_058",
+      "type": "travel",
+      "description": "Travel to The Barrens",
+      "classes": ["Warlock"],
+      "races": null,
+      "coords": [35.052, 27.025],
+      "zone": "the_barrens",
+      "tips": [],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "stonetalon_060",
+      "type": "quest_turnin",
+      "description": "Talk to Takar the Seer and turn in Devourer of Souls. Accept Heartswood and What is Love?",
+      "classes": ["Warlock"],
+      "races": null,
+      "coords": [49.307, 57.095],
+      "zone": "the_barrens",
+      "tips": [],
+      "quests": [
+        {
+          "id": 1716,
+          "name": "Devourer of Souls"
+        },
+        {
+          "id": 1738,
+          "name": "Heartswood"
+        },
+        {
+          "id": 65602,
+          "name": "What is Love?"
+        }
+      ],
+      "npc": "Takar the Seer",
+      "mobs": []
+    },
+    {
+      "id": "stonetalon_061",
+      "type": "travel",
+      "description": "Travel to Ratchet",
+      "classes": ["Warlock"],
+      "races": null,
+      "coords": [62.98, 37.21],
+      "zone": "the_barrens",
+      "tips": [],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "stonetalon_062",
+      "type": "quest_turnin",
+      "description": "Talk to Sputtervalve and turn in Further Instructions",
+      "classes": ["Warlock"],
+      "races": null,
+      "coords": [62.984, 37.218],
+      "zone": "the_barrens",
+      "tips": [],
+      "quests": [
+        {
+          "id": 1094,
+          "name": "Further Instructions"
+        }
+      ],
+      "npc": "Sputtervalve",
+      "mobs": []
+    },
+    {
+      "id": "stonetalon_063",
+      "type": "fly",
+      "description": "Talk to Bragok and get the Ratchet Flight Path",
+      "classes": ["Warlock"],
+      "races": null,
+      "coords": [63.084, 37.163],
+      "zone": "the_barrens",
+      "tips": [],
+      "quests": [],
+      "npc": "Bragok",
+      "mobs": []
+    },
+    {
+      "id": "stonetalon_064",
+      "type": "info",
+      "description": "Hearth to Astranaar. Buy food/water if needed",
+      "classes": ["Warlock"],
+      "races": null,
+      "coords": null,
+      "zone": "",
+      "tips": [
+        {
+          "type": "tip",
+          "class": "Warrior",
+          "text": "Buy food if needed"
+        },
+        {
+          "type": "tip",
+          "class": "Rogue",
+          "text": "Buy food if needed"
+        }
+      ],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "stonetalon_065",
+      "type": "quest_turnin",
+      "description": "Talk to Shindrell Swiftfire and turn in Pridewings of Stonetalon",
+      "classes": null,
+      "races": null,
+      "coords": [34.67, 48.83],
+      "zone": "ashenvale",
+      "tips": [],
+      "quests": [
+        {
+          "id": 1134,
+          "name": "Pridewings of Stonetalon"
+        }
+      ],
+      "npc": "Shindrell Swiftfire",
+      "mobs": []
+    },
+    {
+      "id": "stonetalon_066",
+      "type": "travel",
+      "description": "Travel to The Ruins of Ordil'Aran",
+      "classes": ["Warlock"],
+      "races": null,
+      "coords": [31.5, 31.5],
+      "zone": "ashenvale",
+      "tips": [],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "stonetalon_067",
+      "type": "loot",
+      "description": "Loot the Heartswood giant tree",
+      "classes": ["Warlock"],
+      "races": null,
+      "coords": [31.5, 31.5],
+      "zone": "ashenvale",
+      "tips": [],
+      "quests": [
+        {
+          "id": 1738,
+          "name": "Heartswood"
+        }
+      ],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "stonetalon_068",
+      "type": "loot",
+      "description": "Loot the torch on the table",
+      "classes": ["Warlock"],
+      "races": null,
+      "coords": [26.78, 22.42],
+      "zone": "ashenvale",
+      "tips": [],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "stonetalon_069",
+      "type": "info",
+      "description": "Create a campfire, then use the Unlit Torch",
+      "classes": ["Warlock"],
+      "races": null,
+      "coords": [26.78, 22.42],
+      "zone": "ashenvale",
+      "tips": [],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "stonetalon_070",
+      "type": "info",
+      "description": "Create a campfire, then use the Unlit Torch",
+      "classes": ["Warlock"],
+      "races": null,
+      "coords": [26.78, 22.42],
+      "zone": "ashenvale",
+      "tips": [],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "stonetalon_071",
+      "type": "loot",
+      "description": "Use the Burning Torch on the cart outside next to where you looted the torch, then go upstairs and loot the statue",
+      "classes": ["Warlock"],
+      "races": null,
+      "coords": [26.61, 22.01],
+      "zone": "ashenvale",
+      "tips": [],
+      "quests": [
+        {
+          "id": 65602,
+          "name": "What is Love?"
+        }
+      ],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "stonetalon_072",
+      "type": "travel",
+      "description": "Travel to Astranaar",
+      "classes": ["Warlock"],
+      "races": null,
+      "coords": [34.41, 47.98],
+      "zone": "ashenvale",
+      "tips": [],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "stonetalon_073",
+      "type": "fly",
+      "description": "Talk to Daelyshia and fly to Auberdine",
+      "classes": null,
+      "races": null,
+      "coords": [34.41, 47.98],
+      "zone": "ashenvale",
+      "tips": [],
+      "quests": [],
+      "npc": "Daelyshia",
+      "mobs": []
+    },
+    {
+      "id": "stonetalon_074",
+      "type": "travel",
+      "description": "Travel to the Auberdine Docks. Wait for the Menethil Harbor boat",
+      "classes": null,
+      "races": null,
+      "coords": [32.432, 43.744],
+      "zone": "darkshore",
+      "tips": [],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "stonetalon_075",
+      "type": "travel",
+      "description": "Level your First Aid and Cooking while waiting for the Menethil Harbor boat. Take the boat to Menethil Harbor",
+      "classes": null,
+      "races": null,
+      "coords": [32.44, 43.71],
+      "zone": "darkshore",
+      "tips": [
+        {
+          "type": "warning",
+          "class": null,
+          "text": "Level your First Aid and Cooking while waiting for the Menethil Harbor boat"
+        }
+      ],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    }
+  ]
+}

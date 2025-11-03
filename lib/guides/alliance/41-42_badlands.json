@@ -1,0 +1,910 @@
+{
+  "zone": "Badlands",
+  "levelRange": "41-42",
+  "faction": "Alliance",
+  "name": "41-42_badlands",
+  "next": "42-43_stranglethorn_vale_3",
+  "steps": [
+    {
+      "id": "badlands_001",
+      "type": "info",
+      "description": "Talk to Binjy Featherwhistle and Milli Featherwhistle. Train Mechanostrider Piloting and buy a Mechanostrider",
+      "classes": ["!Warlock"],
+      "races": ["Gnome"],
+      "coords": [49.123, 47.956],
+      "zone": "dun_morogh",
+      "tips": [],
+      "quests": [],
+      "npc": "Milli Featherwhistle",
+      "mobs": []
+    },
+    {
+      "id": "badlands_002",
+      "type": "info",
+      "description": "Talk to Veron Amberstill and Ultham Ironhorn. Buy a Ram and train Ram Riding",
+      "classes": ["!Paladin"],
+      "races": ["Dwarf"],
+      "coords": [63.944, 50.095],
+      "zone": "dun_morogh",
+      "tips": [],
+      "quests": [],
+      "npc": "Ultham Ironhorn",
+      "mobs": []
+    },
+    {
+      "id": "badlands_003",
+      "type": "info",
+      "description": "Talk to Briarthorn and train your class spells",
+      "classes": ["Warlock"],
+      "races": null,
+      "coords": [50.343, 5.657],
+      "zone": "ironforge",
+      "tips": [],
+      "quests": [],
+      "npc": "Briarthorn",
+      "mobs": []
+    },
+    {
+      "id": "badlands_004",
+      "type": "info",
+      "description": "Talk to Fenthwick and train your class spells",
+      "classes": ["Rogue"],
+      "races": null,
+      "coords": [51.495, 15.33],
+      "zone": "ironforge",
+      "tips": [],
+      "quests": [],
+      "npc": "Fenthwick",
+      "mobs": []
+    },
+    {
+      "id": "badlands_005",
+      "type": "info",
+      "description": "Talk to Toldren Deepiron and train your class spells",
+      "classes": ["Priest"],
+      "races": null,
+      "coords": [25.207, 10.756],
+      "zone": "ironforge",
+      "tips": [],
+      "quests": [],
+      "npc": "Toldren Deepiron",
+      "mobs": []
+    },
+    {
+      "id": "badlands_006",
+      "type": "info",
+      "description": "Talk to Dink and train your class spells",
+      "classes": ["Mage"],
+      "races": null,
+      "coords": [27.18, 8.6],
+      "zone": "ironforge",
+      "tips": [],
+      "quests": [],
+      "npc": "Dink",
+      "mobs": []
+    },
+    {
+      "id": "badlands_007",
+      "type": "info",
+      "description": "Talk to Brandur Ironhammer and train your class spells",
+      "classes": ["Paladin"],
+      "races": null,
+      "coords": [23.141, 6.149],
+      "zone": "ironforge",
+      "tips": [],
+      "quests": [],
+      "npc": "Brandur Ironhammer",
+      "mobs": []
+    },
+    {
+      "id": "badlands_008",
+      "type": "info",
+      "description": "Talk to Jubahl Corpseseeker. Buy Grimoires for your pets",
+      "classes": ["Warlock"],
+      "races": null,
+      "coords": [52.701, 6.07],
+      "zone": "ironforge",
+      "tips": [],
+      "quests": [],
+      "npc": "Jubahl Corpseseeker",
+      "mobs": []
+    },
+    {
+      "id": "badlands_009",
+      "type": "info",
+      "description": "Talk to Regnus Thundergranite and train your class spells",
+      "classes": ["Hunter"],
+      "races": null,
+      "coords": [69.872, 82.89],
+      "zone": "ironforge",
+      "tips": [],
+      "quests": [],
+      "npc": "Regnus Thundergranite",
+      "mobs": []
+    },
+    {
+      "id": "badlands_010",
+      "type": "info",
+      "description": "Talk to Bilban Tosslespanner and train your class spells",
+      "classes": ["Warrior"],
+      "races": null,
+      "coords": [65.905, 88.405],
+      "zone": "ironforge",
+      "tips": [],
+      "quests": [],
+      "npc": "Bilban Tosslespanner",
+      "mobs": []
+    },
+    {
+      "id": "badlands_011",
+      "type": "info",
+      "description": "Talk to Belia Thundergranite. Train Growl (Rank 5)",
+      "classes": ["Hunter"],
+      "races": null,
+      "coords": [70.856, 85.839],
+      "zone": "ironforge",
+      "tips": [],
+      "quests": [],
+      "npc": "Belia Thundergranite",
+      "mobs": []
+    },
+    {
+      "id": "badlands_012",
+      "type": "info",
+      "description": "Talk to Bailey Stonemantle. Deposit Kravel's Scheme, Sample Elven Gem, Elixir of Water Breathing (If you have any), Perenolde Tiara (If you have it), and Tomes of Alterac (If you have it) into your bank",
+      "classes": null,
+      "races": null,
+      "coords": [35.9, 60.17],
+      "zone": "ironforge",
+      "tips": [],
+      "quests": [],
+      "npc": "Bailey Stonemantle",
+      "mobs": []
+    },
+    {
+      "id": "badlands_013",
+      "type": "info",
+      "description": "Talk to Bailey Stonemantle. Withdraw 9 Blue Pearls (If you have them) from your bank",
+      "classes": null,
+      "races": null,
+      "coords": [35.9, 60.17],
+      "zone": "ironforge",
+      "tips": [],
+      "quests": [],
+      "npc": "Bailey Stonemantle",
+      "mobs": []
+    },
+    {
+      "id": "badlands_014",
+      "type": "info",
+      "description": "Talk to an Ironforge Auctioneer. Buy 9 Blue Pearls for an instant turn in at Badlands shortly. Skip this step if you wish to not buy any",
+      "classes": null,
+      "races": null,
+      "coords": null,
+      "zone": "",
+      "tips": [],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "badlands_015",
+      "type": "quest_turnin",
+      "description": "Talk to Roetten Stonehammer and turn in Reagents for Reclaimers Inc.",
+      "classes": null,
+      "races": null,
+      "coords": [69.93, 21.25],
+      "zone": "ironforge",
+      "tips": [],
+      "quests": [
+        {
+          "id": 1467,
+          "name": "Reagents for Reclaimers Inc."
+        }
+      ],
+      "npc": "Roetten Stonehammer",
+      "mobs": []
+    },
+    {
+      "id": "badlands_016",
+      "type": "quest_accept",
+      "description": "Talk to Prospector Stormpike, accept Ironband Wants You!, and turn in Stormpike's Deciphering",
+      "classes": null,
+      "races": null,
+      "coords": [74.645, 11.742],
+      "zone": "ironforge",
+      "tips": [],
+      "quests": [
+        {
+          "id": 707,
+          "name": "Ironband Wants You!"
+        },
+        {
+          "id": 554,
+          "name": "Stormpike's Deciphering"
+        }
+      ],
+      "npc": "Prospector Stormpike",
+      "mobs": []
+    },
+    {
+      "id": "badlands_017",
+      "type": "quest_turnin",
+      "description": "Talk to Librarian Mae Paledust and turn in Mythology of the Titans",
+      "classes": null,
+      "races": null,
+      "coords": [74.98, 12.486],
+      "zone": "ironforge",
+      "tips": [],
+      "quests": [
+        {
+          "id": 1050,
+          "name": "Mythology of the Titans"
+        }
+      ],
+      "npc": "Librarian Mae Paledust",
+      "mobs": []
+    },
+    {
+      "id": "badlands_018",
+      "type": "quest_accept",
+      "description": "Talk to Gerrig Bonegrip, turn in Myzrael's Allies, and accept Theldurin the Lost",
+      "classes": null,
+      "races": null,
+      "coords": [50.827, 5.621],
+      "zone": "ironforge",
+      "tips": [],
+      "quests": [
+        {
+          "id": 653,
+          "name": "Myzrael's Allies"
+        },
+        {
+          "id": 687,
+          "name": "Theldurin the Lost"
+        }
+      ],
+      "npc": "Gerrig Bonegrip",
+      "mobs": []
+    },
+    {
+      "id": "badlands_019",
+      "type": "fly",
+      "description": "Talk to Gryth Thurden and fly to Loch Modan",
+      "classes": null,
+      "races": null,
+      "coords": [55.501, 47.742],
+      "zone": "ironforge",
+      "tips": [],
+      "quests": [],
+      "npc": "Gryth Thurden",
+      "mobs": []
+    },
+    {
+      "id": "badlands_020",
+      "type": "quest_accept",
+      "description": "Talk to Ghak Healtouch and accept Badlands Reagent Run",
+      "classes": null,
+      "races": null,
+      "coords": [37.067, 49.379],
+      "zone": "loch_modan",
+      "tips": [],
+      "quests": [
+        {
+          "id": 2500,
+          "name": "Badlands Reagent Run"
+        }
+      ],
+      "npc": "Ghak Healtouch",
+      "mobs": []
+    },
+    {
+      "id": "badlands_021",
+      "type": "travel",
+      "description": "Travel to Ironband's Excavation Site",
+      "classes": null,
+      "races": null,
+      "coords": [65.93, 65.62],
+      "zone": "loch_modan",
+      "tips": [],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "badlands_022",
+      "type": "quest_accept",
+      "description": "Talk to Prospector Ironband, turn in Ironband Wants You!, and accept Find Agmond",
+      "classes": null,
+      "races": null,
+      "coords": [65.934, 65.622],
+      "zone": "loch_modan",
+      "tips": [],
+      "quests": [
+        {
+          "id": 707,
+          "name": "Ironband Wants You!"
+        },
+        {
+          "id": 738,
+          "name": "Find Agmond"
+        }
+      ],
+      "npc": "Prospector Ironband",
+      "mobs": []
+    },
+    {
+      "id": "badlands_023",
+      "type": "travel",
+      "description": "Travel to Badlands",
+      "classes": null,
+      "races": null,
+      "coords": [49.23, 7.8],
+      "zone": "badlands",
+      "tips": [],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "badlands_024",
+      "type": "quest_accept",
+      "description": "Talk to Prospector Ryedol and Sigrun Ironhew. Accept A Dwarf and His Tools and Mirages",
+      "classes": null,
+      "races": null,
+      "coords": [53.802, 43.301],
+      "zone": "badlands",
+      "tips": [],
+      "quests": [
+        {
+          "id": 719,
+          "name": "A Dwarf and His Tools"
+        },
+        {
+          "id": 718,
+          "name": "Mirages"
+        }
+      ],
+      "npc": "Sigrun Ironhew",
+      "mobs": []
+    },
+    {
+      "id": "badlands_025",
+      "type": "quest_accept",
+      "description": "Click the Crumpled Map on the ground and accept A Sign of Hope",
+      "classes": null,
+      "races": null,
+      "coords": [53.027, 33.944],
+      "zone": "badlands",
+      "tips": [],
+      "quests": [
+        {
+          "id": 720,
+          "name": "A Sign of Hope"
+        }
+      ],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "badlands_026",
+      "type": "kill",
+      "description": "Kill Shadowforge Dwarves. Loot them for Ryedol's Lucky Pick",
+      "classes": null,
+      "races": null,
+      "coords": [43.46, 30.54],
+      "zone": "badlands",
+      "tips": [],
+      "quests": [
+        {
+          "id": 719,
+          "name": "A Dwarf and His Tools"
+        }
+      ],
+      "npc": null,
+      "mobs": [
+        "Shadowforge Tunneler",
+        "Shadowforge Darkweaver",
+        "Shadowforge Chanter",
+        "Shadowforge Warrior"
+      ]
+    },
+    {
+      "id": "badlands_027",
+      "type": "travel",
+      "description": "Travel to Camp Kosh",
+      "classes": null,
+      "races": null,
+      "coords": [66.92, 23.45],
+      "zone": "badlands",
+      "tips": [],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "badlands_028",
+      "type": "loot",
+      "description": "Loot the Supply Crate on the ground",
+      "classes": null,
+      "races": null,
+      "coords": [66.92, 23.45],
+      "zone": "badlands",
+      "tips": [
+        {
+          "type": "warning",
+          "class": null,
+          "text": "The Supply Crate can spawn in a few locations at Camp Kosh"
+        }
+      ],
+      "quests": [
+        {
+          "id": 718,
+          "name": "Mirages"
+        }
+      ],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "badlands_029",
+      "type": "quest_turnin",
+      "description": "Talk to Sigrun Ironhew and Prospector Ryedol. Turn in Mirages, accept Scrounging, turn in A Dwarf and His Tools, and turn in A Sign of Hope",
+      "classes": null,
+      "races": null,
+      "coords": [53.421, 43.393],
+      "zone": "badlands",
+      "tips": [],
+      "quests": [
+        {
+          "id": 718,
+          "name": "Mirages"
+        },
+        {
+          "id": 733,
+          "name": "Scrounging"
+        },
+        {
+          "id": 719,
+          "name": "A Dwarf and His Tools"
+        },
+        {
+          "id": 720,
+          "name": "A Sign of Hope"
+        }
+      ],
+      "npc": "Prospector Ryedol",
+      "mobs": []
+    },
+    {
+      "id": "badlands_030",
+      "type": "quest_accept",
+      "description": "Talk to Martek the Exiled, turn in Martek the Exiled, and accept Indurium",
+      "classes": null,
+      "races": null,
+      "coords": [42.22, 52.693],
+      "zone": "badlands",
+      "tips": [],
+      "quests": [
+        {
+          "id": 1106,
+          "name": "Martek the Exiled"
+        },
+        {
+          "id": 1108,
+          "name": "Indurium"
+        }
+      ],
+      "npc": "Martek the Exiled",
+      "mobs": []
+    },
+    {
+      "id": "badlands_031",
+      "type": "quest_turnin",
+      "description": "Talk to Rigglefuzz, accept Pearl Diving, and turn in Pearl Diving",
+      "classes": null,
+      "races": null,
+      "coords": [42.388, 52.927],
+      "zone": "badlands",
+      "tips": [
+        {
+          "type": "warning",
+          "class": null,
+          "text": "Save the Flash Bomb reward from this quest for killing King Bangalash in STV later"
+        }
+      ],
+      "quests": [
+        {
+          "id": 705,
+          "name": "Pearl Diving"
+        }
+      ],
+      "npc": "Rigglefuzz",
+      "mobs": []
+    },
+    {
+      "id": "badlands_032",
+      "type": "quest_accept",
+      "description": "Talk to Rigglefuzz and accept Barbecued Buzzard Wings",
+      "classes": null,
+      "races": null,
+      "coords": [42.388, 52.927],
+      "zone": "badlands",
+      "tips": [],
+      "quests": [
+        {
+          "id": 703,
+          "name": "Barbecued Buzzard Wings"
+        }
+      ],
+      "npc": "Rigglefuzz",
+      "mobs": []
+    },
+    {
+      "id": "badlands_033",
+      "type": "quest_turnin",
+      "description": "Click the Battered Dwarven Skeleton, turn in Find Agmond, and accept Murdaloc",
+      "classes": null,
+      "races": null,
+      "coords": [50.892, 62.402],
+      "zone": "badlands",
+      "tips": [],
+      "quests": [
+        {
+          "id": 738,
+          "name": "Find Agmond"
+        },
+        {
+          "id": 739,
+          "name": "Murdaloc"
+        }
+      ],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "badlands_034",
+      "type": "kill",
+      "description": "Kill Stonevault Bonesnappers and Murdaloc. Loot them for their Indurium",
+      "classes": null,
+      "races": null,
+      "coords": [50.36, 69.12],
+      "zone": "badlands",
+      "tips": [],
+      "quests": [
+        {
+          "id": 739,
+          "name": "Murdaloc"
+        },
+        {
+          "id": 1108,
+          "name": "Indurium"
+        }
+      ],
+      "npc": null,
+      "mobs": ["Stonevault Bonesnapper", "Murdaloc"]
+    },
+    {
+      "id": "badlands_035",
+      "type": "quest_turnin",
+      "description": "Talk to Theldurin the Lost and turn in Theldurin the Lost",
+      "classes": null,
+      "races": null,
+      "coords": [51.386, 76.874],
+      "zone": "badlands",
+      "tips": [],
+      "quests": [
+        {
+          "id": 687,
+          "name": "Theldurin the Lost"
+        }
+      ],
+      "npc": "Theldurin the Lost",
+      "mobs": []
+    },
+    {
+      "id": "badlands_036",
+      "type": "quest_turnin",
+      "description": "Talk to Martek the Exiled, turn in Indurium, and accept News for Fizzle",
+      "classes": null,
+      "races": null,
+      "coords": [42.22, 52.693],
+      "zone": "badlands",
+      "tips": [],
+      "quests": [
+        {
+          "id": 1108,
+          "name": "Indurium"
+        },
+        {
+          "id": 1137,
+          "name": "News for Fizzle"
+        }
+      ],
+      "npc": "Martek the Exiled",
+      "mobs": []
+    },
+    {
+      "id": "badlands_037",
+      "type": "quest_accept",
+      "description": "Talk to Lotwil Veriatus and accept Study of the Elements: Rock",
+      "classes": null,
+      "races": null,
+      "coords": [25.948, 44.868],
+      "zone": "badlands",
+      "tips": [],
+      "quests": [
+        {
+          "id": 710,
+          "name": "Study of the Elements: Rock"
+        }
+      ],
+      "npc": "Lotwil Veriatus",
+      "mobs": []
+    },
+    {
+      "id": "badlands_038",
+      "type": "kill",
+      "description": "Kill Lesser Rock Elementals. Loot them for their Small Stone Shards and Rock Elemental Shards",
+      "classes": null,
+      "races": null,
+      "coords": [18.0, 42.8],
+      "zone": "badlands",
+      "tips": [
+        {
+          "type": "warning",
+          "class": null,
+          "text": "You don't have to collect all Rock Elemental Shards right now"
+        }
+      ],
+      "quests": [
+        {
+          "id": 710,
+          "name": "Study of the Elements: Rock"
+        },
+        {
+          "id": 2500,
+          "name": "Badlands Reagent Run"
+        }
+      ],
+      "npc": null,
+      "mobs": ["Lesser Rock Elemental"]
+    },
+    {
+      "id": "badlands_039",
+      "type": "quest_accept",
+      "description": "Talk to Lotwil Veriatus, turn in Study of the Elements: Rock, and accept Study of the Elements: Rock",
+      "classes": null,
+      "races": null,
+      "coords": [25.948, 44.868],
+      "zone": "badlands",
+      "tips": [],
+      "quests": [
+        {
+          "id": 710,
+          "name": "Study of the Elements: Rock"
+        },
+        {
+          "id": 711,
+          "name": "Study of the Elements: Rock"
+        }
+      ],
+      "npc": "Lotwil Veriatus",
+      "mobs": []
+    },
+    {
+      "id": "badlands_040",
+      "type": "kill",
+      "description": "Kill Rock Elementals. Loot them for their Large Stone Slabs and Rock Elemental Shards",
+      "classes": null,
+      "races": null,
+      "coords": [14.7, 35.3],
+      "zone": "badlands",
+      "tips": [
+        {
+          "type": "warning",
+          "class": null,
+          "text": "You don't have to collect all Rock Elemental Shards right now"
+        }
+      ],
+      "quests": [
+        {
+          "id": 711,
+          "name": "Study of the Elements: Rock"
+        },
+        {
+          "id": 2500,
+          "name": "Badlands Reagent Run"
+        }
+      ],
+      "npc": null,
+      "mobs": ["Rock Elemental"]
+    },
+    {
+      "id": "badlands_041",
+      "type": "quest_turnin",
+      "description": "Talk to Lotwil Veriatus and turn in Study of the Elements: Rock",
+      "classes": null,
+      "races": null,
+      "coords": [25.948, 44.868],
+      "zone": "badlands",
+      "tips": [],
+      "quests": [
+        {
+          "id": 711,
+          "name": "Study of the Elements: Rock"
+        }
+      ],
+      "npc": "Lotwil Veriatus",
+      "mobs": []
+    },
+    {
+      "id": "badlands_042",
+      "type": "kill",
+      "description": "Kill Lesser Rock Elementals. Loot them for their Rock Elemental Shards",
+      "classes": null,
+      "races": null,
+      "coords": [18.0, 42.8],
+      "zone": "badlands",
+      "tips": [],
+      "quests": [
+        {
+          "id": 2500,
+          "name": "Badlands Reagent Run"
+        }
+      ],
+      "npc": null,
+      "mobs": ["Lesser Rock Elemental"]
+    },
+    {
+      "id": "badlands_043",
+      "type": "kill",
+      "description": "Kill Dustbelcher Ogres. Loot them for their Scrap Metal",
+      "classes": null,
+      "races": null,
+      "coords": [11.0, 80.0],
+      "zone": "badlands",
+      "tips": [],
+      "quests": [
+        {
+          "id": 733,
+          "name": "Scrounging"
+        }
+      ],
+      "npc": null,
+      "mobs": [
+        "Dustbelcher Wyrmhunter",
+        "Dustbelcher Mauler",
+        "Dustbelcher Shaman"
+      ]
+    },
+    {
+      "id": "badlands_044",
+      "type": "kill",
+      "description": "Kill Buzzards. Loot them for their Gizzards and Wings. Kill Coyotes. Loot them for their Fangs",
+      "classes": null,
+      "races": null,
+      "coords": [55.8, 60.2],
+      "zone": "badlands",
+      "tips": [],
+      "quests": [
+        {
+          "id": 2500,
+          "name": "Badlands Reagent Run"
+        },
+        {
+          "id": 703,
+          "name": "Barbecued Buzzard Wings"
+        }
+      ],
+      "npc": null,
+      "mobs": [
+        "Starving Buzzard",
+        "Buzzard",
+        "Giant Buzzard",
+        "Crag Coyote",
+        "Feral Crag Coyote",
+        "Rabid Crag Coyote",
+        "Elder Crag Coyote"
+      ]
+    },
+    {
+      "id": "badlands_045",
+      "type": "quest_turnin",
+      "description": "Talk to Rigglefuzz and turn in Barbecued Buzzard Wings",
+      "classes": null,
+      "races": null,
+      "coords": [42.388, 52.927],
+      "zone": "badlands",
+      "tips": [],
+      "quests": [
+        {
+          "id": 703,
+          "name": "Barbecued Buzzard Wings"
+        }
+      ],
+      "npc": "Rigglefuzz",
+      "mobs": []
+    },
+    {
+      "id": "badlands_046",
+      "type": "quest_turnin",
+      "description": "Talk to Sigrun Ironhew and turn in Scrounging",
+      "classes": null,
+      "races": null,
+      "coords": [53.802, 43.301],
+      "zone": "badlands",
+      "tips": [],
+      "quests": [
+        {
+          "id": 733,
+          "name": "Scrounging"
+        }
+      ],
+      "npc": "Sigrun Ironhew",
+      "mobs": []
+    },
+    {
+      "id": "badlands_047",
+      "type": "travel",
+      "description": "Travel to Loch Modan",
+      "classes": null,
+      "races": null,
+      "coords": [46.78, 78.09],
+      "zone": "loch_modan",
+      "tips": [],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "badlands_048",
+      "type": "quest_turnin",
+      "description": "Talk to Prospector Ironband and turn in Murdaloc",
+      "classes": null,
+      "races": null,
+      "coords": [65.934, 65.622],
+      "zone": "loch_modan",
+      "tips": [],
+      "quests": [
+        {
+          "id": 739,
+          "name": "Murdaloc"
+        }
+      ],
+      "npc": "Prospector Ironband",
+      "mobs": []
+    },
+    {
+      "id": "badlands_049",
+      "type": "quest_turnin",
+      "description": "Talk to Ghak Healtouch and turn in Badlands Reagent Run",
+      "classes": null,
+      "races": null,
+      "coords": [37.067, 49.379],
+      "zone": "loch_modan",
+      "tips": [],
+      "quests": [
+        {
+          "id": 2500,
+          "name": "Badlands Reagent Run"
+        }
+      ],
+      "npc": "Ghak Healtouch",
+      "mobs": []
+    },
+    {
+      "id": "badlands_050",
+      "type": "fly",
+      "description": "Talk to Thorgrum Borrelson and fly to Ironforge",
+      "classes": null,
+      "races": null,
+      "coords": [33.938, 50.954],
+      "zone": "loch_modan",
+      "tips": [],
+      "quests": [],
+      "npc": "Thorgrum Borrelson",
+      "mobs": []
+    }
+  ]
+}

@@ -1,0 +1,1932 @@
+{
+  "zone": "Darkshore/Ashenvale",
+  "levelRange": "20-21",
+  "faction": "Alliance",
+  "name": "20-21_darkshore_ashenvale",
+  "next": "21-23_stonetalon_ashenvale",
+  "steps": [
+    {
+      "id": "darkshore_001",
+      "type": "info",
+      "description": "Cast Teleport: Moonglade",
+      "classes": ["Druid"],
+      "races": null,
+      "coords": null,
+      "zone": "",
+      "tips": [],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "darkshore_002",
+      "type": "info",
+      "description": "Go to Moonglade. Talk to Loganaar and train your class spells",
+      "classes": ["Druid"],
+      "races": null,
+      "coords": [52.53, 40.57],
+      "zone": "moonglade",
+      "tips": [],
+      "quests": [],
+      "npc": "Loganaar",
+      "mobs": []
+    },
+    {
+      "id": "darkshore_003",
+      "type": "info",
+      "description": "Hearth to Auberdine",
+      "classes": null,
+      "races": null,
+      "coords": null,
+      "zone": "",
+      "tips": [],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "darkshore_004",
+      "type": "quest_accept",
+      "description": "Click on The Wanted Poster",
+      "classes": null,
+      "races": null,
+      "coords": [37.21, 44.22],
+      "zone": "darkshore",
+      "tips": [],
+      "quests": [
+        {
+          "id": 4740,
+          "name": "WANTED: Murkdeep!"
+        }
+      ],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "darkshore_005",
+      "type": "quest_accept",
+      "description": "Talk to Barithras Moonshade",
+      "classes": null,
+      "races": null,
+      "coords": [19.9, 18.4],
+      "zone": "felwood",
+      "tips": [],
+      "quests": [
+        {
+          "id": 947,
+          "name": "Cave Mushrooms"
+        }
+      ],
+      "npc": "Barithras Moonshade",
+      "mobs": []
+    },
+    {
+      "id": "darkshore_006",
+      "type": "quest_accept",
+      "description": "Talk to Archaeologist Hollee",
+      "classes": null,
+      "races": null,
+      "coords": [37.44, 41.83],
+      "zone": "darkshore",
+      "tips": [],
+      "quests": [
+        {
+          "id": 729,
+          "name": "The Absent Minded Prospector"
+        }
+      ],
+      "npc": "Archaeologist Hollee",
+      "mobs": []
+    },
+    {
+      "id": "darkshore_007",
+      "type": "quest_accept",
+      "description": "Talk to Thundris Windweaver",
+      "classes": null,
+      "races": null,
+      "coords": [19.98, 14.4],
+      "zone": "felwood",
+      "tips": [],
+      "quests": [
+        {
+          "id": 4763,
+          "name": "The Blackwood Corrupted"
+        }
+      ],
+      "npc": "Thundris Windweaver",
+      "mobs": []
+    },
+    {
+      "id": "darkshore_008",
+      "type": "loot",
+      "description": "Use the Empty Cleansing Bowl in the Auberdine Moonwell",
+      "classes": null,
+      "races": null,
+      "coords": [37.78, 44.06],
+      "zone": "darkshore",
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "darkshore_009",
+      "type": "quest_turnin",
+      "description": "Talk to Gershala Nightwhisper and turn in The Corruption Abroad",
+      "classes": null,
+      "races": null,
+      "coords": [38.326, 43.04],
+      "zone": "darkshore",
+      "tips": [],
+      "quests": [
+        {
+          "id": 3765,
+          "name": "The Corruption Abroad"
+        }
+      ],
+      "npc": "Gershala Nightwhisper",
+      "mobs": []
+    },
+    {
+      "id": "darkshore_010",
+      "type": "quest_accept",
+      "description": "Talk to Tharnariun Treetender",
+      "classes": null,
+      "races": null,
+      "coords": [21.63, 18.15],
+      "zone": "felwood",
+      "tips": [],
+      "quests": [
+        {
+          "id": 2139,
+          "name": "Tharnariun's Hope"
+        }
+      ],
+      "npc": "Tharnariun Treetender",
+      "mobs": []
+    },
+    {
+      "id": "darkshore_011",
+      "type": "loot",
+      "description": "Open the Blackwood Grain Stores. Loot it for the Blackwood Grain Sample",
+      "classes": null,
+      "races": null,
+      "coords": [50.66, 34.94],
+      "zone": "darkshore",
+      "tips": [
+        {
+          "type": "warning",
+          "class": null,
+          "text": "Looting this will spawn 2 Blackwood Furbolgs that will agro and run at you. Be ready to fight them or reset them"
+        }
+      ],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "darkshore_012",
+      "type": "kill",
+      "description": "Kill Den Mother",
+      "classes": null,
+      "races": null,
+      "coords": [51.48, 38.26],
+      "zone": "darkshore",
+      "tips": [
+        {
+          "type": "warning",
+          "class": null,
+          "text": "Be aware of the Thistle Cubs which can stun you for 2 seconds"
+        }
+      ],
+      "quests": [
+        {
+          "id": 2139,
+          "name": "Tharnariun's Hope"
+        }
+      ],
+      "npc": null,
+      "mobs": ["Den Mother", "Thistle Cub"]
+    },
+    {
+      "id": "darkshore_013",
+      "type": "loot",
+      "description": "Open the Blackwood Nut Stores. Loot it for the Blackwood Nut Sample",
+      "classes": null,
+      "races": null,
+      "coords": [51.83, 33.5],
+      "zone": "darkshore",
+      "tips": [
+        {
+          "type": "warning",
+          "class": null,
+          "text": "Looting this will spawn 2 Blackwood Furbolgs that will agro and run at you. Be ready to fight them or reset them"
+        }
+      ],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "darkshore_014",
+      "type": "loot",
+      "description": "Open the Blackwood Fruit Stores. Loot it for the Blackwood Fruit Sample",
+      "classes": null,
+      "races": null,
+      "coords": [52.86, 33.41],
+      "zone": "darkshore",
+      "tips": [
+        {
+          "type": "warning",
+          "class": null,
+          "text": "Looting this will spawn 2 Blackwood Furbolgs that will agro and run at you. Be ready to fight them or reset them"
+        }
+      ],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "darkshore_015",
+      "type": "info",
+      "description": "Use the Filled Cleansing Bowl at the Bonfire to summon Xabraxxis",
+      "classes": null,
+      "races": null,
+      "coords": [52.38, 33.39],
+      "zone": "darkshore",
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "darkshore_016",
+      "type": "kill",
+      "description": "Kill Xabraxxis. Open the Xabraxxis' Demon Bag he drops on the ground. Loot it for the Talisman of Corruption",
+      "classes": null,
+      "races": null,
+      "coords": [52.38, 33.39],
+      "zone": "darkshore",
+      "tips": [],
+      "quests": [
+        {
+          "id": 4763,
+          "name": "The Blackwood Corrupted"
+        }
+      ],
+      "npc": null,
+      "mobs": ["Xabraxxis"]
+    },
+    {
+      "id": "darkshore_017",
+      "type": "loot",
+      "description": "Loot the Scaber Stalks and Death Cap on the ground",
+      "classes": null,
+      "races": null,
+      "coords": [55.66, 34.89],
+      "zone": "darkshore",
+      "tips": [
+        {
+          "type": "warning",
+          "class": null,
+          "text": "Stay on the upper section. If the Death Cap is not at the end of the top side, drop down and get one from below"
+        },
+        {
+          "type": "warning",
+          "class": null,
+          "text": "Don't face your back to the center! Stormscale Wave Rider's can knock you back!"
+        }
+      ],
+      "quests": [
+        {
+          "id": 947,
+          "name": "Cave Mushrooms"
+        }
+      ],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "darkshore_018",
+      "type": "quest_turnin",
+      "description": "Talk to Thundris Windweaver and turn in The Blackwood Corrupted",
+      "classes": null,
+      "races": null,
+      "coords": [19.98, 14.4],
+      "zone": "felwood",
+      "tips": [],
+      "quests": [
+        {
+          "id": 4763,
+          "name": "The Blackwood Corrupted"
+        }
+      ],
+      "npc": "Thundris Windweaver",
+      "mobs": []
+    },
+    {
+      "id": "darkshore_019",
+      "type": "quest_turnin",
+      "description": "Talk to Barithras Moonshade and turn in Cave Mushrooms. Accept Onu",
+      "classes": null,
+      "races": null,
+      "coords": [19.9, 18.4],
+      "zone": "felwood",
+      "tips": [],
+      "quests": [
+        {
+          "id": 947,
+          "name": "Cave Mushrooms"
+        },
+        {
+          "id": 948,
+          "name": "Onu"
+        }
+      ],
+      "npc": "Barithras Moonshade",
+      "mobs": []
+    },
+    {
+      "id": "darkshore_020",
+      "type": "quest_turnin",
+      "description": "Talk to Tharnariun Treetender and turn in Tharnariun's Hope",
+      "classes": null,
+      "races": null,
+      "coords": [21.63, 18.15],
+      "zone": "felwood",
+      "tips": [],
+      "quests": [
+        {
+          "id": 2139,
+          "name": "Tharnariun's Hope"
+        }
+      ],
+      "npc": "Tharnariun Treetender",
+      "mobs": []
+    },
+    {
+      "id": "darkshore_021",
+      "type": "quest_accept",
+      "description": "Talk to Terenthis",
+      "classes": null,
+      "races": null,
+      "coords": [39.37, 43.48],
+      "zone": "darkshore",
+      "tips": [],
+      "quests": [
+        {
+          "id": 986,
+          "name": "A Lost Master"
+        }
+      ],
+      "npc": "Terenthis",
+      "mobs": []
+    },
+    {
+      "id": "darkshore_022",
+      "type": "kill",
+      "description": "Kill Moonstalker Sires and Moonstalker Matriarchs. Loot them for their Pelts and Fangs",
+      "classes": null,
+      "races": null,
+      "coords": null,
+      "zone": "",
+      "tips": [
+        {
+          "type": "warning",
+          "class": null,
+          "text": "Be aware of Moonstalker Matriarchs. They always attack with a Moonstalker Runt by their side"
+        }
+      ],
+      "quests": [
+        {
+          "id": 986,
+          "name": "A Lost Master"
+        }
+      ],
+      "npc": null,
+      "mobs": ["Moonstalker Sire", "Moonstalker Matriarch", "Moonstalker Runt"]
+    },
+    {
+      "id": "darkshore_023",
+      "type": "kill",
+      "description": "Kill Grizzled Thistle Bears. Loot them for their Scalps",
+      "classes": null,
+      "races": null,
+      "coords": [40.23, 81.28],
+      "zone": "darkshore",
+      "tips": [],
+      "quests": [
+        {
+          "id": 1003,
+          "name": "Buzzbox 525"
+        }
+      ],
+      "npc": null,
+      "mobs": ["Grizzled Thistle Bear"]
+    },
+    {
+      "id": "darkshore_024",
+      "type": "travel",
+      "description": "Travel to the Grove of the Ancients",
+      "classes": null,
+      "races": null,
+      "coords": [27.0, 55.59],
+      "zone": "felwood",
+      "tips": [],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "darkshore_025",
+      "type": "quest_turnin",
+      "description": "Talk to Onu and turn in Grove of the Ancients. Turn in Onu. Accept The Master's Glaive",
+      "classes": ["NightElf"],
+      "races": null,
+      "coords": [27.0, 55.59],
+      "zone": "felwood",
+      "tips": [],
+      "quests": [
+        {
+          "id": 952,
+          "name": "Grove of the Ancients"
+        },
+        {
+          "id": 948,
+          "name": "Onu"
+        },
+        {
+          "id": 944,
+          "name": "The Master's Glaive"
+        }
+      ],
+      "npc": "Onu",
+      "mobs": []
+    },
+    {
+      "id": "darkshore_026",
+      "type": "travel",
+      "description": "Travel to The Master's Glaive",
+      "classes": null,
+      "races": null,
+      "coords": [38.54, 86.05],
+      "zone": "darkshore",
+      "tips": [],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "darkshore_027",
+      "type": "info",
+      "description": "Discover The Master's Glaive",
+      "classes": null,
+      "races": null,
+      "coords": [38.54, 86.05],
+      "zone": "darkshore",
+      "tips": [
+        {
+          "type": "warning",
+          "class": "Rogue",
+          "text": "Twilight Thugs can Disarm you for 6 seconds"
+        },
+        {
+          "type": "warning",
+          "class": "Paladin",
+          "text": "Twilight Thugs can Disarm you for 6 seconds"
+        },
+        {
+          "type": "warning",
+          "class": "Warrior",
+          "text": "Twilight Thugs can Disarm you for 6 seconds"
+        },
+        {
+          "type": "warning",
+          "class": null,
+          "text": "Twilight Disciples cast Renew and a 3 second Heal"
+        }
+      ],
+      "quests": [
+        {
+          "id": 944,
+          "name": "The Master's Glaive"
+        }
+      ],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "darkshore_028",
+      "type": "info",
+      "description": "Use the Phial of Scrying and place it on the ground",
+      "classes": null,
+      "races": null,
+      "coords": null,
+      "zone": "",
+      "tips": [
+        {
+          "type": "warning",
+          "class": null,
+          "text": "Use the Phial of Scrying and place it on the ground"
+        }
+      ],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "darkshore_029",
+      "type": "quest_turnin",
+      "description": "Click the Scrying Bowl and turn in The Master's Glaive. Accept The Twilight Camp",
+      "classes": null,
+      "races": null,
+      "coords": [38.54, 86.05],
+      "zone": "darkshore",
+      "tips": [
+        {
+          "type": "warning",
+          "class": "Rogue",
+          "text": "Twilight Thugs can Disarm you for 6 seconds"
+        },
+        {
+          "type": "warning",
+          "class": "Paladin",
+          "text": "Twilight Thugs can Disarm you for 6 seconds"
+        },
+        {
+          "type": "warning",
+          "class": "Warrior",
+          "text": "Twilight Thugs can Disarm you for 6 seconds"
+        },
+        {
+          "type": "warning",
+          "class": null,
+          "text": "Twilight Disciples cast Renew and a 3 second Heal"
+        }
+      ],
+      "quests": [
+        {
+          "id": 944,
+          "name": "The Master's Glaive"
+        },
+        {
+          "id": 949,
+          "name": "The Twilight Camp"
+        }
+      ],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "darkshore_030",
+      "type": "quest_turnin",
+      "description": "Click the Twilight Tome and turn in The Twilight Camp. Accept Return to Onu",
+      "classes": null,
+      "races": null,
+      "coords": [22.24, 2.52],
+      "zone": "ashenvale",
+      "tips": [
+        {
+          "type": "warning",
+          "class": "Rogue",
+          "text": "Twilight Thugs can Disarm you for 6 seconds"
+        },
+        {
+          "type": "warning",
+          "class": "Paladin",
+          "text": "Twilight Thugs can Disarm you for 6 seconds"
+        },
+        {
+          "type": "warning",
+          "class": "Warrior",
+          "text": "Twilight Thugs can Disarm you for 6 seconds"
+        },
+        {
+          "type": "warning",
+          "class": null,
+          "text": "Twilight Disciples cast Renew and a 3 second Heal"
+        }
+      ],
+      "quests": [
+        {
+          "id": 949,
+          "name": "The Twilight Camp"
+        },
+        {
+          "id": 950,
+          "name": "Return to Onu"
+        }
+      ],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "darkshore_031",
+      "type": "quest_accept",
+      "description": "Talk to Therylune. This will start an escort",
+      "classes": null,
+      "races": null,
+      "coords": [22.36, 3.98],
+      "zone": "ashenvale",
+      "tips": [
+        {
+          "type": "warning",
+          "class": null,
+          "text": "Skip this step if she is not there"
+        },
+        {
+          "type": "warning",
+          "class": "Rogue",
+          "text": "Twilight Thugs can Disarm you for 6 seconds"
+        },
+        {
+          "type": "warning",
+          "class": "Paladin",
+          "text": "Twilight Thugs can Disarm you for 6 seconds"
+        },
+        {
+          "type": "warning",
+          "class": "Warrior",
+          "text": "Twilight Thugs can Disarm you for 6 seconds"
+        },
+        {
+          "type": "warning",
+          "class": null,
+          "text": "Twilight Disciples cast Renew and a 3 second Heal"
+        }
+      ],
+      "quests": [
+        {
+          "id": 945,
+          "name": "Therylune's Escape"
+        }
+      ],
+      "npc": "Therylune",
+      "mobs": []
+    },
+    {
+      "id": "darkshore_032",
+      "type": "info",
+      "description": "Escort Therylune out of The Masters Glaive",
+      "classes": null,
+      "races": null,
+      "coords": [40.51, 87.09],
+      "zone": "darkshore",
+      "tips": [
+        {
+          "type": "warning",
+          "class": null,
+          "text": "Escort Therylune out of The Masters Glaive"
+        },
+        {
+          "type": "warning",
+          "class": "Rogue",
+          "text": "Twilight Thugs can Disarm you for 6 seconds"
+        },
+        {
+          "type": "warning",
+          "class": "Paladin",
+          "text": "Twilight Thugs can Disarm you for 6 seconds"
+        },
+        {
+          "type": "warning",
+          "class": "Warrior",
+          "text": "Twilight Thugs can Disarm you for 6 seconds"
+        },
+        {
+          "type": "warning",
+          "class": null,
+          "text": "Twilight Disciples cast Renew and a 3 second Heal"
+        }
+      ],
+      "quests": [
+        {
+          "id": 945,
+          "name": "Therylune's Escape"
+        }
+      ],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "darkshore_033",
+      "type": "info",
+      "description": "Destroy the Phial of Scrying. You no longer need it",
+      "classes": null,
+      "races": null,
+      "coords": null,
+      "zone": "",
+      "tips": [],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "darkshore_034",
+      "type": "kill",
+      "description": "Kill Moonstalker Sires and Moonstalker Matriarchs. Loot them for their Pelts and Fangs",
+      "classes": null,
+      "races": null,
+      "coords": [39.3, 91.8],
+      "zone": "darkshore",
+      "tips": [
+        {
+          "type": "warning",
+          "class": null,
+          "text": "Be aware of Moonstalker Matriarchs. They always attack with a Moonstalker Runt by their side"
+        }
+      ],
+      "quests": [
+        {
+          "id": 986,
+          "name": "A Lost Master"
+        }
+      ],
+      "npc": null,
+      "mobs": ["Moonstalker Sire", "Moonstalker Matriarch", "Moonstalker Runt"]
+    },
+    {
+      "id": "darkshore_035",
+      "type": "quest_turnin",
+      "description": "Talk to Prospector Remtravel and turn in The Absent Minded Prospector",
+      "classes": null,
+      "races": null,
+      "coords": [18.08, 64.03],
+      "zone": "felwood",
+      "tips": [],
+      "quests": [
+        {
+          "id": 729,
+          "name": "The Absent Minded Prospector"
+        }
+      ],
+      "npc": "Prospector Remtravel",
+      "mobs": []
+    },
+    {
+      "id": "darkshore_036",
+      "type": "quest_accept",
+      "description": "Talk to Prospector Remtravel to start the escort",
+      "classes": null,
+      "races": null,
+      "coords": [35.72, 83.69],
+      "zone": "darkshore",
+      "tips": [
+        {
+          "type": "warning",
+          "class": null,
+          "text": "This quest is VERY difficult. Skip this step if you're unable to find a group or solo it"
+        },
+        {
+          "type": "link",
+          "class": null,
+          "text": "Click here for a video guide",
+          "url": "https://www.twitch.tv/videos/1182180918"
+        }
+      ],
+      "quests": [
+        {
+          "id": 731,
+          "name": "The Absent Minded Prospector"
+        }
+      ],
+      "npc": "Prospector Remtravel",
+      "mobs": []
+    },
+    {
+      "id": "darkshore_037",
+      "type": "info",
+      "description": "Escort Prospector Remtravel through the Excavation",
+      "classes": null,
+      "races": null,
+      "coords": null,
+      "zone": "",
+      "tips": [
+        {
+          "type": "warning",
+          "class": null,
+          "text": "Escort Prospector Remtravel through the Excavation"
+        },
+        {
+          "type": "warning",
+          "class": null,
+          "text": "This quest is VERY difficult. Skip this step if you're unable to find a group or solo it"
+        },
+        {
+          "type": "link",
+          "class": null,
+          "text": "Click here for a video guide",
+          "url": "https://www.twitch.tv/videos/1182180918"
+        }
+      ],
+      "quests": [
+        {
+          "id": 731,
+          "name": "The Absent Minded Prospector"
+        }
+      ],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "darkshore_038",
+      "type": "quest_accept",
+      "description": "Click the Beached Sea Creature",
+      "classes": null,
+      "races": null,
+      "coords": [13.97, 4.1],
+      "zone": "ashenvale",
+      "tips": [
+        {
+          "type": "warning",
+          "class": null,
+          "text": "This quest can be VERY difficult. Engage the Murlocs 1 by 1, otherwise you may agro multiple at the same time"
+        },
+        {
+          "type": "link",
+          "class": null,
+          "text": "Click here for a video guide",
+          "url": "https://www.twitch.tv/videos/992307825?t=05h48m36s"
+        }
+      ],
+      "quests": [
+        {
+          "id": 4733,
+          "name": "Beached Sea Creature"
+        }
+      ],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "darkshore_039",
+      "type": "quest_accept",
+      "description": "Click the Beached Sea Turtle",
+      "classes": null,
+      "races": null,
+      "coords": [13.93, 2.01],
+      "zone": "ashenvale",
+      "tips": [],
+      "quests": [
+        {
+          "id": 4732,
+          "name": "Beached Sea Turtle"
+        }
+      ],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "darkshore_040",
+      "type": "quest_accept",
+      "description": "Click the Beached Sea Turtle",
+      "classes": null,
+      "races": null,
+      "coords": [13.47, 64.01],
+      "zone": "felwood",
+      "tips": [],
+      "quests": [
+        {
+          "id": 4731,
+          "name": "Beached Sea Turtle"
+        }
+      ],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "darkshore_041",
+      "type": "quest_accept",
+      "description": "Click the Beached Sea Creature",
+      "classes": null,
+      "races": null,
+      "coords": [14.62, 60.72],
+      "zone": "felwood",
+      "tips": [],
+      "quests": [
+        {
+          "id": 4730,
+          "name": "Beached Sea Creature"
+        }
+      ],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "darkshore_042",
+      "type": "kill",
+      "description": "Kill Greymist Warriors and Greymist Hunters at the camp. Kill Murkdeep. He will run in from the water",
+      "classes": null,
+      "races": null,
+      "coords": [36.64, 76.53],
+      "zone": "darkshore",
+      "tips": [
+        {
+          "type": "warning",
+          "class": null,
+          "text": "Move to the Bonfire in the center of the camp to summon Murkdeep"
+        }
+      ],
+      "quests": [
+        {
+          "id": 4740,
+          "name": "WANTED: Murkdeep!"
+        }
+      ],
+      "npc": null,
+      "mobs": ["Greymist Warrior", "Greymist Hunter", "Greymist Coastrunner"]
+    },
+    {
+      "id": "darkshore_043",
+      "type": "kill",
+      "description": "Kill Grizzled Thistle Bears. Loot them for their Scalps",
+      "classes": null,
+      "races": null,
+      "coords": [38.0, 83.55],
+      "zone": "darkshore",
+      "tips": [],
+      "quests": [
+        {
+          "id": 1003,
+          "name": "Buzzbox 525"
+        }
+      ],
+      "npc": null,
+      "mobs": ["Grizzled Thistle Bear"]
+    },
+    {
+      "id": "darkshore_044",
+      "type": "quest_turnin",
+      "description": "Click the Buzzbox 525 on the ground and turn in Buzzbox 525",
+      "classes": null,
+      "races": null,
+      "coords": [41.389, 80.565],
+      "zone": "darkshore",
+      "tips": [],
+      "quests": [
+        {
+          "id": 1003,
+          "name": "Buzzbox 525"
+        }
+      ],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "darkshore_045",
+      "type": "travel",
+      "description": "Travel toward Volcor in the Cave",
+      "classes": null,
+      "races": null,
+      "coords": [45.0, 85.3],
+      "zone": "darkshore",
+      "tips": [],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "darkshore_046",
+      "type": "quest_turnin",
+      "description": "Talk to Volcor and turn in A Lost Master. Accept Escape Through Stealth",
+      "classes": null,
+      "races": null,
+      "coords": [45.0, 85.3],
+      "zone": "darkshore",
+      "tips": [],
+      "quests": [
+        {
+          "id": 993,
+          "name": "A Lost Master"
+        },
+        {
+          "id": 995,
+          "name": "Escape Through Stealth"
+        }
+      ],
+      "npc": "Volcor",
+      "mobs": []
+    },
+    {
+      "id": "darkshore_047",
+      "type": "info",
+      "description": "Wait out the RP",
+      "classes": null,
+      "races": null,
+      "coords": [44.44, 84.69],
+      "zone": "darkshore",
+      "tips": [
+        {
+          "type": "warning",
+          "class": null,
+          "text": "Wait out the RP"
+        }
+      ],
+      "quests": [
+        {
+          "id": 995,
+          "name": "Escape Through Stealth"
+        }
+      ],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "darkshore_048",
+      "type": "quest_turnin",
+      "description": "Talk to Onu and turn in Mathystra Relics",
+      "classes": null,
+      "races": null,
+      "coords": [27.0, 55.59],
+      "zone": "felwood",
+      "tips": [],
+      "quests": [
+        {
+          "id": 951,
+          "name": "Mathystra Relics"
+        }
+      ],
+      "npc": "Onu",
+      "mobs": []
+    },
+    {
+      "id": "darkshore_049",
+      "type": "quest_turnin",
+      "description": "Talk to Onu and turn in Return to Onu",
+      "classes": null,
+      "races": null,
+      "coords": [27.0, 55.59],
+      "zone": "felwood",
+      "tips": [],
+      "quests": [
+        {
+          "id": 950,
+          "name": "Return to Onu"
+        }
+      ],
+      "npc": "Onu",
+      "mobs": []
+    },
+    {
+      "id": "darkshore_050",
+      "type": "quest_accept",
+      "description": "Talk to Kerlonian Evershade to start the escort",
+      "classes": null,
+      "races": null,
+      "coords": [27.96, 55.76],
+      "zone": "felwood",
+      "tips": [
+        {
+          "type": "warning",
+          "class": null,
+          "text": "Skip this step if he is not there. It can take up to 25 minutes for him to respawn"
+        }
+      ],
+      "quests": [
+        {
+          "id": 5321,
+          "name": "The Sleeper Has Awakened"
+        }
+      ],
+      "npc": "Kerlonian Evershade",
+      "mobs": []
+    },
+    {
+      "id": "darkshore_051",
+      "type": "loot",
+      "description": "Open Kerlonian's Chest. Loot it for the Horn of Awakening",
+      "classes": null,
+      "races": null,
+      "coords": [44.38, 76.3],
+      "zone": "darkshore",
+      "tips": [],
+      "quests": [
+        {
+          "id": 5321,
+          "name": "The Sleeper Has Awakened"
+        }
+      ],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "darkshore_052",
+      "type": "travel",
+      "description": "Travel south to Ashenvale",
+      "classes": null,
+      "races": null,
+      "coords": [29.7, 13.6],
+      "zone": "ashenvale",
+      "tips": [],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "darkshore_053",
+      "type": "info",
+      "description": "Escort Kerlonian to Maestra's Post in Ashenvale. Use the Horn of Awakening whenever Kerlonian falls asleep next to him",
+      "classes": null,
+      "races": null,
+      "coords": [27.26, 35.58],
+      "zone": "ashenvale",
+      "tips": [
+        {
+          "type": "warning",
+          "class": null,
+          "text": "Escort Kerlonian to Maestra's Post in Ashenvale"
+        },
+        {
+          "type": "warning",
+          "class": null,
+          "text": "Use the Horn of Awakening whenever Kerlonian falls asleep next to him"
+        },
+        {
+          "type": "warning",
+          "class": null,
+          "text": "Avoid running on the main road as much as possible. Enemies will only spawn if you're on the road"
+        }
+      ],
+      "quests": [
+        {
+          "id": 5321,
+          "name": "The Sleeper Has Awakened"
+        }
+      ],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "darkshore_054",
+      "type": "quest_turnin",
+      "description": "Talk to Liadris Moonriver and turn in The Sleeper Has Awakened",
+      "classes": null,
+      "races": null,
+      "coords": [27.26, 35.58],
+      "zone": "ashenvale",
+      "tips": [],
+      "quests": [
+        {
+          "id": 5321,
+          "name": "The Sleeper Has Awakened"
+        }
+      ],
+      "npc": "Liladris Moonriver",
+      "mobs": []
+    },
+    {
+      "id": "darkshore_055",
+      "type": "quest_turnin",
+      "description": "Talk to Delgren the Purifier and turn in The Tower of Althalaxx",
+      "classes": null,
+      "races": null,
+      "coords": [26.19, 38.69],
+      "zone": "ashenvale",
+      "tips": [],
+      "quests": [
+        {
+          "id": 967,
+          "name": "The Tower of Althalaxx"
+        }
+      ],
+      "npc": "Delgren the Purifier",
+      "mobs": []
+    },
+    {
+      "id": "darkshore_056",
+      "type": "quest_accept",
+      "description": "Talk to Delgren the Purifier",
+      "classes": null,
+      "races": null,
+      "coords": [26.19, 38.69],
+      "zone": "ashenvale",
+      "tips": [],
+      "quests": [
+        {
+          "id": 970,
+          "name": "The Tower of Althalaxx"
+        }
+      ],
+      "npc": "Delgren the Purifier",
+      "mobs": []
+    },
+    {
+      "id": "darkshore_057",
+      "type": "quest_accept",
+      "description": "Talk to Orendil Broadleaf",
+      "classes": null,
+      "races": null,
+      "coords": [26.43, 38.59],
+      "zone": "ashenvale",
+      "tips": [],
+      "quests": [
+        {
+          "id": 1010,
+          "name": "Bathran's Hair"
+        }
+      ],
+      "npc": "Orendil Broadleaf",
+      "mobs": []
+    },
+    {
+      "id": "darkshore_058",
+      "type": "kill",
+      "description": "Kill Dark Strand Cultists, Dark Strand Adepts, Dark Strand Enforcers and Dark Strand Excavators. Loot them for the Glowing Soul Gem",
+      "classes": null,
+      "races": null,
+      "coords": [31.25, 30.7],
+      "zone": "ashenvale",
+      "tips": [],
+      "quests": [
+        {
+          "id": 970,
+          "name": "The Tower of Althalaxx"
+        }
+      ],
+      "npc": null,
+      "mobs": [
+        "Dark Strand Cultist",
+        "Dark Strand Adept",
+        "Dark Strand Enforcer",
+        "Dark Strand Excavator"
+      ]
+    },
+    {
+      "id": "darkshore_059",
+      "type": "loot",
+      "description": "Open the Plant Bundles on the ground. Loot them for Bathran's Hairs",
+      "classes": null,
+      "races": null,
+      "coords": [31.89, 22.53],
+      "zone": "ashenvale",
+      "tips": [
+        {
+          "type": "warning",
+          "class": null,
+          "text": "They look like small brown sacks. They can be hard to see"
+        }
+      ],
+      "quests": [
+        {
+          "id": 1010,
+          "name": "Bathran's Hair"
+        }
+      ],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "darkshore_060",
+      "type": "quest_turnin",
+      "description": "Talk to Delgren the Purifier and turn in The Tower of Althalaxx",
+      "classes": null,
+      "races": null,
+      "coords": [26.19, 38.69],
+      "zone": "ashenvale",
+      "tips": [],
+      "quests": [
+        {
+          "id": 970,
+          "name": "The Tower of Althalaxx"
+        }
+      ],
+      "npc": "Delgren the Purifier",
+      "mobs": []
+    },
+    {
+      "id": "darkshore_061",
+      "type": "grind",
+      "description": "Grind to level 20",
+      "classes": null,
+      "races": null,
+      "coords": [31.89, 22.53],
+      "zone": "ashenvale",
+      "tips": [],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "darkshore_062",
+      "type": "quest_accept",
+      "description": "Talk to Orendil Broadleaf",
+      "classes": null,
+      "races": null,
+      "coords": [26.43, 38.59],
+      "zone": "ashenvale",
+      "tips": [],
+      "quests": [
+        {
+          "id": 1010,
+          "name": "Bathran's Hair"
+        }
+      ],
+      "npc": "Orendil Broadleaf",
+      "mobs": []
+    },
+    {
+      "id": "darkshore_063",
+      "type": "loot",
+      "description": "Open the Plant Bundles on the ground. Loot them for Bathran's Hairs",
+      "classes": null,
+      "races": null,
+      "coords": [31.89, 22.53],
+      "zone": "ashenvale",
+      "tips": [
+        {
+          "type": "warning",
+          "class": null,
+          "text": "They look like small brown sacks. They can be hard to see"
+        }
+      ],
+      "quests": [
+        {
+          "id": 1010,
+          "name": "Bathran's Hair"
+        }
+      ],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "darkshore_064",
+      "type": "quest_turnin",
+      "description": "Talk to Orendil Broadleaf and turn in Bathran's Hair. Accept Orendil's Cure",
+      "classes": null,
+      "races": null,
+      "coords": [26.43, 38.59],
+      "zone": "ashenvale",
+      "tips": [],
+      "quests": [
+        {
+          "id": 1010,
+          "name": "Bathran's Hair"
+        },
+        {
+          "id": 1020,
+          "name": "Orendil's Cure"
+        }
+      ],
+      "npc": "Orendil Broadleaf",
+      "mobs": []
+    },
+    {
+      "id": "darkshore_065",
+      "type": "quest_turnin",
+      "description": "Talk to Delgren the Purifier and turn in The Tower of Althalaxx. Accept The Tower of Althalaxx",
+      "classes": null,
+      "races": null,
+      "coords": [26.19, 38.69],
+      "zone": "ashenvale",
+      "tips": [],
+      "quests": [
+        {
+          "id": 970,
+          "name": "The Tower of Althalaxx"
+        },
+        {
+          "id": 973,
+          "name": "The Tower of Althalaxx"
+        }
+      ],
+      "npc": "Delgren the Purifier",
+      "mobs": []
+    },
+    {
+      "id": "darkshore_066",
+      "type": "travel",
+      "description": "Travel to Astranaar",
+      "classes": null,
+      "races": null,
+      "coords": [34.4, 48.0],
+      "zone": "ashenvale",
+      "tips": [],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "darkshore_067",
+      "type": "fly",
+      "description": "Talk to Daelyshia and get the Astranaar Flight Path",
+      "classes": null,
+      "races": null,
+      "coords": [34.4, 48.0],
+      "zone": "ashenvale",
+      "tips": [],
+      "quests": [],
+      "npc": "Daelyshia",
+      "mobs": []
+    },
+    {
+      "id": "darkshore_068",
+      "type": "quest_accept",
+      "description": "Talk to Shindrell Swiftfire",
+      "classes": null,
+      "races": null,
+      "coords": [34.67, 48.83],
+      "zone": "ashenvale",
+      "tips": [],
+      "quests": [
+        {
+          "id": 1008,
+          "name": "The Zoram Strand"
+        }
+      ],
+      "npc": "Shindrell Swiftfire",
+      "mobs": []
+    },
+    {
+      "id": "darkshore_069",
+      "type": "quest_accept",
+      "description": "Talk to Sentinel Thenysil",
+      "classes": null,
+      "races": null,
+      "coords": [34.89, 49.79],
+      "zone": "ashenvale",
+      "tips": [],
+      "quests": [
+        {
+          "id": 1070,
+          "name": "On Guard in Stonetalon"
+        }
+      ],
+      "npc": "Sentinel Thenysil",
+      "mobs": []
+    },
+    {
+      "id": "darkshore_070",
+      "type": "quest_accept",
+      "description": "Talk to Faldreas Goeth'Shael",
+      "classes": null,
+      "races": null,
+      "coords": [35.76, 49.1],
+      "zone": "ashenvale",
+      "tips": [],
+      "quests": [
+        {
+          "id": 1056,
+          "name": "Journey to Stonetalon Peak"
+        }
+      ],
+      "npc": "Faldreas Goeth'Shael",
+      "mobs": []
+    },
+    {
+      "id": "darkshore_071",
+      "type": "quest_accept",
+      "description": "Talk to Raene Wolfrunner",
+      "classes": null,
+      "races": null,
+      "coords": [36.61, 49.58],
+      "zone": "ashenvale",
+      "tips": [],
+      "quests": [
+        {
+          "id": 991,
+          "name": "Raene's Cleansing"
+        }
+      ],
+      "npc": "Raene Wolfrunner",
+      "mobs": []
+    },
+    {
+      "id": "darkshore_072",
+      "type": "info",
+      "description": "Talk to Innkeeper Kimlya and set your Hearthstone to Astranaar",
+      "classes": null,
+      "races": null,
+      "coords": [36.99, 49.22],
+      "zone": "ashenvale",
+      "tips": [],
+      "quests": [],
+      "npc": "Innkeeper Kimlya",
+      "mobs": []
+    },
+    {
+      "id": "darkshore_073",
+      "type": "quest_turnin",
+      "description": "Talk to Pelturas Whitemoon and turn in Orendil's Cure",
+      "classes": null,
+      "races": null,
+      "coords": [37.36, 51.79],
+      "zone": "ashenvale",
+      "tips": [],
+      "quests": [
+        {
+          "id": 1020,
+          "name": "Orendil's Cure"
+        }
+      ],
+      "npc": "Pelturas Whitemoon",
+      "mobs": []
+    },
+    {
+      "id": "darkshore_074",
+      "type": "grind",
+      "description": "Grind Saltspittle Murlocs while looking for a group for The Wailing Caverns. Their location is marked on your map",
+      "classes": null,
+      "races": null,
+      "coords": [20.31, 42.33],
+      "zone": "ashenvale",
+      "tips": [],
+      "quests": [],
+      "npc": null,
+      "mobs": [
+        "Saltspittle Warrior",
+        "Saltspittle Muckdweller",
+        "Saltspittle Oracle",
+        "Saltspittle Puddlejumper"
+      ]
+    },
+    {
+      "id": "darkshore_075",
+      "type": "travel",
+      "description": "Travel to Ratchet in The Barrens. Follow the Arrow to avoid Barrens Guards",
+      "classes": null,
+      "races": null,
+      "coords": [63.087, 37.607],
+      "zone": "the_barrens",
+      "tips": [],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "darkshore_076",
+      "type": "fly",
+      "description": "Talk to Bragok and get the Ratchet Flight Path",
+      "classes": null,
+      "races": null,
+      "coords": [63.084, 37.163],
+      "zone": "the_barrens",
+      "tips": [],
+      "quests": [],
+      "npc": "Bragok",
+      "mobs": []
+    },
+    {
+      "id": "darkshore_077",
+      "type": "quest_accept",
+      "description": "Talk to Crane Operator Bigglefuzz",
+      "classes": null,
+      "races": null,
+      "coords": [63.087, 37.607],
+      "zone": "the_barrens",
+      "tips": [],
+      "quests": [
+        {
+          "id": 959,
+          "name": "Trouble at the Docks"
+        }
+      ],
+      "npc": "Crane Operator Bigglefuzz",
+      "mobs": []
+    },
+    {
+      "id": "darkshore_078",
+      "type": "travel",
+      "description": "Travel to The Wailing Caverns. Ascend the mountain then drop down into the hidden cave above the entrance of The Wailing Caverns. Follow the Arrow to get to Nalpak and Ebru",
+      "classes": null,
+      "races": null,
+      "coords": [51.82, 55.56],
+      "zone": "wailing_caverns",
+      "tips": [],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "darkshore_079",
+      "type": "quest_accept",
+      "description": "Talk to Nalpak and Ebru",
+      "classes": null,
+      "races": null,
+      "coords": [51.918, 55.444],
+      "zone": "wailing_caverns",
+      "tips": [],
+      "quests": [
+        {
+          "id": 1486,
+          "name": "Deviate Hides"
+        },
+        {
+          "id": 1487,
+          "name": "Deviate Eradication"
+        }
+      ],
+      "npc": "Ebru",
+      "mobs": []
+    },
+    {
+      "id": "darkshore_080",
+      "type": "kill",
+      "description": "Kill all types of Deviate creatures. Loot them for their Deviate Hides",
+      "classes": null,
+      "races": null,
+      "coords": null,
+      "zone": "",
+      "tips": [
+        {
+          "type": "warning",
+          "class": null,
+          "text": "This can be completed INSIDE and OUTSIDE of Wailing Caverns"
+        }
+      ],
+      "quests": [
+        {
+          "id": 1486,
+          "name": "Deviate Hides"
+        }
+      ],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "darkshore_081",
+      "type": "kill",
+      "description": "Kill Mad Magglish. Loot him for the 99-Year-Old Port",
+      "classes": null,
+      "races": null,
+      "coords": [51.82, 54.85],
+      "zone": "wailing_caverns",
+      "tips": [
+        {
+          "type": "warning",
+          "class": null,
+          "text": "Mad Magglish can spawn in a few locations"
+        },
+        {
+          "type": "warning",
+          "class": null,
+          "text": "This quest is completed OUTSIDE of Wailing Caverns"
+        }
+      ],
+      "quests": [
+        {
+          "id": 959,
+          "name": "Trouble at the Docks"
+        }
+      ],
+      "npc": null,
+      "mobs": ["Mad Magglish"]
+    },
+    {
+      "id": "darkshore_082",
+      "type": "info",
+      "description": "Zone into The Wailing Caverns",
+      "classes": null,
+      "races": null,
+      "coords": [52.37, 55.2],
+      "zone": "",
+      "tips": [],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "darkshore_083",
+      "type": "kill",
+      "description": "Kill all types of Deviate creatures. Loot them for their Deviate Hides",
+      "classes": null,
+      "races": null,
+      "coords": null,
+      "zone": "wailing_caverns",
+      "tips": [],
+      "quests": [
+        {
+          "id": 1487,
+          "name": "Deviate Eradication"
+        },
+        {
+          "id": 1486,
+          "name": "Deviate Hides"
+        }
+      ],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "darkshore_084",
+      "type": "kill",
+      "description": "Kill all types of Deviate creatures",
+      "classes": null,
+      "races": null,
+      "coords": null,
+      "zone": "wailing_caverns",
+      "tips": [],
+      "quests": [
+        {
+          "id": 1487,
+          "name": "Deviate Eradication"
+        }
+      ],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "darkshore_085",
+      "type": "kill",
+      "description": "Kill all types of Deviate creatures. Loot them for their Deviate Hides",
+      "classes": null,
+      "races": null,
+      "coords": null,
+      "zone": "wailing_caverns",
+      "tips": [],
+      "quests": [
+        {
+          "id": 1486,
+          "name": "Deviate Hides"
+        }
+      ],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "darkshore_086",
+      "type": "kill",
+      "description": "Kill Lord Cobrahn, Lord Pythas, Lord Serpentis and Lady Anacondra then talk to the Disciple of Naralex at the start of the instance to start his escort. Escort the Disciple of Naralex through Wailing Caverns and complete the ritual of awakening. Kill Mutanus the Devourer. Loot him for the Glowing Shard. Use the Glowing Shard to start the quest",
+      "classes": null,
+      "races": null,
+      "coords": null,
+      "zone": "wailing_caverns",
+      "tips": [
+        {
+          "type": "warning",
+          "class": null,
+          "text": "Use the Glowing Shard to start the quest"
+        }
+      ],
+      "quests": [
+        {
+          "id": 6981,
+          "name": "The Glowing Shard"
+        }
+      ],
+      "npc": null,
+      "mobs": ["Mutanus the Devourer"]
+    },
+    {
+      "id": "darkshore_088",
+      "type": "travel",
+      "description": "Travel to Ratchet. You will turn in the quests above WC soon",
+      "classes": null,
+      "races": null,
+      "coords": [62.984, 37.218],
+      "zone": "the_barrens",
+      "tips": [],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "darkshore_089",
+      "type": "info",
+      "description": "Talk to Sputtervalve",
+      "classes": null,
+      "races": null,
+      "coords": [62.984, 37.218],
+      "zone": "the_barrens",
+      "tips": [],
+      "quests": [
+        {
+          "id": 6981,
+          "name": "The Glowing Shard"
+        }
+      ],
+      "npc": "Sputtervalve",
+      "mobs": []
+    },
+    {
+      "id": "darkshore_090",
+      "type": "quest_turnin",
+      "description": "Talk to Crane Operator Bigglefuzz and turn in Trouble at the Docks",
+      "classes": null,
+      "races": null,
+      "coords": [63.087, 37.607],
+      "zone": "the_barrens",
+      "tips": [],
+      "quests": [
+        {
+          "id": 959,
+          "name": "Trouble at the Docks"
+        }
+      ],
+      "npc": "Crane Operator Bigglefuzz",
+      "mobs": []
+    },
+    {
+      "id": "darkshore_091",
+      "type": "travel",
+      "description": "Ascend the steep mountain above The Wailing Caverns. Follow the Arrow",
+      "classes": null,
+      "races": null,
+      "coords": [48.184, 32.781],
+      "zone": "the_barrens",
+      "tips": [],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "darkshore_092",
+      "type": "quest_turnin",
+      "description": "Talk to Falla Sagewind and turn in The Glowing Shard",
+      "classes": null,
+      "races": null,
+      "coords": [48.184, 32.781],
+      "zone": "the_barrens",
+      "tips": [],
+      "quests": [
+        {
+          "id": 6981,
+          "name": "The Glowing Shard"
+        }
+      ],
+      "npc": "Falla Sagewind",
+      "mobs": []
+    },
+    {
+      "id": "darkshore_093",
+      "type": "travel",
+      "description": "Drop down into the hidden cave above the entrance of The Wailing Caverns. Follow the Arrow to get to Nalpak and Ebru",
+      "classes": null,
+      "races": null,
+      "coords": [51.82, 55.56],
+      "zone": "wailing_caverns",
+      "tips": [],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "darkshore_094",
+      "type": "quest_turnin",
+      "description": "Talk to Nalpak and Ebru and turn in Deviate Hides. Turn in Deviate Eradication",
+      "classes": null,
+      "races": null,
+      "coords": [51.918, 55.444],
+      "zone": "wailing_caverns",
+      "tips": [],
+      "quests": [
+        {
+          "id": 1486,
+          "name": "Deviate Hides"
+        },
+        {
+          "id": 1487,
+          "name": "Deviate Eradication"
+        }
+      ],
+      "npc": "Ebru",
+      "mobs": []
+    },
+    {
+      "id": "darkshore_095",
+      "type": "quest_turnin",
+      "description": "Talk to Nalpak and Ebru and turn in Deviate Eradication",
+      "classes": null,
+      "races": null,
+      "coords": [51.918, 55.444],
+      "zone": "wailing_caverns",
+      "tips": [],
+      "quests": [
+        {
+          "id": 1487,
+          "name": "Deviate Eradication"
+        }
+      ],
+      "npc": "Ebru",
+      "mobs": []
+    },
+    {
+      "id": "darkshore_096",
+      "type": "quest_turnin",
+      "description": "Talk to Nalpak and Ebru and turn in Deviate Hides",
+      "classes": null,
+      "races": null,
+      "coords": [51.912, 55.422],
+      "zone": "wailing_caverns",
+      "tips": [],
+      "quests": [
+        {
+          "id": 1486,
+          "name": "Deviate Hides"
+        }
+      ],
+      "npc": "Nalpak",
+      "mobs": []
+    },
+    {
+      "id": "darkshore_097",
+      "type": "info",
+      "description": "Hearth to Astranaar",
+      "classes": null,
+      "races": null,
+      "coords": null,
+      "zone": "",
+      "tips": [],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    }
+  ]
+}

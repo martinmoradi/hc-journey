@@ -1,0 +1,1349 @@
+{
+  "zone": "Westfall",
+  "levelRange": "13-15",
+  "faction": "Alliance",
+  "name": "13-15_westfall",
+  "next": "15-18_darkshore",
+  "steps": [
+    {
+      "id": "westfall_001",
+      "type": "travel",
+      "description": "Travel to Westfall",
+      "classes": null,
+      "races": null,
+      "coords": [19.0, 81.0],
+      "zone": "elwynn_forest",
+      "tips": [],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "westfall_002",
+      "type": "quest_accept",
+      "description": "Talk to Farmer Furlbrow and accept The Forgotten Heirloom and Report to Gryan Stoutmantle",
+      "classes": null,
+      "races": null,
+      "coords": [59.95, 19.35],
+      "zone": "westfall",
+      "tips": [],
+      "quests": [
+        {
+          "id": 64,
+          "name": "The Forgotten Heirloom"
+        },
+        {
+          "id": 109,
+          "name": "Report to Gryan Stoutmantle"
+        }
+      ],
+      "npc": "Farmer Furlbrow",
+      "mobs": []
+    },
+    {
+      "id": "westfall_003",
+      "type": "quest_accept",
+      "description": "Talk to Verna Furlbrow and accept Westfall Stew and Poor Old Blanchy",
+      "classes": null,
+      "races": null,
+      "coords": [59.92, 19.42],
+      "zone": "westfall",
+      "tips": [],
+      "quests": [
+        {
+          "id": 36,
+          "name": "Westfall Stew"
+        },
+        {
+          "id": 151,
+          "name": "Poor Old Blanchy"
+        }
+      ],
+      "npc": "Verna Furlbrow",
+      "mobs": []
+    },
+    {
+      "id": "westfall_004",
+      "type": "travel",
+      "description": "Travel to Saldean's Farm",
+      "classes": null,
+      "races": null,
+      "coords": [56.04, 31.23],
+      "zone": "westfall",
+      "tips": [],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "westfall_005",
+      "type": "quest_accept",
+      "description": "Talk to Farmer Saldean and accept The Killing Fields",
+      "classes": null,
+      "races": null,
+      "coords": [56.04, 31.23],
+      "zone": "westfall",
+      "tips": [],
+      "quests": [
+        {
+          "id": 9,
+          "name": "The Killing Fields"
+        }
+      ],
+      "npc": "Farmer Saldean",
+      "mobs": []
+    },
+    {
+      "id": "westfall_006",
+      "type": "quest_accept",
+      "description": "Talk to Salma Saldean, turn in Westfall Stew, and accept Westfall Stew and Goretusk Liver Pie",
+      "classes": null,
+      "races": null,
+      "coords": [56.4, 30.5],
+      "zone": "westfall",
+      "tips": [],
+      "quests": [
+        {
+          "id": 36,
+          "name": "Westfall Stew"
+        },
+        {
+          "id": 38,
+          "name": "Westfall Stew"
+        },
+        {
+          "id": 22,
+          "name": "Goretusk Liver Pie"
+        }
+      ],
+      "npc": "Salma Saldean",
+      "mobs": []
+    },
+    {
+      "id": "westfall_007",
+      "type": "quest_turnin",
+      "description": "Talk to Quartermaster Lewis and turn in Return to Lewis",
+      "classes": null,
+      "races": ["Human"],
+      "coords": [57.0, 47.17],
+      "zone": "westfall",
+      "tips": [],
+      "quests": [
+        {
+          "id": 6285,
+          "name": "Return to Lewis"
+        }
+      ],
+      "npc": "Quartermaster Lewis",
+      "mobs": []
+    },
+    {
+      "id": "westfall_008",
+      "type": "quest_turnin",
+      "description": "Talk to Gryan Stoutmantle and turn in Report to Gryan Stoutmantle",
+      "classes": null,
+      "races": null,
+      "coords": [56.33, 47.52],
+      "zone": "westfall",
+      "tips": [],
+      "quests": [
+        {
+          "id": 109,
+          "name": "Report to Gryan Stoutmantle"
+        }
+      ],
+      "npc": "Gryan Stoutmantle",
+      "mobs": []
+    },
+    {
+      "id": "westfall_009",
+      "type": "quest_accept",
+      "description": "Talk to Gryan Stoutmantle and accept The People's Militia",
+      "classes": null,
+      "races": null,
+      "coords": [56.33, 47.52],
+      "zone": "westfall",
+      "tips": [],
+      "quests": [
+        {
+          "id": 12,
+          "name": "The People's Militia"
+        }
+      ],
+      "npc": "Gryan Stoutmantle",
+      "mobs": []
+    },
+    {
+      "id": "westfall_010",
+      "type": "quest_accept",
+      "description": "Talk to Captain Danuvin and accept Patrolling Westfall",
+      "classes": null,
+      "races": null,
+      "coords": [56.42, 47.62],
+      "zone": "westfall",
+      "tips": [],
+      "quests": [
+        {
+          "id": 102,
+          "name": "Patrolling Westfall"
+        }
+      ],
+      "npc": "Captain Danuvin",
+      "mobs": []
+    },
+    {
+      "id": "westfall_011",
+      "type": "quest_accept",
+      "description": "Talk to Scout Galiaan and accept Red Leather Bandanas",
+      "classes": null,
+      "races": ["Human"],
+      "coords": [54.0, 53.0],
+      "zone": "westfall",
+      "tips": [],
+      "quests": [
+        {
+          "id": 153,
+          "name": "Red Leather Bandanas"
+        }
+      ],
+      "npc": "Scout Galiaan",
+      "mobs": []
+    },
+    {
+      "id": "westfall_012",
+      "type": "quest_accept",
+      "description": "Talk to Scout Galiaan and accept Red Leather Bandanas",
+      "classes": null,
+      "races": ["!Human"],
+      "coords": [54.0, 53.0],
+      "zone": "westfall",
+      "tips": [],
+      "quests": [
+        {
+          "id": 153,
+          "name": "Red Leather Bandanas"
+        }
+      ],
+      "npc": "Scout Galiaan",
+      "mobs": []
+    },
+    {
+      "id": "westfall_013",
+      "type": "info",
+      "description": "Talk to Innkeeper Heather. Buy food/water if needed. Longjaw Mud Snapper is very cheap",
+      "classes": ["!Warrior", "!Rogue"],
+      "races": null,
+      "coords": [52.86, 53.71],
+      "zone": "westfall",
+      "tips": [],
+      "quests": [],
+      "npc": "Innkeeper Heather",
+      "mobs": []
+    },
+    {
+      "id": "westfall_014",
+      "type": "info",
+      "description": "Talk to Innkeeper Heather. Buy food if needed. Longjaw Mud Snapper is very cheap",
+      "classes": ["Warrior", "Rogue"],
+      "races": null,
+      "coords": [52.86, 53.71],
+      "zone": "westfall",
+      "tips": [],
+      "quests": [],
+      "npc": "Innkeeper Heather",
+      "mobs": []
+    },
+    {
+      "id": "westfall_015",
+      "type": "loot",
+      "description": "Open the Sacks of Oats on the ground. Loot them for the Handful of Oats",
+      "classes": null,
+      "races": null,
+      "coords": null,
+      "zone": "",
+      "tips": [
+        {
+          "type": "warning",
+          "class": null,
+          "text": "You can usually find them near Farm Fences or Buildings"
+        }
+      ],
+      "quests": [
+        {
+          "id": 151,
+          "name": "Poor Old Blanchy"
+        }
+      ],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "westfall_016",
+      "type": "kill",
+      "description": "Kill Young Goretusks and Young Fleshrippers. Loot them for their Vulture Meat, Snouts and Livers",
+      "classes": null,
+      "races": null,
+      "coords": null,
+      "zone": "",
+      "tips": [],
+      "quests": [
+        {
+          "id": 38,
+          "name": "Westfall Stew"
+        },
+        {
+          "id": 22,
+          "name": "Goretusk Liver Pie"
+        }
+      ],
+      "npc": null,
+      "mobs": ["Young Goretusk", "Goretusk", "Young Fleshripper", "Fleshripper"]
+    },
+    {
+      "id": "westfall_017",
+      "type": "kill",
+      "description": "Kill Defias Trappers and Defias Smugglers. Loot them for their Red Leather Bandanas",
+      "classes": null,
+      "races": null,
+      "coords": [41.21, 40.75],
+      "zone": "westfall",
+      "tips": [],
+      "quests": [
+        {
+          "id": 12,
+          "name": "The People's Militia"
+        },
+        {
+          "id": 153,
+          "name": "Red Leather Bandanas"
+        }
+      ],
+      "npc": null,
+      "mobs": ["Defias Trapper", "Defias Smuggler"]
+    },
+    {
+      "id": "westfall_018",
+      "type": "loot",
+      "description": "Open Furlbrow's Wardrobe. Loot it for Furlbrow's Pocket Watch",
+      "classes": null,
+      "races": null,
+      "coords": [49.34, 19.27],
+      "zone": "westfall",
+      "tips": [
+        {
+          "type": "warning",
+          "class": null,
+          "text": "You can loot Furlbrow's Wardrobe from outside if you angle your camera correctly"
+        },
+        {
+          "type": "warning",
+          "class": null,
+          "text": "Be aware of Benny Blanco. He hits hard"
+        }
+      ],
+      "quests": [
+        {
+          "id": 64,
+          "name": "The Forgotten Heirloom"
+        }
+      ],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "westfall_019",
+      "type": "loot",
+      "description": "Open the Sacks of Oats on the ground. Loot them for the Handful of Oats",
+      "classes": null,
+      "races": null,
+      "coords": null,
+      "zone": "",
+      "tips": [
+        {
+          "type": "warning",
+          "class": null,
+          "text": "You can usually find them near Farm Fences or Buildings"
+        }
+      ],
+      "quests": [
+        {
+          "id": 151,
+          "name": "Poor Old Blanchy"
+        }
+      ],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "westfall_020",
+      "type": "kill",
+      "description": "Kill Riverpaw Gnolls and Riverpaw Scouts. Loot them for their Gnoll Paws",
+      "classes": null,
+      "races": null,
+      "coords": [45.83, 13.75],
+      "zone": "westfall",
+      "tips": [],
+      "quests": [
+        {
+          "id": 102,
+          "name": "Patrolling Westfall"
+        }
+      ],
+      "npc": null,
+      "mobs": ["Riverpaw Gnoll", "Riverpaw Scout"]
+    },
+    {
+      "id": "westfall_021",
+      "type": "kill",
+      "description": "Kill Murloc Raiders and Murloc Coastrunners. Loot them for their Eyes",
+      "classes": null,
+      "races": null,
+      "coords": [56.4, 9.4],
+      "zone": "westfall",
+      "tips": [],
+      "quests": [],
+      "npc": null,
+      "mobs": ["Murloc Raider", "Murloc Coastrunner"]
+    },
+    {
+      "id": "westfall_022",
+      "type": "loot",
+      "description": "Open the Sacks of Oats on the ground. Loot them for the Handful of Oats",
+      "classes": null,
+      "races": null,
+      "coords": [57.23, 19.78],
+      "zone": "westfall",
+      "tips": [
+        {
+          "type": "warning",
+          "class": null,
+          "text": "You can usually find them near Farm Fences or Buildings"
+        }
+      ],
+      "quests": [
+        {
+          "id": 151,
+          "name": "Poor Old Blanchy"
+        }
+      ],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "westfall_023",
+      "type": "quest_turnin",
+      "description": "Talk to Farmer Furlbrow and Verna Furlbrow, turn in The Forgotten Heirloom and Poor Old Blanchy",
+      "classes": null,
+      "races": null,
+      "coords": [59.92, 19.42],
+      "zone": "westfall",
+      "tips": [],
+      "quests": [
+        {
+          "id": 64,
+          "name": "The Forgotten Heirloom"
+        },
+        {
+          "id": 151,
+          "name": "Poor Old Blanchy"
+        }
+      ],
+      "npc": "Verna Furlbrow",
+      "mobs": []
+    },
+    {
+      "id": "westfall_024",
+      "type": "quest_turnin",
+      "description": "Talk to Farmer Furlbrow and Verna Furlbrow, turn in The Forgotten Heirloom and Poor Old Blanchy",
+      "classes": null,
+      "races": null,
+      "coords": [59.92, 19.42],
+      "zone": "westfall",
+      "tips": [],
+      "quests": [
+        {
+          "id": 64,
+          "name": "The Forgotten Heirloom"
+        },
+        {
+          "id": 151,
+          "name": "Poor Old Blanchy"
+        }
+      ],
+      "npc": "Verna Furlbrow",
+      "mobs": []
+    },
+    {
+      "id": "westfall_025",
+      "type": "quest_turnin",
+      "description": "Talk to Salma Saldean and turn in Goretusk Liver Pie",
+      "classes": null,
+      "races": null,
+      "coords": [56.4, 30.5],
+      "zone": "westfall",
+      "tips": [],
+      "quests": [
+        {
+          "id": 22,
+          "name": "Goretusk Liver Pie"
+        }
+      ],
+      "npc": "Salma Saldean",
+      "mobs": []
+    },
+    {
+      "id": "westfall_026",
+      "type": "info",
+      "description": "Talk to Farmer Saldean. Vendor",
+      "classes": null,
+      "races": null,
+      "coords": [56.04, 31.23],
+      "zone": "westfall",
+      "tips": [
+        {
+          "type": "warning",
+          "class": null,
+          "text": "Do NOT sell Murloc Eyes, Goretusk Snouts, Goretusk Livers or Stringy Vulture Meat"
+        }
+      ],
+      "quests": [],
+      "npc": "Farmer Saldean",
+      "mobs": []
+    },
+    {
+      "id": "westfall_027",
+      "type": "kill",
+      "description": "Kill Harvest Watchers. Loot them for their Flask of Oil and Okra",
+      "classes": null,
+      "races": null,
+      "coords": [50.8, 21.76],
+      "zone": "westfall",
+      "tips": [],
+      "quests": [
+        {
+          "id": 9,
+          "name": "The Killing Fields"
+        }
+      ],
+      "npc": null,
+      "mobs": ["Harvest Watcher"]
+    },
+    {
+      "id": "westfall_028",
+      "type": "kill",
+      "description": "Kill Young Goretusks and Young Fleshrippers. Loot them for their Vulture Meat, Snouts and Livers",
+      "classes": null,
+      "races": null,
+      "coords": [54.42, 40.38],
+      "zone": "westfall",
+      "tips": [],
+      "quests": [],
+      "npc": null,
+      "mobs": ["Young Goretusk", "Goretusk", "Young Fleshripper", "Fleshripper"]
+    },
+    {
+      "id": "westfall_029",
+      "type": "quest_turnin",
+      "description": "Talk to Farmer Saldean and turn in The Killing Fields",
+      "classes": null,
+      "races": null,
+      "coords": [56.04, 31.23],
+      "zone": "westfall",
+      "tips": [],
+      "quests": [
+        {
+          "id": 9,
+          "name": "The Killing Fields"
+        }
+      ],
+      "npc": "Farmer Saldean",
+      "mobs": []
+    },
+    {
+      "id": "westfall_030",
+      "type": "quest_turnin",
+      "description": "Talk to Salma Saldean, turn in Westfall Stew and Goretusk Liver Pie",
+      "classes": null,
+      "races": null,
+      "coords": [56.4, 30.5],
+      "zone": "westfall",
+      "tips": [],
+      "quests": [
+        {
+          "id": 38,
+          "name": "Westfall Stew"
+        },
+        {
+          "id": 22,
+          "name": "Goretusk Liver Pie"
+        }
+      ],
+      "npc": "Salma Saldean",
+      "mobs": []
+    },
+    {
+      "id": "westfall_031",
+      "type": "quest_turnin",
+      "description": "Talk to Gryan Stoutmantle and turn in The People's Militia",
+      "classes": null,
+      "races": null,
+      "coords": [56.33, 47.52],
+      "zone": "westfall",
+      "tips": [],
+      "quests": [
+        {
+          "id": 12,
+          "name": "The People's Militia"
+        }
+      ],
+      "npc": "Gryan Stoutmantle",
+      "mobs": []
+    },
+    {
+      "id": "westfall_032",
+      "type": "quest_accept",
+      "description": "Talk to Gryan Stoutmantle and accept The Defias Brotherhood",
+      "classes": null,
+      "races": null,
+      "coords": [56.33, 47.52],
+      "zone": "westfall",
+      "tips": [],
+      "quests": [
+        {
+          "id": 65,
+          "name": "The Defias Brotherhood"
+        }
+      ],
+      "npc": "Gryan Stoutmantle",
+      "mobs": []
+    },
+    {
+      "id": "westfall_033",
+      "type": "quest_turnin",
+      "description": "Talk to Captain Danuvin and turn in Patrolling Westfall",
+      "classes": null,
+      "races": null,
+      "coords": [56.42, 47.62],
+      "zone": "westfall",
+      "tips": [],
+      "quests": [
+        {
+          "id": 102,
+          "name": "Patrolling Westfall"
+        }
+      ],
+      "npc": "Captain Danuvin",
+      "mobs": []
+    },
+    {
+      "id": "westfall_034",
+      "type": "quest_turnin",
+      "description": "Talk to Scout Galiaan and turn in Red Leather Bandanas",
+      "classes": null,
+      "races": null,
+      "coords": [54.0, 53.0],
+      "zone": "westfall",
+      "tips": [],
+      "quests": [
+        {
+          "id": 153,
+          "name": "Red Leather Bandanas"
+        }
+      ],
+      "npc": "Scout Galiaan",
+      "mobs": []
+    },
+    {
+      "id": "westfall_035",
+      "type": "grind",
+      "description": "Grind crabs in Westfall to level 16",
+      "classes": ["Druid"],
+      "races": null,
+      "coords": [51.8, 9.4],
+      "zone": "westfall",
+      "tips": [],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "westfall_036",
+      "type": "info",
+      "description": "Hearth to Thelsamar",
+      "classes": null,
+      "races": ["Dwarf", "Gnome"],
+      "coords": null,
+      "zone": "",
+      "tips": [],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "westfall_037",
+      "type": "fly",
+      "description": "Talk to Thorgrum Borrelson and fly to Ironforge",
+      "classes": ["!Paladin"],
+      "races": ["Dwarf", "Gnome"],
+      "coords": [33.94, 50.95],
+      "zone": "loch_modan",
+      "tips": [],
+      "quests": [],
+      "npc": "Thorgrum Borrelson",
+      "mobs": []
+    },
+    {
+      "id": "westfall_038",
+      "type": "fly",
+      "description": "Talk to Thor and fly to Ironforge",
+      "classes": ["Paladin"],
+      "races": ["Human", "Dwarf"],
+      "coords": [56.55, 52.64],
+      "zone": "westfall",
+      "tips": [],
+      "quests": [],
+      "npc": "Thor",
+      "mobs": []
+    },
+    {
+      "id": "westfall_039",
+      "type": "info",
+      "description": "Talk to Nissa Firestone. Level up your First Aid. Train Journeyman First Aid",
+      "classes": null,
+      "races": ["!NightElf"],
+      "coords": [55.093, 58.269],
+      "zone": "ironforge",
+      "tips": [],
+      "quests": [],
+      "npc": "Nissa Firestone",
+      "mobs": []
+    },
+    {
+      "id": "westfall_040",
+      "type": "info",
+      "description": "Talk to Bixi Wobblebonk and train Thrown",
+      "classes": ["Warrior"],
+      "races": ["Human"],
+      "coords": [62.0, 89.6],
+      "zone": "ironforge",
+      "tips": [],
+      "quests": [],
+      "npc": "Bixi Wobblebonk",
+      "mobs": []
+    },
+    {
+      "id": "westfall_041",
+      "type": "info",
+      "description": "Talk to Beldruk Doombrow and train your class spells",
+      "classes": ["Paladin"],
+      "races": ["Dwarf"],
+      "coords": [24.55, 4.49],
+      "zone": "ironforge",
+      "tips": [],
+      "quests": [],
+      "npc": "Beldruk Doombrow",
+      "mobs": []
+    },
+    {
+      "id": "westfall_042",
+      "type": "travel",
+      "description": "Travel toward Muiredon upstairs",
+      "classes": ["Paladin"],
+      "races": ["Dwarf"],
+      "coords": [24.35, 11.9],
+      "zone": "ironforge",
+      "tips": [],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "westfall_043",
+      "type": "quest_accept",
+      "description": "Talk to Muiredon Battleforge, turn in The Tome of Divinity, and accept The Tome of Divinity",
+      "classes": ["Paladin"],
+      "races": ["Dwarf"],
+      "coords": [23.539, 8.3],
+      "zone": "ironforge",
+      "tips": [],
+      "quests": [
+        {
+          "id": 1784,
+          "name": "The Tome of Divinity"
+        },
+        {
+          "id": 1785,
+          "name": "The Tome of Divinity"
+        }
+      ],
+      "npc": "Muiredon Battleforge",
+      "mobs": []
+    },
+    {
+      "id": "westfall_044",
+      "type": "quest_turnin",
+      "description": "Talk to Tiza Battleforge and turn in The Tome of Divinity",
+      "classes": ["Paladin"],
+      "races": ["Dwarf"],
+      "coords": [27.63, 12.19],
+      "zone": "ironforge",
+      "tips": [],
+      "quests": [
+        {
+          "id": 1785,
+          "name": "The Tome of Divinity"
+        }
+      ],
+      "npc": "Tiza Battleforge",
+      "mobs": []
+    },
+    {
+      "id": "westfall_045",
+      "type": "quest_turnin",
+      "description": "Talk to Senator Barin Redstone and turn in The Reports",
+      "classes": null,
+      "races": null,
+      "coords": [39.553, 57.478],
+      "zone": "ironforge",
+      "tips": [],
+      "quests": [
+        {
+          "id": 291,
+          "name": "The Reports"
+        }
+      ],
+      "npc": "Senator Barin Redstone",
+      "mobs": []
+    },
+    {
+      "id": "westfall_046",
+      "type": "info",
+      "description": "Talk to an Ironforge Auctioneer. Buy Strider Meat and Darkshore Grouper for instant turn ins at Darkshore shortly. Skip this step if you wish to not buy any",
+      "classes": null,
+      "races": null,
+      "coords": null,
+      "zone": "",
+      "tips": [],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "westfall_047",
+      "type": "travel",
+      "description": "Exit Ironforge",
+      "classes": null,
+      "races": ["!NightElf"],
+      "coords": [53.5, 34.9],
+      "zone": "dun_morogh",
+      "tips": [],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "westfall_048",
+      "type": "travel",
+      "description": "Travel to the Dun Morogh to Wetlands skip spot",
+      "classes": null,
+      "races": ["!NightElf"],
+      "coords": [59.43, 42.85],
+      "zone": "dun_morogh",
+      "tips": [],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "westfall_049",
+      "type": "travel",
+      "description": "Do the Deathless Dun Morogh to Wetlands skip. Travel to Menethil Harbor",
+      "classes": null,
+      "races": ["!NightElf"],
+      "coords": [12.1, 60.3],
+      "zone": "wetlands",
+      "tips": [
+        {
+          "type": "warning",
+          "class": null,
+          "text": "Watch the video guide for a reference on how to do the skip first!"
+        },
+        {
+          "type": "warning",
+          "class": null,
+          "text": "Do the Deathless Dun Morogh -> Wetlands skip"
+        },
+        {
+          "type": "warning",
+          "class": null,
+          "text": "Avoid the Wetlands Crocolisks and Murlocs when crossing the water"
+        },
+        {
+          "type": "link",
+          "class": null,
+          "text": "Click here for a video guide",
+          "url": "https://www.youtube.com/watch?v=9afQTimaiZQ"
+        }
+      ],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "westfall_050",
+      "type": "info",
+      "description": "Talk to Neal Allen. Buy a Bronze Tube",
+      "classes": null,
+      "races": ["!NightElf"],
+      "coords": [10.761, 56.737],
+      "zone": "wetlands",
+      "tips": [
+        {
+          "type": "warning",
+          "class": null,
+          "text": "This is a limited supply item. Skip this step if Neal Allen doesn't have one"
+        }
+      ],
+      "quests": [],
+      "npc": "Neal Allen",
+      "mobs": []
+    },
+    {
+      "id": "westfall_051",
+      "type": "info",
+      "description": "Talk to Samor Festivus upstairs. Buy as many Healing Potions that are available",
+      "classes": null,
+      "races": ["!NightElf"],
+      "coords": [10.496, 60.201],
+      "zone": "wetlands",
+      "tips": [
+        {
+          "type": "warning",
+          "class": null,
+          "text": "This is a limited supply item. Skip this step if Samor Festivus doesn't have any"
+        }
+      ],
+      "quests": [],
+      "npc": "Samor Festivus",
+      "mobs": []
+    },
+    {
+      "id": "westfall_052",
+      "type": "fly",
+      "description": "Talk to Shellei and get the Wetlands flight path",
+      "classes": null,
+      "races": ["!NightElf"],
+      "coords": [9.49, 59.69],
+      "zone": "wetlands",
+      "tips": [],
+      "quests": [],
+      "npc": "Shellei",
+      "mobs": []
+    },
+    {
+      "id": "westfall_053",
+      "type": "info",
+      "description": "Talk to Murndan Derth. Buy a Large Bore Blunderbuss. Skip this step if you cannot afford it",
+      "classes": ["Hunter"],
+      "races": ["!NightElf"],
+      "coords": [11.334, 59.554],
+      "zone": "wetlands",
+      "tips": [],
+      "quests": [],
+      "npc": "Murndan Derth",
+      "mobs": []
+    },
+    {
+      "id": "westfall_054",
+      "type": "info",
+      "description": "Talk to Dewin Shimmerdawn. Buy as many Healing Potions that are available",
+      "classes": null,
+      "races": ["!NightElf"],
+      "coords": [7.95, 56.38],
+      "zone": "wetlands",
+      "tips": [
+        {
+          "type": "warning",
+          "class": null,
+          "text": "This is a limited supply item. Skip this step if Dewin Shimmerdawn doesn't have any"
+        }
+      ],
+      "quests": [],
+      "npc": "Dewin Shimmerdawn",
+      "mobs": []
+    },
+    {
+      "id": "westfall_055",
+      "type": "travel",
+      "description": "Travel to the Menethil Harbor docks. Wait for the boat to Darkshore",
+      "classes": null,
+      "races": ["!NightElf"],
+      "coords": [4.61, 57.26],
+      "zone": "wetlands",
+      "tips": [],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "westfall_056",
+      "type": "travel",
+      "description": "Take the boat to Darkshore. Level your First Aid and Cooking while waiting for the boat to Darkshore. Level up your Cooking using the Chunks of Boar Meat you farmed earlier. Level it to 10 ideally",
+      "classes": null,
+      "races": ["!NightElf"],
+      "coords": null,
+      "zone": "",
+      "tips": [
+        {
+          "type": "warning",
+          "class": null,
+          "text": "Level your First Aid and Cooking while waiting for the boat to Darkshore"
+        },
+        {
+          "type": "warning",
+          "class": null,
+          "text": "Level up your Cooking using the Chunks of Boar Meat you farmed earlier. Level it to 10 ideally"
+        }
+      ],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "westfall_057",
+      "type": "fly",
+      "description": "Talk to Thor, get the Westfall flight path, and fly to Stormwind",
+      "classes": ["!Druid"],
+      "races": ["NightElf"],
+      "coords": [56.556, 52.643],
+      "zone": "westfall",
+      "tips": [],
+      "quests": [],
+      "npc": "Thor",
+      "mobs": []
+    },
+    {
+      "id": "westfall_058",
+      "type": "info",
+      "description": "Cast Teleport: Moonglade",
+      "classes": ["Druid"],
+      "races": null,
+      "coords": null,
+      "zone": "",
+      "tips": [],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "westfall_059",
+      "type": "fly",
+      "description": "Talk to Silva Fil'naveth and fly to Rut'theran Village",
+      "classes": ["Druid"],
+      "races": null,
+      "coords": [44.1444, 45.227],
+      "zone": "moonglade",
+      "tips": [],
+      "quests": [],
+      "npc": "Silva Fil'naveth",
+      "mobs": []
+    },
+    {
+      "id": "westfall_060",
+      "type": "travel",
+      "description": "Take the purple portal into Darnassus",
+      "classes": ["Druid"],
+      "races": null,
+      "coords": [55.889, 89.456],
+      "zone": "teldrassil",
+      "tips": [],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "westfall_061",
+      "type": "quest_accept",
+      "description": "Talk to Mathrengyl Bearwalker, accept Lessons Anew and A Lesson to Learn, and train your class spells",
+      "classes": ["Druid"],
+      "races": null,
+      "coords": [35.375, 8.405],
+      "zone": "darnassus",
+      "tips": [],
+      "quests": [
+        {
+          "id": 6121,
+          "name": "Lessons Anew"
+        },
+        {
+          "id": 26,
+          "name": "A Lesson to Learn"
+        }
+      ],
+      "npc": "Mathrengyl Bearwalker",
+      "mobs": []
+    },
+    {
+      "id": "westfall_062",
+      "type": "info",
+      "description": "Cast Teleport: Moonglade",
+      "classes": ["Druid"],
+      "races": null,
+      "coords": null,
+      "zone": "",
+      "tips": [],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "westfall_063",
+      "type": "quest_accept",
+      "description": "Talk to Dendrite Starblaze up stairs, turn in Lessons Anew and A Lesson to Learn, and accept The Principal Source and Trial of the Lake",
+      "classes": ["Druid"],
+      "races": null,
+      "coords": [56.21, 30.63],
+      "zone": "moonglade",
+      "tips": [],
+      "quests": [
+        {
+          "id": 6121,
+          "name": "Lessons Anew"
+        },
+        {
+          "id": 26,
+          "name": "A Lesson to Learn"
+        },
+        {
+          "id": 6122,
+          "name": "The Principal Source"
+        },
+        {
+          "id": 29,
+          "name": "Trial of the Lake"
+        }
+      ],
+      "npc": "Dendrite Starblaze",
+      "mobs": []
+    },
+    {
+      "id": "westfall_064",
+      "type": "loot",
+      "description": "Swim into Lake Elune'Ara. Open a Bauble Container. Loot it for a Shrine Bauble",
+      "classes": ["Druid"],
+      "races": null,
+      "coords": [52.6, 51.6],
+      "zone": "moonglade",
+      "tips": [
+        {
+          "type": "warning",
+          "class": null,
+          "text": "It may spawn in different locations underwater"
+        }
+      ],
+      "quests": [
+        {
+          "id": 29,
+          "name": "Trial of the Lake"
+        }
+      ],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "westfall_065",
+      "type": "info",
+      "description": "Cast Teleport: Moonglade. It will be faster this way so you don't need to swim for a longer time",
+      "classes": ["Druid"],
+      "races": null,
+      "coords": null,
+      "zone": "",
+      "tips": [
+        {
+          "type": "warning",
+          "class": null,
+          "text": "It will be faster this way so you don't need to swim for a longer time"
+        }
+      ],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "westfall_066",
+      "type": "info",
+      "description": "Use the Shrine Bauble at the Shrine of Remulos tree",
+      "classes": ["Druid"],
+      "races": null,
+      "coords": [36.026, 41.374],
+      "zone": "moonglade",
+      "tips": [
+        {
+          "type": "warning",
+          "class": null,
+          "text": "Use the Shrine Bauble at the Shrine of Remulos tree"
+        }
+      ],
+      "quests": [
+        {
+          "id": 29,
+          "name": "Trial of the Lake"
+        }
+      ],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "westfall_067",
+      "type": "quest_accept",
+      "description": "Talk to Tajarri, turn in Trial of the Lake, and accept Trial of the Sea Lion",
+      "classes": ["Druid"],
+      "races": null,
+      "coords": [36.517, 40.104],
+      "zone": "moonglade",
+      "tips": [],
+      "quests": [
+        {
+          "id": 29,
+          "name": "Trial of the Lake"
+        },
+        {
+          "id": 272,
+          "name": "Trial of the Sea Lion"
+        }
+      ],
+      "npc": "Tajarri",
+      "mobs": []
+    },
+    {
+      "id": "westfall_068",
+      "type": "info",
+      "description": "Talk to Brother Joshua and train your class spells",
+      "classes": ["Priest"],
+      "races": ["NightElf"],
+      "coords": [38.55, 26.853],
+      "zone": "stormwind_city",
+      "tips": [],
+      "quests": [],
+      "npc": "Brother Joshua",
+      "mobs": []
+    },
+    {
+      "id": "westfall_069",
+      "type": "info",
+      "description": "Talk to Gunther Weller. Buy Rock Hammer if you can afford it",
+      "classes": ["Warrior"],
+      "races": ["NightElf"],
+      "coords": [57.547, 57.076],
+      "zone": "stormwind_city",
+      "tips": [],
+      "quests": [],
+      "npc": "Gunther Weller",
+      "mobs": []
+    },
+    {
+      "id": "westfall_070",
+      "type": "info",
+      "description": "Talk to Gunther Weller. Buy Hammer if you can afford it",
+      "classes": ["Rogue"],
+      "races": ["NightElf"],
+      "coords": [57.547, 57.076],
+      "zone": "stormwind_city",
+      "tips": [],
+      "quests": [],
+      "npc": "Gunther Weller",
+      "mobs": []
+    },
+    {
+      "id": "westfall_071",
+      "type": "info",
+      "description": "Talk to Woo Ping and train 1h Swords",
+      "classes": ["Rogue"],
+      "races": ["NightElf"],
+      "coords": [57.13, 57.704],
+      "zone": "stormwind_city",
+      "tips": [],
+      "quests": [],
+      "npc": "Woo Ping",
+      "mobs": []
+    },
+    {
+      "id": "westfall_072",
+      "type": "info",
+      "description": "Talk to Frederick Stover. Buy a Reinforced Bow. Stock up on Sharp Arrows",
+      "classes": ["Hunter"],
+      "races": ["NightElf"],
+      "coords": [49.99, 57.641],
+      "zone": "stormwind_city",
+      "tips": [],
+      "quests": [],
+      "npc": "Frederick Stover",
+      "mobs": []
+    },
+    {
+      "id": "westfall_073",
+      "type": "info",
+      "description": "Talk to Shaina Fuller. Level up your First Aid. Train Journeyman First Aid",
+      "classes": null,
+      "races": ["NightElf"],
+      "coords": [43.065, 26.156],
+      "zone": "stormwind_city",
+      "tips": [],
+      "quests": [],
+      "npc": "Shaina Fuller",
+      "mobs": []
+    },
+    {
+      "id": "westfall_074",
+      "type": "info",
+      "description": "Talk to Wu or Ilsa and train your class spells",
+      "classes": ["Warrior"],
+      "races": ["NightElf"],
+      "coords": [78.68, 45.79],
+      "zone": "stormwind_city",
+      "tips": [],
+      "quests": [],
+      "npc": "Ilsa Corbin",
+      "mobs": []
+    },
+    {
+      "id": "westfall_075",
+      "type": "info",
+      "description": "Talk to Osborne and train your class spells",
+      "classes": ["Rogue"],
+      "races": ["NightElf"],
+      "coords": [74.64, 52.82],
+      "zone": "stormwind_city",
+      "tips": [],
+      "quests": [],
+      "npc": "Osborne the Night Man",
+      "mobs": []
+    },
+    {
+      "id": "westfall_076",
+      "type": "info",
+      "description": "Talk to Einris Brightspear and train your class spells",
+      "classes": ["Hunter"],
+      "races": ["NightElf"],
+      "coords": [61.609, 15.269],
+      "zone": "stormwind_city",
+      "tips": [],
+      "quests": [],
+      "npc": "Einris Brightspear",
+      "mobs": []
+    },
+    {
+      "id": "westfall_077",
+      "type": "info",
+      "description": "Hearth to Auberdine",
+      "classes": null,
+      "races": ["NightElf"],
+      "coords": null,
+      "zone": "",
+      "tips": [],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    }
+  ]
+}

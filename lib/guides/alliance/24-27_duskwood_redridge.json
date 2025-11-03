@@ -1,0 +1,3866 @@
+{
+  "zone": "Duskwood/Redridge",
+  "levelRange": "24-27",
+  "faction": "Alliance",
+  "name": "24-27_duskwood_redridge",
+  "next": "27-27_wetlands_2",
+  "steps": [
+    {
+      "id": "duskwood_001",
+      "type": "info",
+      "description": "Talk to Billibub Cogspinner. Buy a Bronze Tube. This is a limited supply item. Skip this step if Billibub Cogspinner doesn't have one",
+      "classes": null,
+      "races": null,
+      "coords": [55.21, 7.04],
+      "zone": "stormwind_city",
+      "tips": [],
+      "quests": [],
+      "npc": "Billibub Cogspinner",
+      "mobs": []
+    },
+    {
+      "id": "duskwood_002",
+      "type": "quest_accept",
+      "description": "Talk to Duthorian Rall and accept The Tome of Valor",
+      "classes": ["Paladin"],
+      "races": null,
+      "coords": [39.8, 29.77],
+      "zone": "stormwind_city",
+      "tips": [],
+      "quests": [
+        {
+          "id": 1650,
+          "name": "The Tome of Valor"
+        }
+      ],
+      "npc": "Duthorian Rall",
+      "mobs": []
+    },
+    {
+      "id": "duskwood_003",
+      "type": "info",
+      "description": "Talk to Felicia Gump. Buy Stormwind Seasoning Herbs",
+      "classes": null,
+      "races": null,
+      "coords": [64.201, 60.575],
+      "zone": "stormwind_city",
+      "tips": [],
+      "quests": [],
+      "npc": "Felicia Gump",
+      "mobs": []
+    },
+    {
+      "id": "duskwood_004",
+      "type": "travel",
+      "description": "Go into The Slaughtered Lamb. Go downstairs",
+      "classes": ["Warlock"],
+      "races": null,
+      "coords": [27.2, 78.1],
+      "zone": "stormwind_city",
+      "tips": [],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "duskwood_005",
+      "type": "info",
+      "description": "Talk to Ursula Deline and train your class spells",
+      "classes": ["Warlock"],
+      "races": null,
+      "coords": [26.117, 77.225],
+      "zone": "stormwind_city",
+      "tips": [],
+      "quests": [],
+      "npc": "Ursula Deline",
+      "mobs": []
+    },
+    {
+      "id": "duskwood_006",
+      "type": "info",
+      "description": "Talk to Spackle Thornberry. Buy Grimoires for your Succubus which you will have in a second. If you have extra gold also buy them for your Voidwalker",
+      "classes": ["Warlock"],
+      "races": null,
+      "coords": [25.665, 77.649],
+      "zone": "stormwind_city",
+      "tips": [],
+      "quests": [],
+      "npc": "Spackle Thornberry",
+      "mobs": []
+    },
+    {
+      "id": "duskwood_007",
+      "type": "quest_turnin",
+      "description": "Talk to Gakin the Darkbinder, turn in Heartswood, and accept The Binding",
+      "classes": ["Warlock"],
+      "races": null,
+      "coords": [25.25, 78.55],
+      "zone": "stormwind_city",
+      "tips": [],
+      "quests": [
+        {
+          "id": 1738,
+          "name": "Heartswood"
+        },
+        {
+          "id": 1739,
+          "name": "The Binding"
+        }
+      ],
+      "npc": "Gakin the Darkbinder",
+      "mobs": []
+    },
+    {
+      "id": "duskwood_008",
+      "type": "info",
+      "description": "Travel to the bottom of The Slaughtered Lamb. Use the Heartswood Core to call forth a Summoned Succubus",
+      "classes": ["Warlock"],
+      "races": null,
+      "coords": [25.154, 77.406],
+      "zone": "stormwind_city",
+      "tips": [],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "duskwood_009",
+      "type": "kill",
+      "description": "Kill the Summoned Succubus",
+      "classes": ["Warlock"],
+      "races": null,
+      "coords": [25.154, 77.406],
+      "zone": "stormwind_city",
+      "tips": [],
+      "quests": [
+        {
+          "id": 1739,
+          "name": "The Binding"
+        }
+      ],
+      "npc": null,
+      "mobs": ["Summoned Succubus"]
+    },
+    {
+      "id": "duskwood_010",
+      "type": "quest_turnin",
+      "description": "Talk to Gakin the Darkbinder and turn in The Binding",
+      "classes": ["Warlock"],
+      "races": null,
+      "coords": [25.25, 78.55],
+      "zone": "stormwind_city",
+      "tips": [
+        {
+          "type": "warning",
+          "class": null,
+          "text": "You may now use either the Succubus or Voidwalker as your pet. The Succubus deals significant damage whereas the Voidwalker provides more survivability"
+        }
+      ],
+      "quests": [
+        {
+          "id": 1739,
+          "name": "The Binding"
+        }
+      ],
+      "npc": "Gakin the Darkbinder",
+      "mobs": []
+    },
+    {
+      "id": "duskwood_011",
+      "type": "quest_turnin",
+      "description": "Talk to Collin Mauren, turn in A Scroll from Mauren, and accept Devils in Westfall",
+      "classes": null,
+      "races": null,
+      "coords": [43.088, 80.391],
+      "zone": "stormwind_city",
+      "tips": [],
+      "quests": [
+        {
+          "id": 1075,
+          "name": "A Scroll from Mauren"
+        },
+        {
+          "id": 1076,
+          "name": "Devils in Westfall"
+        }
+      ],
+      "npc": "Collin Mauren",
+      "mobs": []
+    },
+    {
+      "id": "duskwood_012",
+      "type": "info",
+      "description": "Talk to Innkeeper Allison. Set your Hearthstone to Stormwind City",
+      "classes": ["Rogue"],
+      "races": null,
+      "coords": [52.623, 65.701],
+      "zone": "stormwind_city",
+      "tips": [],
+      "quests": [],
+      "npc": "Innkeeper Allison",
+      "mobs": []
+    },
+    {
+      "id": "duskwood_013",
+      "type": "info",
+      "description": "Talk to Kyra Boucher. Buy a Rune of Teleportation from her",
+      "classes": ["Mage"],
+      "races": null,
+      "coords": [56.135, 65.217],
+      "zone": "stormwind_city",
+      "tips": [],
+      "quests": [],
+      "npc": "Kyra Boucher",
+      "mobs": []
+    },
+    {
+      "id": "duskwood_016",
+      "type": "fly",
+      "description": "Talk to Dungar Longdrink and fly to Westfall",
+      "classes": null,
+      "races": null,
+      "coords": [66.277, 62.137],
+      "zone": "stormwind_city",
+      "tips": [],
+      "quests": [],
+      "npc": "Dungar Longdrink",
+      "mobs": []
+    },
+    {
+      "id": "duskwood_017",
+      "type": "quest_accept",
+      "description": "Talk to Lars and accept Wolves at Our Heels.",
+      "classes": null,
+      "races": null,
+      "coords": [7.723, 33.301],
+      "zone": "duskwood",
+      "tips": [
+        {
+          "type": "warning",
+          "class": null,
+          "text": "Do NOT accept the quest Sven's Revenge from Sven Yorgen"
+        }
+      ],
+      "quests": [
+        {
+          "id": 226,
+          "name": "Wolves at Our Heels"
+        }
+      ],
+      "npc": "Lars",
+      "mobs": []
+    },
+    {
+      "id": "duskwood_018",
+      "type": "travel",
+      "description": "Travel to Darkshire",
+      "classes": null,
+      "races": null,
+      "coords": [75.81, 45.29],
+      "zone": "duskwood",
+      "tips": [],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "duskwood_019",
+      "type": "quest_accept",
+      "description": "Talk to Madame Eva and accept The Legend of Stalvan and The Totem of Infliction",
+      "classes": null,
+      "races": null,
+      "coords": [75.81, 45.29],
+      "zone": "duskwood",
+      "tips": [],
+      "quests": [
+        {
+          "id": 66,
+          "name": "The Legend of Stalvan"
+        },
+        {
+          "id": 101,
+          "name": "The Totem of Infliction"
+        }
+      ],
+      "npc": "Madame Eva",
+      "mobs": []
+    },
+    {
+      "id": "duskwood_020",
+      "type": "info",
+      "description": "Talk to Innkeeper Trelayne. Set your Hearthstone to Duskwood",
+      "classes": ["!Rogue"],
+      "races": null,
+      "coords": [73.872, 44.406],
+      "zone": "duskwood",
+      "tips": [],
+      "quests": [],
+      "npc": "Innkeeper Trelayne",
+      "mobs": []
+    },
+    {
+      "id": "duskwood_021",
+      "type": "quest_turnin",
+      "description": "Talk to Chef Grual and turn in Seasoned Wolf Kabobs.",
+      "classes": null,
+      "races": null,
+      "coords": [73.83, 44.05],
+      "zone": "duskwood",
+      "tips": [
+        {
+          "type": "warning",
+          "class": null,
+          "text": "You need 50 skill in cooking to accept this quest"
+        }
+      ],
+      "quests": [
+        {
+          "id": 90,
+          "name": "Seasoned Wolf Kabobs"
+        }
+      ],
+      "npc": "Chef Grual",
+      "mobs": []
+    },
+    {
+      "id": "duskwood_022",
+      "type": "quest_accept",
+      "description": "Talk to Commander Althea Ebonlocke and accept The Night Watch",
+      "classes": null,
+      "races": null,
+      "coords": [73.59, 46.89],
+      "zone": "duskwood",
+      "tips": [],
+      "quests": [
+        {
+          "id": 56,
+          "name": "The Night Watch"
+        }
+      ],
+      "npc": "Commander Althea Ebonlocke",
+      "mobs": []
+    },
+    {
+      "id": "duskwood_023",
+      "type": "quest_turnin",
+      "description": "Talk to Clerk Daltry, turn in The Legend of Stalvan, and accept The Legend of Stalvan",
+      "classes": null,
+      "races": null,
+      "coords": [72.53, 46.85],
+      "zone": "duskwood",
+      "tips": [],
+      "quests": [
+        {
+          "id": 66,
+          "name": "The Legend of Stalvan"
+        },
+        {
+          "id": 67,
+          "name": "The Legend of Stalvan"
+        }
+      ],
+      "npc": "Clerk Daltry",
+      "mobs": []
+    },
+    {
+      "id": "duskwood_024",
+      "type": "quest_accept",
+      "description": "Talk to Elaine Carevin and accept Raven Hill, The Hermit, and Deliveries to Sven",
+      "classes": null,
+      "races": null,
+      "coords": [75.33, 48.69],
+      "zone": "duskwood",
+      "tips": [
+        {
+          "type": "warning",
+          "class": null,
+          "text": "If you can't pick up Deliveries to Sven you need to abandon Sven's Revenge from your quest log"
+        }
+      ],
+      "quests": [
+        {
+          "id": 163,
+          "name": "Raven Hill"
+        },
+        {
+          "id": 165,
+          "name": "The Hermit"
+        },
+        {
+          "id": 164,
+          "name": "Deliveries to Sven"
+        }
+      ],
+      "npc": "Elaine Carevin",
+      "mobs": []
+    },
+    {
+      "id": "duskwood_025",
+      "type": "fly",
+      "description": "Talk to Felicia Maline. Get the Duskwood Flight Path",
+      "classes": null,
+      "races": null,
+      "coords": [77.486, 44.287],
+      "zone": "duskwood",
+      "tips": [],
+      "quests": [],
+      "npc": "Felicia Maline",
+      "mobs": []
+    },
+    {
+      "id": "duskwood_026",
+      "type": "info",
+      "description": "Talk to Herble Baubbletump. Buy a Bronze Tube. This is a limited supply item. Skip this step if Herble Baubbletump doesn't have one",
+      "classes": null,
+      "races": null,
+      "coords": [77.992, 48.328],
+      "zone": "duskwood",
+      "tips": [],
+      "quests": [],
+      "npc": "Herble Baubbletump",
+      "mobs": []
+    },
+    {
+      "id": "duskwood_027",
+      "type": "quest_turnin",
+      "description": "Talk to Viktori Prism'Antras, accept Look To The Stars, and turn in Look To The Stars",
+      "classes": null,
+      "races": null,
+      "coords": [79.8, 48.02],
+      "zone": "duskwood",
+      "tips": [],
+      "quests": [
+        {
+          "id": 174,
+          "name": "Look To The Stars"
+        }
+      ],
+      "npc": "Viktori Prism'Antras",
+      "mobs": []
+    },
+    {
+      "id": "duskwood_028",
+      "type": "quest_accept",
+      "description": "Talk to Viktori Prism'Antras and accept Look To The Stars",
+      "classes": null,
+      "races": null,
+      "coords": [79.8, 48.02],
+      "zone": "duskwood",
+      "tips": [],
+      "quests": [
+        {
+          "id": 175,
+          "name": "Look To The Stars"
+        }
+      ],
+      "npc": "Viktori Prism'Antras",
+      "mobs": []
+    },
+    {
+      "id": "duskwood_029",
+      "type": "quest_turnin",
+      "description": "Talk to Blind Mary, turn in Look To The Stars, and accept Look To The Stars",
+      "classes": null,
+      "races": null,
+      "coords": [81.46, 59.02],
+      "zone": "duskwood",
+      "tips": [],
+      "quests": [
+        {
+          "id": 175,
+          "name": "Look To The Stars"
+        },
+        {
+          "id": 177,
+          "name": "Look To The Stars"
+        }
+      ],
+      "npc": "Blind Mary",
+      "mobs": []
+    },
+    {
+      "id": "duskwood_030",
+      "type": "kill",
+      "description": "Kill Skeletal Warriors and Skeletal Mages",
+      "classes": null,
+      "races": null,
+      "coords": [79.38, 70.28],
+      "zone": "duskwood",
+      "tips": [
+        {
+          "type": "warning",
+          "class": null,
+          "text": "Skeletal Warriors apply Hamstring"
+        },
+        {
+          "type": "warning",
+          "class": null,
+          "text": "Skeletal Mages cast Frostbolt and also snare with Frost Armor"
+        }
+      ],
+      "quests": [
+        {
+          "id": 56,
+          "name": "The Night Watch"
+        }
+      ],
+      "npc": null,
+      "mobs": ["Skeletal Warrior", "Skeletal Mage"]
+    },
+    {
+      "id": "duskwood_031",
+      "type": "kill",
+      "description": "Kill the Insane Ghoul. Loot him for Mary's Looking Glass.",
+      "classes": null,
+      "races": null,
+      "coords": [80.98, 71.65],
+      "zone": "duskwood",
+      "tips": [
+        {
+          "type": "warning",
+          "class": null,
+          "text": "The Insane Ghoul may be inside of the chapel or walking around outside"
+        }
+      ],
+      "quests": [
+        {
+          "id": 177,
+          "name": "Look To The Stars"
+        }
+      ],
+      "npc": null,
+      "mobs": ["Insane Ghoul"]
+    },
+    {
+      "id": "duskwood_032",
+      "type": "travel",
+      "description": "Travel towards Jitters in western Duskwood",
+      "classes": null,
+      "races": null,
+      "coords": [18.203, 56.215],
+      "zone": "duskwood",
+      "tips": [],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "duskwood_033",
+      "type": "quest_turnin",
+      "description": "Talk to Jitters, turn in Raven Hill, and accept Jitters' Growling Gut",
+      "classes": null,
+      "races": null,
+      "coords": [18.203, 56.215],
+      "zone": "duskwood",
+      "tips": [],
+      "quests": [
+        {
+          "id": 163,
+          "name": "Raven Hill"
+        },
+        {
+          "id": 5,
+          "name": "Jitters' Growling Gut"
+        }
+      ],
+      "npc": "Jitters",
+      "mobs": []
+    },
+    {
+      "id": "duskwood_034",
+      "type": "info",
+      "description": "Talk to Bliztik upstairs. Buy as many Healing Potions that are available. This is a limited supply item. Skip this step if Bliztik doesn't have any",
+      "classes": null,
+      "races": null,
+      "coords": [18.04, 54.35],
+      "zone": "duskwood",
+      "tips": [],
+      "quests": [],
+      "npc": "Bliztik",
+      "mobs": []
+    },
+    {
+      "id": "duskwood_035",
+      "type": "quest_turnin",
+      "description": "Talk to Abercrombie and turn in The Hermit",
+      "classes": null,
+      "races": null,
+      "coords": [28.108, 31.469],
+      "zone": "duskwood",
+      "tips": [],
+      "quests": [
+        {
+          "id": 165,
+          "name": "The Hermit"
+        },
+        {
+          "id": 148,
+          "name": "Supplies from Darkshire"
+        }
+      ],
+      "npc": "Abercrombie",
+      "mobs": []
+    },
+    {
+      "id": "duskwood_036",
+      "type": "kill",
+      "description": "Kill Starving Dire Wolves and Rabid Dire Wolves",
+      "classes": null,
+      "races": null,
+      "coords": [36.19, 24.67],
+      "zone": "duskwood",
+      "tips": [],
+      "quests": [
+        {
+          "id": 226,
+          "name": "Wolves at Our Heels"
+        }
+      ],
+      "npc": null,
+      "mobs": ["Starving Dire Wolf", "Rabid Dire Wolf"]
+    },
+    {
+      "id": "duskwood_037",
+      "type": "kill",
+      "description": "Kill Starving Dire Wolves and Rabid Dire Wolves. Loot them for their Lean Wolf Flanks",
+      "classes": null,
+      "races": null,
+      "coords": [36.19, 24.67],
+      "zone": "duskwood",
+      "tips": [],
+      "quests": [
+        {
+          "id": 226,
+          "name": "Wolves at Our Heels"
+        }
+      ],
+      "npc": null,
+      "mobs": ["Starving Dire Wolf", "Rabid Dire Wolf"]
+    },
+    {
+      "id": "duskwood_038",
+      "type": "quest_turnin",
+      "description": "Talk to Sven Yorgen, turn in Deliveries to Sven, and accept Sven's Revenge",
+      "classes": null,
+      "races": null,
+      "coords": [7.78, 34.06],
+      "zone": "duskwood",
+      "tips": [],
+      "quests": [
+        {
+          "id": 164,
+          "name": "Deliveries to Sven"
+        },
+        {
+          "id": 95,
+          "name": "Sven's Revenge"
+        }
+      ],
+      "npc": "Sven Yorgen",
+      "mobs": []
+    },
+    {
+      "id": "duskwood_039",
+      "type": "quest_turnin",
+      "description": "Talk to Lars and turn in Wolves at Our Heels",
+      "classes": null,
+      "races": null,
+      "coords": [7.723, 33.301],
+      "zone": "duskwood",
+      "tips": [],
+      "quests": [
+        {
+          "id": 226,
+          "name": "Wolves at Our Heels"
+        }
+      ],
+      "npc": "Lars",
+      "mobs": []
+    },
+    {
+      "id": "duskwood_040",
+      "type": "kill",
+      "description": "Kill Pygmy Venom Web Spiders and Venom Web Spiders. Loot them for a Small Venom Sac and their Gooey Spider Legs.",
+      "classes": ["!Dwarf"],
+      "races": null,
+      "coords": [10.43, 53.97],
+      "zone": "duskwood",
+      "tips": [
+        {
+          "type": "warning",
+          "class": null,
+          "text": "You need a Small Venom Sac to make an Anti-Venom later to remove the Touch of Zanzil debuff later. Save the Gooey Spider Legs for later. If you have a Paladin or Druid friend you can skip this step and ask them to remove it for you later"
+        }
+      ],
+      "quests": [],
+      "npc": null,
+      "mobs": ["Pygmy Venom Web Spider", "Venom Web Spider"]
+    },
+    {
+      "id": "duskwood_041",
+      "type": "travel",
+      "description": "Travel to Westfall",
+      "classes": null,
+      "races": null,
+      "coords": null,
+      "zone": "",
+      "tips": [],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "duskwood_042",
+      "type": "kill",
+      "description": "Kill Dust Devils. Loot them for their Debris.",
+      "classes": ["!Rogue"],
+      "races": null,
+      "coords": [45.4, 49.6],
+      "zone": "westfall",
+      "tips": [
+        {
+          "type": "warning",
+          "class": null,
+          "text": "Dust Devils can spawn throughout all of Westfall. Their spawn locations are marked on the map"
+        },
+        {
+          "type": "warning",
+          "class": "Hunter",
+          "text": "Cast Eagle Eye to try and find them"
+        }
+      ],
+      "quests": [
+        {
+          "id": 1076,
+          "name": "Devils in Westfall"
+        }
+      ],
+      "npc": null,
+      "mobs": ["Dust Devil"]
+    },
+    {
+      "id": "duskwood_043",
+      "type": "quest_accept",
+      "description": "Talk to Agent Kearnen and turn in Mathias and the Defias and accept Klaven's Tower. You MUST do this quest for your Poisons",
+      "classes": ["Rogue"],
+      "races": null,
+      "coords": [68.5, 70.08],
+      "zone": "westfall",
+      "tips": [
+        {
+          "type": "warning",
+          "class": null,
+          "text": "You MUST do this quest for your Poisons. PAY ATTENTION TO THE UPCOMING SECTION. Press Escape, then go into Options Controls. Check Enable Interact Key and bind the Interact with Target option to a key. Additionally, it's recommended you enable Enemy Nameplates (Default Key: V) as it allows you to see enemies behind some of the corners inside the tower"
+        }
+      ],
+      "quests": [
+        {
+          "id": 2360,
+          "name": "Mathias and the Defias"
+        },
+        {
+          "id": 2359,
+          "name": "Klaven's Tower"
+        }
+      ],
+      "npc": "Agent Kearnen",
+      "mobs": []
+    },
+    {
+      "id": "duskwood_044",
+      "type": "loot",
+      "description": "Pick Pocket the Malformed Defias Drone. Loot it for the Defias Tower Key.",
+      "classes": ["Rogue"],
+      "races": null,
+      "coords": [69.58, 73.07],
+      "zone": "westfall",
+      "tips": [
+        {
+          "type": "warning",
+          "class": null,
+          "text": "You must be in Stealth to use Pick Pocket"
+        },
+        {
+          "type": "warning",
+          "class": null,
+          "text": "The Malformed Defias Drone spawns at the entrance to the tower, then patrols around the outside of it"
+        },
+        {
+          "type": "warning",
+          "class": null,
+          "text": "Be careful as he deals a LOT of damage. If your Stealth breaks, quickly use Sprint and run away"
+        },
+        {
+          "type": "link",
+          "class": null,
+          "text": "Click HERE for a video guide",
+          "url": "https://www.youtube.com/watch?v=5sIew15IcG0"
+        }
+      ],
+      "quests": [
+        {
+          "id": 2359,
+          "name": "Klaven's Tower"
+        }
+      ],
+      "npc": null,
+      "mobs": ["Malformed Defias Drone"]
+    },
+    {
+      "id": "duskwood_045",
+      "type": "loot",
+      "description": "Open the Duskwood Chest. Loot it for Klaven Mortwake's Journal.",
+      "classes": ["Rogue"],
+      "races": null,
+      "coords": [70.421, 74.031],
+      "zone": "westfall",
+      "tips": [
+        {
+          "type": "warning",
+          "class": null,
+          "text": "Travel up to 2nd top floor of the tower. Whilst in Stealth and the Defias Tower Sentries aren't next to you, Jump onto the chair, then onto the lamp, then onto the bookshelf on top of the waypoint location"
+        },
+        {
+          "type": "warning",
+          "class": null,
+          "text": "Manually Unstealth, then press your Interact with Target keybind to open the Duskwood Chest. Loot it for Klaven Mortwake's Journal"
+        },
+        {
+          "type": "warning",
+          "class": null,
+          "text": "Your Stealth will temporarily stop working after looting Klaven Mortwake's Journal"
+        },
+        {
+          "type": "warning",
+          "class": null,
+          "text": "Be prepared to run if you don't kill the Defias Tower Sentries on the 2nd floor. They will most likely aggro you permanently (but not attack you) when you are on top of the bookshelf as it is an evade spot"
+        },
+        {
+          "type": "warning",
+          "class": null,
+          "text": "If you have a Dagger in your bags or equipped, you can cast Ambush on the Defias Tower Patrollers and Defias Tower Sentries inside to kill them instantly. Be prepared to run after you kill the first Defias Tower Sentry and remember you can be hit from above. This is slower, but a LOT safer"
+        },
+        {
+          "type": "warning",
+          "class": null,
+          "text": "Be careful as the Malformed Defias Drone and Defias Drones can be at the entrance of the tower if you have to run out of it"
+        },
+        {
+          "type": "link",
+          "class": null,
+          "text": "Click HERE for a video guide",
+          "url": "https://www.youtube.com/watch?v=5sIew15IcG0"
+        }
+      ],
+      "quests": [
+        {
+          "id": 2359,
+          "name": "Klaven's Tower"
+        }
+      ],
+      "npc": null,
+      "mobs": ["Defias Tower Patroller", "Defias Tower Sentry"]
+    },
+    {
+      "id": "duskwood_046",
+      "type": "kill",
+      "description": "Kill Dust Devils. Loot them for their Debris.",
+      "classes": ["Rogue"],
+      "races": null,
+      "coords": [45.4, 49.6],
+      "zone": "westfall",
+      "tips": [
+        {
+          "type": "warning",
+          "class": null,
+          "text": "Dust Devils can spawn throughout all of Westfall. Their spawn locations are marked on the map"
+        }
+      ],
+      "quests": [
+        {
+          "id": 1076,
+          "name": "Devils in Westfall"
+        }
+      ],
+      "npc": null,
+      "mobs": ["Dust Devil"]
+    },
+    {
+      "id": "duskwood_047",
+      "type": "loot",
+      "description": "Click the Old Footlocker on the ground. Turn in The Legend of Stalvan and accept The Legend of Stalvan",
+      "classes": null,
+      "races": null,
+      "coords": [41.51, 66.72],
+      "zone": "westfall",
+      "tips": [],
+      "quests": [
+        {
+          "id": 67,
+          "name": "The Legend of Stalvan"
+        },
+        {
+          "id": 68,
+          "name": "The Legend of Stalvan"
+        }
+      ],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "duskwood_048",
+      "type": "travel",
+      "description": "Swim out to sea",
+      "classes": ["Druid"],
+      "races": null,
+      "coords": [17.928, 33.099],
+      "zone": "westfall",
+      "tips": [],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "duskwood_049",
+      "type": "loot",
+      "description": "Open the Strange Lockbox. Loot it for the Half Pendant of Aquatic Endurance",
+      "classes": ["Druid"],
+      "races": null,
+      "coords": [17.928, 33.099],
+      "zone": "westfall",
+      "tips": [],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "duskwood_050",
+      "type": "info",
+      "description": "Cast Teleport: Moonglade",
+      "classes": ["Druid"],
+      "races": null,
+      "coords": null,
+      "zone": "",
+      "tips": [],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "duskwood_051",
+      "type": "info",
+      "description": "Use the Half Pendant of Aquatic Agility to combine it with the Half Pendant of Aquatic Endurance at the Shrine of Remulos",
+      "classes": ["Druid"],
+      "races": null,
+      "coords": [36.0, 41.4],
+      "zone": "moonglade",
+      "tips": [],
+      "quests": [
+        {
+          "id": 272,
+          "name": "Trial of the Sea Lion"
+        }
+      ],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "duskwood_052",
+      "type": "info",
+      "description": "Cast Teleport: Moonglade.",
+      "classes": ["Druid"],
+      "races": null,
+      "coords": null,
+      "zone": "",
+      "tips": [
+        {
+          "type": "warning",
+          "class": null,
+          "text": "This will save you time from running back"
+        }
+      ],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "duskwood_053",
+      "type": "quest_turnin",
+      "description": "Talk to Dendrite Starblaze, turn in Trial of the Sea Lion, and accept Aquatic Form",
+      "classes": ["Druid"],
+      "races": null,
+      "coords": [56.209, 30.636],
+      "zone": "moonglade",
+      "tips": [],
+      "quests": [
+        {
+          "id": 272,
+          "name": "Trial of the Sea Lion"
+        },
+        {
+          "id": 5061,
+          "name": "Aquatic Form"
+        }
+      ],
+      "npc": "Dendrite Starblaze",
+      "mobs": []
+    },
+    {
+      "id": "duskwood_054",
+      "type": "info",
+      "description": "Talk to Loganaar and train your class spells",
+      "classes": ["Druid"],
+      "races": null,
+      "coords": [52.53, 40.57],
+      "zone": "moonglade",
+      "tips": [],
+      "quests": [],
+      "npc": "Loganaar",
+      "mobs": []
+    },
+    {
+      "id": "duskwood_055",
+      "type": "fly",
+      "description": "Talk to Silva Fil'naveth and fly to Teldrassil",
+      "classes": ["Druid"],
+      "races": null,
+      "coords": [44.147, 45.225],
+      "zone": "moonglade",
+      "tips": [],
+      "quests": [],
+      "npc": "Silva Fil'naveth",
+      "mobs": []
+    },
+    {
+      "id": "duskwood_056",
+      "type": "quest_turnin",
+      "description": "Talk to Mathrengyl Bearwalker and turn in Aquatic Form",
+      "classes": ["Druid"],
+      "races": null,
+      "coords": [35.375, 8.405],
+      "zone": "darnassus",
+      "tips": [],
+      "quests": [
+        {
+          "id": 5061,
+          "name": "Aquatic Form"
+        }
+      ],
+      "npc": "Mathrengyl Bearwalker",
+      "mobs": []
+    },
+    {
+      "id": "duskwood_057",
+      "type": "fly",
+      "description": "Talk to Thor and fly to Stormwind",
+      "classes": ["Rogue"],
+      "races": null,
+      "coords": [56.55, 52.64],
+      "zone": "westfall",
+      "tips": [],
+      "quests": [],
+      "npc": "Thor",
+      "mobs": []
+    },
+    {
+      "id": "duskwood_058",
+      "type": "info",
+      "description": "Hearth to Stormwind",
+      "classes": ["Rogue"],
+      "races": null,
+      "coords": null,
+      "zone": "",
+      "tips": [],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "duskwood_059",
+      "type": "quest_turnin",
+      "description": "Talk to Collin Mauren and turn in Devils in Westfall",
+      "classes": ["Rogue"],
+      "races": null,
+      "coords": [43.08, 80.39],
+      "zone": "stormwind_city",
+      "tips": [],
+      "quests": [
+        {
+          "id": 1076,
+          "name": "Devils in Westfall"
+        }
+      ],
+      "npc": "Collin Mauren",
+      "mobs": []
+    },
+    {
+      "id": "duskwood_060",
+      "type": "info",
+      "description": "Talk to Shaina Fuller. Level your First Aid to 80",
+      "classes": ["!Dwarf", "Rogue"],
+      "races": null,
+      "coords": [43.07, 26.155],
+      "zone": "stormwind_city",
+      "tips": [
+        {
+          "type": "warning",
+          "class": null,
+          "text": "If you have a Paladin or Druid friend, ask them to remove the Touch of Zanzil for you instead"
+        }
+      ],
+      "quests": [],
+      "npc": "Shaina Fuller",
+      "mobs": []
+    },
+    {
+      "id": "duskwood_061",
+      "type": "info",
+      "description": "Talk to Shaina Fuller. Train Anti-Venom.",
+      "classes": ["!Dwarf", "Rogue"],
+      "races": null,
+      "coords": [43.07, 26.155],
+      "zone": "stormwind_city",
+      "tips": [
+        {
+          "type": "warning",
+          "class": null,
+          "text": "If you have a Paladin or Druid friend, ask them to remove the Touch of Zanzil for you instead"
+        }
+      ],
+      "quests": [],
+      "npc": "Shaina Fuller",
+      "mobs": []
+    },
+    {
+      "id": "duskwood_062",
+      "type": "quest_turnin",
+      "description": "Talk to Master Mathias Shaw and turn in Klaven's Tower.",
+      "classes": ["Rogue"],
+      "races": null,
+      "coords": [75.78, 59.84],
+      "zone": "stormwind_city",
+      "tips": [
+        {
+          "type": "warning",
+          "class": "Rogue",
+          "text": "Remember to re-equip your main weapon if you switched to a Dagger earlier"
+        }
+      ],
+      "quests": [
+        {
+          "id": 2359,
+          "name": "Klaven's Tower"
+        }
+      ],
+      "npc": "Master Mathias Shaw",
+      "mobs": []
+    },
+    {
+      "id": "duskwood_063",
+      "type": "fly",
+      "description": "Talk to Dungar Longdrink and fly to Duskwood",
+      "classes": ["Rogue"],
+      "races": null,
+      "coords": [66.27, 62.12],
+      "zone": "stormwind_city",
+      "tips": [],
+      "quests": [],
+      "npc": "Dungar Longdrink",
+      "mobs": []
+    },
+    {
+      "id": "duskwood_064",
+      "type": "quest_turnin",
+      "description": "Talk to Daphne Stilwell, turn in The Tome of Valor, accept The Tome of Valor, and turn in The Tome of Valor",
+      "classes": ["Paladin"],
+      "races": null,
+      "coords": [42.5, 88.6],
+      "zone": "westfall",
+      "tips": [],
+      "quests": [
+        {
+          "id": 1650,
+          "name": "The Tome of Valor"
+        },
+        {
+          "id": 1651,
+          "name": "The Tome of Valor"
+        },
+        {
+          "id": 1652,
+          "name": "The Tome of Valor"
+        }
+      ],
+      "npc": "Daphne Stilwell",
+      "mobs": []
+    },
+    {
+      "id": "duskwood_065",
+      "type": "info",
+      "description": "Hearth to Darkshire",
+      "classes": ["!Rogue"],
+      "races": null,
+      "coords": null,
+      "zone": "",
+      "tips": [],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "duskwood_066",
+      "type": "fly",
+      "description": "Talk to Thor and fly to Darkshire",
+      "classes": ["!Rogue"],
+      "races": null,
+      "coords": [56.55, 52.64],
+      "zone": "westfall",
+      "tips": [],
+      "quests": [],
+      "npc": "Thor",
+      "mobs": []
+    },
+    {
+      "id": "duskwood_067",
+      "type": "quest_turnin",
+      "description": "Talk to Chef Grual and turn in Seasoned Wolf Kabobs.",
+      "classes": null,
+      "races": null,
+      "coords": [73.83, 44.05],
+      "zone": "duskwood",
+      "tips": [
+        {
+          "type": "warning",
+          "class": null,
+          "text": "You need 50 skill in cooking to accept this quest"
+        }
+      ],
+      "quests": [
+        {
+          "id": 90,
+          "name": "Seasoned Wolf Kabobs"
+        }
+      ],
+      "npc": "Chef Grual",
+      "mobs": []
+    },
+    {
+      "id": "duskwood_068",
+      "type": "quest_turnin",
+      "description": "Talk to Chef Grual, turn in Jitters' Growling Gut, and accept Dusky Crab Cakes",
+      "classes": null,
+      "races": null,
+      "coords": [73.88, 43.45],
+      "zone": "duskwood",
+      "tips": [],
+      "quests": [
+        {
+          "id": 5,
+          "name": "Jitters' Growling Gut"
+        },
+        {
+          "id": 93,
+          "name": "Dusky Crab Cakes"
+        }
+      ],
+      "npc": "Chef Grual",
+      "mobs": []
+    },
+    {
+      "id": "duskwood_069",
+      "type": "quest_turnin",
+      "description": "Talk to Chef Grual and turn in Dusky Crab Cakes",
+      "classes": null,
+      "races": null,
+      "coords": [73.88, 43.45],
+      "zone": "duskwood",
+      "tips": [],
+      "quests": [
+        {
+          "id": 93,
+          "name": "Dusky Crab Cakes"
+        }
+      ],
+      "npc": "Chef Grual",
+      "mobs": []
+    },
+    {
+      "id": "duskwood_070",
+      "type": "quest_turnin",
+      "description": "Talk to Commander Althea Ebonlocke, turn in The Night Watch, and accept The Night Watch",
+      "classes": null,
+      "races": null,
+      "coords": [73.59, 46.89],
+      "zone": "duskwood",
+      "tips": [],
+      "quests": [
+        {
+          "id": 56,
+          "name": "The Night Watch"
+        },
+        {
+          "id": 57,
+          "name": "The Night Watch"
+        }
+      ],
+      "npc": "Commander Althea Ebonlocke",
+      "mobs": []
+    },
+    {
+      "id": "duskwood_071",
+      "type": "quest_turnin",
+      "description": "Talk to Clerk Daltry, turn in The Legend of Stalvan, and accept The Legend of Stalvan",
+      "classes": null,
+      "races": null,
+      "coords": [72.53, 46.85],
+      "zone": "duskwood",
+      "tips": [],
+      "quests": [
+        {
+          "id": 68,
+          "name": "The Legend of Stalvan"
+        },
+        {
+          "id": 69,
+          "name": "The Legend of Stalvan"
+        }
+      ],
+      "npc": "Clerk Daltry",
+      "mobs": []
+    },
+    {
+      "id": "duskwood_072",
+      "type": "quest_turnin",
+      "description": "Talk to Madame Eva, turn in Supplies from Darkshire, and accept Ghost Hair Thread",
+      "classes": null,
+      "races": null,
+      "coords": [75.81, 45.29],
+      "zone": "duskwood",
+      "tips": [],
+      "quests": [
+        {
+          "id": 148,
+          "name": "Supplies from Darkshire"
+        },
+        {
+          "id": 149,
+          "name": "Ghost Hair Thread"
+        }
+      ],
+      "npc": "Madame Eva",
+      "mobs": []
+    },
+    {
+      "id": "duskwood_073",
+      "type": "quest_turnin",
+      "description": "Talk to Viktori Prism'Antras and turn in Look To The Stars",
+      "classes": null,
+      "races": null,
+      "coords": [79.8, 48.02],
+      "zone": "duskwood",
+      "tips": [],
+      "quests": [
+        {
+          "id": 177,
+          "name": "Look To The Stars"
+        }
+      ],
+      "npc": "Viktori Prism'Antras",
+      "mobs": []
+    },
+    {
+      "id": "duskwood_074",
+      "type": "fly",
+      "description": "Talk to Felicia Maline and fly to Redridge Mountains",
+      "classes": null,
+      "races": null,
+      "coords": [77.486, 44.287],
+      "zone": "duskwood",
+      "tips": [],
+      "quests": [],
+      "npc": "Felicia Maline",
+      "mobs": []
+    },
+    {
+      "id": "duskwood_075",
+      "type": "quest_accept",
+      "description": "Talk to Marshal Marris and accept Blackrock Menace",
+      "classes": null,
+      "races": null,
+      "coords": [33.5, 48.96],
+      "zone": "redridge_mountains",
+      "tips": [],
+      "quests": [
+        {
+          "id": 20,
+          "name": "Blackrock Menace"
+        }
+      ],
+      "npc": "Marshal Marris",
+      "mobs": []
+    },
+    {
+      "id": "duskwood_076",
+      "type": "quest_accept",
+      "description": "Talk to Foreman Oslow and accept Rethban Ore",
+      "classes": null,
+      "races": null,
+      "coords": [32.13, 48.63],
+      "zone": "redridge_mountains",
+      "tips": [],
+      "quests": [
+        {
+          "id": 347,
+          "name": "Rethban Ore"
+        }
+      ],
+      "npc": "Foreman Oslow",
+      "mobs": []
+    },
+    {
+      "id": "duskwood_077",
+      "type": "quest_accept",
+      "description": "Talk to Dockmaster Baren and accept Selling Fish and Murloc Poachers",
+      "classes": null,
+      "races": null,
+      "coords": [27.724, 47.377],
+      "zone": "redridge_mountains",
+      "tips": [],
+      "quests": [
+        {
+          "id": 127,
+          "name": "Selling Fish"
+        },
+        {
+          "id": 150,
+          "name": "Murloc Poachers"
+        }
+      ],
+      "npc": "Dockmaster Baren",
+      "mobs": []
+    },
+    {
+      "id": "duskwood_078",
+      "type": "quest_accept",
+      "description": "Talk to Guard Berton and accept What Comes Around...",
+      "classes": null,
+      "races": null,
+      "coords": [26.258, 46.58],
+      "zone": "redridge_mountains",
+      "tips": [],
+      "quests": [
+        {
+          "id": 386,
+          "name": "What Comes Around..."
+        }
+      ],
+      "npc": "Guard Berton",
+      "mobs": []
+    },
+    {
+      "id": "duskwood_079",
+      "type": "quest_accept",
+      "description": "Talk to Martie Jainrose and accept An Unwelcome Guest",
+      "classes": null,
+      "races": null,
+      "coords": [21.85, 46.32],
+      "zone": "redridge_mountains",
+      "tips": [],
+      "quests": [
+        {
+          "id": 34,
+          "name": "An Unwelcome Guest"
+        }
+      ],
+      "npc": "Martie Jainrose",
+      "mobs": []
+    },
+    {
+      "id": "duskwood_080",
+      "type": "kill",
+      "description": "Kill Bellygrub. Loot him for his Tusk",
+      "classes": null,
+      "races": null,
+      "coords": [15.68, 49.3],
+      "zone": "redridge_mountains",
+      "tips": [],
+      "quests": [
+        {
+          "id": 34,
+          "name": "An Unwelcome Guest"
+        }
+      ],
+      "npc": null,
+      "mobs": ["Bellygrub"]
+    },
+    {
+      "id": "duskwood_081",
+      "type": "travel",
+      "description": "Enter the Rethban Caverns",
+      "classes": null,
+      "races": null,
+      "coords": [20.05, 27.48],
+      "zone": "redridge_mountains",
+      "tips": [],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "duskwood_082",
+      "type": "kill",
+      "description": "Kill Redridge Drudgers. Loot them for their Ore.",
+      "classes": null,
+      "races": null,
+      "coords": [19.04, 23.48],
+      "zone": "redridge_mountains",
+      "tips": [
+        {
+          "type": "warning",
+          "class": null,
+          "text": "Redridge Bashers also share spawns with Redridge Drudgers so you may need to kill them to make them spawn"
+        },
+        {
+          "type": "warning",
+          "class": null,
+          "text": "Redridge Drudgers attack very fast and Redridge Bashers have a Knockdown stun"
+        },
+        {
+          "type": "warning",
+          "class": null,
+          "text": "You may also acquire them by Mining the Copper Veins and Tin Veins inside the Rethban Caverns"
+        }
+      ],
+      "quests": [
+        {
+          "id": 347,
+          "name": "Rethban Ore"
+        }
+      ],
+      "npc": null,
+      "mobs": ["Redridge Drudger"]
+    },
+    {
+      "id": "duskwood_083",
+      "type": "kill",
+      "description": "Kill Redridge Drudgers. Loot them for their Ore.",
+      "classes": null,
+      "races": null,
+      "coords": [19.04, 23.48],
+      "zone": "redridge_mountains",
+      "tips": [
+        {
+          "type": "warning",
+          "class": null,
+          "text": "Redridge Bashers also share spawns with Redridge Drudgers so you may need to kill them to make them spawn"
+        },
+        {
+          "type": "warning",
+          "class": null,
+          "text": "Redridge Drudgers attack very fast and Redridge Bashers have a Knockdown stun"
+        }
+      ],
+      "quests": [
+        {
+          "id": 347,
+          "name": "Rethban Ore"
+        }
+      ],
+      "npc": null,
+      "mobs": ["Redridge Drudger"]
+    },
+    {
+      "id": "duskwood_084",
+      "type": "quest_turnin",
+      "description": "Talk to Martie Jainrose and turn in An Unwelcome Guest",
+      "classes": null,
+      "races": null,
+      "coords": [21.85, 46.32],
+      "zone": "redridge_mountains",
+      "tips": [],
+      "quests": [
+        {
+          "id": 34,
+          "name": "An Unwelcome Guest"
+        }
+      ],
+      "npc": "Martie Jainrose",
+      "mobs": []
+    },
+    {
+      "id": "duskwood_085",
+      "type": "kill",
+      "description": "Kill Blackrock Grunts and Blackrock Outrunners. Loot them for their Axes.",
+      "classes": null,
+      "races": null,
+      "coords": [61.76, 43.51],
+      "zone": "redridge_mountains",
+      "tips": [
+        {
+          "type": "warning",
+          "class": null,
+          "text": "Be aware the Blackrock Outrunners will cast Net on you"
+        },
+        {
+          "type": "warning",
+          "class": null,
+          "text": "Alternate between killing Orcs and the Murlocs marked on the map southwest"
+        }
+      ],
+      "quests": [
+        {
+          "id": 20,
+          "name": "Blackrock Menace"
+        }
+      ],
+      "npc": null,
+      "mobs": ["Blackrock Grunt", "Blackrock Outrunner"]
+    },
+    {
+      "id": "duskwood_086",
+      "type": "kill",
+      "description": "Kill Murloc Scouts and Murloc Tidecallers. Loot them for their Fins and Sunfish",
+      "classes": null,
+      "races": null,
+      "coords": [56.4, 51.8],
+      "zone": "redridge_mountains",
+      "tips": [],
+      "quests": [
+        {
+          "id": 150,
+          "name": "Murloc Poachers"
+        },
+        {
+          "id": 127,
+          "name": "Selling Fish"
+        }
+      ],
+      "npc": null,
+      "mobs": ["Murloc Scout", "Murloc Tidecaller"]
+    },
+    {
+      "id": "duskwood_087",
+      "type": "quest_turnin",
+      "description": "Talk to Marshal Marris and turn in Blackrock Menace",
+      "classes": null,
+      "races": null,
+      "coords": [33.5, 48.96],
+      "zone": "redridge_mountains",
+      "tips": [],
+      "quests": [
+        {
+          "id": 20,
+          "name": "Blackrock Menace"
+        }
+      ],
+      "npc": "Marshal Marris",
+      "mobs": []
+    },
+    {
+      "id": "duskwood_088",
+      "type": "quest_turnin",
+      "description": "Talk to Dockmaster Baren and turn in Selling Fish",
+      "classes": null,
+      "races": null,
+      "coords": [27.724, 47.377],
+      "zone": "redridge_mountains",
+      "tips": [],
+      "quests": [
+        {
+          "id": 127,
+          "name": "Selling Fish"
+        }
+      ],
+      "npc": "Dockmaster Baren",
+      "mobs": []
+    },
+    {
+      "id": "duskwood_089",
+      "type": "quest_turnin",
+      "description": "Talk to Dockmaster Baren and turn in Murloc Poachers",
+      "classes": null,
+      "races": null,
+      "coords": [27.724, 47.377],
+      "zone": "redridge_mountains",
+      "tips": [],
+      "quests": [
+        {
+          "id": 150,
+          "name": "Murloc Poachers"
+        }
+      ],
+      "npc": "Dockmaster Baren",
+      "mobs": []
+    },
+    {
+      "id": "duskwood_090",
+      "type": "quest_accept",
+      "description": "Click on The Wanted Poster and accept Wanted: Lieutenant Fangore",
+      "classes": null,
+      "races": null,
+      "coords": [26.75, 46.43],
+      "zone": "redridge_mountains",
+      "tips": [],
+      "quests": [
+        {
+          "id": 180,
+          "name": "Wanted: Lieutenant Fangore"
+        }
+      ],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "duskwood_091",
+      "type": "quest_accept",
+      "description": "Talk to Bailiff Conacher and accept Solomon's Law",
+      "classes": null,
+      "races": null,
+      "coords": [29.71, 44.26],
+      "zone": "redridge_mountains",
+      "tips": [],
+      "quests": [
+        {
+          "id": 91,
+          "name": "Solomon's Law"
+        }
+      ],
+      "npc": "Bailiff Conacher",
+      "mobs": []
+    },
+    {
+      "id": "duskwood_092",
+      "type": "fly",
+      "description": "Talk to Ariena Stormfeather and fly to Duskwood",
+      "classes": null,
+      "races": null,
+      "coords": [30.59, 59.41],
+      "zone": "redridge_mountains",
+      "tips": [],
+      "quests": [],
+      "npc": "Ariena Stormfeather",
+      "mobs": []
+    },
+    {
+      "id": "duskwood_093",
+      "type": "info",
+      "description": "Talk to Herble Baubbletump. Buy a Bronze Tube. This is a limited supply item. Skip this step if Herble Baubbletump doesn't have one",
+      "classes": null,
+      "races": null,
+      "coords": [77.992, 48.328],
+      "zone": "duskwood",
+      "tips": [],
+      "quests": [],
+      "npc": "Herble Baubbletump",
+      "mobs": []
+    },
+    {
+      "id": "duskwood_094",
+      "type": "quest_turnin",
+      "description": "Talk to Viktori Prism'Antras, accept Look To The Stars, and turn in Look To The Stars",
+      "classes": null,
+      "races": null,
+      "coords": [79.8, 48.02],
+      "zone": "duskwood",
+      "tips": [],
+      "quests": [
+        {
+          "id": 174,
+          "name": "Look To The Stars"
+        }
+      ],
+      "npc": "Viktori Prism'Antras",
+      "mobs": []
+    },
+    {
+      "id": "duskwood_095",
+      "type": "quest_accept",
+      "description": "Talk to Viktori Prism'Antras and accept Look To The Stars",
+      "classes": null,
+      "races": null,
+      "coords": [79.8, 48.02],
+      "zone": "duskwood",
+      "tips": [],
+      "quests": [
+        {
+          "id": 175,
+          "name": "Look To The Stars"
+        }
+      ],
+      "npc": "Viktori Prism'Antras",
+      "mobs": []
+    },
+    {
+      "id": "duskwood_096",
+      "type": "quest_turnin",
+      "description": "Talk to Blind Mary, turn in Look To The Stars, and accept Look To The Stars",
+      "classes": null,
+      "races": null,
+      "coords": [81.46, 59.02],
+      "zone": "duskwood",
+      "tips": [],
+      "quests": [
+        {
+          "id": 175,
+          "name": "Look To The Stars"
+        },
+        {
+          "id": 177,
+          "name": "Look To The Stars"
+        }
+      ],
+      "npc": "Blind Mary",
+      "mobs": []
+    },
+    {
+      "id": "duskwood_097",
+      "type": "kill",
+      "description": "Kill the Insane Ghoul. Loot him for Mary's Looking Glass. The Insane Ghoul may be inside of the chapel or walking around outside",
+      "classes": null,
+      "races": null,
+      "coords": [80.98, 71.65],
+      "zone": "duskwood",
+      "tips": [
+        {
+          "type": "warning",
+          "class": null,
+          "text": "The Insane Ghoul may be inside of the chapel or walking around outside"
+        }
+      ],
+      "quests": [
+        {
+          "id": 177,
+          "name": "Look To The Stars"
+        }
+      ],
+      "npc": null,
+      "mobs": ["Insane Ghoul"]
+    },
+    {
+      "id": "duskwood_098",
+      "type": "quest_turnin",
+      "description": "Talk to Viktori Prism'Antras and turn in Look To The Stars",
+      "classes": null,
+      "races": null,
+      "coords": [79.8, 48.02],
+      "zone": "duskwood",
+      "tips": [],
+      "quests": [
+        {
+          "id": 177,
+          "name": "Look To The Stars"
+        }
+      ],
+      "npc": "Viktori Prism'Antras",
+      "mobs": []
+    },
+    {
+      "id": "duskwood_099",
+      "type": "quest_turnin",
+      "description": "Talk to Blind Mary, turn in Ghost Hair Thread, and accept Return the Comb",
+      "classes": null,
+      "races": null,
+      "coords": [81.98, 59.08],
+      "zone": "duskwood",
+      "tips": [],
+      "quests": [
+        {
+          "id": 149,
+          "name": "Ghost Hair Thread"
+        },
+        {
+          "id": 154,
+          "name": "Return the Comb"
+        }
+      ],
+      "npc": "Blind Mary",
+      "mobs": []
+    },
+    {
+      "id": "duskwood_100",
+      "type": "quest_turnin",
+      "description": "Talk to Madame Eva, turn in Return the Comb, and accept Deliver the Thread",
+      "classes": null,
+      "races": null,
+      "coords": [75.81, 45.29],
+      "zone": "duskwood",
+      "tips": [],
+      "quests": [
+        {
+          "id": 154,
+          "name": "Return the Comb"
+        },
+        {
+          "id": 157,
+          "name": "Deliver the Thread"
+        }
+      ],
+      "npc": "Madame Eva",
+      "mobs": []
+    },
+    {
+      "id": "duskwood_101",
+      "type": "quest_accept",
+      "description": "Talk to Councilman Millstipe and accept Crime and Punishment",
+      "classes": null,
+      "races": null,
+      "coords": [71.938, 47.778],
+      "zone": "duskwood",
+      "tips": [],
+      "quests": [
+        {
+          "id": 377,
+          "name": "Crime and Punishment"
+        }
+      ],
+      "npc": "Councilman Millstipe",
+      "mobs": []
+    },
+    {
+      "id": "duskwood_102",
+      "type": "quest_accept",
+      "description": "Talk to Chef Grual and accept Return to Jitters",
+      "classes": null,
+      "races": null,
+      "coords": [73.88, 43.45],
+      "zone": "duskwood",
+      "tips": [],
+      "quests": [
+        {
+          "id": 240,
+          "name": "Return to Jitters"
+        }
+      ],
+      "npc": "Chef Grual",
+      "mobs": []
+    },
+    {
+      "id": "duskwood_103",
+      "type": "quest_turnin",
+      "description": "Click the Mound of loose dirt on the ground, turn in Sven's Revenge, and accept Sven's Camp",
+      "classes": null,
+      "races": null,
+      "coords": [49.85, 77.71],
+      "zone": "duskwood",
+      "tips": [],
+      "quests": [
+        {
+          "id": 95,
+          "name": "Sven's Revenge"
+        },
+        {
+          "id": 230,
+          "name": "Sven's Camp"
+        }
+      ],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "duskwood_104",
+      "type": "quest_turnin",
+      "description": "Talk to Jitters and turn in Return to Jitters",
+      "classes": null,
+      "races": null,
+      "coords": [18.37, 56.36],
+      "zone": "duskwood",
+      "tips": [],
+      "quests": [
+        {
+          "id": 240,
+          "name": "Return to Jitters"
+        }
+      ],
+      "npc": "Jitters",
+      "mobs": []
+    },
+    {
+      "id": "duskwood_105",
+      "type": "info",
+      "description": "Talk to Bliztik upstairs. Buy as many Healing Potions that are available. This is a limited supply item. Skip this step if Bliztik doesn't have any",
+      "classes": null,
+      "races": null,
+      "coords": [18.04, 54.35],
+      "zone": "duskwood",
+      "tips": [],
+      "quests": [],
+      "npc": "Bliztik",
+      "mobs": []
+    },
+    {
+      "id": "duskwood_106",
+      "type": "quest_turnin",
+      "description": "Talk to Abercrombie, turn in Deliver the Thread, and accept Zombie Juice",
+      "classes": null,
+      "races": null,
+      "coords": [28.108, 31.469],
+      "zone": "duskwood",
+      "tips": [],
+      "quests": [
+        {
+          "id": 157,
+          "name": "Deliver the Thread"
+        },
+        {
+          "id": 158,
+          "name": "Zombie Juice"
+        }
+      ],
+      "npc": "Abercrombie",
+      "mobs": []
+    },
+    {
+      "id": "duskwood_107",
+      "type": "quest_turnin",
+      "description": "Talk to Sven Yorgen, turn in Sven's Camp, and accept The Shadowy Figure",
+      "classes": null,
+      "races": null,
+      "coords": [7.78, 34.06],
+      "zone": "duskwood",
+      "tips": [],
+      "quests": [
+        {
+          "id": 230,
+          "name": "Sven's Camp"
+        },
+        {
+          "id": 262,
+          "name": "The Shadowy Figure"
+        }
+      ],
+      "npc": "Sven Yorgen",
+      "mobs": []
+    },
+    {
+      "id": "duskwood_108",
+      "type": "grind",
+      "description": "Grind to level 25 plus 29845 experience",
+      "classes": null,
+      "races": null,
+      "coords": [21.35, 46.8],
+      "zone": "duskwood",
+      "tips": [],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "duskwood_109",
+      "type": "travel",
+      "description": "Travel to Goldshire",
+      "classes": null,
+      "races": null,
+      "coords": [43.771, 65.803],
+      "zone": "elwynn_forest",
+      "tips": [],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "duskwood_110",
+      "type": "quest_turnin",
+      "description": "Talk to Innkeeper Farley, turn in The Legend of Stalvan, and accept The Legend of Stalvan",
+      "classes": null,
+      "races": null,
+      "coords": [43.771, 65.803],
+      "zone": "elwynn_forest",
+      "tips": [],
+      "quests": [
+        {
+          "id": 69,
+          "name": "The Legend of Stalvan"
+        },
+        {
+          "id": 70,
+          "name": "The Legend of Stalvan"
+        }
+      ],
+      "npc": "Innkeeper Farley",
+      "mobs": []
+    },
+    {
+      "id": "duskwood_111",
+      "type": "loot",
+      "description": "Go upstairs. Open the Storage Chest. Loot it for An Undelivered Letter",
+      "classes": null,
+      "races": null,
+      "coords": [44.302, 65.823],
+      "zone": "elwynn_forest",
+      "tips": [],
+      "quests": [
+        {
+          "id": 70,
+          "name": "The Legend of Stalvan"
+        }
+      ],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "duskwood_112",
+      "type": "travel",
+      "description": "Travel to Northshire Abbey",
+      "classes": null,
+      "races": null,
+      "coords": [48.82, 41.65],
+      "zone": "elwynn_forest",
+      "tips": [],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "duskwood_113",
+      "type": "quest_turnin",
+      "description": "Talk to Brother Paxton, turn in Rethban Ore, and accept Return to Kristoff.",
+      "classes": null,
+      "races": null,
+      "coords": [49.6, 40.41],
+      "zone": "elwynn_forest",
+      "tips": [
+        {
+          "type": "warning",
+          "class": null,
+          "text": "Brother Paxton is on the ground floor"
+        }
+      ],
+      "quests": [
+        {
+          "id": 347,
+          "name": "Rethban Ore"
+        },
+        {
+          "id": 346,
+          "name": "Return to Kristoff"
+        }
+      ],
+      "npc": "Brother Paxton",
+      "mobs": []
+    },
+    {
+      "id": "duskwood_114",
+      "type": "travel",
+      "description": "Travel to Stormwind City",
+      "classes": ["!Mage"],
+      "races": null,
+      "coords": [69.96, 86.9],
+      "zone": "stormwind_city",
+      "tips": [],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "duskwood_115",
+      "type": "info",
+      "description": "Teleport to Stormwind City",
+      "classes": ["Mage"],
+      "races": null,
+      "coords": [43.08, 80.39],
+      "zone": "stormwind_city",
+      "tips": [],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "duskwood_116",
+      "type": "info",
+      "description": "Talk to Jennea and train your class spells",
+      "classes": ["Mage"],
+      "races": null,
+      "coords": [36.87, 81.14],
+      "zone": "stormwind_city",
+      "tips": [],
+      "quests": [],
+      "npc": "Jennea Cannon",
+      "mobs": []
+    },
+    {
+      "id": "duskwood_117",
+      "type": "quest_turnin",
+      "description": "Talk to Collin Mauren and turn in Devils in Westfall",
+      "classes": null,
+      "races": null,
+      "coords": [43.08, 80.39],
+      "zone": "stormwind_city",
+      "tips": [],
+      "quests": [
+        {
+          "id": 1076,
+          "name": "Devils in Westfall"
+        }
+      ],
+      "npc": "Collin Mauren",
+      "mobs": []
+    },
+    {
+      "id": "duskwood_118",
+      "type": "info",
+      "description": "Talk to Kyra Boucher. Buy 2 Rune of Teleportations from her",
+      "classes": ["Mage"],
+      "races": null,
+      "coords": [56.135, 65.217],
+      "zone": "stormwind_city",
+      "tips": [],
+      "quests": [],
+      "npc": "Kyra Boucher",
+      "mobs": []
+    },
+    {
+      "id": "duskwood_119",
+      "type": "travel",
+      "description": "Head to the Slaughtered Lamb and go downstairs",
+      "classes": null,
+      "races": null,
+      "coords": [27.2, 78.1],
+      "zone": "stormwind_city",
+      "tips": [],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "duskwood_120",
+      "type": "quest_accept",
+      "description": "Talk to Zardeth of the Black Claw and accept A Noble Brew",
+      "classes": null,
+      "races": null,
+      "coords": [26.44, 78.66],
+      "zone": "stormwind_city",
+      "tips": [],
+      "quests": [
+        {
+          "id": 335,
+          "name": "A Noble Brew"
+        }
+      ],
+      "npc": "Zardeth of the Black Claw",
+      "mobs": []
+    },
+    {
+      "id": "duskwood_121",
+      "type": "info",
+      "description": "Talk to Ursula Deline and train your class spells",
+      "classes": ["Warlock"],
+      "races": null,
+      "coords": [26.117, 77.225],
+      "zone": "stormwind_city",
+      "tips": [],
+      "quests": [],
+      "npc": "Ursula Deline",
+      "mobs": []
+    },
+    {
+      "id": "duskwood_122",
+      "type": "quest_turnin",
+      "description": "Talk to Caretaker Folsom, turn in The Legend of Stalvan, and accept The Legend of Stalvan",
+      "classes": null,
+      "races": null,
+      "coords": [29.528, 61.924],
+      "zone": "stormwind_city",
+      "tips": [],
+      "quests": [
+        {
+          "id": 70,
+          "name": "The Legend of Stalvan"
+        },
+        {
+          "id": 72,
+          "name": "The Legend of Stalvan"
+        }
+      ],
+      "npc": "Caretaker Folsom",
+      "mobs": []
+    },
+    {
+      "id": "duskwood_123",
+      "type": "quest_turnin",
+      "description": "Click the Sealed Crate on the ground and turn in The Legend of Stalvan",
+      "classes": null,
+      "races": null,
+      "coords": [29.44, 61.52],
+      "zone": "stormwind_city",
+      "tips": [],
+      "quests": [
+        {
+          "id": 72,
+          "name": "The Legend of Stalvan"
+        }
+      ],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "duskwood_124",
+      "type": "info",
+      "description": "Talk to Sheldras Moontree and train your class spells",
+      "classes": ["Druid"],
+      "races": null,
+      "coords": [20.898, 55.491],
+      "zone": "stormwind_city",
+      "tips": [],
+      "quests": [],
+      "npc": "Sheldras Moontree",
+      "mobs": []
+    },
+    {
+      "id": "duskwood_125",
+      "type": "quest_turnin",
+      "description": "Talk to Brother Kristoff and turn in Return to Kristoff",
+      "classes": null,
+      "races": null,
+      "coords": [45.697, 38.422],
+      "zone": "stormwind_city",
+      "tips": [],
+      "quests": [
+        {
+          "id": 346,
+          "name": "Return to Kristoff"
+        }
+      ],
+      "npc": "Brother Kristoff",
+      "mobs": []
+    },
+    {
+      "id": "duskwood_126",
+      "type": "travel",
+      "description": "Travel to the Stormwind Cathedral",
+      "classes": ["Priest", "Paladin"],
+      "races": null,
+      "coords": [42.51, 33.51],
+      "zone": "stormwind_city",
+      "tips": [],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "duskwood_127",
+      "type": "quest_turnin",
+      "description": "Talk to Duthorian Rall and turn in The Tome of Valor",
+      "classes": ["Paladin"],
+      "races": null,
+      "coords": [39.81, 29.79],
+      "zone": "stormwind_city",
+      "tips": [],
+      "quests": [
+        {
+          "id": 1652,
+          "name": "The Tome of Valor"
+        }
+      ],
+      "npc": "Duthorian Rall",
+      "mobs": []
+    },
+    {
+      "id": "duskwood_128",
+      "type": "info",
+      "description": "Talk to Arthur the Faithful and train your class spells",
+      "classes": ["Paladin"],
+      "races": null,
+      "coords": [38.67, 32.82],
+      "zone": "stormwind_city",
+      "tips": [],
+      "quests": [],
+      "npc": "Arthur the Faithful",
+      "mobs": []
+    },
+    {
+      "id": "duskwood_129",
+      "type": "info",
+      "description": "Talk to Brother Joshua and train your class spells",
+      "classes": ["Priest"],
+      "races": null,
+      "coords": [38.54, 26.86],
+      "zone": "stormwind_city",
+      "tips": [],
+      "quests": [],
+      "npc": "Brother Joshua",
+      "mobs": []
+    },
+    {
+      "id": "duskwood_130",
+      "type": "quest_accept",
+      "description": "Talk to Brother Sarno and accept Tinkmaster Overspark.",
+      "classes": null,
+      "races": null,
+      "coords": [40.551, 30.959],
+      "zone": "stormwind_city",
+      "tips": [
+        {
+          "type": "warning",
+          "class": null,
+          "text": "Skip this step if you are below level 26"
+        }
+      ],
+      "quests": [
+        {
+          "id": 2923,
+          "name": "Tinkmaster Overspark"
+        }
+      ],
+      "npc": "Brother Sarno",
+      "mobs": []
+    },
+    {
+      "id": "duskwood_131",
+      "type": "info",
+      "description": "Talk to Einris Brightspear and train your class spells",
+      "classes": ["Hunter"],
+      "races": null,
+      "coords": [61.609, 15.269],
+      "zone": "stormwind_city",
+      "tips": [],
+      "quests": [],
+      "npc": "Einris Brightspear",
+      "mobs": []
+    },
+    {
+      "id": "duskwood_132",
+      "type": "travel",
+      "description": "Travel to the Stormwind Keep",
+      "classes": null,
+      "races": null,
+      "coords": [72.005, 21.542],
+      "zone": "stormwind_city",
+      "tips": [],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "duskwood_133",
+      "type": "quest_turnin",
+      "description": "Talk to Milton Sheaf and turn in An Old History Book.",
+      "classes": null,
+      "races": null,
+      "coords": [74.182, 7.465],
+      "zone": "stormwind_city",
+      "tips": [
+        {
+          "type": "warning",
+          "class": null,
+          "text": "If you found An Old History Book you may turn it in"
+        }
+      ],
+      "quests": [
+        {
+          "id": 337,
+          "name": "An Old History Book"
+        }
+      ],
+      "npc": "Milton Sheaf",
+      "mobs": []
+    },
+    {
+      "id": "duskwood_134",
+      "type": "info",
+      "description": "Talk to Wu Shen or Ilsa Corbin and train your class spells",
+      "classes": ["Warrior"],
+      "races": null,
+      "coords": [78.68, 45.79],
+      "zone": "stormwind_city",
+      "tips": [],
+      "quests": [],
+      "npc": "Ilsa Corbin",
+      "mobs": []
+    },
+    {
+      "id": "duskwood_135",
+      "type": "info",
+      "description": "Talk to Osborne the Night Man and train your class spells",
+      "classes": ["Rogue"],
+      "races": null,
+      "coords": [74.65, 52.83],
+      "zone": "stormwind_city",
+      "tips": [],
+      "quests": [],
+      "npc": "Osborne the Night Man",
+      "mobs": []
+    },
+    {
+      "id": "duskwood_136",
+      "type": "quest_accept",
+      "description": "Talk to Nikova Raskol and accept The Color of Blood.",
+      "classes": null,
+      "races": null,
+      "coords": [72.44, 47.7],
+      "zone": "stormwind_city",
+      "tips": [
+        {
+          "type": "warning",
+          "class": null,
+          "text": "Nikova Raskol patrols in Old Town"
+        }
+      ],
+      "quests": [
+        {
+          "id": 388,
+          "name": "The Color of Blood"
+        }
+      ],
+      "npc": "Nikova Raskol",
+      "mobs": []
+    },
+    {
+      "id": "duskwood_137",
+      "type": "quest_accept",
+      "description": "Talk to Warden Thelwater and accept The Stockade Riots and Quell The Uprising",
+      "classes": null,
+      "races": null,
+      "coords": [41.102, 58.091],
+      "zone": "stormwind_city",
+      "tips": [],
+      "quests": [
+        {
+          "id": 391,
+          "name": "The Stockade Riots"
+        },
+        {
+          "id": 387,
+          "name": "Quell The Uprising"
+        }
+      ],
+      "npc": "Warden Thelwater",
+      "mobs": []
+    },
+    {
+      "id": "duskwood_138",
+      "type": "quest_accept",
+      "description": "Talk to Warden Thelwater and accept Quell The Uprising",
+      "classes": null,
+      "races": null,
+      "coords": [41.102, 58.091],
+      "zone": "stormwind_city",
+      "tips": [],
+      "quests": [
+        {
+          "id": 387,
+          "name": "Quell The Uprising"
+        }
+      ],
+      "npc": "Warden Thelwater",
+      "mobs": []
+    },
+    {
+      "id": "duskwood_139",
+      "type": "info",
+      "description": "Find a group to The Stockades",
+      "classes": null,
+      "races": null,
+      "coords": [39.834, 54.36],
+      "zone": "stormwind_city",
+      "tips": [],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "duskwood_140",
+      "type": "kill",
+      "description": "Kill the Defias. Loot them for their Bandanas",
+      "classes": null,
+      "races": null,
+      "coords": null,
+      "zone": "the_stockades",
+      "tips": [],
+      "quests": [
+        {
+          "id": 387,
+          "name": "Quell The Uprising"
+        },
+        {
+          "id": 388,
+          "name": "The Color of Blood"
+        }
+      ],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "duskwood_141",
+      "type": "kill",
+      "description": "Kill Targorr the Dread. Loot him for his Head. Kill Dextren Ward on the west prison wing. Loot him for his Hand.",
+      "classes": null,
+      "races": null,
+      "coords": null,
+      "zone": "the_stockades",
+      "tips": [
+        {
+          "type": "warning",
+          "class": null,
+          "text": "Targorr the Dread has a random spawn location"
+        }
+      ],
+      "quests": [
+        {
+          "id": 386,
+          "name": "What Comes Around..."
+        },
+        {
+          "id": 377,
+          "name": "Crime and Punishment"
+        }
+      ],
+      "npc": null,
+      "mobs": ["Targorr the Dread", "Dextren Ward"]
+    },
+    {
+      "id": "duskwood_142",
+      "type": "kill",
+      "description": "Kill Bazil Thredd on the east prison wing. Loot him for his Head.",
+      "classes": null,
+      "races": null,
+      "coords": null,
+      "zone": "the_stockades",
+      "tips": [
+        {
+          "type": "warning",
+          "class": null,
+          "text": "Ensure you have 3 Silk Cloth for the follow up of this quest chain"
+        }
+      ],
+      "quests": [
+        {
+          "id": 391,
+          "name": "The Stockade Riots"
+        }
+      ],
+      "npc": null,
+      "mobs": ["Bazil Thredd"]
+    },
+    {
+      "id": "duskwood_143",
+      "type": "quest_turnin",
+      "description": "Talk to Warden Thelwater, turn in Quell The Uprising, turn in The Stockade Riots, and accept The Curious Visitor",
+      "classes": null,
+      "races": null,
+      "coords": [41.102, 58.091],
+      "zone": "stormwind_city",
+      "tips": [],
+      "quests": [
+        {
+          "id": 387,
+          "name": "Quell The Uprising"
+        },
+        {
+          "id": 391,
+          "name": "The Stockade Riots"
+        },
+        {
+          "id": 392,
+          "name": "The Curious Visitor"
+        }
+      ],
+      "npc": "Warden Thelwater",
+      "mobs": []
+    },
+    {
+      "id": "duskwood_144",
+      "type": "quest_turnin",
+      "description": "Talk to Warden Thelwater and turn in Quell The Uprising",
+      "classes": null,
+      "races": null,
+      "coords": [41.102, 58.091],
+      "zone": "stormwind_city",
+      "tips": [],
+      "quests": [
+        {
+          "id": 387,
+          "name": "Quell The Uprising"
+        }
+      ],
+      "npc": "Warden Thelwater",
+      "mobs": []
+    },
+    {
+      "id": "duskwood_145",
+      "type": "quest_turnin",
+      "description": "Talk to Baros Alexston, turn in The Curious Visitor, and accept Shadow of the Past",
+      "classes": null,
+      "races": null,
+      "coords": [49.194, 30.283],
+      "zone": "stormwind_city",
+      "tips": [],
+      "quests": [
+        {
+          "id": 392,
+          "name": "The Curious Visitor"
+        },
+        {
+          "id": 393,
+          "name": "Shadow of the Past"
+        }
+      ],
+      "npc": "Baros Alexston",
+      "mobs": []
+    },
+    {
+      "id": "duskwood_146",
+      "type": "quest_turnin",
+      "description": "Talk to Nikova Raskol and turn in The Color of Blood. Nikova Raskol patrols in Old Town",
+      "classes": null,
+      "races": null,
+      "coords": [72.44, 47.7],
+      "zone": "stormwind_city",
+      "tips": [
+        {
+          "type": "warning",
+          "class": null,
+          "text": "Nikova Raskol patrols in Old Town"
+        }
+      ],
+      "quests": [
+        {
+          "id": 388,
+          "name": "The Color of Blood"
+        }
+      ],
+      "npc": "Nikova Raskol",
+      "mobs": []
+    },
+    {
+      "id": "duskwood_147",
+      "type": "travel",
+      "description": "Enter the SI:7 Headquarters. Travel up stairs toward Master Mathias Shaw",
+      "classes": null,
+      "races": null,
+      "coords": [78.67, 60.13],
+      "zone": "stormwind_city",
+      "tips": [],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "duskwood_148",
+      "type": "quest_turnin",
+      "description": "Talk to Master Mathias Shaw, turn in Shadow of the Past, and accept Look to an Old Friend",
+      "classes": null,
+      "races": null,
+      "coords": [75.78, 59.84],
+      "zone": "stormwind_city",
+      "tips": [],
+      "quests": [
+        {
+          "id": 393,
+          "name": "Shadow of the Past"
+        },
+        {
+          "id": 350,
+          "name": "Look to an Old Friend"
+        }
+      ],
+      "npc": "Master Mathias Shaw",
+      "mobs": []
+    },
+    {
+      "id": "duskwood_149",
+      "type": "quest_turnin",
+      "description": "Talk to Elling Trias up stairs and turn in Look to an Old Friend",
+      "classes": null,
+      "races": null,
+      "coords": [59.908, 64.177],
+      "zone": "stormwind_city",
+      "tips": [],
+      "quests": [
+        {
+          "id": 350,
+          "name": "Look to an Old Friend"
+        }
+      ],
+      "npc": "Elling Trias",
+      "mobs": []
+    },
+    {
+      "id": "duskwood_150",
+      "type": "info",
+      "description": "Talk to Newton Burnside. Withdraw the following items from your bank: Glyph of Azora",
+      "classes": null,
+      "races": null,
+      "coords": [57.06, 73.05],
+      "zone": "stormwind_city",
+      "tips": [],
+      "quests": [],
+      "npc": "Newton Burnside",
+      "mobs": []
+    },
+    {
+      "id": "duskwood_151",
+      "type": "fly",
+      "description": "Talk to Dungar Longdrink and fly to Darkshire",
+      "classes": null,
+      "races": null,
+      "coords": [66.277, 62.137],
+      "zone": "stormwind_city",
+      "tips": [],
+      "quests": [],
+      "npc": "Dungar Longdrink",
+      "mobs": []
+    },
+    {
+      "id": "duskwood_152",
+      "type": "info",
+      "description": "Talk to Herble Baubbletump. Buy a Bronze Tube. This is a limited supply item. Skip this step if Herble Baubbletump doesn't have one",
+      "classes": null,
+      "races": null,
+      "coords": [77.992, 48.328],
+      "zone": "duskwood",
+      "tips": [],
+      "quests": [],
+      "npc": "Herble Baubbletump",
+      "mobs": []
+    },
+    {
+      "id": "duskwood_153",
+      "type": "quest_turnin",
+      "description": "Talk to Viktori Prism'Antras, accept Look To The Stars, and turn in Look To The Stars",
+      "classes": null,
+      "races": null,
+      "coords": [79.8, 48.02],
+      "zone": "duskwood",
+      "tips": [],
+      "quests": [
+        {
+          "id": 174,
+          "name": "Look To The Stars"
+        }
+      ],
+      "npc": "Viktori Prism'Antras",
+      "mobs": []
+    },
+    {
+      "id": "duskwood_154",
+      "type": "quest_accept",
+      "description": "Talk to Viktori Prism'Antras and accept Look To The Stars",
+      "classes": null,
+      "races": null,
+      "coords": [79.8, 48.02],
+      "zone": "duskwood",
+      "tips": [],
+      "quests": [
+        {
+          "id": 175,
+          "name": "Look To The Stars"
+        }
+      ],
+      "npc": "Viktori Prism'Antras",
+      "mobs": []
+    },
+    {
+      "id": "duskwood_155",
+      "type": "quest_turnin",
+      "description": "Talk to Blind Mary, turn in Look To The Stars, and accept Look To The Stars",
+      "classes": null,
+      "races": null,
+      "coords": [81.46, 59.02],
+      "zone": "duskwood",
+      "tips": [],
+      "quests": [
+        {
+          "id": 175,
+          "name": "Look To The Stars"
+        },
+        {
+          "id": 177,
+          "name": "Look To The Stars"
+        }
+      ],
+      "npc": "Blind Mary",
+      "mobs": []
+    },
+    {
+      "id": "duskwood_156",
+      "type": "kill",
+      "description": "Kill the Insane Ghoul. Loot him for Mary's Looking Glass.",
+      "classes": null,
+      "races": null,
+      "coords": [80.98, 71.65],
+      "zone": "duskwood",
+      "tips": [
+        {
+          "type": "warning",
+          "class": null,
+          "text": "The Insane Ghoul may be inside of the chapel or walking around outside"
+        }
+      ],
+      "quests": [
+        {
+          "id": 177,
+          "name": "Look To The Stars"
+        }
+      ],
+      "npc": null,
+      "mobs": ["Insane Ghoul"]
+    },
+    {
+      "id": "duskwood_157",
+      "type": "quest_turnin",
+      "description": "Talk to Viktori Prism'Antras and turn in Look To The Stars",
+      "classes": null,
+      "races": null,
+      "coords": [79.8, 48.02],
+      "zone": "duskwood",
+      "tips": [],
+      "quests": [
+        {
+          "id": 177,
+          "name": "Look To The Stars"
+        }
+      ],
+      "npc": "Viktori Prism'Antras",
+      "mobs": []
+    },
+    {
+      "id": "duskwood_158",
+      "type": "quest_turnin",
+      "description": "Talk to Madame Eva, turn in The Shadowy Figure, and accept The Shadowy Search Continues",
+      "classes": null,
+      "races": null,
+      "coords": [75.81, 45.29],
+      "zone": "duskwood",
+      "tips": [],
+      "quests": [
+        {
+          "id": 262,
+          "name": "The Shadowy Figure"
+        },
+        {
+          "id": 265,
+          "name": "The Shadowy Search Continues"
+        }
+      ],
+      "npc": "Madame Eva",
+      "mobs": []
+    },
+    {
+      "id": "duskwood_159",
+      "type": "quest_turnin",
+      "description": "Talk to Clerk Daltry, turn in The Shadowy Search Continues, and accept Inquire at the Inn",
+      "classes": null,
+      "races": null,
+      "coords": [72.53, 46.85],
+      "zone": "duskwood",
+      "tips": [],
+      "quests": [
+        {
+          "id": 265,
+          "name": "The Shadowy Search Continues"
+        },
+        {
+          "id": 266,
+          "name": "Inquire at the Inn"
+        }
+      ],
+      "npc": "Clerk Daltry",
+      "mobs": []
+    },
+    {
+      "id": "duskwood_160",
+      "type": "quest_turnin",
+      "description": "Talk to Councilman Millstipe and turn in Crime and Punishment",
+      "classes": null,
+      "races": null,
+      "coords": [71.938, 47.778],
+      "zone": "duskwood",
+      "tips": [],
+      "quests": [
+        {
+          "id": 377,
+          "name": "Crime and Punishment"
+        }
+      ],
+      "npc": "Councilman Millstipe",
+      "mobs": []
+    },
+    {
+      "id": "duskwood_161",
+      "type": "quest_turnin",
+      "description": "Talk to Tavernkeep Smitts, turn in Zombie Juice, accept Gather Rot Blossoms, turn in Inquire at the Inn, and accept Finding the Shadowy Figure",
+      "classes": null,
+      "races": null,
+      "coords": [73.77, 44.48],
+      "zone": "duskwood",
+      "tips": [],
+      "quests": [
+        {
+          "id": 158,
+          "name": "Zombie Juice"
+        },
+        {
+          "id": 156,
+          "name": "Gather Rot Blossoms"
+        },
+        {
+          "id": 266,
+          "name": "Inquire at the Inn"
+        },
+        {
+          "id": 453,
+          "name": "Finding the Shadowy Figure"
+        }
+      ],
+      "npc": "Tavernkeep Smitts",
+      "mobs": []
+    },
+    {
+      "id": "duskwood_162",
+      "type": "info",
+      "description": "Talk to Innkeeper Trelayne. Set your Hearthstone to Duskwood",
+      "classes": ["Rogue"],
+      "races": null,
+      "coords": [73.872, 44.406],
+      "zone": "duskwood",
+      "tips": [],
+      "quests": [],
+      "npc": "Innkeeper Trelayne",
+      "mobs": []
+    },
+    {
+      "id": "duskwood_163",
+      "type": "travel",
+      "description": "Travel to Raven Hill Cemetery",
+      "classes": null,
+      "races": null,
+      "coords": [22.95, 44.75],
+      "zone": "duskwood",
+      "tips": [],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "duskwood_164",
+      "type": "kill",
+      "description": "Kill Skeletal Fiends and Skeletal Horrors. Loot them for their Rot Blossoms",
+      "classes": null,
+      "races": null,
+      "coords": [21.21, 47.07],
+      "zone": "duskwood",
+      "tips": [],
+      "quests": [
+        {
+          "id": 57,
+          "name": "The Night Watch"
+        },
+        {
+          "id": 156,
+          "name": "Gather Rot Blossoms"
+        }
+      ],
+      "npc": null,
+      "mobs": ["Skeletal Fiend", "Skeletal Horror"]
+    },
+    {
+      "id": "duskwood_165",
+      "type": "quest_turnin",
+      "description": "Talk to Jitters, turn in Finding the Shadowy Figure, and accept Return to Sven",
+      "classes": null,
+      "races": null,
+      "coords": [18.37, 56.36],
+      "zone": "duskwood",
+      "tips": [],
+      "quests": [
+        {
+          "id": 453,
+          "name": "Finding the Shadowy Figure"
+        },
+        {
+          "id": 268,
+          "name": "Return to Sven"
+        }
+      ],
+      "npc": "Jitters",
+      "mobs": []
+    },
+    {
+      "id": "duskwood_166",
+      "type": "quest_turnin",
+      "description": "Talk to Sven Yorgen and turn in Return to Sven",
+      "classes": null,
+      "races": null,
+      "coords": [7.78, 34.06],
+      "zone": "duskwood",
+      "tips": [],
+      "quests": [
+        {
+          "id": 268,
+          "name": "Return to Sven"
+        }
+      ],
+      "npc": "Sven Yorgen",
+      "mobs": []
+    },
+    {
+      "id": "duskwood_167",
+      "type": "quest_accept",
+      "description": "Talk to Sven Yorgen and accept Proving Your Worth",
+      "classes": null,
+      "races": null,
+      "coords": null,
+      "zone": "",
+      "tips": [],
+      "quests": [
+        {
+          "id": 323,
+          "name": "Proving Your Worth"
+        }
+      ],
+      "npc": "Sven Yorgen",
+      "mobs": []
+    },
+    {
+      "id": "duskwood_168",
+      "type": "kill",
+      "description": "Kill Skeletal Raiders, Skeletal Healers and Skeletal Warders.",
+      "classes": null,
+      "races": null,
+      "coords": [16.01, 38.79],
+      "zone": "duskwood",
+      "tips": [
+        {
+          "type": "warning",
+          "class": null,
+          "text": "Enter the Dawning Wood Catacombs for the Skeletal Warders"
+        },
+        {
+          "type": "warning",
+          "class": null,
+          "text": "Mor'Ladim a level 35 Elite patrols around the cemetery. Be cautious of him"
+        }
+      ],
+      "quests": [
+        {
+          "id": 323,
+          "name": "Proving Your Worth"
+        }
+      ],
+      "npc": null,
+      "mobs": ["Skeletal Raider", "Skeletal Healer", "Skeletal Warder"]
+    },
+    {
+      "id": "duskwood_169",
+      "type": "quest_turnin",
+      "description": "Talk to Sven Yorgen, turn in Proving Your Worth, and accept Seeking Wisdom",
+      "classes": null,
+      "races": null,
+      "coords": [7.78, 34.06],
+      "zone": "duskwood",
+      "tips": [],
+      "quests": [
+        {
+          "id": 323,
+          "name": "Proving Your Worth"
+        },
+        {
+          "id": 269,
+          "name": "Seeking Wisdom"
+        }
+      ],
+      "npc": "Sven Yorgen",
+      "mobs": []
+    },
+    {
+      "id": "duskwood_170",
+      "type": "info",
+      "description": "Grind until your Hearthstone is off cooldown. Hearth to Darkshire",
+      "classes": null,
+      "races": null,
+      "coords": null,
+      "zone": "",
+      "tips": [],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "duskwood_171",
+      "type": "info",
+      "description": "Hearth to Darkshire",
+      "classes": null,
+      "races": null,
+      "coords": null,
+      "zone": "",
+      "tips": [],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "duskwood_172",
+      "type": "quest_turnin",
+      "description": "Talk to Tavernkeep Smitts and turn in Gather Rot Blossoms",
+      "classes": null,
+      "races": null,
+      "coords": [73.77, 44.48],
+      "zone": "duskwood",
+      "tips": [],
+      "quests": [
+        {
+          "id": 156,
+          "name": "Gather Rot Blossoms"
+        }
+      ],
+      "npc": "Tavernkeep Smitts",
+      "mobs": []
+    },
+    {
+      "id": "duskwood_173",
+      "type": "quest_turnin",
+      "description": "Talk to Commander Althea Ebonlocke and turn in The Night Watch",
+      "classes": null,
+      "races": null,
+      "coords": [73.59, 46.89],
+      "zone": "duskwood",
+      "tips": [],
+      "quests": [
+        {
+          "id": 57,
+          "name": "The Night Watch"
+        }
+      ],
+      "npc": "Commander Althea Ebonlocke",
+      "mobs": []
+    },
+    {
+      "id": "duskwood_174",
+      "type": "fly",
+      "description": "Talk to Felicia Maline and fly to Redridge Mountains",
+      "classes": null,
+      "races": null,
+      "coords": [77.486, 44.287],
+      "zone": "duskwood",
+      "tips": [],
+      "quests": [],
+      "npc": "Felicia Maline",
+      "mobs": []
+    },
+    {
+      "id": "duskwood_175",
+      "type": "quest_accept",
+      "description": "Talk to Guard Howe and accept Blackrock Bounty",
+      "classes": null,
+      "races": null,
+      "coords": [31.53, 57.85],
+      "zone": "redridge_mountains",
+      "tips": [],
+      "quests": [
+        {
+          "id": 128,
+          "name": "Blackrock Bounty"
+        }
+      ],
+      "npc": "Guard Howe",
+      "mobs": []
+    },
+    {
+      "id": "duskwood_176",
+      "type": "quest_accept",
+      "description": "Talk to Marshal Marris and accept Tharil'zun and Shadow Magic",
+      "classes": null,
+      "races": null,
+      "coords": [33.5, 48.96],
+      "zone": "redridge_mountains",
+      "tips": [],
+      "quests": [
+        {
+          "id": 19,
+          "name": "Tharil'zun"
+        },
+        {
+          "id": 115,
+          "name": "Shadow Magic"
+        }
+      ],
+      "npc": "Marshal Marris",
+      "mobs": []
+    },
+    {
+      "id": "duskwood_177",
+      "type": "quest_accept",
+      "description": "Talk to Verner Osgood and accept Howling in the Hills",
+      "classes": null,
+      "races": null,
+      "coords": [31.0, 47.3],
+      "zone": "redridge_mountains",
+      "tips": [],
+      "quests": [
+        {
+          "id": 126,
+          "name": "Howling in the Hills"
+        }
+      ],
+      "npc": "Verner Osgood",
+      "mobs": []
+    },
+    {
+      "id": "duskwood_178",
+      "type": "quest_accept",
+      "description": "Click on The Wanted Poster and accept Wanted: Gath'Ilzogg",
+      "classes": null,
+      "races": null,
+      "coords": [29.622, 46.172],
+      "zone": "redridge_mountains",
+      "tips": [],
+      "quests": [
+        {
+          "id": 169,
+          "name": "Wanted: Gath'Ilzogg"
+        }
+      ],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "duskwood_179",
+      "type": "quest_turnin",
+      "description": "Talk to Guard Berton and turn in What Comes Around...",
+      "classes": null,
+      "races": null,
+      "coords": [26.258, 46.58],
+      "zone": "redridge_mountains",
+      "tips": [],
+      "quests": [
+        {
+          "id": 386,
+          "name": "What Comes Around..."
+        }
+      ],
+      "npc": "Guard Berton",
+      "mobs": []
+    },
+    {
+      "id": "duskwood_180",
+      "type": "quest_accept",
+      "description": "Talk to Martie Jainrose and accept An Unwelcome Guest",
+      "classes": null,
+      "races": null,
+      "coords": [21.85, 46.32],
+      "zone": "redridge_mountains",
+      "tips": [],
+      "quests": [
+        {
+          "id": 34,
+          "name": "An Unwelcome Guest"
+        }
+      ],
+      "npc": "Martie Jainrose",
+      "mobs": []
+    },
+    {
+      "id": "duskwood_181",
+      "type": "kill",
+      "description": "Kill Bellygrub. Loot him for his Tusk",
+      "classes": null,
+      "races": null,
+      "coords": [15.68, 49.3],
+      "zone": "redridge_mountains",
+      "tips": [],
+      "quests": [
+        {
+          "id": 34,
+          "name": "An Unwelcome Guest"
+        }
+      ],
+      "npc": null,
+      "mobs": ["Bellygrub"]
+    },
+    {
+      "id": "duskwood_182",
+      "type": "quest_turnin",
+      "description": "Talk to Martie Jainrose and turn in An Unwelcome Guest",
+      "classes": null,
+      "races": null,
+      "coords": [21.85, 46.32],
+      "zone": "redridge_mountains",
+      "tips": [],
+      "quests": [
+        {
+          "id": 34,
+          "name": "An Unwelcome Guest"
+        }
+      ],
+      "npc": "Martie Jainrose",
+      "mobs": []
+    },
+    {
+      "id": "duskwood_183",
+      "type": "kill",
+      "description": "Kill Yowler. Loot him for his Paw.",
+      "classes": ["Mage"],
+      "races": null,
+      "coords": [27.58, 21.78],
+      "zone": "redridge_mountains",
+      "tips": [
+        {
+          "type": "warning",
+          "class": "Mage",
+          "text": "Split pull him using Blizzard or Flamestrike"
+        }
+      ],
+      "quests": [
+        {
+          "id": 126,
+          "name": "Howling in the Hills"
+        }
+      ],
+      "npc": null,
+      "mobs": ["Yowler"]
+    },
+    {
+      "id": "duskwood_184",
+      "type": "kill",
+      "description": "Kill Yowler. Loot him for his Paw",
+      "classes": ["!Mage"],
+      "races": null,
+      "coords": [27.58, 21.78],
+      "zone": "redridge_mountains",
+      "tips": [],
+      "quests": [
+        {
+          "id": 126,
+          "name": "Howling in the Hills"
+        }
+      ],
+      "npc": null,
+      "mobs": ["Yowler"]
+    },
+    {
+      "id": "duskwood_185",
+      "type": "kill",
+      "description": "Kill Lieutenant Fangore. Loot him for his Paw. Lieutenant Fangore will engage with 2 additional Gnolls. Skip this step if you aren't confident.",
+      "classes": ["Warlock", "Priest"],
+      "races": null,
+      "coords": [80.17, 37.05],
+      "zone": "redridge_mountains",
+      "tips": [
+        {
+          "type": "warning",
+          "class": "Warlock",
+          "text": "Lieutenant Fangore is immune to Shadow damage. Ensure you have party members that can help, otherwise you may skip this step"
+        },
+        {
+          "type": "warning",
+          "class": "Priest",
+          "text": "Lieutenant Fangore is immune to Shadow damage. Ensure you have party members that can help, otherwise you may skip this step"
+        }
+      ],
+      "quests": [
+        {
+          "id": 180,
+          "name": "Wanted: Lieutenant Fangore"
+        }
+      ],
+      "npc": null,
+      "mobs": ["Lieutenant Fangore"]
+    },
+    {
+      "id": "duskwood_186",
+      "type": "kill",
+      "description": "Kill Lieutenant Fangore. Loot him for his Paw.",
+      "classes": ["!Warlock", "!Priest"],
+      "races": null,
+      "coords": [80.17, 37.05],
+      "zone": "redridge_mountains",
+      "tips": [
+        {
+          "type": "warning",
+          "class": null,
+          "text": "Lieutenant Fangore will engage with 2 additional Gnolls. Skip this step if you aren't confident"
+        }
+      ],
+      "quests": [
+        {
+          "id": 180,
+          "name": "Wanted: Lieutenant Fangore"
+        }
+      ],
+      "npc": null,
+      "mobs": ["Lieutenant Fangore"]
+    },
+    {
+      "id": "duskwood_187",
+      "type": "kill",
+      "description": "Kill the Shadowhides. Loot them for their Pendants",
+      "classes": null,
+      "races": null,
+      "coords": [77.52, 36.31],
+      "zone": "redridge_mountains",
+      "tips": [],
+      "quests": [
+        {
+          "id": 91,
+          "name": "Solomon's Law"
+        }
+      ],
+      "npc": null,
+      "mobs": [
+        "Rabid Shadowhide Gnoll",
+        "Shadowhide Gnoll",
+        "Shadowhide Assassin",
+        "Shadowhide Warrior",
+        "Shadowhide Darkweaver",
+        "Shadowhide Slayer"
+      ]
+    },
+    {
+      "id": "duskwood_188",
+      "type": "quest_turnin",
+      "description": "Click the Old Lion Statue and turn in A Watchful Eye",
+      "classes": null,
+      "races": null,
+      "coords": [84.5, 46.8],
+      "zone": "redridge_mountains",
+      "tips": [],
+      "quests": [
+        {
+          "id": 94,
+          "name": "A Watchful Eye"
+        }
+      ],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "duskwood_189",
+      "type": "quest_accept",
+      "description": "Click the Old Lion Statue and accept Looking Further",
+      "classes": null,
+      "races": null,
+      "coords": [84.5, 46.8],
+      "zone": "redridge_mountains",
+      "tips": [],
+      "quests": [
+        {
+          "id": 248,
+          "name": "Looking Further"
+        }
+      ],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "duskwood_190",
+      "type": "quest_turnin",
+      "description": "Click An Empty Jar on the barrel at the top of Stonewatch Tower and turn in Looking Further.",
+      "classes": null,
+      "races": null,
+      "coords": [63.246, 49.84],
+      "zone": "redridge_mountains",
+      "tips": [
+        {
+          "type": "warning",
+          "class": null,
+          "text": "Don't accept the follow up"
+        }
+      ],
+      "quests": [
+        {
+          "id": 248,
+          "name": "Looking Further"
+        }
+      ],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "duskwood_191",
+      "type": "kill",
+      "description": "Kill Tharil'zun. Loot him for his Head",
+      "classes": null,
+      "races": null,
+      "coords": [71.4, 55.07],
+      "zone": "redridge_mountains",
+      "tips": [],
+      "quests": [
+        {
+          "id": 19,
+          "name": "Tharil'zun"
+        }
+      ],
+      "npc": null,
+      "mobs": ["Tharil'zun"]
+    },
+    {
+      "id": "duskwood_192",
+      "type": "kill",
+      "description": "Enter Stonewatch Keep. Kill Gath'Ilzogg. Loot him for his Head",
+      "classes": null,
+      "races": null,
+      "coords": [69.599, 55.797],
+      "zone": "redridge_mountains",
+      "tips": [],
+      "quests": [
+        {
+          "id": 169,
+          "name": "Wanted: Gath'Ilzogg"
+        }
+      ],
+      "npc": null,
+      "mobs": ["Gath'Ilzogg"]
+    },
+    {
+      "id": "duskwood_193",
+      "type": "kill",
+      "description": "Kill Blackrock Shadowcasters. Loot them for their Orbs",
+      "classes": null,
+      "races": null,
+      "coords": [66.68, 56.26],
+      "zone": "redridge_mountains",
+      "tips": [],
+      "quests": [
+        {
+          "id": 115,
+          "name": "Shadow Magic"
+        }
+      ],
+      "npc": null,
+      "mobs": ["Blackrock Shadowcaster"]
+    },
+    {
+      "id": "duskwood_194",
+      "type": "travel",
+      "description": "Enter Render's Rock",
+      "classes": null,
+      "races": null,
+      "coords": [32.484, 6.761],
+      "zone": "redridge_mountains",
+      "tips": [],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "duskwood_195",
+      "type": "kill",
+      "description": "Kill Blackrock Champions",
+      "classes": null,
+      "races": null,
+      "coords": [28.89, 13.2],
+      "zone": "redridge_mountains",
+      "tips": [],
+      "quests": [
+        {
+          "id": 128,
+          "name": "Blackrock Bounty"
+        }
+      ],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "duskwood_196",
+      "type": "quest_accept",
+      "description": "Talk to Corporal Keeshan in the back of Render's Rock and accept Missing In Action",
+      "classes": null,
+      "races": null,
+      "coords": [28.388, 12.562],
+      "zone": "redridge_mountains",
+      "tips": [],
+      "quests": [
+        {
+          "id": 219,
+          "name": "Missing In Action"
+        }
+      ],
+      "npc": "Corporal Keeshan",
+      "mobs": []
+    },
+    {
+      "id": "duskwood_197",
+      "type": "info",
+      "description": "Escort Corporal Keeshan back to Lakeshire.",
+      "classes": null,
+      "races": null,
+      "coords": [33.414, 48.499],
+      "zone": "redridge_mountains",
+      "tips": [
+        {
+          "type": "warning",
+          "class": null,
+          "text": "Be careful to not pull too many mobs right after you leave the cave"
+        }
+      ],
+      "quests": [
+        {
+          "id": 219,
+          "name": "Missing In Action"
+        }
+      ],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "duskwood_198",
+      "type": "quest_turnin",
+      "description": "Talk to Marshal Marris and turn in Missing In Action",
+      "classes": null,
+      "races": null,
+      "coords": [33.5, 48.96],
+      "zone": "redridge_mountains",
+      "tips": [],
+      "quests": [
+        {
+          "id": 219,
+          "name": "Missing In Action"
+        }
+      ],
+      "npc": "Marshal Marris",
+      "mobs": []
+    },
+    {
+      "id": "duskwood_199",
+      "type": "quest_turnin",
+      "description": "Talk to Marshal Marris and turn in Tharil'zun",
+      "classes": null,
+      "races": null,
+      "coords": [33.5, 48.96],
+      "zone": "redridge_mountains",
+      "tips": [],
+      "quests": [
+        {
+          "id": 19,
+          "name": "Tharil'zun"
+        }
+      ],
+      "npc": "Marshal Marris",
+      "mobs": []
+    },
+    {
+      "id": "duskwood_200",
+      "type": "quest_turnin",
+      "description": "Talk to Marshal Marris and turn in Shadow Magic",
+      "classes": null,
+      "races": null,
+      "coords": [33.5, 48.96],
+      "zone": "redridge_mountains",
+      "tips": [],
+      "quests": [
+        {
+          "id": 115,
+          "name": "Shadow Magic"
+        }
+      ],
+      "npc": "Marshal Marris",
+      "mobs": []
+    },
+    {
+      "id": "duskwood_201",
+      "type": "quest_turnin",
+      "description": "Talk to Magistrate Solomon and turn in Wanted: Gath'Ilzogg",
+      "classes": null,
+      "races": null,
+      "coords": [29.98, 44.45],
+      "zone": "redridge_mountains",
+      "tips": [],
+      "quests": [
+        {
+          "id": 169,
+          "name": "Wanted: Gath'Ilzogg"
+        }
+      ],
+      "npc": "Magistrate Solomon",
+      "mobs": []
+    },
+    {
+      "id": "duskwood_202",
+      "type": "quest_turnin",
+      "description": "Talk to Verner Osgood and turn in Howling in the Hills",
+      "classes": null,
+      "races": null,
+      "coords": [30.97, 47.27],
+      "zone": "redridge_mountains",
+      "tips": [],
+      "quests": [
+        {
+          "id": 126,
+          "name": "Howling in the Hills"
+        }
+      ],
+      "npc": "Verner Osgood",
+      "mobs": []
+    },
+    {
+      "id": "duskwood_203",
+      "type": "quest_turnin",
+      "description": "Talk to Magistrate Solomon and turn in Wanted: Lieutenant Fangore",
+      "classes": null,
+      "races": null,
+      "coords": [29.98, 44.45],
+      "zone": "redridge_mountains",
+      "tips": [],
+      "quests": [
+        {
+          "id": 180,
+          "name": "Wanted: Lieutenant Fangore"
+        }
+      ],
+      "npc": "Magistrate Solomon",
+      "mobs": []
+    },
+    {
+      "id": "duskwood_204",
+      "type": "quest_turnin",
+      "description": "Talk to Bailiff Conacher and turn in Solomon's Law",
+      "classes": null,
+      "races": null,
+      "coords": [29.71, 44.26],
+      "zone": "redridge_mountains",
+      "tips": [],
+      "quests": [
+        {
+          "id": 91,
+          "name": "Solomon's Law"
+        }
+      ],
+      "npc": "Bailiff Conacher",
+      "mobs": []
+    },
+    {
+      "id": "duskwood_205",
+      "type": "quest_turnin",
+      "description": "Talk to Guard Howe and turn in Blackrock Bounty",
+      "classes": null,
+      "races": null,
+      "coords": [31.53, 57.85],
+      "zone": "redridge_mountains",
+      "tips": [],
+      "quests": [
+        {
+          "id": 128,
+          "name": "Blackrock Bounty"
+        }
+      ],
+      "npc": "Guard Howe",
+      "mobs": []
+    },
+    {
+      "id": "duskwood_206",
+      "type": "info",
+      "description": "Teleport to Stormwind City",
+      "classes": ["Mage"],
+      "races": null,
+      "coords": null,
+      "zone": "",
+      "tips": [],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "duskwood_207",
+      "type": "fly",
+      "description": "Talk to Ariena Stormfeather and fly to Stormwind",
+      "classes": ["!Mage"],
+      "races": null,
+      "coords": [30.59, 59.41],
+      "zone": "redridge_mountains",
+      "tips": [],
+      "quests": [],
+      "npc": "Ariena Stormfeather",
+      "mobs": []
+    }
+  ]
+}

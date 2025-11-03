@@ -1,0 +1,1069 @@
+{
+  "zone": "Loch Modan",
+  "levelRange": "18-19",
+  "faction": "Alliance",
+  "name": "18-19_loch_modan",
+  "next": "19-20_redridge_mountains",
+  "steps": [
+    {
+      "id": "lochmodan_001",
+      "type": "info",
+      "description": "Talk to Dewin Shimmerdawn and buy as many Healing Potions that are available",
+      "classes": null,
+      "races": null,
+      "coords": [7.95, 56.38],
+      "zone": "wetlands",
+      "tips": [
+        {
+          "type": "warning",
+          "class": null,
+          "text": "This is a limited supply item. Skip this step if Dewin Shimmerdawn doesn't have any"
+        }
+      ],
+      "quests": [],
+      "npc": "Dewin Shimmerdawn",
+      "mobs": []
+    },
+    {
+      "id": "lochmodan_002",
+      "type": "info",
+      "description": "Talk to Neal Allen and buy a Bronze Tube",
+      "classes": null,
+      "races": null,
+      "coords": [10.761, 56.737],
+      "zone": "wetlands",
+      "tips": [
+        {
+          "type": "warning",
+          "class": null,
+          "text": "This is a limited supply item. Skip this step if Neal Allen doesn't have one"
+        }
+      ],
+      "quests": [],
+      "npc": "Neal Allen",
+      "mobs": []
+    },
+    {
+      "id": "lochmodan_003",
+      "type": "info",
+      "description": "Talk to Edwina Monzor and buy a Medium Quiver and Sharp Arrows",
+      "classes": ["Hunter"],
+      "races": null,
+      "coords": [11.113, 58.316],
+      "zone": "wetlands",
+      "tips": [],
+      "quests": [],
+      "npc": "Edwina Monzor",
+      "mobs": []
+    },
+    {
+      "id": "lochmodan_004",
+      "type": "info",
+      "description": "Talk to Samor Festivus upstairs and buy as many Healing Potions that are available",
+      "classes": null,
+      "races": null,
+      "coords": [10.496, 60.201],
+      "zone": "wetlands",
+      "tips": [
+        {
+          "type": "warning",
+          "class": null,
+          "text": "This is a limited supply item. Skip this step if Samor Festivus doesn't have any"
+        }
+      ],
+      "quests": [],
+      "npc": "Samor Festivus",
+      "mobs": []
+    },
+    {
+      "id": "lochmodan_005",
+      "type": "fly",
+      "description": "Talk to Shellei and fly to Ironforge",
+      "classes": ["!Druid", "!Hunter"],
+      "races": null,
+      "coords": [9.49, 59.69],
+      "zone": "wetlands",
+      "tips": [],
+      "quests": [],
+      "npc": "Shellei Brondir",
+      "mobs": []
+    },
+    {
+      "id": "lochmodan_006",
+      "type": "info",
+      "description": "Talk to Bilban Tosslespanner and train your class spells",
+      "classes": ["Warrior"],
+      "races": null,
+      "coords": [65.905, 88.405],
+      "zone": "ironforge",
+      "tips": [],
+      "quests": [],
+      "npc": "Bilban Tosslespanner",
+      "mobs": []
+    },
+    {
+      "id": "lochmodan_007",
+      "type": "info",
+      "description": "Talk to Briarthorn and train your class spells",
+      "classes": ["Warlock"],
+      "races": null,
+      "coords": [50.343, 5.657],
+      "zone": "ironforge",
+      "tips": [],
+      "quests": [],
+      "npc": "Briarthorn",
+      "mobs": []
+    },
+    {
+      "id": "lochmodan_008",
+      "type": "info",
+      "description": "Talk to Fenthwick and train your class spells",
+      "classes": ["Rogue"],
+      "races": null,
+      "coords": [51.495, 15.33],
+      "zone": "ironforge",
+      "tips": [],
+      "quests": [],
+      "npc": "Fenthwick",
+      "mobs": []
+    },
+    {
+      "id": "lochmodan_009",
+      "type": "info",
+      "description": "Talk to Toldren Deepiron and train your class spells",
+      "classes": ["Priest"],
+      "races": null,
+      "coords": [25.207, 10.756],
+      "zone": "ironforge",
+      "tips": [],
+      "quests": [],
+      "npc": "Toldren Deepiron",
+      "mobs": []
+    },
+    {
+      "id": "lochmodan_010",
+      "type": "info",
+      "description": "Talk to Dink and train your class spells",
+      "classes": ["Mage"],
+      "races": null,
+      "coords": [27.18, 8.6],
+      "zone": "ironforge",
+      "tips": [],
+      "quests": [],
+      "npc": "Dink",
+      "mobs": []
+    },
+    {
+      "id": "lochmodan_011",
+      "type": "info",
+      "description": "Talk to Brandur Ironhammer and train your class spells",
+      "classes": ["Paladin"],
+      "races": null,
+      "coords": [23.141, 6.149],
+      "zone": "ironforge",
+      "tips": [],
+      "quests": [],
+      "npc": "Brandur Ironhammer",
+      "mobs": []
+    },
+    {
+      "id": "lochmodan_012",
+      "type": "fly",
+      "description": "Talk to Gryth Thurden and fly to Loch Modan",
+      "classes": ["!Druid", "!Hunter"],
+      "races": null,
+      "coords": [55.501, 47.742],
+      "zone": "ironforge",
+      "tips": [],
+      "quests": [],
+      "npc": "Gryth Thurden",
+      "mobs": []
+    },
+    {
+      "id": "lochmodan_013",
+      "type": "fly",
+      "description": "Talk to Shellei and fly to Loch Modan",
+      "classes": null,
+      "races": null,
+      "coords": [9.49, 59.69],
+      "zone": "wetlands",
+      "tips": [],
+      "quests": [],
+      "npc": "Shellei Brondir",
+      "mobs": []
+    },
+    {
+      "id": "lochmodan_014",
+      "type": "quest_accept",
+      "description": "Talk to Magistrate Bluntnose and accept Mercenaries",
+      "classes": null,
+      "races": null,
+      "coords": [34.69, 43.18],
+      "zone": "loch_modan",
+      "tips": [],
+      "quests": [
+        {
+          "id": 255,
+          "name": "Mercenaries"
+        }
+      ],
+      "npc": "Magistrate Bluntnose",
+      "mobs": []
+    },
+    {
+      "id": "lochmodan_015",
+      "type": "quest_accept",
+      "description": "Talk to Jern Hornhelm and accept Ironband's Excavation",
+      "classes": null,
+      "races": null,
+      "coords": [37.24, 47.38],
+      "zone": "loch_modan",
+      "tips": [],
+      "quests": [
+        {
+          "id": 436,
+          "name": "Ironband's Excavation"
+        }
+      ],
+      "npc": "Jern Hornhelm",
+      "mobs": []
+    },
+    {
+      "id": "lochmodan_016",
+      "type": "travel",
+      "description": "Travel north to the Algaz Station",
+      "classes": null,
+      "races": null,
+      "coords": [23.85, 17.92],
+      "zone": "loch_modan",
+      "tips": [],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "lochmodan_017",
+      "type": "quest_turnin",
+      "description": "Talk to Mountaineer Stormpike and turn in Stormpike's Delivery. Accept Filthy Paws",
+      "classes": null,
+      "races": ["NightElf"],
+      "coords": [24.77, 18.4],
+      "zone": "loch_modan",
+      "tips": [],
+      "quests": [
+        {
+          "id": 353,
+          "name": "Stormpike's Delivery"
+        },
+        {
+          "id": 307,
+          "name": "Filthy Paws"
+        }
+      ],
+      "npc": "Mountaineer Stormpike",
+      "mobs": []
+    },
+    {
+      "id": "lochmodan_018",
+      "type": "quest_accept",
+      "description": "Talk to Mountaineer Stormpike and accept Filthy Paws",
+      "classes": null,
+      "races": ["!NightElf"],
+      "coords": [24.77, 18.4],
+      "zone": "loch_modan",
+      "tips": [],
+      "quests": [
+        {
+          "id": 307,
+          "name": "Filthy Paws"
+        }
+      ],
+      "npc": "Mountaineer Stormpike",
+      "mobs": []
+    },
+    {
+      "id": "lochmodan_019",
+      "type": "travel",
+      "description": "Enter the Silver Stream Mine",
+      "classes": null,
+      "races": null,
+      "coords": [35.5, 18.97],
+      "zone": "loch_modan",
+      "tips": [],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "lochmodan_020",
+      "type": "loot",
+      "description": "Open the Miners' League Crates and loot them for the Miners' Gear",
+      "classes": null,
+      "races": null,
+      "coords": [35.93, 22.55],
+      "zone": "loch_modan",
+      "tips": [
+        {
+          "type": "warning",
+          "class": null,
+          "text": "The Miners' League Crates can be found all throughout the Mine"
+        }
+      ],
+      "quests": [
+        {
+          "id": 307,
+          "name": "Filthy Paws"
+        }
+      ],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "lochmodan_021",
+      "type": "quest_turnin",
+      "description": "Talk to Mountaineer Stormpike and turn in Filthy Paws",
+      "classes": null,
+      "races": null,
+      "coords": [24.77, 18.4],
+      "zone": "loch_modan",
+      "tips": [],
+      "quests": [
+        {
+          "id": 307,
+          "name": "Filthy Paws"
+        }
+      ],
+      "npc": "Mountaineer Stormpike",
+      "mobs": []
+    },
+    {
+      "id": "lochmodan_022",
+      "type": "travel",
+      "description": "Travel to the Stonewrought Dam",
+      "classes": null,
+      "races": null,
+      "coords": [43.43, 10.14],
+      "zone": "loch_modan",
+      "tips": [],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "lochmodan_023",
+      "type": "quest_accept",
+      "description": "Talk to Chief Engineer Hinderweir VII and accept A Dark Threat Looms",
+      "classes": null,
+      "races": null,
+      "coords": [46.05, 13.61],
+      "zone": "loch_modan",
+      "tips": [],
+      "quests": [
+        {
+          "id": 250,
+          "name": "A Dark Threat Looms"
+        }
+      ],
+      "npc": "Chief Engineer Hinderweir VII",
+      "mobs": []
+    },
+    {
+      "id": "lochmodan_024",
+      "type": "quest_turnin",
+      "description": "Click the Suspicious Barrel and turn in A Dark Threat Looms. Accept A Dark Threat Looms",
+      "classes": null,
+      "races": null,
+      "coords": [56.05, 13.24],
+      "zone": "loch_modan",
+      "tips": [],
+      "quests": [
+        {
+          "id": 250,
+          "name": "A Dark Threat Looms"
+        },
+        {
+          "id": 199,
+          "name": "A Dark Threat Looms"
+        }
+      ],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "lochmodan_025",
+      "type": "quest_turnin",
+      "description": "Talk to Chief Engineer Hinderweir VII and turn in A Dark Threat Looms",
+      "classes": null,
+      "races": null,
+      "coords": [46.05, 13.61],
+      "zone": "loch_modan",
+      "tips": [],
+      "quests": [
+        {
+          "id": 199,
+          "name": "A Dark Threat Looms"
+        }
+      ],
+      "npc": "Chief Engineer Hinderweir VII",
+      "mobs": []
+    },
+    {
+      "id": "lochmodan_026",
+      "type": "travel",
+      "description": "Travel to The Farstrider Lodge",
+      "classes": null,
+      "races": null,
+      "coords": [83.28, 62.97],
+      "zone": "loch_modan",
+      "tips": [],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "lochmodan_027",
+      "type": "quest_accept",
+      "description": "Talk to Daryl the Youngling and accept A Hunter's Boast",
+      "classes": null,
+      "races": null,
+      "coords": [83.49, 65.4],
+      "zone": "loch_modan",
+      "tips": [],
+      "quests": [
+        {
+          "id": 257,
+          "name": "A Hunter's Boast"
+        }
+      ],
+      "npc": "Daryl the Youngling",
+      "mobs": []
+    },
+    {
+      "id": "lochmodan_028",
+      "type": "info",
+      "description": "Talk to Claude Erksine and train your pet spells",
+      "classes": ["Hunter"],
+      "races": null,
+      "coords": [82.225, 62.842],
+      "zone": "loch_modan",
+      "tips": [],
+      "quests": [],
+      "npc": "Claude Erksine",
+      "mobs": []
+    },
+    {
+      "id": "lochmodan_029",
+      "type": "info",
+      "description": "Talk to Dargh Trueaim and train your class spells",
+      "classes": ["Hunter"],
+      "races": null,
+      "coords": [82.391, 62.393],
+      "zone": "loch_modan",
+      "tips": [],
+      "quests": [],
+      "npc": "Dargh Trueaim",
+      "mobs": []
+    },
+    {
+      "id": "lochmodan_030",
+      "type": "quest_accept",
+      "description": "Talk to Marek Ironheart and accept Crocolisk Hunting",
+      "classes": null,
+      "races": null,
+      "coords": [81.76, 61.66],
+      "zone": "loch_modan",
+      "tips": [],
+      "quests": [
+        {
+          "id": 385,
+          "name": "Crocolisk Hunting"
+        }
+      ],
+      "npc": "Marek Ironheart",
+      "mobs": []
+    },
+    {
+      "id": "lochmodan_031",
+      "type": "kill",
+      "description": "Kill Mountain Buzzards",
+      "classes": null,
+      "races": null,
+      "coords": [80.09, 64.16],
+      "zone": "loch_modan",
+      "tips": [
+        {
+          "type": "warning",
+          "class": null,
+          "text": "You must complete this quest and return to Daryl the Youngling within 15 minutes. If you fail the quest, abandon it and pick it up again"
+        }
+      ],
+      "quests": [
+        {
+          "id": 257,
+          "name": "A Hunter's Boast"
+        }
+      ],
+      "npc": null,
+      "mobs": ["Mountain Buzzard"]
+    },
+    {
+      "id": "lochmodan_032",
+      "type": "travel",
+      "description": "Travel toward Daryl the Youngling",
+      "classes": null,
+      "races": null,
+      "coords": [83.28, 62.97],
+      "zone": "loch_modan",
+      "tips": [],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "lochmodan_033",
+      "type": "quest_turnin",
+      "description": "Talk to Daryl the Youngling and turn in A Hunter's Boast. Accept A Hunter's Challenge",
+      "classes": null,
+      "races": null,
+      "coords": [83.49, 65.4],
+      "zone": "loch_modan",
+      "tips": [],
+      "quests": [
+        {
+          "id": 257,
+          "name": "A Hunter's Boast"
+        },
+        {
+          "id": 258,
+          "name": "A Hunter's Challenge"
+        }
+      ],
+      "npc": "Daryl the Youngling",
+      "mobs": []
+    },
+    {
+      "id": "lochmodan_034",
+      "type": "kill",
+      "description": "Kill Elder Mountain Boars",
+      "classes": null,
+      "races": null,
+      "coords": [69.45, 39.18],
+      "zone": "loch_modan",
+      "tips": [
+        {
+          "type": "warning",
+          "class": null,
+          "text": "You must complete this quest and return to Daryl the Youngling with 12 minutes. If you fail the quest, abandon it and pick it up again"
+        }
+      ],
+      "quests": [
+        {
+          "id": 258,
+          "name": "A Hunter's Challenge"
+        }
+      ],
+      "npc": null,
+      "mobs": ["Elder Mountain Boar"]
+    },
+    {
+      "id": "lochmodan_035",
+      "type": "travel",
+      "description": "Travel toward Daryl the Youngling",
+      "classes": null,
+      "races": null,
+      "coords": [83.28, 62.97],
+      "zone": "loch_modan",
+      "tips": [],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "lochmodan_036",
+      "type": "quest_turnin",
+      "description": "Talk to Daryl the Youngling and turn in A Hunter's Challenge",
+      "classes": null,
+      "races": null,
+      "coords": [83.49, 65.4],
+      "zone": "loch_modan",
+      "tips": [],
+      "quests": [
+        {
+          "id": 258,
+          "name": "A Hunter's Challenge"
+        }
+      ],
+      "npc": "Daryl the Youngling",
+      "mobs": []
+    },
+    {
+      "id": "lochmodan_037",
+      "type": "quest_accept",
+      "description": "Talk to Vyrin Swiftwind and accept Vyrin's Revenge",
+      "classes": null,
+      "races": null,
+      "coords": [81.73, 64.15],
+      "zone": "loch_modan",
+      "tips": [],
+      "quests": [
+        {
+          "id": 271,
+          "name": "Vyrin's Revenge"
+        }
+      ],
+      "npc": "Vyrin Swiftwind",
+      "mobs": []
+    },
+    {
+      "id": "lochmodan_038",
+      "type": "kill",
+      "description": "Kill Loch Crocolisks and loot them for their Meat and Skin",
+      "classes": null,
+      "races": null,
+      "coords": [54.72, 38.15],
+      "zone": "loch_modan",
+      "tips": [],
+      "quests": [
+        {
+          "id": 385,
+          "name": "Crocolisk Hunting"
+        }
+      ],
+      "npc": null,
+      "mobs": ["Loch Crocolisk"]
+    },
+    {
+      "id": "lochmodan_039",
+      "type": "travel",
+      "description": "Travel to Ironband's Excavation Site",
+      "classes": null,
+      "races": null,
+      "coords": [64.89, 66.66],
+      "zone": "loch_modan",
+      "tips": [],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "lochmodan_040",
+      "type": "quest_turnin",
+      "description": "Talk to Magmar Fellhew and turn in Ironband's Excavation. Accept Gathering Idols",
+      "classes": null,
+      "races": null,
+      "coords": [64.89, 66.66],
+      "zone": "loch_modan",
+      "tips": [],
+      "quests": [
+        {
+          "id": 436,
+          "name": "Ironband's Excavation"
+        },
+        {
+          "id": 297,
+          "name": "Gathering Idols"
+        }
+      ],
+      "npc": "Magmar Fellhew",
+      "mobs": []
+    },
+    {
+      "id": "lochmodan_041",
+      "type": "quest_accept",
+      "description": "Talk to Prospector Ironband and accept Excavation Progress Report",
+      "classes": null,
+      "races": null,
+      "coords": [65.934, 65.622],
+      "zone": "loch_modan",
+      "tips": [],
+      "quests": [
+        {
+          "id": 298,
+          "name": "Excavation Progress Report"
+        }
+      ],
+      "npc": "Prospector Ironband",
+      "mobs": []
+    },
+    {
+      "id": "lochmodan_042",
+      "type": "kill",
+      "description": "Kill Stonesplinter Diggers, Stonesplinter Geomancers and Berserk Troggs. Loot them for their Idols",
+      "classes": null,
+      "races": null,
+      "coords": [70.38, 62.82],
+      "zone": "loch_modan",
+      "tips": [],
+      "quests": [
+        {
+          "id": 297,
+          "name": "Gathering Idols"
+        }
+      ],
+      "npc": null,
+      "mobs": [
+        "Stonesplinter Digger",
+        "Stonesplinter Geomancer",
+        "Berserk Trogg"
+      ]
+    },
+    {
+      "id": "lochmodan_043",
+      "type": "quest_turnin",
+      "description": "Talk to Magmar Fellhew and turn in Gathering Idols",
+      "classes": null,
+      "races": null,
+      "coords": [64.89, 66.66],
+      "zone": "loch_modan",
+      "tips": [],
+      "quests": [
+        {
+          "id": 297,
+          "name": "Gathering Idols"
+        }
+      ],
+      "npc": "Magmar Fellhew",
+      "mobs": []
+    },
+    {
+      "id": "lochmodan_044",
+      "type": "travel",
+      "description": "Travel to Grizzlepaw Ridge",
+      "classes": null,
+      "races": null,
+      "coords": [41.21, 64.33],
+      "zone": "loch_modan",
+      "tips": [],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "lochmodan_045",
+      "type": "kill",
+      "description": "Kill Ol' Sooty and loot him for his Head",
+      "classes": null,
+      "races": null,
+      "coords": [36.73, 61.08],
+      "zone": "loch_modan",
+      "tips": [
+        {
+          "type": "warning",
+          "class": null,
+          "text": "Ol' Sooty is not always inside his cave, and may patrol down the path to the lower grounds"
+        },
+        {
+          "type": "warning",
+          "class": null,
+          "text": "Ol' Sooty is a level 20 Elite"
+        }
+      ],
+      "quests": [
+        {
+          "id": 271,
+          "name": "Vyrin's Revenge"
+        }
+      ],
+      "npc": null,
+      "mobs": ["Ol' Sooty"]
+    },
+    {
+      "id": "lochmodan_046",
+      "type": "travel",
+      "description": "Travel to The Farstrider Lodge",
+      "classes": null,
+      "races": null,
+      "coords": [83.28, 62.97],
+      "zone": "loch_modan",
+      "tips": [],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "lochmodan_047",
+      "type": "quest_turnin",
+      "description": "Talk to Marek Ironheart and turn in Crocolisk Hunting",
+      "classes": null,
+      "races": null,
+      "coords": [81.76, 61.66],
+      "zone": "loch_modan",
+      "tips": [],
+      "quests": [
+        {
+          "id": 385,
+          "name": "Crocolisk Hunting"
+        }
+      ],
+      "npc": "Marek Ironheart",
+      "mobs": []
+    },
+    {
+      "id": "lochmodan_048",
+      "type": "quest_turnin",
+      "description": "Talk to Daryl the Youngling and turn in Vyrin's Revenge",
+      "classes": null,
+      "races": null,
+      "coords": [83.49, 65.4],
+      "zone": "loch_modan",
+      "tips": [],
+      "quests": [
+        {
+          "id": 271,
+          "name": "Vyrin's Revenge"
+        }
+      ],
+      "npc": "Daryl the Youngling",
+      "mobs": []
+    },
+    {
+      "id": "lochmodan_049",
+      "type": "quest_accept",
+      "description": "Talk to Daryl the Youngling and accept Vyrin's Revenge",
+      "classes": null,
+      "races": null,
+      "coords": [83.49, 65.4],
+      "zone": "loch_modan",
+      "tips": [],
+      "quests": [
+        {
+          "id": 531,
+          "name": "Vyrin's Revenge"
+        }
+      ],
+      "npc": "Daryl the Youngling",
+      "mobs": []
+    },
+    {
+      "id": "lochmodan_050",
+      "type": "quest_turnin",
+      "description": "Talk to Vyrin Swiftwind and turn in Vyrin's Revenge",
+      "classes": null,
+      "races": null,
+      "coords": [81.73, 64.15],
+      "zone": "loch_modan",
+      "tips": [],
+      "quests": [
+        {
+          "id": 531,
+          "name": "Vyrin's Revenge"
+        }
+      ],
+      "npc": "Vyrin Swiftwind",
+      "mobs": []
+    },
+    {
+      "id": "lochmodan_051",
+      "type": "info",
+      "description": "Abandon Vyrin's Revenge",
+      "classes": null,
+      "races": null,
+      "coords": null,
+      "zone": "",
+      "tips": [],
+      "quests": [
+        {
+          "id": 271,
+          "name": "Vyrin's Revenge"
+        }
+      ],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "lochmodan_052",
+      "type": "travel",
+      "description": "Travel to Mo'grosh Stronghold",
+      "classes": null,
+      "races": null,
+      "coords": [73.87, 29.64],
+      "zone": "loch_modan",
+      "tips": [],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "lochmodan_053",
+      "type": "kill",
+      "description": "Kill Mo'grosh Ogres, Mo'grosh Enforcers and Mo'grosh Brutes",
+      "classes": null,
+      "races": null,
+      "coords": [74.84, 25.08],
+      "zone": "loch_modan",
+      "tips": [
+        {
+          "type": "warning",
+          "class": null,
+          "text": "Mo'grosh Brutes are only found inside the Caves. It is recommended you don't enter the northeastern cave, and just kill them in the 2 other Mini-Caves"
+        }
+      ],
+      "quests": [
+        {
+          "id": 255,
+          "name": "Mercenaries"
+        }
+      ],
+      "npc": null,
+      "mobs": ["Mo'grosh Ogre", "Mo'grosh Brute", "Mo'grosh Enforcer"]
+    },
+    {
+      "id": "lochmodan_054",
+      "type": "travel",
+      "description": "Travel to Thelsamar",
+      "classes": null,
+      "races": null,
+      "coords": [36.77, 46.2],
+      "zone": "loch_modan",
+      "tips": [],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "lochmodan_055",
+      "type": "quest_turnin",
+      "description": "Talk to Jern Hornhelm and turn in Excavation Progress Report. Accept Report to Ironforge",
+      "classes": null,
+      "races": null,
+      "coords": [37.24, 47.38],
+      "zone": "loch_modan",
+      "tips": [],
+      "quests": [
+        {
+          "id": 298,
+          "name": "Excavation Progress Report"
+        },
+        {
+          "id": 301,
+          "name": "Report to Ironforge"
+        }
+      ],
+      "npc": "Jern Hornhelm",
+      "mobs": []
+    },
+    {
+      "id": "lochmodan_056",
+      "type": "quest_turnin",
+      "description": "Talk to Magistrate Bluntnose and turn in Mercenaries",
+      "classes": null,
+      "races": null,
+      "coords": [34.69, 43.18],
+      "zone": "loch_modan",
+      "tips": [],
+      "quests": [
+        {
+          "id": 255,
+          "name": "Mercenaries"
+        }
+      ],
+      "npc": "Magistrate Bluntnose",
+      "mobs": []
+    },
+    {
+      "id": "lochmodan_057",
+      "type": "info",
+      "description": "Abandon Mercenaries",
+      "classes": null,
+      "races": null,
+      "coords": null,
+      "zone": "",
+      "tips": [],
+      "quests": [
+        {
+          "id": 255,
+          "name": "Mercenaries"
+        }
+      ],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "lochmodan_058",
+      "type": "fly",
+      "description": "Talk to Thorgrum and fly to Ironforge",
+      "classes": null,
+      "races": null,
+      "coords": [33.938, 50.954],
+      "zone": "loch_modan",
+      "tips": [],
+      "quests": [],
+      "npc": "Thorgrum Borrelson",
+      "mobs": []
+    },
+    {
+      "id": "lochmodan_059",
+      "type": "quest_turnin",
+      "description": "Talk to Prospector Stormpike and turn in Report to Ironforge",
+      "classes": null,
+      "races": null,
+      "coords": [74.645, 11.742],
+      "zone": "ironforge",
+      "tips": [],
+      "quests": [
+        {
+          "id": 301,
+          "name": "Report to Ironforge"
+        }
+      ],
+      "npc": "Prospector Stormpike",
+      "mobs": []
+    },
+    {
+      "id": "lochmodan_060",
+      "type": "info",
+      "description": "Talk to Bailey Stonemantle and deposit Elixir of Water Breathing into your bank",
+      "classes": null,
+      "races": null,
+      "coords": [35.9, 60.17],
+      "zone": "ironforge",
+      "tips": [],
+      "quests": [],
+      "npc": "Bailey Stonemantle",
+      "mobs": []
+    },
+    {
+      "id": "lochmodan_061",
+      "type": "info",
+      "description": "Talk to Gearcutter Cogspinner and buy a Bronze Tube",
+      "classes": null,
+      "races": null,
+      "coords": [67.84, 42.5],
+      "zone": "ironforge",
+      "tips": [
+        {
+          "type": "warning",
+          "class": null,
+          "text": "This is a limited supply item. Skip this step if Gearcutter Cogspinner doesn't have one"
+        }
+      ],
+      "quests": [],
+      "npc": "Gearcutter Cogspinner",
+      "mobs": []
+    },
+    {
+      "id": "lochmodan_062",
+      "type": "travel",
+      "description": "Enter the Deeprun Tram. Take the tram to Stormwind",
+      "classes": null,
+      "races": null,
+      "coords": [78.0, 52.0],
+      "zone": "ironforge",
+      "tips": [
+        {
+          "type": "warning",
+          "class": null,
+          "text": "Level your First Aid and Cooking if needed while waiting for the tram"
+        },
+        {
+          "type": "warning",
+          "class": "Rogue",
+          "text": "You will need your First Aid to be 80 for a quest at level 24"
+        }
+      ],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    }
+  ]
+}

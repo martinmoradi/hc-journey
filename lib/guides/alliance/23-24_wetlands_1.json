@@ -1,0 +1,694 @@
+{
+  "zone": "Wetlands",
+  "levelRange": "23-24",
+  "faction": "Alliance",
+  "name": "23-24_wetlands_1",
+  "next": "24-27_duskwood_redridge",
+  "steps": [
+    {
+      "id": "wetlands_001",
+      "type": "quest_accept",
+      "description": "Talk to James Halloran and accept Young Crocolisk Skins",
+      "classes": null,
+      "races": null,
+      "coords": [8.509, 55.697],
+      "zone": "wetlands",
+      "tips": [],
+      "quests": [
+        {
+          "id": 484,
+          "name": "Young Crocolisk Skins"
+        }
+      ],
+      "npc": "James Halloran",
+      "mobs": []
+    },
+    {
+      "id": "wetlands_002",
+      "type": "info",
+      "description": "Talk to Dewin Shimmerdawn. Buy as many Healing Potions that are available",
+      "classes": null,
+      "races": null,
+      "coords": [7.95, 56.38],
+      "zone": "wetlands",
+      "tips": [
+        {
+          "type": "warning",
+          "class": null,
+          "text": "This is a limited supply item. Skip this step if Dewin Shimmerdawn doesn't have any"
+        }
+      ],
+      "quests": [],
+      "npc": "Dewin Shimmerdawn",
+      "mobs": []
+    },
+    {
+      "id": "wetlands_003",
+      "type": "quest_accept",
+      "description": "Talk to Karl Boran and accept Claws from the Deep",
+      "classes": null,
+      "races": null,
+      "coords": [8.359, 58.526],
+      "zone": "wetlands",
+      "tips": [],
+      "quests": [
+        {
+          "id": 279,
+          "name": "Claws from the Deep"
+        }
+      ],
+      "npc": "Karl Boran",
+      "mobs": []
+    },
+    {
+      "id": "wetlands_004",
+      "type": "quest_accept",
+      "description": "Talk to First Mate Fitzsimmons and accept The Third Fleet and The Greenwarden",
+      "classes": null,
+      "races": null,
+      "coords": [10.89, 59.66],
+      "zone": "wetlands",
+      "tips": [],
+      "quests": [
+        {
+          "id": 288,
+          "name": "The Third Fleet"
+        },
+        {
+          "id": 463,
+          "name": "The Greenwarden"
+        }
+      ],
+      "npc": "First Mate Fitzsimmons",
+      "mobs": []
+    },
+    {
+      "id": "wetlands_005",
+      "type": "info",
+      "description": "Talk to Innkeeper Helbrek. Buy a Flagon of Dwarven Honeymead. Set your Hearthstone to Menethil Harbor",
+      "classes": null,
+      "races": null,
+      "coords": [10.69, 60.95],
+      "zone": "wetlands",
+      "tips": [],
+      "quests": [
+        {
+          "id": 288,
+          "name": "The Third Fleet"
+        }
+      ],
+      "npc": "Innkeeper Helbrek",
+      "mobs": []
+    },
+    {
+      "id": "wetlands_006",
+      "type": "travel",
+      "description": "Travel upstairs towards Archaeologist Flagongut",
+      "classes": null,
+      "races": null,
+      "coords": [10.368, 61.016],
+      "zone": "wetlands",
+      "tips": [],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "wetlands_007",
+      "type": "quest_turnin",
+      "description": "Talk to Archaeologist Flagongut upstairs and turn in The Absent Minded Prospector",
+      "classes": null,
+      "races": null,
+      "coords": [10.843, 60.435],
+      "zone": "wetlands",
+      "tips": [],
+      "quests": [
+        {
+          "id": 942,
+          "name": "The Absent Minded Prospector"
+        }
+      ],
+      "npc": "Archaeologist Flagongut",
+      "mobs": []
+    },
+    {
+      "id": "wetlands_008",
+      "type": "info",
+      "description": "Talk to Samor Festivus upstairs. Buy as many Healing Potions that are available",
+      "classes": null,
+      "races": null,
+      "coords": [10.496, 60.201],
+      "zone": "wetlands",
+      "tips": [
+        {
+          "type": "warning",
+          "class": null,
+          "text": "This is a limited supply item. Skip this step if Samor Festivus doesn't have any"
+        }
+      ],
+      "quests": [],
+      "npc": "Samor Festivus",
+      "mobs": []
+    },
+    {
+      "id": "wetlands_009",
+      "type": "quest_turnin",
+      "description": "Talk to First Mate Fitzsimmons and turn in The Third Fleet",
+      "classes": null,
+      "races": null,
+      "coords": [10.89, 59.66],
+      "zone": "wetlands",
+      "tips": [],
+      "quests": [
+        {
+          "id": 288,
+          "name": "The Third Fleet"
+        }
+      ],
+      "npc": "First Mate Fitzsimmons",
+      "mobs": []
+    },
+    {
+      "id": "wetlands_010",
+      "type": "info",
+      "description": "Talk to Neal Allen. Buy a Bronze Tube",
+      "classes": null,
+      "races": null,
+      "coords": [10.761, 56.737],
+      "zone": "wetlands",
+      "tips": [
+        {
+          "type": "warning",
+          "class": null,
+          "text": "This is a limited supply item. Skip this step if Neal Allen doesn't have one"
+        }
+      ],
+      "quests": [],
+      "npc": "Neal Allen",
+      "mobs": []
+    },
+    {
+      "id": "wetlands_011",
+      "type": "loot",
+      "description": "Kill Young Wetlands Crocolisks. Loot them for their Young Crocolisk Skin",
+      "classes": null,
+      "races": null,
+      "coords": null,
+      "zone": "",
+      "tips": [],
+      "quests": [
+        {
+          "id": 484,
+          "name": "Young Crocolisk Skins"
+        }
+      ],
+      "npc": null,
+      "mobs": ["Young Wetlands Crocolisk"]
+    },
+    {
+      "id": "wetlands_012",
+      "type": "kill",
+      "description": "Kill Bluegill Murlocs and Gobbler. Loot Gobbler for his Head",
+      "classes": null,
+      "races": null,
+      "coords": [16.26, 39.41],
+      "zone": "wetlands",
+      "tips": [
+        {
+          "type": "warning",
+          "class": null,
+          "text": "Gobbler patrols the Marshlands slightly"
+        }
+      ],
+      "quests": [
+        {
+          "id": 279,
+          "name": "Claws from the Deep"
+        }
+      ],
+      "npc": null,
+      "mobs": ["Bluegill Murloc", "Gobbler"]
+    },
+    {
+      "id": "wetlands_013",
+      "type": "info",
+      "description": "Talk to Fradd Swiftgear. Buy a Bronze Tube",
+      "classes": null,
+      "races": null,
+      "coords": [26.4, 25.76],
+      "zone": "wetlands",
+      "tips": [
+        {
+          "type": "warning",
+          "class": null,
+          "text": "This is a limited supply item. Skip this step if Fradd Swiftgear doesn't have one"
+        }
+      ],
+      "quests": [],
+      "npc": "Fradd Swiftgear",
+      "mobs": []
+    },
+    {
+      "id": "wetlands_014",
+      "type": "quest_accept",
+      "description": "Talk to Einar Stonegrip and accept Daily Delivery",
+      "classes": null,
+      "races": null,
+      "coords": [49.916, 39.368],
+      "zone": "wetlands",
+      "tips": [],
+      "quests": [
+        {
+          "id": 469,
+          "name": "Daily Delivery"
+        }
+      ],
+      "npc": "Einar Stonegrip",
+      "mobs": []
+    },
+    {
+      "id": "wetlands_015",
+      "type": "info",
+      "description": "Talk to Kixxle. Buy as many Healing Potions that are available. Buy Liferoot if Kixxle has any in stock",
+      "classes": ["Warrior"],
+      "races": null,
+      "coords": [50.2, 37.734],
+      "zone": "wetlands",
+      "tips": [
+        {
+          "type": "warning",
+          "class": "Warrior",
+          "text": "Buy Liferoot if Kixxle has any in stock. You need them for the Whirlwind Axe quest later"
+        },
+        {
+          "type": "warning",
+          "class": "Warrior",
+          "text": "If you are planning on running Scarlet Monastery for the Bonebiter, you may skip this step"
+        },
+        {
+          "type": "warning",
+          "class": "Warrior",
+          "text": "These are limited supply items. Skip this step if Kixxle doesn't have any"
+        }
+      ],
+      "quests": [],
+      "npc": "Kixxle",
+      "mobs": []
+    },
+    {
+      "id": "wetlands_016",
+      "type": "info",
+      "description": "Talk to Kixxle. Buy as many Healing Potions that are available",
+      "classes": ["!Warrior"],
+      "races": null,
+      "coords": [50.2, 37.734],
+      "zone": "wetlands",
+      "tips": [
+        {
+          "type": "warning",
+          "class": null,
+          "text": "This is a limited supply item. Skip this step if Kixxle doesn't have any"
+        }
+      ],
+      "quests": [],
+      "npc": "Kixxle",
+      "mobs": []
+    },
+    {
+      "id": "wetlands_017",
+      "type": "quest_turnin",
+      "description": "Talk to Rethiel the Greenwarden and turn in The Greenwarden",
+      "classes": null,
+      "races": null,
+      "coords": [56.37, 40.4],
+      "zone": "wetlands",
+      "tips": [],
+      "quests": [
+        {
+          "id": 463,
+          "name": "The Greenwarden"
+        }
+      ],
+      "npc": "Rethiel the Greenwarden",
+      "mobs": []
+    },
+    {
+      "id": "wetlands_018",
+      "type": "quest_accept",
+      "description": "Talk to Rethiel the Greenwarden and accept Tramping Paws",
+      "classes": null,
+      "races": null,
+      "coords": [56.37, 40.4],
+      "zone": "wetlands",
+      "tips": [],
+      "quests": [
+        {
+          "id": 276,
+          "name": "Tramping Paws"
+        }
+      ],
+      "npc": "Rethiel the Greenwarden",
+      "mobs": []
+    },
+    {
+      "id": "wetlands_019",
+      "type": "kill",
+      "description": "Kill Mosshide Gnolls and Mosshide Mongrels",
+      "classes": null,
+      "races": null,
+      "coords": [62.34, 69.34],
+      "zone": "wetlands",
+      "tips": [
+        {
+          "type": "warning",
+          "class": null,
+          "text": "This is a great place to farm Wool Cloth to level up your First Aid or any other profession that may require it"
+        }
+      ],
+      "quests": [
+        {
+          "id": 276,
+          "name": "Tramping Paws"
+        }
+      ],
+      "npc": null,
+      "mobs": ["Mosshide Gnoll", "Mosshide Mongrel"]
+    },
+    {
+      "id": "wetlands_020",
+      "type": "info",
+      "description": "Continue farming Wool Cloth from Mosshide Gnolls and Mosshide Mongrels to level up your First Aid or any other profession that may require it",
+      "classes": null,
+      "races": null,
+      "coords": null,
+      "zone": "",
+      "tips": [
+        {
+          "type": "warning",
+          "class": null,
+          "text": "Once you are done, skip this step"
+        }
+      ],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "wetlands_021",
+      "type": "quest_turnin",
+      "description": "Talk to Rethiel the Greenwarden, turn in Tramping Paws, and accept Fire Taboo",
+      "classes": null,
+      "races": null,
+      "coords": [56.37, 40.4],
+      "zone": "wetlands",
+      "tips": [],
+      "quests": [
+        {
+          "id": 276,
+          "name": "Tramping Paws"
+        },
+        {
+          "id": 277,
+          "name": "Fire Taboo"
+        }
+      ],
+      "npc": "Rethiel the Greenwarden",
+      "mobs": []
+    },
+    {
+      "id": "wetlands_022",
+      "type": "kill",
+      "description": "Kill Young Wetlands Crocolisks. Loot them for their Young Crocolisk Skin",
+      "classes": null,
+      "races": null,
+      "coords": [20.37, 45.21],
+      "zone": "wetlands",
+      "tips": [],
+      "quests": [
+        {
+          "id": 484,
+          "name": "Young Crocolisk Skins"
+        }
+      ],
+      "npc": null,
+      "mobs": ["Young Wetlands Crocolisk"]
+    },
+    {
+      "id": "wetlands_023",
+      "type": "grind",
+      "description": "Grind to level 24",
+      "classes": null,
+      "races": null,
+      "coords": null,
+      "zone": "",
+      "tips": [],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "wetlands_024",
+      "type": "info",
+      "description": "Hearth to Menethil Harbor. If you are already close to Menethil Harbor run back",
+      "classes": null,
+      "races": null,
+      "coords": null,
+      "zone": "",
+      "tips": [
+        {
+          "type": "warning",
+          "class": null,
+          "text": "If you are already close to Menethil Harbor run back"
+        }
+      ],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "wetlands_025",
+      "type": "travel",
+      "description": "Travel to Menethil Harbor",
+      "classes": null,
+      "races": null,
+      "coords": [8.3, 58.53],
+      "zone": "wetlands",
+      "tips": [],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "wetlands_026",
+      "type": "quest_turnin",
+      "description": "Talk to James Halloran, turn in Daily Delivery and Young Crocolisk Skins",
+      "classes": null,
+      "races": null,
+      "coords": [8.509, 55.697],
+      "zone": "wetlands",
+      "tips": [],
+      "quests": [
+        {
+          "id": 469,
+          "name": "Daily Delivery"
+        },
+        {
+          "id": 484,
+          "name": "Young Crocolisk Skins"
+        }
+      ],
+      "npc": "James Halloran",
+      "mobs": []
+    },
+    {
+      "id": "wetlands_027",
+      "type": "quest_turnin",
+      "description": "Talk to Karl Boran and turn in Claws from the Deep",
+      "classes": null,
+      "races": null,
+      "coords": [8.359, 58.526],
+      "zone": "wetlands",
+      "tips": [],
+      "quests": [
+        {
+          "id": 279,
+          "name": "Claws from the Deep"
+        }
+      ],
+      "npc": "Karl Boran",
+      "mobs": []
+    },
+    {
+      "id": "wetlands_028",
+      "type": "fly",
+      "description": "Talk to Shellei Brondir and fly to Ironforge",
+      "classes": null,
+      "races": null,
+      "coords": [9.49, 59.693],
+      "zone": "wetlands",
+      "tips": [],
+      "quests": [],
+      "npc": "Shellei Brondir",
+      "mobs": []
+    },
+    {
+      "id": "wetlands_029",
+      "type": "info",
+      "description": "Talk to Regnus Thundergranite and train your class spells",
+      "classes": ["Hunter"],
+      "races": null,
+      "coords": [69.872, 82.89],
+      "zone": "ironforge",
+      "tips": [],
+      "quests": [],
+      "npc": "Regnus Thundergranite",
+      "mobs": []
+    },
+    {
+      "id": "wetlands_030",
+      "type": "info",
+      "description": "Talk to Bilban Tosslespanner and train your class spells",
+      "classes": ["Warrior"],
+      "races": null,
+      "coords": [65.905, 88.405],
+      "zone": "ironforge",
+      "tips": [],
+      "quests": [],
+      "npc": "Bilban Tosslespanner",
+      "mobs": []
+    },
+    {
+      "id": "wetlands_031",
+      "type": "info",
+      "description": "Talk to Fenthwick and train your class spells",
+      "classes": ["Rogue"],
+      "races": null,
+      "coords": [51.495, 15.33],
+      "zone": "ironforge",
+      "tips": [],
+      "quests": [],
+      "npc": "Fenthwick",
+      "mobs": []
+    },
+    {
+      "id": "wetlands_032",
+      "type": "info",
+      "description": "Talk to Toldren Deepiron and train your class spells",
+      "classes": ["Priest"],
+      "races": null,
+      "coords": [25.207, 10.756],
+      "zone": "ironforge",
+      "tips": [],
+      "quests": [],
+      "npc": "Toldren Deepiron",
+      "mobs": []
+    },
+    {
+      "id": "wetlands_033",
+      "type": "info",
+      "description": "Talk to Dink and train your class spells",
+      "classes": ["Mage"],
+      "races": null,
+      "coords": [27.18, 8.6],
+      "zone": "ironforge",
+      "tips": [],
+      "quests": [],
+      "npc": "Dink",
+      "mobs": []
+    },
+    {
+      "id": "wetlands_034",
+      "type": "info",
+      "description": "Talk to Brandur Ironhammer and train your class spells",
+      "classes": ["Paladin"],
+      "races": null,
+      "coords": [23.141, 6.149],
+      "zone": "ironforge",
+      "tips": [],
+      "quests": [],
+      "npc": "Brandur Ironhammer",
+      "mobs": []
+    },
+    {
+      "id": "wetlands_035",
+      "type": "info",
+      "description": "Talk to Milstaff Stormeye and train Teleport: Ironforge",
+      "classes": ["Mage"],
+      "races": null,
+      "coords": [25.496, 7.08],
+      "zone": "ironforge",
+      "tips": [],
+      "quests": [],
+      "npc": "Milstaff Stormeye",
+      "mobs": []
+    },
+    {
+      "id": "wetlands_036",
+      "type": "quest_turnin",
+      "description": "Talk to Gerrig Bonegrip and turn in The Powers Below",
+      "classes": null,
+      "races": null,
+      "coords": [50.826, 5.613],
+      "zone": "ironforge",
+      "tips": [],
+      "quests": [
+        {
+          "id": 968,
+          "name": "The Powers Below"
+        }
+      ],
+      "npc": "Gerrig Bonegrip",
+      "mobs": []
+    },
+    {
+      "id": "wetlands_037",
+      "type": "info",
+      "description": "Talk to Gearcutter Cogspinner. Buy a Bronze Tube",
+      "classes": null,
+      "races": null,
+      "coords": [67.844, 42.499],
+      "zone": "ironforge",
+      "tips": [
+        {
+          "type": "warning",
+          "class": null,
+          "text": "This is a limited supply item. Skip this step if Gearcutter Cogspinner doesn't have one"
+        }
+      ],
+      "quests": [],
+      "npc": "Gearcutter Cogspinner",
+      "mobs": []
+    },
+    {
+      "id": "wetlands_038",
+      "type": "quest_turnin",
+      "description": "Talk to Lomac Gearstrip and turn in An Old Colleague",
+      "classes": null,
+      "races": null,
+      "coords": [72.08, 51.87],
+      "zone": "ironforge",
+      "tips": [],
+      "quests": [
+        {
+          "id": 1072,
+          "name": "An Old Colleague"
+        }
+      ],
+      "npc": "Lomac Gearstrip",
+      "mobs": []
+    },
+    {
+      "id": "wetlands_039",
+      "type": "travel",
+      "description": "Take the tram to Stormwind",
+      "classes": null,
+      "races": null,
+      "coords": [76.61, 51.28],
+      "zone": "ironforge",
+      "tips": [],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    }
+  ]
+}

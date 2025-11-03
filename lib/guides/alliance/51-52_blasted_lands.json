@@ -1,0 +1,500 @@
+{
+  "zone": "Blasted Lands",
+  "levelRange": "51-52",
+  "faction": "Alliance",
+  "name": "51-52_blasted_lands",
+  "next": "52-52_searing_gorge_wpl",
+  "steps": [
+    {
+      "id": "blastedlands_001",
+      "type": "quest_accept",
+      "description": "Talk to Ambassador Ardalan atop the Tower and accept Petty Squabbles",
+      "classes": null,
+      "races": null,
+      "coords": [67.57, 19.291],
+      "zone": "blasted_lands",
+      "tips": [],
+      "quests": [
+        {
+          "id": 2783,
+          "name": "Petty Squabbles"
+        }
+      ],
+      "npc": "Ambassador Ardalan",
+      "mobs": []
+    },
+    {
+      "id": "blastedlands_002",
+      "type": "quest_turnin",
+      "description": "Talk to Thadius Grimshade atop the Tower, turn in Nekrum's Medallion, accept The Divination, turn in The Divination, and accept Return to the Hinterlands",
+      "classes": null,
+      "races": null,
+      "coords": [66.898, 19.469],
+      "zone": "blasted_lands",
+      "tips": [],
+      "quests": [
+        {
+          "id": 2991,
+          "name": "Nekrum's Medallion"
+        },
+        {
+          "id": 2992,
+          "name": "The Divination"
+        },
+        {
+          "id": 2993,
+          "name": "Return to the Hinterlands"
+        }
+      ],
+      "npc": "Thadius Grimshade",
+      "mobs": []
+    },
+    {
+      "id": "blastedlands_003",
+      "type": "quest_accept",
+      "description": "Talk to Thadius Grimshade atop the Tower, accept The Divination, turn in The Divination, and accept Return to the Hinterlands",
+      "classes": null,
+      "races": null,
+      "coords": [66.898, 19.469],
+      "zone": "blasted_lands",
+      "tips": [],
+      "quests": [
+        {
+          "id": 2992,
+          "name": "The Divination"
+        },
+        {
+          "id": 2993,
+          "name": "Return to the Hinterlands"
+        }
+      ],
+      "npc": "Thadius Grimshade",
+      "mobs": []
+    },
+    {
+      "id": "blastedlands_004",
+      "type": "quest_turnin",
+      "description": "Talk to the Fallen Hero of the Horde, turn in Petty Squabbles and A Troubled Spirit, and accept A Tale of Sorrow",
+      "classes": ["Warrior"],
+      "races": null,
+      "coords": [34.287, 66.134],
+      "zone": "swamp_of_sorrows",
+      "tips": [],
+      "quests": [
+        {
+          "id": 2783,
+          "name": "Petty Squabbles"
+        },
+        {
+          "id": 8417,
+          "name": "A Troubled Spirit"
+        },
+        {
+          "id": 2801,
+          "name": "A Tale of Sorrow"
+        }
+      ],
+      "npc": "Fallen Hero of the Horde",
+      "mobs": []
+    },
+    {
+      "id": "blastedlands_005",
+      "type": "quest_turnin",
+      "description": "Talk to the Fallen Hero of the Horde, turn in Petty Squabbles, and accept A Tale of Sorrow",
+      "classes": ["!Warrior"],
+      "races": null,
+      "coords": [34.287, 66.134],
+      "zone": "swamp_of_sorrows",
+      "tips": [],
+      "quests": [
+        {
+          "id": 2783,
+          "name": "Petty Squabbles"
+        },
+        {
+          "id": 2801,
+          "name": "A Tale of Sorrow"
+        }
+      ],
+      "npc": "Fallen Hero of the Horde",
+      "mobs": []
+    },
+    {
+      "id": "blastedlands_006",
+      "type": "info",
+      "description": "Talk to the Fallen Hero of the Horde",
+      "classes": null,
+      "races": null,
+      "coords": [34.287, 66.134],
+      "zone": "swamp_of_sorrows",
+      "tips": [],
+      "quests": [
+        {
+          "id": 2801,
+          "name": "A Tale of Sorrow"
+        }
+      ],
+      "npc": "Fallen Hero of the Horde",
+      "mobs": []
+    },
+    {
+      "id": "blastedlands_007",
+      "type": "quest_turnin",
+      "description": "Talk to the Fallen Hero of the Horde and turn in A Tale of Sorrow",
+      "classes": null,
+      "races": null,
+      "coords": [34.287, 66.134],
+      "zone": "swamp_of_sorrows",
+      "tips": [],
+      "quests": [
+        {
+          "id": 2801,
+          "name": "A Tale of Sorrow"
+        }
+      ],
+      "npc": "Fallen Hero of the Horde",
+      "mobs": []
+    },
+    {
+      "id": "blastedlands_008",
+      "type": "kill",
+      "description": "Kill Vultures, Basilisks, Boars, Scorpids, and Hyenas. Loot them for their Gizzards, Brains, Lungs, Pincers, and Jowls",
+      "classes": ["Hunter", "Rogue"],
+      "races": null,
+      "coords": [62.48, 27.98],
+      "zone": "blasted_lands",
+      "tips": [
+        {
+          "type": "warning",
+          "class": null,
+          "text": "Prioritize Scorpids, Vultures and Boars so you can receive the 25 Agility buff"
+        },
+        {
+          "type": "warning",
+          "class": null,
+          "text": "Basilisks share spawns with Boars, and Hyenas share spawns with Scorpids"
+        }
+      ],
+      "quests": [],
+      "npc": null,
+      "mobs": [
+        "Redstone Basilisk",
+        "Redstone Crystalhide",
+        "Black Slayer",
+        "Bone Picker",
+        "Starving Snickerfang",
+        "Snickerfang Hyena",
+        "Scorpok Stinger",
+        "Ashmane Boar"
+      ]
+    },
+    {
+      "id": "blastedlands_009",
+      "type": "quest_turnin",
+      "description": "Talk to Ambassador Ardalan and turn in The Decisive Striker",
+      "classes": ["Hunter", "Rogue"],
+      "races": null,
+      "coords": [50.548, 14.204],
+      "zone": "blasted_lands",
+      "tips": [
+        {
+          "type": "warning",
+          "class": null,
+          "text": "Once you have 3 Pincers, 2 Gizzards and 1 Lung turn in the quest for the 25 Agility buff"
+        }
+      ],
+      "quests": [
+        {
+          "id": 2585,
+          "name": "The Decisive Striker"
+        }
+      ],
+      "npc": "Bloodmage Drazial",
+      "mobs": []
+    },
+    {
+      "id": "blastedlands_010",
+      "type": "quest_turnin",
+      "description": "Talk to Ambassador Ardalan, accept The Decisive Striker, and turn in The Decisive Striker",
+      "classes": ["Hunter", "Rogue"],
+      "races": null,
+      "coords": [50.548, 14.204],
+      "zone": "blasted_lands",
+      "tips": [],
+      "quests": [
+        {
+          "id": 2585,
+          "name": "The Decisive Striker"
+        }
+      ],
+      "npc": "Bloodmage Drazial",
+      "mobs": []
+    },
+    {
+      "id": "blastedlands_011",
+      "type": "kill",
+      "description": "Kill Vultures, Basilisks, Boars, Scorpids, and Hyenas. Loot them for their Gizzards, Brains, Lungs, Pincers, and Jowls",
+      "classes": ["Druid", "Paladin", "Warrior"],
+      "races": null,
+      "coords": [62.48, 27.98],
+      "zone": "blasted_lands",
+      "tips": [
+        {
+          "type": "warning",
+          "class": null,
+          "text": "Prioritize Hyenas, Boars and Scorpids so you can receive the 25 Strength buff"
+        },
+        {
+          "type": "warning",
+          "class": null,
+          "text": "Basilisks share spawns with Boars, and Hyenas share spawns with Scorpids"
+        }
+      ],
+      "quests": [],
+      "npc": null,
+      "mobs": [
+        "Redstone Basilisk",
+        "Redstone Crystalhide",
+        "Black Slayer",
+        "Bone Picker",
+        "Starving Snickerfang",
+        "Snickerfang Hyena",
+        "Scorpok Stinger",
+        "Ashmane Boar"
+      ]
+    },
+    {
+      "id": "blastedlands_012",
+      "type": "quest_turnin",
+      "description": "Talk to Ambassador Ardalan and turn in Snickerfang Jowls",
+      "classes": ["Druid", "Paladin", "Warrior"],
+      "races": null,
+      "coords": [50.548, 14.204],
+      "zone": "blasted_lands",
+      "tips": [
+        {
+          "type": "warning",
+          "class": null,
+          "text": "Once you have 3 Jowls, 2 Lungs and 1 Pincer turn in the quest for the 25 Strength buff"
+        }
+      ],
+      "quests": [
+        {
+          "id": 2581,
+          "name": "Snickerfang Jowls"
+        }
+      ],
+      "npc": "Bloodmage Drazial",
+      "mobs": []
+    },
+    {
+      "id": "blastedlands_013",
+      "type": "quest_turnin",
+      "description": "Talk to Bloodmage Drazial, accept Snickerfang Jowls, and turn in Snickerfang Jowls",
+      "classes": ["Druid", "Paladin", "Warrior"],
+      "races": null,
+      "coords": [50.548, 14.204],
+      "zone": "blasted_lands",
+      "tips": [],
+      "quests": [
+        {
+          "id": 2581,
+          "name": "Snickerfang Jowls"
+        }
+      ],
+      "npc": "Bloodmage Drazial",
+      "mobs": []
+    },
+    {
+      "id": "blastedlands_014",
+      "type": "kill",
+      "description": "Kill Vultures, Basilisks, Boars, Scorpids, and Hyenas. Loot them for their Gizzards, Brains, Lungs, Pincers, and Jowls",
+      "classes": null,
+      "races": null,
+      "coords": [62.48, 27.98],
+      "zone": "blasted_lands",
+      "tips": [
+        {
+          "type": "warning",
+          "class": null,
+          "text": "Basilisks share spawns with Boars, and Hyenas share spawns with Scorpids"
+        }
+      ],
+      "quests": [],
+      "npc": null,
+      "mobs": [
+        "Redstone Basilisk",
+        "Redstone Crystalhide",
+        "Black Slayer",
+        "Bone Picker",
+        "Starving Snickerfang",
+        "Snickerfang Hyena",
+        "Scorpok Stinger",
+        "Ashmane Boar"
+      ]
+    },
+    {
+      "id": "blastedlands_015",
+      "type": "quest_turnin",
+      "description": "Talk to Bloodmage Lynnore and Bloodmage Drazial, accept and turn in The Basilisk's Bite, accept and turn in Vulture's Vigor, accept and turn in The Decisive Striker, accept and turn in A Boar's Vitality, and accept and turn in Snickerfang Jowls",
+      "classes": null,
+      "races": null,
+      "coords": [50.548, 14.204],
+      "zone": "blasted_lands",
+      "tips": [],
+      "quests": [
+        {
+          "id": 2601,
+          "name": "The Basilisk's Bite"
+        },
+        {
+          "id": 2603,
+          "name": "Vulture's Vigor"
+        },
+        {
+          "id": 2585,
+          "name": "The Decisive Striker"
+        },
+        {
+          "id": 2583,
+          "name": "A Boar's Vitality"
+        },
+        {
+          "id": 2581,
+          "name": "Snickerfang Jowls"
+        }
+      ],
+      "npc": "Bloodmage Drazial",
+      "mobs": []
+    },
+    {
+      "id": "blastedlands_016",
+      "type": "quest_turnin",
+      "description": "Talk to Kum'isha the Collector, accept Everything Counts In Large Amounts, and turn in Everything Counts In Large Amounts",
+      "classes": null,
+      "races": null,
+      "coords": [51.799, 35.636],
+      "zone": "blasted_lands",
+      "tips": [],
+      "quests": [
+        {
+          "id": 3501,
+          "name": "Everything Counts In Large Amounts"
+        }
+      ],
+      "npc": "Kum'isha the Collector",
+      "mobs": []
+    },
+    {
+      "id": "blastedlands_017",
+      "type": "quest_turnin",
+      "description": "Talk to Kum'isha the Collector, accept To Serve Kum'isha, and turn in To Serve Kum'isha",
+      "classes": null,
+      "races": null,
+      "coords": [51.799, 35.636],
+      "zone": "blasted_lands",
+      "tips": [],
+      "quests": [
+        {
+          "id": 2521,
+          "name": "To Serve Kum'isha"
+        }
+      ],
+      "npc": "Kum'isha the Collector",
+      "mobs": []
+    },
+    {
+      "id": "blastedlands_018",
+      "type": "fly",
+      "description": "Talk to Alexandra Constantine and fly to Redridge",
+      "classes": null,
+      "races": null,
+      "coords": [65.535, 24.337],
+      "zone": "blasted_lands",
+      "tips": [],
+      "quests": [],
+      "npc": "Alexandra Constantine",
+      "mobs": []
+    },
+    {
+      "id": "blastedlands_019",
+      "type": "travel",
+      "description": "Travel to Burning Steppes",
+      "classes": null,
+      "races": null,
+      "coords": [77.5, 68.0],
+      "zone": "burning_steppes",
+      "tips": [],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "blastedlands_020",
+      "type": "quest_accept",
+      "description": "Talk to Oralius and accept Extinguish the Firegut",
+      "classes": null,
+      "races": null,
+      "coords": [84.555, 68.677],
+      "zone": "burning_steppes",
+      "tips": [],
+      "quests": [
+        {
+          "id": 3823,
+          "name": "Extinguish the Firegut"
+        }
+      ],
+      "npc": "Oralius",
+      "mobs": []
+    },
+    {
+      "id": "blastedlands_021",
+      "type": "kill",
+      "description": "Kill Firegut Ogre Mages, Firegut Ogres and Firegut Brutes",
+      "classes": null,
+      "races": null,
+      "coords": [80.74, 44.38],
+      "zone": "burning_steppes",
+      "tips": [],
+      "quests": [
+        {
+          "id": 3823,
+          "name": "Extinguish the Firegut"
+        }
+      ],
+      "npc": null,
+      "mobs": ["Firegut Ogre Mage", "Firegut Ogre", "Firegut Brute"]
+    },
+    {
+      "id": "blastedlands_022",
+      "type": "quest_turnin",
+      "description": "Talk to Oralius and turn in Extinguish the Firegut",
+      "classes": null,
+      "races": null,
+      "coords": [84.555, 68.677],
+      "zone": "burning_steppes",
+      "tips": [],
+      "quests": [
+        {
+          "id": 3823,
+          "name": "Extinguish the Firegut"
+        }
+      ],
+      "npc": "Oralius",
+      "mobs": []
+    },
+    {
+      "id": "blastedlands_023",
+      "type": "fly",
+      "description": "Talk to Borgun Stoutarm and fly to Searing Gorge",
+      "classes": null,
+      "races": null,
+      "coords": [84.334, 68.326],
+      "zone": "burning_steppes",
+      "tips": [],
+      "quests": [],
+      "npc": "Borgun Stoutarm",
+      "mobs": []
+    }
+  ]
+}

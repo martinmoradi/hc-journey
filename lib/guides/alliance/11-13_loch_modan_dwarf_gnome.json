@@ -1,0 +1,887 @@
+{
+  "zone": "Loch Modan",
+  "levelRange": "11-13",
+  "faction": "Alliance",
+  "name": "11-13_loch_modan_dwarf_gnome",
+  "next": "13-15_westfall",
+  "steps": [
+    {
+      "id": "lochmodan_001",
+      "type": "quest_accept",
+      "description": "Talk to Brandur Ironhammer and accept Tome of Divinity",
+      "classes": ["Paladin"],
+      "races": ["Dwarf"],
+      "coords": [23.131, 6.143],
+      "zone": "ironforge",
+      "tips": [],
+      "quests": [
+        {
+          "id": 2999,
+          "name": "Tome of Divinity"
+        }
+      ],
+      "npc": "Brandur Ironhammer",
+      "mobs": []
+    },
+    {
+      "id": "lochmodan_002",
+      "type": "quest_turnin",
+      "description": "Talk to Tiza Battleforge upstairs, turn in Tome of Divinity, accept The Tome of Divinity and turn it in",
+      "classes": ["Paladin"],
+      "races": ["Dwarf"],
+      "coords": [27.628, 12.183],
+      "zone": "ironforge",
+      "tips": [],
+      "quests": [
+        {
+          "id": 2999,
+          "name": "Tome of Divinity"
+        },
+        {
+          "id": 1645,
+          "name": "The Tome of Divinity"
+        }
+      ],
+      "npc": "Tiza Battleforge",
+      "mobs": []
+    },
+    {
+      "id": "lochmodan_003",
+      "type": "quest_accept",
+      "description": "Use the The Tome of Divinity to start the quest and accept The Tome of Divinity",
+      "classes": ["Paladin"],
+      "races": ["Dwarf"],
+      "coords": [27.628, 12.183],
+      "zone": "ironforge",
+      "tips": [
+        {
+          "type": "warning",
+          "class": null,
+          "text": "Use the The Tome of Divinity to start the quest"
+        }
+      ],
+      "quests": [
+        {
+          "id": 1646,
+          "name": "The Tome of Divinity"
+        }
+      ],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "lochmodan_004",
+      "type": "quest_turnin",
+      "description": "Talk to Tiza Battleforge, turn in The Tome of Divinity and accept The Tome of Divinity",
+      "classes": ["Paladin"],
+      "races": ["Dwarf"],
+      "coords": [27.628, 12.183],
+      "zone": "ironforge",
+      "tips": [],
+      "quests": [
+        {
+          "id": 1646,
+          "name": "The Tome of Divinity"
+        },
+        {
+          "id": 1647,
+          "name": "The Tome of Divinity"
+        }
+      ],
+      "npc": "Tiza Battleforge",
+      "mobs": []
+    },
+    {
+      "id": "lochmodan_005",
+      "type": "quest_turnin",
+      "description": "Talk to John Turner, turn in The Tome of Divinity, accept The Tome of Divinity and turn it in. Accept The Tome of Divinity",
+      "classes": ["Paladin"],
+      "races": ["Dwarf"],
+      "coords": [26.719, 69.884],
+      "zone": "ironforge",
+      "tips": [
+        {
+          "type": "warning",
+          "class": null,
+          "text": "John Turner patrols the outer ring of Ironforge near the Auction House"
+        }
+      ],
+      "quests": [
+        {
+          "id": 1647,
+          "name": "The Tome of Divinity"
+        },
+        {
+          "id": 1648,
+          "name": "The Tome of Divinity"
+        },
+        {
+          "id": 1778,
+          "name": "The Tome of Divinity"
+        }
+      ],
+      "npc": "John Turner",
+      "mobs": []
+    },
+    {
+      "id": "lochmodan_006",
+      "type": "quest_turnin",
+      "description": "Talk to Tiza Battleforge up stairs, turn in The Tome of Divinity and accept The Tome of Divinity",
+      "classes": ["Paladin"],
+      "races": ["Dwarf"],
+      "coords": [27.628, 12.183],
+      "zone": "ironforge",
+      "tips": [],
+      "quests": [
+        {
+          "id": 1778,
+          "name": "The Tome of Divinity"
+        },
+        {
+          "id": 1779,
+          "name": "The Tome of Divinity"
+        }
+      ],
+      "npc": "Tiza Battleforge",
+      "mobs": []
+    },
+    {
+      "id": "lochmodan_007",
+      "type": "quest_turnin",
+      "description": "Talk to Muiredon Battleforge, turn in The Tome of Divinity and accept The Tome of Divinity",
+      "classes": ["Paladin"],
+      "races": ["Dwarf"],
+      "coords": [23.539, 8.3],
+      "zone": "ironforge",
+      "tips": [],
+      "quests": [
+        {
+          "id": 1779,
+          "name": "The Tome of Divinity"
+        },
+        {
+          "id": 1783,
+          "name": "The Tome of Divinity"
+        }
+      ],
+      "npc": "Muiredon Battleforge",
+      "mobs": []
+    },
+    {
+      "id": "lochmodan_008",
+      "type": "fly",
+      "description": "Talk to Gryth Thurden and fly to Loch Modan",
+      "classes": ["Paladin"],
+      "races": null,
+      "coords": [55.501, 47.742],
+      "zone": "ironforge",
+      "tips": [],
+      "quests": [],
+      "npc": "Gryth Thurden",
+      "mobs": []
+    },
+    {
+      "id": "lochmodan_009",
+      "type": "quest_turnin",
+      "description": "Talk to Vidra Hearthstove and turn in Thelsamar Blood Sausages",
+      "classes": null,
+      "races": null,
+      "coords": [34.828, 49.283],
+      "zone": "loch_modan",
+      "tips": [],
+      "quests": [
+        {
+          "id": 418,
+          "name": "Thelsamar Blood Sausages"
+        }
+      ],
+      "npc": "Vidra Hearthstove",
+      "mobs": []
+    },
+    {
+      "id": "lochmodan_010",
+      "type": "info",
+      "description": "Talk to Yanni Stoutheart. Buy Small Brown Pouches if needed",
+      "classes": null,
+      "races": null,
+      "coords": [34.757, 48.618],
+      "zone": "loch_modan",
+      "tips": [],
+      "quests": [],
+      "npc": "Yanni Stoutheart",
+      "mobs": []
+    },
+    {
+      "id": "lochmodan_011",
+      "type": "info",
+      "description": "Talk to Innkeeper Hearthstove. Buy some Freshly Baked Bread if needed",
+      "classes": ["Warrior", "Rogue"],
+      "races": null,
+      "coords": [35.534, 48.404],
+      "zone": "loch_modan",
+      "tips": [],
+      "quests": [],
+      "npc": "Innkeeper Hearthstove",
+      "mobs": []
+    },
+    {
+      "id": "lochmodan_012",
+      "type": "info",
+      "description": "Talk to Innkeeper Hearthstove. Buy some Freshly Baked Bread and Ice Cold Milk if needed",
+      "classes": ["!Warrior", "!Rogue"],
+      "races": null,
+      "coords": [35.534, 48.404],
+      "zone": "loch_modan",
+      "tips": [],
+      "quests": [],
+      "npc": "Innkeeper Hearthstove",
+      "mobs": []
+    },
+    {
+      "id": "lochmodan_013",
+      "type": "quest_turnin",
+      "description": "Talk to Brock Stoneseeker and turn in Return to Brock",
+      "classes": null,
+      "races": null,
+      "coords": [37.019, 47.806],
+      "zone": "loch_modan",
+      "tips": [],
+      "quests": [
+        {
+          "id": 6392,
+          "name": "Return to Brock"
+        }
+      ],
+      "npc": "Brock Stoneseeker",
+      "mobs": []
+    },
+    {
+      "id": "lochmodan_014",
+      "type": "info",
+      "description": "Talk to Vrok Blunderblast. Buy a Hunter's Boomstick if you can afford it",
+      "classes": ["Hunter"],
+      "races": null,
+      "coords": [35.828, 43.457],
+      "zone": "loch_modan",
+      "tips": [],
+      "quests": [],
+      "npc": "Vrok Blunderblast",
+      "mobs": []
+    },
+    {
+      "id": "lochmodan_015",
+      "type": "loot",
+      "description": "Enter the Silver Stream Mine. Open the Miners' League Crates. Loot them for the Miners' Gear",
+      "classes": null,
+      "races": null,
+      "coords": [35.93, 22.55],
+      "zone": "loch_modan",
+      "tips": [
+        {
+          "type": "warning",
+          "class": null,
+          "text": "The Miners' League Crates can be found all throughout the Mine"
+        },
+        {
+          "type": "warning",
+          "class": null,
+          "text": "You will be able to do this quest at a higher level if you wish to skip it for now"
+        }
+      ],
+      "quests": [
+        {
+          "id": 307,
+          "name": "Filthy Paws"
+        }
+      ],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "lochmodan_016",
+      "type": "info",
+      "description": "Talk to Nillen Andemar. Check to see if Heavy Spiked Mace is available and buy it if you can. If you can't afford it, then grind money from the nearby Tunnel Rats until you have enough. Do this quickly as another player may purchase it before you do",
+      "classes": ["Paladin", "Warrior"],
+      "races": null,
+      "coords": [42.867, 9.885],
+      "zone": "loch_modan",
+      "tips": [
+        {
+          "type": "warning",
+          "class": null,
+          "text": "Nillen Andemar sells Heavy Spiked Mace which is a limited supply item"
+        },
+        {
+          "type": "warning",
+          "class": null,
+          "text": "Check to see if it's available and buy it if you can. If you can't afford it, then grind money from the nearby Tunnel Rats until you have enough"
+        },
+        {
+          "type": "warning",
+          "class": null,
+          "text": "Do this quickly as another player may purchase it before you do"
+        }
+      ],
+      "quests": [],
+      "npc": "Nillen Andemar",
+      "mobs": []
+    },
+    {
+      "id": "lochmodan_017",
+      "type": "kill",
+      "description": "Kill Tunnel Rats. Loot them for their Ears. Tunnel Rats can spawn throughout Loch Modan. Check your World Map for their locations",
+      "classes": null,
+      "races": null,
+      "coords": [35.48, 16.82],
+      "zone": "loch_modan",
+      "tips": [
+        {
+          "type": "warning",
+          "class": null,
+          "text": "Tunnel Rats can spawn throughout Loch Modan. Check your World Map for their locations"
+        }
+      ],
+      "quests": [
+        {
+          "id": 416,
+          "name": "Rat Catching"
+        }
+      ],
+      "npc": null,
+      "mobs": [
+        "Tunnel Rat Scout",
+        "Tunnel Rat Vermin",
+        "Tunnel Rat Forager",
+        "Tunnel Rat Geomancer",
+        "Tunnel Rat Digger",
+        "Tunnel Rat Surveyor"
+      ]
+    },
+    {
+      "id": "lochmodan_018",
+      "type": "info",
+      "description": "Talk to Gothor Brumn. Vendor and repair if needed",
+      "classes": null,
+      "races": null,
+      "coords": [24.134, 18.208],
+      "zone": "loch_modan",
+      "tips": [
+        {
+          "type": "warning",
+          "class": null,
+          "text": "Vendor and repair if needed"
+        }
+      ],
+      "quests": [],
+      "npc": "Gothor Brumn",
+      "mobs": []
+    },
+    {
+      "id": "lochmodan_019",
+      "type": "quest_turnin",
+      "description": "Talk to Mountaineer Stormpike and turn in Filthy Paws",
+      "classes": null,
+      "races": null,
+      "coords": [24.77, 18.4],
+      "zone": "loch_modan",
+      "tips": [],
+      "quests": [
+        {
+          "id": 307,
+          "name": "Filthy Paws"
+        }
+      ],
+      "npc": "Mountaineer Stormpike",
+      "mobs": []
+    },
+    {
+      "id": "lochmodan_020",
+      "type": "quest_turnin",
+      "description": "Talk to Mountaineer Stormpike and turn in Stormpike's Delivery",
+      "classes": null,
+      "races": null,
+      "coords": [24.77, 18.4],
+      "zone": "loch_modan",
+      "tips": [],
+      "quests": [
+        {
+          "id": 353,
+          "name": "Stormpike's Delivery"
+        }
+      ],
+      "npc": "Mountaineer Stormpike",
+      "mobs": []
+    },
+    {
+      "id": "lochmodan_021",
+      "type": "kill",
+      "description": "Kill Elder Black Bears. Loot them for their Bear Meat. Kill Mountain Boars. Loot them for their Boar Intestines. Kill Forest Lurkers. Loot them for their Ichor",
+      "classes": null,
+      "races": null,
+      "coords": [26.9, 10.7],
+      "zone": "loch_modan",
+      "tips": [],
+      "quests": [
+        {
+          "id": 418,
+          "name": "Thelsamar Blood Sausages"
+        }
+      ],
+      "npc": null,
+      "mobs": ["Elder Black Bear", "Mountain Boar", "Forest Lurker"]
+    },
+    {
+      "id": "lochmodan_022",
+      "type": "quest_turnin",
+      "description": "Talk to Mountaineer Kadrell and turn in Rat Catching. Mountaineer Kadrell patrols the road through Thelsamar",
+      "classes": null,
+      "races": null,
+      "coords": [36.77, 46.2],
+      "zone": "loch_modan",
+      "tips": [
+        {
+          "type": "warning",
+          "class": null,
+          "text": "Mountaineer Kadrell patrols the road through Thelsamar"
+        }
+      ],
+      "quests": [
+        {
+          "id": 416,
+          "name": "Rat Catching"
+        }
+      ],
+      "npc": "Mountaineer Kadrell",
+      "mobs": []
+    },
+    {
+      "id": "lochmodan_023",
+      "type": "quest_turnin",
+      "description": "Talk to Vidra Hearthstove and turn in Thelsamar Blood Sausages",
+      "classes": null,
+      "races": null,
+      "coords": [34.828, 49.283],
+      "zone": "loch_modan",
+      "tips": [],
+      "quests": [
+        {
+          "id": 418,
+          "name": "Thelsamar Blood Sausages"
+        }
+      ],
+      "npc": "Vidra Hearthstove",
+      "mobs": []
+    },
+    {
+      "id": "lochmodan_024",
+      "type": "info",
+      "description": "Talk to Yanni Stoutheart. Buy a Flint and Tinder along with 2 Simple Wood. Buy any Small Brown Pouches if needed",
+      "classes": null,
+      "races": null,
+      "coords": [34.757, 48.618],
+      "zone": "loch_modan",
+      "tips": [],
+      "quests": [],
+      "npc": "Yanni Stoutheart",
+      "mobs": []
+    },
+    {
+      "id": "lochmodan_025",
+      "type": "kill",
+      "description": "Kill Stonesplinter Troggs and Stonesplinter Scouts. Loot them for their Teeth",
+      "classes": null,
+      "races": null,
+      "coords": [33.88, 76.58],
+      "zone": "loch_modan",
+      "tips": [],
+      "quests": [
+        {
+          "id": 224,
+          "name": "In Defense of the King's Lands"
+        },
+        {
+          "id": 267,
+          "name": "The Trogg Threat"
+        }
+      ],
+      "npc": null,
+      "mobs": ["Stonesplinter Trogg", "Stonesplinter Scout"]
+    },
+    {
+      "id": "lochmodan_026",
+      "type": "grind",
+      "description": "Grind until 9600+/11400xp",
+      "classes": null,
+      "races": null,
+      "coords": [27.4, 48.4],
+      "zone": "loch_modan",
+      "tips": [],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "lochmodan_027",
+      "type": "quest_turnin",
+      "description": "Run up the dirt path then drop down into the bunker. Talk to Captain Rugelfuss and turn in The Trogg Threat",
+      "classes": null,
+      "races": null,
+      "coords": [23.233, 73.675],
+      "zone": "loch_modan",
+      "tips": [],
+      "quests": [
+        {
+          "id": 267,
+          "name": "The Trogg Threat"
+        }
+      ],
+      "npc": "Captain Rugelfuss",
+      "mobs": []
+    },
+    {
+      "id": "lochmodan_028",
+      "type": "quest_turnin",
+      "description": "Talk to Mountaineer Cobbleflint and turn in In Defense of the King's Lands",
+      "classes": null,
+      "races": null,
+      "coords": [22.071, 73.127],
+      "zone": "loch_modan",
+      "tips": [],
+      "quests": [
+        {
+          "id": 224,
+          "name": "In Defense of the King's Lands"
+        }
+      ],
+      "npc": "Mountaineer Cobbleflint",
+      "mobs": []
+    },
+    {
+      "id": "lochmodan_029",
+      "type": "fly",
+      "description": "Talk to Thorgrum Borrelson and fly to Ironforge",
+      "classes": ["!Paladin"],
+      "races": ["!Dwarf"],
+      "coords": [33.938, 50.954],
+      "zone": "loch_modan",
+      "tips": [],
+      "quests": [],
+      "npc": "Thorgrum Borrelson",
+      "mobs": []
+    },
+    {
+      "id": "lochmodan_030",
+      "type": "travel",
+      "description": "Travel to Dun Morogh",
+      "classes": ["Paladin"],
+      "races": ["Dwarf"],
+      "coords": [86.09, 51.15],
+      "zone": "dun_morogh",
+      "tips": [],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "lochmodan_031",
+      "type": "quest_turnin",
+      "description": "Use the Symbol of Life on Narm Faulk. Talk to Narm Faulk, turn in The Tome of Divinity and accept The Tome of Divinity",
+      "classes": ["Paladin"],
+      "races": ["Dwarf"],
+      "coords": [78.321, 58.088],
+      "zone": "dun_morogh",
+      "tips": [
+        {
+          "type": "warning",
+          "class": null,
+          "text": "Use the Symbol of Life on Narm Faulk"
+        }
+      ],
+      "quests": [
+        {
+          "id": 1783,
+          "name": "The Tome of Divinity"
+        },
+        {
+          "id": 1784,
+          "name": "The Tome of Divinity"
+        }
+      ],
+      "npc": "Narm Faulk",
+      "mobs": []
+    },
+    {
+      "id": "lochmodan_032",
+      "type": "kill",
+      "description": "Kill Dark Iron Spies. Loot them for the Dark Iron Script",
+      "classes": ["Paladin"],
+      "races": ["Dwarf"],
+      "coords": [77.83, 61.78],
+      "zone": "dun_morogh",
+      "tips": [],
+      "quests": [
+        {
+          "id": 1784,
+          "name": "The Tome of Divinity"
+        }
+      ],
+      "npc": null,
+      "mobs": ["Dark Iron Spy"]
+    },
+    {
+      "id": "lochmodan_033",
+      "type": "info",
+      "description": "Hearth to Stormwind",
+      "classes": ["Paladin"],
+      "races": ["Dwarf"],
+      "coords": null,
+      "zone": "",
+      "tips": [],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "lochmodan_034",
+      "type": "info",
+      "description": "Talk to Arthur the Faithful and train your class spells",
+      "classes": ["Paladin"],
+      "races": null,
+      "coords": [38.67, 32.82],
+      "zone": "stormwind_city",
+      "tips": [],
+      "quests": [],
+      "npc": "Arthur the Faithful",
+      "mobs": []
+    },
+    {
+      "id": "lochmodan_035",
+      "type": "info",
+      "description": "Talk to Regnus Thundergranite and train your class spells",
+      "classes": ["Hunter"],
+      "races": null,
+      "coords": [69.872, 82.89],
+      "zone": "ironforge",
+      "tips": [],
+      "quests": [],
+      "npc": "Regnus Thundergranite",
+      "mobs": []
+    },
+    {
+      "id": "lochmodan_036",
+      "type": "info",
+      "description": "Talk to Bilban Tosslespanner and train your class spells",
+      "classes": ["Warrior"],
+      "races": null,
+      "coords": [65.905, 88.405],
+      "zone": "ironforge",
+      "tips": [],
+      "quests": [],
+      "npc": "Bilban Tosslespanner",
+      "mobs": []
+    },
+    {
+      "id": "lochmodan_037",
+      "type": "info",
+      "description": "Talk to Dink and train your class spells",
+      "classes": ["Mage"],
+      "races": null,
+      "coords": [27.18, 8.6],
+      "zone": "ironforge",
+      "tips": [],
+      "quests": [],
+      "npc": "Dink",
+      "mobs": []
+    },
+    {
+      "id": "lochmodan_038",
+      "type": "info",
+      "description": "Talk to an Ironforge Auctioneer. Buy a Greater Magic Wand if it costs less than 33s 40c",
+      "classes": ["Mage", "Priest", "Warlock"],
+      "races": null,
+      "coords": null,
+      "zone": "",
+      "tips": [],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "lochmodan_039",
+      "type": "info",
+      "description": "Talk to Harick Boulderdrum downstairs. If you aren't able to acquire a Greater Magic Wand buy a Smoldering Wand and equip it when you are 15",
+      "classes": ["Mage", "Priest", "Warlock"],
+      "races": null,
+      "coords": [23.135, 15.936],
+      "zone": "ironforge",
+      "tips": [
+        {
+          "type": "warning",
+          "class": null,
+          "text": "If you aren't able to acquire a Greater Magic Wand buy a Smoldering Wand and equip it when you are 15"
+        }
+      ],
+      "quests": [],
+      "npc": "Harick Boulderdrum",
+      "mobs": []
+    },
+    {
+      "id": "lochmodan_040",
+      "type": "info",
+      "description": "Enter the building. Talk to Briarthorn and train your class spells",
+      "classes": ["Warlock"],
+      "races": null,
+      "coords": [50.343, 5.657],
+      "zone": "ironforge",
+      "tips": [],
+      "quests": [],
+      "npc": "Briarthorn",
+      "mobs": []
+    },
+    {
+      "id": "lochmodan_041",
+      "type": "info",
+      "description": "Talk to Jubahl Corpseseeker. Buy Grimoire of Consume Shadows (Rank 1) and Grimoire of Sacrifice (Rank 1) if you can afford it",
+      "classes": ["Warlock"],
+      "races": null,
+      "coords": [52.701, 6.07],
+      "zone": "ironforge",
+      "tips": [],
+      "quests": [],
+      "npc": "Jubahl Corpseseeker",
+      "mobs": []
+    },
+    {
+      "id": "lochmodan_042",
+      "type": "quest_turnin",
+      "description": "Talk to Hulfdan Blackbeard downstairs and turn in Road to Salvation",
+      "classes": ["Rogue"],
+      "races": null,
+      "coords": [51.958, 14.838],
+      "zone": "ironforge",
+      "tips": [],
+      "quests": [
+        {
+          "id": 2218,
+          "name": "Road to Salvation"
+        }
+      ],
+      "npc": "Hulfdan Blackbeard",
+      "mobs": []
+    },
+    {
+      "id": "lochmodan_043",
+      "type": "info",
+      "description": "Talk to Fenthwick and train your class spells",
+      "classes": ["Rogue"],
+      "races": null,
+      "coords": [51.495, 15.33],
+      "zone": "ironforge",
+      "tips": [],
+      "quests": [],
+      "npc": "Fenthwick",
+      "mobs": []
+    },
+    {
+      "id": "lochmodan_044",
+      "type": "info",
+      "description": "Talk to Toldren Deepiron and train your class spells",
+      "classes": ["Priest"],
+      "races": null,
+      "coords": [25.207, 10.756],
+      "zone": "ironforge",
+      "tips": [],
+      "quests": [],
+      "npc": "Toldren Deepiron",
+      "mobs": []
+    },
+    {
+      "id": "lochmodan_045",
+      "type": "travel",
+      "description": "Enter the Deeprun Tram. Take the Tram to Stormwind City. Level your First Aid and Cooking if needed while waiting for the tram. You will need your First Aid to be 80 for a quest at level 24",
+      "classes": ["!Paladin"],
+      "races": null,
+      "coords": null,
+      "zone": "",
+      "tips": [
+        {
+          "type": "warning",
+          "class": null,
+          "text": "Level your First Aid and Cooking if needed while waiting for the tram"
+        },
+        {
+          "type": "warning",
+          "class": "Rogue",
+          "text": "You will need your First Aid to be 80 for a quest at level 24"
+        }
+      ],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "lochmodan_046",
+      "type": "info",
+      "description": "Talk to Billibub Cogspinner. Buy a Bronze Tube from him (if its up). This is a limited supply item. Skip this step if Billibub Cogspinner doesn't have one",
+      "classes": null,
+      "races": null,
+      "coords": [55.21, 7.04],
+      "zone": "stormwind_city",
+      "tips": [
+        {
+          "type": "warning",
+          "class": null,
+          "text": "This is a limited supply item. Skip this step if Billibub Cogspinner doesn't have one"
+        }
+      ],
+      "quests": [],
+      "npc": "Billibub Cogspinner",
+      "mobs": []
+    },
+    {
+      "id": "lochmodan_047",
+      "type": "info",
+      "description": "Talk to Marda Weller. Buy 1 or 2 Scimitars if you can afford it or something better from the Auction House",
+      "classes": ["Rogue"],
+      "races": null,
+      "coords": [57.38, 56.77],
+      "zone": "stormwind_city",
+      "tips": [],
+      "quests": [],
+      "npc": "Marda Weller",
+      "mobs": []
+    },
+    {
+      "id": "lochmodan_048",
+      "type": "info",
+      "description": "Talk to Auctioneer Jaxon. Buy the following items for faster turn ins at Westfall shortly: Stringy Vulture Meat, Murloc Eye, Goretusk Snout, Okra, Goretusk Liver, Flask of Oil. This will save you time as you won't need to run around looking for mobs to kill. Skip this step if you wish to not buy any",
+      "classes": null,
+      "races": null,
+      "coords": [53.612, 59.764],
+      "zone": "stormwind_city",
+      "tips": [
+        {
+          "type": "warning",
+          "class": null,
+          "text": "This will save you time as you won't need to run around looking for mobs to kill. Skip this step if you wish to not buy any"
+        }
+      ],
+      "quests": [],
+      "npc": "Auctioneer Jaxon",
+      "mobs": []
+    },
+    {
+      "id": "lochmodan_049",
+      "type": "fly",
+      "description": "Talk to Dungar Longdrink and fly to Westfall",
+      "classes": null,
+      "races": null,
+      "coords": [66.277, 62.137],
+      "zone": "stormwind_city",
+      "tips": [],
+      "quests": [],
+      "npc": "Dungar Longdrink",
+      "mobs": []
+    }
+  ]
+}

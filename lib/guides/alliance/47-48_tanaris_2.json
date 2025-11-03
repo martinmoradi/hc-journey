@@ -1,0 +1,1023 @@
+{
+  "zone": "Tanaris",
+  "levelRange": "47-48",
+  "faction": "Alliance",
+  "name": "47-48_tanaris",
+  "next": "48-49_stv_hinterlands",
+  "steps": [
+    {
+      "id": "tanaris_001",
+      "type": "info",
+      "description": "Talk to Gimblethorn and withdraw A Short Note from your bank",
+      "classes": null,
+      "races": null,
+      "coords": [52.297, 28.915],
+      "zone": "tanaris",
+      "tips": [],
+      "quests": [],
+      "npc": "Gimblethorn",
+      "mobs": []
+    },
+    {
+      "id": "tanaris_002",
+      "type": "info",
+      "description": "Talk to Gimblethorn and deposit A Sycamore Branch (If you have it) and Unhatched Sprite Darter Egg into your bank",
+      "classes": null,
+      "races": null,
+      "coords": [52.297, 28.915],
+      "zone": "tanaris",
+      "tips": [],
+      "quests": [],
+      "npc": "Gimblethorn",
+      "mobs": []
+    },
+    {
+      "id": "tanaris_003",
+      "type": "quest_accept",
+      "description": "Talk to Chief Engineer Bilgewhizzle and accept More Wastewander Justice",
+      "classes": null,
+      "races": null,
+      "coords": [52.462, 28.514],
+      "zone": "tanaris",
+      "tips": [],
+      "quests": [
+        {
+          "id": 1691,
+          "name": "More Wastewander Justice"
+        }
+      ],
+      "npc": "Chief Engineer Bilgewhizzle",
+      "mobs": []
+    },
+    {
+      "id": "tanaris_004",
+      "type": "info",
+      "description": "Talk to Innkeeper Fizzgrimble and set your Hearthstone to Gadgetzan",
+      "classes": null,
+      "races": null,
+      "coords": [52.51, 27.91],
+      "zone": "tanaris",
+      "tips": [],
+      "quests": [],
+      "npc": "Innkeeper Fizzgrimble",
+      "mobs": []
+    },
+    {
+      "id": "tanaris_005",
+      "type": "quest_turnin",
+      "description": "Click the Egg-O-Matic on the ground and turn in The Super Egg-O-Matic",
+      "classes": null,
+      "races": null,
+      "coords": [52.387, 26.968],
+      "zone": "tanaris",
+      "tips": [],
+      "quests": [
+        {
+          "id": 2741,
+          "name": "The Super Egg-O-Matic"
+        }
+      ],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "tanaris_006",
+      "type": "info",
+      "description": "Open your Egg Crate",
+      "classes": null,
+      "races": null,
+      "coords": null,
+      "zone": "",
+      "tips": [],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "tanaris_007",
+      "type": "quest_turnin",
+      "description": "Talk to Curgle Cranklehop and turn in The Borrower",
+      "classes": null,
+      "races": null,
+      "coords": [52.358, 26.904],
+      "zone": "tanaris",
+      "tips": [],
+      "quests": [
+        {
+          "id": 2941,
+          "name": "The Borrower"
+        }
+      ],
+      "npc": "Curgle Cranklehop",
+      "mobs": []
+    },
+    {
+      "id": "tanaris_008",
+      "type": "quest_turnin",
+      "description": "Talk to Curgle Cranklehop, accept A Bad Egg, and turn in A Bad Egg",
+      "classes": null,
+      "races": null,
+      "coords": [52.358, 26.904],
+      "zone": "tanaris",
+      "tips": [],
+      "quests": [
+        {
+          "id": 2750,
+          "name": "A Bad Egg"
+        }
+      ],
+      "npc": "Curgle Cranklehop",
+      "mobs": []
+    },
+    {
+      "id": "tanaris_009",
+      "type": "quest_turnin",
+      "description": "Talk to Curgle Cranklehop, accept An Ordinary Egg, and turn in An Ordinary Egg",
+      "classes": null,
+      "races": null,
+      "coords": [52.358, 26.904],
+      "zone": "tanaris",
+      "tips": [],
+      "quests": [
+        {
+          "id": 2749,
+          "name": "An Ordinary Egg"
+        }
+      ],
+      "npc": "Curgle Cranklehop",
+      "mobs": []
+    },
+    {
+      "id": "tanaris_010",
+      "type": "quest_turnin",
+      "description": "Talk to Curgle Cranklehop, accept A Fine Egg, and turn in A Fine Egg",
+      "classes": null,
+      "races": null,
+      "coords": [52.358, 26.904],
+      "zone": "tanaris",
+      "tips": [],
+      "quests": [
+        {
+          "id": 2748,
+          "name": "A Fine Egg"
+        }
+      ],
+      "npc": "Curgle Cranklehop",
+      "mobs": []
+    },
+    {
+      "id": "tanaris_011",
+      "type": "quest_turnin",
+      "description": "Talk to Curgle Cranklehop, accept An Extraordinary Egg, and turn in An Extraordinary Egg",
+      "classes": null,
+      "races": null,
+      "coords": [52.358, 26.904],
+      "zone": "tanaris",
+      "tips": [],
+      "quests": [
+        {
+          "id": 2747,
+          "name": "An Extraordinary Egg"
+        }
+      ],
+      "npc": "Curgle Cranklehop",
+      "mobs": []
+    },
+    {
+      "id": "tanaris_012",
+      "type": "info",
+      "description": "Open your Box of Ration, Box of Spells, and Box of Goodies",
+      "classes": null,
+      "races": null,
+      "coords": null,
+      "zone": "",
+      "tips": [],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "tanaris_015",
+      "type": "quest_accept",
+      "description": "Click the Wanted Poster and accept WANTED: Caliph Scorpidsting and WANTED: Andre Firebeard",
+      "classes": null,
+      "races": null,
+      "coords": [51.835, 27.038],
+      "zone": "tanaris",
+      "tips": [],
+      "quests": [
+        {
+          "id": 2781,
+          "name": "WANTED: Caliph Scorpidsting"
+        },
+        {
+          "id": 2875,
+          "name": "WANTED: Andre Firebeard"
+        }
+      ],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "tanaris_016",
+      "type": "quest_accept",
+      "description": "Talk to Senior Surveyor Fizzledowser and accept Gadgetzan Water Survey",
+      "classes": null,
+      "races": null,
+      "coords": [50.21, 27.483],
+      "zone": "tanaris",
+      "tips": [],
+      "quests": [
+        {
+          "id": 992,
+          "name": "Gadgetzan Water Survey"
+        }
+      ],
+      "npc": "Senior Surveyor Fizzledowser",
+      "mobs": []
+    },
+    {
+      "id": "tanaris_017",
+      "type": "info",
+      "description": "Use the Untapped Dowsing Widget at the Sandsorrow Watch pond.",
+      "classes": null,
+      "races": null,
+      "coords": [39.016, 29.244],
+      "zone": "tanaris",
+      "tips": [
+        {
+          "type": "warning",
+          "class": null,
+          "text": "Avoid the Elite Sandfury Trolls en-route"
+        },
+        {
+          "type": "warning",
+          "class": null,
+          "text": "Two level 47/48 Centipaar Tunnelers will spawn once you fill the Untapped Dowsing Widget. You may kill them or run away to reset them"
+        }
+      ],
+      "quests": [
+        {
+          "id": 992,
+          "name": "Gadgetzan Water Survey"
+        }
+      ],
+      "npc": null,
+      "mobs": ["Centipaar Tunneler"]
+    },
+    {
+      "id": "tanaris_018",
+      "type": "quest_turnin",
+      "description": "Talk to Senior Surveyor Fizzledowser and turn in Gadgetzan Water Survey",
+      "classes": null,
+      "races": null,
+      "coords": [50.21, 27.483],
+      "zone": "tanaris",
+      "tips": [],
+      "quests": [
+        {
+          "id": 992,
+          "name": "Gadgetzan Water Survey"
+        }
+      ],
+      "npc": "Senior Surveyor Fizzledowser",
+      "mobs": []
+    },
+    {
+      "id": "tanaris_019",
+      "type": "quest_turnin",
+      "description": "Talk to Marvon Rivetseeker, turn in The Sunken Temple, and accept The Stone Circle and Gahz'ridian",
+      "classes": null,
+      "races": null,
+      "coords": [52.707, 45.923],
+      "zone": "tanaris",
+      "tips": [],
+      "quests": [
+        {
+          "id": 3445,
+          "name": "The Sunken Temple"
+        },
+        {
+          "id": 3444,
+          "name": "The Stone Circle"
+        },
+        {
+          "id": 3161,
+          "name": "Gahz'ridian"
+        }
+      ],
+      "npc": "Marvon Rivetseeker",
+      "mobs": []
+    },
+    {
+      "id": "tanaris_020",
+      "type": "kill",
+      "description": "Kill Wastewander Rogues, Wastewander Assassins and Wastewander Shadow Mages. Wastewander Rogues are in Stealth",
+      "classes": null,
+      "races": null,
+      "coords": [60.85, 37.82],
+      "zone": "tanaris",
+      "tips": [
+        {
+          "type": "warning",
+          "class": null,
+          "text": "Wastewander Rogues are in Stealth"
+        }
+      ],
+      "quests": [
+        {
+          "id": 1691,
+          "name": "More Wastewander Justice"
+        }
+      ],
+      "npc": null,
+      "mobs": [
+        "Wastewander Rogue",
+        "Wastewander Assassin",
+        "Wastewander Shadow Mage"
+      ]
+    },
+    {
+      "id": "tanaris_021",
+      "type": "kill",
+      "description": "Kill Caliph Scorpidsting. Loot him for his Head. Caliph Scorpidsting patrols through Waterspring Field and is accompanied by 2 Wastewander Rogues",
+      "classes": null,
+      "races": null,
+      "coords": [60.85, 37.82],
+      "zone": "tanaris",
+      "tips": [
+        {
+          "type": "warning",
+          "class": null,
+          "text": "Caliph Scorpidsting patrols through Waterspring Field and is accompanied by 2 Wastewander Rogues"
+        }
+      ],
+      "quests": [
+        {
+          "id": 2781,
+          "name": "WANTED: Caliph Scorpidsting"
+        }
+      ],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "tanaris_022",
+      "type": "kill",
+      "description": "Kill Wastewander Rogues, Wastewander Assassins and Wastewander Shadow Mages",
+      "classes": null,
+      "races": null,
+      "coords": [65.41, 36.62],
+      "zone": "tanaris",
+      "tips": [],
+      "quests": [
+        {
+          "id": 1691,
+          "name": "More Wastewander Justice"
+        }
+      ],
+      "npc": null,
+      "mobs": [
+        "Wastewander Rogue",
+        "Wastewander Assassin",
+        "Wastewander Shadow Mage"
+      ]
+    },
+    {
+      "id": "tanaris_023",
+      "type": "travel",
+      "description": "Travel to Steamwheedle Port",
+      "classes": null,
+      "races": null,
+      "coords": [67.058, 23.891],
+      "zone": "tanaris",
+      "tips": [],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "tanaris_024",
+      "type": "quest_turnin",
+      "description": "Talk to Yeh'kinya and turn in Screecher Spirits",
+      "classes": null,
+      "races": null,
+      "coords": [66.989, 22.354],
+      "zone": "tanaris",
+      "tips": [],
+      "quests": [
+        {
+          "id": 3520,
+          "name": "Screecher Spirits"
+        }
+      ],
+      "npc": "Yeh'kinya",
+      "mobs": []
+    },
+    {
+      "id": "tanaris_025",
+      "type": "quest_accept",
+      "description": "Talk to Haughty Modiste and accept Pirate Hats Ahoy!",
+      "classes": null,
+      "races": null,
+      "coords": [66.56, 22.265],
+      "zone": "tanaris",
+      "tips": [],
+      "quests": [
+        {
+          "id": 8365,
+          "name": "Pirate Hats Ahoy!"
+        }
+      ],
+      "npc": "Haughty Modiste",
+      "mobs": []
+    },
+    {
+      "id": "tanaris_026",
+      "type": "quest_accept",
+      "description": "Talk to Security Chief Bilgewhizzle and Stoley, accept Southsea Shakedown and Stoley's Shipment",
+      "classes": null,
+      "races": null,
+      "coords": [67.109, 23.978],
+      "zone": "tanaris",
+      "tips": [],
+      "quests": [
+        {
+          "id": 8366,
+          "name": "Southsea Shakedown"
+        },
+        {
+          "id": 2873,
+          "name": "Stoley's Shipment"
+        }
+      ],
+      "npc": "Stoley",
+      "mobs": []
+    },
+    {
+      "id": "tanaris_027",
+      "type": "travel",
+      "description": "Travel to Lost Rigger Cove",
+      "classes": null,
+      "races": null,
+      "coords": [68.98, 41.63],
+      "zone": "tanaris",
+      "tips": [],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "tanaris_028",
+      "type": "loot",
+      "description": "Travel upstairs in the house. Open the Stolen Cargo. Loot it for Stoley's Shipment",
+      "classes": null,
+      "races": null,
+      "coords": [72.15, 46.76],
+      "zone": "tanaris",
+      "tips": [],
+      "quests": [
+        {
+          "id": 2873,
+          "name": "Stoley's Shipment"
+        }
+      ],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "tanaris_030",
+      "type": "kill",
+      "description": "Kill Andre Firebeard. Loot him for his Head",
+      "classes": null,
+      "races": null,
+      "coords": [73.37, 47.14],
+      "zone": "tanaris",
+      "tips": [],
+      "quests": [
+        {
+          "id": 2875,
+          "name": "WANTED: Andre Firebeard"
+        }
+      ],
+      "npc": null,
+      "mobs": ["Andre Firebeard"]
+    },
+    {
+      "id": "tanaris_031",
+      "type": "kill",
+      "description": "Kill Southsea Pirates, Southsea Freebooters, Southsea Dock Workers and Southsea Swashbucklers. Loot them for their Pirate Hats and Pirate's Footlocker.",
+      "classes": null,
+      "races": null,
+      "coords": [72.15, 46.76],
+      "zone": "tanaris",
+      "tips": [
+        {
+          "type": "warning",
+          "class": null,
+          "text": "Open the Pirate's Footlocker until you find the Ship Schedule"
+        },
+        {
+          "type": "warning",
+          "class": null,
+          "text": "Use the Ship Schedule to start the quest"
+        }
+      ],
+      "quests": [
+        {
+          "id": 8366,
+          "name": "Southsea Shakedown"
+        },
+        {
+          "id": 8365,
+          "name": "Pirate Hats Ahoy!"
+        },
+        {
+          "id": 2876,
+          "name": "Ship Schedules"
+        }
+      ],
+      "npc": null,
+      "mobs": [
+        "Southsea Pirate",
+        "Southsea Freebooter",
+        "Southsea Dock Worker",
+        "Southsea Swashbuckler"
+      ]
+    },
+    {
+      "id": "tanaris_032",
+      "type": "grind",
+      "description": "Grind to level 48. Kill any type of Southsea Pirate. Loot them for the OOX-17/TN Distress Beacon.",
+      "classes": null,
+      "races": null,
+      "coords": [72.15, 46.76],
+      "zone": "tanaris",
+      "tips": [
+        {
+          "type": "warning",
+          "class": null,
+          "text": "Do not Accept the quest for this yet"
+        },
+        {
+          "type": "warning",
+          "class": null,
+          "text": "If you don't find it by the time you are 48, skip it"
+        }
+      ],
+      "quests": [],
+      "npc": null,
+      "mobs": [
+        "Southsea Pirate",
+        "Southsea Freebooter",
+        "Southsea Dock Worker",
+        "Southsea Swashbuckler"
+      ]
+    },
+    {
+      "id": "tanaris_033",
+      "type": "travel",
+      "description": "Travel to Steamwheedle Port",
+      "classes": null,
+      "races": null,
+      "coords": [67.058, 23.891],
+      "zone": "tanaris",
+      "tips": [],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "tanaris_034",
+      "type": "quest_turnin",
+      "description": "Talk to Security Chief Bilgewhizzle and Stoley, turn in Southsea Shakedown, WANTED: Andre Firebeard, Ship Schedules, and Stoley's Shipment. Accept Deliver to MacKinley",
+      "classes": null,
+      "races": null,
+      "coords": [67.109, 23.978],
+      "zone": "tanaris",
+      "tips": [],
+      "quests": [
+        {
+          "id": 8366,
+          "name": "Southsea Shakedown"
+        },
+        {
+          "id": 2875,
+          "name": "WANTED: Andre Firebeard"
+        },
+        {
+          "id": 2876,
+          "name": "Ship Schedules"
+        },
+        {
+          "id": 2873,
+          "name": "Stoley's Shipment"
+        },
+        {
+          "id": 2874,
+          "name": "Deliver to MacKinley"
+        }
+      ],
+      "npc": "Stoley",
+      "mobs": []
+    },
+    {
+      "id": "tanaris_035",
+      "type": "quest_turnin",
+      "description": "Talk to Security Chief Bilgewhizzle and Stoley, turn in Southsea Shakedown, WANTED: Andre Firebeard, and Stoley's Shipment. Accept Deliver to MacKinley",
+      "classes": null,
+      "races": null,
+      "coords": [67.109, 23.978],
+      "zone": "tanaris",
+      "tips": [],
+      "quests": [
+        {
+          "id": 8366,
+          "name": "Southsea Shakedown"
+        },
+        {
+          "id": 2875,
+          "name": "WANTED: Andre Firebeard"
+        },
+        {
+          "id": 2873,
+          "name": "Stoley's Shipment"
+        },
+        {
+          "id": 2874,
+          "name": "Deliver to MacKinley"
+        }
+      ],
+      "npc": "Stoley",
+      "mobs": []
+    },
+    {
+      "id": "tanaris_036",
+      "type": "quest_turnin",
+      "description": "Talk to Haughty Modiste and turn in Pirate Hats Ahoy!",
+      "classes": null,
+      "races": null,
+      "coords": [66.56, 22.265],
+      "zone": "tanaris",
+      "tips": [],
+      "quests": [
+        {
+          "id": 8365,
+          "name": "Pirate Hats Ahoy!"
+        }
+      ],
+      "npc": "Haughty Modiste",
+      "mobs": []
+    },
+    {
+      "id": "tanaris_037",
+      "type": "travel",
+      "description": "Travel to Gadgetzan",
+      "classes": null,
+      "races": null,
+      "coords": null,
+      "zone": "",
+      "tips": [],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "tanaris_038",
+      "type": "quest_turnin",
+      "description": "Talk to Chief Engineer Bilgewhizzle and turn in More Wastewander Justice and WANTED: Caliph Scorpidsting",
+      "classes": null,
+      "races": null,
+      "coords": [52.462, 28.514],
+      "zone": "tanaris",
+      "tips": [],
+      "quests": [
+        {
+          "id": 1691,
+          "name": "More Wastewander Justice"
+        },
+        {
+          "id": 2781,
+          "name": "WANTED: Caliph Scorpidsting"
+        }
+      ],
+      "npc": "Chief Engineer Bilgewhizzle",
+      "mobs": []
+    },
+    {
+      "id": "tanaris_039",
+      "type": "quest_accept",
+      "description": "Talk to Andi Lynn and accept The Dunemaul Compound",
+      "classes": null,
+      "races": null,
+      "coords": [52.819, 27.401],
+      "zone": "tanaris",
+      "tips": [],
+      "quests": [
+        {
+          "id": 5863,
+          "name": "The Dunemaul Compound"
+        }
+      ],
+      "npc": "Andi Lynn",
+      "mobs": []
+    },
+    {
+      "id": "tanaris_040",
+      "type": "quest_accept",
+      "description": "Talk to Senior Surveyor Fizzledowser and accept Noxious Lair Investigation",
+      "classes": null,
+      "races": null,
+      "coords": [50.21, 27.483],
+      "zone": "tanaris",
+      "tips": [],
+      "quests": [
+        {
+          "id": 82,
+          "name": "Noxious Lair Investigation"
+        }
+      ],
+      "npc": "Senior Surveyor Fizzledowser",
+      "mobs": []
+    },
+    {
+      "id": "tanaris_041",
+      "type": "travel",
+      "description": "Travel to The Noxious Lair",
+      "classes": null,
+      "races": null,
+      "coords": [34.75, 46.05],
+      "zone": "tanaris",
+      "tips": [],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "tanaris_042",
+      "type": "kill",
+      "description": "AoE Centipaar Sandreavers, Centipaar Swarmers, Centipaar Stingers, Centipaar Tunnelers, and Centipaar Wasps. Loot them for Centipaar Insect Parts.",
+      "classes": null,
+      "races": null,
+      "coords": [35.68, 39.78],
+      "zone": "tanaris",
+      "tips": [
+        {
+          "type": "warning",
+          "class": null,
+          "text": "Be careful as all Centipaar cast Thrash (Charges 2 extra attacks every 10 seconds), Centipaar Sandreavers cast Arcing Smash (Deals an extra melee attack), Centipaar Swarmers cast Silithid Swarm (Summons a 1 health mob every 10 seconds that deals current-level attack damage, instantly dies to AoE), Centipaar Stingers cast Venom Sting (deals 11-12 damage every 5 seconds for 45 seconds), Centipaar Tunnelers cast Pierce Armor (Reduces armor by 50% for 20 seconds), and Centipaar Wasps cast Poison (deals 33-34 damage every 3 seconds for 30 seconds)"
+        }
+      ],
+      "quests": [
+        {
+          "id": 82,
+          "name": "Noxious Lair Investigation"
+        }
+      ],
+      "npc": null,
+      "mobs": [
+        "Centipaar Sandreaver",
+        "Centipaar Swarmer",
+        "Centipaar Stinger",
+        "Centipaar Tunneler",
+        "Centipaar Wasp",
+        "Silithid Swarm"
+      ]
+    },
+    {
+      "id": "tanaris_043",
+      "type": "travel",
+      "description": "Travel to the Dunemaul Compound",
+      "classes": null,
+      "races": null,
+      "coords": [41.5, 57.81],
+      "zone": "tanaris",
+      "tips": [],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "tanaris_044",
+      "type": "kill",
+      "description": "Kill Gor'marok the Ravager.",
+      "classes": null,
+      "races": null,
+      "coords": [41.5, 57.81],
+      "zone": "tanaris",
+      "tips": [
+        {
+          "type": "warning",
+          "class": null,
+          "text": "Be cautious as Gor'marok the Ravager can Enrage and deal significant damage very quickly"
+        }
+      ],
+      "quests": [
+        {
+          "id": 5863,
+          "name": "The Dunemaul Compound"
+        }
+      ],
+      "npc": null,
+      "mobs": ["Gor'marok the Ravager"]
+    },
+    {
+      "id": "tanaris_045",
+      "type": "kill",
+      "description": "Kill Dunemaul Brutes and Dunemaul Enforcers",
+      "classes": null,
+      "races": null,
+      "coords": [42.63, 55.1],
+      "zone": "tanaris",
+      "tips": [],
+      "quests": [
+        {
+          "id": 5863,
+          "name": "The Dunemaul Compound"
+        }
+      ],
+      "npc": null,
+      "mobs": ["Dunemaul Brute", "Dunemaul Enforcer"]
+    },
+    {
+      "id": "tanaris_046",
+      "type": "travel",
+      "description": "Travel to the Southmoon Ruins",
+      "classes": null,
+      "races": null,
+      "coords": [40.52, 72.95],
+      "zone": "tanaris",
+      "tips": [],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "tanaris_047",
+      "type": "info",
+      "description": "Equip the Gahz'ridian Detector",
+      "classes": null,
+      "races": null,
+      "coords": null,
+      "zone": "",
+      "tips": [],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "tanaris_048",
+      "type": "loot",
+      "description": "Loot the Gahz'ridian on the ground around the Ruins.",
+      "classes": null,
+      "races": null,
+      "coords": [47.81, 64.83],
+      "zone": "tanaris",
+      "tips": [
+        {
+          "type": "warning",
+          "class": null,
+          "text": "The Gahz'ridian will show up on your minimap with the Gahz'ridian Detector equiped"
+        }
+      ],
+      "quests": [
+        {
+          "id": 3161,
+          "name": "Gahz'ridian"
+        }
+      ],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "tanaris_049",
+      "type": "info",
+      "description": "Equip your normal Helmet",
+      "classes": null,
+      "races": null,
+      "coords": null,
+      "zone": "",
+      "tips": [],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "tanaris_050",
+      "type": "quest_turnin",
+      "description": "Talk to Marvon Rivetseeker and turn in Gahz'ridian",
+      "classes": null,
+      "races": null,
+      "coords": [52.707, 45.923],
+      "zone": "tanaris",
+      "tips": [],
+      "quests": [
+        {
+          "id": 3161,
+          "name": "Gahz'ridian"
+        }
+      ],
+      "npc": "Marvon Rivetseeker",
+      "mobs": []
+    },
+    {
+      "id": "tanaris_051",
+      "type": "quest_turnin",
+      "description": "Talk to Alchemist Pestlezugg and turn in Noxious Lair Investigation",
+      "classes": null,
+      "races": null,
+      "coords": [50.886, 26.963],
+      "zone": "tanaris",
+      "tips": [],
+      "quests": [
+        {
+          "id": 82,
+          "name": "Noxious Lair Investigation"
+        }
+      ],
+      "npc": "Alchemist Pestlezugg",
+      "mobs": []
+    },
+    {
+      "id": "tanaris_052",
+      "type": "quest_accept",
+      "description": "Talk to Curgle Cranklehop and accept The Super Snapper FX",
+      "classes": null,
+      "races": null,
+      "coords": [52.358, 26.904],
+      "zone": "tanaris",
+      "tips": [],
+      "quests": [
+        {
+          "id": 2944,
+          "name": "The Super Snapper FX"
+        }
+      ],
+      "npc": "Curgle Cranklehop",
+      "mobs": []
+    },
+    {
+      "id": "tanaris_053",
+      "type": "quest_turnin",
+      "description": "Talk to Andi Lynn and turn in The Dunemaul Compound",
+      "classes": null,
+      "races": null,
+      "coords": [52.819, 27.401],
+      "zone": "tanaris",
+      "tips": [],
+      "quests": [
+        {
+          "id": 5863,
+          "name": "The Dunemaul Compound"
+        }
+      ],
+      "npc": "Andi Lynn",
+      "mobs": []
+    },
+    {
+      "id": "tanaris_054",
+      "type": "info",
+      "description": "Talk to Gimblethorn and deposit Super Snapper FX and OOX-17/TN Distress Beacon (If you have it) into your bank",
+      "classes": null,
+      "races": null,
+      "coords": [52.297, 28.915],
+      "zone": "tanaris",
+      "tips": [],
+      "quests": [],
+      "npc": "Gimblethorn",
+      "mobs": []
+    },
+    {
+      "id": "tanaris_055",
+      "type": "fly",
+      "description": "Talk to Bera Stonehammer and fly to Ratchet",
+      "classes": null,
+      "races": null,
+      "coords": [51.006, 29.345],
+      "zone": "tanaris",
+      "tips": [],
+      "quests": [],
+      "npc": "Bera Stonehammer",
+      "mobs": []
+    },
+    {
+      "id": "tanaris_056",
+      "type": "travel",
+      "description": "Take the boat to Booty Bay. Level your First Aid while waiting",
+      "classes": null,
+      "races": null,
+      "coords": [63.677, 38.618],
+      "zone": "the_barrens",
+      "tips": [
+        {
+          "type": "warning",
+          "class": null,
+          "text": "Level your First Aid while waiting"
+        }
+      ],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    }
+  ]
+}

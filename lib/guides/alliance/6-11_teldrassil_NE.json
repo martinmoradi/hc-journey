@@ -1,0 +1,2862 @@
+{
+  "zone": "Teldrassil",
+  "levelRange": "6-11",
+  "faction": "Alliance",
+  "name": "6-11_teldrassil_NE",
+  "next": "11-13_darkshore_NE",
+  "steps": [
+    {
+      "id": "teldrassil_001",
+      "type": "quest_accept",
+      "description": "Talk to Zenn Foulhoof and accept Zenn's Bidding",
+      "classes": null,
+      "races": null,
+      "coords": [60.5, 56.3],
+      "zone": "teldrassil",
+      "tips": [],
+      "quests": [
+        {
+          "id": 488,
+          "name": "Zenn's Bidding"
+        }
+      ],
+      "npc": "Zenn Foulhoof",
+      "mobs": []
+    },
+    {
+      "id": "teldrassil_002",
+      "type": "quest_accept",
+      "description": "Talk to Syral Bladeleaf and accept Denalan's Earth",
+      "classes": null,
+      "races": null,
+      "coords": [56.08, 57.72],
+      "zone": "teldrassil",
+      "tips": [],
+      "quests": [
+        {
+          "id": 997,
+          "name": "Denalan's Earth"
+        }
+      ],
+      "npc": "Syral Bladeleaf",
+      "mobs": []
+    },
+    {
+      "id": "teldrassil_003",
+      "type": "quest_accept",
+      "description": "Talk to Athridas Bearmantle and accept A Troubling Breeze",
+      "classes": null,
+      "races": null,
+      "coords": [55.954, 57.272],
+      "zone": "teldrassil",
+      "tips": [],
+      "quests": [
+        {
+          "id": 475,
+          "name": "A Troubling Breeze"
+        }
+      ],
+      "npc": "Athridas Bearmantle",
+      "mobs": []
+    },
+    {
+      "id": "teldrassil_004",
+      "type": "quest_turnin",
+      "description": "Talk to Laurna Morninglight, turn in In Favor of Elune and accept Garments of the Moon, then train your class spells",
+      "classes": ["Priest"],
+      "races": null,
+      "coords": [55.564, 56.746],
+      "zone": "teldrassil",
+      "tips": [],
+      "quests": [
+        {
+          "id": 5622,
+          "name": "In Favor of Elune"
+        },
+        {
+          "id": 5621,
+          "name": "Garments of the Moon"
+        }
+      ],
+      "npc": "Laurna Morninglight",
+      "mobs": []
+    },
+    {
+      "id": "teldrassil_005",
+      "type": "info",
+      "description": "Talk to Aldia upstairs. Buy and equip a Small Throwing Knife",
+      "classes": ["Rogue"],
+      "races": null,
+      "coords": [55.508, 57.145],
+      "zone": "teldrassil",
+      "tips": [],
+      "quests": [],
+      "npc": "Aldia",
+      "mobs": []
+    },
+    {
+      "id": "teldrassil_006",
+      "type": "quest_accept",
+      "description": "Talk to Tallonkai Swiftroot atop the Tree and accept Twisted Hatred and The Emerald Dreamcatcher",
+      "classes": null,
+      "races": null,
+      "coords": [55.574, 56.948],
+      "zone": "teldrassil",
+      "tips": [],
+      "quests": [
+        {
+          "id": 932,
+          "name": "Twisted Hatred"
+        },
+        {
+          "id": 2438,
+          "name": "The Emerald Dreamcatcher"
+        }
+      ],
+      "npc": "Tallonkai Swiftroot",
+      "mobs": []
+    },
+    {
+      "id": "teldrassil_007",
+      "type": "info",
+      "description": "Talk to Jeena Featherbow. Buy and equip a Hornwood Recurve Bow if you can afford it (2s 85c), if not skip this step. Buy Rough Arrows until your Quiver is full",
+      "classes": ["Hunter"],
+      "races": null,
+      "coords": [55.89, 59.205],
+      "zone": "teldrassil",
+      "tips": [],
+      "quests": [],
+      "npc": "Jeena Featherbow",
+      "mobs": []
+    },
+    {
+      "id": "teldrassil_008",
+      "type": "info",
+      "description": "Talk to Kyra Windblade and train your class spells",
+      "classes": ["Warrior"],
+      "races": null,
+      "coords": [56.221, 59.198],
+      "zone": "teldrassil",
+      "tips": [],
+      "quests": [],
+      "npc": "Kyra Windblade",
+      "mobs": []
+    },
+    {
+      "id": "teldrassil_009",
+      "type": "info",
+      "description": "Talk to Jannok Breezesong and train your class spells",
+      "classes": ["Rogue"],
+      "races": null,
+      "coords": [56.381, 60.139],
+      "zone": "teldrassil",
+      "tips": [],
+      "quests": [],
+      "npc": "Jannok Breezesong",
+      "mobs": []
+    },
+    {
+      "id": "teldrassil_010",
+      "type": "info",
+      "description": "Talk to Shalomon. Buy and equip a Gladius if you can afford it (5s 36c), if not skip this step",
+      "classes": ["Warrior"],
+      "races": null,
+      "coords": [56.308, 59.488],
+      "zone": "teldrassil",
+      "tips": [],
+      "quests": [],
+      "npc": "Shalomon",
+      "mobs": []
+    },
+    {
+      "id": "teldrassil_011",
+      "type": "info",
+      "description": "Talk to Shalomon. Buy and equip a Stiletto if you can afford it (4s 1c), if not skip this step",
+      "classes": ["Rogue"],
+      "races": null,
+      "coords": [56.308, 59.488],
+      "zone": "teldrassil",
+      "tips": [],
+      "quests": [],
+      "npc": "Shalomon",
+      "mobs": []
+    },
+    {
+      "id": "teldrassil_012",
+      "type": "info",
+      "description": "Talk to Shalomon. Buy and equip a Walking Stick if you can afford it (5s 4c), if not skip this step",
+      "classes": ["Druid"],
+      "races": null,
+      "coords": [56.308, 59.488],
+      "zone": "teldrassil",
+      "tips": [],
+      "quests": [],
+      "npc": "Shalomon",
+      "mobs": []
+    },
+    {
+      "id": "teldrassil_013",
+      "type": "info",
+      "description": "Talk to Innkeeper Keldamyr, turn in Dolanaar Delivery and set your Hearthstone to Dolanaar",
+      "classes": null,
+      "races": null,
+      "coords": [55.619, 59.788],
+      "zone": "teldrassil",
+      "tips": [],
+      "quests": [
+        {
+          "id": 2159,
+          "name": "Dolanaar Delivery"
+        }
+      ],
+      "npc": "Innkeeper Keldamyr",
+      "mobs": []
+    },
+    {
+      "id": "teldrassil_014",
+      "type": "info",
+      "description": "Talk to Dazalar and train Arcane Shot",
+      "classes": ["Hunter"],
+      "races": null,
+      "coords": [56.676, 59.489],
+      "zone": "teldrassil",
+      "tips": [],
+      "quests": [],
+      "npc": "Dazalar",
+      "mobs": []
+    },
+    {
+      "id": "teldrassil_015",
+      "type": "info",
+      "description": "Talk to Kal and train your class spells",
+      "classes": ["Druid"],
+      "races": null,
+      "coords": [55.945, 61.566],
+      "zone": "teldrassil",
+      "tips": [],
+      "quests": [],
+      "npc": "Kal",
+      "mobs": []
+    },
+    {
+      "id": "teldrassil_016",
+      "type": "quest_turnin",
+      "description": "Talk to Corithras Moonrage, turn in Crown of the Earth and accept Crown of the Earth",
+      "classes": null,
+      "races": null,
+      "coords": [56.142, 61.714],
+      "zone": "teldrassil",
+      "tips": [],
+      "quests": [
+        {
+          "id": 928,
+          "name": "Crown of the Earth"
+        },
+        {
+          "id": 929,
+          "name": "Crown of the Earth"
+        }
+      ],
+      "npc": "Corithras Moonrage",
+      "mobs": []
+    },
+    {
+      "id": "teldrassil_017",
+      "type": "info",
+      "description": "Talk to Malorne Bladeleaf and train Herbalism. Herbalism is required to gather 5 Earthroot for a level 15 quest later. You can unlearn it afterwards",
+      "classes": ["Druid"],
+      "races": null,
+      "coords": [57.721, 60.641],
+      "zone": "teldrassil",
+      "tips": [
+        {
+          "type": "warning",
+          "class": null,
+          "text": "Herbalism is required to gather 5 Earthroot for a level 15 quest later. You can unlearn it afterwards"
+        }
+      ],
+      "quests": [],
+      "npc": "Malorne Bladeleaf",
+      "mobs": []
+    },
+    {
+      "id": "teldrassil_018",
+      "type": "info",
+      "description": "Target Sentinel Shaya. Cast Lesser Heal (Rank 2) and Power Word: Fortitude on Sentinel Shaya",
+      "classes": ["Priest"],
+      "races": null,
+      "coords": [57.242, 63.511],
+      "zone": "teldrassil",
+      "tips": [],
+      "quests": [
+        {
+          "id": 5621,
+          "name": "Garments of the Moon"
+        }
+      ],
+      "npc": "Sentinel Shaya",
+      "mobs": []
+    },
+    {
+      "id": "teldrassil_019",
+      "type": "quest_accept",
+      "description": "Talk to Denalan, turn in Denalan's Earth and accept Timberling Seeds and Timberling Sprouts",
+      "classes": null,
+      "races": null,
+      "coords": [60.9, 68.489],
+      "zone": "teldrassil",
+      "tips": [],
+      "quests": [
+        {
+          "id": 997,
+          "name": "Denalan's Earth"
+        },
+        {
+          "id": 918,
+          "name": "Timberling Seeds"
+        },
+        {
+          "id": 919,
+          "name": "Timberling Sprouts"
+        }
+      ],
+      "npc": "Denalan",
+      "mobs": []
+    },
+    {
+      "id": "teldrassil_020",
+      "type": "kill",
+      "description": "Kill Timberlings. Loot them for their Seeds. Loot the Timberling Sprouts on the ground",
+      "classes": null,
+      "races": null,
+      "coords": [61.21, 66.28],
+      "zone": "teldrassil",
+      "tips": [],
+      "quests": [
+        {
+          "id": 918,
+          "name": "Timberling Seeds"
+        },
+        {
+          "id": 919,
+          "name": "Timberling Sprouts"
+        }
+      ],
+      "npc": null,
+      "mobs": ["Timberling"]
+    },
+    {
+      "id": "teldrassil_021",
+      "type": "quest_turnin",
+      "description": "Talk to Denalan, turn in Timberling Seeds and Timberling Sprouts, and accept Rellian Greenspyre",
+      "classes": null,
+      "races": null,
+      "coords": [60.9, 68.489],
+      "zone": "teldrassil",
+      "tips": [],
+      "quests": [
+        {
+          "id": 918,
+          "name": "Timberling Seeds"
+        },
+        {
+          "id": 919,
+          "name": "Timberling Sprouts"
+        },
+        {
+          "id": 922,
+          "name": "Rellian Greenspyre"
+        }
+      ],
+      "npc": "Denalan",
+      "mobs": []
+    },
+    {
+      "id": "teldrassil_022",
+      "type": "travel",
+      "description": "Travel to Starbreeze Village",
+      "classes": null,
+      "races": null,
+      "coords": [68.02, 59.66],
+      "zone": "teldrassil",
+      "tips": [],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "teldrassil_023",
+      "type": "loot",
+      "description": "Open Tallonkai's Dresser. Loot it for the Emerald Dreamcatcher",
+      "classes": null,
+      "races": null,
+      "coords": [68.02, 59.66],
+      "zone": "teldrassil",
+      "tips": [],
+      "quests": [
+        {
+          "id": 2438,
+          "name": "The Emerald Dreamcatcher"
+        }
+      ],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "teldrassil_024",
+      "type": "quest_turnin",
+      "description": "Talk to Gaerolas Talvethren upstairs, turn in A Troubling Breeze and accept Gnarlpine Corruption",
+      "classes": null,
+      "races": null,
+      "coords": [66.26, 58.52],
+      "zone": "teldrassil",
+      "tips": [],
+      "quests": [
+        {
+          "id": 475,
+          "name": "A Troubling Breeze"
+        },
+        {
+          "id": 476,
+          "name": "Gnarlpine Corruption"
+        }
+      ],
+      "npc": "Gaerolas Talvethren",
+      "mobs": []
+    },
+    {
+      "id": "teldrassil_025",
+      "type": "info",
+      "description": "Use the Jade Phial at the Starbreeze Village Moonwell",
+      "classes": null,
+      "races": null,
+      "coords": [63.38, 58.1],
+      "zone": "teldrassil",
+      "tips": [
+        {
+          "type": "warning",
+          "class": null,
+          "text": "Use the Jade Phial at the Starbreeze Village Moonwell"
+        }
+      ],
+      "quests": [
+        {
+          "id": 929,
+          "name": "Crown of the Earth"
+        }
+      ],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "teldrassil_026",
+      "type": "kill",
+      "description": "Kill Nightsabers. Loot them for their Fangs. Kill Strigid Owls. Loot them for their Feathers. Kill Webwood Lurkers. Loot them for their Silk. Save any Small Eggs and Small Spider Legs to use for leveling Cooking later",
+      "classes": null,
+      "races": null,
+      "coords": [59.14, 60.91],
+      "zone": "teldrassil",
+      "tips": [
+        {
+          "type": "warning",
+          "class": null,
+          "text": "Save any Small Eggs and Small Spider Legs to use for leveling Cooking later"
+        }
+      ],
+      "quests": [
+        {
+          "id": 488,
+          "name": "Zenn's Bidding"
+        }
+      ],
+      "npc": null,
+      "mobs": ["Nightsaber", "Strigid Owl", "Webwood Lurker"]
+    },
+    {
+      "id": "teldrassil_027",
+      "type": "grind",
+      "description": "Grind to level 7 +3500xp",
+      "classes": null,
+      "races": null,
+      "coords": [60.7, 54.4],
+      "zone": "teldrassil",
+      "tips": [],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "teldrassil_028",
+      "type": "quest_turnin",
+      "description": "Talk to Zenn Foulhoof and turn in Zenn's Bidding",
+      "classes": null,
+      "races": null,
+      "coords": [60.5, 56.3],
+      "zone": "teldrassil",
+      "tips": [],
+      "quests": [
+        {
+          "id": 488,
+          "name": "Zenn's Bidding"
+        }
+      ],
+      "npc": "Zenn Foulhoof",
+      "mobs": []
+    },
+    {
+      "id": "teldrassil_029",
+      "type": "quest_accept",
+      "description": "Talk to Syral Bladeleaf and accept Seek Redemption!",
+      "classes": null,
+      "races": null,
+      "coords": [56.078, 57.723],
+      "zone": "teldrassil",
+      "tips": [],
+      "quests": [
+        {
+          "id": 489,
+          "name": "Seek Redemption!"
+        }
+      ],
+      "npc": "Syral Bladeleaf",
+      "mobs": []
+    },
+    {
+      "id": "teldrassil_030",
+      "type": "quest_turnin",
+      "description": "Talk to Athridas Bearmantle and turn in Gnarlpine Corruption",
+      "classes": null,
+      "races": null,
+      "coords": [55.954, 57.272],
+      "zone": "teldrassil",
+      "tips": [],
+      "quests": [
+        {
+          "id": 476,
+          "name": "Gnarlpine Corruption"
+        }
+      ],
+      "npc": "Athridas Bearmantle",
+      "mobs": []
+    },
+    {
+      "id": "teldrassil_031",
+      "type": "quest_turnin",
+      "description": "Talk to Laurna Morninglight, turn in Garments of the Moon and train your class spells",
+      "classes": ["Priest"],
+      "races": null,
+      "coords": [55.564, 56.746],
+      "zone": "teldrassil",
+      "tips": [],
+      "quests": [
+        {
+          "id": 5621,
+          "name": "Garments of the Moon"
+        }
+      ],
+      "npc": "Laurna Morninglight",
+      "mobs": []
+    },
+    {
+      "id": "teldrassil_032",
+      "type": "quest_turnin",
+      "description": "Talk to Tallonkai Swiftroot atop the Tree, turn in The Emerald Dreamcatcher and accept Ferocitas the Dream Eater",
+      "classes": null,
+      "races": null,
+      "coords": [55.574, 56.948],
+      "zone": "teldrassil",
+      "tips": [],
+      "quests": [
+        {
+          "id": 2438,
+          "name": "The Emerald Dreamcatcher"
+        },
+        {
+          "id": 2459,
+          "name": "Ferocitas the Dream Eater"
+        }
+      ],
+      "npc": "Tallonkai Swiftroot",
+      "mobs": []
+    },
+    {
+      "id": "teldrassil_033",
+      "type": "info",
+      "description": "Talk to Jeena Featherbow. Buy and equip a Hornwood Recurve Bow if you can afford it (2s 85c), if not skip this step",
+      "classes": ["Hunter"],
+      "races": null,
+      "coords": [55.89, 59.205],
+      "zone": "teldrassil",
+      "tips": [],
+      "quests": [],
+      "npc": "Jeena Featherbow",
+      "mobs": []
+    },
+    {
+      "id": "teldrassil_034",
+      "type": "info",
+      "description": "Talk to Jeena Featherbow. Buy up to 800 Rough Arrows",
+      "classes": ["Hunter"],
+      "races": null,
+      "coords": [55.89, 59.205],
+      "zone": "teldrassil",
+      "tips": [],
+      "quests": [],
+      "npc": "Jeena Featherbow",
+      "mobs": []
+    },
+    {
+      "id": "teldrassil_035",
+      "type": "info",
+      "description": "Talk to Dazalar and train your class spells",
+      "classes": ["Hunter"],
+      "races": null,
+      "coords": [56.676, 59.489],
+      "zone": "teldrassil",
+      "tips": [],
+      "quests": [],
+      "npc": "Dazalar",
+      "mobs": []
+    },
+    {
+      "id": "teldrassil_036",
+      "type": "info",
+      "description": "Talk to Kyra Windblade and train your class spells",
+      "classes": ["Warrior"],
+      "races": null,
+      "coords": [56.221, 59.198],
+      "zone": "teldrassil",
+      "tips": [],
+      "quests": [],
+      "npc": "Kyra Windblade",
+      "mobs": []
+    },
+    {
+      "id": "teldrassil_037",
+      "type": "info",
+      "description": "Talk to Jannok Breezesong and train your class spells",
+      "classes": ["Rogue"],
+      "races": null,
+      "coords": [56.381, 60.139],
+      "zone": "teldrassil",
+      "tips": [],
+      "quests": [],
+      "npc": "Jannok Breezesong",
+      "mobs": []
+    },
+    {
+      "id": "teldrassil_038",
+      "type": "info",
+      "description": "Talk to Shalomon. Buy and equip a Gladius if you can afford it (5s 36c), if not skip this step",
+      "classes": ["Warrior"],
+      "races": null,
+      "coords": [56.308, 59.488],
+      "zone": "teldrassil",
+      "tips": [],
+      "quests": [],
+      "npc": "Shalomon",
+      "mobs": []
+    },
+    {
+      "id": "teldrassil_039",
+      "type": "info",
+      "description": "Talk to Shalomon. Buy and equip a Stiletto if you can afford it (4s 1c), if not skip this step",
+      "classes": ["Rogue"],
+      "races": null,
+      "coords": [56.308, 59.488],
+      "zone": "teldrassil",
+      "tips": [],
+      "quests": [],
+      "npc": "Shalomon",
+      "mobs": []
+    },
+    {
+      "id": "teldrassil_040",
+      "type": "info",
+      "description": "Talk to Shalomon. Buy and equip a Walking Stick if you can afford it (5s 4c), if not skip this step",
+      "classes": ["Druid"],
+      "races": null,
+      "coords": [56.308, 59.488],
+      "zone": "teldrassil",
+      "tips": [],
+      "quests": [],
+      "npc": "Shalomon",
+      "mobs": []
+    },
+    {
+      "id": "teldrassil_041",
+      "type": "quest_turnin",
+      "description": "Talk to Corithras Moonrage, turn in Crown of the Earth and accept Crown of the Earth",
+      "classes": ["Druid"],
+      "races": null,
+      "coords": [56.142, 61.714],
+      "zone": "teldrassil",
+      "tips": [],
+      "quests": [
+        {
+          "id": 929,
+          "name": "Crown of the Earth"
+        },
+        {
+          "id": 933,
+          "name": "Crown of the Earth"
+        }
+      ],
+      "npc": "Corithras Moonrage",
+      "mobs": []
+    },
+    {
+      "id": "teldrassil_042",
+      "type": "info",
+      "description": "Talk to Kal and train your class spells",
+      "classes": ["Druid"],
+      "races": null,
+      "coords": [55.945, 61.566],
+      "zone": "teldrassil",
+      "tips": [],
+      "quests": [],
+      "npc": "Kal",
+      "mobs": []
+    },
+    {
+      "id": "teldrassil_043",
+      "type": "loot",
+      "description": "Loot the Fel Cones on the ground. They are usually located next to tree trunks",
+      "classes": null,
+      "races": null,
+      "coords": null,
+      "zone": "",
+      "tips": [
+        {
+          "type": "warning",
+          "class": null,
+          "text": "They are usually located next to tree trunks"
+        }
+      ],
+      "quests": [
+        {
+          "id": 489,
+          "name": "Seek Redemption!"
+        }
+      ],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "teldrassil_044",
+      "type": "kill",
+      "description": "Kill Ferocitas the Dream Eater. Loot him for the Gnarlpine Necklace. Use the Gnarlpine Necklace to loot Tallonkai's Jewel",
+      "classes": null,
+      "races": null,
+      "coords": [69.37, 53.41],
+      "zone": "teldrassil",
+      "tips": [
+        {
+          "type": "warning",
+          "class": null,
+          "text": "Use the Gnarlpine Necklace to loot Tallonkai's Jewel"
+        }
+      ],
+      "quests": [
+        {
+          "id": 2459,
+          "name": "Ferocitas the Dream Eater"
+        }
+      ],
+      "npc": null,
+      "mobs": ["Ferocitas the Dream Eater"]
+    },
+    {
+      "id": "teldrassil_045",
+      "type": "kill",
+      "description": "Kill Gnarlpine Mystics. If there aren't many Gnarlpine Mystics you may have to kill Gnarlpine Warriors to make them spawn",
+      "classes": null,
+      "races": null,
+      "coords": [69.37, 53.41],
+      "zone": "teldrassil",
+      "tips": [
+        {
+          "type": "warning",
+          "class": null,
+          "text": "If there aren't many Gnarlpine Mystics you may have to kill Gnarlpine Warriors to make them spawn"
+        }
+      ],
+      "quests": [
+        {
+          "id": 2459,
+          "name": "Ferocitas the Dream Eater"
+        }
+      ],
+      "npc": null,
+      "mobs": ["Gnarlpine Mystic"]
+    },
+    {
+      "id": "teldrassil_046",
+      "type": "loot",
+      "description": "Loot the Fel Cones on the ground. They are usually located next to tree trunks",
+      "classes": null,
+      "races": null,
+      "coords": [58.7, 55.7],
+      "zone": "teldrassil",
+      "tips": [
+        {
+          "type": "warning",
+          "class": null,
+          "text": "They are usually located next to tree trunks"
+        }
+      ],
+      "quests": [
+        {
+          "id": 489,
+          "name": "Seek Redemption!"
+        }
+      ],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "teldrassil_047",
+      "type": "quest_turnin",
+      "description": "Talk to Zenn Foulhoof and turn in Seek Redemption!",
+      "classes": null,
+      "races": null,
+      "coords": [60.4, 56.4],
+      "zone": "teldrassil",
+      "tips": [],
+      "quests": [
+        {
+          "id": 489,
+          "name": "Seek Redemption!"
+        }
+      ],
+      "npc": "Zenn Foulhoof",
+      "mobs": []
+    },
+    {
+      "id": "teldrassil_048",
+      "type": "travel",
+      "description": "Travel to Fel Rock",
+      "classes": null,
+      "races": null,
+      "coords": [54.42, 51.19],
+      "zone": "teldrassil",
+      "tips": [],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "teldrassil_049",
+      "type": "kill",
+      "description": "Kill Lord Melenas. Loot him for his Head. Lord Melenas may be located in many different spawn locations throughout Fel Rock",
+      "classes": null,
+      "races": null,
+      "coords": [51.2, 50.6],
+      "zone": "teldrassil",
+      "tips": [
+        {
+          "type": "warning",
+          "class": null,
+          "text": "Lord Melenas may be located in many different spawn locations throughout Fel Rock"
+        }
+      ],
+      "quests": [
+        {
+          "id": 932,
+          "name": "Twisted Hatred"
+        }
+      ],
+      "npc": null,
+      "mobs": ["Lord Melenas"]
+    },
+    {
+      "id": "teldrassil_050",
+      "type": "quest_turnin",
+      "description": "Talk to Corithras Moonrage and turn in Crown of the Earth",
+      "classes": ["!Druid"],
+      "races": null,
+      "coords": [56.142, 61.714],
+      "zone": "teldrassil",
+      "tips": [],
+      "quests": [
+        {
+          "id": 929,
+          "name": "Crown of the Earth"
+        }
+      ],
+      "npc": "Corithras Moonrage",
+      "mobs": []
+    },
+    {
+      "id": "teldrassil_051",
+      "type": "quest_accept",
+      "description": "Talk to Corithras Moonrage and accept Crown of the Earth",
+      "classes": null,
+      "races": null,
+      "coords": [56.142, 61.714],
+      "zone": "teldrassil",
+      "tips": [],
+      "quests": [
+        {
+          "id": 933,
+          "name": "Crown of the Earth"
+        }
+      ],
+      "npc": "Corithras Moonrage",
+      "mobs": []
+    },
+    {
+      "id": "teldrassil_052",
+      "type": "travel",
+      "description": "Travel to southwestern Teldrassil",
+      "classes": null,
+      "races": null,
+      "coords": [42.61, 76.18],
+      "zone": "teldrassil",
+      "tips": [],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "teldrassil_053",
+      "type": "quest_accept",
+      "description": "Click the Strange Fruited Plant and accept The Glowing Fruit",
+      "classes": null,
+      "races": null,
+      "coords": [42.61, 76.18],
+      "zone": "teldrassil",
+      "tips": [],
+      "quests": [
+        {
+          "id": 930,
+          "name": "The Glowing Fruit"
+        }
+      ],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "teldrassil_054",
+      "type": "travel",
+      "description": "Travel to the Pools of Arlithrien",
+      "classes": null,
+      "races": null,
+      "coords": [42.41, 67.07],
+      "zone": "teldrassil",
+      "tips": [],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "teldrassil_055",
+      "type": "info",
+      "description": "Use the Tourmaline Phial at the Pools of Arlithrien moonwell",
+      "classes": null,
+      "races": null,
+      "coords": [42.41, 67.07],
+      "zone": "teldrassil",
+      "tips": [
+        {
+          "type": "warning",
+          "class": null,
+          "text": "Use the Tourmaline Phial at the Pools of Arlithrien moonwell"
+        }
+      ],
+      "quests": [
+        {
+          "id": 933,
+          "name": "Crown of the Earth"
+        }
+      ],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "teldrassil_056",
+      "type": "kill",
+      "description": "Kill Webwood Lurkers and Webwood Venomfangs. Loot them for their Small Spider Legs",
+      "classes": null,
+      "races": null,
+      "coords": [44.88, 73.83],
+      "zone": "teldrassil",
+      "tips": [],
+      "quests": [],
+      "npc": null,
+      "mobs": ["Webwood Lurker", "Webwood Venomfang"]
+    },
+    {
+      "id": "teldrassil_057",
+      "type": "travel",
+      "description": "Travel to Dolanaar",
+      "classes": null,
+      "races": null,
+      "coords": [56.142, 61.714],
+      "zone": "teldrassil",
+      "tips": [],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "teldrassil_058",
+      "type": "quest_turnin",
+      "description": "Talk to Corithras Moonrage, turn in Crown of the Earth and accept Crown of the Earth",
+      "classes": null,
+      "races": null,
+      "coords": [56.142, 61.714],
+      "zone": "teldrassil",
+      "tips": [],
+      "quests": [
+        {
+          "id": 933,
+          "name": "Crown of the Earth"
+        },
+        {
+          "id": 7383,
+          "name": "Crown of the Earth"
+        }
+      ],
+      "npc": "Corithras Moonrage",
+      "mobs": []
+    },
+    {
+      "id": "teldrassil_059",
+      "type": "quest_accept",
+      "description": "Talk to Zarrin, train Cooking, accept Recipe of the Kaldorei and turn in Recipe of the Kaldorei",
+      "classes": null,
+      "races": null,
+      "coords": [57.121, 61.296],
+      "zone": "teldrassil",
+      "tips": [],
+      "quests": [
+        {
+          "id": 4161,
+          "name": "Recipe of the Kaldorei"
+        }
+      ],
+      "npc": "Zarrin",
+      "mobs": []
+    },
+    {
+      "id": "teldrassil_060",
+      "type": "info",
+      "description": "Talk to Byancie and train First Aid",
+      "classes": null,
+      "races": null,
+      "coords": [55.29, 56.82],
+      "zone": "teldrassil",
+      "tips": [],
+      "quests": [],
+      "npc": "Byancie",
+      "mobs": []
+    },
+    {
+      "id": "teldrassil_061",
+      "type": "quest_turnin",
+      "description": "Talk to Tallonkai Swiftroot atop the Tree, turn in Twisted Hatred and Ferocitas the Dream Eater",
+      "classes": null,
+      "races": null,
+      "coords": [55.574, 56.948],
+      "zone": "teldrassil",
+      "tips": [],
+      "quests": [
+        {
+          "id": 932,
+          "name": "Twisted Hatred"
+        },
+        {
+          "id": 2459,
+          "name": "Ferocitas the Dream Eater"
+        }
+      ],
+      "npc": "Tallonkai Swiftroot",
+      "mobs": []
+    },
+    {
+      "id": "teldrassil_062",
+      "type": "quest_accept",
+      "description": "Talk to Moon Priestess Amara and accept The Road to Darnassus. Moon Priestess Amara patrols the road west of Dolanaar",
+      "classes": null,
+      "races": null,
+      "coords": [50.22, 53.83],
+      "zone": "teldrassil",
+      "tips": [
+        {
+          "type": "warning",
+          "class": null,
+          "text": "Moon Priestess Amara patrols the road west of Dolanaar"
+        }
+      ],
+      "quests": [
+        {
+          "id": 487,
+          "name": "The Road to Darnassus"
+        }
+      ],
+      "npc": "Moon Priestess Amara",
+      "mobs": []
+    },
+    {
+      "id": "teldrassil_063",
+      "type": "kill",
+      "description": "Kill Gnarlpine Ambushers",
+      "classes": null,
+      "races": null,
+      "coords": [46.6, 53.0],
+      "zone": "teldrassil",
+      "tips": [],
+      "quests": [
+        {
+          "id": 487,
+          "name": "The Road to Darnassus"
+        }
+      ],
+      "npc": null,
+      "mobs": ["Gnarlpine Ambusher"]
+    },
+    {
+      "id": "teldrassil_064",
+      "type": "quest_turnin",
+      "description": "Talk to Moon Priestess Amara and turn in The Road to Darnassus. Moon Priestess Amara patrols the road west of Dolanaar",
+      "classes": ["Druid"],
+      "races": null,
+      "coords": [50.22, 53.83],
+      "zone": "teldrassil",
+      "tips": [
+        {
+          "type": "warning",
+          "class": null,
+          "text": "Moon Priestess Amara patrols the road west of Dolanaar"
+        }
+      ],
+      "quests": [
+        {
+          "id": 487,
+          "name": "The Road to Darnassus"
+        }
+      ],
+      "npc": "Moon Priestess Amara",
+      "mobs": []
+    },
+    {
+      "id": "teldrassil_065",
+      "type": "travel",
+      "description": "Travel to The Oracle Glade",
+      "classes": null,
+      "races": null,
+      "coords": [38.32, 34.36],
+      "zone": "teldrassil",
+      "tips": [],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "teldrassil_066",
+      "type": "quest_accept",
+      "description": "Talk to Sentinel Arynia Cloudsbreak and accept The Enchanted Glade",
+      "classes": null,
+      "races": null,
+      "coords": [38.32, 34.36],
+      "zone": "teldrassil",
+      "tips": [],
+      "quests": [
+        {
+          "id": 937,
+          "name": "The Enchanted Glade"
+        }
+      ],
+      "npc": "Sentinel Arynia Cloudsbreak",
+      "mobs": []
+    },
+    {
+      "id": "teldrassil_067",
+      "type": "info",
+      "description": "Use the Amethyst Phial at The Oracle Glade moonwell",
+      "classes": null,
+      "races": null,
+      "coords": [38.43, 34.03],
+      "zone": "teldrassil",
+      "tips": [
+        {
+          "type": "warning",
+          "class": null,
+          "text": "Use the Amethyst Phial at The Oracle Glade moonwell"
+        }
+      ],
+      "quests": [
+        {
+          "id": 7383,
+          "name": "Crown of the Earth"
+        }
+      ],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "teldrassil_068",
+      "type": "quest_accept",
+      "description": "Click the Strange Fronded Plant and accept The Shimmering Frond",
+      "classes": null,
+      "races": null,
+      "coords": [34.61, 28.79],
+      "zone": "teldrassil",
+      "tips": [],
+      "quests": [
+        {
+          "id": 931,
+          "name": "The Shimmering Frond"
+        }
+      ],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "teldrassil_069",
+      "type": "quest_accept",
+      "description": "Talk to Mist. This will start an escort quest",
+      "classes": ["Hunter"],
+      "races": null,
+      "coords": [31.54, 31.62],
+      "zone": "teldrassil",
+      "tips": [
+        {
+          "type": "warning",
+          "class": null,
+          "text": "This will start an escort quest"
+        }
+      ],
+      "quests": [
+        {
+          "id": 938,
+          "name": "Mist"
+        }
+      ],
+      "npc": "Mist",
+      "mobs": []
+    },
+    {
+      "id": "teldrassil_070",
+      "type": "quest_accept",
+      "description": "Talk to Mist. This will start an escort quest",
+      "classes": ["!Hunter"],
+      "races": null,
+      "coords": [31.54, 31.62],
+      "zone": "teldrassil",
+      "tips": [
+        {
+          "type": "warning",
+          "class": null,
+          "text": "This will start an escort quest"
+        }
+      ],
+      "quests": [
+        {
+          "id": 938,
+          "name": "Mist"
+        }
+      ],
+      "npc": "Mist",
+      "mobs": []
+    },
+    {
+      "id": "teldrassil_071",
+      "type": "quest_turnin",
+      "description": "Talk to Sentinel Arynia Cloudsbreak, turn in The Enchanted Glade and Mist, and accept Teldrassil",
+      "classes": ["!Hunter"],
+      "races": null,
+      "coords": [38.32, 34.36],
+      "zone": "teldrassil",
+      "tips": [],
+      "quests": [
+        {
+          "id": 937,
+          "name": "The Enchanted Glade"
+        },
+        {
+          "id": 938,
+          "name": "Mist"
+        },
+        {
+          "id": 940,
+          "name": "Teldrassil"
+        }
+      ],
+      "npc": "Sentinel Arynia Cloudsbreak",
+      "mobs": []
+    },
+    {
+      "id": "teldrassil_072",
+      "type": "kill",
+      "description": "Kill Bloodfeather Harpies. Loot them for their Belts. Bloodfeather Matriarchs cast Healing Wave and Lightning Bolt which does a lot of damage. Try to burst them fast",
+      "classes": null,
+      "races": null,
+      "coords": [33.619, 29.819],
+      "zone": "teldrassil",
+      "tips": [
+        {
+          "type": "warning",
+          "class": null,
+          "text": "Bloodfeather Matriarchs cast Healing Wave and Lightning Bolt which does a lot of damage. Try to burst them fast"
+        }
+      ],
+      "quests": [
+        {
+          "id": 937,
+          "name": "The Enchanted Glade"
+        }
+      ],
+      "npc": null,
+      "mobs": [
+        "Bloodfeather Harpy",
+        "Bloodfeather Rogue",
+        "Bloodfeather Sorceress",
+        "Bloodfeather Fury",
+        "Bloodfeather Wind Witch",
+        "Bloodfeather Matriarch"
+      ]
+    },
+    {
+      "id": "teldrassil_073",
+      "type": "travel",
+      "description": "Travel to Darnassus",
+      "classes": null,
+      "races": ["!Rogue"],
+      "coords": [82.01, 36.7],
+      "zone": "darnassus",
+      "tips": [],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "teldrassil_074",
+      "type": "quest_turnin",
+      "description": "Talk to Rellian Greenspyre, turn in Rellian Greenspyre and accept Tumors",
+      "classes": ["!Rogue"],
+      "races": null,
+      "coords": [38.18, 21.64],
+      "zone": "darnassus",
+      "tips": [],
+      "quests": [
+        {
+          "id": 922,
+          "name": "Rellian Greenspyre"
+        },
+        {
+          "id": 923,
+          "name": "Tumors"
+        }
+      ],
+      "npc": "Rellian Greenspyre",
+      "mobs": []
+    },
+    {
+      "id": "teldrassil_075",
+      "type": "quest_turnin",
+      "description": "Talk to Arch Druid Fandral Staghelm atop the Tree and turn in Teldrassil",
+      "classes": ["!Hunter", "!Rogue"],
+      "races": null,
+      "coords": [34.96, 9.01],
+      "zone": "darnassus",
+      "tips": [],
+      "quests": [
+        {
+          "id": 940,
+          "name": "Teldrassil"
+        }
+      ],
+      "npc": "Arch Druid Fandral Staghelm",
+      "mobs": []
+    },
+    {
+      "id": "teldrassil_076",
+      "type": "quest_accept",
+      "description": "Talk to Mathrengyl Bearwalker on the middle level, accept Moonglade and train your class spells",
+      "classes": ["Druid"],
+      "races": null,
+      "coords": [35.38, 8.4],
+      "zone": "darnassus",
+      "tips": [],
+      "quests": [
+        {
+          "id": 5921,
+          "name": "Moonglade"
+        }
+      ],
+      "npc": "Mathrengyl Bearwalker",
+      "mobs": []
+    },
+    {
+      "id": "teldrassil_077",
+      "type": "quest_accept",
+      "description": "Talk to Priestess A'moora and accept Tears of the Moon",
+      "classes": ["!Rogue"],
+      "races": null,
+      "coords": [36.65, 85.93],
+      "zone": "darnassus",
+      "tips": [],
+      "quests": [
+        {
+          "id": 2518,
+          "name": "Tears of the Moon"
+        }
+      ],
+      "npc": "Priestess A'moora",
+      "mobs": []
+    },
+    {
+      "id": "teldrassil_078",
+      "type": "info",
+      "description": "Cast Teleport: Moonglade. It will be in your spellbook",
+      "classes": ["Druid"],
+      "races": null,
+      "coords": null,
+      "zone": "",
+      "tips": [
+        {
+          "type": "warning",
+          "class": null,
+          "text": "It will be in your spellbook"
+        }
+      ],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "teldrassil_079",
+      "type": "quest_turnin",
+      "description": "Talk to Dendrite Starblaze upstairs, turn in Moonglade and accept Great Bear Spirit",
+      "classes": ["Druid"],
+      "races": null,
+      "coords": [56.21, 30.64],
+      "zone": "moonglade",
+      "tips": [],
+      "quests": [
+        {
+          "id": 5921,
+          "name": "Moonglade"
+        },
+        {
+          "id": 5929,
+          "name": "Great Bear Spirit"
+        }
+      ],
+      "npc": "Dendrite Starblaze",
+      "mobs": []
+    },
+    {
+      "id": "teldrassil_080",
+      "type": "info",
+      "description": "Talk to the Great Bear Spirit. Seek out the Great Bear Spirit and learn what it has to share with you about the nature of the bear",
+      "classes": ["Druid"],
+      "races": null,
+      "coords": [39.17, 27.42],
+      "zone": "moonglade",
+      "tips": [],
+      "quests": [
+        {
+          "id": 5929,
+          "name": "Great Bear Spirit"
+        }
+      ],
+      "npc": "Great Bear Spirit",
+      "mobs": []
+    },
+    {
+      "id": "teldrassil_081",
+      "type": "info",
+      "description": "Cast Teleport: Moonglade. This will make you return faster",
+      "classes": ["Druid"],
+      "races": null,
+      "coords": null,
+      "zone": "",
+      "tips": [
+        {
+          "type": "warning",
+          "class": null,
+          "text": "This will make you return faster"
+        }
+      ],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "teldrassil_082",
+      "type": "quest_turnin",
+      "description": "Talk to Dendrite Starblaze upstairs, turn in Great Bear Spirit and accept Back to Darnassus",
+      "classes": ["Druid"],
+      "races": null,
+      "coords": [56.21, 30.64],
+      "zone": "moonglade",
+      "tips": [],
+      "quests": [
+        {
+          "id": 5929,
+          "name": "Great Bear Spirit"
+        },
+        {
+          "id": 5931,
+          "name": "Back to Darnassus"
+        }
+      ],
+      "npc": "Dendrite Starblaze",
+      "mobs": []
+    },
+    {
+      "id": "teldrassil_083",
+      "type": "info",
+      "description": "Hearth to Dolanaar",
+      "classes": ["Rogue"],
+      "races": null,
+      "coords": null,
+      "zone": "",
+      "tips": [],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "teldrassil_084",
+      "type": "info",
+      "description": "Hearth to Dolanaar",
+      "classes": ["!Rogue"],
+      "races": null,
+      "coords": null,
+      "zone": "",
+      "tips": [],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "teldrassil_085",
+      "type": "info",
+      "description": "Talk to Jeena Featherbow. Buy 4 stacks of Sharp Arrows. Equip them as soon as you reach level 10",
+      "classes": ["Hunter"],
+      "races": null,
+      "coords": [55.89, 59.205],
+      "zone": "teldrassil",
+      "tips": [
+        {
+          "type": "warning",
+          "class": null,
+          "text": "Equip them as soon as you reach level 10"
+        }
+      ],
+      "quests": [],
+      "npc": "Jeena Featherbow",
+      "mobs": []
+    },
+    {
+      "id": "teldrassil_086",
+      "type": "quest_accept",
+      "description": "Talk to Zarrin, train Cooking, accept Recipe of the Kaldorei and turn in Recipe of the Kaldorei",
+      "classes": null,
+      "races": null,
+      "coords": [57.121, 61.296],
+      "zone": "teldrassil",
+      "tips": [],
+      "quests": [
+        {
+          "id": 4161,
+          "name": "Recipe of the Kaldorei"
+        }
+      ],
+      "npc": "Zarrin",
+      "mobs": []
+    },
+    {
+      "id": "teldrassil_087",
+      "type": "quest_turnin",
+      "description": "Talk to Moon Priestess Amara and turn in The Road to Darnassus. Moon Priestess Amara patrols the road west of Dolanaar",
+      "classes": null,
+      "races": null,
+      "coords": [51.9, 56.4],
+      "zone": "teldrassil",
+      "tips": [
+        {
+          "type": "warning",
+          "class": null,
+          "text": "Moon Priestess Amara patrols the road west of Dolanaar"
+        }
+      ],
+      "quests": [
+        {
+          "id": 487,
+          "name": "The Road to Darnassus"
+        }
+      ],
+      "npc": "Moon Priestess Amara",
+      "mobs": []
+    },
+    {
+      "id": "teldrassil_088",
+      "type": "quest_accept",
+      "description": "Talk to Dazalar, accept Taming the Beast and train your level 10 spells",
+      "classes": ["Hunter"],
+      "races": null,
+      "coords": [56.676, 59.489],
+      "zone": "teldrassil",
+      "tips": [],
+      "quests": [
+        {
+          "id": 6063,
+          "name": "Taming the Beast"
+        }
+      ],
+      "npc": "Dazalar",
+      "mobs": []
+    },
+    {
+      "id": "teldrassil_089",
+      "type": "info",
+      "description": "Use the Taming Rod on a Webwood Lurker. Tame a Webwood Lurker",
+      "classes": ["Hunter"],
+      "races": null,
+      "coords": [59.9, 58.8],
+      "zone": "teldrassil",
+      "tips": [
+        {
+          "type": "warning",
+          "class": null,
+          "text": "Use the Taming Rod on a Webwood Lurker"
+        }
+      ],
+      "quests": [
+        {
+          "id": 6063,
+          "name": "Taming the Beast"
+        }
+      ],
+      "npc": null,
+      "mobs": ["Webwood Lurker"]
+    },
+    {
+      "id": "teldrassil_090",
+      "type": "quest_turnin",
+      "description": "Talk to Dazalar, turn in Taming the Beast and accept Taming the Beast",
+      "classes": ["Hunter"],
+      "races": null,
+      "coords": [56.676, 59.489],
+      "zone": "teldrassil",
+      "tips": [],
+      "quests": [
+        {
+          "id": 6063,
+          "name": "Taming the Beast"
+        },
+        {
+          "id": 6101,
+          "name": "Taming the Beast"
+        }
+      ],
+      "npc": "Dazalar",
+      "mobs": []
+    },
+    {
+      "id": "teldrassil_091",
+      "type": "quest_turnin",
+      "description": "Talk to Corithras Moonrage, turn in Crown of the Earth and accept Crown of the Earth",
+      "classes": null,
+      "races": null,
+      "coords": [56.142, 61.714],
+      "zone": "teldrassil",
+      "tips": [],
+      "quests": [
+        {
+          "id": 7383,
+          "name": "Crown of the Earth"
+        },
+        {
+          "id": 935,
+          "name": "Crown of the Earth"
+        }
+      ],
+      "npc": "Corithras Moonrage",
+      "mobs": []
+    },
+    {
+      "id": "teldrassil_092",
+      "type": "quest_turnin",
+      "description": "Talk to Denalan and turn in The Shimmering Frond and The Glowing Fruit",
+      "classes": null,
+      "races": null,
+      "coords": [60.9, 68.489],
+      "zone": "teldrassil",
+      "tips": [],
+      "quests": [
+        {
+          "id": 931,
+          "name": "The Shimmering Frond"
+        },
+        {
+          "id": 930,
+          "name": "The Glowing Fruit"
+        }
+      ],
+      "npc": "Denalan",
+      "mobs": []
+    },
+    {
+      "id": "teldrassil_093",
+      "type": "quest_turnin",
+      "description": "Talk to Denalan and turn in The Moss-twined Heart",
+      "classes": null,
+      "races": null,
+      "coords": [60.9, 68.489],
+      "zone": "teldrassil",
+      "tips": [],
+      "quests": [
+        {
+          "id": 927,
+          "name": "The Moss-twined Heart"
+        }
+      ],
+      "npc": "Denalan",
+      "mobs": []
+    },
+    {
+      "id": "teldrassil_094",
+      "type": "quest_turnin",
+      "description": "Click on Denalans Planter and turn in Planting the Heart",
+      "classes": null,
+      "races": null,
+      "coords": [60.78, 68.59],
+      "zone": "teldrassil",
+      "tips": [],
+      "quests": [
+        {
+          "id": 941,
+          "name": "Planting the Heart"
+        }
+      ],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "teldrassil_095",
+      "type": "info",
+      "description": "Use the Taming Rod on a Nightsaber Stalker. You must right click your Pet Frame and Dismiss your pet before you can tame another one. Tame a Nightsaber Stalker",
+      "classes": ["Hunter"],
+      "races": null,
+      "coords": [62.6, 72.2],
+      "zone": "teldrassil",
+      "tips": [
+        {
+          "type": "warning",
+          "class": null,
+          "text": "You must right click your Pet Frame and Dismiss your pet before you can tame another one"
+        }
+      ],
+      "quests": [
+        {
+          "id": 6101,
+          "name": "Taming the Beast"
+        }
+      ],
+      "npc": null,
+      "mobs": ["Nightsaber Stalker"]
+    },
+    {
+      "id": "teldrassil_096",
+      "type": "info",
+      "description": "Talk to Laurna Morninglight and train your class spells",
+      "classes": ["Priest"],
+      "races": null,
+      "coords": [55.564, 56.746],
+      "zone": "teldrassil",
+      "tips": [],
+      "quests": [],
+      "npc": "Laurna Morninglight",
+      "mobs": []
+    },
+    {
+      "id": "teldrassil_097",
+      "type": "info",
+      "description": "Talk to Kyra Windblade and train your class spells",
+      "classes": ["Warrior"],
+      "races": null,
+      "coords": [56.221, 59.198],
+      "zone": "teldrassil",
+      "tips": [],
+      "quests": [],
+      "npc": "Kyra Windblade",
+      "mobs": []
+    },
+    {
+      "id": "teldrassil_098",
+      "type": "info",
+      "description": "Talk to Jannok Breezesong and train your class spells",
+      "classes": ["Rogue"],
+      "races": null,
+      "coords": [56.381, 60.139],
+      "zone": "teldrassil",
+      "tips": [],
+      "quests": [],
+      "npc": "Jannok Breezesong",
+      "mobs": []
+    },
+    {
+      "id": "teldrassil_099",
+      "type": "quest_accept",
+      "description": "Talk to Dazalar, accept Taming the Beast and train your class spells",
+      "classes": ["Hunter"],
+      "races": null,
+      "coords": [56.676, 59.489],
+      "zone": "teldrassil",
+      "tips": [],
+      "quests": [
+        {
+          "id": 6063,
+          "name": "Taming the Beast"
+        }
+      ],
+      "npc": "Dazalar",
+      "mobs": []
+    },
+    {
+      "id": "teldrassil_100",
+      "type": "info",
+      "description": "Use the Taming Rod on a Webwood Lurker. Tame a Webwood Lurker",
+      "classes": ["Hunter"],
+      "races": null,
+      "coords": [59.9, 58.8],
+      "zone": "teldrassil",
+      "tips": [
+        {
+          "type": "warning",
+          "class": null,
+          "text": "Use the Taming Rod on a Webwood Lurker"
+        }
+      ],
+      "quests": [
+        {
+          "id": 6063,
+          "name": "Taming the Beast"
+        }
+      ],
+      "npc": null,
+      "mobs": ["Webwood Lurker"]
+    },
+    {
+      "id": "teldrassil_101",
+      "type": "quest_turnin",
+      "description": "Talk to Dazalar, turn in Taming the Beast and accept Taming the Beast",
+      "classes": ["Hunter"],
+      "races": null,
+      "coords": [56.676, 59.489],
+      "zone": "teldrassil",
+      "tips": [],
+      "quests": [
+        {
+          "id": 6063,
+          "name": "Taming the Beast"
+        },
+        {
+          "id": 6101,
+          "name": "Taming the Beast"
+        }
+      ],
+      "npc": "Dazalar",
+      "mobs": []
+    },
+    {
+      "id": "teldrassil_102",
+      "type": "info",
+      "description": "Use the Taming Rod on a Nightsaber Stalker. You must right click your Pet Frame and Dismiss your pet before you can tame another one. Tame a Nightsaber Stalker",
+      "classes": ["Hunter"],
+      "races": null,
+      "coords": [62.6, 72.2],
+      "zone": "teldrassil",
+      "tips": [
+        {
+          "type": "warning",
+          "class": null,
+          "text": "You must right click your Pet Frame and Dismiss your pet before you can tame another one"
+        }
+      ],
+      "quests": [
+        {
+          "id": 6101,
+          "name": "Taming the Beast"
+        }
+      ],
+      "npc": null,
+      "mobs": ["Nightsaber Stalker"]
+    },
+    {
+      "id": "teldrassil_103",
+      "type": "quest_turnin",
+      "description": "Talk to Dazalar, turn in Taming the Beast and accept Taming the Beast",
+      "classes": ["Hunter"],
+      "races": null,
+      "coords": [56.676, 59.489],
+      "zone": "teldrassil",
+      "tips": [],
+      "quests": [
+        {
+          "id": 6101,
+          "name": "Taming the Beast"
+        },
+        {
+          "id": 6102,
+          "name": "Taming the Beast"
+        }
+      ],
+      "npc": "Dazalar",
+      "mobs": []
+    },
+    {
+      "id": "teldrassil_104",
+      "type": "info",
+      "description": "Use the Taming Rod on a Strigid Screecher. You must right click your Pet Frame and Dismiss your pet before you can tame another one. Tame a Strigid Screecher",
+      "classes": ["Hunter"],
+      "races": null,
+      "coords": [64.7, 66.7],
+      "zone": "teldrassil",
+      "tips": [
+        {
+          "type": "warning",
+          "class": null,
+          "text": "You must right click your Pet Frame and Dismiss your pet before you can tame another one"
+        }
+      ],
+      "quests": [
+        {
+          "id": 6102,
+          "name": "Taming the Beast"
+        }
+      ],
+      "npc": null,
+      "mobs": ["Strigid Screecher"]
+    },
+    {
+      "id": "teldrassil_105",
+      "type": "quest_turnin",
+      "description": "Talk to Dazalar, turn in Taming the Beast and accept Training the Beast",
+      "classes": ["Hunter"],
+      "races": null,
+      "coords": [56.676, 59.489],
+      "zone": "teldrassil",
+      "tips": [],
+      "quests": [
+        {
+          "id": 6102,
+          "name": "Taming the Beast"
+        },
+        {
+          "id": 6103,
+          "name": "Training the Beast"
+        }
+      ],
+      "npc": "Dazalar",
+      "mobs": []
+    },
+    {
+      "id": "teldrassil_106",
+      "type": "quest_accept",
+      "description": "Talk to Moon Priestess Amara and accept Elanaria. Moon Priestess Amara patrols the road west of Dolanaar",
+      "classes": ["Warrior"],
+      "races": null,
+      "coords": [50.22, 53.83],
+      "zone": "teldrassil",
+      "tips": [
+        {
+          "type": "warning",
+          "class": null,
+          "text": "Moon Priestess Amara patrols the road west of Dolanaar"
+        }
+      ],
+      "quests": [
+        {
+          "id": 1684,
+          "name": "Elanaria"
+        }
+      ],
+      "npc": "Moon Priestess Amara",
+      "mobs": []
+    },
+    {
+      "id": "teldrassil_107",
+      "type": "quest_accept",
+      "description": "Talk to Jannok Breezesong and accept The Apple Falls",
+      "classes": ["Rogue"],
+      "races": null,
+      "coords": [56.381, 60.139],
+      "zone": "teldrassil",
+      "tips": [],
+      "quests": [
+        {
+          "id": 2241,
+          "name": "The Apple Falls"
+        }
+      ],
+      "npc": "Jannok Breezesong",
+      "mobs": []
+    },
+    {
+      "id": "teldrassil_108",
+      "type": "info",
+      "description": "Talk to Shalomon. Buy a Walking Stick. You will equip this later. Skip this step if you happened to find a different staff",
+      "classes": ["Hunter"],
+      "races": null,
+      "coords": [56.308, 59.488],
+      "zone": "teldrassil",
+      "tips": [
+        {
+          "type": "warning",
+          "class": null,
+          "text": "You will equip this later. Skip this step if you happened to find a different staff"
+        }
+      ],
+      "quests": [],
+      "npc": "Shalomon",
+      "mobs": []
+    },
+    {
+      "id": "teldrassil_109",
+      "type": "quest_turnin",
+      "description": "Talk to Moon Priestess Amara and turn in The Road to Darnassus. Moon Priestess Amara patrols the road west of Dolanaar",
+      "classes": ["!Druid"],
+      "races": null,
+      "coords": [50.22, 53.83],
+      "zone": "teldrassil",
+      "tips": [
+        {
+          "type": "warning",
+          "class": null,
+          "text": "Moon Priestess Amara patrols the road west of Dolanaar"
+        }
+      ],
+      "quests": [
+        {
+          "id": 487,
+          "name": "The Road to Darnassus"
+        }
+      ],
+      "npc": "Moon Priestess Amara",
+      "mobs": []
+    },
+    {
+      "id": "teldrassil_110",
+      "type": "travel",
+      "description": "Travel to Darnassus",
+      "classes": ["Rogue"],
+      "races": null,
+      "coords": [82.01, 36.7],
+      "zone": "darnassus",
+      "tips": [],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "teldrassil_111",
+      "type": "quest_turnin",
+      "description": "Talk to Rellian Greenspyre, turn in Rellian Greenspyre and accept Tumors",
+      "classes": ["Rogue"],
+      "races": null,
+      "coords": [38.18, 21.64],
+      "zone": "darnassus",
+      "tips": [],
+      "quests": [
+        {
+          "id": 922,
+          "name": "Rellian Greenspyre"
+        },
+        {
+          "id": 923,
+          "name": "Tumors"
+        }
+      ],
+      "npc": "Rellian Greenspyre",
+      "mobs": []
+    },
+    {
+      "id": "teldrassil_112",
+      "type": "quest_turnin",
+      "description": "Talk to Arch Druid Fandral Staghelm atop the Tree, turn in Crown of the Earth and Teldrassil, and accept Grove of the Ancients",
+      "classes": ["Rogue"],
+      "races": null,
+      "coords": [34.96, 9.01],
+      "zone": "darnassus",
+      "tips": [],
+      "quests": [
+        {
+          "id": 935,
+          "name": "Crown of the Earth"
+        },
+        {
+          "id": 940,
+          "name": "Teldrassil"
+        },
+        {
+          "id": 952,
+          "name": "Grove of the Ancients"
+        }
+      ],
+      "npc": "Arch Druid Fandral Staghelm",
+      "mobs": []
+    },
+    {
+      "id": "teldrassil_113",
+      "type": "quest_turnin",
+      "description": "Talk to Syurna, turn in The Apple Falls and accept Destiny Calls",
+      "classes": ["Rogue"],
+      "races": null,
+      "coords": [36.99, 21.91],
+      "zone": "darnassus",
+      "tips": [],
+      "quests": [
+        {
+          "id": 2241,
+          "name": "The Apple Falls"
+        },
+        {
+          "id": 2242,
+          "name": "Destiny Calls"
+        }
+      ],
+      "npc": "Syurna",
+      "mobs": []
+    },
+    {
+      "id": "teldrassil_114",
+      "type": "quest_accept",
+      "description": "Talk to Priestess A'moora and accept Tears of the Moon",
+      "classes": ["Rogue"],
+      "races": null,
+      "coords": [36.65, 85.93],
+      "zone": "darnassus",
+      "tips": [],
+      "quests": [
+        {
+          "id": 2518,
+          "name": "Tears of the Moon"
+        }
+      ],
+      "npc": "Priestess A'moora",
+      "mobs": []
+    },
+    {
+      "id": "teldrassil_115",
+      "type": "info",
+      "description": "Cast Tame Beast on a Strigid Hunter to tame it. Attack mobs with it to learn Claw (Rank 2). Click here for more info about pet training",
+      "classes": ["Hunter"],
+      "races": null,
+      "coords": null,
+      "zone": "",
+      "tips": [
+        {
+          "type": "warning",
+          "class": null,
+          "text": "Attack mobs with it to learn Claw (Rank 2)"
+        },
+        {
+          "type": "link",
+          "class": null,
+          "text": "Click here for more info about pet training",
+          "url": "https://www.wow-petopia.com/classic/training.php"
+        }
+      ],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "teldrassil_116",
+      "type": "kill",
+      "description": "Kill Timberling Tramplers, Timberling Mire Beasts and Elder Timberlings. Loot them for their Tumors",
+      "classes": null,
+      "races": null,
+      "coords": [43.2, 42.8],
+      "zone": "teldrassil",
+      "tips": [],
+      "quests": [
+        {
+          "id": 923,
+          "name": "Tumors"
+        }
+      ],
+      "npc": null,
+      "mobs": [
+        "Elder Timberling",
+        "Timberling Trampler",
+        "Timberling Mire Beast"
+      ]
+    },
+    {
+      "id": "teldrassil_117",
+      "type": "kill",
+      "description": "Kill Lady Sathrah. Loot it for its Spinnerets. Lady Sathrah can spawn in 3 different locations",
+      "classes": null,
+      "races": null,
+      "coords": [40.7, 25.4],
+      "zone": "teldrassil",
+      "tips": [
+        {
+          "type": "warning",
+          "class": null,
+          "text": "Lady Sathrah can spawn in 3 different locations"
+        }
+      ],
+      "quests": [
+        {
+          "id": 2518,
+          "name": "Tears of the Moon"
+        }
+      ],
+      "npc": null,
+      "mobs": ["Lady Sathrah"]
+    },
+    {
+      "id": "teldrassil_118",
+      "type": "info",
+      "description": "Cast Pick Pocket on Sethir the Ancient. You must be in Stealth to use Pick Pocket. Sethir the Ancient walks along the big tree branch. Avoid fighting Sethir the Ancient. Let him walk passed you, then Stealth and Pick Pocket when you're behind him",
+      "classes": ["Rogue"],
+      "races": null,
+      "coords": [38.0, 25.2],
+      "zone": "teldrassil",
+      "tips": [
+        {
+          "type": "warning",
+          "class": null,
+          "text": "You must be in Stealth to use Pick Pocket"
+        },
+        {
+          "type": "warning",
+          "class": null,
+          "text": "Sethir the Ancient walks along the big tree branch"
+        },
+        {
+          "type": "warning",
+          "class": null,
+          "text": "Avoid fighting Sethir the Ancient. Let him walk passed you, then Stealth and Pick Pocket when you're behind him"
+        }
+      ],
+      "quests": [
+        {
+          "id": 2242,
+          "name": "Destiny Calls"
+        }
+      ],
+      "npc": null,
+      "mobs": ["Sethir the Ancient"]
+    },
+    {
+      "id": "teldrassil_119",
+      "type": "quest_accept",
+      "description": "Talk to Sentinel Arynia Cloudsbreak and accept The Enchanted Glade",
+      "classes": null,
+      "races": null,
+      "coords": [38.3, 34.3],
+      "zone": "teldrassil",
+      "tips": [],
+      "quests": [
+        {
+          "id": 937,
+          "name": "The Enchanted Glade"
+        }
+      ],
+      "npc": "Sentinel Arynia Cloudsbreak",
+      "mobs": []
+    },
+    {
+      "id": "teldrassil_120",
+      "type": "kill",
+      "description": "Kill Bloodfeather Harpies. Loot them for their Belts. Bloodfeather Matriarchs cast Healing Wave and Lightning Bolt which does a lot of damage. Try to burst them fast",
+      "classes": null,
+      "races": null,
+      "coords": [33.619, 29.819],
+      "zone": "teldrassil",
+      "tips": [
+        {
+          "type": "warning",
+          "class": null,
+          "text": "Bloodfeather Matriarchs cast Healing Wave and Lightning Bolt which does a lot of damage. Try to burst them fast"
+        }
+      ],
+      "quests": [
+        {
+          "id": 937,
+          "name": "The Enchanted Glade"
+        }
+      ],
+      "npc": null,
+      "mobs": [
+        "Bloodfeather Harpy",
+        "Bloodfeather Rogue",
+        "Bloodfeather Sorceress",
+        "Bloodfeather Fury",
+        "Bloodfeather Wind Witch",
+        "Bloodfeather Matriarch"
+      ]
+    },
+    {
+      "id": "teldrassil_121",
+      "type": "quest_accept",
+      "description": "Talk to Mist. This will start an escort quest",
+      "classes": null,
+      "races": null,
+      "coords": [31.54, 31.62],
+      "zone": "teldrassil",
+      "tips": [
+        {
+          "type": "warning",
+          "class": null,
+          "text": "This will start an escort quest"
+        }
+      ],
+      "quests": [
+        {
+          "id": 938,
+          "name": "Mist"
+        }
+      ],
+      "npc": "Mist",
+      "mobs": []
+    },
+    {
+      "id": "teldrassil_122",
+      "type": "quest_turnin",
+      "description": "Talk to Sentinel Arynia Cloudsbreak and turn in Mist",
+      "classes": null,
+      "races": null,
+      "coords": [38.3, 34.4],
+      "zone": "teldrassil",
+      "tips": [],
+      "quests": [
+        {
+          "id": 938,
+          "name": "Mist"
+        }
+      ],
+      "npc": "Sentinel Arynia Cloudsbreak",
+      "mobs": []
+    },
+    {
+      "id": "teldrassil_123",
+      "type": "quest_turnin",
+      "description": "Talk to Sentinel Arynia Cloudsbreak, turn in The Enchanted Glade and accept Teldrassil",
+      "classes": null,
+      "races": null,
+      "coords": [38.3, 34.4],
+      "zone": "teldrassil",
+      "tips": [],
+      "quests": [
+        {
+          "id": 937,
+          "name": "The Enchanted Glade"
+        },
+        {
+          "id": 940,
+          "name": "Teldrassil"
+        }
+      ],
+      "npc": "Sentinel Arynia Cloudsbreak",
+      "mobs": []
+    },
+    {
+      "id": "teldrassil_124",
+      "type": "travel",
+      "description": "Travel to Darnassus",
+      "classes": null,
+      "races": null,
+      "coords": [82.01, 36.7],
+      "zone": "darnassus",
+      "tips": [],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "teldrassil_125",
+      "type": "quest_accept",
+      "description": "Talk to Mydrannul and accept Nessa Shadowsong",
+      "classes": null,
+      "races": null,
+      "coords": [70.679, 45.379],
+      "zone": "darnassus",
+      "tips": [],
+      "quests": [
+        {
+          "id": 6344,
+          "name": "Nessa Shadowsong"
+        }
+      ],
+      "npc": "Mydrannul",
+      "mobs": []
+    },
+    {
+      "id": "teldrassil_126",
+      "type": "quest_turnin",
+      "description": "Talk to Elanaria, turn in Elanaria and accept Vorlus Vilehoof",
+      "classes": ["Warrior"],
+      "races": null,
+      "coords": [57.305, 34.606],
+      "zone": "darnassus",
+      "tips": [],
+      "quests": [
+        {
+          "id": 1684,
+          "name": "Elanaria"
+        },
+        {
+          "id": 1683,
+          "name": "Vorlus Vilehoof"
+        }
+      ],
+      "npc": "Elanaria",
+      "mobs": []
+    },
+    {
+      "id": "teldrassil_127",
+      "type": "travel",
+      "description": "Travel toward Vorlus Vilehoof",
+      "classes": ["Warrior"],
+      "races": null,
+      "coords": [48.7, 62.2],
+      "zone": "teldrassil",
+      "tips": [],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "teldrassil_128",
+      "type": "kill",
+      "description": "Kill Vorlus Vilehoof. Loot him for his Horn",
+      "classes": ["Warrior"],
+      "races": null,
+      "coords": [47.2, 63.7],
+      "zone": "teldrassil",
+      "tips": [],
+      "quests": [
+        {
+          "id": 1683,
+          "name": "Vorlus Vilehoof"
+        }
+      ],
+      "npc": null,
+      "mobs": ["Vorlus Vilehoof"]
+    },
+    {
+      "id": "teldrassil_129",
+      "type": "travel",
+      "description": "Travel to Darnassus",
+      "classes": ["Warrior"],
+      "races": null,
+      "coords": [82.01, 36.7],
+      "zone": "darnassus",
+      "tips": [],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "teldrassil_130",
+      "type": "quest_turnin",
+      "description": "Talk to Elanaria and turn in Vorlus Vilehoof",
+      "classes": ["Warrior"],
+      "races": null,
+      "coords": [57.305, 34.606],
+      "zone": "darnassus",
+      "tips": [],
+      "quests": [
+        {
+          "id": 1683,
+          "name": "Vorlus Vilehoof"
+        }
+      ],
+      "npc": "Elanaria",
+      "mobs": []
+    },
+    {
+      "id": "teldrassil_131",
+      "type": "quest_turnin",
+      "description": "Talk to Mathrengyl Bearwalker on the middle level, turn in Back to Darnassus and accept Body and Heart",
+      "classes": ["Druid"],
+      "races": null,
+      "coords": [35.38, 8.4],
+      "zone": "darnassus",
+      "tips": [],
+      "quests": [
+        {
+          "id": 5931,
+          "name": "Back to Darnassus"
+        },
+        {
+          "id": 6001,
+          "name": "Body and Heart"
+        }
+      ],
+      "npc": "Mathrengyl Bearwalker",
+      "mobs": []
+    },
+    {
+      "id": "teldrassil_132",
+      "type": "quest_turnin",
+      "description": "Talk to Arch Druid Fandral Staghelm, turn in Crown of the Earth and accept Grove of the Ancients",
+      "classes": null,
+      "races": null,
+      "coords": [34.814, 9.255],
+      "zone": "darnassus",
+      "tips": [],
+      "quests": [
+        {
+          "id": 935,
+          "name": "Crown of the Earth"
+        },
+        {
+          "id": 952,
+          "name": "Grove of the Ancients"
+        }
+      ],
+      "npc": "Arch Druid Fandral Staghelm",
+      "mobs": []
+    },
+    {
+      "id": "teldrassil_133",
+      "type": "quest_turnin",
+      "description": "Talk to Arch Druid Fandral Staghelm, turn in Teldrassil and accept Grove of the Ancients",
+      "classes": ["Hunter"],
+      "races": null,
+      "coords": [34.814, 9.255],
+      "zone": "darnassus",
+      "tips": [],
+      "quests": [
+        {
+          "id": 940,
+          "name": "Teldrassil"
+        },
+        {
+          "id": 952,
+          "name": "Grove of the Ancients"
+        }
+      ],
+      "npc": "Arch Druid Fandral Staghelm",
+      "mobs": []
+    },
+    {
+      "id": "teldrassil_134",
+      "type": "quest_turnin",
+      "description": "Talk to Jocaste and turn in Training the Beast",
+      "classes": ["Hunter"],
+      "races": null,
+      "coords": [40.377, 8.545],
+      "zone": "darnassus",
+      "tips": [],
+      "quests": [
+        {
+          "id": 6103,
+          "name": "Training the Beast"
+        }
+      ],
+      "npc": "Jocaste",
+      "mobs": []
+    },
+    {
+      "id": "teldrassil_135",
+      "type": "quest_turnin",
+      "description": "Talk to Syurna and turn in Destiny Calls",
+      "classes": ["Rogue"],
+      "races": null,
+      "coords": [36.99, 21.91],
+      "zone": "darnassus",
+      "tips": [],
+      "quests": [
+        {
+          "id": 2242,
+          "name": "Destiny Calls"
+        }
+      ],
+      "npc": "Syurna",
+      "mobs": []
+    },
+    {
+      "id": "teldrassil_136",
+      "type": "quest_turnin",
+      "description": "Talk to Rellian Greenspyre and turn in Tumors",
+      "classes": null,
+      "races": null,
+      "coords": [38.184, 21.639],
+      "zone": "darnassus",
+      "tips": [],
+      "quests": [
+        {
+          "id": 923,
+          "name": "Tumors"
+        }
+      ],
+      "npc": "Rellian Greenspyre",
+      "mobs": []
+    },
+    {
+      "id": "teldrassil_137",
+      "type": "travel",
+      "description": "Travel toward Turian",
+      "classes": ["Rogue"],
+      "races": null,
+      "coords": [62.68, 65.58],
+      "zone": "darnassus",
+      "tips": [],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "teldrassil_138",
+      "type": "info",
+      "description": "Talk to Rellian Greenspyre on the second floor. Buy a Balanced Throwing Dagger",
+      "classes": ["Rogue"],
+      "races": null,
+      "coords": [62.68, 65.58],
+      "zone": "darnassus",
+      "tips": [],
+      "quests": [],
+      "npc": "Turian",
+      "mobs": []
+    },
+    {
+      "id": "teldrassil_139",
+      "type": "quest_turnin",
+      "description": "Talk to Priestess A'moora, turn in Tears of the Moon and accept Sathrah's Sacrifice",
+      "classes": null,
+      "races": null,
+      "coords": [36.65, 85.93],
+      "zone": "darnassus",
+      "tips": [],
+      "quests": [
+        {
+          "id": 2518,
+          "name": "Tears of the Moon"
+        },
+        {
+          "id": 2520,
+          "name": "Sathrah's Sacrifice"
+        }
+      ],
+      "npc": "Priestess A'moora",
+      "mobs": []
+    },
+    {
+      "id": "teldrassil_140",
+      "type": "info",
+      "description": "Use Sathrah's Sacrifice at the fountain. Offer the sacrifice at the fountain",
+      "classes": null,
+      "races": null,
+      "coords": [39.7, 85.8],
+      "zone": "darnassus",
+      "tips": [
+        {
+          "type": "warning",
+          "class": null,
+          "text": "Use Sathrah's Sacrifice at the fountain"
+        }
+      ],
+      "quests": [
+        {
+          "id": 2520,
+          "name": "Sathrah's Sacrifice"
+        }
+      ],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "teldrassil_141",
+      "type": "quest_turnin",
+      "description": "Talk to Priestess A'moora and turn in Sathrah's Sacrifice",
+      "classes": null,
+      "races": null,
+      "coords": [36.65, 85.93],
+      "zone": "darnassus",
+      "tips": [],
+      "quests": [
+        {
+          "id": 2520,
+          "name": "Sathrah's Sacrifice"
+        }
+      ],
+      "npc": "Priestess A'moora",
+      "mobs": []
+    },
+    {
+      "id": "teldrassil_142",
+      "type": "info",
+      "description": "Talk to Firodren Mooncaller and train Herbalism. Herbalism is required to gather 5 Earthroot for a level 15 quest later. You can unlearn it afterwards",
+      "classes": ["Druid"],
+      "races": null,
+      "coords": [47.95, 68.03],
+      "zone": "darnassus",
+      "tips": [
+        {
+          "type": "warning",
+          "class": null,
+          "text": "Herbalism is required to gather 5 Earthroot for a level 15 quest later. You can unlearn it afterwards"
+        }
+      ],
+      "quests": [],
+      "npc": "Firodren Mooncaller",
+      "mobs": []
+    },
+    {
+      "id": "teldrassil_143",
+      "type": "info",
+      "description": "Talk to Ilyenia Moonfire and train Staves. If you have a Staff in your bags, equip it",
+      "classes": ["Hunter", "Warrior", "Priest"],
+      "races": null,
+      "coords": [57.56, 46.73],
+      "zone": "darnassus",
+      "tips": [
+        {
+          "type": "warning",
+          "class": "Hunter",
+          "text": "If you have a Staff in your bags, equip it"
+        }
+      ],
+      "quests": [],
+      "npc": "Ilyenia Moonfire",
+      "mobs": []
+    },
+    {
+      "id": "teldrassil_144",
+      "type": "info",
+      "description": "Equip the Walking Stick",
+      "classes": ["Hunter"],
+      "races": null,
+      "coords": null,
+      "zone": "",
+      "tips": [],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "teldrassil_145",
+      "type": "info",
+      "description": "Talk to Ariyell Skyshadow. Buy and equip a Laminated Recurve Bow. Buy Sharp Arrows",
+      "classes": ["Hunter"],
+      "races": null,
+      "coords": [58.76, 44.48],
+      "zone": "darnassus",
+      "tips": [],
+      "quests": [],
+      "npc": "Ariyell Skyshadow",
+      "mobs": []
+    },
+    {
+      "id": "teldrassil_146",
+      "type": "info",
+      "description": "Talk to Ariyell Skyshadow. Buy a Quarter Staff. Equip it at level 11",
+      "classes": ["Warrior"],
+      "races": null,
+      "coords": [58.76, 44.48],
+      "zone": "darnassus",
+      "tips": [
+        {
+          "type": "warning",
+          "class": null,
+          "text": "Equip it at level 11"
+        }
+      ],
+      "quests": [],
+      "npc": "Ariyell Skyshadow",
+      "mobs": []
+    },
+    {
+      "id": "teldrassil_147",
+      "type": "info",
+      "description": "Talk to Ariyell Skyshadow. Buy and equip a Cutlass if you can't afford a Quarter Staff",
+      "classes": ["Warrior"],
+      "races": null,
+      "coords": [58.76, 44.48],
+      "zone": "darnassus",
+      "tips": [
+        {
+          "type": "warning",
+          "class": null,
+          "text": "if you can't afford a Quarter Staff"
+        }
+      ],
+      "quests": [],
+      "npc": "Ariyell Skyshadow",
+      "mobs": []
+    },
+    {
+      "id": "teldrassil_148",
+      "type": "travel",
+      "description": "Travel through the purple portal to Rut'theran Village",
+      "classes": null,
+      "races": null,
+      "coords": [30.0, 41.43],
+      "zone": "darnassus",
+      "tips": [],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "teldrassil_149",
+      "type": "quest_turnin",
+      "description": "Talk to Nessa Shadowsong, turn in Nessa Shadowsong and accept The Bounty of Teldrassil",
+      "classes": null,
+      "races": null,
+      "coords": [56.25, 92.44],
+      "zone": "teldrassil",
+      "tips": [],
+      "quests": [
+        {
+          "id": 6344,
+          "name": "Nessa Shadowsong"
+        },
+        {
+          "id": 6341,
+          "name": "The Bounty of Teldrassil"
+        }
+      ],
+      "npc": "Nessa Shadowsong",
+      "mobs": []
+    },
+    {
+      "id": "teldrassil_150",
+      "type": "quest_turnin",
+      "description": "Talk to Vesprystus, turn in The Bounty of Teldrassil and accept Flight to Auberdine",
+      "classes": null,
+      "races": null,
+      "coords": [58.399, 94.016],
+      "zone": "teldrassil",
+      "tips": [],
+      "quests": [
+        {
+          "id": 6341,
+          "name": "The Bounty of Teldrassil"
+        },
+        {
+          "id": 6342,
+          "name": "Flight to Auberdine"
+        }
+      ],
+      "npc": "Vesprystus",
+      "mobs": []
+    },
+    {
+      "id": "teldrassil_151",
+      "type": "fly",
+      "description": "Talk to Vesprystus and fly to Darkshore",
+      "classes": null,
+      "races": null,
+      "coords": [58.399, 94.016],
+      "zone": "teldrassil",
+      "tips": [],
+      "quests": [],
+      "npc": "Vesprystus",
+      "mobs": []
+    }
+  ]
+}

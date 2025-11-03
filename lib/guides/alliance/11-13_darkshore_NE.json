@@ -1,0 +1,1279 @@
+{
+  "zone": "Darkshore",
+  "levelRange": "11-13",
+  "faction": "Alliance",
+  "name": "11-13_darkshore_NE",
+  "next": "13-13_lochmodan_NE",
+  "steps": [
+    {
+      "id": "darkshore_001",
+      "type": "quest_turnin",
+      "description": "Talk to Nessa Shadowsong and turn in Nessa Shadowsong. Accept The Bounty of Teldrassil",
+      "classes": null,
+      "races": ["NightElf"],
+      "coords": [56.25, 92.44],
+      "zone": "teldrassil",
+      "tips": [],
+      "quests": [
+        {
+          "id": 6344,
+          "name": "Nessa Shadowsong"
+        },
+        {
+          "id": 6341,
+          "name": "The Bounty of Teldrassil"
+        }
+      ],
+      "npc": "Nessa Shadowsong",
+      "mobs": []
+    },
+    {
+      "id": "darkshore_002",
+      "type": "quest_turnin",
+      "description": "Talk to Vesprystus, turn in The Bounty of Teldrassil, and accept Flight to Auberdine",
+      "classes": null,
+      "races": ["NightElf"],
+      "coords": [58.39, 94.01],
+      "zone": "teldrassil",
+      "tips": [],
+      "quests": [
+        {
+          "id": 6341,
+          "name": "The Bounty of Teldrassil"
+        },
+        {
+          "id": 6342,
+          "name": "Flight to Auberdine"
+        }
+      ],
+      "npc": "Vesprystus",
+      "mobs": []
+    },
+    {
+      "id": "darkshore_003",
+      "type": "fly",
+      "description": "Talk to Vesprystus and fly to Auberdine",
+      "classes": null,
+      "races": ["NightElf"],
+      "coords": [58.39, 94.01],
+      "zone": "teldrassil",
+      "tips": [],
+      "quests": [],
+      "npc": "Vesprystus",
+      "mobs": []
+    },
+    {
+      "id": "darkshore_004",
+      "type": "fly",
+      "description": "Talk to Gwennyth Bly'Leggonde and get the Auberdine flight path",
+      "classes": null,
+      "races": ["!NightElf"],
+      "coords": [19.1, 20.63],
+      "zone": "felwood",
+      "tips": [],
+      "quests": [],
+      "npc": "Gwennyth Bly'Leggonde",
+      "mobs": []
+    },
+    {
+      "id": "darkshore_005",
+      "type": "quest_accept",
+      "description": "Talk to Gwennyth Bly'Leggonde and accept Washed Ashore",
+      "classes": null,
+      "races": ["NightElf"],
+      "coords": [19.1, 20.63],
+      "zone": "felwood",
+      "tips": [],
+      "quests": [
+        {
+          "id": 3524,
+          "name": "Washed Ashore"
+        }
+      ],
+      "npc": "Gwennyth Bly'Leggonde",
+      "mobs": []
+    },
+    {
+      "id": "darkshore_006",
+      "type": "quest_accept",
+      "description": "Talk to Gwennyth Bly'Leggonde and accept Washed Ashore",
+      "classes": null,
+      "races": ["!NightElf"],
+      "coords": [19.1, 20.63],
+      "zone": "felwood",
+      "tips": [],
+      "quests": [
+        {
+          "id": 3524,
+          "name": "Washed Ashore"
+        }
+      ],
+      "npc": "Gwennyth Bly'Leggonde",
+      "mobs": []
+    },
+    {
+      "id": "darkshore_007",
+      "type": "quest_turnin",
+      "description": "Talk to Laird and turn in Flight to Auberdine",
+      "classes": null,
+      "races": ["NightElf"],
+      "coords": [19.27, 19.14],
+      "zone": "felwood",
+      "tips": [],
+      "quests": [
+        {
+          "id": 6342,
+          "name": "Flight to Auberdine"
+        }
+      ],
+      "npc": "Laird",
+      "mobs": []
+    },
+    {
+      "id": "darkshore_008",
+      "type": "info",
+      "description": "Talk to Laird. Buy food if needed. Longjaw Mud Snapper is very cheap",
+      "classes": null,
+      "races": null,
+      "coords": [19.27, 19.14],
+      "zone": "felwood",
+      "tips": [],
+      "quests": [],
+      "npc": "Laird",
+      "mobs": []
+    },
+    {
+      "id": "darkshore_009",
+      "type": "quest_accept",
+      "description": "Talk to Wizbang Cranktoggle and accept Buzzbox 827",
+      "classes": null,
+      "races": null,
+      "coords": [19.51, 18.97],
+      "zone": "felwood",
+      "tips": [],
+      "quests": [
+        {
+          "id": 983,
+          "name": "Buzzbox 827"
+        }
+      ],
+      "npc": "Wizbang Cranktoggle",
+      "mobs": []
+    },
+    {
+      "id": "darkshore_010",
+      "type": "info",
+      "description": "Talk to Allyndia. Buy water if needed",
+      "classes": ["!Warrior", "!Rogue"],
+      "races": null,
+      "coords": [37.12, 43.616],
+      "zone": "darkshore",
+      "tips": [],
+      "quests": [],
+      "npc": "Allyndia",
+      "mobs": []
+    },
+    {
+      "id": "darkshore_011",
+      "type": "info",
+      "description": "Talk to Innkeeper Shaussiy and set your Hearthstone to Auberdine",
+      "classes": null,
+      "races": null,
+      "coords": [37.04, 44.13],
+      "zone": "darkshore",
+      "tips": [],
+      "quests": [],
+      "npc": "Innkeeper Shaussiy",
+      "mobs": []
+    },
+    {
+      "id": "darkshore_012",
+      "type": "info",
+      "description": "Talk to Kurdram Stonehammer. Train Mining, cast Find Minerals",
+      "classes": ["Warrior", "Rogue", "Paladin"],
+      "races": null,
+      "coords": [38.25, 41.008],
+      "zone": "darkshore",
+      "tips": [],
+      "quests": [],
+      "npc": "Kurdram Stonehammer",
+      "mobs": []
+    },
+    {
+      "id": "darkshore_013",
+      "type": "info",
+      "description": "Talk to Delfrum Flintbeard. Train Blacksmithing. This will allow you to make +2 damage sharpening stones for your weapon which are very strong",
+      "classes": ["Warrior", "Rogue"],
+      "races": null,
+      "coords": [38.191, 40.934],
+      "zone": "darkshore",
+      "tips": [],
+      "quests": [],
+      "npc": "Delfrum Flintbeard",
+      "mobs": []
+    },
+    {
+      "id": "darkshore_014",
+      "type": "info",
+      "description": "Talk to Delfrum Flintbeard. This will allow you to make +2 damage weightstones for your weapon which are very strong",
+      "classes": ["Paladin"],
+      "races": null,
+      "coords": [38.191, 40.934],
+      "zone": "darkshore",
+      "tips": [],
+      "quests": [],
+      "npc": "Delfrum Flintbeard",
+      "mobs": []
+    },
+    {
+      "id": "darkshore_015",
+      "type": "info",
+      "description": "Talk to Thelgrum Stonehammer. Buy a Mining Pick from Thelgrum Stonehammer",
+      "classes": ["Warrior", "Rogue", "Paladin"],
+      "races": null,
+      "coords": [38.225, 41.199],
+      "zone": "darkshore",
+      "tips": [],
+      "quests": [],
+      "npc": "Thelgrum Stonehammer",
+      "mobs": []
+    },
+    {
+      "id": "darkshore_016",
+      "type": "quest_accept",
+      "description": "Talk to Tharnariun Treetender and accept Plagued Lands",
+      "classes": null,
+      "races": null,
+      "coords": [38.844, 43.416],
+      "zone": "darkshore",
+      "tips": [],
+      "quests": [
+        {
+          "id": 2118,
+          "name": "Plagued Lands"
+        }
+      ],
+      "npc": "Tharnariun Treetender",
+      "mobs": []
+    },
+    {
+      "id": "darkshore_017",
+      "type": "quest_accept",
+      "description": "Talk to Terenthis and accept How Big a Threat?",
+      "classes": null,
+      "races": null,
+      "coords": [22.24, 18.22],
+      "zone": "felwood",
+      "tips": [],
+      "quests": [
+        {
+          "id": 984,
+          "name": "How Big a Threat?"
+        }
+      ],
+      "npc": "Terenthis",
+      "mobs": []
+    },
+    {
+      "id": "darkshore_018",
+      "type": "quest_turnin",
+      "description": "Talk to Gubber Blump, accept The Family and the Fishing Pole and turn in The Family and the Fishing Pole",
+      "classes": null,
+      "races": null,
+      "coords": [36.096, 44.931],
+      "zone": "darkshore",
+      "tips": [],
+      "quests": [
+        {
+          "id": 1141,
+          "name": "The Family and the Fishing Pole"
+        }
+      ],
+      "npc": "Gubber Blump",
+      "mobs": []
+    },
+    {
+      "id": "darkshore_019",
+      "type": "kill",
+      "description": "Kill Pygmy Tide Crawlers and Young Reef Crawlers. Loot them for their Legs",
+      "classes": null,
+      "races": null,
+      "coords": null,
+      "zone": "",
+      "tips": [
+        {
+          "type": "warning",
+          "class": null,
+          "text": "You may need to go in the water for them"
+        }
+      ],
+      "quests": [
+        {
+          "id": 983,
+          "name": "Buzzbox 827"
+        }
+      ],
+      "npc": null,
+      "mobs": ["Pygmy Tide Crawler", "Young Reef Crawler"]
+    },
+    {
+      "id": "darkshore_020",
+      "type": "loot",
+      "description": "Loot the Beached Sea Creature for the Sea Creature Bones",
+      "classes": null,
+      "races": null,
+      "coords": [18.81, 26.69],
+      "zone": "felwood",
+      "tips": [],
+      "quests": [
+        {
+          "id": 3524,
+          "name": "Washed Ashore"
+        }
+      ],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "darkshore_021",
+      "type": "info",
+      "description": "Discover the Furbolg Camp. Run to the totem then run away",
+      "classes": null,
+      "races": null,
+      "coords": [22.39, 29.45],
+      "zone": "felwood",
+      "tips": [],
+      "quests": [
+        {
+          "id": 984,
+          "name": "How Big a Threat?"
+        }
+      ],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "darkshore_022",
+      "type": "info",
+      "description": "Use Tharnariun's Hope on a Rabid Thistle Bear",
+      "classes": null,
+      "races": null,
+      "coords": null,
+      "zone": "",
+      "tips": [],
+      "quests": [
+        {
+          "id": 2118,
+          "name": "Plagued Lands"
+        }
+      ],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "darkshore_023",
+      "type": "kill",
+      "description": "Kill Pygmy Tide Crawlers and Young Reef Crawlers. Loot them for their Legs",
+      "classes": null,
+      "races": null,
+      "coords": null,
+      "zone": "",
+      "tips": [
+        {
+          "type": "warning",
+          "class": null,
+          "text": "You may need to go in the water for them"
+        }
+      ],
+      "quests": [
+        {
+          "id": 983,
+          "name": "Buzzbox 827"
+        }
+      ],
+      "npc": null,
+      "mobs": ["Pygmy Tide Crawler", "Young Reef Crawler"]
+    },
+    {
+      "id": "darkshore_024",
+      "type": "grind",
+      "description": "Grind until you are 3550xp away from level 12. 5250+/8800xp",
+      "classes": null,
+      "races": null,
+      "coords": null,
+      "zone": "",
+      "tips": [],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "darkshore_025",
+      "type": "quest_turnin",
+      "description": "Click the Buzzbox 827 on the ground and turn in Buzzbox 827",
+      "classes": null,
+      "races": null,
+      "coords": [19.13, 21.39],
+      "zone": "felwood",
+      "tips": [],
+      "quests": [
+        {
+          "id": 983,
+          "name": "Buzzbox 827"
+        }
+      ],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "darkshore_026",
+      "type": "quest_accept",
+      "description": "Click the Buzzbox 827 on the ground and accept Buzzbox 411",
+      "classes": null,
+      "races": null,
+      "coords": [19.13, 21.39],
+      "zone": "felwood",
+      "tips": [],
+      "quests": [
+        {
+          "id": 1001,
+          "name": "Buzzbox 411"
+        }
+      ],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "darkshore_027",
+      "type": "quest_turnin",
+      "description": "Talk to Gwennyth Bly'Leggonde, turn in Washed Ashore, and accept Washed Ashore",
+      "classes": null,
+      "races": null,
+      "coords": [19.1, 20.63],
+      "zone": "felwood",
+      "tips": [],
+      "quests": [
+        {
+          "id": 3524,
+          "name": "Washed Ashore"
+        },
+        {
+          "id": 4681,
+          "name": "Washed Ashore"
+        }
+      ],
+      "npc": "Gwennyth Bly'Leggonde",
+      "mobs": []
+    },
+    {
+      "id": "darkshore_028",
+      "type": "quest_turnin",
+      "description": "Talk to Tharnariun Treetender, turn in Plagued Lands, and accept Cleansing of the Infected",
+      "classes": null,
+      "races": null,
+      "coords": [21.63, 18.15],
+      "zone": "felwood",
+      "tips": [],
+      "quests": [
+        {
+          "id": 2118,
+          "name": "Plagued Lands"
+        },
+        {
+          "id": 2138,
+          "name": "Cleansing of the Infected"
+        }
+      ],
+      "npc": "Tharnariun Treetender",
+      "mobs": []
+    },
+    {
+      "id": "darkshore_029",
+      "type": "quest_turnin",
+      "description": "Talk to Terenthis, turn in How Big a Threat?, and accept How Big a Threat? and Thundris Windweaver",
+      "classes": null,
+      "races": null,
+      "coords": [22.24, 18.22],
+      "zone": "felwood",
+      "tips": [],
+      "quests": [
+        {
+          "id": 984,
+          "name": "How Big a Threat?"
+        },
+        {
+          "id": 985,
+          "name": "How Big a Threat?"
+        },
+        {
+          "id": 4761,
+          "name": "Thundris Windweaver"
+        }
+      ],
+      "npc": "Terenthis",
+      "mobs": []
+    },
+    {
+      "id": "darkshore_030",
+      "type": "info",
+      "description": "Talk to Dalmond. Buy as many Small Brown Pouches as you need. Buy Sharp Arrows or Heavy Shots",
+      "classes": ["!Warrior", "!Rogue"],
+      "races": null,
+      "coords": [37.45, 40.5],
+      "zone": "darkshore",
+      "tips": [],
+      "quests": [],
+      "npc": "Dalmond",
+      "mobs": []
+    },
+    {
+      "id": "darkshore_031",
+      "type": "quest_turnin",
+      "description": "Talk to Thundris Windweaver, turn in Thundris Windweaver, and accept Tools of the Highborne and Bashal'Aran",
+      "classes": null,
+      "races": null,
+      "coords": [19.98, 14.4],
+      "zone": "felwood",
+      "tips": [],
+      "quests": [
+        {
+          "id": 4761,
+          "name": "Thundris Windweaver"
+        },
+        {
+          "id": 958,
+          "name": "Tools of the Highborne"
+        },
+        {
+          "id": 954,
+          "name": "Bashal'Aran"
+        }
+      ],
+      "npc": "Thundris Windweaver",
+      "mobs": []
+    },
+    {
+      "id": "darkshore_032",
+      "type": "info",
+      "description": "Enter the Moonkin Cave. Use the Cenarion Moondust at the Moonkin Stone inside the cave to summon Lunaclaw",
+      "classes": ["Druid"],
+      "races": null,
+      "coords": [43.5, 45.97],
+      "zone": "darkshore",
+      "tips": [],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "darkshore_033",
+      "type": "kill",
+      "description": "Kill Lunaclaw. Talk to the Lunaclaw Spirit",
+      "classes": ["Druid"],
+      "races": null,
+      "coords": [43.5, 45.97],
+      "zone": "darkshore",
+      "tips": [],
+      "quests": [
+        {
+          "id": 6001,
+          "name": "Body and Heart"
+        }
+      ],
+      "npc": "Lunaclaw Spirit",
+      "mobs": ["Lunaclaw"]
+    },
+    {
+      "id": "darkshore_034",
+      "type": "quest_accept",
+      "description": "Talk to Laird and accept Return to Nessa",
+      "classes": null,
+      "races": ["NightElf"],
+      "coords": [19.27, 19.14],
+      "zone": "felwood",
+      "tips": [],
+      "quests": [
+        {
+          "id": 6343,
+          "name": "Return to Nessa"
+        }
+      ],
+      "npc": "Laird",
+      "mobs": []
+    },
+    {
+      "id": "darkshore_035",
+      "type": "fly",
+      "description": "Talk to Caylais Moonfeather and fly to Teldrassil",
+      "classes": null,
+      "races": ["NightElf"],
+      "coords": [36.336, 45.574],
+      "zone": "darkshore",
+      "tips": [],
+      "quests": [],
+      "npc": "Caylais Moonfeather",
+      "mobs": []
+    },
+    {
+      "id": "darkshore_036",
+      "type": "quest_turnin",
+      "description": "Talk to Nessa Shadowsong and turn in Return to Nessa",
+      "classes": null,
+      "races": ["NightElf"],
+      "coords": [56.25, 92.44],
+      "zone": "teldrassil",
+      "tips": [],
+      "quests": [
+        {
+          "id": 6343,
+          "name": "Return to Nessa"
+        }
+      ],
+      "npc": "Nessa Shadowsong",
+      "mobs": []
+    },
+    {
+      "id": "darkshore_037",
+      "type": "travel",
+      "description": "Take the purple portal into Darnassus",
+      "classes": null,
+      "races": ["NightElf"],
+      "coords": [55.889, 89.456],
+      "zone": "teldrassil",
+      "tips": [],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "darkshore_038",
+      "type": "info",
+      "description": "Talk to Mathrengyl Bearwalker, turn in Body and Heart, and train your class spells",
+      "classes": ["Druid"],
+      "races": null,
+      "coords": [35.375, 8.405],
+      "zone": "darnassus",
+      "tips": [],
+      "quests": [
+        {
+          "id": 6001,
+          "name": "Body and Heart"
+        }
+      ],
+      "npc": "Mathrengyl Bearwalker",
+      "mobs": []
+    },
+    {
+      "id": "darkshore_039",
+      "type": "info",
+      "description": "Talk to Arias'ta Bladesinger and train your class spells",
+      "classes": ["Warrior"],
+      "races": ["NightElf"],
+      "coords": [58.72, 34.92],
+      "zone": "darnassus",
+      "tips": [],
+      "quests": [],
+      "npc": "Arias'ta Bladesinger",
+      "mobs": []
+    },
+    {
+      "id": "darkshore_040",
+      "type": "info",
+      "description": "Talk to Ilyenia Moonfire and train Thrown",
+      "classes": ["Warrior"],
+      "races": ["NightElf"],
+      "coords": [57.56, 46.72],
+      "zone": "darnassus",
+      "tips": [],
+      "quests": [],
+      "npc": "Ilyenia Moonfire",
+      "mobs": []
+    },
+    {
+      "id": "darkshore_041",
+      "type": "info",
+      "description": "Talk to Ariyell Skyshadow. Buy a stack of Keen Throwing Knives",
+      "classes": ["Warrior"],
+      "races": ["NightElf"],
+      "coords": [58.765, 44.494],
+      "zone": "darnassus",
+      "tips": [],
+      "quests": [],
+      "npc": "Ariyell Skyshadow",
+      "mobs": []
+    },
+    {
+      "id": "darkshore_042",
+      "type": "info",
+      "description": "Talk to Jandria and train your class spells",
+      "classes": ["Priest"],
+      "races": ["NightElf"],
+      "coords": [37.9, 82.74],
+      "zone": "darnassus",
+      "tips": [],
+      "quests": [],
+      "npc": "Jandria",
+      "mobs": []
+    },
+    {
+      "id": "darkshore_043",
+      "type": "info",
+      "description": "Enter the Cenarion Enclave. Talk to Syurna and train your class spells",
+      "classes": ["Rogue"],
+      "races": ["NightElf"],
+      "coords": [37.0, 21.92],
+      "zone": "darnassus",
+      "tips": [],
+      "quests": [],
+      "npc": "Syurna",
+      "mobs": []
+    },
+    {
+      "id": "darkshore_044",
+      "type": "info",
+      "description": "Talk to Jocaste and train your class spells",
+      "classes": ["Hunter"],
+      "races": ["NightElf"],
+      "coords": [40.377, 8.545],
+      "zone": "darnassus",
+      "tips": [],
+      "quests": [],
+      "npc": "Jocaste",
+      "mobs": []
+    },
+    {
+      "id": "darkshore_045",
+      "type": "info",
+      "description": "Hearth to Auberdine",
+      "classes": null,
+      "races": null,
+      "coords": null,
+      "zone": "",
+      "tips": [],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "darkshore_046",
+      "type": "quest_accept",
+      "description": "Talk to Cerellean Whiteclaw and accept For Love Eternal",
+      "classes": null,
+      "races": null,
+      "coords": [35.743, 43.708],
+      "zone": "darkshore",
+      "tips": [],
+      "quests": [
+        {
+          "id": 963,
+          "name": "For Love Eternal"
+        }
+      ],
+      "npc": "Cerellean Whiteclaw",
+      "mobs": []
+    },
+    {
+      "id": "darkshore_047",
+      "type": "travel",
+      "description": "Travel to the end of the dock then jump into the water",
+      "classes": null,
+      "races": null,
+      "coords": [32.432, 43.744],
+      "zone": "1439",
+      "tips": [],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "darkshore_048",
+      "type": "loot",
+      "description": "Loot the Skeletal Sea Turtle for the Sea Turtle Remains",
+      "classes": null,
+      "races": null,
+      "coords": [13.63, 21.44],
+      "zone": "felwood",
+      "tips": [],
+      "quests": [
+        {
+          "id": 4681,
+          "name": "Washed Ashore"
+        }
+      ],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "darkshore_049",
+      "type": "quest_turnin",
+      "description": "Talk to Gwennyth Bly'Leggonde and turn in Washed Ashore",
+      "classes": null,
+      "races": null,
+      "coords": [19.1, 20.63],
+      "zone": "felwood",
+      "tips": [],
+      "quests": [
+        {
+          "id": 4681,
+          "name": "Washed Ashore"
+        }
+      ],
+      "npc": "Gwennyth Bly'Leggonde",
+      "mobs": []
+    },
+    {
+      "id": "darkshore_050",
+      "type": "info",
+      "description": "Talk to Laird. Buy 40 Longjaw Mud Snapper",
+      "classes": ["Warrior", "Rogue"],
+      "races": null,
+      "coords": [19.27, 19.14],
+      "zone": "felwood",
+      "tips": [],
+      "quests": [],
+      "npc": "Laird",
+      "mobs": []
+    },
+    {
+      "id": "darkshore_051",
+      "type": "quest_accept",
+      "description": "Talk to Sentinel Glynda Nal'Shea and accept The Red Crystal",
+      "classes": null,
+      "races": null,
+      "coords": [37.708, 43.431],
+      "zone": "darkshore",
+      "tips": [],
+      "quests": [
+        {
+          "id": 4811,
+          "name": "The Red Crystal"
+        }
+      ],
+      "npc": "Sentinel Glynda Nal'Shea",
+      "mobs": []
+    },
+    {
+      "id": "darkshore_052",
+      "type": "quest_turnin",
+      "description": "Talk to Asterion, turn in Bashal'Aran, and accept Bashal'Aran",
+      "classes": null,
+      "races": null,
+      "coords": [27.7, 10.03],
+      "zone": "felwood",
+      "tips": [
+        {
+          "type": "warning",
+          "class": null,
+          "text": "Follow the road to Bashal'Aran"
+        },
+        {
+          "type": "warning",
+          "class": null,
+          "text": "Avoid killing Wild Grells and Vile Sprites en-route"
+        }
+      ],
+      "quests": [
+        {
+          "id": 954,
+          "name": "Bashal'Aran"
+        },
+        {
+          "id": 955,
+          "name": "Bashal'Aran"
+        }
+      ],
+      "npc": "Asterion",
+      "mobs": []
+    },
+    {
+      "id": "darkshore_053",
+      "type": "kill",
+      "description": "Kill Wild Grells and Vile Sprites. Loot them for their Earrings",
+      "classes": null,
+      "races": null,
+      "coords": null,
+      "zone": "",
+      "tips": [],
+      "quests": [
+        {
+          "id": 955,
+          "name": "Bashal'Aran"
+        }
+      ],
+      "npc": null,
+      "mobs": ["Wild Grell", "Vile Sprite"]
+    },
+    {
+      "id": "darkshore_054",
+      "type": "quest_turnin",
+      "description": "Talk to Asterion, turn in Bashal'Aran, and accept Bashal'Aran",
+      "classes": null,
+      "races": null,
+      "coords": [27.7, 10.03],
+      "zone": "felwood",
+      "tips": [],
+      "quests": [
+        {
+          "id": 955,
+          "name": "Bashal'Aran"
+        },
+        {
+          "id": 956,
+          "name": "Bashal'Aran"
+        }
+      ],
+      "npc": "Asterion",
+      "mobs": []
+    },
+    {
+      "id": "darkshore_055",
+      "type": "kill",
+      "description": "Kill Deth'ryll Satyr. Loot them for the Moonstone Seal",
+      "classes": null,
+      "races": null,
+      "coords": null,
+      "zone": "",
+      "tips": [],
+      "quests": [
+        {
+          "id": 956,
+          "name": "Bashal'Aran"
+        }
+      ],
+      "npc": null,
+      "mobs": ["Deth'ryll Satyr"]
+    },
+    {
+      "id": "darkshore_056",
+      "type": "quest_turnin",
+      "description": "Talk to Asterion, turn in Bashal'Aran, and accept Bashal'Aran",
+      "classes": null,
+      "races": null,
+      "coords": [27.7, 10.03],
+      "zone": "felwood",
+      "tips": [],
+      "quests": [
+        {
+          "id": 956,
+          "name": "Bashal'Aran"
+        },
+        {
+          "id": 957,
+          "name": "Bashal'Aran"
+        }
+      ],
+      "npc": "Asterion",
+      "mobs": []
+    },
+    {
+      "id": "darkshore_057",
+      "type": "kill",
+      "description": "Follow the road south and look for nearby Foreststrider Fledglings. Kill Foreststrider Fledgling. Loot them for their Strider Meat",
+      "classes": null,
+      "races": null,
+      "coords": null,
+      "zone": "",
+      "tips": [],
+      "quests": [],
+      "npc": null,
+      "mobs": ["Foreststrider Fledgling"]
+    },
+    {
+      "id": "darkshore_058",
+      "type": "quest_accept",
+      "description": "Talk to Sentinel Tysha Moonblade and accept The Fall of Ameth'Aran",
+      "classes": null,
+      "races": null,
+      "coords": [40.3, 59.7],
+      "zone": "darkshore",
+      "tips": [],
+      "quests": [
+        {
+          "id": 953,
+          "name": "The Fall of Ameth'Aran"
+        }
+      ],
+      "npc": "Sentinel Tysha Moonblade",
+      "mobs": []
+    },
+    {
+      "id": "darkshore_059",
+      "type": "kill",
+      "description": "Kill Cursed Highbornes, Writhing Highbornes, and Wailing Highbornes. Loot them for their Relics",
+      "classes": null,
+      "races": null,
+      "coords": null,
+      "zone": "",
+      "tips": [],
+      "quests": [
+        {
+          "id": 958,
+          "name": "Tools of the Highborne"
+        }
+      ],
+      "npc": null,
+      "mobs": ["Cursed Highborne", "Writhing Highborne", "Wailing Highborne"]
+    },
+    {
+      "id": "darkshore_060",
+      "type": "loot",
+      "description": "Click the The Lay of Ameth'Aran",
+      "classes": null,
+      "races": null,
+      "coords": [43.3, 58.7],
+      "zone": "darkshore",
+      "tips": [],
+      "quests": [
+        {
+          "id": 953,
+          "name": "The Fall of Ameth'Aran"
+        }
+      ],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "darkshore_061",
+      "type": "info",
+      "description": "Click the Ancient Flame",
+      "classes": null,
+      "races": null,
+      "coords": [25.66, 39.11],
+      "zone": "felwood",
+      "tips": [],
+      "quests": [
+        {
+          "id": 957,
+          "name": "Bashal'Aran"
+        }
+      ],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "darkshore_062",
+      "type": "loot",
+      "description": "Click the The Fall of Ameth'Aran",
+      "classes": null,
+      "races": null,
+      "coords": [25.98, 40.62],
+      "zone": "felwood",
+      "tips": [],
+      "quests": [
+        {
+          "id": 953,
+          "name": "The Fall of Ameth'Aran"
+        }
+      ],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "darkshore_063",
+      "type": "kill",
+      "description": "Kill Cursed Highbornes, Writhing Highbornes and Wailing Highbornes. Loot them for their Relics",
+      "classes": null,
+      "races": null,
+      "coords": null,
+      "zone": "",
+      "tips": [],
+      "quests": [
+        {
+          "id": 958,
+          "name": "Tools of the Highborne"
+        }
+      ],
+      "npc": null,
+      "mobs": ["Cursed Highborne", "Writhing Highborne", "Wailing Highborne"]
+    },
+    {
+      "id": "darkshore_064",
+      "type": "quest_turnin",
+      "description": "Talk to Sentinel Tysha Moonblade and turn in The Fall of Ameth'Aran",
+      "classes": null,
+      "races": null,
+      "coords": [23.29, 36.73],
+      "zone": "felwood",
+      "tips": [],
+      "quests": [
+        {
+          "id": 953,
+          "name": "The Fall of Ameth'Aran"
+        }
+      ],
+      "npc": "Sentinel Tysha Moonblade",
+      "mobs": []
+    },
+    {
+      "id": "darkshore_065",
+      "type": "kill",
+      "description": "Follow the road north and look for nearby Foreststrider Fledglings. Kill Foreststrider Fledgling. Loot them for their Strider Meat",
+      "classes": null,
+      "races": null,
+      "coords": null,
+      "zone": "",
+      "tips": [],
+      "quests": [],
+      "npc": null,
+      "mobs": ["Foreststrider Fledgling"]
+    },
+    {
+      "id": "darkshore_066",
+      "type": "quest_turnin",
+      "description": "Talk to Asterion and turn in Bashal'Aran",
+      "classes": null,
+      "races": null,
+      "coords": [27.7, 10.03],
+      "zone": "felwood",
+      "tips": [],
+      "quests": [
+        {
+          "id": 957,
+          "name": "Bashal'Aran"
+        }
+      ],
+      "npc": "Asterion",
+      "mobs": []
+    },
+    {
+      "id": "darkshore_067",
+      "type": "kill",
+      "description": "Kill Moonkins. Loot them for their Small Eggs. You will level Cooking to 10 later using Small Eggs",
+      "classes": null,
+      "races": null,
+      "coords": null,
+      "zone": "",
+      "tips": [],
+      "quests": [],
+      "npc": null,
+      "mobs": ["Young Moonkin", "Raging Moonkin", "Moonkin Oracle", "Moonkin"]
+    },
+    {
+      "id": "darkshore_068",
+      "type": "kill",
+      "description": "Be careful of Thistle Bears they stun. Kill Foreststrider Fledglings. Loot them for their Strider Meat",
+      "classes": null,
+      "races": null,
+      "coords": null,
+      "zone": "",
+      "tips": [],
+      "quests": [],
+      "npc": null,
+      "mobs": ["Foreststrider Fledgling"]
+    },
+    {
+      "id": "darkshore_069",
+      "type": "info",
+      "description": "Talk to Gorbold Steelhand. Buy Mild Spices. Use the Mild Spices and your Small Eggs to make Herb Baked Eggs. Do this until your Cooking has reached level 10",
+      "classes": null,
+      "races": null,
+      "coords": [37.512, 41.674],
+      "zone": "darkshore",
+      "tips": [],
+      "quests": [],
+      "npc": "Gorbold Steelhand",
+      "mobs": []
+    },
+    {
+      "id": "darkshore_070",
+      "type": "quest_turnin",
+      "description": "Talk to Alanndarian Nightsong, accept Easy Strider Living and turn in Easy Strider Living",
+      "classes": null,
+      "races": null,
+      "coords": [37.7, 40.7],
+      "zone": "darkshore",
+      "tips": [],
+      "quests": [
+        {
+          "id": 2178,
+          "name": "Easy Strider Living"
+        }
+      ],
+      "npc": "Alanndarian Nightsong",
+      "mobs": []
+    },
+    {
+      "id": "darkshore_071",
+      "type": "quest_turnin",
+      "description": "Talk to Thundris Windweaver and turn in Tools of the Highborne",
+      "classes": null,
+      "races": null,
+      "coords": [19.98, 14.4],
+      "zone": "felwood",
+      "tips": [],
+      "quests": [
+        {
+          "id": 958,
+          "name": "Tools of the Highborne"
+        }
+      ],
+      "npc": "Thundris Windweaver",
+      "mobs": []
+    },
+    {
+      "id": "darkshore_072",
+      "type": "travel",
+      "description": "Take the boat to Menethil Harbor. Level your First Aid while waiting for the boat to Menethil Harbor",
+      "classes": null,
+      "races": null,
+      "coords": null,
+      "zone": "",
+      "tips": [
+        {
+          "type": "warning",
+          "class": null,
+          "text": "Level your First Aid while waiting for the boat to Menethil Harbor"
+        }
+      ],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "darkshore_073",
+      "type": "fly",
+      "description": "Talk to Shellei Brondir and get the Menethil Harbor flight path",
+      "classes": null,
+      "races": null,
+      "coords": [9.49, 59.694],
+      "zone": "wetlands",
+      "tips": [],
+      "quests": [],
+      "npc": "Shellei Brondir",
+      "mobs": []
+    },
+    {
+      "id": "darkshore_074",
+      "type": "travel",
+      "description": "Jump off the end of the dock and swim to the waypoint",
+      "classes": null,
+      "races": null,
+      "coords": [5.485, 64.156],
+      "zone": "wetlands",
+      "tips": [],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "darkshore_075",
+      "type": "travel",
+      "description": "Use the character unstuck self service feature to skip to Ironforge. You will have to log off at the spot and navigate to the help menu on another character, then scroll down to self service. Click on your character and move. If you can't unstuck then tick this step and swim along the mountains to Westfall",
+      "classes": null,
+      "races": null,
+      "coords": null,
+      "zone": "",
+      "tips": [
+        {
+          "type": "link",
+          "class": null,
+          "text": "Click here for video reference",
+          "url": "https://www.youtube.com/watch?v=oVoxsr4zcg4"
+        }
+      ],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    }
+  ]
+}

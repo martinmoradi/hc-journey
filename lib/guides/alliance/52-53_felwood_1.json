@@ -1,0 +1,1115 @@
+{
+  "zone": "Felwood",
+  "levelRange": "52-53",
+  "faction": "Alliance",
+  "name": "52-53_felwood_1",
+  "next": "53-54_feralas_azshara",
+  "steps": [
+    {
+      "id": "felwood_001",
+      "type": "quest_accept",
+      "description": "Talk to Loh'atu and accept Spiritual Unrest and A Land Filled with Hatred",
+      "classes": null,
+      "races": null,
+      "coords": [11.368, 78.166],
+      "zone": "azshara",
+      "tips": [],
+      "quests": [
+        {
+          "id": 5535,
+          "name": "Spiritual Unrest"
+        },
+        {
+          "id": 5536,
+          "name": "A Land Filled with Hatred"
+        }
+      ],
+      "npc": "Loh'atu",
+      "mobs": []
+    },
+    {
+      "id": "felwood_002",
+      "type": "kill",
+      "description": "Kill Haldarr Satyrs, Haldarr Tricksters and Haldarr Felsworns",
+      "classes": null,
+      "races": null,
+      "coords": [20.65, 60.89],
+      "zone": "azshara",
+      "tips": [],
+      "quests": [
+        {
+          "id": 5536,
+          "name": "A Land Filled with Hatred"
+        }
+      ],
+      "npc": null,
+      "mobs": ["Haldarr Satyr", "Haldarr Trickster", "Haldarr Felsworn"]
+    },
+    {
+      "id": "felwood_003",
+      "type": "kill",
+      "description": "Kill Highborne Apparitions and Highborne Lichlings",
+      "classes": null,
+      "races": null,
+      "coords": [17.12, 69.0],
+      "zone": "azshara",
+      "tips": [
+        {
+          "type": "warning",
+          "class": "Priest",
+          "text": "Save an Ichor of Undeath for your Sunken Temple class quest later if you get one from them, if not you'll get one later"
+        }
+      ],
+      "quests": [
+        {
+          "id": 5535,
+          "name": "Spiritual Unrest"
+        }
+      ],
+      "npc": null,
+      "mobs": ["Highborne Apparition", "Highborne Lichling"]
+    },
+    {
+      "id": "felwood_004",
+      "type": "quest_turnin",
+      "description": "Talk to Loh'atu, turn in Spiritual Unrest and A Land Filled with Hatred",
+      "classes": null,
+      "races": null,
+      "coords": [11.368, 78.166],
+      "zone": "azshara",
+      "tips": [],
+      "quests": [
+        {
+          "id": 5535,
+          "name": "Spiritual Unrest"
+        },
+        {
+          "id": 5536,
+          "name": "A Land Filled with Hatred"
+        }
+      ],
+      "npc": "Loh'atu",
+      "mobs": []
+    },
+    {
+      "id": "felwood_005",
+      "type": "travel",
+      "description": "Travel to Felwood",
+      "classes": null,
+      "races": null,
+      "coords": [54.14, 86.83],
+      "zone": "felwood",
+      "tips": [],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "felwood_006",
+      "type": "quest_accept",
+      "description": "Talk to Arathandris Silversky and accept Cleansing Felwood",
+      "classes": null,
+      "races": null,
+      "coords": [54.14, 86.83],
+      "zone": "felwood",
+      "tips": [],
+      "quests": [
+        {
+          "id": 4101,
+          "name": "Cleansing Felwood"
+        }
+      ],
+      "npc": "Arathandris Silversky",
+      "mobs": []
+    },
+    {
+      "id": "felwood_007",
+      "type": "quest_accept",
+      "description": "Talk to Grazle and accept Timbermaw Ally",
+      "classes": null,
+      "races": null,
+      "coords": [50.927, 85.005],
+      "zone": "felwood",
+      "tips": [],
+      "quests": [
+        {
+          "id": 8460,
+          "name": "Timbermaw Ally"
+        }
+      ],
+      "npc": "Grazle",
+      "mobs": []
+    },
+    {
+      "id": "felwood_008",
+      "type": "kill",
+      "description": "Kill Deadwood Warriors, Deadwood Pathfinders and Deadwood Gardeners",
+      "classes": null,
+      "races": null,
+      "coords": [48.22, 93.81],
+      "zone": "felwood",
+      "tips": [],
+      "quests": [
+        {
+          "id": 8460,
+          "name": "Timbermaw Ally"
+        }
+      ],
+      "npc": null,
+      "mobs": ["Deadwood Warrior", "Deadwood Pathfinder", "Deadwood Gardener"]
+    },
+    {
+      "id": "felwood_009",
+      "type": "quest_turnin",
+      "description": "Talk to Grazle, turn in Timbermaw Ally, and accept Speak to Nafien",
+      "classes": null,
+      "races": null,
+      "coords": [50.927, 85.005],
+      "zone": "felwood",
+      "tips": [],
+      "quests": [
+        {
+          "id": 8460,
+          "name": "Timbermaw Ally"
+        },
+        {
+          "id": 8462,
+          "name": "Speak to Nafien"
+        }
+      ],
+      "npc": "Grazle",
+      "mobs": []
+    },
+    {
+      "id": "felwood_010",
+      "type": "grind",
+      "description": "Grind Deadwood Warriors, Deadwood Pathfinders and Deadwood Gardeners to Unfriendly reputation",
+      "classes": null,
+      "races": null,
+      "coords": [48.22, 93.81],
+      "zone": "felwood",
+      "tips": [
+        {
+          "type": "warning",
+          "class": null,
+          "text": "Do NOT skip this step. You'll need the reputation later to travel through Timbermaw Hold to the north"
+        }
+      ],
+      "quests": [],
+      "npc": null,
+      "mobs": ["Deadwood Warrior", "Deadwood Pathfinder", "Deadwood Gardener"]
+    },
+    {
+      "id": "felwood_011",
+      "type": "grind",
+      "description": "Grind Deadwood Warriors, Deadwood Pathfinders and Deadwood Gardeners.",
+      "classes": null,
+      "races": null,
+      "coords": [48.22, 93.81],
+      "zone": "felwood",
+      "tips": [
+        {
+          "type": "warning",
+          "class": null,
+          "text": "You will need 12 stacks of Mageweave Cloth for doing Cloth turnins in Major cities soon. Furbolgs are a great source of them. Skip this step if you already have them"
+        }
+      ],
+      "quests": [],
+      "npc": null,
+      "mobs": ["Deadwood Warrior", "Deadwood Pathfinder", "Deadwood Gardener"]
+    },
+    {
+      "id": "felwood_012",
+      "type": "loot",
+      "description": "Kill Jadefire Satyrs and Jadefire Felsworns. Loot them for a Felcloth",
+      "classes": ["Warlock"],
+      "races": null,
+      "coords": [39.45, 84.55],
+      "zone": "felwood",
+      "tips": [],
+      "quests": [],
+      "npc": null,
+      "mobs": ["Jadefire Satyr", "Jadefire Felsworn"]
+    },
+    {
+      "id": "felwood_013",
+      "type": "quest_accept",
+      "description": "Talk to Greta Mosshoof and accept Forces of Jaedenar",
+      "classes": null,
+      "races": null,
+      "coords": [51.21, 82.1],
+      "zone": "felwood",
+      "tips": [],
+      "quests": [
+        {
+          "id": 5155,
+          "name": "Forces of Jaedenar"
+        }
+      ],
+      "npc": "Greta Mosshoof",
+      "mobs": []
+    },
+    {
+      "id": "felwood_014",
+      "type": "kill",
+      "description": "Kill Cursed Oozes. Use the Empty Cursed Ooze Jars on their corpses",
+      "classes": null,
+      "races": null,
+      "coords": [40.77, 66.86],
+      "zone": "felwood",
+      "tips": [
+        {
+          "type": "warning",
+          "class": null,
+          "text": "Use the Empty Cursed Ooze Jars on their corpses"
+        }
+      ],
+      "quests": [
+        {
+          "id": 4512,
+          "name": "A Little Slime Goes a Long Way"
+        }
+      ],
+      "npc": null,
+      "mobs": ["Cursed Ooze"]
+    },
+    {
+      "id": "felwood_015",
+      "type": "quest_accept",
+      "description": "Talk to Impsy, turn in An Imp's Request, and accept The Wrong Stuff",
+      "classes": ["Warlock"],
+      "races": null,
+      "coords": [41.52, 44.99],
+      "zone": "felwood",
+      "tips": [],
+      "quests": [
+        {
+          "id": 8419,
+          "name": "An Imp's Request"
+        },
+        {
+          "id": 8421,
+          "name": "The Wrong Stuff"
+        }
+      ],
+      "npc": "Impsy",
+      "mobs": []
+    },
+    {
+      "id": "felwood_016",
+      "type": "kill",
+      "description": "Kill Jaedenar Hounds, Jaedenar Guardians, Jaedenar Adepts and Jaedenar Cultists",
+      "classes": null,
+      "races": null,
+      "coords": [36.49, 61.4],
+      "zone": "felwood",
+      "tips": [],
+      "quests": [
+        {
+          "id": 5155,
+          "name": "Forces of Jaedenar"
+        }
+      ],
+      "npc": null,
+      "mobs": [
+        "Jaedenar Hound",
+        "Jaedenar Guardian",
+        "Jaedenar Adept",
+        "Jaedenar Cultist"
+      ]
+    },
+    {
+      "id": "felwood_017",
+      "type": "kill",
+      "description": "Kill Tainted Oozes. Use the Empty Tainted Ooze Jars on their corpses",
+      "classes": null,
+      "races": null,
+      "coords": [39.98, 54.76],
+      "zone": "felwood",
+      "tips": [
+        {
+          "type": "warning",
+          "class": null,
+          "text": "Use the Empty Tainted Ooze Jars on their corpses"
+        }
+      ],
+      "quests": [
+        {
+          "id": 4512,
+          "name": "A Little Slime Goes a Long Way"
+        }
+      ],
+      "npc": null,
+      "mobs": ["Tainted Ooze"]
+    },
+    {
+      "id": "felwood_018",
+      "type": "kill",
+      "description": "Kill Tainted Oozes. Loot them for their Bloodvenom Essences",
+      "classes": ["Warlock"],
+      "races": null,
+      "coords": [39.98, 54.76],
+      "zone": "felwood",
+      "tips": [],
+      "quests": [
+        {
+          "id": 8421,
+          "name": "The Wrong Stuff"
+        }
+      ],
+      "npc": null,
+      "mobs": ["Tainted Ooze"]
+    },
+    {
+      "id": "felwood_019",
+      "type": "quest_turnin",
+      "description": "Talk to Greta Mosshoof, turn in Forces of Jaedenar, and accept Collection of the Corrupt Water",
+      "classes": null,
+      "races": null,
+      "coords": [51.21, 82.1],
+      "zone": "felwood",
+      "tips": [],
+      "quests": [
+        {
+          "id": 5155,
+          "name": "Forces of Jaedenar"
+        },
+        {
+          "id": 5157,
+          "name": "Collection of the Corrupt Water"
+        }
+      ],
+      "npc": "Greta Mosshoof",
+      "mobs": []
+    },
+    {
+      "id": "felwood_020",
+      "type": "loot",
+      "description": "Use the Empty Canteen at the Moon Well in the center of Jaedenar",
+      "classes": null,
+      "races": null,
+      "coords": [35.173, 59.778],
+      "zone": "felwood",
+      "tips": [
+        {
+          "type": "warning",
+          "class": null,
+          "text": "Use the Empty Canteen at the Moon Well in the center of Jaedenar"
+        }
+      ],
+      "quests": [
+        {
+          "id": 5157,
+          "name": "Collection of the Corrupt Water"
+        }
+      ],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "felwood_021",
+      "type": "quest_turnin",
+      "description": "Talk to Greta Mosshoof, turn in Collection of the Corrupt Water, and accept Seeking Spiritual Aid",
+      "classes": null,
+      "races": null,
+      "coords": [51.21, 82.1],
+      "zone": "felwood",
+      "tips": [],
+      "quests": [
+        {
+          "id": 5157,
+          "name": "Collection of the Corrupt Water"
+        },
+        {
+          "id": 5158,
+          "name": "Seeking Spiritual Aid"
+        }
+      ],
+      "npc": "Greta Mosshoof",
+      "mobs": []
+    },
+    {
+      "id": "felwood_022",
+      "type": "kill",
+      "description": "Kill Irontree Stompers, Irontree Wanderers and Withered Protectors. Loot them for their Rotting Wood",
+      "classes": ["Warlock"],
+      "races": null,
+      "coords": [46.4, 24.6],
+      "zone": "felwood",
+      "tips": [],
+      "quests": [
+        {
+          "id": 8421,
+          "name": "The Wrong Stuff"
+        }
+      ],
+      "npc": null,
+      "mobs": ["Irontree Stomper", "Irontree Wanderer", "Withered Protector"]
+    },
+    {
+      "id": "felwood_023",
+      "type": "travel",
+      "description": "Travel to Talonbranch Glade",
+      "classes": null,
+      "races": null,
+      "coords": [62.488, 24.242],
+      "zone": "felwood",
+      "tips": [],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "felwood_024",
+      "type": "fly",
+      "description": "Talk to Mishellena and get the Felwood Flight Path",
+      "classes": null,
+      "races": null,
+      "coords": [62.488, 24.242],
+      "zone": "felwood",
+      "tips": [],
+      "quests": [],
+      "npc": "Mishellena",
+      "mobs": []
+    },
+    {
+      "id": "felwood_025",
+      "type": "quest_turnin",
+      "description": "Talk to Nafien and turn in Speak to Nafien",
+      "classes": null,
+      "races": null,
+      "coords": [64.768, 8.129],
+      "zone": "felwood",
+      "tips": [],
+      "quests": [
+        {
+          "id": 8462,
+          "name": "Speak to Nafien"
+        }
+      ],
+      "npc": "Nafien",
+      "mobs": []
+    },
+    {
+      "id": "felwood_026",
+      "type": "travel",
+      "description": "Travel to Moonglade via Timbermaw Hold.",
+      "classes": ["!Druid"],
+      "races": null,
+      "coords": [35.77, 71.94],
+      "zone": "moonglade",
+      "tips": [
+        {
+          "type": "warning",
+          "class": null,
+          "text": "Ensure you are at least at an Unfriendly standing with Timbermaw Hold. If you are at a Hostile standing they will attack you. Kill Furbolgs until you have reached Unfriendly"
+        }
+      ],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "felwood_027",
+      "type": "fly",
+      "description": "Talk to Sindrayl and get the Moonglade Flight path",
+      "classes": ["!Druid"],
+      "races": null,
+      "coords": [48.102, 67.346],
+      "zone": "moonglade",
+      "tips": [],
+      "quests": [],
+      "npc": "Sindrayl",
+      "mobs": []
+    },
+    {
+      "id": "felwood_028",
+      "type": "quest_turnin",
+      "description": "Talk to the Keeper Remulos and turn in Seed of Life",
+      "classes": ["!Druid"],
+      "races": null,
+      "coords": [36.178, 41.798],
+      "zone": "moonglade",
+      "tips": [],
+      "quests": [
+        {
+          "id": 7066,
+          "name": "Seed of Life"
+        }
+      ],
+      "npc": "Keeper Remulos",
+      "mobs": []
+    },
+    {
+      "id": "felwood_029",
+      "type": "travel",
+      "description": "Travel to Winterspring via Timbermaw Hold.",
+      "classes": null,
+      "races": null,
+      "coords": [27.76, 34.59],
+      "zone": "winterspring",
+      "tips": [
+        {
+          "type": "warning",
+          "class": null,
+          "text": "Ensure you are at least at an Unfriendly standing with Timbermaw Hold. If you are at a Hostile standing they will attack you. Kill Furbolgs until you have reached Unfriendly"
+        }
+      ],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "felwood_030",
+      "type": "quest_turnin",
+      "description": "Talk to Donova Snowden, turn in It's a Secret to Everybody, and accept The Videre Elixir. Blizzard has adjusted the quest [The Videre Elixir] so it will no longer kill you on Official Hardcore Servers",
+      "classes": null,
+      "races": null,
+      "coords": [31.269, 45.164],
+      "zone": "winterspring",
+      "tips": [
+        {
+          "type": "warning",
+          "class": null,
+          "text": "Blizzard has adjusted the quest [The Videre Elixir] so it will no longer kill you on Official Hardcore Servers"
+        }
+      ],
+      "quests": [
+        {
+          "id": 3908,
+          "name": "It's a Secret to Everybody"
+        },
+        {
+          "id": 3909,
+          "name": "The Videre Elixir"
+        }
+      ],
+      "npc": "Donova Snowden",
+      "mobs": []
+    },
+    {
+      "id": "felwood_031",
+      "type": "loot",
+      "description": "Loot Moontouched Feathers on the ground.",
+      "classes": null,
+      "races": null,
+      "coords": [60.6, 33.7],
+      "zone": "winterspring",
+      "tips": [
+        {
+          "type": "warning",
+          "class": null,
+          "text": "You may skip this quest and complete it later if you wish"
+        }
+      ],
+      "quests": [
+        {
+          "id": 978,
+          "name": "Moontouched Feathers"
+        }
+      ],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "felwood_032",
+      "type": "travel",
+      "description": "Travel to Everlook",
+      "classes": null,
+      "races": null,
+      "coords": [62.334, 36.609],
+      "zone": "winterspring",
+      "tips": [],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "felwood_033",
+      "type": "info",
+      "description": "Talk to Azzleby. Stable your pet. You will tame a Felpaw Ravager shortly",
+      "classes": ["Hunter"],
+      "races": null,
+      "coords": [60.389, 37.917],
+      "zone": "winterspring",
+      "tips": [
+        {
+          "type": "warning",
+          "class": null,
+          "text": "Stable your pet. You will tame a Felpaw Ravager shortly"
+        }
+      ],
+      "quests": [],
+      "npc": "Azzleby",
+      "mobs": []
+    },
+    {
+      "id": "felwood_034",
+      "type": "fly",
+      "description": "Talk to Maethrya and get the Winterspring Flight Path",
+      "classes": null,
+      "races": null,
+      "coords": [62.334, 36.609],
+      "zone": "winterspring",
+      "tips": [],
+      "quests": [],
+      "npc": "Maethrya",
+      "mobs": []
+    },
+    {
+      "id": "felwood_035",
+      "type": "info",
+      "description": "Cast Tame Beast on a Felpaw Ravager to tame it. Attack mobs with it to learn Bite (Rank 7)",
+      "classes": ["Hunter"],
+      "races": null,
+      "coords": [62.19, 17.11],
+      "zone": "felwood",
+      "tips": [
+        {
+          "type": "warning",
+          "class": null,
+          "text": "Cast Tame Beast on a Felpaw Ravager to tame it"
+        },
+        {
+          "type": "warning",
+          "class": null,
+          "text": "Attack mobs with it to learn Bite (Rank 7)"
+        },
+        {
+          "type": "link",
+          "class": null,
+          "text": "Click here for more info about pet training",
+          "url": "https://www.wow-petopia.com/classic/training.php"
+        }
+      ],
+      "quests": [],
+      "npc": null,
+      "mobs": ["Felpaw Ravager"]
+    },
+    {
+      "id": "felwood_036",
+      "type": "info",
+      "description": "Abandon your current Felpaw Ravager. Cast Tame Beast on a Ironbeak Hunter or Angerclaw Mauler to tame it. Attack mobs with it to learn Claw (Rank 7)",
+      "classes": ["Hunter"],
+      "races": null,
+      "coords": [38.56, 50.18],
+      "zone": "felwood",
+      "tips": [
+        {
+          "type": "warning",
+          "class": null,
+          "text": "Abandon your current Felpaw Ravager"
+        },
+        {
+          "type": "warning",
+          "class": null,
+          "text": "Cast Tame Beast on a Ironbeak Hunter or Angerclaw Mauler to tame it"
+        },
+        {
+          "type": "warning",
+          "class": null,
+          "text": "Attack mobs with it to learn Claw (Rank 7)"
+        },
+        {
+          "type": "link",
+          "class": null,
+          "text": "Click here for more info about pet training",
+          "url": "https://www.wow-petopia.com/classic/training.php"
+        }
+      ],
+      "quests": [],
+      "npc": null,
+      "mobs": ["Ironbeak Hunter", "Angerclaw Mauler"]
+    },
+    {
+      "id": "felwood_037",
+      "type": "quest_turnin",
+      "description": "Talk to Impsy and turn in The Wrong Stuff",
+      "classes": ["Warlock"],
+      "races": null,
+      "coords": [41.52, 44.99],
+      "zone": "felwood",
+      "tips": [],
+      "quests": [
+        {
+          "id": 8421,
+          "name": "The Wrong Stuff"
+        }
+      ],
+      "npc": "Impsy",
+      "mobs": []
+    },
+    {
+      "id": "felwood_038",
+      "type": "info",
+      "description": "Cast Teleport: Moonglade",
+      "classes": ["Druid"],
+      "races": null,
+      "coords": null,
+      "zone": "",
+      "tips": [],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "felwood_039",
+      "type": "info",
+      "description": "Talk to Loganaar and train your class spells",
+      "classes": ["Druid"],
+      "races": null,
+      "coords": [52.53, 40.56],
+      "zone": "moonglade",
+      "tips": [],
+      "quests": [],
+      "npc": "Loganaar",
+      "mobs": []
+    },
+    {
+      "id": "felwood_040",
+      "type": "info",
+      "description": "Hearth to Ironforge. Buy food/water if needed",
+      "classes": ["!Warrior", "!Rogue", "!Mage"],
+      "races": null,
+      "coords": null,
+      "zone": "",
+      "tips": [
+        {
+          "type": "warning",
+          "class": null,
+          "text": "Buy food/water if needed"
+        }
+      ],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "felwood_041",
+      "type": "info",
+      "description": "Hearth to Ironforge. Buy food if needed",
+      "classes": ["Warrior", "Rogue"],
+      "races": null,
+      "coords": null,
+      "zone": "",
+      "tips": [
+        {
+          "type": "warning",
+          "class": null,
+          "text": "Buy food if needed"
+        }
+      ],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "felwood_042",
+      "type": "info",
+      "description": "Teleport to Ironforge",
+      "classes": ["Mage"],
+      "races": null,
+      "coords": null,
+      "zone": "",
+      "tips": [],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "felwood_043",
+      "type": "info",
+      "description": "Talk to Dink and train your class spells",
+      "classes": ["Mage"],
+      "races": null,
+      "coords": [27.169, 8.579],
+      "zone": "ironforge",
+      "tips": [],
+      "quests": [],
+      "npc": "Dink",
+      "mobs": []
+    },
+    {
+      "id": "felwood_044",
+      "type": "quest_turnin",
+      "description": "Talk to Laris Geardawdle, turn in A Little Slime Goes a Long Way, and accept A Little Slime Goes a Long Way",
+      "classes": null,
+      "races": null,
+      "coords": [75.768, 23.389],
+      "zone": "ironforge",
+      "tips": [],
+      "quests": [
+        {
+          "id": 4512,
+          "name": "A Little Slime Goes a Long Way"
+        },
+        {
+          "id": 4513,
+          "name": "A Little Slime Goes a Long Way"
+        }
+      ],
+      "npc": "Laris Geardawdle",
+      "mobs": []
+    },
+    {
+      "id": "felwood_045",
+      "type": "info",
+      "description": "Talk to Briarthorn and train your class spells",
+      "classes": ["Warlock"],
+      "races": null,
+      "coords": [50.343, 5.657],
+      "zone": "ironforge",
+      "tips": [],
+      "quests": [],
+      "npc": "Briarthorn",
+      "mobs": []
+    },
+    {
+      "id": "felwood_046",
+      "type": "info",
+      "description": "Talk to Fenthwick and train your class spells",
+      "classes": ["Rogue"],
+      "races": null,
+      "coords": [51.495, 15.33],
+      "zone": "ironforge",
+      "tips": [],
+      "quests": [],
+      "npc": "Fenthwick",
+      "mobs": []
+    },
+    {
+      "id": "felwood_047",
+      "type": "info",
+      "description": "Talk to Toldren Deepiron and train your class spells",
+      "classes": ["Priest"],
+      "races": null,
+      "coords": [25.207, 10.756],
+      "zone": "ironforge",
+      "tips": [],
+      "quests": [],
+      "npc": "Toldren Deepiron",
+      "mobs": []
+    },
+    {
+      "id": "felwood_048",
+      "type": "info",
+      "description": "Talk to Brandur Ironhammer and train your class spells",
+      "classes": ["Paladin"],
+      "races": null,
+      "coords": [23.141, 6.149],
+      "zone": "ironforge",
+      "tips": [],
+      "quests": [],
+      "npc": "Brandur Ironhammer",
+      "mobs": []
+    },
+    {
+      "id": "felwood_049",
+      "type": "info",
+      "description": "Talk to Jubahl Corpseseeker. Buy Grimoires for your pets",
+      "classes": ["Warlock"],
+      "races": null,
+      "coords": [52.701, 6.07],
+      "zone": "ironforge",
+      "tips": [
+        {
+          "type": "warning",
+          "class": null,
+          "text": "Buy Grimoires for your pets"
+        }
+      ],
+      "quests": [],
+      "npc": "Jubahl Corpseseeker",
+      "mobs": []
+    },
+    {
+      "id": "felwood_050",
+      "type": "info",
+      "description": "Talk to Regnus Thundergranite and train your class spells",
+      "classes": ["Hunter"],
+      "races": null,
+      "coords": [69.872, 82.89],
+      "zone": "ironforge",
+      "tips": [],
+      "quests": [],
+      "npc": "Regnus Thundergranite",
+      "mobs": []
+    },
+    {
+      "id": "felwood_051",
+      "type": "info",
+      "description": "Talk to Bilban Tosslespanner and train your class spells",
+      "classes": ["Warrior"],
+      "races": null,
+      "coords": [65.905, 88.405],
+      "zone": "ironforge",
+      "tips": [],
+      "quests": [],
+      "npc": "Bilban Tosslespanner",
+      "mobs": []
+    },
+    {
+      "id": "felwood_052",
+      "type": "info",
+      "description": "Talk to Ulbrek Firehand. Withdraw your pet",
+      "classes": ["Hunter"],
+      "races": null,
+      "coords": [69.294, 83.568],
+      "zone": "ironforge",
+      "tips": [
+        {
+          "type": "warning",
+          "class": null,
+          "text": "Withdraw your pet"
+        }
+      ],
+      "quests": [],
+      "npc": "Ulbrek Firehand",
+      "mobs": []
+    },
+    {
+      "id": "felwood_053",
+      "type": "info",
+      "description": "Talk to Bailey Stonemantle. Withdraw the following items from your bank: Bloodpetal",
+      "classes": null,
+      "races": null,
+      "coords": [35.9, 60.17],
+      "zone": "ironforge",
+      "tips": [
+        {
+          "type": "warning",
+          "class": null,
+          "text": "Withdraw the following items from your bank: Bloodpetal"
+        }
+      ],
+      "quests": [],
+      "npc": "Bailey Stonemantle",
+      "mobs": []
+    },
+    {
+      "id": "felwood_054",
+      "type": "info",
+      "description": "Talk to Bailey Stonemantle. Deposit the following items into your bank: Corrupt Moonwell Water, Bag of Empty Ooze Containers",
+      "classes": null,
+      "races": null,
+      "coords": [35.9, 60.17],
+      "zone": "ironforge",
+      "tips": [
+        {
+          "type": "warning",
+          "class": null,
+          "text": "Deposit the following items into your bank: Corrupt Moonwell Water, Bag of Empty Ooze Containers"
+        }
+      ],
+      "quests": [],
+      "npc": "Bailey Stonemantle",
+      "mobs": []
+    },
+    {
+      "id": "felwood_055",
+      "type": "info",
+      "description": "Talk to an Ironforge Auctioneer. Buy a Mithril Casing from the Auction House.",
+      "classes": null,
+      "races": null,
+      "coords": null,
+      "zone": "",
+      "tips": [
+        {
+          "type": "warning",
+          "class": null,
+          "text": "You will need this later for a quest in Un'Goro Crater"
+        },
+        {
+          "type": "warning",
+          "class": null,
+          "text": "Skip this step if you can't acquire one"
+        }
+      ],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "felwood_056",
+      "type": "info",
+      "description": "Talk to an Ironforge Auctioneer. Buy a Ichor of Undeath from the Auction House.",
+      "classes": ["Priest"],
+      "races": null,
+      "coords": null,
+      "zone": "",
+      "tips": [
+        {
+          "type": "warning",
+          "class": null,
+          "text": "Buy a Ichor of Undeath from the Auction House. You will need this later for your Sunken Temple class quest"
+        },
+        {
+          "type": "warning",
+          "class": null,
+          "text": "Skip this step if you can't acquire one"
+        }
+      ],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "felwood_057",
+      "type": "fly",
+      "description": "Talk to Gryth Thurden and fly to Wetlands",
+      "classes": null,
+      "races": null,
+      "coords": [55.506, 47.746],
+      "zone": "ironforge",
+      "tips": [],
+      "quests": [],
+      "npc": "Gryth Thurden",
+      "mobs": []
+    },
+    {
+      "id": "felwood_058",
+      "type": "travel",
+      "description": "Take the boat to Theramore",
+      "classes": null,
+      "races": null,
+      "coords": [4.79, 63.67],
+      "zone": "wetlands",
+      "tips": [],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "felwood_059",
+      "type": "info",
+      "description": "Talk to Innkeeper Janene. Set your Hearthstone to Theramore",
+      "classes": null,
+      "races": null,
+      "coords": [66.587, 45.223],
+      "zone": "dustwallow_marsh",
+      "tips": [
+        {
+          "type": "warning",
+          "class": null,
+          "text": "Set your Hearthstone to Theramore"
+        }
+      ],
+      "quests": [],
+      "npc": "Innkeeper Janene",
+      "mobs": []
+    },
+    {
+      "id": "felwood_060",
+      "type": "fly",
+      "description": "Talk to Baldruc and fly to Feathermoon Stronghold",
+      "classes": null,
+      "races": null,
+      "coords": [67.476, 51.3],
+      "zone": "dustwallow_marsh",
+      "tips": [],
+      "quests": [],
+      "npc": "Baldruc",
+      "mobs": []
+    }
+  ]
+}

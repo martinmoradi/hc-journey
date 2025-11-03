@@ -1,0 +1,1704 @@
+{
+  "zone": "Searing Gorge/WPL",
+  "levelRange": "52-52",
+  "faction": "Alliance",
+  "name": "52-52_searing_gorge_wpl",
+  "next": "52-53_felwood_1",
+  "steps": [
+    {
+      "id": "searing_gorge_wpl_001",
+      "type": "quest_accept",
+      "description": "Talk to Velarok Windblade and accept The Flame's Casing",
+      "classes": null,
+      "races": null,
+      "coords": [39.057, 38.99],
+      "zone": "searing_gorge",
+      "tips": [],
+      "quests": [
+        {
+          "id": 3452,
+          "name": "The Flame's Casing"
+        }
+      ],
+      "npc": "Velarok Windblade",
+      "mobs": []
+    },
+    {
+      "id": "searing_gorge_wpl_002",
+      "type": "kill",
+      "description": "Kill Twilight Dark Shamans, Twilight Fire Guards, Twilight Geomancers and Twilight Idolaters. Loot them for the Symbol of Ragnaros",
+      "classes": null,
+      "races": null,
+      "coords": [22.98, 37.82],
+      "zone": "searing_gorge",
+      "tips": [
+        {
+          "type": "warning",
+          "class": null,
+          "text": "Skip this step if you aren't confident soloing these Elites"
+        }
+      ],
+      "quests": [
+        {
+          "id": 3452,
+          "name": "The Flame's Casing"
+        }
+      ],
+      "npc": null,
+      "mobs": [
+        "Twilight Dark Shaman",
+        "Twilight Fire Guard",
+        "Twilight Geomancer",
+        "Twilight Idolater"
+      ]
+    },
+    {
+      "id": "searing_gorge_wpl_003",
+      "type": "quest_turnin",
+      "description": "Talk to Velarok Windblade and turn in The Flame's Casing",
+      "classes": null,
+      "races": null,
+      "coords": [39.057, 38.99],
+      "zone": "searing_gorge",
+      "tips": [],
+      "quests": [
+        {
+          "id": 3452,
+          "name": "The Flame's Casing"
+        }
+      ],
+      "npc": "Velarok Windblade",
+      "mobs": []
+    },
+    {
+      "id": "searing_gorge_wpl_004",
+      "type": "quest_accept",
+      "description": "Talk to Velarok Windblade, accept The Torch of Retribution, turn in The Torch of Retribution, and accept The Torch of Retribution",
+      "classes": null,
+      "races": null,
+      "coords": [39.057, 38.99],
+      "zone": "searing_gorge",
+      "tips": [],
+      "quests": [
+        {
+          "id": 3453,
+          "name": "The Torch of Retribution"
+        },
+        {
+          "id": 3454,
+          "name": "The Torch of Retribution"
+        }
+      ],
+      "npc": "Velarok Windblade",
+      "mobs": []
+    },
+    {
+      "id": "searing_gorge_wpl_005",
+      "type": "quest_turnin",
+      "description": "Click on the Torch of Retribution and turn in The Torch of Retribution",
+      "classes": null,
+      "races": null,
+      "coords": [39.055, 39.067],
+      "zone": "searing_gorge",
+      "tips": [],
+      "quests": [
+        {
+          "id": 3454,
+          "name": "The Torch of Retribution"
+        }
+      ],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "searing_gorge_wpl_006",
+      "type": "quest_accept",
+      "description": "Talk to Velarok Windblade and Squire Maltrake, accept Squire Maltrake, turn in Squire Maltrake, and accept Set Them Ablaze!",
+      "classes": null,
+      "races": null,
+      "coords": [39.165, 38.997],
+      "zone": "searing_gorge",
+      "tips": [],
+      "quests": [
+        {
+          "id": 3462,
+          "name": "Squire Maltrake"
+        },
+        {
+          "id": 3463,
+          "name": "Set Them Ablaze!"
+        }
+      ],
+      "npc": "Squire Maltrake",
+      "mobs": []
+    },
+    {
+      "id": "searing_gorge_wpl_007",
+      "type": "info",
+      "description": "Click the Sentry Braziers atop the Towers",
+      "classes": null,
+      "races": null,
+      "coords": [50.069, 54.737],
+      "zone": "searing_gorge",
+      "tips": [
+        {
+          "type": "warning",
+          "class": null,
+          "text": "You must have the Torch of Retribution equiped"
+        }
+      ],
+      "quests": [
+        {
+          "id": 3463,
+          "name": "Set Them Ablaze!"
+        }
+      ],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "searing_gorge_wpl_008",
+      "type": "quest_turnin",
+      "description": "Talk to Squire Maltrake and turn in Set Them Ablaze!",
+      "classes": null,
+      "races": null,
+      "coords": [39.165, 38.997],
+      "zone": "searing_gorge",
+      "tips": [],
+      "quests": [
+        {
+          "id": 3463,
+          "name": "Set Them Ablaze!"
+        }
+      ],
+      "npc": "Squire Maltrake",
+      "mobs": []
+    },
+    {
+      "id": "searing_gorge_wpl_009",
+      "type": "info",
+      "description": "Destroy the Torch of Retribution. You no longer need it",
+      "classes": null,
+      "races": null,
+      "coords": null,
+      "zone": "",
+      "tips": [],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "searing_gorge_wpl_010",
+      "type": "quest_accept",
+      "description": "Click the Hoard of the Black Dragonflight on the ground, accept Trinkets..., and turn in Trinkets...",
+      "classes": null,
+      "races": null,
+      "coords": [38.847, 38.985],
+      "zone": "searing_gorge",
+      "tips": [],
+      "quests": [
+        {
+          "id": 3481,
+          "name": "Trinkets..."
+        }
+      ],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "searing_gorge_wpl_011",
+      "type": "info",
+      "description": "Open the Hoard of the Black Dragonflight",
+      "classes": null,
+      "races": null,
+      "coords": null,
+      "zone": "",
+      "tips": [
+        {
+          "type": "warning",
+          "class": null,
+          "text": "Ensure you keep the Black Dragonflight Molt. Do not destroy it. You will need it later"
+        }
+      ],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "searing_gorge_wpl_012",
+      "type": "loot",
+      "description": "Open the Twilight Artifact. Loot it for the Mysterious Artifact",
+      "classes": null,
+      "races": null,
+      "coords": [29.144, 25.849],
+      "zone": "searing_gorge",
+      "tips": [
+        {
+          "type": "warning",
+          "class": null,
+          "text": "Jump onto the Twilight Artifact to loot it"
+        },
+        {
+          "type": "warning",
+          "class": null,
+          "text": "Skip this step if you are unable to complete it"
+        }
+      ],
+      "quests": [
+        {
+          "id": 3372,
+          "name": "Release Them"
+        }
+      ],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "searing_gorge_wpl_013",
+      "type": "quest_accept",
+      "description": "Talk to Zamael Lunthistle, accept Prayer to Elune, turn in Prayer to Elune, and accept Prayer to Elune",
+      "classes": null,
+      "races": null,
+      "coords": [29.505, 26.325],
+      "zone": "searing_gorge",
+      "tips": [],
+      "quests": [
+        {
+          "id": 3377,
+          "name": "Prayer to Elune"
+        },
+        {
+          "id": 3378,
+          "name": "Prayer to Elune"
+        }
+      ],
+      "npc": "Zamael Lunthistle",
+      "mobs": []
+    },
+    {
+      "id": "searing_gorge_wpl_014",
+      "type": "kill",
+      "description": "Kill Twilight Dark Shamans, Twilight Fire Guards, Twilight Geomancers and Twilight Idolaters. Loot them for the Prayer to Elune",
+      "classes": null,
+      "races": null,
+      "coords": [22.98, 37.82],
+      "zone": "searing_gorge",
+      "tips": [
+        {
+          "type": "warning",
+          "class": null,
+          "text": "Skip this step if you are unable to complete it"
+        }
+      ],
+      "quests": [
+        {
+          "id": 3378,
+          "name": "Prayer to Elune"
+        }
+      ],
+      "npc": null,
+      "mobs": [
+        "Twilight Dark Shaman",
+        "Twilight Fire Guard",
+        "Twilight Geomancer",
+        "Twilight Idolater"
+      ]
+    },
+    {
+      "id": "searing_gorge_wpl_015",
+      "type": "travel",
+      "description": "Jump down into The Slag Pit. Follow the arrow",
+      "classes": null,
+      "races": null,
+      "coords": [49.56, 45.38],
+      "zone": "searing_gorge",
+      "tips": [],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "searing_gorge_wpl_016",
+      "type": "quest_turnin",
+      "description": "Click the Altar of Suntara and turn in Release Them",
+      "classes": null,
+      "races": null,
+      "coords": [41.252, 25.408],
+      "zone": "searing_gorge",
+      "tips": [],
+      "quests": [
+        {
+          "id": 3372,
+          "name": "Release Them"
+        }
+      ],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "searing_gorge_wpl_017",
+      "type": "quest_accept",
+      "description": "Talk to Dying Archaeologist and accept Rise, Obsidion!",
+      "classes": null,
+      "races": null,
+      "coords": [41.163, 25.541],
+      "zone": "searing_gorge",
+      "tips": [],
+      "quests": [
+        {
+          "id": 3566,
+          "name": "Rise, Obsidion!"
+        }
+      ],
+      "npc": "Dying Archaeologist",
+      "mobs": []
+    },
+    {
+      "id": "searing_gorge_wpl_018",
+      "type": "kill",
+      "description": "Kill Lathoric the Black and Obsidion. Loot them for the Head of Lathoric the Black and the Heart of Obsidion",
+      "classes": null,
+      "races": null,
+      "coords": null,
+      "zone": "",
+      "tips": [],
+      "quests": [
+        {
+          "id": 3566,
+          "name": "Rise, Obsidion!"
+        }
+      ],
+      "npc": null,
+      "mobs": ["Lathoric the Black", "Obsidion"]
+    },
+    {
+      "id": "searing_gorge_wpl_019",
+      "type": "info",
+      "description": "Logout skip out of the cave. There are MANY different spots you can use",
+      "classes": ["!Mage"],
+      "races": null,
+      "coords": null,
+      "zone": "",
+      "tips": [
+        {
+          "type": "link",
+          "class": null,
+          "text": "Click here for video reference",
+          "url": "https://www.youtube.com/watch?v=-mcsjDkeSUw"
+        }
+      ],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "searing_gorge_wpl_020",
+      "type": "fly",
+      "description": "Talk to Lanie Reed and fly to Ironforge",
+      "classes": ["!Mage"],
+      "races": null,
+      "coords": [37.935, 30.863],
+      "zone": "searing_gorge",
+      "tips": [],
+      "quests": [],
+      "npc": "Lanie Reed",
+      "mobs": []
+    },
+    {
+      "id": "searing_gorge_wpl_021",
+      "type": "travel",
+      "description": "Teleport to Ironforge",
+      "classes": ["Mage"],
+      "races": null,
+      "coords": null,
+      "zone": "",
+      "tips": [],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "searing_gorge_wpl_022",
+      "type": "quest_accept",
+      "description": "Talk to Dink, accept Magecraft, and train your class spells",
+      "classes": ["Mage"],
+      "races": null,
+      "coords": [27.169, 8.579],
+      "zone": "ironforge",
+      "tips": [],
+      "quests": [
+        {
+          "id": 8250,
+          "name": "Magecraft"
+        }
+      ],
+      "npc": "Dink",
+      "mobs": []
+    },
+    {
+      "id": "searing_gorge_wpl_023",
+      "type": "quest_accept",
+      "description": "Talk to Courier Hammerfall and accept A Call to Arms: The Plaguelands!",
+      "classes": null,
+      "races": null,
+      "coords": null,
+      "zone": "",
+      "tips": [
+        {
+          "type": "warning",
+          "class": null,
+          "text": "Courier Hammerfall patrols through all of Ironforge"
+        }
+      ],
+      "quests": [
+        {
+          "id": 5090,
+          "name": "A Call to Arms: The Plaguelands!"
+        }
+      ],
+      "npc": "Courier Hammerfall",
+      "mobs": []
+    },
+    {
+      "id": "searing_gorge_wpl_024",
+      "type": "quest_turnin",
+      "description": "Talk to Curator Thorius and turn in Rise Obsidion!",
+      "classes": null,
+      "races": null,
+      "coords": [71.83, 16.12],
+      "zone": "ironforge",
+      "tips": [
+        {
+          "type": "warning",
+          "class": null,
+          "text": "Curator Thorius patrols through the Hall of Explorers"
+        }
+      ],
+      "quests": [
+        {
+          "id": 3566,
+          "name": "Rise, Obsidion!"
+        }
+      ],
+      "npc": "Curator Thorius",
+      "mobs": []
+    },
+    {
+      "id": "searing_gorge_wpl_025",
+      "type": "quest_accept",
+      "description": "Talk to Historian Karnik and accept Passing the Burden",
+      "classes": null,
+      "races": null,
+      "coords": [77.539, 11.834],
+      "zone": "ironforge",
+      "tips": [],
+      "quests": [
+        {
+          "id": 3448,
+          "name": "Passing the Burden"
+        }
+      ],
+      "npc": "Historian Karnik",
+      "mobs": []
+    },
+    {
+      "id": "searing_gorge_wpl_026",
+      "type": "quest_accept",
+      "description": "Talk to Historian Karnik, turn in Return to Ironforge, and accept A Future Task",
+      "classes": null,
+      "races": null,
+      "coords": [77.539, 11.834],
+      "zone": "ironforge",
+      "tips": [],
+      "quests": [
+        {
+          "id": 2977,
+          "name": "Return to Ironforge"
+        },
+        {
+          "id": 2964,
+          "name": "A Future Task"
+        }
+      ],
+      "npc": "Historian Karnik",
+      "mobs": []
+    },
+    {
+      "id": "searing_gorge_wpl_027",
+      "type": "quest_accept",
+      "description": "Talk to Historian Karnik and accept A Future Task",
+      "classes": null,
+      "races": null,
+      "coords": [77.539, 11.834],
+      "zone": "ironforge",
+      "tips": [],
+      "quests": [
+        {
+          "id": 2964,
+          "name": "A Future Task"
+        }
+      ],
+      "npc": "Historian Karnik",
+      "mobs": []
+    },
+    {
+      "id": "searing_gorge_wpl_028",
+      "type": "quest_turnin",
+      "description": "Talk to High Explorer Magellas and turn in A Future Task",
+      "classes": null,
+      "races": null,
+      "coords": [69.93, 18.548],
+      "zone": "ironforge",
+      "tips": [],
+      "quests": [
+        {
+          "id": 2964,
+          "name": "A Future Task"
+        }
+      ],
+      "npc": "High Explorer Magellas",
+      "mobs": []
+    },
+    {
+      "id": "searing_gorge_wpl_029",
+      "type": "quest_accept",
+      "description": "Talk to Laris Geardawdle and accept A Little Slime Goes a Long Way",
+      "classes": null,
+      "races": null,
+      "coords": [75.768, 23.389],
+      "zone": "ironforge",
+      "tips": [],
+      "quests": [
+        {
+          "id": 4512,
+          "name": "A Little Slime Goes a Long Way"
+        }
+      ],
+      "npc": "Laris Geardawdle",
+      "mobs": []
+    },
+    {
+      "id": "searing_gorge_wpl_030",
+      "type": "quest_accept",
+      "description": "Talk to Hulfdan Blackbeard, train your class spells, and accept A Simple Request",
+      "classes": ["Rogue"],
+      "races": null,
+      "coords": [51.981, 14.851],
+      "zone": "ironforge",
+      "tips": [],
+      "quests": [
+        {
+          "id": 8233,
+          "name": "A Simple Request"
+        }
+      ],
+      "npc": "Hulfdan Blackbeard",
+      "mobs": []
+    },
+    {
+      "id": "searing_gorge_wpl_031",
+      "type": "info",
+      "description": "Talk to Jubahl Corpseseeker. Buy Grimoires for your pets",
+      "classes": ["Warlock"],
+      "races": null,
+      "coords": [52.701, 6.07],
+      "zone": "ironforge",
+      "tips": [],
+      "quests": [],
+      "npc": "Jubahl Corpseseeker",
+      "mobs": []
+    },
+    {
+      "id": "searing_gorge_wpl_032",
+      "type": "quest_accept",
+      "description": "Talk to Briarthorn, train your class spells, and accept An Imp's Request",
+      "classes": ["Warlock"],
+      "races": null,
+      "coords": [50.343, 5.657],
+      "zone": "ironforge",
+      "tips": [],
+      "quests": [
+        {
+          "id": 8419,
+          "name": "An Imp's Request"
+        }
+      ],
+      "npc": "Briarthorn",
+      "mobs": []
+    },
+    {
+      "id": "searing_gorge_wpl_033",
+      "type": "quest_accept",
+      "description": "Talk to Tymor, turn in Passing the Burden, accept Arcane Runes, and accept An Easy Pickup",
+      "classes": null,
+      "races": null,
+      "coords": [30.96, 4.82],
+      "zone": "ironforge",
+      "tips": [],
+      "quests": [
+        {
+          "id": 3448,
+          "name": "Passing the Burden"
+        },
+        {
+          "id": 3449,
+          "name": "Arcane Runes"
+        },
+        {
+          "id": 3450,
+          "name": "An Easy Pickup"
+        }
+      ],
+      "npc": "Tymor",
+      "mobs": []
+    },
+    {
+      "id": "searing_gorge_wpl_034",
+      "type": "quest_accept",
+      "description": "Talk to Brandur Ironhammer, train your class spells, and accept Chillwind Point",
+      "classes": ["Paladin"],
+      "races": null,
+      "coords": [23.126, 6.153],
+      "zone": "ironforge",
+      "tips": [],
+      "quests": [
+        {
+          "id": 8415,
+          "name": "Chillwind Point"
+        }
+      ],
+      "npc": "Brandur Ironhammer",
+      "mobs": []
+    },
+    {
+      "id": "searing_gorge_wpl_035",
+      "type": "quest_accept",
+      "description": "Talk to High Priest Rohan, train your class spells, and accept Cenarion Aid",
+      "classes": ["Priest"],
+      "races": null,
+      "coords": [24.337, 10.433],
+      "zone": "ironforge",
+      "tips": [],
+      "quests": [
+        {
+          "id": 8254,
+          "name": "Cenarion Aid"
+        }
+      ],
+      "npc": "High Priest Rohan",
+      "mobs": []
+    },
+    {
+      "id": "searing_gorge_wpl_036",
+      "type": "info",
+      "description": "Talk to Bilban Tosslespanner and train your class spells",
+      "classes": ["Warrior"],
+      "races": null,
+      "coords": [65.905, 88.405],
+      "zone": "ironforge",
+      "tips": [],
+      "quests": [],
+      "npc": "Bilban Tosslespanner",
+      "mobs": []
+    },
+    {
+      "id": "searing_gorge_wpl_037",
+      "type": "quest_accept",
+      "description": "Talk to Olmin Burningbeard, train your class spells, and accept The Hunter's Charm",
+      "classes": ["Hunter"],
+      "races": null,
+      "coords": [70.889, 83.622],
+      "zone": "ironforge",
+      "tips": [],
+      "quests": [
+        {
+          "id": 8151,
+          "name": "The Hunter's Charm"
+        }
+      ],
+      "npc": "Olmin Burningbeard",
+      "mobs": []
+    },
+    {
+      "id": "searing_gorge_wpl_038",
+      "type": "quest_accept",
+      "description": "Talk to Xiggs Fuselighter, turn in An Easy Pickup, accept Signal for Pickup, and turn in Signal for Pickup",
+      "classes": null,
+      "races": null,
+      "coords": [70.86, 94.57],
+      "zone": "ironforge",
+      "tips": [],
+      "quests": [
+        {
+          "id": 3450,
+          "name": "An Easy Pickup"
+        },
+        {
+          "id": 3451,
+          "name": "Signal for Pickup"
+        }
+      ],
+      "npc": "Xiggs Fuselighter",
+      "mobs": []
+    },
+    {
+      "id": "searing_gorge_wpl_039",
+      "type": "quest_accept",
+      "description": "Talk to Courier Hammerfall and accept A Call to Arms: The Plaguelands!",
+      "classes": null,
+      "races": null,
+      "coords": [33.0, 22.4],
+      "zone": "ironforge",
+      "tips": [
+        {
+          "type": "warning",
+          "class": null,
+          "text": "Courier Hammerfall patrols through all of Ironforge"
+        }
+      ],
+      "quests": [
+        {
+          "id": 5090,
+          "name": "A Call to Arms: The Plaguelands!"
+        }
+      ],
+      "npc": "Courier Hammerfall",
+      "mobs": []
+    },
+    {
+      "id": "searing_gorge_wpl_040",
+      "type": "info",
+      "description": "Talk to Innkeeper Firebrew. Set your Hearthstone to Ironforge",
+      "classes": null,
+      "races": null,
+      "coords": [18.1, 51.6],
+      "zone": "ironforge",
+      "tips": [],
+      "quests": [],
+      "npc": "Innkeeper Firebrew",
+      "mobs": []
+    },
+    {
+      "id": "searing_gorge_wpl_041",
+      "type": "info",
+      "description": "Talk to Gimblethorn. Deposit the following items into your bank: Black Dragonflight Molt (If you have it)",
+      "classes": null,
+      "races": null,
+      "coords": [35.9, 60.17],
+      "zone": "ironforge",
+      "tips": [],
+      "quests": [],
+      "npc": "Bailey Stonemantle",
+      "mobs": []
+    },
+    {
+      "id": "searing_gorge_wpl_042",
+      "type": "info",
+      "description": "Talk to Bailey Stonemantle. Deposit the following items into your bank: Standard Issue Flare Gun, Drawing Kit",
+      "classes": null,
+      "races": null,
+      "coords": [35.9, 60.17],
+      "zone": "ironforge",
+      "tips": [],
+      "quests": [],
+      "npc": "Bailey Stonemantle",
+      "mobs": []
+    },
+    {
+      "id": "searing_gorge_wpl_043",
+      "type": "info",
+      "description": "Talk to Bailey Stonemantle. Withdraw the following items from your bank: Wildkin Feather, Super Snapper FX, Snapshot of Gammerita",
+      "classes": null,
+      "races": null,
+      "coords": [35.9, 60.17],
+      "zone": "ironforge",
+      "tips": [],
+      "quests": [],
+      "npc": "Bailey Stonemantle",
+      "mobs": []
+    },
+    {
+      "id": "searing_gorge_wpl_044",
+      "type": "fly",
+      "description": "Talk to Gryth Thurden and fly to Southshore",
+      "classes": ["Rogue"],
+      "races": null,
+      "coords": [55.491, 47.751],
+      "zone": "ironforge",
+      "tips": [],
+      "quests": [],
+      "npc": "Gryth Thurden",
+      "mobs": []
+    },
+    {
+      "id": "searing_gorge_wpl_045",
+      "type": "travel",
+      "description": "Travel to Ravenholdt Manor",
+      "classes": ["Rogue"],
+      "races": null,
+      "coords": [86.026, 78.879],
+      "zone": "hillsbrad_foothills",
+      "tips": [],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "searing_gorge_wpl_046",
+      "type": "quest_accept",
+      "description": "Talk to Lord Jorach Ravenholdt upstairs, turn in A Simple Request, and accept Sealed Azure Bag",
+      "classes": ["Rogue"],
+      "races": null,
+      "coords": [86.026, 78.879],
+      "zone": "hillsbrad_foothills",
+      "tips": [],
+      "quests": [
+        {
+          "id": 8233,
+          "name": "A Simple Request"
+        },
+        {
+          "id": 8234,
+          "name": "Sealed Azure Bag"
+        }
+      ],
+      "npc": "Lord Jorach Ravenholdt",
+      "mobs": []
+    },
+    {
+      "id": "searing_gorge_wpl_047",
+      "type": "quest_accept",
+      "description": "Talk to Lord Jorach Ravenholdt upstairs and accept Sealed Azure Bag",
+      "classes": ["Rogue"],
+      "races": null,
+      "coords": [86.026, 78.879],
+      "zone": "hillsbrad_foothills",
+      "tips": [],
+      "quests": [
+        {
+          "id": 8234,
+          "name": "Sealed Azure Bag"
+        }
+      ],
+      "npc": "Lord Jorach Ravenholdt",
+      "mobs": []
+    },
+    {
+      "id": "searing_gorge_wpl_048",
+      "type": "travel",
+      "description": "Travel to The Hinterlands",
+      "classes": ["Rogue"],
+      "races": null,
+      "coords": [7.5, 58.87],
+      "zone": "the_hinterlands",
+      "tips": [],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "searing_gorge_wpl_049",
+      "type": "fly",
+      "description": "Talk to Gryth Thurden and fly to The Hinterlands",
+      "classes": null,
+      "races": null,
+      "coords": [55.491, 47.751],
+      "zone": "ironforge",
+      "tips": [],
+      "quests": [],
+      "npc": "Gryth Thurden",
+      "mobs": []
+    },
+    {
+      "id": "searing_gorge_wpl_050",
+      "type": "quest_turnin",
+      "description": "Talk to Gryphon Master Talonaxe and turn in Return to the Hinterlands",
+      "classes": null,
+      "races": null,
+      "coords": [9.752, 44.473],
+      "zone": "the_hinterlands",
+      "tips": [],
+      "quests": [
+        {
+          "id": 2993,
+          "name": "Return to the Hinterlands"
+        }
+      ],
+      "npc": "Gryphon Master Talonaxe",
+      "mobs": []
+    },
+    {
+      "id": "searing_gorge_wpl_051",
+      "type": "loot",
+      "description": "Loot the Violet Tragan underwater",
+      "classes": null,
+      "races": null,
+      "coords": [40.63, 59.65],
+      "zone": "the_hinterlands",
+      "tips": [],
+      "quests": [
+        {
+          "id": 2641,
+          "name": "Sprinkle's Secret Ingredient"
+        }
+      ],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "searing_gorge_wpl_052",
+      "type": "fly",
+      "description": "Talk to Guthrum Thunderfist and fly to Western Plaguelands",
+      "classes": null,
+      "races": null,
+      "coords": [11.071, 46.153],
+      "zone": "the_hinterlands",
+      "tips": [],
+      "quests": [],
+      "npc": "Guthrum Thunderfist",
+      "mobs": []
+    },
+    {
+      "id": "searing_gorge_wpl_053",
+      "type": "quest_accept",
+      "description": "Talk to Commander Ashlam Valorfist, turn in A Call to Arms: The Plaguelands!, turn in Chillwind Point, accept Dispelling Evil, and accept Clear the Way",
+      "classes": ["Paladin"],
+      "races": null,
+      "coords": [42.702, 84.031],
+      "zone": "western_plaguelands",
+      "tips": [],
+      "quests": [
+        {
+          "id": 5066,
+          "name": "A Call to Arms: The Plaguelands!"
+        },
+        {
+          "id": 8415,
+          "name": "Chillwind Point"
+        },
+        {
+          "id": 8414,
+          "name": "Dispelling Evil"
+        },
+        {
+          "id": 5092,
+          "name": "Clear the Way"
+        }
+      ],
+      "npc": "Commander Ashlam Valorfist",
+      "mobs": []
+    },
+    {
+      "id": "searing_gorge_wpl_054",
+      "type": "quest_accept",
+      "description": "Talk to Commander Ashlam Valorfist, turn in Chillwind Point, accept Dispelling Evil, and accept Clear the Way",
+      "classes": ["Paladin"],
+      "races": null,
+      "coords": [42.702, 84.031],
+      "zone": "western_plaguelands",
+      "tips": [],
+      "quests": [
+        {
+          "id": 8415,
+          "name": "Chillwind Point"
+        },
+        {
+          "id": 8414,
+          "name": "Dispelling Evil"
+        },
+        {
+          "id": 5092,
+          "name": "Clear the Way"
+        }
+      ],
+      "npc": "Commander Ashlam Valorfist",
+      "mobs": []
+    },
+    {
+      "id": "searing_gorge_wpl_055",
+      "type": "quest_accept",
+      "description": "Talk to Commander Ashlam Valorfist, turn in A Call to Arms: The Plaguelands!, turn in Chillwind Point, accept Dispelling Evil, and accept Clear the Way",
+      "classes": ["Paladin"],
+      "races": null,
+      "coords": [42.702, 84.031],
+      "zone": "western_plaguelands",
+      "tips": [],
+      "quests": [
+        {
+          "id": 5091,
+          "name": "A Call to Arms: The Plaguelands!"
+        },
+        {
+          "id": 8415,
+          "name": "Chillwind Point"
+        },
+        {
+          "id": 8414,
+          "name": "Dispelling Evil"
+        },
+        {
+          "id": 5092,
+          "name": "Clear the Way"
+        }
+      ],
+      "npc": "Commander Ashlam Valorfist",
+      "mobs": []
+    },
+    {
+      "id": "searing_gorge_wpl_056",
+      "type": "quest_accept",
+      "description": "Talk to Commander Ashlam Valorfist, turn in Chillwind Point, accept Dispelling Evil, and accept Clear the Way",
+      "classes": ["Paladin"],
+      "races": null,
+      "coords": [42.702, 84.031],
+      "zone": "western_plaguelands",
+      "tips": [],
+      "quests": [
+        {
+          "id": 8415,
+          "name": "Chillwind Point"
+        },
+        {
+          "id": 8414,
+          "name": "Dispelling Evil"
+        },
+        {
+          "id": 5092,
+          "name": "Clear the Way"
+        }
+      ],
+      "npc": "Commander Ashlam Valorfist",
+      "mobs": []
+    },
+    {
+      "id": "searing_gorge_wpl_057",
+      "type": "quest_accept",
+      "description": "Talk to Commander Ashlam Valorfist, turn in A Call to Arms: The Plaguelands!, turn in Chillwind Point, accept Dispelling Evil, and accept Clear the Way",
+      "classes": ["Paladin"],
+      "races": null,
+      "coords": [42.702, 84.031],
+      "zone": "western_plaguelands",
+      "tips": [],
+      "quests": [
+        {
+          "id": 5090,
+          "name": "A Call to Arms: The Plaguelands!"
+        },
+        {
+          "id": 8415,
+          "name": "Chillwind Point"
+        },
+        {
+          "id": 8414,
+          "name": "Dispelling Evil"
+        },
+        {
+          "id": 5092,
+          "name": "Clear the Way"
+        }
+      ],
+      "npc": "Commander Ashlam Valorfist",
+      "mobs": []
+    },
+    {
+      "id": "searing_gorge_wpl_058",
+      "type": "quest_accept",
+      "description": "Talk to Commander Ashlam Valorfist, turn in Chillwind Point, accept Dispelling Evil, and accept Clear the Way",
+      "classes": ["Paladin"],
+      "races": null,
+      "coords": [42.702, 84.031],
+      "zone": "western_plaguelands",
+      "tips": [],
+      "quests": [
+        {
+          "id": 8415,
+          "name": "Chillwind Point"
+        },
+        {
+          "id": 8414,
+          "name": "Dispelling Evil"
+        },
+        {
+          "id": 5092,
+          "name": "Clear the Way"
+        }
+      ],
+      "npc": "Commander Ashlam Valorfist",
+      "mobs": []
+    },
+    {
+      "id": "searing_gorge_wpl_059",
+      "type": "quest_accept",
+      "description": "Talk to Argent Officer Pureheart, accept Argent Dawn Commission, and turn in Argent Dawn Commission",
+      "classes": null,
+      "races": null,
+      "coords": [42.968, 83.546],
+      "zone": "western_plaguelands",
+      "tips": [],
+      "quests": [
+        {
+          "id": 5401,
+          "name": "Argent Dawn Commission"
+        }
+      ],
+      "npc": "Argent Officer Pureheart",
+      "mobs": []
+    },
+    {
+      "id": "searing_gorge_wpl_060",
+      "type": "info",
+      "description": "Equip the Argent Dawn Commission to start collecting Scourgestones",
+      "classes": null,
+      "races": null,
+      "coords": null,
+      "zone": "",
+      "tips": [
+        {
+          "type": "warning",
+          "class": null,
+          "text": "Equip the Argent Dawn Commission to start collecting Scourgestones"
+        }
+      ],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "searing_gorge_wpl_061",
+      "type": "kill",
+      "description": "Kill Skeletal Flayers and Slavering Ghouls. Loot them for their Minion's Scourgestones",
+      "classes": ["Paladin"],
+      "races": null,
+      "coords": [50.01, 76.9],
+      "zone": "western_plaguelands",
+      "tips": [],
+      "quests": [
+        {
+          "id": 5092,
+          "name": "Clear the Way"
+        },
+        {
+          "id": 8414,
+          "name": "Dispelling Evil"
+        }
+      ],
+      "npc": null,
+      "mobs": ["Skeletal Flayer", "Slavering Ghoul"]
+    },
+    {
+      "id": "searing_gorge_wpl_062",
+      "type": "kill",
+      "description": "Kill Skeletal Flayers and Slavering Ghouls",
+      "classes": ["!Paladin"],
+      "races": null,
+      "coords": [50.01, 76.9],
+      "zone": "western_plaguelands",
+      "tips": [],
+      "quests": [
+        {
+          "id": 5092,
+          "name": "Clear the Way"
+        }
+      ],
+      "npc": null,
+      "mobs": ["Skeletal Flayer", "Slavering Ghoul"]
+    },
+    {
+      "id": "searing_gorge_wpl_063",
+      "type": "quest_accept",
+      "description": "Talk to High Priest Thel'danis, turn in Dispelling Evil, and accept Inert Scourgestones",
+      "classes": ["Paladin"],
+      "races": null,
+      "coords": [51.99, 82.85],
+      "zone": "western_plaguelands",
+      "tips": [],
+      "quests": [
+        {
+          "id": 8414,
+          "name": "Dispelling Evil"
+        },
+        {
+          "id": 8416,
+          "name": "Inert Scourgestones"
+        }
+      ],
+      "npc": "High Priest Thel'danis",
+      "mobs": []
+    },
+    {
+      "id": "searing_gorge_wpl_064",
+      "type": "quest_turnin",
+      "description": "Talk to Commander Ashlam Valorfist, turn in Clear the Way, and turn in Inert Scourgestones",
+      "classes": ["Paladin"],
+      "races": null,
+      "coords": [42.702, 84.031],
+      "zone": "western_plaguelands",
+      "tips": [],
+      "quests": [
+        {
+          "id": 5092,
+          "name": "Clear the Way"
+        },
+        {
+          "id": 8416,
+          "name": "Inert Scourgestones"
+        }
+      ],
+      "npc": "Commander Ashlam Valorfist",
+      "mobs": []
+    },
+    {
+      "id": "searing_gorge_wpl_065",
+      "type": "quest_turnin",
+      "description": "Talk to Commander Ashlam Valorfist and turn in Clear the Way",
+      "classes": ["!Paladin"],
+      "races": null,
+      "coords": [42.702, 84.031],
+      "zone": "western_plaguelands",
+      "tips": [],
+      "quests": [
+        {
+          "id": 5092,
+          "name": "Clear the Way"
+        }
+      ],
+      "npc": "Commander Ashlam Valorfist",
+      "mobs": []
+    },
+    {
+      "id": "searing_gorge_wpl_066",
+      "type": "fly",
+      "description": "Talk to Bibilfaz Featherwhistle and fly to Menethil Harbor",
+      "classes": ["!Mage"],
+      "races": null,
+      "coords": [42.924, 85.061],
+      "zone": "western_plaguelands",
+      "tips": [],
+      "quests": [],
+      "npc": "Bibilfaz Featherwhistle",
+      "mobs": []
+    },
+    {
+      "id": "searing_gorge_wpl_067",
+      "type": "travel",
+      "description": "Take the boat to Darkshore",
+      "classes": ["!Mage"],
+      "races": null,
+      "coords": [4.56, 57.16],
+      "zone": "wetlands",
+      "tips": [],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "searing_gorge_wpl_068",
+      "type": "fly",
+      "description": "Talk to Caylais Moonfeather and fly to Teldrassil",
+      "classes": ["!Mage"],
+      "races": null,
+      "coords": [36.336, 45.574],
+      "zone": "darkshore",
+      "tips": [],
+      "quests": [],
+      "npc": "Caylais Moonfeather",
+      "mobs": []
+    },
+    {
+      "id": "searing_gorge_wpl_069",
+      "type": "quest_turnin",
+      "description": "Talk to Erelas Ambersky and turn in Favored of Elune?",
+      "classes": ["!Mage"],
+      "races": null,
+      "coords": [55.497, 92.045],
+      "zone": "teldrassil",
+      "tips": [],
+      "quests": [
+        {
+          "id": 3661,
+          "name": "Favored of Elune?"
+        }
+      ],
+      "npc": "Erelas Ambersky",
+      "mobs": []
+    },
+    {
+      "id": "searing_gorge_wpl_070",
+      "type": "quest_accept",
+      "description": "Talk to Erelas Ambersky and accept Moontouched Wildkin",
+      "classes": ["!Mage"],
+      "races": null,
+      "coords": [55.497, 92.045],
+      "zone": "teldrassil",
+      "tips": [
+        {
+          "type": "warning",
+          "class": null,
+          "text": "Skip this step if you aren't above level 52. You'll do it later"
+        }
+      ],
+      "quests": [
+        {
+          "id": 978,
+          "name": "Moontouched Wildkin"
+        }
+      ],
+      "npc": "Erelas Ambersky",
+      "mobs": []
+    },
+    {
+      "id": "searing_gorge_wpl_071",
+      "type": "quest_accept",
+      "description": "Talk to Daryn Lightwind upstairs, turn in The Super Snapper FX, and accept Return to Troyas",
+      "classes": ["!Mage"],
+      "races": null,
+      "coords": [55.414, 92.23],
+      "zone": "teldrassil",
+      "tips": [],
+      "quests": [
+        {
+          "id": 2944,
+          "name": "The Super Snapper FX"
+        },
+        {
+          "id": 2943,
+          "name": "Return to Troyas"
+        }
+      ],
+      "npc": "Daryn Lightwind",
+      "mobs": []
+    },
+    {
+      "id": "searing_gorge_wpl_072",
+      "type": "travel",
+      "description": "Take the purple portal into Darnassus",
+      "classes": ["!Mage"],
+      "races": null,
+      "coords": [55.889, 89.456],
+      "zone": "teldrassil",
+      "tips": [],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "searing_gorge_wpl_073",
+      "type": "travel",
+      "description": "Teleport to Darnassus",
+      "classes": ["Mage"],
+      "races": null,
+      "coords": null,
+      "zone": "",
+      "tips": [],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "searing_gorge_wpl_074",
+      "type": "info",
+      "description": "Talk to Idriana, Garryeth or Lairn. Withdraw the following items from your bank: Insect Analysis Report, Linken's Training Sword, Un'Goro Soil (If you have 20)",
+      "classes": null,
+      "races": null,
+      "coords": [39.7, 42.1],
+      "zone": "darnassus",
+      "tips": [],
+      "quests": [],
+      "npc": "Lairn",
+      "mobs": []
+    },
+    {
+      "id": "searing_gorge_wpl_075",
+      "type": "info",
+      "description": "Talk to Idriana, Garryeth or Lairn. Deposit the following items into your bank: Violet Tragan",
+      "classes": null,
+      "races": null,
+      "coords": [39.7, 42.1],
+      "zone": "darnassus",
+      "tips": [],
+      "quests": [],
+      "npc": "Lairn",
+      "mobs": []
+    },
+    {
+      "id": "searing_gorge_wpl_076",
+      "type": "quest_accept",
+      "description": "Talk to Innkeeper Saelienne and accept Assisting Arch Druid Staghelm",
+      "classes": null,
+      "races": null,
+      "coords": [67.427, 15.655],
+      "zone": "darnassus",
+      "tips": [],
+      "quests": [
+        {
+          "id": 3763,
+          "name": "Assisting Arch Druid Staghelm"
+        }
+      ],
+      "npc": "Innkeeper Saelienne",
+      "mobs": []
+    },
+    {
+      "id": "searing_gorge_wpl_077",
+      "type": "quest_turnin",
+      "description": "Talk to Arch Druid Fandral Staghelm and turn in Assisting Arch Druid Staghelm",
+      "classes": null,
+      "races": null,
+      "coords": [34.814, 9.255],
+      "zone": "darnassus",
+      "tips": [],
+      "quests": [
+        {
+          "id": 3763,
+          "name": "Assisting Arch Druid Staghelm"
+        }
+      ],
+      "npc": "Arch Druid Fandral Staghelm",
+      "mobs": []
+    },
+    {
+      "id": "searing_gorge_wpl_078",
+      "type": "quest_accept",
+      "description": "Talk to Arch Druid Fandral Staghelm and accept Un'Goro Soil",
+      "classes": null,
+      "races": null,
+      "coords": [34.814, 9.255],
+      "zone": "darnassus",
+      "tips": [],
+      "quests": [
+        {
+          "id": 3764,
+          "name": "Un'Goro Soil"
+        }
+      ],
+      "npc": "Arch Druid Fandral Staghelm",
+      "mobs": []
+    },
+    {
+      "id": "searing_gorge_wpl_079",
+      "type": "quest_turnin",
+      "description": "Talk to Jenal and turn in Un'Goro Soil",
+      "classes": null,
+      "races": null,
+      "coords": [31.485, 8.237],
+      "zone": "darnassus",
+      "tips": [],
+      "quests": [
+        {
+          "id": 3764,
+          "name": "Un'Goro Soil"
+        }
+      ],
+      "npc": "Jenal",
+      "mobs": []
+    },
+    {
+      "id": "searing_gorge_wpl_080",
+      "type": "quest_accept",
+      "description": "Talk to Gracina Spiritmight, turn in Rise of the Silithid, and accept March of the Silithid",
+      "classes": null,
+      "races": null,
+      "coords": [41.833, 85.622],
+      "zone": "darnassus",
+      "tips": [],
+      "quests": [
+        {
+          "id": 162,
+          "name": "Rise of the Silithid"
+        },
+        {
+          "id": 4493,
+          "name": "March of the Silithid"
+        }
+      ],
+      "npc": "Gracina Spiritmight",
+      "mobs": []
+    },
+    {
+      "id": "searing_gorge_wpl_081",
+      "type": "quest_turnin",
+      "description": "Talk to Astarii Starseeker and turn in Prayer to Elune",
+      "classes": null,
+      "races": null,
+      "coords": [38.334, 80.951],
+      "zone": "darnassus",
+      "tips": [],
+      "quests": [
+        {
+          "id": 3378,
+          "name": "Prayer to Elune"
+        }
+      ],
+      "npc": "Astarii Starseeker",
+      "mobs": []
+    },
+    {
+      "id": "searing_gorge_wpl_082",
+      "type": "info",
+      "description": "Talk to a Darnassus Auctioneer. Buy the following items for a instant turn ins at Felwood shortly. Skip this step if you wish to not buy any: Felcloth",
+      "classes": ["Warlock"],
+      "races": null,
+      "coords": [56.374, 51.82],
+      "zone": "darnassus",
+      "tips": [],
+      "quests": [],
+      "npc": "Auctioneer Golothas",
+      "mobs": []
+    },
+    {
+      "id": "searing_gorge_wpl_083",
+      "type": "info",
+      "description": "Talk to Mathrengyl Bearwalker and train your class spells",
+      "classes": ["Druid"],
+      "races": null,
+      "coords": [35.375, 8.405],
+      "zone": "darnassus",
+      "tips": [],
+      "quests": [],
+      "npc": "Mathrengyl Bearwalker",
+      "mobs": []
+    },
+    {
+      "id": "searing_gorge_wpl_084",
+      "type": "info",
+      "description": "Talk to Arias'ta Bladesinger and train your class spells",
+      "classes": ["Warrior"],
+      "races": null,
+      "coords": [58.718, 34.905],
+      "zone": "darnassus",
+      "tips": [],
+      "quests": [],
+      "npc": "Arias'ta Bladesinger",
+      "mobs": []
+    },
+    {
+      "id": "searing_gorge_wpl_085",
+      "type": "info",
+      "description": "Talk to Jandria and train your class spells",
+      "classes": ["Priest"],
+      "races": null,
+      "coords": [37.901, 82.742],
+      "zone": "darnassus",
+      "tips": [],
+      "quests": [],
+      "npc": "Jandria",
+      "mobs": []
+    },
+    {
+      "id": "searing_gorge_wpl_086",
+      "type": "info",
+      "description": "Talk to Syurna and train your class spells",
+      "classes": ["Rogue"],
+      "races": null,
+      "coords": [36.99, 21.91],
+      "zone": "darnassus",
+      "tips": [],
+      "quests": [],
+      "npc": "Syurna",
+      "mobs": []
+    },
+    {
+      "id": "searing_gorge_wpl_087",
+      "type": "info",
+      "description": "Talk to Jocaste and train your class spells",
+      "classes": ["Hunter"],
+      "races": null,
+      "coords": [40.377, 8.545],
+      "zone": "darnassus",
+      "tips": [],
+      "quests": [],
+      "npc": "Jocaste",
+      "mobs": []
+    },
+    {
+      "id": "searing_gorge_wpl_088",
+      "type": "travel",
+      "description": "Travel through the purple portal to Rut'theran Village",
+      "classes": null,
+      "races": null,
+      "coords": [29.466, 41.405],
+      "zone": "darnassus",
+      "tips": [],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "searing_gorge_wpl_089",
+      "type": "quest_turnin",
+      "description": "Talk to Erelas Ambersky and turn in Favored of Elune?",
+      "classes": ["Mage"],
+      "races": null,
+      "coords": [55.497, 92.045],
+      "zone": "teldrassil",
+      "tips": [],
+      "quests": [
+        {
+          "id": 3661,
+          "name": "Favored of Elune?"
+        }
+      ],
+      "npc": "Erelas Ambersky",
+      "mobs": []
+    },
+    {
+      "id": "searing_gorge_wpl_090",
+      "type": "quest_accept",
+      "description": "Talk to Erelas Ambersky and accept Moontouched Wildkin",
+      "classes": ["Mage"],
+      "races": null,
+      "coords": [55.497, 92.045],
+      "zone": "teldrassil",
+      "tips": [
+        {
+          "type": "warning",
+          "class": null,
+          "text": "Skip this step if you aren't above level 52. You'll do it later"
+        }
+      ],
+      "quests": [
+        {
+          "id": 978,
+          "name": "Moontouched Wildkin"
+        }
+      ],
+      "npc": "Erelas Ambersky",
+      "mobs": []
+    },
+    {
+      "id": "searing_gorge_wpl_091",
+      "type": "quest_accept",
+      "description": "Talk to Daryn Lightwind upstairs, turn in The Super Snapper FX, and accept Return to Troyas",
+      "classes": ["Mage"],
+      "races": null,
+      "coords": [55.414, 92.23],
+      "zone": "teldrassil",
+      "tips": [],
+      "quests": [
+        {
+          "id": 2944,
+          "name": "The Super Snapper FX"
+        },
+        {
+          "id": 2943,
+          "name": "Return to Troyas"
+        }
+      ],
+      "npc": "Daryn Lightwind",
+      "mobs": []
+    },
+    {
+      "id": "searing_gorge_wpl_092",
+      "type": "fly",
+      "description": "Talk to Vesprystus and fly to Azshara",
+      "classes": null,
+      "races": null,
+      "coords": [58.399, 94.016],
+      "zone": "teldrassil",
+      "tips": [],
+      "quests": [],
+      "npc": "Vesprystus",
+      "mobs": []
+    }
+  ]
+}

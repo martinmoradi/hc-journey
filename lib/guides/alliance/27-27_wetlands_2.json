@@ -1,0 +1,1268 @@
+{
+  "zone": "Wetlands",
+  "levelRange": "27-27",
+  "faction": "Alliance",
+  "name": "27-27_wetlands_2",
+  "next": "27-30_ashenvale",
+  "steps": [
+    {
+      "id": "wetlands_001",
+      "type": "info",
+      "description": "Talk to Elsharin and train your class spells",
+      "classes": ["Mage"],
+      "races": null,
+      "coords": [36.87, 81.14],
+      "zone": "stormwind_city",
+      "tips": [],
+      "quests": [],
+      "npc": "Elsharin",
+      "mobs": []
+    },
+    {
+      "id": "wetlands_002",
+      "type": "quest_accept",
+      "description": "Talk to Collin Mauren and accept Special Delivery for Gaxim and Retrieval for Mauren",
+      "classes": ["Mage"],
+      "races": null,
+      "coords": [43.08, 80.39],
+      "zone": "stormwind_city",
+      "tips": [],
+      "quests": [
+        {
+          "id": 1077,
+          "name": "Special Delivery for Gaxim"
+        },
+        {
+          "id": 1078,
+          "name": "Retrieval for Mauren"
+        }
+      ],
+      "npc": "Collin Mauren",
+      "mobs": []
+    },
+    {
+      "id": "wetlands_003",
+      "type": "info",
+      "description": "Talk to Newton Burnside. Deposit Skeleton Finger and Vial of Spider Venom into your bank if you have any",
+      "classes": null,
+      "races": null,
+      "coords": [57.06, 73.05],
+      "zone": "stormwind_city",
+      "tips": [],
+      "quests": [],
+      "npc": "Newton Burnside",
+      "mobs": []
+    },
+    {
+      "id": "wetlands_004",
+      "type": "info",
+      "description": "Talk to Newton Burnside. Withdraw Elixir of Water Breathing from your bank",
+      "classes": ["!Warlock", "!Druid"],
+      "races": null,
+      "coords": [57.06, 73.05],
+      "zone": "stormwind_city",
+      "tips": [],
+      "quests": [],
+      "npc": "Newton Burnside",
+      "mobs": []
+    },
+    {
+      "id": "wetlands_005",
+      "type": "info",
+      "description": "Talk to Auctioneer Jaxon. Buy an Elixir of Water Breathing from the Auction House",
+      "classes": ["!Warlock", "!Druid"],
+      "races": null,
+      "coords": [53.612, 59.764],
+      "zone": "stormwind_city",
+      "tips": [],
+      "quests": [],
+      "npc": "Auctioneer Jaxon",
+      "mobs": []
+    },
+    {
+      "id": "wetlands_006",
+      "type": "quest_accept",
+      "description": "Talk to Collin Mauren and accept Special Delivery for Gaxim and Retrieval for Mauren",
+      "classes": ["!Mage"],
+      "races": null,
+      "coords": [43.08, 80.39],
+      "zone": "stormwind_city",
+      "tips": [],
+      "quests": [
+        {
+          "id": 1077,
+          "name": "Special Delivery for Gaxim"
+        },
+        {
+          "id": 1078,
+          "name": "Retrieval for Mauren"
+        }
+      ],
+      "npc": "Collin Mauren",
+      "mobs": []
+    },
+    {
+      "id": "wetlands_007",
+      "type": "travel",
+      "description": "Head to the Slaughtered Lamb and go downstairs",
+      "classes": ["Warlock"],
+      "races": null,
+      "coords": [27.2, 78.1],
+      "zone": "stormwind_city",
+      "tips": [],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "wetlands_008",
+      "type": "info",
+      "description": "Talk to Ursula Deline and train your class spells",
+      "classes": ["Warlock"],
+      "races": null,
+      "coords": [26.117, 77.225],
+      "zone": "stormwind_city",
+      "tips": [],
+      "quests": [],
+      "npc": "Ursula Deline",
+      "mobs": []
+    },
+    {
+      "id": "wetlands_009",
+      "type": "travel",
+      "description": "Travel to the Stormwind Cathedral",
+      "classes": ["Priest", "Paladin"],
+      "races": null,
+      "coords": [42.51, 33.51],
+      "zone": "stormwind_city",
+      "tips": [],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "wetlands_010",
+      "type": "info",
+      "description": "Talk to Arthur the Faithful and train your class spells",
+      "classes": ["Paladin"],
+      "races": null,
+      "coords": [38.67, 32.82],
+      "zone": "stormwind_city",
+      "tips": [],
+      "quests": [],
+      "npc": "Arthur the Faithful",
+      "mobs": []
+    },
+    {
+      "id": "wetlands_011",
+      "type": "info",
+      "description": "Talk to Brother Joshua and train your class spells",
+      "classes": ["Priest"],
+      "races": null,
+      "coords": [38.54, 26.86],
+      "zone": "stormwind_city",
+      "tips": [],
+      "quests": [],
+      "npc": "Brother Joshua",
+      "mobs": []
+    },
+    {
+      "id": "wetlands_012",
+      "type": "info",
+      "description": "Talk to Wu Shen or Ilsa Corbin and train your class spells",
+      "classes": ["Warrior"],
+      "races": null,
+      "coords": [78.68, 45.79],
+      "zone": "stormwind_city",
+      "tips": [],
+      "quests": [],
+      "npc": "Ilsa Corbin",
+      "mobs": []
+    },
+    {
+      "id": "wetlands_013",
+      "type": "info",
+      "description": "Talk to Osborne the Night Man and train your class spells",
+      "classes": ["Rogue"],
+      "races": null,
+      "coords": [74.65, 52.83],
+      "zone": "stormwind_city",
+      "tips": [],
+      "quests": [],
+      "npc": "Osborne the Night Man",
+      "mobs": []
+    },
+    {
+      "id": "wetlands_014",
+      "type": "info",
+      "description": "Talk to Sheldras Moontree and train your class spells",
+      "classes": ["Druid"],
+      "races": null,
+      "coords": [20.898, 55.491],
+      "zone": "stormwind_city",
+      "tips": [],
+      "quests": [],
+      "npc": "Sheldras Moontree",
+      "mobs": []
+    },
+    {
+      "id": "wetlands_015",
+      "type": "travel",
+      "description": "Travel to the Stormwind Cathedral",
+      "classes": ["!Priest", "!Paladin"],
+      "races": null,
+      "coords": [42.51, 33.51],
+      "zone": "stormwind_city",
+      "tips": [],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "wetlands_016",
+      "type": "quest_turnin",
+      "description": "Talk to Bishop Farthing and turn in Seeking Wisdom. Accept The Doomed Fleet",
+      "classes": null,
+      "races": null,
+      "coords": [39.108, 27.861],
+      "zone": "stormwind_city",
+      "tips": [],
+      "quests": [
+        {
+          "id": 269,
+          "name": "Seeking Wisdom"
+        },
+        {
+          "id": 270,
+          "name": "The Doomed Fleet"
+        }
+      ],
+      "npc": "Bishop Farthing",
+      "mobs": []
+    },
+    {
+      "id": "wetlands_017",
+      "type": "quest_accept",
+      "description": "Talk to Brother Sarno and accept Tinkmaster Overspark",
+      "classes": null,
+      "races": null,
+      "coords": [40.551, 30.959],
+      "zone": "stormwind_city",
+      "tips": [],
+      "quests": [
+        {
+          "id": 2923,
+          "name": "Tinkmaster Overspark"
+        }
+      ],
+      "npc": "Brother Sarno",
+      "mobs": []
+    },
+    {
+      "id": "wetlands_018",
+      "type": "travel",
+      "description": "Travel to the Stormwind Keep",
+      "classes": null,
+      "races": null,
+      "coords": [72.005, 21.542],
+      "zone": "stormwind_city",
+      "tips": [],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "wetlands_019",
+      "type": "quest_turnin",
+      "description": "Talk to Milton Sheaf and turn in An Old History Book if you have it",
+      "classes": null,
+      "races": null,
+      "coords": [74.182, 7.465],
+      "zone": "stormwind_city",
+      "tips": [],
+      "quests": [
+        {
+          "id": 337,
+          "name": "An Old History Book"
+        }
+      ],
+      "npc": "Milton Sheaf",
+      "mobs": []
+    },
+    {
+      "id": "wetlands_020",
+      "type": "info",
+      "description": "Talk to Einris Brightspear and train your class spells",
+      "classes": ["Hunter"],
+      "races": null,
+      "coords": [61.609, 15.269],
+      "zone": "stormwind_city",
+      "tips": [],
+      "quests": [],
+      "npc": "Einris Brightspear",
+      "mobs": []
+    },
+    {
+      "id": "wetlands_021",
+      "type": "quest_accept",
+      "description": "Talk to Shoni the Shilent and accept Gyrodrillmatic Excavationators",
+      "classes": null,
+      "races": null,
+      "coords": [55.511, 12.502],
+      "zone": "stormwind_city",
+      "tips": [],
+      "quests": [
+        {
+          "id": 2928,
+          "name": "Gyrodrillmatic Excavationators"
+        }
+      ],
+      "npc": "Shoni the Shilent",
+      "mobs": []
+    },
+    {
+      "id": "wetlands_022",
+      "type": "info",
+      "description": "Teleport to Ironforge",
+      "classes": ["Mage"],
+      "races": null,
+      "coords": null,
+      "zone": "",
+      "tips": [],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "wetlands_023",
+      "type": "travel",
+      "description": "Enter the Deeprun Tram. Take the Tram to Ironforge",
+      "classes": null,
+      "races": null,
+      "coords": [64.0, 8.1],
+      "zone": "stormwind_city",
+      "tips": [],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "wetlands_024",
+      "type": "quest_turnin",
+      "description": "Talk to Tinkmaster Overspark and turn in Tinkmaster Overspark",
+      "classes": null,
+      "races": null,
+      "coords": [69.54, 50.325],
+      "zone": "ironforge",
+      "tips": [],
+      "quests": [
+        {
+          "id": 2923,
+          "name": "Tinkmaster Overspark"
+        }
+      ],
+      "npc": "Tinkmaster Overspark",
+      "mobs": []
+    },
+    {
+      "id": "wetlands_025",
+      "type": "quest_accept",
+      "description": "Talk to Lomac Gearstrip and accept Ineptitude + Chemicals = Fun",
+      "classes": null,
+      "races": null,
+      "coords": [72.08, 51.87],
+      "zone": "ironforge",
+      "tips": [],
+      "quests": [
+        {
+          "id": 1073,
+          "name": "Ineptitude + Chemicals = Fun"
+        }
+      ],
+      "npc": "Lomac Gearstrip",
+      "mobs": []
+    },
+    {
+      "id": "wetlands_026",
+      "type": "quest_accept",
+      "description": "Talk to Gerrig Bonegrip and accept Knowledge in the Deeps",
+      "classes": null,
+      "races": null,
+      "coords": [50.826, 5.613],
+      "zone": "ironforge",
+      "tips": [],
+      "quests": [
+        {
+          "id": 971,
+          "name": "Knowledge in the Deeps"
+        }
+      ],
+      "npc": "Gerrig Bonegrip",
+      "mobs": []
+    },
+    {
+      "id": "wetlands_027",
+      "type": "info",
+      "description": "Gather 4 Minor Mana Potions and 2 Elixir of Minor Fortitudes. You can buy these from the Auction House, trade players for them or use Alchemy if you have it to make them. If you are unable to acquire them, abandon Ineptitude + Chemicals = Fun and skip this step",
+      "classes": null,
+      "races": null,
+      "coords": null,
+      "zone": "",
+      "tips": [],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "wetlands_028",
+      "type": "quest_turnin",
+      "description": "Talk to Lomac Gearstrip and turn in Ineptitude + Chemicals = Fun",
+      "classes": null,
+      "races": null,
+      "coords": [72.08, 51.87],
+      "zone": "ironforge",
+      "tips": [],
+      "quests": [
+        {
+          "id": 1073,
+          "name": "Ineptitude + Chemicals = Fun"
+        }
+      ],
+      "npc": "Lomac Gearstrip",
+      "mobs": []
+    },
+    {
+      "id": "wetlands_029",
+      "type": "quest_accept",
+      "description": "Talk to Lomac Gearstrip and accept Ineptitude + Chemicals = Fun",
+      "classes": null,
+      "races": null,
+      "coords": [72.08, 51.87],
+      "zone": "ironforge",
+      "tips": [],
+      "quests": [
+        {
+          "id": 1074,
+          "name": "Ineptitude + Chemicals = Fun"
+        }
+      ],
+      "npc": "Lomac Gearstrip",
+      "mobs": []
+    },
+    {
+      "id": "wetlands_030",
+      "type": "fly",
+      "description": "Talk to Gryth Thurden and fly to Wetlands",
+      "classes": null,
+      "races": null,
+      "coords": [55.51, 47.75],
+      "zone": "ironforge",
+      "tips": [],
+      "quests": [],
+      "npc": "Gryth Thurden",
+      "mobs": []
+    },
+    {
+      "id": "wetlands_031",
+      "type": "quest_turnin",
+      "description": "Talk to Glorin Steelbrow and turn in The Doomed Fleet",
+      "classes": null,
+      "races": null,
+      "coords": [10.585, 60.592],
+      "zone": "wetlands",
+      "tips": [],
+      "quests": [
+        {
+          "id": 270,
+          "name": "The Doomed Fleet"
+        }
+      ],
+      "npc": "Glorin Steelbrow",
+      "mobs": []
+    },
+    {
+      "id": "wetlands_032",
+      "type": "info",
+      "description": "Talk to Innkeeper Helbrek. Set your Hearthstone to Wetlands",
+      "classes": null,
+      "races": null,
+      "coords": [10.69, 60.95],
+      "zone": "wetlands",
+      "tips": [],
+      "quests": [],
+      "npc": "Innkeeper Helbrek",
+      "mobs": []
+    },
+    {
+      "id": "wetlands_033",
+      "type": "travel",
+      "description": "Travel upstairs towards Archaeologist Flagongut",
+      "classes": null,
+      "races": null,
+      "coords": [10.368, 61.016],
+      "zone": "wetlands",
+      "tips": [],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "wetlands_034",
+      "type": "quest_accept",
+      "description": "Talk to Archaeologist Flagongut and accept The Absent Minded Prospector",
+      "classes": null,
+      "races": null,
+      "coords": [10.843, 60.435],
+      "zone": "wetlands",
+      "tips": [],
+      "quests": [
+        {
+          "id": 943,
+          "name": "The Absent Minded Prospector"
+        }
+      ],
+      "npc": "Archaeologist Flagongut",
+      "mobs": []
+    },
+    {
+      "id": "wetlands_035",
+      "type": "quest_accept",
+      "description": "Talk to First Mate Fitzsimmons and accept The Cursed Crew",
+      "classes": null,
+      "races": null,
+      "coords": [10.89, 59.66],
+      "zone": "wetlands",
+      "tips": [],
+      "quests": [
+        {
+          "id": 289,
+          "name": "The Cursed Crew"
+        }
+      ],
+      "npc": "First Mate Fitzsimmons",
+      "mobs": []
+    },
+    {
+      "id": "wetlands_036",
+      "type": "quest_accept",
+      "description": "Talk to Sida and accept Digging Through the Ooze",
+      "classes": null,
+      "races": null,
+      "coords": [11.796, 57.991],
+      "zone": "wetlands",
+      "tips": [],
+      "quests": [
+        {
+          "id": 470,
+          "name": "Digging Through the Ooze"
+        }
+      ],
+      "npc": "Sida",
+      "mobs": []
+    },
+    {
+      "id": "wetlands_037",
+      "type": "quest_accept",
+      "description": "Talk to Karl Boran and accept Reclaiming Goods",
+      "classes": null,
+      "races": null,
+      "coords": [8.359, 58.526],
+      "zone": "wetlands",
+      "tips": [],
+      "quests": [
+        {
+          "id": 281,
+          "name": "Reclaiming Goods"
+        }
+      ],
+      "npc": "Karl Boran",
+      "mobs": []
+    },
+    {
+      "id": "wetlands_038",
+      "type": "quest_accept",
+      "description": "Talk to James Halloran and accept Apprentice's Duties",
+      "classes": null,
+      "races": null,
+      "coords": [8.509, 55.697],
+      "zone": "wetlands",
+      "tips": [],
+      "quests": [
+        {
+          "id": 471,
+          "name": "Apprentice's Duties"
+        }
+      ],
+      "npc": "James Halloran",
+      "mobs": []
+    },
+    {
+      "id": "wetlands_039",
+      "type": "travel",
+      "description": "Travel upstairs in Menethil Keep",
+      "classes": null,
+      "races": null,
+      "coords": [9.742, 57.866],
+      "zone": "wetlands",
+      "tips": [],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "wetlands_040",
+      "type": "quest_accept",
+      "description": "Talk to Captain Stoutfist and accept War Banners",
+      "classes": null,
+      "races": null,
+      "coords": [9.861, 57.486],
+      "zone": "wetlands",
+      "tips": [],
+      "quests": [
+        {
+          "id": 464,
+          "name": "War Banners"
+        }
+      ],
+      "npc": "Captain Stoutfist",
+      "mobs": []
+    },
+    {
+      "id": "wetlands_041",
+      "type": "quest_accept",
+      "description": "Talk to Tarrel Rockweaver and accept In Search of The Excavation Team",
+      "classes": null,
+      "races": null,
+      "coords": [11.458, 52.163],
+      "zone": "wetlands",
+      "tips": [],
+      "quests": [
+        {
+          "id": 305,
+          "name": "In Search of The Excavation Team"
+        }
+      ],
+      "npc": "Tarrel Rockweaver",
+      "mobs": []
+    },
+    {
+      "id": "wetlands_042",
+      "type": "quest_turnin",
+      "description": "Click the Damaged Crate on the ground and turn in Reclaiming Goods. Accept The Search Continues",
+      "classes": null,
+      "races": null,
+      "coords": [13.513, 41.384],
+      "zone": "wetlands",
+      "tips": [],
+      "quests": [
+        {
+          "id": 281,
+          "name": "Reclaiming Goods"
+        },
+        {
+          "id": 284,
+          "name": "The Search Continues"
+        }
+      ],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "wetlands_043",
+      "type": "quest_turnin",
+      "description": "Click the Sealed Barrel on the ground and turn in The Search Continues. Accept Search More Hovels",
+      "classes": null,
+      "races": null,
+      "coords": [13.608, 38.214],
+      "zone": "wetlands",
+      "tips": [],
+      "quests": [
+        {
+          "id": 284,
+          "name": "The Search Continues"
+        },
+        {
+          "id": 285,
+          "name": "Search More Hovels"
+        }
+      ],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "wetlands_044",
+      "type": "quest_turnin",
+      "description": "Click the Half-buried Barrel on the ground and turn in Search More Hovels. Accept Return the Statuette",
+      "classes": null,
+      "races": null,
+      "coords": [13.945, 34.809],
+      "zone": "wetlands",
+      "tips": [],
+      "quests": [
+        {
+          "id": 285,
+          "name": "Search More Hovels"
+        },
+        {
+          "id": 286,
+          "name": "Return the Statuette"
+        }
+      ],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "wetlands_045",
+      "type": "kill",
+      "description": "Kill Giant Wetlands Crocolisks. Loot them for their Skin",
+      "classes": null,
+      "races": null,
+      "coords": null,
+      "zone": "",
+      "tips": [
+        {
+          "type": "warning",
+          "class": null,
+          "text": "You don't have to complete this now"
+        }
+      ],
+      "quests": [
+        {
+          "id": 471,
+          "name": "Apprentice's Duties"
+        }
+      ],
+      "npc": null,
+      "mobs": ["Giant Wetlands Crocolisk"]
+    },
+    {
+      "id": "wetlands_046",
+      "type": "kill",
+      "description": "Kill Cursed Sailors, Cursed Marines and First Mate Snellig. Loot him for his Snuffbox",
+      "classes": null,
+      "races": null,
+      "coords": [15.0, 24.0],
+      "zone": "wetlands",
+      "tips": [],
+      "quests": [
+        {
+          "id": 289,
+          "name": "The Cursed Crew"
+        }
+      ],
+      "npc": null,
+      "mobs": ["Cursed Sailor", "Cursed Marine", "First Mate Snellig"]
+    },
+    {
+      "id": "wetlands_047",
+      "type": "kill",
+      "description": "Kill the Mosshides. Loot them for their Crude Flints",
+      "classes": null,
+      "races": null,
+      "coords": null,
+      "zone": "",
+      "tips": [],
+      "quests": [
+        {
+          "id": 277,
+          "name": "Fire Taboo"
+        }
+      ],
+      "npc": null,
+      "mobs": [
+        "Mosshide Brute",
+        "Mosshide Trapper",
+        "Mosshide Fenrunner",
+        "Mosshide Mistweaver",
+        "Mosshide Mystic",
+        "Mosshide Alpha"
+      ]
+    },
+    {
+      "id": "wetlands_048",
+      "type": "kill",
+      "description": "Kill Crimson Oozes, Monstrous Oozes and Black Oozes. Loot them for Sida's Bag",
+      "classes": null,
+      "races": null,
+      "coords": [44.25, 25.61],
+      "zone": "wetlands",
+      "tips": [],
+      "quests": [
+        {
+          "id": 470,
+          "name": "Digging Through the Ooze"
+        }
+      ],
+      "npc": null,
+      "mobs": ["Crimson Ooze", "Monstrous Ooze", "Black Ooze"]
+    },
+    {
+      "id": "wetlands_049",
+      "type": "kill",
+      "description": "Kill Dragonmaw Orcs. Loot them for their War Banners",
+      "classes": null,
+      "races": null,
+      "coords": [45.222, 44.251],
+      "zone": "wetlands",
+      "tips": [
+        {
+          "type": "warning",
+          "class": null,
+          "text": "Be aware the Dragonmaw Raiders will cast Net on you"
+        }
+      ],
+      "quests": [
+        {
+          "id": 464,
+          "name": "War Banners"
+        }
+      ],
+      "npc": null,
+      "mobs": [
+        "Dragonmaw Raider",
+        "Dragonmaw Swamprunner",
+        "Dragonmaw Battlemaster",
+        "Dragonmaw Shadowwarder",
+        "Dragonmaw Centurion",
+        "Dragonmaw Bonewarder"
+      ]
+    },
+    {
+      "id": "wetlands_050",
+      "type": "travel",
+      "description": "Head towards the mountain shortcut",
+      "classes": null,
+      "races": null,
+      "coords": [38.79, 48.988],
+      "zone": "wetlands",
+      "tips": [],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "wetlands_051",
+      "type": "quest_accept",
+      "description": "Talk to Ormer Ironbraid and accept Ormer's Revenge",
+      "classes": null,
+      "races": null,
+      "coords": [38.17, 50.88],
+      "zone": "wetlands",
+      "tips": [],
+      "quests": [
+        {
+          "id": 294,
+          "name": "Ormer's Revenge"
+        }
+      ],
+      "npc": "Ormer Ironbraid",
+      "mobs": []
+    },
+    {
+      "id": "wetlands_052",
+      "type": "quest_turnin",
+      "description": "Talk to Merrin Rockweaver and turn in In Search of The Excavation Team. Accept In Search of The Excavation Team",
+      "classes": null,
+      "races": null,
+      "coords": [38.909, 52.34],
+      "zone": "wetlands",
+      "tips": [],
+      "quests": [
+        {
+          "id": 305,
+          "name": "In Search of The Excavation Team"
+        },
+        {
+          "id": 306,
+          "name": "In Search of The Excavation Team"
+        }
+      ],
+      "npc": "Merrin Rockweaver",
+      "mobs": []
+    },
+    {
+      "id": "wetlands_053",
+      "type": "loot",
+      "description": "Loot Flagongut's Fossil on the ground",
+      "classes": null,
+      "races": null,
+      "coords": [38.858, 52.208],
+      "zone": "wetlands",
+      "tips": [],
+      "quests": [
+        {
+          "id": 943,
+          "name": "The Absent Minded Prospector"
+        }
+      ],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "wetlands_054",
+      "type": "kill",
+      "description": "Kill Mottled Raptors and Mottled Screechers. Loot them for the Stone of Relu",
+      "classes": null,
+      "races": null,
+      "coords": null,
+      "zone": "",
+      "tips": [
+        {
+          "type": "warning",
+          "class": null,
+          "text": "Don't go out of your way to complete this now. You will kill different Raptors later"
+        }
+      ],
+      "quests": [
+        {
+          "id": 943,
+          "name": "The Absent Minded Prospector"
+        }
+      ],
+      "npc": null,
+      "mobs": ["Mottled Raptor", "Mottled Screecher"]
+    },
+    {
+      "id": "wetlands_055",
+      "type": "kill",
+      "description": "Kill Mottled Raptors and Mottled Screechers",
+      "classes": null,
+      "races": null,
+      "coords": [22.8, 50.6],
+      "zone": "wetlands",
+      "tips": [],
+      "quests": [
+        {
+          "id": 294,
+          "name": "Ormer's Revenge"
+        }
+      ],
+      "npc": null,
+      "mobs": ["Mottled Raptor", "Mottled Screecher"]
+    },
+    {
+      "id": "wetlands_056",
+      "type": "kill",
+      "description": "Kill the Mosshides. Loot them for their Crude Flints",
+      "classes": null,
+      "races": null,
+      "coords": [43.0, 33.2],
+      "zone": "wetlands",
+      "tips": [],
+      "quests": [
+        {
+          "id": 277,
+          "name": "Fire Taboo"
+        }
+      ],
+      "npc": null,
+      "mobs": [
+        "Mosshide Brute",
+        "Mosshide Trapper",
+        "Mosshide Fenrunner",
+        "Mosshide Mistweaver",
+        "Mosshide Mystic",
+        "Mosshide Alpha"
+      ]
+    },
+    {
+      "id": "wetlands_057",
+      "type": "quest_turnin",
+      "description": "Talk to Rethiel the Greenwarden and turn in Fire Taboo. Accept Blisters on The Land",
+      "classes": null,
+      "races": null,
+      "coords": [56.37, 40.4],
+      "zone": "wetlands",
+      "tips": [],
+      "quests": [
+        {
+          "id": 277,
+          "name": "Fire Taboo"
+        },
+        {
+          "id": 275,
+          "name": "Blisters on The Land"
+        }
+      ],
+      "npc": "Rethiel the Greenwarden",
+      "mobs": []
+    },
+    {
+      "id": "wetlands_058",
+      "type": "loot",
+      "description": "Loot the Musquash Root on the ground",
+      "classes": null,
+      "races": null,
+      "coords": [64.78, 75.31],
+      "zone": "wetlands",
+      "tips": [],
+      "quests": [
+        {
+          "id": 335,
+          "name": "Reclaimers' Business in Desolace"
+        }
+      ],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "wetlands_059",
+      "type": "grind",
+      "description": "Grind Mosshides Gnolls while looking for a group for Shadowfang Keep",
+      "classes": null,
+      "races": null,
+      "coords": null,
+      "zone": "",
+      "tips": [],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "wetlands_060",
+      "type": "fly",
+      "description": "Talk to Darla Harris and get the Southshore Flight Path",
+      "classes": null,
+      "races": null,
+      "coords": [49.338, 52.272],
+      "zone": "hillsbrad_foothills",
+      "tips": [
+        {
+          "type": "warning",
+          "class": null,
+          "text": "There are no quests for Shadowfang Keep"
+        },
+        {
+          "type": "warning",
+          "class": null,
+          "text": "You will have to run from Wetlands to Silverpine Forest"
+        },
+        {
+          "type": "warning",
+          "class": null,
+          "text": "Ensure you stay on the road while running through Arathi Highlands, and watchout for the Forsaken Courier"
+        }
+      ],
+      "quests": [],
+      "npc": "Darla Harris",
+      "mobs": []
+    },
+    {
+      "id": "wetlands_061",
+      "type": "travel",
+      "description": "Enter Shadowfang Keep",
+      "classes": null,
+      "races": null,
+      "coords": [44.712, 67.769],
+      "zone": "silverpine_forest",
+      "tips": [],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "wetlands_062",
+      "type": "info",
+      "description": "There are no quests for Shadowfang Keep",
+      "classes": null,
+      "races": null,
+      "coords": null,
+      "zone": "shadowfang_keep",
+      "tips": [],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "wetlands_063",
+      "type": "info",
+      "description": "Cast Teleport: Moonglade",
+      "classes": ["Druid"],
+      "races": null,
+      "coords": null,
+      "zone": "",
+      "tips": [],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "wetlands_064",
+      "type": "info",
+      "description": "Go to Moonglade. Talk to Loganaar and train your class spells",
+      "classes": ["Druid"],
+      "races": null,
+      "coords": [52.53, 40.57],
+      "zone": "moonglade",
+      "tips": [],
+      "quests": [],
+      "npc": "Loganaar",
+      "mobs": []
+    },
+    {
+      "id": "wetlands_065",
+      "type": "info",
+      "description": "Hearth to Menethil Harbor. Buy food/water if needed",
+      "classes": ["!Warrior", "!Rogue"],
+      "races": null,
+      "coords": null,
+      "zone": "",
+      "tips": [],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "wetlands_066",
+      "type": "info",
+      "description": "Hearth to Menethil Harbor. Buy food if needed",
+      "classes": ["Warrior", "Rogue"],
+      "races": null,
+      "coords": null,
+      "zone": "",
+      "tips": [],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "wetlands_067",
+      "type": "quest_turnin",
+      "description": "Talk to Archaeologist Flagongut upstairs and turn in The Absent Minded Prospector",
+      "classes": null,
+      "races": null,
+      "coords": [10.84, 60.43],
+      "zone": "wetlands",
+      "tips": [],
+      "quests": [
+        {
+          "id": 943,
+          "name": "The Absent Minded Prospector"
+        }
+      ],
+      "npc": "Archaeologist Flagongut",
+      "mobs": []
+    },
+    {
+      "id": "wetlands_068",
+      "type": "quest_turnin",
+      "description": "Talk to First Mate Fitzsimmons and turn in The Cursed Crew",
+      "classes": null,
+      "races": null,
+      "coords": [10.89, 59.66],
+      "zone": "wetlands",
+      "tips": [],
+      "quests": [
+        {
+          "id": 289,
+          "name": "The Cursed Crew"
+        }
+      ],
+      "npc": "First Mate Fitzsimmons",
+      "mobs": []
+    },
+    {
+      "id": "wetlands_069",
+      "type": "quest_turnin",
+      "description": "Talk to Sida and turn in Digging Through the Ooze",
+      "classes": null,
+      "races": null,
+      "coords": [11.796, 57.991],
+      "zone": "wetlands",
+      "tips": [],
+      "quests": [
+        {
+          "id": 470,
+          "name": "Digging Through the Ooze"
+        }
+      ],
+      "npc": "Sida",
+      "mobs": []
+    },
+    {
+      "id": "wetlands_070",
+      "type": "travel",
+      "description": "Travel upstairs in Menethil Keep",
+      "classes": null,
+      "races": null,
+      "coords": [9.742, 57.866],
+      "zone": "wetlands",
+      "tips": [],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "wetlands_071",
+      "type": "quest_turnin",
+      "description": "Talk to Captain Stoutfist and turn in War Banners",
+      "classes": null,
+      "races": null,
+      "coords": [9.861, 57.486],
+      "zone": "wetlands",
+      "tips": [],
+      "quests": [
+        {
+          "id": 464,
+          "name": "War Banners"
+        }
+      ],
+      "npc": "Captain Stoutfist",
+      "mobs": []
+    },
+    {
+      "id": "wetlands_072",
+      "type": "quest_turnin",
+      "description": "Talk to Tarrel Rockweaver and turn in In Search of The Excavation Team",
+      "classes": null,
+      "races": null,
+      "coords": [11.458, 52.163],
+      "zone": "wetlands",
+      "tips": [],
+      "quests": [
+        {
+          "id": 306,
+          "name": "In Search of The Excavation Team"
+        }
+      ],
+      "npc": "Tarrel Rockweaver",
+      "mobs": []
+    },
+    {
+      "id": "wetlands_073",
+      "type": "quest_turnin",
+      "description": "Talk to James Halloran and turn in Apprentice's Duties",
+      "classes": null,
+      "races": null,
+      "coords": [8.509, 55.697],
+      "zone": "wetlands",
+      "tips": [],
+      "quests": [
+        {
+          "id": 471,
+          "name": "Apprentice's Duties"
+        }
+      ],
+      "npc": "James Halloran",
+      "mobs": []
+    },
+    {
+      "id": "wetlands_074",
+      "type": "quest_turnin",
+      "description": "Talk to Karl Boran and turn in Return the Statuette",
+      "classes": null,
+      "races": null,
+      "coords": [8.359, 58.526],
+      "zone": "wetlands",
+      "tips": [],
+      "quests": [
+        {
+          "id": 286,
+          "name": "Return the Statuette"
+        }
+      ],
+      "npc": "Karl Boran",
+      "mobs": []
+    }
+  ]
+}

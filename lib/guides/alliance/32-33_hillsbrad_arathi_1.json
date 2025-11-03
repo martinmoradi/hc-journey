@@ -1,0 +1,837 @@
+{
+  "zone": "Hillsbrad Foothills",
+  "levelRange": "32-33",
+  "faction": "Alliance",
+  "name": "32-33_hillsbrad_arathi_1",
+  "next": "33-34_thousand_needles",
+  "steps": [
+    {
+      "id": "hillsbrad_001",
+      "type": "quest_accept",
+      "description": "If you ever see a Shadowy Assassin in Southshore, kill them. Loot them for the Assassin's Contract.",
+      "classes": null,
+      "races": null,
+      "coords": null,
+      "zone": "",
+      "tips": [
+        {
+          "type": "warning",
+          "class": null,
+          "text": "The Shadowy Assassin attack on Southshore is a random event"
+        },
+        {
+          "type": "warning",
+          "class": null,
+          "text": "Use the Assassin's Contract to start the quest"
+        },
+        {
+          "type": "warning",
+          "class": null,
+          "text": "Skip this step if you don't see the event"
+        }
+      ],
+      "quests": [
+        {
+          "id": 522,
+          "name": "Assassin's Contract"
+        }
+      ],
+      "npc": null,
+      "mobs": ["Shadowy Assassin"]
+    },
+    {
+      "id": "hillsbrad_002",
+      "type": "quest_turnin",
+      "description": "Talk to Loremaster Dibbs and turn in Southshore",
+      "classes": null,
+      "races": null,
+      "coords": [50.57, 57.093],
+      "zone": "hillsbrad_foothills",
+      "tips": [],
+      "quests": [
+        {
+          "id": 538,
+          "name": "Southshore"
+        }
+      ],
+      "npc": "Loremaster Dibbs",
+      "mobs": []
+    },
+    {
+      "id": "hillsbrad_003",
+      "type": "quest_accept",
+      "description": "Talk to Phin Odelic and accept Hints of a New Plague?",
+      "classes": null,
+      "races": null,
+      "coords": [50.344, 59.046],
+      "zone": "hillsbrad_foothills",
+      "tips": [],
+      "quests": [
+        {
+          "id": 659,
+          "name": "Hints of a New Plague?"
+        }
+      ],
+      "npc": "Phin Odelic",
+      "mobs": []
+    },
+    {
+      "id": "hillsbrad_004",
+      "type": "quest_accept",
+      "description": "Talk to Lieutenant Farren Orinelle and accept Down the Coast",
+      "classes": null,
+      "races": null,
+      "coords": [51.465, 58.386],
+      "zone": "hillsbrad_foothills",
+      "tips": [],
+      "quests": [
+        {
+          "id": 536,
+          "name": "Down the Coast"
+        }
+      ],
+      "npc": "Lieutenant Farren Orinelle",
+      "mobs": []
+    },
+    {
+      "id": "hillsbrad_005",
+      "type": "info",
+      "description": "Talk to Innkeeper Anderson. Set your Hearthstone to Southshore",
+      "classes": null,
+      "races": null,
+      "coords": [51.17, 58.927],
+      "zone": "hillsbrad_foothills",
+      "tips": [],
+      "quests": [],
+      "npc": "Innkeeper Anderson",
+      "mobs": []
+    },
+    {
+      "id": "hillsbrad_006",
+      "type": "kill",
+      "description": "Kill Torn Fin Tidehunters and Torn Fin Oracles",
+      "classes": null,
+      "races": null,
+      "coords": [44.69, 67.24],
+      "zone": "hillsbrad_foothills",
+      "tips": [],
+      "quests": [
+        {
+          "id": 536,
+          "name": "Down the Coast"
+        }
+      ],
+      "npc": null,
+      "mobs": ["Torn Fin Tidehunter", "Torn Fin Oracle"]
+    },
+    {
+      "id": "hillsbrad_007",
+      "type": "quest_turnin",
+      "description": "Talk to Lieutenant Farren Orinelle, turn in Down the Coast, and accept Farren's Proof",
+      "classes": null,
+      "races": null,
+      "coords": [51.465, 58.386],
+      "zone": "hillsbrad_foothills",
+      "tips": [],
+      "quests": [
+        {
+          "id": 536,
+          "name": "Down the Coast"
+        },
+        {
+          "id": 559,
+          "name": "Farren's Proof"
+        }
+      ],
+      "npc": "Lieutenant Farren Orinelle",
+      "mobs": []
+    },
+    {
+      "id": "hillsbrad_008",
+      "type": "kill",
+      "description": "Kill Torn Fin Tidehunters, Torn Fin Oracles, Torn Fin Coastrunners and Torn Fin Muckdwellers. Loot them for their Heads",
+      "classes": null,
+      "races": null,
+      "coords": [33.19, 69.1],
+      "zone": "hillsbrad_foothills",
+      "tips": [],
+      "quests": [
+        {
+          "id": 559,
+          "name": "Farren's Proof"
+        }
+      ],
+      "npc": null,
+      "mobs": [
+        "Torn Fin Muckdweller",
+        "Torn Fin Coastrunner",
+        "Torn Fin Tidehunter",
+        "Torn Fin Oracle"
+      ]
+    },
+    {
+      "id": "hillsbrad_009",
+      "type": "quest_turnin",
+      "description": "Talk to Lieutenant Farren Orinelle, turn in Farren's Proof, and accept Farren's Proof",
+      "classes": null,
+      "races": null,
+      "coords": [51.465, 58.386],
+      "zone": "hillsbrad_foothills",
+      "tips": [],
+      "quests": [
+        {
+          "id": 559,
+          "name": "Farren's Proof"
+        },
+        {
+          "id": 560,
+          "name": "Farren's Proof"
+        }
+      ],
+      "npc": "Lieutenant Farren Orinelle",
+      "mobs": []
+    },
+    {
+      "id": "hillsbrad_010",
+      "type": "quest_turnin",
+      "description": "Talk to Marshal Redpath, turn in Farren's Proof, and accept Farren's Proof",
+      "classes": null,
+      "races": null,
+      "coords": [49.473, 58.732],
+      "zone": "hillsbrad_foothills",
+      "tips": [],
+      "quests": [
+        {
+          "id": 560,
+          "name": "Farren's Proof"
+        },
+        {
+          "id": 561,
+          "name": "Farren's Proof"
+        }
+      ],
+      "npc": "Marshal Redpath",
+      "mobs": []
+    },
+    {
+      "id": "hillsbrad_011",
+      "type": "quest_turnin",
+      "description": "Talk to Lieutenant Farren Orinelle, turn in Farren's Proof, and accept Stormwind Ho!",
+      "classes": null,
+      "races": null,
+      "coords": [51.465, 58.386],
+      "zone": "hillsbrad_foothills",
+      "tips": [],
+      "quests": [
+        {
+          "id": 561,
+          "name": "Farren's Proof"
+        },
+        {
+          "id": 562,
+          "name": "Stormwind Ho!"
+        }
+      ],
+      "npc": "Lieutenant Farren Orinelle",
+      "mobs": []
+    },
+    {
+      "id": "hillsbrad_012",
+      "type": "kill",
+      "description": "Kill Daggerspine Sirens and Daggerspine Shorehunters",
+      "classes": null,
+      "races": null,
+      "coords": [56.97, 67.01],
+      "zone": "hillsbrad_foothills",
+      "tips": [
+        {
+          "type": "warning",
+          "class": null,
+          "text": "You may need to swim out in the water for them"
+        }
+      ],
+      "quests": [
+        {
+          "id": 562,
+          "name": "Stormwind Ho!"
+        }
+      ],
+      "npc": null,
+      "mobs": ["Daggerspine Shorehunter", "Daggerspine Siren"]
+    },
+    {
+      "id": "hillsbrad_013",
+      "type": "quest_turnin",
+      "description": "Talk to Lieutenant Farren Orinelle, turn in Stormwind Ho!, and accept Reassignment",
+      "classes": null,
+      "races": null,
+      "coords": [51.465, 58.386],
+      "zone": "hillsbrad_foothills",
+      "tips": [],
+      "quests": [
+        {
+          "id": 562,
+          "name": "Stormwind Ho!"
+        },
+        {
+          "id": 563,
+          "name": "Reassignment"
+        }
+      ],
+      "npc": "Lieutenant Farren Orinelle",
+      "mobs": []
+    },
+    {
+      "id": "hillsbrad_014",
+      "type": "quest_turnin",
+      "description": "Talk to Magistrate Henry Maleb and turn in Assassin's Contract",
+      "classes": null,
+      "races": null,
+      "coords": [48.145, 59.121],
+      "zone": "hillsbrad_foothills",
+      "tips": [
+        {
+          "type": "warning",
+          "class": null,
+          "text": "Don't accept the follow up"
+        }
+      ],
+      "quests": [
+        {
+          "id": 522,
+          "name": "Assassin's Contract"
+        }
+      ],
+      "npc": "Magistrate Henry Maleb",
+      "mobs": []
+    },
+    {
+      "id": "hillsbrad_015",
+      "type": "fly",
+      "description": "Talk to Darla Harris and fly to Arathi Highlands",
+      "classes": null,
+      "races": null,
+      "coords": [49.338, 52.272],
+      "zone": "hillsbrad_foothills",
+      "tips": [],
+      "quests": [],
+      "npc": "Darla Harris",
+      "mobs": []
+    },
+    {
+      "id": "hillsbrad_016",
+      "type": "quest_accept",
+      "description": "Talk to Captain Nials and accept Northfold Manor",
+      "classes": null,
+      "races": null,
+      "coords": [45.832, 47.545],
+      "zone": "arathi_highlands",
+      "tips": [],
+      "quests": [
+        {
+          "id": 681,
+          "name": "Northfold Manor"
+        }
+      ],
+      "npc": "Captain Nials",
+      "mobs": []
+    },
+    {
+      "id": "hillsbrad_017",
+      "type": "quest_turnin",
+      "description": "Talk to Skuerto and turn in Malin's Request",
+      "classes": null,
+      "races": null,
+      "coords": [46.652, 47.01],
+      "zone": "arathi_highlands",
+      "tips": [],
+      "quests": [
+        {
+          "id": 690,
+          "name": "Malin's Request"
+        }
+      ],
+      "npc": "Skuerto",
+      "mobs": []
+    },
+    {
+      "id": "hillsbrad_018",
+      "type": "quest_turnin",
+      "description": "Talk to Quae and turn in Hints of a New Plague?",
+      "classes": null,
+      "races": null,
+      "coords": [60.185, 53.848],
+      "zone": "arathi_highlands",
+      "tips": [],
+      "quests": [
+        {
+          "id": 659,
+          "name": "Hints of a New Plague?"
+        }
+      ],
+      "npc": "Quae",
+      "mobs": []
+    },
+    {
+      "id": "hillsbrad_019",
+      "type": "quest_turnin",
+      "description": "Talk to Quae, turn in Hints of a New Plague?, and accept Hints of a New Plague?",
+      "classes": null,
+      "races": null,
+      "coords": [60.185, 53.848],
+      "zone": "arathi_highlands",
+      "tips": [],
+      "quests": [
+        {
+          "id": 659,
+          "name": "Hints of a New Plague?"
+        },
+        {
+          "id": 658,
+          "name": "Hints of a New Plague?"
+        }
+      ],
+      "npc": "Quae",
+      "mobs": []
+    },
+    {
+      "id": "hillsbrad_020",
+      "type": "info",
+      "description": "Talk to Deneb Walker. Buy the Expert First Aid - Under Wraps, Manual: Heavy Silk Bandage and Manual: Mageweave Bandage from him.",
+      "classes": ["!Warrior", "!Rogue"],
+      "races": null,
+      "coords": [26.966, 58.834],
+      "zone": "arathi_highlands",
+      "tips": [
+        {
+          "type": "warning",
+          "class": null,
+          "text": "Travel to Stromgarde Keep to further train your First Aid"
+        },
+        {
+          "type": "warning",
+          "class": null,
+          "text": "There are a lot of Elite mobs in the Keep"
+        },
+        {
+          "type": "warning",
+          "class": null,
+          "text": "Deneb Walker also has limited supply items such as Scrolls and Potions as well which you should buy"
+        }
+      ],
+      "quests": [],
+      "npc": "Deneb Walker",
+      "mobs": []
+    },
+    {
+      "id": "hillsbrad_021",
+      "type": "info",
+      "description": "Talk to Deneb Walker. Buy the Expert First Aid - Under Wraps, Manual: Heavy Silk Bandage and Manual: Mageweave Bandage from him.",
+      "classes": ["Warrior", "Rogue"],
+      "races": null,
+      "coords": [26.966, 58.834],
+      "zone": "arathi_highlands",
+      "tips": [
+        {
+          "type": "warning",
+          "class": null,
+          "text": "Travel to Stromgarde Keep to further train your First Aid"
+        },
+        {
+          "type": "warning",
+          "class": null,
+          "text": "There are a lot of Elite mobs in the Keep"
+        },
+        {
+          "type": "warning",
+          "class": null,
+          "text": "Deneb Walker also has limited supply items such as Scrolls and Potions as well which you should buy"
+        }
+      ],
+      "quests": [],
+      "npc": "Deneb Walker",
+      "mobs": []
+    },
+    {
+      "id": "hillsbrad_022",
+      "type": "kill",
+      "description": "Kill the Forsaken Courier. Loot her for her Sealed Folder. The Forsaken Courier patrols the road between Tarren Mill and Go'Shek Farm",
+      "classes": null,
+      "races": null,
+      "coords": [19.89, 29.22],
+      "zone": "arathi_highlands",
+      "tips": [
+        {
+          "type": "warning",
+          "class": null,
+          "text": "The Forsaken Courier patrols the road between Tarren Mill and Go'Shek Farm"
+        },
+        {
+          "type": "warning",
+          "class": "Hunter",
+          "text": "Cast Eagle Eye to try and find the Forsaken Courier"
+        },
+        {
+          "type": "warning",
+          "class": "Hunter",
+          "text": "If you can't see them in Arathi, look for them in Hillsbrad after finishing Northfold Manor"
+        }
+      ],
+      "quests": [
+        {
+          "id": 658,
+          "name": "Hints of a New Plague?"
+        }
+      ],
+      "npc": null,
+      "mobs": ["Forsaken Courier"]
+    },
+    {
+      "id": "hillsbrad_023",
+      "type": "kill",
+      "description": "Kill Syndicate Mercenaries and Syndicate Highwaymen",
+      "classes": null,
+      "races": null,
+      "coords": [31.13, 29.47],
+      "zone": "arathi_highlands",
+      "tips": [
+        {
+          "type": "warning",
+          "class": null,
+          "text": "Be aware Syndicate Highwaymen are in Stealth and can be found around the perimiter of Northfold Manor"
+        },
+        {
+          "type": "warning",
+          "class": "Human",
+          "text": "Cast Perception to help spot Syndicate Highwaymen"
+        }
+      ],
+      "quests": [
+        {
+          "id": 681,
+          "name": "Northfold Manor"
+        }
+      ],
+      "npc": null,
+      "mobs": ["Syndicate Highwayman", "Syndicate Mercenary"]
+    },
+    {
+      "id": "hillsbrad_024",
+      "type": "info",
+      "description": "Hearth to Southshore. Buy food/water if needed",
+      "classes": ["Hunter"],
+      "races": null,
+      "coords": null,
+      "zone": "",
+      "tips": [],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "hillsbrad_025",
+      "type": "info",
+      "description": "Talk to Wesley. Stable your pet. You will tame a Plains Creeper shortly",
+      "classes": ["Hunter"],
+      "races": null,
+      "coords": [50.415, 58.803],
+      "zone": "hillsbrad_foothills",
+      "tips": [],
+      "quests": [],
+      "npc": "Wesley",
+      "mobs": []
+    },
+    {
+      "id": "hillsbrad_026",
+      "type": "fly",
+      "description": "Talk to Darla Harris and fly to Arathi Highlands",
+      "classes": ["Hunter"],
+      "races": null,
+      "coords": [49.338, 52.272],
+      "zone": "hillsbrad_foothills",
+      "tips": [],
+      "quests": [],
+      "npc": "Darla Harris",
+      "mobs": []
+    },
+    {
+      "id": "hillsbrad_027",
+      "type": "quest_turnin",
+      "description": "Talk to Captain Nials and turn in Northfold Manor",
+      "classes": null,
+      "races": null,
+      "coords": [45.832, 47.545],
+      "zone": "arathi_highlands",
+      "tips": [],
+      "quests": [
+        {
+          "id": 681,
+          "name": "Northfold Manor"
+        }
+      ],
+      "npc": "Captain Nials",
+      "mobs": []
+    },
+    {
+      "id": "hillsbrad_028",
+      "type": "info",
+      "description": "Cast Eagle Eye to try and find a Plains Creeper. Attack mobs with it to learn Bite (Rank 5)",
+      "classes": ["Hunter"],
+      "races": null,
+      "coords": [48.0, 58.6],
+      "zone": "arathi_highlands",
+      "tips": [
+        {
+          "type": "warning",
+          "class": null,
+          "text": "Cast Eagle Eye to try and find a Plains Creeper. Some of their locations are marked on your map"
+        },
+        {
+          "type": "warning",
+          "class": null,
+          "text": "Cast Tame Beast on a Plains Creeper to tame it"
+        },
+        {
+          "type": "link",
+          "class": null,
+          "text": "Click here for more info about pet training",
+          "url": "https://www.wow-petopia.com/classic/training.php"
+        }
+      ],
+      "quests": [],
+      "npc": null,
+      "mobs": ["Plains Creeper"]
+    },
+    {
+      "id": "hillsbrad_029",
+      "type": "quest_turnin",
+      "description": "Talk to Quae and turn in Hints of a New Plague?",
+      "classes": null,
+      "races": null,
+      "coords": [60.185, 53.848],
+      "zone": "arathi_highlands",
+      "tips": [
+        {
+          "type": "warning",
+          "class": null,
+          "text": "Don't go out of your way to find the Forsaken Courier. You can skip this step and finish it later"
+        }
+      ],
+      "quests": [
+        {
+          "id": 658,
+          "name": "Hints of a New Plague?"
+        }
+      ],
+      "npc": "Quae",
+      "mobs": []
+    },
+    {
+      "id": "hillsbrad_030",
+      "type": "info",
+      "description": "Hearth to Southshore if you are far away from the Flight Path. Buy food/water if needed",
+      "classes": ["!Warrior", "!Rogue", "!Hunter"],
+      "races": null,
+      "coords": null,
+      "zone": "",
+      "tips": [],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "hillsbrad_031",
+      "type": "info",
+      "description": "Hearth to Southshore if you are far away from the Flight Path. Buy food if needed",
+      "classes": ["Warrior", "Rogue"],
+      "races": null,
+      "coords": null,
+      "zone": "",
+      "tips": [],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "hillsbrad_032",
+      "type": "fly",
+      "description": "Talk to Darla Harris or Cedrik Prose and fly to Wetlands",
+      "classes": ["!Hunter"],
+      "races": null,
+      "coords": [49.338, 52.272],
+      "zone": "hillsbrad_foothills",
+      "tips": [],
+      "quests": [],
+      "npc": "Darla Harris",
+      "mobs": []
+    },
+    {
+      "id": "hillsbrad_033",
+      "type": "fly",
+      "description": "Talk to Cedrik Prose and fly to Wetlands",
+      "classes": ["Hunter"],
+      "races": null,
+      "coords": [45.73, 46.09],
+      "zone": "arathi_highlands",
+      "tips": [],
+      "quests": [],
+      "npc": "Cedrik Prose",
+      "mobs": []
+    },
+    {
+      "id": "hillsbrad_034",
+      "type": "info",
+      "description": "Talk to Bethaine Flinthammer. Withdraw your pet from the Stable",
+      "classes": ["Hunter"],
+      "races": null,
+      "coords": [10.527, 59.737],
+      "zone": "wetlands",
+      "tips": [],
+      "quests": [],
+      "npc": "Bethaine Flinthammer",
+      "mobs": []
+    },
+    {
+      "id": "hillsbrad_035",
+      "type": "quest_turnin",
+      "description": "Talk to Vincent Hyal, turn in James Hyal, and accept James Hyal",
+      "classes": null,
+      "races": null,
+      "coords": [10.828, 60.399],
+      "zone": "wetlands",
+      "tips": [],
+      "quests": [
+        {
+          "id": 1301,
+          "name": "James Hyal"
+        },
+        {
+          "id": 1302,
+          "name": "James Hyal"
+        }
+      ],
+      "npc": "Vincent Hyal",
+      "mobs": []
+    },
+    {
+      "id": "hillsbrad_036",
+      "type": "quest_turnin",
+      "description": "Talk to Mikhail, turn in The Missing Diplomat, and accept The Missing Diplomat",
+      "classes": null,
+      "races": null,
+      "coords": [10.599, 60.769],
+      "zone": "wetlands",
+      "tips": [
+        {
+          "type": "warning",
+          "class": null,
+          "text": "Accepting this quest will make Tapoke \"Slim\" Jahn by the Inn entrance Stealth and run away outside"
+        }
+      ],
+      "quests": [
+        {
+          "id": 1248,
+          "name": "The Missing Diplomat"
+        },
+        {
+          "id": 1249,
+          "name": "The Missing Diplomat"
+        }
+      ],
+      "npc": "Mikhail",
+      "mobs": ["Tapoke \"Slim\" Jahn"]
+    },
+    {
+      "id": "hillsbrad_037",
+      "type": "kill",
+      "description": "Defeat Tapoke \"Slim\" Jahn.",
+      "classes": null,
+      "races": null,
+      "coords": [10.795, 59.616],
+      "zone": "wetlands",
+      "tips": [
+        {
+          "type": "warning",
+          "class": null,
+          "text": "Quickly run outside!"
+        },
+        {
+          "type": "warning",
+          "class": null,
+          "text": "Slim's Friend will run away once Tapoke \"Slim\" Jahn submits"
+        },
+        {
+          "type": "warning",
+          "class": null,
+          "text": "Use any Crowd Control (CC) on Slim's Friend if needed"
+        }
+      ],
+      "quests": [
+        {
+          "id": 1249,
+          "name": "The Missing Diplomat"
+        }
+      ],
+      "npc": null,
+      "mobs": ["Tapoke \"Slim\" Jahn"]
+    },
+    {
+      "id": "hillsbrad_038",
+      "type": "quest_turnin",
+      "description": "Talk to Mikhail and turn in The Missing Diplomat",
+      "classes": null,
+      "races": null,
+      "coords": [10.599, 60.769],
+      "zone": "wetlands",
+      "tips": [],
+      "quests": [
+        {
+          "id": 1249,
+          "name": "The Missing Diplomat"
+        }
+      ],
+      "npc": "Mikhail",
+      "mobs": []
+    },
+    {
+      "id": "hillsbrad_039",
+      "type": "quest_accept",
+      "description": "Talk to Tapoke \"Slim\" Jahn and accept The Missing Diplomat",
+      "classes": null,
+      "races": null,
+      "coords": [10.545, 60.26],
+      "zone": "wetlands",
+      "tips": [],
+      "quests": [
+        {
+          "id": 1250,
+          "name": "The Missing Diplomat"
+        }
+      ],
+      "npc": "Tapoke \"Slim\" Jahn",
+      "mobs": []
+    },
+    {
+      "id": "hillsbrad_040",
+      "type": "quest_turnin",
+      "description": "Talk to Mikhail, turn in The Missing Diplomat, and accept The Missing Diplomat",
+      "classes": null,
+      "races": null,
+      "coords": [10.599, 60.769],
+      "zone": "wetlands",
+      "tips": [],
+      "quests": [
+        {
+          "id": 1250,
+          "name": "The Missing Diplomat"
+        },
+        {
+          "id": 1264,
+          "name": "The Missing Diplomat"
+        }
+      ],
+      "npc": "Mikhail",
+      "mobs": []
+    }
+  ]
+}

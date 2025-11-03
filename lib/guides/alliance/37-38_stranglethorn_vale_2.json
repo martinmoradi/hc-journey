@@ -1,0 +1,1196 @@
+{
+  "zone": "Stranglethorn Vale",
+  "levelRange": "37-38",
+  "faction": "Alliance",
+  "name": "37-38_stranglethorn_vale_2",
+  "next": "38-39_swamp_of_sorrows_1",
+  "steps": [
+    {
+      "id": "stranglethorn_vale_001",
+      "type": "info",
+      "description": "Talk to Innkeeper Skindle. Set your Hearthstone to Booty Bay",
+      "classes": null,
+      "races": null,
+      "coords": [27.04, 77.31],
+      "zone": "stranglethorn_vale",
+      "tips": [],
+      "quests": [],
+      "npc": "Innkeeper Skindle",
+      "mobs": []
+    },
+    {
+      "id": "stranglethorn_vale_002",
+      "type": "quest_turnin",
+      "description": "Talk to Krazek upstairs on the top floor and turn in The Rumormonger",
+      "classes": null,
+      "races": null,
+      "coords": [26.943, 77.207],
+      "zone": "stranglethorn_vale",
+      "tips": [],
+      "quests": [
+        {
+          "id": 1115,
+          "name": "The Rumormonger"
+        }
+      ],
+      "npc": "Krazek",
+      "mobs": []
+    },
+    {
+      "id": "stranglethorn_vale_003",
+      "type": "fly",
+      "description": "Talk to Gyll and fly to Westfall",
+      "classes": null,
+      "races": null,
+      "coords": [27.53, 77.787],
+      "zone": "stranglethorn_vale",
+      "tips": [],
+      "quests": [],
+      "npc": "Gyll",
+      "mobs": []
+    },
+    {
+      "id": "stranglethorn_vale_004",
+      "type": "quest_turnin",
+      "description": "Talk to Sven Yorgen, turn in Armed and Ready, and accept Morbent Fel",
+      "classes": null,
+      "races": null,
+      "coords": [7.78, 34.06],
+      "zone": "duskwood",
+      "tips": [],
+      "quests": [
+        {
+          "id": 325,
+          "name": "Armed and Ready"
+        },
+        {
+          "id": 55,
+          "name": "Morbent Fel"
+        }
+      ],
+      "npc": "Sven Yorgen",
+      "mobs": []
+    },
+    {
+      "id": "stranglethorn_vale_005",
+      "type": "kill",
+      "description": "Kill Mor'Ladim. Loot him for his Skull",
+      "classes": null,
+      "races": null,
+      "coords": [19.59, 37.28],
+      "zone": "duskwood",
+      "tips": [
+        {
+          "type": "warning",
+          "class": null,
+          "text": "Mor'Ladim hits very hard but moves quite slow. Try to kite him around any large trees if required"
+        }
+      ],
+      "quests": [
+        {
+          "id": 228,
+          "name": "Mor'Ladim"
+        }
+      ],
+      "npc": null,
+      "mobs": ["Mor'Ladim"]
+    },
+    {
+      "id": "stranglethorn_vale_006",
+      "type": "info",
+      "description": "Clear your way to the 2nd floor of the house",
+      "classes": null,
+      "races": null,
+      "coords": null,
+      "zone": "",
+      "tips": [
+        {
+          "type": "warning",
+          "class": null,
+          "text": "Equip Morbent's Bane in your off-hand"
+        },
+        {
+          "type": "warning",
+          "class": null,
+          "text": "Use Morbent's Bane on Morbent Fel to weaken him"
+        },
+        {
+          "type": "warning",
+          "class": null,
+          "text": "Remember to equip your weapon/off-hand slot after weakening him"
+        }
+      ],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "stranglethorn_vale_007",
+      "type": "kill",
+      "description": "Kill Morbent Fel",
+      "classes": null,
+      "races": null,
+      "coords": [16.9, 33.4],
+      "zone": "duskwood",
+      "tips": [
+        {
+          "type": "warning",
+          "class": null,
+          "text": "This quest can be difficult. If you aren't confident doing it, you may skip this step"
+        }
+      ],
+      "quests": [
+        {
+          "id": 55,
+          "name": "Morbent Fel"
+        }
+      ],
+      "npc": null,
+      "mobs": ["Morbent Fel"]
+    },
+    {
+      "id": "stranglethorn_vale_008",
+      "type": "quest_turnin",
+      "description": "Talk to Sven Yorgen and turn in Morbent Fel",
+      "classes": null,
+      "races": null,
+      "coords": [7.78, 34.06],
+      "zone": "duskwood",
+      "tips": [],
+      "quests": [
+        {
+          "id": 55,
+          "name": "Morbent Fel"
+        }
+      ],
+      "npc": "Sven Yorgen",
+      "mobs": []
+    },
+    {
+      "id": "stranglethorn_vale_009",
+      "type": "info",
+      "description": "Abandon Morbent Fel",
+      "classes": null,
+      "races": null,
+      "coords": null,
+      "zone": "",
+      "tips": [],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "stranglethorn_vale_010",
+      "type": "travel",
+      "description": "Travel to the Rebel Camp in northern Stranglethorn Vale",
+      "classes": null,
+      "races": null,
+      "coords": [38.63, 5.05],
+      "zone": "stranglethorn_vale",
+      "tips": [],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "stranglethorn_vale_011",
+      "type": "quest_accept",
+      "description": "Talk to Sergeant Yohwa and accept Special Forces",
+      "classes": null,
+      "races": null,
+      "coords": [38.017, 3.33],
+      "zone": "stranglethorn_vale",
+      "tips": [],
+      "quests": [
+        {
+          "id": 574,
+          "name": "Special Forces"
+        }
+      ],
+      "npc": "Sergeant Yohwa",
+      "mobs": []
+    },
+    {
+      "id": "stranglethorn_vale_012",
+      "type": "quest_accept",
+      "description": "Talk to Lieutenant Doren and accept Bookie Herod",
+      "classes": null,
+      "races": null,
+      "coords": [38.042, 3.012],
+      "zone": "stranglethorn_vale",
+      "tips": [],
+      "quests": [
+        {
+          "id": 200,
+          "name": "Bookie Herod"
+        }
+      ],
+      "npc": "Lieutenant Doren",
+      "mobs": []
+    },
+    {
+      "id": "stranglethorn_vale_013",
+      "type": "quest_turnin",
+      "description": "Talk to Corporal Kaleb and turn in Return to Corporal Kaleb",
+      "classes": null,
+      "races": null,
+      "coords": [37.74, 3.3],
+      "zone": "stranglethorn_vale",
+      "tips": [],
+      "quests": [
+        {
+          "id": 622,
+          "name": "Return to Corporal Kaleb"
+        }
+      ],
+      "npc": "Corporal Kaleb",
+      "mobs": []
+    },
+    {
+      "id": "stranglethorn_vale_014",
+      "type": "quest_accept",
+      "description": "Talk to Hemet Nesingwary, Ajeck Rouack, and Sir S. J. Erlgadin and accept Raptor Mastery, Tiger Mastery, and Panther Mastery",
+      "classes": null,
+      "races": null,
+      "coords": [35.556, 10.546],
+      "zone": "stranglethorn_vale",
+      "tips": [],
+      "quests": [
+        {
+          "id": 195,
+          "name": "Raptor Mastery"
+        },
+        {
+          "id": 188,
+          "name": "Tiger Mastery"
+        },
+        {
+          "id": 192,
+          "name": "Panther Mastery"
+        }
+      ],
+      "npc": "Sir S. J. Erlgadin",
+      "mobs": []
+    },
+    {
+      "id": "stranglethorn_vale_015",
+      "type": "quest_turnin",
+      "description": "Click on Bookie Herod's Records upstairs in the house and turn in Bookie Herod. Accept The Hidden Key",
+      "classes": null,
+      "races": null,
+      "coords": [43.669, 9.372],
+      "zone": "stranglethorn_vale",
+      "tips": [],
+      "quests": [
+        {
+          "id": 200,
+          "name": "Bookie Herod"
+        },
+        {
+          "id": 328,
+          "name": "The Hidden Key"
+        }
+      ],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "stranglethorn_vale_016",
+      "type": "quest_turnin",
+      "description": "Click on Bookie Herod's Records upstairs in the house and turn in Bookie Herod",
+      "classes": null,
+      "races": null,
+      "coords": [43.669, 9.372],
+      "zone": "stranglethorn_vale",
+      "tips": [],
+      "quests": [
+        {
+          "id": 200,
+          "name": "Bookie Herod"
+        }
+      ],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "stranglethorn_vale_017",
+      "type": "travel",
+      "description": "Enter The Stockpile (Kurzen's Cave)",
+      "classes": null,
+      "races": null,
+      "coords": [46.3, 7.61],
+      "zone": "stranglethorn_vale",
+      "tips": [],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "stranglethorn_vale_018",
+      "type": "quest_turnin",
+      "description": "Click Bookie Herod's Strongbox on the ground, turn in The Hidden Key, and accept The Spy Revealed!",
+      "classes": null,
+      "races": null,
+      "coords": [49.617, 7.562],
+      "zone": "stranglethorn_vale",
+      "tips": [],
+      "quests": [
+        {
+          "id": 328,
+          "name": "The Hidden Key"
+        },
+        {
+          "id": 329,
+          "name": "The Spy Revealed!"
+        }
+      ],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "stranglethorn_vale_019",
+      "type": "kill",
+      "description": "Kill Kurzen Commandos and Kurzen Headshrinkers. Loot them for their Silk Cloth",
+      "classes": null,
+      "races": null,
+      "coords": [46.45, 6.89],
+      "zone": "stranglethorn_vale",
+      "tips": [
+        {
+          "type": "warning",
+          "class": null,
+          "text": "Be cautious of Kurzen Commandos in Stealth"
+        },
+        {
+          "type": "warning",
+          "class": null,
+          "text": "Save 15 Silk Cloth for a quest for later in Searing Gorge. You don't need to collect all 15 now"
+        }
+      ],
+      "quests": [
+        {
+          "id": 574,
+          "name": "Special Forces"
+        }
+      ],
+      "npc": null,
+      "mobs": ["Kurzen Commando", "Kurzen Headshrinker"]
+    },
+    {
+      "id": "stranglethorn_vale_020",
+      "type": "quest_turnin",
+      "description": "Click Bookie Herod's Strongbox on the ground, turn in The Hidden Key, and accept The Spy Revealed!",
+      "classes": null,
+      "races": null,
+      "coords": [49.617, 7.562],
+      "zone": "stranglethorn_vale",
+      "tips": [],
+      "quests": [
+        {
+          "id": 328,
+          "name": "The Hidden Key"
+        },
+        {
+          "id": 329,
+          "name": "The Spy Revealed!"
+        }
+      ],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "stranglethorn_vale_021",
+      "type": "kill",
+      "description": "Kill Kurzen Medicine Men. Loot them for their Liferoot",
+      "classes": ["Warrior"],
+      "races": null,
+      "coords": [44.5, 9.6],
+      "zone": "stranglethorn_vale",
+      "tips": [
+        {
+          "type": "warning",
+          "class": null,
+          "text": "This is for your Whirlwind Axe quest. You may also buy them from the Auction House if you wish. If you will buy them from the Auction House, skip this step"
+        },
+        {
+          "type": "warning",
+          "class": null,
+          "text": "If you are planning on running Scarlet Monastery for the Bonebiter, you may skip this step"
+        }
+      ],
+      "quests": [
+        {
+          "id": 1712,
+          "name": "Cyclonian"
+        }
+      ],
+      "npc": null,
+      "mobs": ["Kurzen Medicine Man"]
+    },
+    {
+      "id": "stranglethorn_vale_022",
+      "type": "kill",
+      "description": "Kill Kurzen Medicine Men. Loot them for their Liferoot",
+      "classes": ["Warrior"],
+      "races": null,
+      "coords": [44.5, 9.6],
+      "zone": "stranglethorn_vale",
+      "tips": [
+        {
+          "type": "warning",
+          "class": null,
+          "text": "This is for your Whirlwind Axe quest"
+        },
+        {
+          "type": "warning",
+          "class": null,
+          "text": "If you are planning on running Scarlet Monastery for the Bonebiter, you may skip this step"
+        }
+      ],
+      "quests": [
+        {
+          "id": 1712,
+          "name": "Cyclonian"
+        }
+      ],
+      "npc": null,
+      "mobs": ["Kurzen Medicine Man"]
+    },
+    {
+      "id": "stranglethorn_vale_023",
+      "type": "kill",
+      "description": "Kill Venture Co. Geologists. Loot them for their Crystals",
+      "classes": null,
+      "races": null,
+      "coords": [42.646, 18.353],
+      "zone": "stranglethorn_vale",
+      "tips": [],
+      "quests": [
+        {
+          "id": 213,
+          "name": "Hostile Takeover"
+        }
+      ],
+      "npc": null,
+      "mobs": ["Venture Co. Geologist"]
+    },
+    {
+      "id": "stranglethorn_vale_024",
+      "type": "kill",
+      "description": "Kill Foreman Cozzle atop the Oil Rig. Loot him for his Key",
+      "classes": null,
+      "races": null,
+      "coords": [42.646, 18.353],
+      "zone": "stranglethorn_vale",
+      "tips": [],
+      "quests": [],
+      "npc": null,
+      "mobs": ["Foreman Cozzle"]
+    },
+    {
+      "id": "stranglethorn_vale_025",
+      "type": "loot",
+      "description": "Open Cozzle's Footlocker. Loot it for the Fuel Regulator Blueprints",
+      "classes": null,
+      "races": null,
+      "coords": [43.332, 20.329],
+      "zone": "stranglethorn_vale",
+      "tips": [],
+      "quests": [
+        {
+          "id": 1182,
+          "name": "Goblin Sponsorship"
+        }
+      ],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "stranglethorn_vale_026",
+      "type": "kill",
+      "description": "Kill Venture Co. Geologists. Loot them for their Crystals",
+      "classes": null,
+      "races": null,
+      "coords": [45.55, 18.78],
+      "zone": "stranglethorn_vale",
+      "tips": [],
+      "quests": [
+        {
+          "id": 213,
+          "name": "Hostile Takeover"
+        }
+      ],
+      "npc": null,
+      "mobs": ["Venture Co. Geologist"]
+    },
+    {
+      "id": "stranglethorn_vale_027",
+      "type": "kill",
+      "description": "Kill Shadowmaw Panthers",
+      "classes": null,
+      "races": null,
+      "coords": [48.79, 19.96],
+      "zone": "stranglethorn_vale",
+      "tips": [
+        {
+          "type": "warning",
+          "class": null,
+          "text": "Shadowmaw Panthers are in Stealth"
+        },
+        {
+          "type": "warning",
+          "class": null,
+          "text": "You can find more further south-west if needed. The location is marked on your map"
+        },
+        {
+          "type": "warning",
+          "class": null,
+          "text": "They also share spawns with Shadowmaw Tigresses"
+        }
+      ],
+      "quests": [
+        {
+          "id": 192,
+          "name": "Panther Mastery"
+        }
+      ],
+      "npc": null,
+      "mobs": ["Shadowmaw Panther"]
+    },
+    {
+      "id": "stranglethorn_vale_028",
+      "type": "kill",
+      "description": "Kill Lashtail Raptors",
+      "classes": null,
+      "races": null,
+      "coords": [39.71, 29.82],
+      "zone": "stranglethorn_vale",
+      "tips": [
+        {
+          "type": "warning",
+          "class": null,
+          "text": "Lashtail Raptors cast Lash which is a 2 second stun"
+        },
+        {
+          "type": "warning",
+          "class": "Warrior",
+          "text": "They can also Disarm you for 5 seconds"
+        },
+        {
+          "type": "warning",
+          "class": "Rogue",
+          "text": "They can also Disarm you for 5 seconds"
+        },
+        {
+          "type": "warning",
+          "class": "Paladin",
+          "text": "They can also Disarm you for 5 seconds"
+        }
+      ],
+      "quests": [],
+      "npc": null,
+      "mobs": ["Lashtail Raptor"]
+    },
+    {
+      "id": "stranglethorn_vale_029",
+      "type": "kill",
+      "description": "Kill Snapjaw Crocolisk. Loot them for their Skin",
+      "classes": null,
+      "races": null,
+      "coords": [39.1, 27.2],
+      "zone": "stranglethorn_vale",
+      "tips": [],
+      "quests": [
+        {
+          "id": 577,
+          "name": "Some Assembly Required"
+        }
+      ],
+      "npc": null,
+      "mobs": ["Snapjaw Crocolisk"]
+    },
+    {
+      "id": "stranglethorn_vale_030",
+      "type": "kill",
+      "description": "Kill Lashtail Raptors",
+      "classes": null,
+      "races": null,
+      "coords": [31.37, 22.28],
+      "zone": "stranglethorn_vale",
+      "tips": [
+        {
+          "type": "warning",
+          "class": null,
+          "text": "Lashtail Raptors cast Lash which is a 2 second stun"
+        },
+        {
+          "type": "warning",
+          "class": "Warrior",
+          "text": "They can also Disarm you for 5 seconds"
+        },
+        {
+          "type": "warning",
+          "class": "Rogue",
+          "text": "They can also Disarm you for 5 seconds"
+        },
+        {
+          "type": "warning",
+          "class": "Paladin",
+          "text": "They can also Disarm you for 5 seconds"
+        }
+      ],
+      "quests": [
+        {
+          "id": 195,
+          "name": "Raptor Mastery"
+        }
+      ],
+      "npc": null,
+      "mobs": ["Lashtail Raptor"]
+    },
+    {
+      "id": "stranglethorn_vale_031",
+      "type": "kill",
+      "description": "Kill Sin'Dall. Loot him for his Paw",
+      "classes": null,
+      "races": null,
+      "coords": [32.23, 17.24],
+      "zone": "stranglethorn_vale",
+      "tips": [
+        {
+          "type": "warning",
+          "class": null,
+          "text": "Sin'Dall can be on top of the Plateau, or patrolling around it"
+        }
+      ],
+      "quests": [
+        {
+          "id": 188,
+          "name": "Tiger Mastery"
+        }
+      ],
+      "npc": null,
+      "mobs": ["Sin'Dall"]
+    },
+    {
+      "id": "stranglethorn_vale_032",
+      "type": "kill",
+      "description": "Kill Bloodscalp Trolls. Loot them for their Ears and Tusks",
+      "classes": ["Warrior"],
+      "races": null,
+      "coords": [24.0, 12.34],
+      "zone": "stranglethorn_vale",
+      "tips": [
+        {
+          "type": "warning",
+          "class": null,
+          "text": "Don't go too deep into the Ruins of Zul'Kunda ruins without planning an escape route. This place has a very high mob density and lots of patrols"
+        },
+        {
+          "type": "warning",
+          "class": null,
+          "text": "Save 15 Silk Cloth for a quest for later in Searing Gorge. You don't need to collect all 15 now"
+        }
+      ],
+      "quests": [
+        {
+          "id": 189,
+          "name": "Bloodscalp Ears"
+        },
+        {
+          "id": 1712,
+          "name": "Cyclonian"
+        }
+      ],
+      "npc": null,
+      "mobs": [
+        "Bloodscalp Scout",
+        "Bloodscalp Hunter",
+        "Bloodscalp Beastmaster",
+        "Bloodscalp Mystic"
+      ]
+    },
+    {
+      "id": "stranglethorn_vale_033",
+      "type": "kill",
+      "description": "Kill Bloodscalp Trolls. Loot them for their Ears",
+      "classes": null,
+      "races": null,
+      "coords": [24.0, 12.34],
+      "zone": "stranglethorn_vale",
+      "tips": [
+        {
+          "type": "warning",
+          "class": null,
+          "text": "Don't go too deep into the Ruins of Zul'Kunda ruins without planning an escape route. This place has a very high mob density and lots of patrols"
+        },
+        {
+          "type": "warning",
+          "class": null,
+          "text": "Save 15 Silk Cloth for a quest for later in Searing Gorge. You don't need to collect all 15 now"
+        }
+      ],
+      "quests": [
+        {
+          "id": 189,
+          "name": "Bloodscalp Ears"
+        }
+      ],
+      "npc": null,
+      "mobs": [
+        "Bloodscalp Scout",
+        "Bloodscalp Hunter",
+        "Bloodscalp Beastmaster",
+        "Bloodscalp Mystic"
+      ]
+    },
+    {
+      "id": "stranglethorn_vale_034",
+      "type": "travel",
+      "description": "Travel to the Haunted Island",
+      "classes": null,
+      "races": null,
+      "coords": [21.1, 22.84],
+      "zone": "stranglethorn_vale",
+      "tips": [],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "stranglethorn_vale_035",
+      "type": "kill",
+      "description": "Kill Lesser Water Elementals. Loot them for their Bracers",
+      "classes": null,
+      "races": null,
+      "coords": [21.1, 22.84],
+      "zone": "stranglethorn_vale",
+      "tips": [],
+      "quests": [
+        {
+          "id": 601,
+          "name": "Water Elementals"
+        }
+      ],
+      "npc": null,
+      "mobs": ["Lesser Water Elemental"]
+    },
+    {
+      "id": "stranglethorn_vale_036",
+      "type": "info",
+      "description": "Use your Elixir of Water Breathing if you have one",
+      "classes": null,
+      "races": null,
+      "coords": null,
+      "zone": "",
+      "tips": [],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "stranglethorn_vale_037",
+      "type": "loot",
+      "description": "Open the Giant Clams. Loot them for Blue Pearls",
+      "classes": null,
+      "races": ["!Warlock", "!Druid"],
+      "coords": [27.5, 24.2],
+      "zone": "stranglethorn_vale",
+      "tips": [
+        {
+          "type": "warning",
+          "class": null,
+          "text": "Skip this step if you don't have a Elixir of Water Breathing or Warlock in your group"
+        }
+      ],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "stranglethorn_vale_038",
+      "type": "kill",
+      "description": "Kill Saltscale Murlocs. Loot them for their Encrusted Tail Fins",
+      "classes": null,
+      "races": ["!Warlock", "!Druid"],
+      "coords": [24.42, 24.46],
+      "zone": "stranglethorn_vale",
+      "tips": [
+        {
+          "type": "warning",
+          "class": null,
+          "text": "Only engage in combat with 1 Murloc at a time. Try to avoid Saltscale Oracles and Saltscale Tide Lords"
+        },
+        {
+          "type": "warning",
+          "class": null,
+          "text": "Skip this step if you don't have a Elixir of Water Breathing or Warlock in your group"
+        }
+      ],
+      "quests": [
+        {
+          "id": 1107,
+          "name": "Encrusted Tail Fins"
+        }
+      ],
+      "npc": null,
+      "mobs": [
+        "Saltscale Forager",
+        "Saltscale Warrior",
+        "Saltscale Hunter",
+        "Saltscale Oracle"
+      ]
+    },
+    {
+      "id": "stranglethorn_vale_039",
+      "type": "loot",
+      "description": "Open the Giant Clams. Loot them for Blue Pearls",
+      "classes": null,
+      "races": ["!Warlock", "!Druid"],
+      "coords": [27.5, 24.2],
+      "zone": "stranglethorn_vale",
+      "tips": [
+        {
+          "type": "warning",
+          "class": null,
+          "text": "Skip this step if you don't have a Elixir of Water Breathing or Warlock in your group"
+        }
+      ],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "stranglethorn_vale_040",
+      "type": "grind",
+      "description": "Grind until you are 16,160 xp away from level 38",
+      "classes": null,
+      "races": null,
+      "coords": [25.52, 9.36],
+      "zone": "stranglethorn_vale",
+      "tips": [],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "stranglethorn_vale_041",
+      "type": "quest_turnin",
+      "description": "Talk to Hemet Nesingwary, Ajeck Rouack, and Sir S. J. Erlgadin and turn in Raptor Mastery, Tiger Mastery, and Panther Mastery",
+      "classes": null,
+      "races": null,
+      "coords": [35.556, 10.546],
+      "zone": "stranglethorn_vale",
+      "tips": [],
+      "quests": [
+        {
+          "id": 195,
+          "name": "Raptor Mastery"
+        },
+        {
+          "id": 188,
+          "name": "Tiger Mastery"
+        },
+        {
+          "id": 192,
+          "name": "Panther Mastery"
+        }
+      ],
+      "npc": "Sir S. J. Erlgadin",
+      "mobs": []
+    },
+    {
+      "id": "stranglethorn_vale_042",
+      "type": "quest_turnin",
+      "description": "Talk to Lieutenant Doren, turn in Special Forces and The Spy Revealed!, and accept Patrol Schedules",
+      "classes": null,
+      "races": null,
+      "coords": [38.042, 3.012],
+      "zone": "stranglethorn_vale",
+      "tips": [],
+      "quests": [
+        {
+          "id": 574,
+          "name": "Special Forces"
+        },
+        {
+          "id": 329,
+          "name": "The Spy Revealed!"
+        },
+        {
+          "id": 330,
+          "name": "Patrol Schedules"
+        }
+      ],
+      "npc": "Lieutenant Doren",
+      "mobs": []
+    },
+    {
+      "id": "stranglethorn_vale_043",
+      "type": "quest_turnin",
+      "description": "Talk to Lieutenant Doren and turn in Special Forces",
+      "classes": null,
+      "races": null,
+      "coords": [38.042, 3.012],
+      "zone": "stranglethorn_vale",
+      "tips": [],
+      "quests": [
+        {
+          "id": 574,
+          "name": "Special Forces"
+        }
+      ],
+      "npc": "Lieutenant Doren",
+      "mobs": []
+    },
+    {
+      "id": "stranglethorn_vale_044",
+      "type": "quest_turnin",
+      "description": "Talk to Lieutenant Doren and turn in Special Forces",
+      "classes": null,
+      "races": null,
+      "coords": [38.042, 3.012],
+      "zone": "stranglethorn_vale",
+      "tips": [],
+      "quests": [
+        {
+          "id": 574,
+          "name": "Special Forces"
+        }
+      ],
+      "npc": "Lieutenant Doren",
+      "mobs": []
+    },
+    {
+      "id": "stranglethorn_vale_045",
+      "type": "quest_turnin",
+      "description": "Talk to Corporal Sethman, turn in Patrol Schedules, and accept Report to Doren",
+      "classes": null,
+      "races": null,
+      "coords": [37.66, 3.39],
+      "zone": "stranglethorn_vale",
+      "tips": [],
+      "quests": [
+        {
+          "id": 330,
+          "name": "Patrol Schedules"
+        },
+        {
+          "id": 331,
+          "name": "Report to Doren"
+        }
+      ],
+      "npc": "Corporal Sethman",
+      "mobs": []
+    },
+    {
+      "id": "stranglethorn_vale_046",
+      "type": "quest_turnin",
+      "description": "Talk to Lieutenant Doren and turn in Report to Doren",
+      "classes": null,
+      "races": null,
+      "coords": [38.042, 3.012],
+      "zone": "stranglethorn_vale",
+      "tips": [],
+      "quests": [
+        {
+          "id": 331,
+          "name": "Report to Doren"
+        }
+      ],
+      "npc": "Lieutenant Doren",
+      "mobs": []
+    },
+    {
+      "id": "stranglethorn_vale_047",
+      "type": "info",
+      "description": "Cast Teleport: Moonglade",
+      "classes": ["Druid"],
+      "races": null,
+      "coords": null,
+      "zone": "",
+      "tips": [],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "stranglethorn_vale_048",
+      "type": "info",
+      "description": "Talk to Loganaar and train your class spells",
+      "classes": ["Druid"],
+      "races": null,
+      "coords": [52.53, 40.56],
+      "zone": "moonglade",
+      "tips": [],
+      "quests": [],
+      "npc": "Loganaar",
+      "mobs": []
+    },
+    {
+      "id": "stranglethorn_vale_049",
+      "type": "info",
+      "description": "Hearth to Booty Bay. Buy food/water if needed",
+      "classes": ["!Warrior", "!Rogue"],
+      "races": null,
+      "coords": null,
+      "zone": "",
+      "tips": [],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "stranglethorn_vale_050",
+      "type": "info",
+      "description": "Hearth to Booty Bay. Buy food if needed",
+      "classes": ["Warrior", "Rogue"],
+      "races": null,
+      "coords": null,
+      "zone": "",
+      "tips": [],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "stranglethorn_vale_051",
+      "type": "quest_turnin",
+      "description": "Talk to Kebok and Krazek upstairs on the top floor, turn in Bloodscalp Ears and Hostile Takeover, and accept Dream Dust in the Swamp",
+      "classes": null,
+      "races": null,
+      "coords": [26.943, 77.207],
+      "zone": "stranglethorn_vale",
+      "tips": [],
+      "quests": [
+        {
+          "id": 189,
+          "name": "Bloodscalp Ears"
+        },
+        {
+          "id": 213,
+          "name": "Hostile Takeover"
+        },
+        {
+          "id": 1116,
+          "name": "Dream Dust in the Swamp"
+        }
+      ],
+      "npc": "Krazek",
+      "mobs": []
+    },
+    {
+      "id": "stranglethorn_vale_052",
+      "type": "quest_turnin",
+      "description": "Talk to Baron Revilgaz, turn in Water Elementals and Goblin Sponsorship, and accept Magical Analysis and Goblin Sponsorship",
+      "classes": null,
+      "races": null,
+      "coords": [27.227, 76.87],
+      "zone": "stranglethorn_vale",
+      "tips": [],
+      "quests": [
+        {
+          "id": 601,
+          "name": "Water Elementals"
+        },
+        {
+          "id": 602,
+          "name": "Magical Analysis"
+        },
+        {
+          "id": 1182,
+          "name": "Goblin Sponsorship"
+        },
+        {
+          "id": 1183,
+          "name": "Goblin Sponsorship"
+        }
+      ],
+      "npc": "Baron Revilgaz",
+      "mobs": []
+    },
+    {
+      "id": "stranglethorn_vale_053",
+      "type": "quest_turnin",
+      "description": "Talk to Drizzlik and turn in Some Assembly Required",
+      "classes": null,
+      "races": null,
+      "coords": [28.294, 77.592],
+      "zone": "stranglethorn_vale",
+      "tips": [],
+      "quests": [
+        {
+          "id": 577,
+          "name": "Some Assembly Required"
+        }
+      ],
+      "npc": "Drizzlik",
+      "mobs": []
+    },
+    {
+      "id": "stranglethorn_vale_054",
+      "type": "info",
+      "description": "Make sure you are level 38 before starting the next segment",
+      "classes": null,
+      "races": null,
+      "coords": null,
+      "zone": "",
+      "tips": [],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "stranglethorn_vale_055",
+      "type": "fly",
+      "description": "Talk to Gyll and fly to Stormwind",
+      "classes": ["!Mage"],
+      "races": null,
+      "coords": [27.53, 77.787],
+      "zone": "stranglethorn_vale",
+      "tips": [],
+      "quests": [],
+      "npc": "Gyll",
+      "mobs": []
+    },
+    {
+      "id": "stranglethorn_vale_056",
+      "type": "info",
+      "description": "Talk to Thurman Mullby. Buy 400 Wicked Throwing Daggers",
+      "classes": ["Warrior"],
+      "races": null,
+      "coords": [58.362, 61.678],
+      "zone": "stormwind_city",
+      "tips": [],
+      "quests": [],
+      "npc": "Thurman Mullby",
+      "mobs": []
+    },
+    {
+      "id": "stranglethorn_vale_057",
+      "type": "info",
+      "description": "Teleport to Stormwind City",
+      "classes": ["Mage"],
+      "races": null,
+      "coords": [27.53, 77.787],
+      "zone": "stranglethorn_vale",
+      "tips": [],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "stranglethorn_vale_058",
+      "type": "info",
+      "description": "Talk to Jennea and train your class spells",
+      "classes": ["Mage"],
+      "races": null,
+      "coords": [36.87, 81.14],
+      "zone": "stormwind_city",
+      "tips": [],
+      "quests": [],
+      "npc": "Jennea Cannon",
+      "mobs": []
+    }
+  ]
+}

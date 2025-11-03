@@ -1,0 +1,863 @@
+{
+  "zone": "Northshire",
+  "levelRange": "1-6",
+  "faction": "Alliance",
+  "name": "1-6_northshire_human",
+  "next": "6-11_elwynn_forest_human",
+  "steps": [
+    {
+      "id": "northshire_001",
+      "type": "quest_accept",
+      "description": "Talk to Drusilla La Salle and accept The Stolen Tome, then train Immolate",
+      "classes": ["Warlock"],
+      "races": null,
+      "coords": [49.87, 42.65],
+      "zone": "northshire",
+
+      "tips": [],
+      "quests": [
+        {
+          "id": 1598,
+          "name": "The Stolen Tome"
+        }
+      ],
+      "npc": "Drusilla La Salle",
+      "mobs": []
+    },
+    {
+      "id": "northshire_002",
+      "type": "loot",
+      "description": "Run into the Tent at the Defias Camp and open the Stolen Books to loot Powers of the Void",
+      "classes": ["Warlock"],
+      "races": null,
+      "coords": [56.7, 44.0],
+      "zone": "northshire",
+      "tips": [
+        {
+          "type": "warning",
+          "class": null,
+          "text": "You can loot the Powers of the Void safely while inside the Tent!"
+        },
+        {
+          "type": "link",
+          "class": null,
+          "text": "Click here for video reference",
+          "url": "https://youtu.be/3qQwsJhAZIk"
+        }
+      ],
+      "quests": [
+        {
+          "id": 1598,
+          "name": "The Stolen Tome"
+        }
+      ],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "northshire_003",
+      "type": "info",
+      "description": "Remain inside the Tent so Defias Thugs can't hit you, then Hearth to Northshire Valley",
+      "classes": ["Warlock"],
+      "races": null,
+      "coords": [56.83, 43.73],
+      "zone": "northshire",
+      "tips": [
+        {
+          "type": "warning",
+          "class": null,
+          "text": "Remain inside the Tent so Defias Thugs can't hit you"
+        }
+      ],
+      "quests": [],
+      "npc": null,
+      "mobs": ["Defias Thug"]
+    },
+    {
+      "id": "northshire_004",
+      "type": "quest_turnin",
+      "description": "Talk to Drusilla La Salle and turn in The Stolen Tome",
+      "classes": ["Warlock"],
+      "races": null,
+      "coords": [49.87, 42.65],
+      "zone": "northshire",
+      "tips": [],
+      "quests": [
+        {
+          "id": 1598,
+          "name": "The Stolen Tome"
+        }
+      ],
+      "npc": "Drusilla La Salle",
+      "mobs": []
+    },
+    {
+      "id": "northshire_005",
+      "type": "info",
+      "description": "Cast Summon Imp",
+      "classes": ["Warlock"],
+      "races": null,
+      "coords": null,
+      "zone": " northshire",
+      "tips": [],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "northshire_006",
+      "type": "quest_accept",
+      "description": "Talk to Deputy Willem and accept A Threat Within",
+      "classes": null,
+      "races": null,
+      "coords": [48.17, 42.94],
+      "zone": "northshire",
+      "tips": [],
+      "quests": [
+        {
+          "id": 783,
+          "name": "A Threat Within"
+        }
+      ],
+      "npc": "Deputy Willem",
+      "mobs": []
+    },
+    {
+      "id": "northshire_007",
+      "type": "grind",
+      "description": "Kill Young Wolves until you have 10c+ worth of vendor trash to train Battle Shout",
+      "classes": ["Warrior"],
+      "races": null,
+      "coords": [46.4, 40.3],
+      "zone": "northshire",
+      "tips": [
+        {
+          "type": "tip",
+          "class": null,
+          "text": "You will train Battle Shout which increases early leveling speeds"
+        }
+      ],
+      "quests": [],
+      "npc": null,
+      "mobs": ["Young Wolf"]
+    },
+    {
+      "id": "northshire_008",
+      "type": "info",
+      "description": "Talk to Brother Danil to vendor trash, then talk to Llane Beshere to train Battle Shout",
+      "classes": ["Warrior"],
+      "races": null,
+      "coords": [50.24, 42.29],
+      "zone": "northshire",
+      "tips": [],
+      "quests": [],
+      "npc": "Llane Beshere",
+      "mobs": []
+    },
+    {
+      "id": "northshire_009",
+      "type": "quest_turnin",
+      "description": "Talk to Marshal McBride, turn in A Threat Within and accept Kobold Camp Cleanup",
+      "classes": null,
+      "races": null,
+      "coords": [48.92, 41.61],
+      "zone": "northshire",
+      "tips": [],
+      "quests": [
+        {
+          "id": 783,
+          "name": "A Threat Within"
+        },
+        {
+          "id": 7,
+          "name": "Kobold Camp Cleanup"
+        }
+      ],
+      "npc": "Marshal McBride",
+      "mobs": []
+    },
+    {
+      "id": "northshire_010",
+      "type": "quest_accept",
+      "description": "Talk to Deputy Willem and accept Eagan Peltskinner",
+      "classes": null,
+      "races": null,
+      "coords": [48.17, 42.94],
+      "zone": "northshire",
+      "tips": [],
+      "quests": [
+        {
+          "id": 5261,
+          "name": "Eagan Peltskinner"
+        }
+      ],
+      "npc": "Deputy Willem",
+      "mobs": []
+    },
+    {
+      "id": "northshire_011",
+      "type": "quest_turnin",
+      "description": "Talk to Eagan Peltskinner, turn in Eagan Peltskinner and accept Wolves Across The Border",
+      "classes": null,
+      "races": null,
+      "coords": [48.94, 40.17],
+      "zone": "northshire",
+      "tips": [],
+      "quests": [
+        {
+          "id": 5261,
+          "name": "Eagan Peltskinner"
+        },
+        {
+          "id": 33,
+          "name": "Wolves Across The Border"
+        }
+      ],
+      "npc": "Eagan Peltskinner",
+      "mobs": []
+    },
+    {
+      "id": "northshire_012",
+      "type": "info",
+      "description": "Talk to Brother Danil and buy 10 Refreshing Spring Water once you have 50c worth of vendor trash",
+      "classes": ["Priest", "Mage", "Warlock"],
+      "races": null,
+      "coords": [47.49, 41.57],
+      "zone": "northshire",
+      "tips": [
+        {
+          "type": "tip",
+          "class": null,
+          "text": "Once you have 50c worth of vendor trash, buy 10 Refreshing Spring Water"
+        }
+      ],
+      "quests": [],
+      "npc": "Brother Danil",
+      "mobs": []
+    },
+    {
+      "id": "northshire_013",
+      "type": "kill",
+      "description": "Kill Kobold Vermins",
+      "classes": null,
+      "races": null,
+      "coords": [49.6, 35.8],
+      "zone": "northshire",
+      "tips": [],
+      "quests": [
+        {
+          "id": 7,
+          "name": "Kobold Camp Cleanup"
+        }
+      ],
+      "npc": null,
+      "mobs": ["Kobold Vermin"]
+    },
+    {
+      "id": "northshire_014",
+      "type": "kill",
+      "description": "Kill Young Wolves and Timber Wolves and loot them for Tough Wolf Meat",
+      "classes": null,
+      "races": null,
+      "coords": [46.41, 41.94],
+      "zone": "northshire",
+      "tips": [],
+      "quests": [
+        {
+          "id": 33,
+          "name": "Wolves Across The Border"
+        }
+      ],
+      "npc": null,
+      "mobs": ["Young Wolf", "Timber Wolf"]
+    },
+    {
+      "id": "northshire_015",
+      "type": "quest_turnin",
+      "description": "Talk to Eagan Peltskinner and turn in Wolves Across The Border",
+      "classes": null,
+      "races": null,
+      "coords": [48.94, 40.17],
+      "zone": "northshire",
+      "tips": [],
+      "quests": [
+        {
+          "id": 33,
+          "name": "Wolves Across The Border"
+        }
+      ],
+      "npc": "Eagan Peltskinner",
+      "mobs": []
+    },
+    {
+      "id": "northshire_016",
+      "type": "info",
+      "description": "Talk to Brother Danil to vendor trash and buy 10 Refreshing Spring Water",
+      "classes": ["Priest", "Mage", "Warlock"],
+      "races": null,
+      "coords": [47.49, 41.57],
+      "zone": "northshire",
+      "tips": [],
+      "quests": [],
+      "npc": "Brother Danil",
+      "mobs": []
+    },
+    {
+      "id": "northshire_017",
+      "type": "info",
+      "description": "Talk to Janos Hammerknuckle and buy a Dirk",
+      "classes": ["Rogue"],
+      "races": null,
+      "coords": [47.24, 41.9],
+      "zone": "northshire",
+      "tips": [],
+      "quests": [],
+      "npc": "Janos Hammerknuckle",
+      "mobs": []
+    },
+    {
+      "id": "northshire_018",
+      "type": "info",
+      "description": "Equip the Dirk",
+      "classes": ["Rogue"],
+      "races": null,
+      "coords": null,
+      "tips": [],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "northshire_019",
+      "type": "quest_turnin",
+      "description": "Talk to Marshal McBride, turn in Kobold Camp Cleanup and accept Investigate Echo Ridge and your class letter quest",
+      "classes": null,
+      "races": null,
+      "coords": [48.92, 41.61],
+      "zone": "northshire",
+      "tips": [],
+      "quests": [
+        {
+          "id": 7,
+          "name": "Kobold Camp Cleanup"
+        },
+        {
+          "id": 15,
+          "name": "Investigate Echo Ridge"
+        }
+      ],
+      "npc": "Marshal McBride",
+      "mobs": []
+    },
+    {
+      "id": "northshire_020",
+      "type": "grind",
+      "description": "Grind to level 3",
+      "classes": null,
+      "races": null,
+      "coords": null,
+      "tips": [],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "northshire_021",
+      "type": "kill",
+      "description": "Kill Kobold Workers",
+      "classes": null,
+      "races": null,
+      "coords": [47.2, 35.1],
+      "zone": "northshire",
+      "tips": [],
+      "quests": [
+        {
+          "id": 15,
+          "name": "Investigate Echo Ridge"
+        }
+      ],
+      "npc": null,
+      "mobs": ["Kobold Worker"]
+    },
+    {
+      "id": "northshire_022",
+      "type": "grind",
+      "description": "Grind to 1110+ experience on your way back to Northshire Abbey",
+      "classes": null,
+      "races": null,
+      "coords": null,
+      "tips": [],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "northshire_023",
+      "type": "quest_turnin",
+      "description": "Talk to Marshal McBride, turn in Investigate Echo Ridge and accept Skirmish at Echo Ridge",
+      "classes": null,
+      "races": null,
+      "coords": [48.92, 41.61],
+      "zone": "northshire",
+      "tips": [],
+      "quests": [
+        {
+          "id": 15,
+          "name": "Investigate Echo Ridge"
+        },
+        {
+          "id": 21,
+          "name": "Skirmish at Echo Ridge"
+        }
+      ],
+      "npc": "Marshal McBride",
+      "mobs": []
+    },
+    {
+      "id": "northshire_024",
+      "type": "quest_turnin",
+      "description": "Talk to Khelden Bremen and turn in Glyphic Letter, then train your class spells",
+      "classes": ["Mage"],
+      "races": null,
+      "coords": [49.66, 39.4],
+      "zone": "northshire",
+      "tips": [],
+      "quests": [
+        {
+          "id": 3104,
+          "name": "Glyphic Letter"
+        }
+      ],
+      "npc": "Khelden Bremen",
+      "mobs": []
+    },
+    {
+      "id": "northshire_025",
+      "type": "quest_turnin",
+      "description": "Talk to Priestess Anetta and turn in Hallowed Letter, then train your class spells",
+      "classes": ["Priest"],
+      "races": null,
+      "coords": [49.81, 39.49],
+      "zone": "northshire",
+      "tips": [],
+      "quests": [
+        {
+          "id": 3103,
+          "name": "Hallowed Letter"
+        }
+      ],
+      "npc": "Priestess Anetta",
+      "mobs": []
+    },
+    {
+      "id": "northshire_026",
+      "type": "quest_turnin",
+      "description": "Talk to Llane Beshere and turn in Simple Letter, then train your class spells",
+      "classes": ["Warrior"],
+      "races": null,
+      "coords": [50.24, 42.29],
+      "zone": "northshire",
+      "tips": [],
+      "quests": [
+        {
+          "id": 3100,
+          "name": "Simple Letter"
+        }
+      ],
+      "npc": "Llane Beshere",
+      "mobs": []
+    },
+    {
+      "id": "northshire_027",
+      "type": "quest_turnin",
+      "description": "Talk to Brother Sammuel and turn in Consecrated Letter, then train your class spells",
+      "classes": ["Paladin"],
+      "races": null,
+      "coords": [50.43, 42.12],
+      "zone": "northshire",
+      "tips": [],
+      "quests": [
+        {
+          "id": 3101,
+          "name": "Consecrated Letter"
+        }
+      ],
+      "npc": "Brother Sammuel",
+      "mobs": []
+    },
+    {
+      "id": "northshire_028",
+      "type": "quest_accept",
+      "description": "Talk to Deputy Willem and accept Brotherhood of Thieves",
+      "classes": null,
+      "races": null,
+      "coords": [48.17, 42.94],
+      "zone": "northshire",
+      "tips": [],
+      "quests": [
+        {
+          "id": 18,
+          "name": "Brotherhood of Thieves"
+        }
+      ],
+      "npc": "Deputy Willem",
+      "mobs": []
+    },
+    {
+      "id": "northshire_029",
+      "type": "quest_turnin",
+      "description": "Talk to Drusilla La Salle, turn in Tainted Letter, grind to level 4, and train Corruption",
+      "classes": ["Warlock"],
+      "races": null,
+      "coords": [49.87, 42.65],
+      "zone": "northshire",
+      "tips": [],
+      "quests": [
+        {
+          "id": 3105,
+          "name": "Tainted Letter"
+        }
+      ],
+      "npc": "Drusilla La Salle",
+      "mobs": []
+    },
+    {
+      "id": "northshire_030",
+      "type": "kill",
+      "description": "Kill Defias Thugs and loot them for Red Burlap Bandanas",
+      "classes": null,
+      "races": null,
+      "coords": [54.57, 49.03],
+      "zone": "northshire",
+      "tips": [],
+      "quests": [
+        {
+          "id": 18,
+          "name": "Brotherhood of Thieves"
+        }
+      ],
+      "npc": null,
+      "mobs": ["Defias Thug"]
+    },
+    {
+      "id": "northshire_031",
+      "type": "grind",
+      "description": "Grind to level 4",
+      "classes": ["Rogue"],
+      "races": null,
+      "coords": null,
+      "tips": [],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "northshire_032",
+      "type": "quest_turnin",
+      "description": "Talk to Deputy Willem, turn in Brotherhood of Thieves and accept Bounty on Garrick Padfoot and Milly Osworth",
+      "classes": null,
+      "races": null,
+      "coords": [48.17, 42.94],
+      "zone": "northshire",
+      "tips": [],
+      "quests": [
+        {
+          "id": 18,
+          "name": "Brotherhood of Thieves"
+        },
+        {
+          "id": 6,
+          "name": "Bounty on Garrick Padfoot"
+        },
+        {
+          "id": 3903,
+          "name": "Milly Osworth"
+        }
+      ],
+      "npc": "Deputy Willem",
+      "mobs": []
+    },
+    {
+      "id": "northshire_033",
+      "type": "info",
+      "description": "Equip the Militia Warhammer",
+      "classes": ["Paladin"],
+      "races": null,
+      "coords": null,
+      "tips": [],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "northshire_034",
+      "type": "travel",
+      "description": "Enter the Echo Ridge Mine",
+      "classes": null,
+      "races": null,
+      "coords": [47.63, 32.07],
+      "tips": [],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "northshire_035",
+      "type": "kill",
+      "description": "Kill Kobold Laborers inside the mine",
+      "classes": null,
+      "races": null,
+      "coords": [48.61, 27.63],
+      "zone": "northshire",
+      "tips": [],
+      "quests": [
+        {
+          "id": 21,
+          "name": "Skirmish at Echo Ridge"
+        }
+      ],
+      "npc": null,
+      "mobs": ["Kobold Laborer"]
+    },
+    {
+      "id": "northshire_036",
+      "type": "grind",
+      "description": "Grind to level 5",
+      "classes": null,
+      "races": null,
+      "coords": null,
+      "tips": [],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "northshire_037",
+      "type": "quest_turnin",
+      "description": "Talk to Milly Osworth and turn in Milly Osworth",
+      "classes": null,
+      "races": null,
+      "coords": [50.69, 39.35],
+      "zone": "northshire",
+      "tips": [
+        {
+          "type": "warning",
+          "class": null,
+          "text": "Skip the followup quest unless you are a Priest or Mage"
+        }
+      ],
+      "quests": [
+        {
+          "id": 3903,
+          "name": "Milly Osworth"
+        }
+      ],
+      "npc": "Milly Osworth",
+      "mobs": []
+    },
+    {
+      "id": "northshire_038",
+      "type": "quest_accept",
+      "description": "Talk to Milly Osworth and accept Milly's Harvest",
+      "classes": ["Priest", "Mage"],
+      "races": null,
+      "coords": [50.69, 39.35],
+      "tips": [],
+      "quests": [
+        {
+          "id": 3904,
+          "name": "Milly's Harvest"
+        }
+      ],
+      "npc": "Milly Osworth",
+      "mobs": []
+    },
+    {
+      "id": "northshire_039",
+      "type": "quest_turnin",
+      "description": "Talk to Jorik Kerridan and turn in Encrypted Letter",
+      "classes": ["Rogue"],
+      "races": null,
+      "coords": [50.31, 39.92],
+      "zone": "northshire",
+      "tips": [
+        {
+          "type": "tip",
+          "class": null,
+          "text": "You don't need to train any spells"
+        }
+      ],
+      "quests": [
+        {
+          "id": 3102,
+          "name": "Encrypted Letter"
+        }
+      ],
+      "npc": "Jorik Kerridan",
+      "mobs": []
+    },
+    {
+      "id": "northshire_040",
+      "type": "loot",
+      "description": "Loot Milly's Harvest on the ground",
+      "classes": ["Priest", "Mage"],
+      "races": null,
+      "coords": [54.5, 49.4],
+      "zone": "northshire",
+      "tips": [],
+      "quests": [
+        {
+          "id": 3904,
+          "name": "Milly's Harvest"
+        }
+      ],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "northshire_041",
+      "type": "kill",
+      "description": "Kill Garrick Padfoot and loot his Head",
+      "classes": null,
+      "races": null,
+      "coords": [57.5, 48.2],
+      "zone": "northshire",
+      "tips": [],
+      "quests": [
+        {
+          "id": 6,
+          "name": "Bounty on Garrick Padfoot"
+        }
+      ],
+      "npc": null,
+      "mobs": ["Garrick Padfoot"]
+    },
+    {
+      "id": "northshire_042",
+      "type": "grind",
+      "description": "Grind to 1715+ experience on your way back",
+      "classes": null,
+      "races": null,
+      "coords": null,
+      "tips": [],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "northshire_043",
+      "type": "quest_turnin",
+      "description": "Talk to Milly Osworth, turn in Milly's Harvest and accept Grape Manifest",
+      "classes": ["Priest", "Mage"],
+      "races": null,
+      "coords": [50.69, 39.35],
+      "zone": "northshire",
+      "tips": [],
+      "quests": [
+        {
+          "id": 3904,
+          "name": "Milly's Harvest"
+        },
+        {
+          "id": 3905,
+          "name": "Grape Manifest"
+        }
+      ],
+      "npc": "Milly Osworth",
+      "mobs": []
+    },
+    {
+      "id": "northshire_044",
+      "type": "quest_turnin",
+      "description": "Talk to Deputy Willem and turn in Bounty on Garrick Padfoot",
+      "classes": null,
+      "races": null,
+      "coords": [48.17, 42.94],
+      "zone": "northshire",
+      "tips": [],
+      "quests": [
+        {
+          "id": 6,
+          "name": "Bounty on Garrick Padfoot"
+        }
+      ],
+      "npc": "Deputy Willem",
+      "mobs": []
+    },
+    {
+      "id": "northshire_045",
+      "type": "quest_turnin",
+      "description": "Talk to Marshal McBride inside the Abbey, turn in Skirmish at Echo Ridge and accept Report to Goldshire",
+      "classes": null,
+      "races": null,
+      "coords": [48.92, 41.61],
+      "zone": "northshire",
+      "tips": [],
+      "quests": [
+        {
+          "id": 21,
+          "name": "Skirmish at Echo Ridge"
+        },
+        {
+          "id": 54,
+          "name": "Report to Goldshire"
+        }
+      ],
+      "npc": "Marshal McBride",
+      "mobs": []
+    },
+    {
+      "id": "northshire_046",
+      "type": "quest_turnin",
+      "description": "Talk to Brother Neals upstairs and turn in Grape Manifest",
+      "classes": ["Priest", "Mage"],
+      "races": null,
+      "coords": [49.47, 41.59],
+      "tips": [],
+      "quests": [
+        {
+          "id": 3905,
+          "name": "Grape Manifest"
+        }
+      ],
+      "npc": "Brother Neals",
+      "mobs": []
+    },
+    {
+      "id": "northshire_047",
+      "type": "quest_accept",
+      "description": "Talk to Priestess Anetta and accept In Favor of the Light",
+      "classes": ["Priest"],
+      "races": null,
+      "coords": [49.81, 39.49],
+      "zone": "northshire",
+      "tips": [],
+      "quests": [
+        {
+          "id": 5623,
+          "name": "In Favor of the Light"
+        }
+      ],
+      "npc": "Priestess Anetta",
+      "mobs": []
+    },
+    {
+      "id": "northshire_048",
+      "type": "quest_accept",
+      "description": "Talk to Falkhaan Isenstrider and accept Rest and Relaxation",
+      "classes": null,
+      "races": null,
+      "coords": [45.56, 47.74],
+      "zone": "northshire",
+      "tips": [],
+      "quests": [
+        {
+          "id": 2158,
+          "name": "Rest and Relaxation"
+        }
+      ],
+      "npc": "Falkhaan Isenstrider",
+      "mobs": []
+    }
+  ]
+}

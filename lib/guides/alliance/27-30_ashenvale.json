@@ -1,0 +1,2549 @@
+{
+  "zone": "Ashenvale",
+  "levelRange": "27-30",
+  "faction": "Alliance",
+  "name": "27-30_ashenvale",
+  "next": "30-30_wetlands_hillsbrad",
+  "steps": [
+    {
+      "id": "ashenvale_001",
+      "type": "travel",
+      "description": "Travel to the Menethil Harbor Dock",
+      "classes": null,
+      "races": null,
+      "coords": [5.429, 57.485],
+      "zone": "wetlands",
+      "tips": [],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "ashenvale_002",
+      "type": "travel",
+      "description": "Take the boat to Darkshore.",
+      "classes": null,
+      "races": null,
+      "coords": [4.56, 57.16],
+      "zone": "wetlands",
+      "tips": [
+        {
+          "type": "warning",
+          "class": null,
+          "text": "Level your First Aid while waiting"
+        }
+      ],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "ashenvale_003",
+      "type": "quest_accept",
+      "description": "Talk to Gershala Nightwhisper and accept Researching the Corruption",
+      "classes": null,
+      "races": null,
+      "coords": [38.327, 43.039],
+      "zone": "darkshore",
+      "tips": [],
+      "quests": [
+        {
+          "id": 1275,
+          "name": "Researching the Corruption"
+        }
+      ],
+      "npc": "Gershala Nightwhisper",
+      "mobs": []
+    },
+    {
+      "id": "ashenvale_004",
+      "type": "fly",
+      "description": "Talk to Caylais Moonfeather and fly to Teldrassil",
+      "classes": null,
+      "races": null,
+      "coords": [36.336, 45.574],
+      "zone": "darkshore",
+      "tips": [],
+      "quests": [],
+      "npc": "Caylais Moonfeather",
+      "mobs": []
+    },
+    {
+      "id": "ashenvale_005",
+      "type": "travel",
+      "description": "Take the purple portal into Darnassus",
+      "classes": null,
+      "races": null,
+      "coords": [55.889, 89.456],
+      "zone": "teldrassil",
+      "tips": [],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "ashenvale_006",
+      "type": "quest_accept",
+      "description": "Talk to Argent Guard Manados and Dawnwatcher Shaedlass upstairs. Accept Twilight Falls and In Search of Thaelrid",
+      "classes": null,
+      "races": null,
+      "coords": [55.36, 25.024],
+      "zone": "darnassus",
+      "tips": [],
+      "quests": [
+        {
+          "id": 1199,
+          "name": "Twilight Falls"
+        },
+        {
+          "id": 1198,
+          "name": "In Search of Thaelrid"
+        }
+      ],
+      "npc": "Dawnwatcher Shaedlass",
+      "mobs": []
+    },
+    {
+      "id": "ashenvale_007",
+      "type": "travel",
+      "description": "Take the purple portal back to Rut'theran Village",
+      "classes": null,
+      "races": null,
+      "coords": [29.466, 41.405],
+      "zone": "darnassus",
+      "tips": [],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "ashenvale_008",
+      "type": "fly",
+      "description": "Talk to Vesprystus and fly to Ashenvale",
+      "classes": null,
+      "races": null,
+      "coords": [58.399, 94.016],
+      "zone": "teldrassil",
+      "tips": [],
+      "quests": [],
+      "npc": "Vesprystus",
+      "mobs": []
+    },
+    {
+      "id": "ashenvale_009",
+      "type": "grind",
+      "description": "Grind Furbolgs north of Astranaar for Wool Cloth while you assemble a group",
+      "classes": null,
+      "races": null,
+      "coords": [14.23, 14.618],
+      "zone": "ashenvale",
+      "tips": [],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "ashenvale_010",
+      "type": "travel",
+      "description": "Travel to Blackfathom Deeps",
+      "classes": null,
+      "races": null,
+      "coords": [44.34, 34.84],
+      "zone": "ashenvale",
+      "tips": [],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "ashenvale_011",
+      "type": "kill",
+      "description": "Kill Fallenroot Rogues, Fallenroot Satyrs, Blackfathom Oracles and Blackfathom Tide Priestesses. Loot them for their Corrupted Brain Stems.",
+      "classes": null,
+      "races": null,
+      "coords": null,
+      "zone": "",
+      "tips": [
+        {
+          "type": "warning",
+          "class": null,
+          "text": "You may also loot Corrupted Brain Stems once inside the Instance"
+        }
+      ],
+      "quests": [
+        {
+          "id": 1275,
+          "name": "Researching the Corruption"
+        }
+      ],
+      "npc": null,
+      "mobs": [
+        "Blackfathom Tide Priestess",
+        "Blackfathom Oracle",
+        "Fallenroot Rogue",
+        "Fallenroot Satyr"
+      ]
+    },
+    {
+      "id": "ashenvale_012",
+      "type": "loot",
+      "description": "Open the Pitted Iron Chest underwater near the area with the turtles. Loot it for Lorgalis' Manuscript",
+      "classes": null,
+      "races": null,
+      "coords": null,
+      "zone": "",
+      "tips": [],
+      "quests": [
+        {
+          "id": 971,
+          "name": "Knowledge in the Deeps"
+        }
+      ],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "ashenvale_013",
+      "type": "quest_turnin",
+      "description": "Talk to Argent Guard Thaelrid. Turn in In Search of Thaelrid and accept Blackfathom Villainy",
+      "classes": null,
+      "races": null,
+      "coords": null,
+      "zone": "",
+      "tips": [],
+      "quests": [
+        {
+          "id": 1198,
+          "name": "In Search of Thaelrid"
+        },
+        {
+          "id": 1200,
+          "name": "Blackfathom Villainy"
+        }
+      ],
+      "npc": "Argent Guard Thaelrid",
+      "mobs": []
+    },
+    {
+      "id": "ashenvale_014",
+      "type": "kill",
+      "description": "Kill all of the Twilight's Hammer. Loot them for their Twilight Pendants",
+      "classes": null,
+      "races": null,
+      "coords": null,
+      "zone": "",
+      "tips": [],
+      "quests": [
+        {
+          "id": 1199,
+          "name": "Twilight Falls"
+        }
+      ],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "ashenvale_015",
+      "type": "kill",
+      "description": "Kill Twilight Lord Kelris. Loot him for his Head",
+      "classes": null,
+      "races": null,
+      "coords": null,
+      "zone": "",
+      "tips": [],
+      "quests": [
+        {
+          "id": 1200,
+          "name": "Blackfathom Villainy"
+        }
+      ],
+      "npc": null,
+      "mobs": ["Twilight Lord Kelris"]
+    },
+    {
+      "id": "ashenvale_016",
+      "type": "kill",
+      "description": "Kill Nagas and Satyrs. Loot them for their Corrupted Brain Stems. If you haven't completed this quest yet, click on the altar at the end of the dungeon to teleport you to the entrance. The mobs outside of the instance can also drop it",
+      "classes": null,
+      "races": null,
+      "coords": null,
+      "zone": "",
+      "tips": [],
+      "quests": [
+        {
+          "id": 1275,
+          "name": "Researching the Corruption"
+        }
+      ],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "ashenvale_017",
+      "type": "fly",
+      "description": "Talk to Daelyshia and fly to Teldrassil",
+      "classes": null,
+      "races": null,
+      "coords": [34.41, 47.98],
+      "zone": "ashenvale",
+      "tips": [],
+      "quests": [],
+      "npc": "Daelyshia",
+      "mobs": []
+    },
+    {
+      "id": "ashenvale_018",
+      "type": "quest_turnin",
+      "description": "Talk to Argent Guard Manados up stairs and turn in Twilight Falls",
+      "classes": null,
+      "races": null,
+      "coords": [55.239, 23.996],
+      "zone": "darnassus",
+      "tips": [],
+      "quests": [
+        {
+          "id": 1199,
+          "name": "Twilight Falls"
+        }
+      ],
+      "npc": "Argent Guard Manados",
+      "mobs": []
+    },
+    {
+      "id": "ashenvale_019",
+      "type": "quest_turnin",
+      "description": "Talk to Dawnwatcher Selgorm up stairs and turn in Blackfathom Villainy",
+      "classes": null,
+      "races": null,
+      "coords": [56.167, 24.395],
+      "zone": "darnassus",
+      "tips": [],
+      "quests": [
+        {
+          "id": 1200,
+          "name": "Blackfathom Villainy"
+        }
+      ],
+      "npc": "Dawnwatcher Selgorm",
+      "mobs": []
+    },
+    {
+      "id": "ashenvale_020",
+      "type": "travel",
+      "description": "Take the purple portal back to Rut'theran",
+      "classes": null,
+      "races": null,
+      "coords": [29.466, 41.405],
+      "zone": "darnassus",
+      "tips": [],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "ashenvale_021",
+      "type": "fly",
+      "description": "Talk to Vesprystus or Daelyshia and fly to Darkshore",
+      "classes": null,
+      "races": null,
+      "coords": [58.399, 94.016],
+      "zone": "teldrassil",
+      "tips": [],
+      "quests": [],
+      "npc": "Vesprystus",
+      "mobs": []
+    },
+    {
+      "id": "ashenvale_022",
+      "type": "quest_turnin",
+      "description": "Talk to Gershala Nightwhisper and turn in Researching the Corruption",
+      "classes": null,
+      "races": null,
+      "coords": [38.327, 43.039],
+      "zone": "darkshore",
+      "tips": [],
+      "quests": [
+        {
+          "id": 1275,
+          "name": "Researching the Corruption"
+        }
+      ],
+      "npc": "Gershala Nightwhisper",
+      "mobs": []
+    },
+    {
+      "id": "ashenvale_023",
+      "type": "fly",
+      "description": "Talk to Caylais Moonfeather or Daelyshia and fly to Stonetalon",
+      "classes": null,
+      "races": null,
+      "coords": [36.336, 45.574],
+      "zone": "darkshore",
+      "tips": [],
+      "quests": [],
+      "npc": "Caylais Moonfeather",
+      "mobs": []
+    },
+    {
+      "id": "ashenvale_024",
+      "type": "quest_accept",
+      "description": "Talk to Keeper Albagorm and accept Reclaiming the Charred Vale",
+      "classes": null,
+      "races": null,
+      "coords": [37.103, 8.1],
+      "zone": "stonetalon_mountains",
+      "tips": [],
+      "quests": [
+        {
+          "id": 1057,
+          "name": "Reclaiming the Charred Vale"
+        }
+      ],
+      "npc": "Keeper Albagorm",
+      "mobs": []
+    },
+    {
+      "id": "ashenvale_025",
+      "type": "travel",
+      "description": "Travel towards Gaxim Rustfizzle",
+      "classes": null,
+      "races": null,
+      "coords": [59.52, 67.15],
+      "zone": "stonetalon_mountains",
+      "tips": [],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "ashenvale_026",
+      "type": "quest_turnin",
+      "description": "Talk to Gaxim Rustfizzle. Turn in Ineptitude + Chemicals = Fun and Special Delivery for Gaxim. Accept Covert Ops - Alpha and Covert Ops - Beta",
+      "classes": null,
+      "races": null,
+      "coords": [59.52, 67.15],
+      "zone": "stonetalon_mountains",
+      "tips": [],
+      "quests": [
+        {
+          "id": 1074,
+          "name": "Ineptitude + Chemicals = Fun"
+        },
+        {
+          "id": 1077,
+          "name": "Special Delivery for Gaxim"
+        },
+        {
+          "id": 1079,
+          "name": "Covert Ops - Alpha"
+        },
+        {
+          "id": 1080,
+          "name": "Covert Ops - Beta"
+        }
+      ],
+      "npc": "Gaxim Rustfizzle",
+      "mobs": []
+    },
+    {
+      "id": "ashenvale_027",
+      "type": "travel",
+      "description": "Travel to Windshear Crag",
+      "classes": null,
+      "races": null,
+      "coords": [66.09, 51.34],
+      "zone": "stonetalon_mountains",
+      "tips": [],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "ashenvale_028",
+      "type": "loot",
+      "description": "Loot the Venture Co. Engineering Plans on the box",
+      "classes": null,
+      "races": null,
+      "coords": [66.09, 51.34],
+      "zone": "stonetalon_mountains",
+      "tips": [],
+      "quests": [
+        {
+          "id": 1079,
+          "name": "Covert Ops - Alpha"
+        }
+      ],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "ashenvale_029",
+      "type": "travel",
+      "description": "Travel to the Windshear Crag Mine",
+      "classes": null,
+      "races": null,
+      "coords": [74.46, 59.3],
+      "zone": "stonetalon_mountains",
+      "tips": [],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "ashenvale_030",
+      "type": "loot",
+      "description": "Open the Venture Co. Documents. Loot it for the Venture Co. Letters.",
+      "classes": null,
+      "races": null,
+      "coords": [74.46, 59.3],
+      "zone": "stonetalon_mountains",
+      "tips": [
+        {
+          "type": "warning",
+          "class": null,
+          "text": "Do NOT enter the Mine. The Venture Co. Letters are outside the Mine on a box"
+        }
+      ],
+      "quests": [
+        {
+          "id": 1080,
+          "name": "Covert Ops - Beta"
+        }
+      ],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "ashenvale_031",
+      "type": "quest_turnin",
+      "description": "Talk to Gaxim Rustfizzle. Turn in Covert Ops - Alpha and Covert Ops - Beta. Accept Kaela's Update",
+      "classes": null,
+      "races": null,
+      "coords": [59.52, 67.15],
+      "zone": "stonetalon_mountains",
+      "tips": [],
+      "quests": [
+        {
+          "id": 1079,
+          "name": "Covert Ops - Alpha"
+        },
+        {
+          "id": 1080,
+          "name": "Covert Ops - Beta"
+        },
+        {
+          "id": 1091,
+          "name": "Kaela's Update"
+        }
+      ],
+      "npc": "Gaxim Rustfizzle",
+      "mobs": []
+    },
+    {
+      "id": "ashenvale_032",
+      "type": "quest_turnin",
+      "description": "Talk to Kaela Shadowspear. Turn in Kaela's Update. Accept Enraged Spirits and Wounded Ancients",
+      "classes": null,
+      "races": null,
+      "coords": [59.9, 66.85],
+      "zone": "stonetalon_mountains",
+      "tips": [],
+      "quests": [
+        {
+          "id": 1091,
+          "name": "Kaela's Update"
+        },
+        {
+          "id": 1083,
+          "name": "Enraged Spirits"
+        },
+        {
+          "id": 1084,
+          "name": "Wounded Ancients"
+        }
+      ],
+      "npc": "Kaela Shadowspear",
+      "mobs": []
+    },
+    {
+      "id": "ashenvale_033",
+      "type": "travel",
+      "description": "Travel to The Charred Vale. Follow the Arrow for a shortcut",
+      "classes": null,
+      "races": null,
+      "coords": [35.0, 56.68],
+      "zone": "stonetalon_mountains",
+      "tips": [],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "ashenvale_034",
+      "type": "kill",
+      "description": "Kill Burning Ravagers, Burning Destroyers and Rogue Flame Spirits. Loot them for their Embers. Kill Charred Ancients and Blackened Ancients. Loot them for their Shrapnel",
+      "classes": null,
+      "races": null,
+      "coords": [34.55, 60.71],
+      "zone": "stonetalon_mountains",
+      "tips": [],
+      "quests": [
+        {
+          "id": 1083,
+          "name": "Enraged Spirits"
+        },
+        {
+          "id": 1084,
+          "name": "Wounded Ancients"
+        }
+      ],
+      "npc": null,
+      "mobs": [
+        "Burning Ravager",
+        "Burning Destroyer",
+        "Rogue Flame Spirit",
+        "Charred Ancient",
+        "Blackened Ancient"
+      ]
+    },
+    {
+      "id": "ashenvale_035",
+      "type": "kill",
+      "description": "Kill Bloodfury Harpies, Bloodfury Ambushers, Bloodfury Slayers and Bloodfury Roguefeathers",
+      "classes": null,
+      "races": null,
+      "coords": [34.55, 60.71],
+      "zone": "stonetalon_mountains",
+      "tips": [],
+      "quests": [
+        {
+          "id": 1057,
+          "name": "Reclaiming the Charred Vale"
+        }
+      ],
+      "npc": null,
+      "mobs": [
+        "Bloodfury Harpy",
+        "Bloodfury Ambusher",
+        "Bloodfury Slayer",
+        "Bloodfury Roguefeather"
+      ]
+    },
+    {
+      "id": "ashenvale_036",
+      "type": "kill",
+      "description": "Kill Blackened Basilisks, Scorched Basilisk and Singed Basilisks. Loot them for their Scales",
+      "classes": null,
+      "races": null,
+      "coords": [34.55, 60.71],
+      "zone": "stonetalon_mountains",
+      "tips": [],
+      "quests": [
+        {
+          "id": 1078,
+          "name": "Retrieval for Mauren"
+        }
+      ],
+      "npc": null,
+      "mobs": ["Blackened Basilisk", "Scorched Basilisk", "Singed Basilisk"]
+    },
+    {
+      "id": "ashenvale_037",
+      "type": "quest_turnin",
+      "description": "Talk to Kaela Shadowspear. Turn in Enraged Spirits and Wounded Ancients. Accept Update for Sentinel Thenysil",
+      "classes": null,
+      "races": null,
+      "coords": [59.9, 66.85],
+      "zone": "stonetalon_mountains",
+      "tips": [],
+      "quests": [
+        {
+          "id": 1083,
+          "name": "Enraged Spirits"
+        },
+        {
+          "id": 1084,
+          "name": "Wounded Ancients"
+        },
+        {
+          "id": 1082,
+          "name": "Update for Sentinel Thenysil"
+        }
+      ],
+      "npc": "Kaela Shadowspear",
+      "mobs": []
+    },
+    {
+      "id": "ashenvale_038",
+      "type": "travel",
+      "description": "Travel to The Charred Vale, then onward to Desolace. Follow the Arrow for a shortcut",
+      "classes": null,
+      "races": null,
+      "coords": [35.0, 56.68],
+      "zone": "stonetalon_mountains",
+      "tips": [],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "ashenvale_039",
+      "type": "travel",
+      "description": "Travel to Desolace",
+      "classes": null,
+      "races": null,
+      "coords": [53.958, 3.436],
+      "zone": "desolace",
+      "tips": [],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "ashenvale_040",
+      "type": "fly",
+      "description": "Talk to Baritanas Skyriver. Get the Desolace Flight Path and fly to Stonetalon",
+      "classes": null,
+      "races": null,
+      "coords": [64.66, 10.53],
+      "zone": "desolace",
+      "tips": [],
+      "quests": [],
+      "npc": "Baritanas Skyriver",
+      "mobs": []
+    },
+    {
+      "id": "ashenvale_041",
+      "type": "quest_turnin",
+      "description": "Talk to Keeper Albagorm. Turn in Reclaiming the Charred Vale and accept Reclaiming the Charred Vale",
+      "classes": null,
+      "races": null,
+      "coords": [37.103, 8.1],
+      "zone": "stonetalon_mountains",
+      "tips": [],
+      "quests": [
+        {
+          "id": 1057,
+          "name": "Reclaiming the Charred Vale"
+        },
+        {
+          "id": 1059,
+          "name": "Reclaiming the Charred Vale"
+        }
+      ],
+      "npc": "Keeper Albagorm",
+      "mobs": []
+    },
+    {
+      "id": "ashenvale_042",
+      "type": "fly",
+      "description": "Talk to Teloren and fly to Ashenvale",
+      "classes": null,
+      "races": null,
+      "coords": [36.438, 7.181],
+      "zone": "stonetalon_mountains",
+      "tips": [],
+      "quests": [],
+      "npc": "Teloren",
+      "mobs": []
+    },
+    {
+      "id": "ashenvale_043",
+      "type": "info",
+      "description": "Abandon Special Delivery for Gaxim",
+      "classes": null,
+      "races": null,
+      "coords": null,
+      "zone": "",
+      "tips": [],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "ashenvale_044",
+      "type": "quest_accept",
+      "description": "Talk to Shindrell Swiftfire and accept Kayneth Stillwind",
+      "classes": null,
+      "races": null,
+      "coords": [34.67, 48.83],
+      "zone": "ashenvale",
+      "tips": [],
+      "quests": [
+        {
+          "id": 4581,
+          "name": "Kayneth Stillwind"
+        }
+      ],
+      "npc": "Shindrell Swiftfire",
+      "mobs": []
+    },
+    {
+      "id": "ashenvale_045",
+      "type": "quest_turnin",
+      "description": "Talk to Sentinel Thenysil. Turn in Update for Sentinel Thenysil and accept Reception from Tyrande",
+      "classes": null,
+      "races": null,
+      "coords": [34.89, 49.79],
+      "zone": "ashenvale",
+      "tips": [],
+      "quests": [
+        {
+          "id": 1082,
+          "name": "Update for Sentinel Thenysil"
+        },
+        {
+          "id": 1081,
+          "name": "Reception from Tyrande"
+        }
+      ],
+      "npc": "Sentinel Thenysil",
+      "mobs": []
+    },
+    {
+      "id": "ashenvale_046",
+      "type": "quest_accept",
+      "description": "Talk to Raene Wolfrunner and accept Culling the Threat",
+      "classes": null,
+      "races": null,
+      "coords": [36.61, 49.58],
+      "zone": "ashenvale",
+      "tips": [],
+      "quests": [
+        {
+          "id": 1054,
+          "name": "Culling the Threat"
+        }
+      ],
+      "npc": "Raene Wolfrunner",
+      "mobs": []
+    },
+    {
+      "id": "ashenvale_047",
+      "type": "travel",
+      "description": "Travel to Thistlefur Village. Follow the Arrow for a shortcut",
+      "classes": null,
+      "races": null,
+      "coords": [36.83, 37.56],
+      "zone": "ashenvale",
+      "tips": [],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "ashenvale_048",
+      "type": "kill",
+      "description": "Kill Dal Bloodclaw. Loot him for his Skull. Dal Bloodclaw patrols Thistlefur Village",
+      "classes": null,
+      "races": null,
+      "coords": [39.595, 36.309],
+      "zone": "ashenvale",
+      "tips": [
+        {
+          "type": "warning",
+          "class": null,
+          "text": "Dal Bloodclaw patrols Thistlefur Village"
+        }
+      ],
+      "quests": [
+        {
+          "id": 1054,
+          "name": "Culling the Threat"
+        }
+      ],
+      "npc": null,
+      "mobs": ["Dal Bloodclaw"]
+    },
+    {
+      "id": "ashenvale_049",
+      "type": "kill",
+      "description": "Kill Ilkrud Magthrull. Loot him for his Tome.",
+      "classes": null,
+      "races": null,
+      "coords": [25.27, 60.68],
+      "zone": "ashenvale",
+      "tips": [
+        {
+          "type": "warning",
+          "class": null,
+          "text": "Ilkrud Magthrull will cast Ilkrud's Guardians which is a 5 second long cast and will summon 2 Voidwalkers. Stop this cast if you're able to"
+        },
+        {
+          "type": "warning",
+          "class": null,
+          "text": "Clear an exit path if needed so you can reset them along with the Succubus if needed"
+        }
+      ],
+      "quests": [
+        {
+          "id": 973,
+          "name": "The Tower of Althalaxx"
+        }
+      ],
+      "npc": null,
+      "mobs": ["Ilkrud Magthrull"]
+    },
+    {
+      "id": "ashenvale_050",
+      "type": "quest_accept",
+      "description": "Talk to Sentinel Melyria Frostshadow and accept The Howling Vale",
+      "classes": null,
+      "races": null,
+      "coords": [22.23, 52.98],
+      "zone": "ashenvale",
+      "tips": [],
+      "quests": [
+        {
+          "id": 1022,
+          "name": "The Howling Vale"
+        }
+      ],
+      "npc": "Sentinel Melyria Frostshadow",
+      "mobs": []
+    },
+    {
+      "id": "ashenvale_051",
+      "type": "quest_accept",
+      "description": "Talk to Illiyana and accept Vile Satyr! Dryads in Danger!",
+      "classes": null,
+      "races": null,
+      "coords": [21.73, 53.34],
+      "zone": "ashenvale",
+      "tips": [],
+      "quests": [
+        {
+          "id": 1021,
+          "name": "Vile Satyr! Dryads in Danger!"
+        }
+      ],
+      "npc": "Illiyana",
+      "mobs": []
+    },
+    {
+      "id": "ashenvale_052",
+      "type": "quest_turnin",
+      "description": "Talk to Delgren the Purifier. Turn in The Tower of Althalaxx and accept The Tower of Althalaxx",
+      "classes": null,
+      "races": null,
+      "coords": [26.19, 38.69],
+      "zone": "ashenvale",
+      "tips": [],
+      "quests": [
+        {
+          "id": 973,
+          "name": "The Tower of Althalaxx"
+        },
+        {
+          "id": 1140,
+          "name": "The Tower of Althalaxx"
+        }
+      ],
+      "npc": "Delgren the Purifier",
+      "mobs": []
+    },
+    {
+      "id": "ashenvale_053",
+      "type": "quest_accept",
+      "description": "Talk to Talen and accept Ruuzel",
+      "classes": null,
+      "races": null,
+      "coords": [14.79, 31.29],
+      "zone": "ashenvale",
+      "tips": [],
+      "quests": [
+        {
+          "id": 1009,
+          "name": "Ruuzel"
+        }
+      ],
+      "npc": "Talen",
+      "mobs": []
+    },
+    {
+      "id": "ashenvale_054",
+      "type": "kill",
+      "description": "Kill Ruuzel. Loot her for the Ring of Zoram.",
+      "classes": null,
+      "races": null,
+      "coords": [6.528, 13.361],
+      "zone": "ashenvale",
+      "tips": [
+        {
+          "type": "warning",
+          "class": null,
+          "text": "Ruuzel patrols the island with a Wrathtail Myrmidon and Wrathtail Sea Witch. Kill one of them and then reset them if needed"
+        },
+        {
+          "type": "warning",
+          "class": null,
+          "text": "Lady Vespia is a rarespawn that can also drop the Ring of Zoram if you see her"
+        }
+      ],
+      "quests": [
+        {
+          "id": 1009,
+          "name": "Ruuzel"
+        }
+      ],
+      "npc": null,
+      "mobs": ["Ruuzel"]
+    },
+    {
+      "id": "ashenvale_055",
+      "type": "quest_turnin",
+      "description": "Talk to Talen and turn in Ruuzel",
+      "classes": null,
+      "races": null,
+      "coords": [14.79, 31.29],
+      "zone": "ashenvale",
+      "tips": [],
+      "quests": [
+        {
+          "id": 1009,
+          "name": "Ruuzel"
+        }
+      ],
+      "npc": "Talen",
+      "mobs": []
+    },
+    {
+      "id": "ashenvale_056",
+      "type": "quest_turnin",
+      "description": "Talk to Raene Wolfrunner. Turn in Culling the Threat. Accept Raene's Cleansing and An Aggressive Defense",
+      "classes": null,
+      "races": null,
+      "coords": [36.61, 49.58],
+      "zone": "ashenvale",
+      "tips": [],
+      "quests": [
+        {
+          "id": 1054,
+          "name": "Culling the Threat"
+        },
+        {
+          "id": 1024,
+          "name": "Raene's Cleansing"
+        },
+        {
+          "id": 1025,
+          "name": "An Aggressive Defense"
+        }
+      ],
+      "npc": "Raene Wolfrunner",
+      "mobs": []
+    },
+    {
+      "id": "ashenvale_057",
+      "type": "quest_accept",
+      "description": "Talk to Pelturas Whitemoon and accept Fallen Sky Lake",
+      "classes": null,
+      "races": null,
+      "coords": [37.36, 51.79],
+      "zone": "ashenvale",
+      "tips": [],
+      "quests": [
+        {
+          "id": 1035,
+          "name": "Fallen Sky Lake"
+        }
+      ],
+      "npc": "Pelturas Whitemoon",
+      "mobs": []
+    },
+    {
+      "id": "ashenvale_058",
+      "type": "quest_turnin",
+      "description": "Talk to Shael'dryn. Turn in Raene's Cleansing and accept Raene's Cleansing",
+      "classes": null,
+      "races": null,
+      "coords": [53.53, 46.21],
+      "zone": "ashenvale",
+      "tips": [],
+      "quests": [
+        {
+          "id": 1024,
+          "name": "Raene's Cleansing"
+        },
+        {
+          "id": 1026,
+          "name": "Raene's Cleansing"
+        }
+      ],
+      "npc": "Shael'dryn",
+      "mobs": []
+    },
+    {
+      "id": "ashenvale_059",
+      "type": "kill",
+      "description": "Kill Withered Ancients and Crazed Ancients. Loot them for a Wooden Key",
+      "classes": null,
+      "races": null,
+      "coords": [55.0, 32.8],
+      "zone": "ashenvale",
+      "tips": [],
+      "quests": [
+        {
+          "id": 1026,
+          "name": "Raene's Cleansing"
+        }
+      ],
+      "npc": null,
+      "mobs": ["Withered Ancient", "Crazed Ancient"]
+    },
+    {
+      "id": "ashenvale_060",
+      "type": "loot",
+      "description": "Open the Worn Chest. Loot it for the Iron Shaft",
+      "classes": null,
+      "races": null,
+      "coords": [54.416, 35.397],
+      "zone": "ashenvale",
+      "tips": [],
+      "quests": [
+        {
+          "id": 1026,
+          "name": "Raene's Cleansing"
+        }
+      ],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "ashenvale_061",
+      "type": "travel",
+      "description": "Run up here for a shortcut",
+      "classes": null,
+      "races": null,
+      "coords": [52.698, 37.759],
+      "zone": "ashenvale",
+      "tips": [],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "ashenvale_062",
+      "type": "loot",
+      "description": "Click the Tome of Mel'Thandris on the table",
+      "classes": null,
+      "races": null,
+      "coords": [50.49, 39.12],
+      "zone": "ashenvale",
+      "tips": [],
+      "quests": [
+        {
+          "id": 1022,
+          "name": "The Howling Vale"
+        }
+      ],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "ashenvale_063",
+      "type": "quest_turnin",
+      "description": "Talk to Anilia. Turn in Vile Satyr! Dryads in Danger! and accept The Branch of Cenarius",
+      "classes": null,
+      "races": null,
+      "coords": [78.32, 44.82],
+      "zone": "ashenvale",
+      "tips": [],
+      "quests": [
+        {
+          "id": 1021,
+          "name": "Vile Satyr! Dryads in Danger!"
+        },
+        {
+          "id": 1031,
+          "name": "The Branch of Cenarius"
+        }
+      ],
+      "npc": "Anilia",
+      "mobs": []
+    },
+    {
+      "id": "ashenvale_064",
+      "type": "kill",
+      "description": "Kill Geltharis. Loot him for his Branch.",
+      "classes": null,
+      "races": null,
+      "coords": [77.99, 42.41],
+      "zone": "ashenvale",
+      "tips": [
+        {
+          "type": "warning",
+          "class": null,
+          "text": "Geltharis is level 32. If you are not confident, skip this step. He isn't particularly dangerous. He doesn't cast any spells. Ensure you clear the area before attempting him"
+        }
+      ],
+      "quests": [
+        {
+          "id": 1031,
+          "name": "The Branch of Cenarius"
+        }
+      ],
+      "npc": null,
+      "mobs": ["Geltharis"]
+    },
+    {
+      "id": "ashenvale_065",
+      "type": "quest_turnin",
+      "description": "Talk to Kayneth Stillwind. Turn in Kayneth Stillwind and accept Forsaken Diseases",
+      "classes": null,
+      "races": null,
+      "coords": [85.276, 44.72],
+      "zone": "ashenvale",
+      "tips": [],
+      "quests": [
+        {
+          "id": 4581,
+          "name": "Kayneth Stillwind"
+        },
+        {
+          "id": 1011,
+          "name": "Forsaken Diseases"
+        }
+      ],
+      "npc": "Kayneth Stillwind",
+      "mobs": []
+    },
+    {
+      "id": "ashenvale_066",
+      "type": "fly",
+      "description": "Talk to Jarrodenus. Get the Azshara flight path and fly to Ashenvale",
+      "classes": null,
+      "races": null,
+      "coords": [11.9, 77.57],
+      "zone": "azshara",
+      "tips": [],
+      "quests": [],
+      "npc": "Jarrodenus",
+      "mobs": []
+    },
+    {
+      "id": "ashenvale_067",
+      "type": "quest_turnin",
+      "description": "Talk to Sentinel Melyria Frostshadow. Turn in The Howling Vale and accept Velinde Starsong",
+      "classes": null,
+      "races": null,
+      "coords": [22.23, 52.98],
+      "zone": "ashenvale",
+      "tips": [],
+      "quests": [
+        {
+          "id": 1022,
+          "name": "The Howling Vale"
+        },
+        {
+          "id": 1037,
+          "name": "Velinde Starsong"
+        }
+      ],
+      "npc": "Sentinel Melyria Frostshadow",
+      "mobs": []
+    },
+    {
+      "id": "ashenvale_068",
+      "type": "quest_turnin",
+      "description": "Talk to Illiyana. Turn in The Branch of Cenarius and accept Satyr Slaying!",
+      "classes": null,
+      "races": null,
+      "coords": [21.73, 53.34],
+      "zone": "ashenvale",
+      "tips": [],
+      "quests": [
+        {
+          "id": 1031,
+          "name": "The Branch of Cenarius"
+        },
+        {
+          "id": 1032,
+          "name": "Satyr Slaying!"
+        }
+      ],
+      "npc": "Illiyana",
+      "mobs": []
+    },
+    {
+      "id": "ashenvale_069",
+      "type": "info",
+      "description": "Abandon The Branch of Cenarius",
+      "classes": null,
+      "races": null,
+      "coords": null,
+      "zone": "",
+      "tips": [],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "ashenvale_070",
+      "type": "quest_turnin",
+      "description": "Talk to Shael'dryn. Turn in Raene's Cleansing and accept Raene's Cleansing",
+      "classes": null,
+      "races": null,
+      "coords": [53.53, 46.21],
+      "zone": "ashenvale",
+      "tips": [],
+      "quests": [
+        {
+          "id": 1026,
+          "name": "Raene's Cleansing"
+        },
+        {
+          "id": 1027,
+          "name": "Raene's Cleansing"
+        }
+      ],
+      "npc": "Shael'dryn",
+      "mobs": []
+    },
+    {
+      "id": "ashenvale_071",
+      "type": "quest_accept",
+      "description": "Talk to Sentinel Velene Starstrike and accept Elemental Bracers",
+      "classes": null,
+      "races": null,
+      "coords": [49.79, 67.21],
+      "zone": "ashenvale",
+      "tips": [],
+      "quests": [
+        {
+          "id": 1016,
+          "name": "Elemental Bracers"
+        }
+      ],
+      "npc": "Sentinel Velene Starstrike",
+      "mobs": []
+    },
+    {
+      "id": "ashenvale_072",
+      "type": "info",
+      "description": "Use your Elixir of Water Breathing",
+      "classes": null,
+      "races": null,
+      "coords": null,
+      "zone": "",
+      "tips": [
+        {
+          "type": "warning",
+          "class": null,
+          "text": "Use your Elixir of Water Breathing"
+        }
+      ],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "ashenvale_073",
+      "type": "kill",
+      "description": "Kill Befouled Water Elementals. Loot them for their Bracers.",
+      "classes": null,
+      "races": null,
+      "coords": [48.9, 70.05],
+      "zone": "ashenvale",
+      "tips": [
+        {
+          "type": "warning",
+          "class": null,
+          "text": "The Befouled Water Elementals cast Frost Nova. Pay attention to your breath timer if you dive underwater to kill them"
+        }
+      ],
+      "quests": [
+        {
+          "id": 1016,
+          "name": "Elemental Bracers"
+        }
+      ],
+      "npc": null,
+      "mobs": ["Befouled Water Elemental"]
+    },
+    {
+      "id": "ashenvale_074",
+      "type": "info",
+      "description": "Use the Divining Scroll to create the Divined Scroll",
+      "classes": null,
+      "races": null,
+      "coords": null,
+      "zone": "",
+      "tips": [
+        {
+          "type": "warning",
+          "class": null,
+          "text": "Use the Divining Scroll to create the Divined Scroll"
+        }
+      ],
+      "quests": [
+        {
+          "id": 1016,
+          "name": "Elemental Bracers"
+        }
+      ],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "ashenvale_075",
+      "type": "quest_turnin",
+      "description": "Talk to Sentinel Velene Starstrike. Turn in Elemental Bracers and accept Mage Summoner",
+      "classes": null,
+      "races": null,
+      "coords": [49.79, 67.21],
+      "zone": "ashenvale",
+      "tips": [],
+      "quests": [
+        {
+          "id": 1016,
+          "name": "Elemental Bracers"
+        },
+        {
+          "id": 1017,
+          "name": "Mage Summoner"
+        }
+      ],
+      "npc": "Sentinel Velene Starstrike",
+      "mobs": []
+    },
+    {
+      "id": "ashenvale_076",
+      "type": "kill",
+      "description": "Kill Foulweald Warriors, Foulweald Totemics, Foulweald Ursas and a Foulweald Den Watcher",
+      "classes": null,
+      "races": null,
+      "coords": [50.08, 59.94],
+      "zone": "ashenvale",
+      "tips": [],
+      "quests": [
+        {
+          "id": 1025,
+          "name": "An Aggressive Defense"
+        }
+      ],
+      "npc": null,
+      "mobs": [
+        "Foulweald Den Watcher",
+        "Foulweald Ursa",
+        "Foulweald Totemic",
+        "Foulweald Warrior"
+      ]
+    },
+    {
+      "id": "ashenvale_077",
+      "type": "kill",
+      "description": "Kill the Shadethicket Oracle. Loot it for the Fallen Moonstone",
+      "classes": null,
+      "races": null,
+      "coords": [66.649, 82.189],
+      "zone": "ashenvale",
+      "tips": [],
+      "quests": [
+        {
+          "id": 1035,
+          "name": "Fallen Sky Lake"
+        }
+      ],
+      "npc": null,
+      "mobs": ["Shadethicket Oracle"]
+    },
+    {
+      "id": "ashenvale_078",
+      "type": "kill",
+      "description": "Kill Rotting Slimes. Open the Rusty Chests. Loot it for the Iron Pommel",
+      "classes": null,
+      "races": null,
+      "coords": [73.6, 76.6],
+      "zone": "ashenvale",
+      "tips": [
+        {
+          "type": "warning",
+          "class": null,
+          "text": "After Rotting Slimes die a Rusty Chest will spawn on their corpse. The Rusty Chests don't have a 100% chance to drop"
+        }
+      ],
+      "quests": [
+        {
+          "id": 1027,
+          "name": "Raene's Cleansing"
+        }
+      ],
+      "npc": null,
+      "mobs": ["Rotting Slime"]
+    },
+    {
+      "id": "ashenvale_079",
+      "type": "loot",
+      "description": "Loot the Bottle of Disease on the table.",
+      "classes": null,
+      "races": null,
+      "coords": [75.29, 72.0],
+      "zone": "ashenvale",
+      "tips": [
+        {
+          "type": "warning",
+          "class": null,
+          "text": "Be cautious as the Forsaken defending it can be in Stealth"
+        }
+      ],
+      "quests": [
+        {
+          "id": 1011,
+          "name": "Forsaken Diseases"
+        }
+      ],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "ashenvale_080",
+      "type": "travel",
+      "description": "Travel to The Barrens. Follow the Arrow to avoid Barrens Guards",
+      "classes": null,
+      "races": null,
+      "coords": [48.98, 5.42],
+      "zone": "the_barrens",
+      "tips": [],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "ashenvale_081",
+      "type": "travel",
+      "description": "Ascend Dreadmist Peak. Follow the Arrow to the top",
+      "classes": null,
+      "races": null,
+      "coords": [47.96, 18.82],
+      "zone": "the_barrens",
+      "tips": [],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "ashenvale_082",
+      "type": "kill",
+      "description": "Kill Sarilus Foulborne. Loot him for his Head.",
+      "classes": null,
+      "races": null,
+      "coords": [48.22, 19.15],
+      "zone": "the_barrens",
+      "tips": [
+        {
+          "type": "warning",
+          "class": null,
+          "text": "The surrounding Burning Blade are only level 10-12"
+        }
+      ],
+      "quests": [
+        {
+          "id": 1017,
+          "name": "Mage Summoner"
+        }
+      ],
+      "npc": null,
+      "mobs": ["Sarilus Foulborne"]
+    },
+    {
+      "id": "ashenvale_083",
+      "type": "travel",
+      "description": "Travel to Ratchet. Follow the Arrow to avoid Barrens Guards",
+      "classes": null,
+      "races": null,
+      "coords": [63.08, 37.16],
+      "zone": "the_barrens",
+      "tips": [],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "ashenvale_084",
+      "type": "fly",
+      "description": "Talk to Bragok. Get the Ratchet flight path and fly to Azshara",
+      "classes": null,
+      "races": null,
+      "coords": [63.084, 37.163],
+      "zone": "the_barrens",
+      "tips": [],
+      "quests": [],
+      "npc": "Bragok",
+      "mobs": []
+    },
+    {
+      "id": "ashenvale_085",
+      "type": "quest_turnin",
+      "description": "Talk to Kayneth Stillwind and turn in Forsaken Diseases",
+      "classes": null,
+      "races": null,
+      "coords": [85.276, 44.72],
+      "zone": "ashenvale",
+      "tips": [],
+      "quests": [
+        {
+          "id": 1011,
+          "name": "Forsaken Diseases"
+        }
+      ],
+      "npc": "Kayneth Stillwind",
+      "mobs": []
+    },
+    {
+      "id": "ashenvale_086",
+      "type": "kill",
+      "description": "Kill Satyrs. Loot them for their Horns. Don't go out of your way to finish this yet",
+      "classes": null,
+      "races": null,
+      "coords": [81.59, 48.57],
+      "zone": "ashenvale",
+      "tips": [
+        {
+          "type": "warning",
+          "class": null,
+          "text": "Don't go out of your way to finish this yet"
+        }
+      ],
+      "quests": [
+        {
+          "id": 1032,
+          "name": "Satyr Slaying!"
+        }
+      ],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "ashenvale_087",
+      "type": "loot",
+      "description": "Click the Circle of Imprisonment in Satyrnaar",
+      "classes": null,
+      "races": null,
+      "coords": [81.59, 48.57],
+      "zone": "ashenvale",
+      "tips": [],
+      "quests": [
+        {
+          "id": 1140,
+          "name": "The Tower of Althalaxx"
+        }
+      ],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "ashenvale_088",
+      "type": "loot",
+      "description": "Click the Circle of Imprisonment in Night Run. Be cautious of Felmusk Shadowstalkers in Stealth",
+      "classes": null,
+      "races": null,
+      "coords": [66.622, 56.998],
+      "zone": "ashenvale",
+      "tips": [
+        {
+          "type": "warning",
+          "class": null,
+          "text": "Be cautious of Felmusk Shadowstalkers in Stealth"
+        }
+      ],
+      "quests": [
+        {
+          "id": 1140,
+          "name": "The Tower of Althalaxx"
+        }
+      ],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "ashenvale_089",
+      "type": "kill",
+      "description": "Kill Satyrs. Loot them for their Horns",
+      "classes": null,
+      "races": null,
+      "coords": [81.42, 49.87],
+      "zone": "ashenvale",
+      "tips": [],
+      "quests": [
+        {
+          "id": 1032,
+          "name": "Satyr Slaying!"
+        }
+      ],
+      "npc": null,
+      "mobs": [
+        "Felmusk Felsworn",
+        "Felmusk Rogue",
+        "Felmusk Satyr",
+        "Felmusk Shadowstalker"
+      ]
+    },
+    {
+      "id": "ashenvale_090",
+      "type": "quest_turnin",
+      "description": "Talk to Shael'dryn. Turn in Raene's Cleansing and accept Raene's Cleansing",
+      "classes": null,
+      "races": null,
+      "coords": [53.53, 46.21],
+      "zone": "ashenvale",
+      "tips": [],
+      "quests": [
+        {
+          "id": 1027,
+          "name": "Raene's Cleansing"
+        },
+        {
+          "id": 1028,
+          "name": "Raene's Cleansing"
+        }
+      ],
+      "npc": "Shael'dryn",
+      "mobs": []
+    },
+    {
+      "id": "ashenvale_091",
+      "type": "travel",
+      "description": "Travel toward the Hidden Shrine",
+      "classes": null,
+      "races": null,
+      "coords": [57.369, 50.953],
+      "zone": "ashenvale",
+      "tips": [],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "ashenvale_092",
+      "type": "quest_turnin",
+      "description": "Click the Hidden Shrine. Turn in Raene's Cleansing and accept Raene's Cleansing",
+      "classes": null,
+      "races": null,
+      "coords": [56.32, 49.188],
+      "zone": "ashenvale",
+      "tips": [],
+      "quests": [
+        {
+          "id": 1028,
+          "name": "Raene's Cleansing"
+        },
+        {
+          "id": 1055,
+          "name": "Raene's Cleansing"
+        }
+      ],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "ashenvale_093",
+      "type": "quest_turnin",
+      "description": "Talk to Shael'dryn. Turn in Raene's Cleansing and accept Raene's Cleansing",
+      "classes": null,
+      "races": null,
+      "coords": [53.53, 46.21],
+      "zone": "ashenvale",
+      "tips": [],
+      "quests": [
+        {
+          "id": 1055,
+          "name": "Raene's Cleansing"
+        },
+        {
+          "id": 1029,
+          "name": "Raene's Cleansing"
+        }
+      ],
+      "npc": "Shael'dryn",
+      "mobs": []
+    },
+    {
+      "id": "ashenvale_094",
+      "type": "quest_turnin",
+      "description": "Talk to Pelturas Whitemoon and turn in Fallen Sky Lake",
+      "classes": null,
+      "races": null,
+      "coords": [37.36, 51.79],
+      "zone": "ashenvale",
+      "tips": [],
+      "quests": [
+        {
+          "id": 1035,
+          "name": "Fallen Sky Lake"
+        }
+      ],
+      "npc": "Pelturas Whitemoon",
+      "mobs": []
+    },
+    {
+      "id": "ashenvale_095",
+      "type": "quest_turnin",
+      "description": "Talk to Raene Wolfrunner. Turn in An Aggressive Defense and Raene's Cleansing. Accept Raene's Cleansing",
+      "classes": null,
+      "races": null,
+      "coords": [36.61, 49.58],
+      "zone": "ashenvale",
+      "tips": [],
+      "quests": [
+        {
+          "id": 1025,
+          "name": "An Aggressive Defense"
+        },
+        {
+          "id": 1029,
+          "name": "Raene's Cleansing"
+        },
+        {
+          "id": 1030,
+          "name": "Raene's Cleansing"
+        }
+      ],
+      "npc": "Raene Wolfrunner",
+      "mobs": []
+    },
+    {
+      "id": "ashenvale_096",
+      "type": "quest_turnin",
+      "description": "Talk to Sentinel Velene Starstrike and turn in Mage Summoner.",
+      "classes": null,
+      "races": null,
+      "coords": [49.79, 67.21],
+      "zone": "ashenvale",
+      "tips": [
+        {
+          "type": "warning",
+          "class": null,
+          "text": "This quest will reward you with the Light of Elune"
+        },
+        {
+          "type": "warning",
+          "class": null,
+          "text": "Light of Elune - Grants immunity from all damage and spells for 10 sec."
+        },
+        {
+          "type": "warning",
+          "class": null,
+          "text": "This is a ONE time use only. Use it in an emergency"
+        }
+      ],
+      "quests": [
+        {
+          "id": 1017,
+          "name": "Mage Summoner"
+        }
+      ],
+      "npc": "Sentinel Velene Starstrike",
+      "mobs": []
+    },
+    {
+      "id": "ashenvale_097",
+      "type": "travel",
+      "description": "Travel toward Krolg",
+      "classes": null,
+      "races": null,
+      "coords": [51.443, 75.004],
+      "zone": "ashenvale",
+      "tips": [],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "ashenvale_098",
+      "type": "info",
+      "description": "Use Dartol's Rod of Transformation to turn into a Furbolg",
+      "classes": null,
+      "races": null,
+      "coords": null,
+      "zone": "",
+      "tips": [
+        {
+          "type": "warning",
+          "class": null,
+          "text": "Use Dartol's Rod of Transformation to turn into a Furbolg"
+        }
+      ],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "ashenvale_099",
+      "type": "quest_turnin",
+      "description": "Talk to Krolg. Turn in Raene's Cleansing and accept Raene's Cleansing",
+      "classes": null,
+      "races": null,
+      "coords": [50.85, 75.09],
+      "zone": "ashenvale",
+      "tips": [
+        {
+          "type": "warning",
+          "class": null,
+          "text": "You must use Dartol's Rod of Transformation to turn into a Furbolg before talking to Krolg"
+        }
+      ],
+      "quests": [
+        {
+          "id": 1030,
+          "name": "Raene's Cleansing"
+        },
+        {
+          "id": 1045,
+          "name": "Raene's Cleansing"
+        }
+      ],
+      "npc": "Krolg",
+      "mobs": []
+    },
+    {
+      "id": "ashenvale_100",
+      "type": "kill",
+      "description": "Kill Bloodtooth Guards and Ran Bloodtooth. Loot him for his Skull",
+      "classes": null,
+      "races": null,
+      "coords": [54.747, 79.618],
+      "zone": "ashenvale",
+      "tips": [],
+      "quests": [
+        {
+          "id": 1045,
+          "name": "Raene's Cleansing"
+        }
+      ],
+      "npc": null,
+      "mobs": ["Ran Bloodtooth", "Bloodtooth Guard"]
+    },
+    {
+      "id": "ashenvale_101",
+      "type": "travel",
+      "description": "Travel toward Krolg",
+      "classes": null,
+      "races": null,
+      "coords": [51.443, 75.004],
+      "zone": "ashenvale",
+      "tips": [],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "ashenvale_102",
+      "type": "info",
+      "description": "Use Dartol's Rod of Transformation to turn into a Furbolg",
+      "classes": null,
+      "races": null,
+      "coords": null,
+      "zone": "",
+      "tips": [
+        {
+          "type": "warning",
+          "class": null,
+          "text": "Use Dartol's Rod of Transformation to turn into a Furbolg"
+        }
+      ],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "ashenvale_103",
+      "type": "quest_turnin",
+      "description": "Talk to Krolg. Turn in Raene's Cleansing and accept Raene's Cleansing",
+      "classes": null,
+      "races": null,
+      "coords": [50.84, 75.07],
+      "zone": "ashenvale",
+      "tips": [
+        {
+          "type": "warning",
+          "class": null,
+          "text": "You must use Dartol's Rod of Transformation to turn into a Furbolg before talking to Krolg"
+        }
+      ],
+      "quests": [
+        {
+          "id": 1045,
+          "name": "Raene's Cleansing"
+        },
+        {
+          "id": 1046,
+          "name": "Raene's Cleansing"
+        }
+      ],
+      "npc": "Krolg",
+      "mobs": []
+    },
+    {
+      "id": "ashenvale_104",
+      "type": "travel",
+      "description": "Travel toward Raene Wolfrunner in Astranaar.",
+      "classes": null,
+      "races": null,
+      "coords": [36.61, 49.58],
+      "zone": "ashenvale",
+      "tips": [
+        {
+          "type": "warning",
+          "class": null,
+          "text": "If you Turn in Raene's Cleansing you will gain 3,050XP, but you will permanently lose Dartol's Rod of Transformation"
+        },
+        {
+          "type": "warning",
+          "class": null,
+          "text": "If you wish to keep it for RP purposes, abandon Raene's Cleansing, and Dartol's Rod of Transformation will remain in your bags"
+        }
+      ],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "ashenvale_105",
+      "type": "quest_turnin",
+      "description": "Talk to Raene Wolfrunner and turn in Raene's Cleansing",
+      "classes": null,
+      "races": null,
+      "coords": [36.61, 49.58],
+      "zone": "ashenvale",
+      "tips": [],
+      "quests": [
+        {
+          "id": 1046,
+          "name": "Raene's Cleansing"
+        }
+      ],
+      "npc": "Raene Wolfrunner",
+      "mobs": []
+    },
+    {
+      "id": "ashenvale_106",
+      "type": "quest_turnin",
+      "description": "Talk to Illiyana and turn in Satyr Slaying!",
+      "classes": null,
+      "races": null,
+      "coords": [21.73, 53.34],
+      "zone": "ashenvale",
+      "tips": [],
+      "quests": [
+        {
+          "id": 1032,
+          "name": "Satyr Slaying!"
+        }
+      ],
+      "npc": "Illiyana",
+      "mobs": []
+    },
+    {
+      "id": "ashenvale_107",
+      "type": "quest_turnin",
+      "description": "Talk to Delgren the Purifier and turn in The Tower of Althalaxx",
+      "classes": null,
+      "races": null,
+      "coords": [26.19, 38.69],
+      "zone": "ashenvale",
+      "tips": [],
+      "quests": [
+        {
+          "id": 1140,
+          "name": "The Tower of Althalaxx"
+        }
+      ],
+      "npc": "Delgren the Purifier",
+      "mobs": []
+    },
+    {
+      "id": "ashenvale_108",
+      "type": "quest_turnin",
+      "description": "Talk to Delgren the Purifier. Turn in The Tower of Althalaxx and accept The Tower of Althalaxx",
+      "classes": ["!Warlock", "!Druid"],
+      "races": null,
+      "coords": [26.19, 38.69],
+      "zone": "ashenvale",
+      "tips": [],
+      "quests": [
+        {
+          "id": 1140,
+          "name": "The Tower of Althalaxx"
+        },
+        {
+          "id": 1167,
+          "name": "The Tower of Althalaxx"
+        }
+      ],
+      "npc": "Delgren the Purifier",
+      "mobs": []
+    },
+    {
+      "id": "ashenvale_109",
+      "type": "fly",
+      "description": "Talk to Daelyshia and fly to Teldrassil",
+      "classes": null,
+      "races": null,
+      "coords": [34.41, 47.98],
+      "zone": "ashenvale",
+      "tips": [],
+      "quests": [],
+      "npc": "Daelyshia",
+      "mobs": []
+    },
+    {
+      "id": "ashenvale_110",
+      "type": "travel",
+      "description": "Take the purple portal into Darnassus",
+      "classes": null,
+      "races": null,
+      "coords": [55.889, 89.456],
+      "zone": "teldrassil",
+      "tips": [],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "ashenvale_111",
+      "type": "info",
+      "description": "Talk to Elissa Dumas and train Teleport: Darnassus",
+      "classes": ["Mage"],
+      "races": null,
+      "coords": [40.599, 82.13],
+      "zone": "darnassus",
+      "tips": [],
+      "quests": [],
+      "npc": "Elissa Dumas",
+      "mobs": []
+    },
+    {
+      "id": "ashenvale_112",
+      "type": "info",
+      "description": "Talk to Jandria and train your class spells",
+      "classes": ["Priest"],
+      "races": null,
+      "coords": [37.9, 82.74],
+      "zone": "darnassus",
+      "tips": [],
+      "quests": [],
+      "npc": "Jandria",
+      "mobs": []
+    },
+    {
+      "id": "ashenvale_113",
+      "type": "quest_turnin",
+      "description": "Talk to Tyrande Whisperwind and turn in Reception from Tyrande",
+      "classes": null,
+      "races": null,
+      "coords": [39.1, 81.58],
+      "zone": "darnassus",
+      "tips": [],
+      "quests": [
+        {
+          "id": 1081,
+          "name": "Reception from Tyrande"
+        }
+      ],
+      "npc": "Tyrande Whisperwind",
+      "mobs": []
+    },
+    {
+      "id": "ashenvale_114",
+      "type": "info",
+      "description": "Talk to Arias'ta Bladesinger and train your class spells",
+      "classes": ["Warrior"],
+      "races": null,
+      "coords": [58.72, 34.9],
+      "zone": "darnassus",
+      "tips": [],
+      "quests": [],
+      "npc": "Arias'ta Bladesinger",
+      "mobs": []
+    },
+    {
+      "id": "ashenvale_115",
+      "type": "quest_turnin",
+      "description": "Talk to Thyn'tel Bladeweaver. Turn in Velinde Starsong and accept Velinde's Effects",
+      "classes": null,
+      "races": null,
+      "coords": [61.777, 39.18],
+      "zone": "darnassus",
+      "tips": [],
+      "quests": [
+        {
+          "id": 1037,
+          "name": "Velinde Starsong"
+        },
+        {
+          "id": 1038,
+          "name": "Velinde's Effects"
+        }
+      ],
+      "npc": "Thyn'tel Bladeweaver",
+      "mobs": []
+    },
+    {
+      "id": "ashenvale_116",
+      "type": "loot",
+      "description": "Run up into the Sentinel's Bunkhouse and across the over-head bridge. Open Velinde's Locker. Loot it for Velinde's Journal",
+      "classes": null,
+      "races": null,
+      "coords": [62.287, 83.289],
+      "zone": "darnassus",
+      "tips": [],
+      "quests": [
+        {
+          "id": 1038,
+          "name": "Velinde's Effects"
+        }
+      ],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "ashenvale_117",
+      "type": "quest_turnin",
+      "description": "Talk to Thyn'tel Bladeweaver. Turn in Velinde's Effects and accept The Barrens Port",
+      "classes": null,
+      "races": null,
+      "coords": [61.777, 39.18],
+      "zone": "darnassus",
+      "tips": [],
+      "quests": [
+        {
+          "id": 1038,
+          "name": "Velinde's Effects"
+        },
+        {
+          "id": 1039,
+          "name": "The Barrens Port"
+        }
+      ],
+      "npc": "Thyn'tel Bladeweaver",
+      "mobs": []
+    },
+    {
+      "id": "ashenvale_118",
+      "type": "info",
+      "description": "Talk to Garryeth, Lairn or Idriana. Deposit Musquash Root into your bank",
+      "classes": null,
+      "races": null,
+      "coords": [39.7, 42.1],
+      "zone": "darnassus",
+      "tips": [],
+      "quests": [],
+      "npc": "Garryeth",
+      "mobs": []
+    },
+    {
+      "id": "ashenvale_119",
+      "type": "info",
+      "description": "Talk to Denatharion and train your class spells",
+      "classes": ["Druid"],
+      "races": null,
+      "coords": [34.768, 7.374],
+      "zone": "darnassus",
+      "tips": [],
+      "quests": [],
+      "npc": "Denatharion",
+      "mobs": []
+    },
+    {
+      "id": "ashenvale_120",
+      "type": "info",
+      "description": "Talk to Jocaste and train your class spells",
+      "classes": ["Hunter"],
+      "races": null,
+      "coords": [40.377, 8.545],
+      "zone": "darnassus",
+      "tips": [],
+      "quests": [],
+      "npc": "Jocaste",
+      "mobs": []
+    },
+    {
+      "id": "ashenvale_121",
+      "type": "info",
+      "description": "Talk to Silvaria up the ramp and train your pet spells",
+      "classes": ["Hunter"],
+      "races": null,
+      "coords": [42.471, 9.157],
+      "zone": "darnassus",
+      "tips": [],
+      "quests": [],
+      "npc": "Silvaria",
+      "mobs": []
+    },
+    {
+      "id": "ashenvale_122",
+      "type": "info",
+      "description": "Talk to Syurna and train your class spells",
+      "classes": ["Rogue"],
+      "races": null,
+      "coords": [36.99, 21.91],
+      "zone": "darnassus",
+      "tips": [],
+      "quests": [],
+      "npc": "Syurna",
+      "mobs": []
+    },
+    {
+      "id": "ashenvale_123",
+      "type": "travel",
+      "description": "Take the purple portal back to Rut'theran Village",
+      "classes": ["!Warlock", "!Druid"],
+      "races": null,
+      "coords": [29.466, 41.405],
+      "zone": "darnassus",
+      "tips": [],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "ashenvale_124",
+      "type": "fly",
+      "description": "Talk to Vesprystus or Daelyshia and fly to Darkshore",
+      "classes": ["!Warlock", "!Druid"],
+      "races": null,
+      "coords": [58.399, 94.016],
+      "zone": "teldrassil",
+      "tips": [],
+      "quests": [],
+      "npc": "Vesprystus",
+      "mobs": []
+    },
+    {
+      "id": "ashenvale_125",
+      "type": "quest_turnin",
+      "description": "Talk to Balthule Shadowstrike and turn in The Tower of Althalaxx.",
+      "classes": ["!Warlock", "!Druid"],
+      "races": null,
+      "coords": [4.82, 27.18],
+      "zone": "winterspring",
+      "tips": [
+        {
+          "type": "warning",
+          "class": null,
+          "text": "Skip the follow up quest. It's a fairly difficult quest to do (you'll have to deal with 3 caster mobs w/ Voidwalkers)"
+        }
+      ],
+      "quests": [
+        {
+          "id": 1167,
+          "name": "The Tower of Althalaxx"
+        }
+      ],
+      "npc": "Balthule Shadowstrike",
+      "mobs": []
+    },
+    {
+      "id": "ashenvale_126",
+      "type": "quest_accept",
+      "description": "Talk to Gelkak Gyromast and accept Gyromast's Retrieval.",
+      "classes": ["!Warlock", "!Druid"],
+      "races": null,
+      "coords": [6.37, 16.66],
+      "zone": "winterspring",
+      "tips": [
+        {
+          "type": "warning",
+          "class": null,
+          "text": "This is a low level quest but it gives you 5 Elixirs of Water Breathing that are going to be used later"
+        }
+      ],
+      "quests": [
+        {
+          "id": 2098,
+          "name": "Gyromast's Retrieval"
+        }
+      ],
+      "npc": "Gelkak Gyromast",
+      "mobs": []
+    },
+    {
+      "id": "ashenvale_127",
+      "type": "kill",
+      "description": "Kill Raging Reef Crawlers and Encrusted Tide Crawlers. Loot them for the Bottom of Gelkak's Key.",
+      "classes": ["!Warlock", "!Druid"],
+      "races": null,
+      "coords": [56.1, 16.88],
+      "zone": "winterspring",
+      "tips": [
+        {
+          "type": "warning",
+          "class": null,
+          "text": "This is a low level quest but it gives you 5 Elixirs of Water Breathing that are going to be used later"
+        }
+      ],
+      "quests": [
+        {
+          "id": 2098,
+          "name": "Gyromast's Retrieval"
+        }
+      ],
+      "npc": null,
+      "mobs": ["Raging Reef Crawler", "Encrusted Tide Crawler"]
+    },
+    {
+      "id": "ashenvale_128",
+      "type": "kill",
+      "description": "Kill Greymist Oracles and Greymist Tidehunter. Loot them for the Middle of Gelkak's Key.",
+      "classes": ["!Warlock", "!Druid"],
+      "races": null,
+      "coords": [54.93, 12.19],
+      "zone": "winterspring",
+      "tips": [
+        {
+          "type": "warning",
+          "class": null,
+          "text": "This is a low level quest but it gives you 5 Elixirs of Water Breathing that are going to be used later"
+        }
+      ],
+      "quests": [
+        {
+          "id": 2098,
+          "name": "Gyromast's Retrieval"
+        }
+      ],
+      "npc": null,
+      "mobs": ["Greymist Oracle", "Greymist Tidehunter"]
+    },
+    {
+      "id": "ashenvale_129",
+      "type": "kill",
+      "description": "Kill Giant Foreststriders. Loot them for the Top of Gelkak's Key.",
+      "classes": ["!Warlock", "!Druid"],
+      "races": null,
+      "coords": [61.4, 9.4],
+      "zone": "winterspring",
+      "tips": [
+        {
+          "type": "warning",
+          "class": null,
+          "text": "This is a low level quest but it gives you 5 Elixirs of Water Breathing that are going to be used later"
+        }
+      ],
+      "quests": [
+        {
+          "id": 2098,
+          "name": "Gyromast's Retrieval"
+        }
+      ],
+      "npc": null,
+      "mobs": ["Giant Foreststrider"]
+    },
+    {
+      "id": "ashenvale_130",
+      "type": "quest_turnin",
+      "description": "Talk to Gelkak Gyromast. Turn in Gyromast's Retrieval and accept Gyromast's Revenge",
+      "classes": ["!Warlock", "!Druid"],
+      "races": null,
+      "coords": [6.37, 16.66],
+      "zone": "winterspring",
+      "tips": [],
+      "quests": [
+        {
+          "id": 2098,
+          "name": "Gyromast's Retrieval"
+        },
+        {
+          "id": 2078,
+          "name": "Gyromast's Revenge"
+        }
+      ],
+      "npc": "Gelkak Gyromast",
+      "mobs": []
+    },
+    {
+      "id": "ashenvale_131",
+      "type": "info",
+      "description": "Talk to The Threshwackonator 4100 to start the escort. Escort The Threshwackonator 4100 to Gelkak Gyromast. Kill The Threshwackonator 4100 once it turns hostile",
+      "classes": ["!Warlock", "!Druid"],
+      "races": null,
+      "coords": [6.37, 16.66],
+      "zone": "winterspring",
+      "tips": [
+        {
+          "type": "warning",
+          "class": null,
+          "text": "This is a low level quest but it gives you 5 Elixirs of Water Breathing that are going to be used later"
+        }
+      ],
+      "quests": [
+        {
+          "id": 2078,
+          "name": "Gyromast's Revenge"
+        }
+      ],
+      "npc": null,
+      "mobs": ["The Threshwackonator 4100"]
+    },
+    {
+      "id": "ashenvale_132",
+      "type": "quest_turnin",
+      "description": "Talk to Gelkak Gyromast and turn in Gyromast's Revenge",
+      "classes": ["!Warlock", "!Druid"],
+      "races": null,
+      "coords": [6.37, 16.66],
+      "zone": "winterspring",
+      "tips": [],
+      "quests": [
+        {
+          "id": 2078,
+          "name": "Gyromast's Revenge"
+        }
+      ],
+      "npc": "Gelkak Gyromast",
+      "mobs": []
+    },
+    {
+      "id": "ashenvale_133",
+      "type": "info",
+      "description": "Delete Gyromast's Key from your inventory",
+      "classes": ["!Warlock", "!Druid"],
+      "races": null,
+      "coords": null,
+      "zone": "",
+      "tips": [],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "ashenvale_134",
+      "type": "info",
+      "description": "Hearth to Menethil Harbor. Buy food/water if needed",
+      "classes": ["!Warrior", "!Rogue"],
+      "races": null,
+      "coords": null,
+      "zone": "",
+      "tips": [
+        {
+          "type": "warning",
+          "class": null,
+          "text": "Buy food/water if needed"
+        }
+      ],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "ashenvale_135",
+      "type": "info",
+      "description": "Hearth to Menethil Harbor. Buy food if needed",
+      "classes": ["Warrior", "Rogue"],
+      "races": null,
+      "coords": null,
+      "zone": "",
+      "tips": [
+        {
+          "type": "warning",
+          "class": null,
+          "text": "Buy food if needed"
+        }
+      ],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    }
+  ]
+}

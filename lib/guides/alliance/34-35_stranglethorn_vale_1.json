@@ -1,0 +1,1695 @@
+{
+  "zone": "Stranglethorn Vale",
+  "levelRange": "34-35",
+  "faction": "Alliance",
+  "name": "34-35_stranglethorn_vale_1",
+  "next": "35-36_hillsbrad_arathi_2",
+  "steps": [
+    {
+      "id": "stranglethorn_vale_001",
+      "type": "quest_accept",
+      "description": "Talk to Wharfmaster Lozgil, turn in Goblin Sponsorship, and accept Goblin Sponsorship",
+      "classes": null,
+      "races": null,
+      "coords": [26.345, 73.564],
+      "zone": "stranglethorn_vale",
+      "tips": [],
+      "quests": [
+        {
+          "id": 1180,
+          "name": "Goblin Sponsorship"
+        },
+        {
+          "id": 1181,
+          "name": "Goblin Sponsorship"
+        }
+      ],
+      "npc": "Wharfmaster Lozgil",
+      "mobs": []
+    },
+    {
+      "id": "stranglethorn_vale_002",
+      "type": "quest_turnin",
+      "description": "Talk to Scooty and turn in A Fine Mess",
+      "classes": null,
+      "races": null,
+      "coords": [27.6, 77.481],
+      "zone": "stranglethorn_vale",
+      "tips": [],
+      "quests": [
+        {
+          "id": 2904,
+          "name": "A Fine Mess"
+        }
+      ],
+      "npc": "Scooty",
+      "mobs": []
+    },
+    {
+      "id": "stranglethorn_vale_003",
+      "type": "quest_accept",
+      "description": "Talk to Caravaneer Ruzzgot, turn in Passage to Booty Bay, and accept The Caravan Road",
+      "classes": null,
+      "races": null,
+      "coords": [27.368, 74.079],
+      "zone": "stranglethorn_vale",
+      "tips": [],
+      "quests": [
+        {
+          "id": 1040,
+          "name": "Passage to Booty Bay"
+        },
+        {
+          "id": 1041,
+          "name": "The Caravan Road"
+        }
+      ],
+      "npc": "Caravaneer Ruzzgot",
+      "mobs": []
+    },
+    {
+      "id": "stranglethorn_vale_004",
+      "type": "quest_accept",
+      "description": "Talk to Crank Fizzlebub and accept Singing Blue Shards",
+      "classes": null,
+      "races": null,
+      "coords": [27.12, 77.208],
+      "zone": "stranglethorn_vale",
+      "tips": [],
+      "quests": [
+        {
+          "id": 605,
+          "name": "Singing Blue Shards"
+        }
+      ],
+      "npc": "Crank Fizzlebub",
+      "mobs": []
+    },
+    {
+      "id": "stranglethorn_vale_005",
+      "type": "info",
+      "description": "Talk to Innkeeper Skindle and set your Hearthstone to Booty Bay",
+      "classes": null,
+      "races": null,
+      "coords": [27.04, 77.31],
+      "zone": "stranglethorn_vale",
+      "tips": [],
+      "quests": [],
+      "npc": "Innkeeper Skindle",
+      "mobs": []
+    },
+    {
+      "id": "stranglethorn_vale_006",
+      "type": "quest_accept",
+      "description": "Talk to Kebok and Krazek upstairs on the top floor and accept Hostile Takeover, Supplies to Private Thorsen, Investigate the Camp, and The Haunted Isle",
+      "classes": null,
+      "races": null,
+      "coords": [26.943, 77.207],
+      "zone": "stranglethorn_vale",
+      "tips": [],
+      "quests": [
+        {
+          "id": 213,
+          "name": "Hostile Takeover"
+        },
+        {
+          "id": 198,
+          "name": "Supplies to Private Thorsen"
+        },
+        {
+          "id": 201,
+          "name": "Investigate the Camp"
+        },
+        {
+          "id": 616,
+          "name": "The Haunted Isle"
+        }
+      ],
+      "npc": "Krazek",
+      "mobs": []
+    },
+    {
+      "id": "stranglethorn_vale_007",
+      "type": "quest_accept",
+      "description": "Talk to Baron Revilgaz, turn in The Haunted Isle, accept The Stone of the Tides, turn in Goblin Sponsorship, and accept Goblin Sponsorship",
+      "classes": null,
+      "races": null,
+      "coords": [27.227, 76.87],
+      "zone": "stranglethorn_vale",
+      "tips": [],
+      "quests": [
+        {
+          "id": 616,
+          "name": "The Haunted Isle"
+        },
+        {
+          "id": 578,
+          "name": "The Stone of the Tides"
+        },
+        {
+          "id": 1181,
+          "name": "Goblin Sponsorship"
+        },
+        {
+          "id": 1182,
+          "name": "Goblin Sponsorship"
+        }
+      ],
+      "npc": "Baron Revilgaz",
+      "mobs": []
+    },
+    {
+      "id": "stranglethorn_vale_008",
+      "type": "info",
+      "description": "Talk to Viznik or Rickle and deposit Kravel's Parts into your bank",
+      "classes": null,
+      "races": null,
+      "coords": [26.515, 76.471],
+      "zone": "stranglethorn_vale",
+      "tips": [],
+      "quests": [],
+      "npc": "Rickle Goldgrubber",
+      "mobs": []
+    },
+    {
+      "id": "stranglethorn_vale_009",
+      "type": "quest_accept",
+      "description": "Talk to Drizzlik and accept Supply and Demand",
+      "classes": null,
+      "races": null,
+      "coords": [28.294, 77.592],
+      "zone": "stranglethorn_vale",
+      "tips": [],
+      "quests": [
+        {
+          "id": 575,
+          "name": "Supply and Demand"
+        }
+      ],
+      "npc": "Drizzlik",
+      "mobs": []
+    },
+    {
+      "id": "stranglethorn_vale_010",
+      "type": "info",
+      "description": "Throw away the Library Scrip",
+      "classes": null,
+      "races": null,
+      "coords": null,
+      "zone": "",
+      "tips": [],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "stranglethorn_vale_011",
+      "type": "fly",
+      "description": "Talk to Gyll and fly to Westfall",
+      "classes": null,
+      "races": null,
+      "coords": [27.53, 77.787],
+      "zone": "stranglethorn_vale",
+      "tips": [],
+      "quests": [],
+      "npc": "Gyll",
+      "mobs": []
+    },
+    {
+      "id": "stranglethorn_vale_012",
+      "type": "travel",
+      "description": "Travel to Duskwood",
+      "classes": null,
+      "races": null,
+      "coords": null,
+      "zone": "",
+      "tips": [],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "stranglethorn_vale_013",
+      "type": "quest_turnin",
+      "description": "Click A Weathered Grave and turn in A Daughter's Love",
+      "classes": null,
+      "races": null,
+      "coords": [17.72, 29.07],
+      "zone": "duskwood",
+      "tips": [],
+      "quests": [
+        {
+          "id": 231,
+          "name": "A Daughter's Love"
+        }
+      ],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "stranglethorn_vale_014",
+      "type": "info",
+      "description": "Delete The Story of Morgan Ladimore",
+      "classes": null,
+      "races": null,
+      "coords": null,
+      "zone": "",
+      "tips": [],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "stranglethorn_vale_015",
+      "type": "travel",
+      "description": "Travel to northern Stranglethorn Vale",
+      "classes": null,
+      "races": null,
+      "coords": [44.598, 87.565],
+      "zone": "duskwood",
+      "tips": [],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "stranglethorn_vale_016",
+      "type": "travel",
+      "description": "Head south to Stranglethorn Vale",
+      "classes": null,
+      "races": null,
+      "coords": [44.7, 88.3],
+      "zone": "duskwood",
+      "tips": [],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "stranglethorn_vale_017",
+      "type": "info",
+      "description": "Keep an eye out for the special Private Thorsen event. Kill both Kurzen's Agents and accept Jungle Secrets from Private Thorsen after saving him",
+      "classes": null,
+      "races": null,
+      "coords": null,
+      "zone": "",
+      "tips": [
+        {
+          "type": "warning",
+          "class": null,
+          "text": "Keep an eye out for the special Private Thorsen event. He will patrol down the road from the Rebel camp every 30 minutes"
+        },
+        {
+          "type": "warning",
+          "class": null,
+          "text": "Private Thorsen will be attacked by 2 of Kurzen's Agents. If you don't see this event, ignore this step"
+        }
+      ],
+      "quests": [
+        {
+          "id": 215,
+          "name": "Jungle Secrets"
+        }
+      ],
+      "npc": null,
+      "mobs": ["Kurzen's Agent"]
+    },
+    {
+      "id": "stranglethorn_vale_018",
+      "type": "quest_turnin",
+      "description": "Talk to Private Thorsen at the Rebel Camp and turn in Supplies to Private Thorsen",
+      "classes": null,
+      "races": null,
+      "coords": [37.98, 3.41],
+      "zone": "stranglethorn_vale",
+      "tips": [
+        {
+          "type": "warning",
+          "class": null,
+          "text": "If Private Thorsen isn't at the Rebel Camp he may be in progress for his special event. Skip this step. Look for him down the path if you haven't accepted his quest yet"
+        }
+      ],
+      "quests": [
+        {
+          "id": 198,
+          "name": "Supplies to Private Thorsen"
+        }
+      ],
+      "npc": "Private Thorsen",
+      "mobs": []
+    },
+    {
+      "id": "stranglethorn_vale_019",
+      "type": "quest_accept",
+      "description": "Talk to Sergeant Yohwa and accept The Second Rebellion and Bad Medicine",
+      "classes": null,
+      "races": null,
+      "coords": [38.017, 3.33],
+      "zone": "stranglethorn_vale",
+      "tips": [],
+      "quests": [
+        {
+          "id": 203,
+          "name": "The Second Rebellion"
+        },
+        {
+          "id": 204,
+          "name": "Bad Medicine"
+        }
+      ],
+      "npc": "Sergeant Yohwa",
+      "mobs": []
+    },
+    {
+      "id": "stranglethorn_vale_020",
+      "type": "kill",
+      "description": "Kill Stone Maw Basilisks and Crystal Spine Basilisks. Loot them for their Shards",
+      "classes": null,
+      "races": null,
+      "coords": null,
+      "zone": "",
+      "tips": [
+        {
+          "type": "warning",
+          "class": null,
+          "text": "Stone Maw Basilisks and Crystal Spine Basilisks will cast Crystal Gaze which is a 6 second long stun. Simply move out of their melee range when they begin to cast to avoid it"
+        }
+      ],
+      "quests": [
+        {
+          "id": 605,
+          "name": "Singing Blue Shards"
+        }
+      ],
+      "npc": null,
+      "mobs": ["Stone Maw Basilisk", "Crystal Spine Basilisk"]
+    },
+    {
+      "id": "stranglethorn_vale_021",
+      "type": "kill",
+      "description": "Kill River Crocolisks. Loot them for their Skin",
+      "classes": null,
+      "races": null,
+      "coords": null,
+      "zone": "",
+      "tips": [],
+      "quests": [
+        {
+          "id": 575,
+          "name": "Supply and Demand"
+        }
+      ],
+      "npc": null,
+      "mobs": ["River Crocolisk"]
+    },
+    {
+      "id": "stranglethorn_vale_022",
+      "type": "quest_turnin",
+      "description": "Talk to Hemet Nesingwary and turn in Hemet Nesingwary",
+      "classes": null,
+      "races": null,
+      "coords": [35.658, 10.808],
+      "zone": "stranglethorn_vale",
+      "tips": [],
+      "quests": [
+        {
+          "id": 5762,
+          "name": "Hemet Nesingwary"
+        }
+      ],
+      "npc": "Hemet Nesingwary",
+      "mobs": []
+    },
+    {
+      "id": "stranglethorn_vale_023",
+      "type": "quest_accept",
+      "description": "Talk to Ajeck Rouack and accept Tiger Mastery",
+      "classes": null,
+      "races": null,
+      "coords": [35.61, 10.61],
+      "zone": "stranglethorn_vale",
+      "tips": [],
+      "quests": [
+        {
+          "id": 186,
+          "name": "Tiger Mastery"
+        }
+      ],
+      "npc": "Ajeck Rouack",
+      "mobs": []
+    },
+    {
+      "id": "stranglethorn_vale_024",
+      "type": "kill",
+      "description": "Kill Kurzen Jungle Fighters and Kurzen Medicine Men. Loot the Kurzen Medicine Men for their Jungle Remedies",
+      "classes": null,
+      "races": null,
+      "coords": [44.93, 10.25],
+      "zone": "stranglethorn_vale",
+      "tips": [
+        {
+          "type": "warning",
+          "class": "Warrior",
+          "text": "Kurzen Medicine Men also drop Liferoot. Save these for your Whirlwind Axe quest later"
+        },
+        {
+          "type": "warning",
+          "class": null,
+          "text": "Hold onto any Green Hills of Stranglethorn - Pages you find. Trade or sell duplicates"
+        }
+      ],
+      "quests": [
+        {
+          "id": 203,
+          "name": "The Second Rebellion"
+        },
+        {
+          "id": 204,
+          "name": "Bad Medicine"
+        }
+      ],
+      "npc": null,
+      "mobs": ["Kurzen Jungle Fighter", "Kurzen Medicine Man"]
+    },
+    {
+      "id": "stranglethorn_vale_025",
+      "type": "loot",
+      "description": "Open the Kurzen Supplies. Loot it for the Venom Fern Extract",
+      "classes": null,
+      "races": null,
+      "coords": [44.086, 9.538],
+      "zone": "stranglethorn_vale",
+      "tips": [],
+      "quests": [
+        {
+          "id": 204,
+          "name": "Bad Medicine"
+        }
+      ],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "stranglethorn_vale_026",
+      "type": "kill",
+      "description": "Kill Kurzen Jungle Fighters and Kurzen Medicine Men. Loot the Kurzen Medicine Men for their Jungle Remedies",
+      "classes": null,
+      "races": null,
+      "coords": [44.93, 10.25],
+      "zone": "stranglethorn_vale",
+      "tips": [
+        {
+          "type": "warning",
+          "class": "Warrior",
+          "text": "Kurzen Medicine Men also drop Liferoot. Save these for your Whirlwind Axe quest later"
+        },
+        {
+          "type": "warning",
+          "class": null,
+          "text": "Hold onto any Green Hills of Stranglethorn - Pages you find. Trade or sell duplicates"
+        }
+      ],
+      "quests": [
+        {
+          "id": 203,
+          "name": "The Second Rebellion"
+        },
+        {
+          "id": 204,
+          "name": "Bad Medicine"
+        }
+      ],
+      "npc": null,
+      "mobs": ["Kurzen Jungle Fighter", "Kurzen Medicine Man"]
+    },
+    {
+      "id": "stranglethorn_vale_027",
+      "type": "kill",
+      "description": "Kill Stone Maw Basilisks and Crystal Spine Basilisks. Loot them for their Shards",
+      "classes": null,
+      "races": null,
+      "coords": null,
+      "zone": "",
+      "tips": [
+        {
+          "type": "warning",
+          "class": null,
+          "text": "Stone Maw Basilisks and Crystal Spine Basilisks will cast Crystal Gaze which is a 6 second long stun. Simply move out of their melee range when they begin to cast to avoid it"
+        }
+      ],
+      "quests": [
+        {
+          "id": 605,
+          "name": "Singing Blue Shards"
+        }
+      ],
+      "npc": null,
+      "mobs": ["Stone Maw Basilisk", "Crystal Spine Basilisk"]
+    },
+    {
+      "id": "stranglethorn_vale_028",
+      "type": "kill",
+      "description": "Kill Stranglethorn Tigers",
+      "classes": null,
+      "races": null,
+      "coords": [46.75, 15.81],
+      "zone": "stranglethorn_vale",
+      "tips": [],
+      "quests": [
+        {
+          "id": 186,
+          "name": "Tiger Mastery"
+        }
+      ],
+      "npc": null,
+      "mobs": ["Stranglethorn Tiger"]
+    },
+    {
+      "id": "stranglethorn_vale_029",
+      "type": "info",
+      "description": "Keep an eye out for the special Private Thorsen event. Kill both Kurzen's Agents and accept Jungle Secrets from Private Thorsen after saving him",
+      "classes": null,
+      "races": null,
+      "coords": null,
+      "zone": "",
+      "tips": [
+        {
+          "type": "warning",
+          "class": null,
+          "text": "Keep an eye out for the special Private Thorsen event. He will patrol down the road from the Rebel camp every 30 minutes"
+        },
+        {
+          "type": "warning",
+          "class": null,
+          "text": "Private Thorsen will be attacked by 2 of Kurzen's Agents. If you don't see this event, ignore this step"
+        }
+      ],
+      "quests": [
+        {
+          "id": 215,
+          "name": "Jungle Secrets"
+        }
+      ],
+      "npc": null,
+      "mobs": ["Kurzen's Agent"]
+    },
+    {
+      "id": "stranglethorn_vale_030",
+      "type": "quest_turnin",
+      "description": "Talk to Private Thorsen and turn in Supplies to Private Thorsen",
+      "classes": null,
+      "races": null,
+      "coords": [37.98, 3.41],
+      "zone": "stranglethorn_vale",
+      "tips": [
+        {
+          "type": "warning",
+          "class": null,
+          "text": "You may need to wait a few minutes for Private Thorsen to spawn"
+        }
+      ],
+      "quests": [
+        {
+          "id": 198,
+          "name": "Supplies to Private Thorsen"
+        }
+      ],
+      "npc": "Private Thorsen",
+      "mobs": []
+    },
+    {
+      "id": "stranglethorn_vale_031",
+      "type": "quest_turnin",
+      "description": "Talk to Sergeant Yohwa, turn in The Second Rebellion and Bad Medicine",
+      "classes": null,
+      "races": null,
+      "coords": [38.017, 3.33],
+      "zone": "stranglethorn_vale",
+      "tips": [],
+      "quests": [
+        {
+          "id": 203,
+          "name": "The Second Rebellion"
+        },
+        {
+          "id": 204,
+          "name": "Bad Medicine"
+        }
+      ],
+      "npc": "Sergeant Yohwa",
+      "mobs": []
+    },
+    {
+      "id": "stranglethorn_vale_032",
+      "type": "quest_accept",
+      "description": "Talk to Corporal Kaleb and accept Krazek's Cookery",
+      "classes": null,
+      "races": null,
+      "coords": [37.74, 3.3],
+      "zone": "stranglethorn_vale",
+      "tips": [],
+      "quests": [
+        {
+          "id": 210,
+          "name": "Krazek's Cookery"
+        }
+      ],
+      "npc": "Corporal Kaleb",
+      "mobs": []
+    },
+    {
+      "id": "stranglethorn_vale_033",
+      "type": "quest_turnin",
+      "description": "Talk to Lieutenant Doren and turn in Jungle Secrets",
+      "classes": null,
+      "races": null,
+      "coords": [38.042, 3.012],
+      "zone": "stranglethorn_vale",
+      "tips": [
+        {
+          "type": "warning",
+          "class": null,
+          "text": "Don't accept the follow up yet"
+        }
+      ],
+      "quests": [
+        {
+          "id": 215,
+          "name": "Jungle Secrets"
+        }
+      ],
+      "npc": "Lieutenant Doren",
+      "mobs": []
+    },
+    {
+      "id": "stranglethorn_vale_034",
+      "type": "info",
+      "description": "Keep an eye out for the special Private Thorsen event. Kill both Kurzen's Agents and accept Jungle Secrets from Private Thorsen after saving him",
+      "classes": null,
+      "races": null,
+      "coords": null,
+      "zone": "",
+      "tips": [
+        {
+          "type": "warning",
+          "class": null,
+          "text": "Keep an eye out for the special Private Thorsen event. He will patrol down the road from the Rebel camp every 30 minutes"
+        },
+        {
+          "type": "warning",
+          "class": null,
+          "text": "Private Thorsen will be attacked by 2 of Kurzen's Agents. If you don't see this event, ignore this step"
+        }
+      ],
+      "quests": [
+        {
+          "id": 215,
+          "name": "Jungle Secrets"
+        }
+      ],
+      "npc": null,
+      "mobs": ["Kurzen's Agent"]
+    },
+    {
+      "id": "stranglethorn_vale_035",
+      "type": "kill",
+      "description": "Kill River Crocolisks. Loot them for their Skin",
+      "classes": null,
+      "races": null,
+      "coords": [40.8, 13.8],
+      "zone": "stranglethorn_vale",
+      "tips": [],
+      "quests": [
+        {
+          "id": 575,
+          "name": "Supply and Demand"
+        }
+      ],
+      "npc": null,
+      "mobs": ["River Crocolisk"]
+    },
+    {
+      "id": "stranglethorn_vale_036",
+      "type": "quest_accept",
+      "description": "Talk to Hemet Nesingwary, Ajeck Rouack and Sir S. J. Erlgadin and accept Raptor Mastery, turn in Tiger Mastery, accept Tiger Mastery, and accept Panther Mastery",
+      "classes": null,
+      "races": null,
+      "coords": [35.556, 10.546],
+      "zone": "stranglethorn_vale",
+      "tips": [],
+      "quests": [
+        {
+          "id": 194,
+          "name": "Raptor Mastery"
+        },
+        {
+          "id": 186,
+          "name": "Tiger Mastery"
+        },
+        {
+          "id": 187,
+          "name": "Tiger Mastery"
+        },
+        {
+          "id": 191,
+          "name": "Panther Mastery"
+        }
+      ],
+      "npc": "Sir S. J. Erlgadin",
+      "mobs": []
+    },
+    {
+      "id": "stranglethorn_vale_037",
+      "type": "kill",
+      "description": "Kill River Crocolisks. Loot them for their Skin",
+      "classes": null,
+      "races": null,
+      "coords": [36.8, 10.6],
+      "zone": "stranglethorn_vale",
+      "tips": [],
+      "quests": [
+        {
+          "id": 575,
+          "name": "Supply and Demand"
+        }
+      ],
+      "npc": null,
+      "mobs": ["River Crocolisk"]
+    },
+    {
+      "id": "stranglethorn_vale_038",
+      "type": "kill",
+      "description": "Kill Panthers",
+      "classes": null,
+      "races": null,
+      "coords": null,
+      "zone": "",
+      "tips": [],
+      "quests": [
+        {
+          "id": 191,
+          "name": "Panther Mastery"
+        }
+      ],
+      "npc": null,
+      "mobs": ["Panther"]
+    },
+    {
+      "id": "stranglethorn_vale_039",
+      "type": "kill",
+      "description": "Kill Elder Stranglethorn Tigers",
+      "classes": null,
+      "races": null,
+      "coords": [31.91, 19.93],
+      "zone": "stranglethorn_vale",
+      "tips": [],
+      "quests": [
+        {
+          "id": 187,
+          "name": "Tiger Mastery"
+        }
+      ],
+      "npc": null,
+      "mobs": ["Elder Stranglethorn Tiger"]
+    },
+    {
+      "id": "stranglethorn_vale_040",
+      "type": "kill",
+      "description": "Kill Panthers",
+      "classes": null,
+      "races": null,
+      "coords": [29.8, 11.2],
+      "zone": "stranglethorn_vale",
+      "tips": [],
+      "quests": [
+        {
+          "id": 191,
+          "name": "Panther Mastery"
+        }
+      ],
+      "npc": null,
+      "mobs": ["Panther"]
+    },
+    {
+      "id": "stranglethorn_vale_041",
+      "type": "kill",
+      "description": "Kill Crystal Spine Basilisks. Loot them for their Shards",
+      "classes": null,
+      "races": null,
+      "coords": null,
+      "zone": "",
+      "tips": [
+        {
+          "type": "warning",
+          "class": null,
+          "text": "Crystal Spine Basilisks will cast Crystal Gaze which is a 6 second long stun. Simply move out of their melee range when they begin to cast to avoid it"
+        }
+      ],
+      "quests": [
+        {
+          "id": 605,
+          "name": "Singing Blue Shards"
+        }
+      ],
+      "npc": null,
+      "mobs": ["Crystal Spine Basilisk"]
+    },
+    {
+      "id": "stranglethorn_vale_042",
+      "type": "kill",
+      "description": "Kill Stranglethorn Raptors",
+      "classes": null,
+      "races": null,
+      "coords": [27.16, 16.06],
+      "zone": "stranglethorn_vale",
+      "tips": [],
+      "quests": [
+        {
+          "id": 194,
+          "name": "Raptor Mastery"
+        }
+      ],
+      "npc": null,
+      "mobs": ["Stranglethorn Raptor"]
+    },
+    {
+      "id": "stranglethorn_vale_043",
+      "type": "kill",
+      "description": "Kill Crystal Spine Basilisks. Loot them for their Shards",
+      "classes": null,
+      "races": null,
+      "coords": [25.53, 17.73],
+      "zone": "stranglethorn_vale",
+      "tips": [
+        {
+          "type": "warning",
+          "class": null,
+          "text": "Crystal Spine Basilisks will cast Crystal Gaze which is a 6 second long stun. Simply move out of their melee range when they begin to cast to avoid it"
+        }
+      ],
+      "quests": [
+        {
+          "id": 605,
+          "name": "Singing Blue Shards"
+        }
+      ],
+      "npc": null,
+      "mobs": ["Crystal Spine Basilisk"]
+    },
+    {
+      "id": "stranglethorn_vale_044",
+      "type": "travel",
+      "description": "Travel to the Haunted Island",
+      "classes": null,
+      "races": null,
+      "coords": [21.58, 21.842],
+      "zone": "stranglethorn_vale",
+      "tips": [],
+      "quests": [
+        {
+          "id": 578,
+          "name": "The Stone of the Tides"
+        }
+      ],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "stranglethorn_vale_045",
+      "type": "travel",
+      "description": "Travel to Nesingwary's Expedition",
+      "classes": null,
+      "races": null,
+      "coords": [35.658, 10.808],
+      "zone": "stranglethorn_vale",
+      "tips": [],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "stranglethorn_vale_046",
+      "type": "quest_turnin",
+      "description": "Talk to Hemet Nesingwary, Ajeck Rouack and Sir S. J. Erlgadin, turn in Raptor Mastery, Tiger Mastery and Panther Mastery",
+      "classes": null,
+      "races": null,
+      "coords": [35.556, 10.546],
+      "zone": "stranglethorn_vale",
+      "tips": [],
+      "quests": [
+        {
+          "id": 194,
+          "name": "Raptor Mastery"
+        },
+        {
+          "id": 187,
+          "name": "Tiger Mastery"
+        },
+        {
+          "id": 191,
+          "name": "Panther Mastery"
+        }
+      ],
+      "npc": "Sir S. J. Erlgadin",
+      "mobs": []
+    },
+    {
+      "id": "stranglethorn_vale_047",
+      "type": "quest_turnin",
+      "description": "Talk to Lieutenant Doren and turn in Jungle Secrets",
+      "classes": null,
+      "races": null,
+      "coords": [38.042, 3.012],
+      "zone": "stranglethorn_vale",
+      "tips": [
+        {
+          "type": "warning",
+          "class": null,
+          "text": "Don't accept the follow up yet"
+        }
+      ],
+      "quests": [
+        {
+          "id": 215,
+          "name": "Jungle Secrets"
+        }
+      ],
+      "npc": "Lieutenant Doren",
+      "mobs": []
+    },
+    {
+      "id": "stranglethorn_vale_048",
+      "type": "info",
+      "description": "Cast Teleport: Moonglade",
+      "classes": ["Druid"],
+      "races": null,
+      "coords": null,
+      "zone": "",
+      "tips": [],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "stranglethorn_vale_049",
+      "type": "info",
+      "description": "Talk to Loganaar and train your class spells",
+      "classes": ["Druid"],
+      "races": null,
+      "coords": [52.53, 40.56],
+      "zone": "moonglade",
+      "tips": [],
+      "quests": [],
+      "npc": "Loganaar",
+      "mobs": []
+    },
+    {
+      "id": "stranglethorn_vale_050",
+      "type": "info",
+      "description": "Hearth to Booty Bay. Buy food and water if needed",
+      "classes": ["!Warrior", "!Rogue"],
+      "races": null,
+      "coords": null,
+      "zone": "",
+      "tips": [],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "stranglethorn_vale_051",
+      "type": "info",
+      "description": "Hearth to Booty Bay. Buy food if needed",
+      "classes": ["Warrior", "Rogue"],
+      "races": null,
+      "coords": null,
+      "zone": "",
+      "tips": [],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "stranglethorn_vale_052",
+      "type": "quest_turnin",
+      "description": "Talk to Crank Fizzlebub and turn in Singing Blue Shards",
+      "classes": null,
+      "races": null,
+      "coords": [27.12, 77.208],
+      "zone": "stranglethorn_vale",
+      "tips": [],
+      "quests": [
+        {
+          "id": 605,
+          "name": "Singing Blue Shards"
+        }
+      ],
+      "npc": "Crank Fizzlebub",
+      "mobs": []
+    },
+    {
+      "id": "stranglethorn_vale_053",
+      "type": "quest_accept",
+      "description": "Talk to Kebok and Krazek upstairs on the top floor, accept Bloodscalp Ears, turn in Investigate the Camp and Krazek's Cookery",
+      "classes": null,
+      "races": null,
+      "coords": [26.943, 77.207],
+      "zone": "stranglethorn_vale",
+      "tips": [],
+      "quests": [
+        {
+          "id": 189,
+          "name": "Bloodscalp Ears"
+        },
+        {
+          "id": 201,
+          "name": "Investigate the Camp"
+        },
+        {
+          "id": 210,
+          "name": "Krazek's Cookery"
+        }
+      ],
+      "npc": "Krazek",
+      "mobs": []
+    },
+    {
+      "id": "stranglethorn_vale_054",
+      "type": "quest_accept",
+      "description": "Talk to Krazek, turn in Favor for Krazek, and accept Return to Corporal Kaleb",
+      "classes": null,
+      "races": null,
+      "coords": [26.943, 77.207],
+      "zone": "stranglethorn_vale",
+      "tips": [],
+      "quests": [
+        {
+          "id": 627,
+          "name": "Favor for Krazek"
+        },
+        {
+          "id": 622,
+          "name": "Return to Corporal Kaleb"
+        }
+      ],
+      "npc": "Krazek",
+      "mobs": []
+    },
+    {
+      "id": "stranglethorn_vale_055",
+      "type": "quest_accept",
+      "description": "Talk to Krazek and accept Return to Corporal Kaleb",
+      "classes": null,
+      "races": null,
+      "coords": [26.943, 77.207],
+      "zone": "stranglethorn_vale",
+      "tips": [],
+      "quests": [
+        {
+          "id": 622,
+          "name": "Return to Corporal Kaleb"
+        }
+      ],
+      "npc": "Krazek",
+      "mobs": []
+    },
+    {
+      "id": "stranglethorn_vale_056",
+      "type": "quest_accept",
+      "description": "Talk to Baron Revilgaz, turn in The Stone of the Tides, and accept Water Elementals",
+      "classes": null,
+      "races": null,
+      "coords": [27.227, 76.87],
+      "zone": "stranglethorn_vale",
+      "tips": [],
+      "quests": [
+        {
+          "id": 578,
+          "name": "The Stone of the Tides"
+        },
+        {
+          "id": 601,
+          "name": "Water Elementals"
+        }
+      ],
+      "npc": "Baron Revilgaz",
+      "mobs": []
+    },
+    {
+      "id": "stranglethorn_vale_057",
+      "type": "quest_accept",
+      "description": "Talk to Drizzlik, turn in Supply and Demand, and accept Some Assembly Required",
+      "classes": null,
+      "races": null,
+      "coords": [28.294, 77.592],
+      "zone": "stranglethorn_vale",
+      "tips": [],
+      "quests": [
+        {
+          "id": 575,
+          "name": "Supply and Demand"
+        },
+        {
+          "id": 577,
+          "name": "Some Assembly Required"
+        }
+      ],
+      "npc": "Drizzlik",
+      "mobs": []
+    },
+    {
+      "id": "stranglethorn_vale_058",
+      "type": "fly",
+      "description": "Talk to Gyll and fly to Duskwood",
+      "classes": null,
+      "races": null,
+      "coords": [27.53, 77.787],
+      "zone": "stranglethorn_vale",
+      "tips": [],
+      "quests": [],
+      "npc": "Gyll",
+      "mobs": []
+    },
+    {
+      "id": "stranglethorn_vale_059",
+      "type": "quest_accept",
+      "description": "Talk to Clerk Daltry, turn in The Caravan Road, and accept The Carevin Family",
+      "classes": null,
+      "races": null,
+      "coords": [72.6, 46.8],
+      "zone": "duskwood",
+      "tips": [],
+      "quests": [
+        {
+          "id": 1041,
+          "name": "The Caravan Road"
+        },
+        {
+          "id": 1042,
+          "name": "The Carevin Family"
+        }
+      ],
+      "npc": "Clerk Daltry",
+      "mobs": []
+    },
+    {
+      "id": "stranglethorn_vale_060",
+      "type": "quest_accept",
+      "description": "Talk to Jonathan Carevin, turn in The Carevin Family, and accept The Scythe of Elune",
+      "classes": null,
+      "races": null,
+      "coords": [75.2, 48.8],
+      "zone": "duskwood",
+      "tips": [],
+      "quests": [
+        {
+          "id": 1042,
+          "name": "The Carevin Family"
+        },
+        {
+          "id": 1043,
+          "name": "The Scythe of Elune"
+        }
+      ],
+      "npc": "Jonathan Carevin",
+      "mobs": []
+    },
+    {
+      "id": "stranglethorn_vale_061",
+      "type": "travel",
+      "description": "Travel to Roland's Doom",
+      "classes": null,
+      "races": null,
+      "coords": [73.2, 76.19],
+      "zone": "duskwood",
+      "tips": [],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "stranglethorn_vale_062",
+      "type": "loot",
+      "description": "Click the Mound of Dirt at the back of the Cave",
+      "classes": null,
+      "races": null,
+      "coords": [73.527, 79.143],
+      "zone": "duskwood",
+      "tips": [],
+      "quests": [
+        {
+          "id": 1043,
+          "name": "The Scythe of Elune"
+        }
+      ],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "stranglethorn_vale_063",
+      "type": "travel",
+      "description": "Travel to Darkshire",
+      "classes": null,
+      "races": null,
+      "coords": [75.2, 48.8],
+      "zone": "duskwood",
+      "tips": [],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "stranglethorn_vale_064",
+      "type": "quest_accept",
+      "description": "Talk to Jonathan Carevin, turn in The Scythe of Elune, and accept Answered Questions",
+      "classes": null,
+      "races": null,
+      "coords": [75.2, 48.8],
+      "zone": "duskwood",
+      "tips": [],
+      "quests": [
+        {
+          "id": 1043,
+          "name": "The Scythe of Elune"
+        },
+        {
+          "id": 1044,
+          "name": "Answered Questions"
+        }
+      ],
+      "npc": "Jonathan Carevin",
+      "mobs": []
+    },
+    {
+      "id": "stranglethorn_vale_065",
+      "type": "info",
+      "description": "Teleport to Stormwind City",
+      "classes": ["Mage"],
+      "races": null,
+      "coords": [43.08, 80.39],
+      "zone": "stormwind_city",
+      "tips": [],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "stranglethorn_vale_066",
+      "type": "info",
+      "description": "Talk to Jennea and train your class spells",
+      "classes": ["Mage"],
+      "races": null,
+      "coords": [36.87, 81.14],
+      "zone": "stormwind_city",
+      "tips": [],
+      "quests": [],
+      "npc": "Jennea Cannon",
+      "mobs": []
+    },
+    {
+      "id": "stranglethorn_vale_067",
+      "type": "fly",
+      "description": "Talk to Gyll and fly to Stormwind",
+      "classes": ["!Mage"],
+      "races": null,
+      "coords": [27.53, 77.787],
+      "zone": "stranglethorn_vale",
+      "tips": [],
+      "quests": [],
+      "npc": "Gyll",
+      "mobs": []
+    },
+    {
+      "id": "stranglethorn_vale_068",
+      "type": "fly",
+      "description": "Talk to Felicia Maline and fly to Stormwind",
+      "classes": ["!Mage"],
+      "races": null,
+      "coords": [77.486, 44.287],
+      "zone": "duskwood",
+      "tips": [],
+      "quests": [],
+      "npc": "Felicia Maline",
+      "mobs": []
+    },
+    {
+      "id": "stranglethorn_vale_069",
+      "type": "fly",
+      "description": "Talk to Gyll and fly to Stormwind",
+      "classes": ["!Mage"],
+      "races": null,
+      "coords": [27.53, 77.78],
+      "zone": "stranglethorn_vale",
+      "tips": [],
+      "quests": [],
+      "npc": "Gyll",
+      "mobs": []
+    },
+    {
+      "id": "stranglethorn_vale_070",
+      "type": "info",
+      "description": "Talk to Newton Burnside and withdraw Farren's Report from your bank",
+      "classes": null,
+      "races": null,
+      "coords": [57.06, 73.05],
+      "zone": "stormwind_city",
+      "tips": [],
+      "quests": [],
+      "npc": "Newton Burnside",
+      "mobs": []
+    },
+    {
+      "id": "stranglethorn_vale_071",
+      "type": "info",
+      "description": "Talk to Newton Burnside and deposit Green Hills of Stranglethorn Pages into your bank",
+      "classes": null,
+      "races": null,
+      "coords": [57.06, 73.05],
+      "zone": "stormwind_city",
+      "tips": [],
+      "quests": [],
+      "npc": "Newton Burnside",
+      "mobs": []
+    },
+    {
+      "id": "stranglethorn_vale_072",
+      "type": "travel",
+      "description": "Travel to the Stormwind Cathedral",
+      "classes": ["Priest", "Paladin"],
+      "races": null,
+      "coords": [42.51, 33.51],
+      "zone": "stormwind_city",
+      "tips": [],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "stranglethorn_vale_073",
+      "type": "info",
+      "description": "Talk to Arthur the Faithful and train your class spells",
+      "classes": ["Paladin"],
+      "races": null,
+      "coords": [38.67, 32.82],
+      "zone": "stormwind_city",
+      "tips": [],
+      "quests": [],
+      "npc": "Arthur the Faithful",
+      "mobs": []
+    },
+    {
+      "id": "stranglethorn_vale_074",
+      "type": "info",
+      "description": "Talk to Brother Joshua and train your class spells",
+      "classes": ["Priest"],
+      "races": null,
+      "coords": [38.54, 26.86],
+      "zone": "stormwind_city",
+      "tips": [],
+      "quests": [],
+      "npc": "Brother Joshua",
+      "mobs": []
+    },
+    {
+      "id": "stranglethorn_vale_075",
+      "type": "info",
+      "description": "Talk to Wu or Ilsa and train your class spells",
+      "classes": ["Warrior"],
+      "races": null,
+      "coords": [78.68, 45.79],
+      "zone": "stormwind_city",
+      "tips": [],
+      "quests": [],
+      "npc": "Ilsa Corbin",
+      "mobs": []
+    },
+    {
+      "id": "stranglethorn_vale_076",
+      "type": "info",
+      "description": "Talk to Osborne and train your class spells",
+      "classes": ["Rogue"],
+      "races": null,
+      "coords": [74.65, 52.83],
+      "zone": "stormwind_city",
+      "tips": [],
+      "quests": [],
+      "npc": "Osborne the Night Man",
+      "mobs": []
+    },
+    {
+      "id": "stranglethorn_vale_077",
+      "type": "travel",
+      "description": "Travel to the Stormwind Keep",
+      "classes": null,
+      "races": null,
+      "coords": [71.68, 25.6],
+      "zone": "stormwind_city",
+      "tips": [],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "stranglethorn_vale_078",
+      "type": "quest_turnin",
+      "description": "Talk to Major Samuelson and turn in Reassignment",
+      "classes": null,
+      "races": null,
+      "coords": [72.571, 15.888],
+      "zone": "stormwind_city",
+      "tips": [],
+      "quests": [
+        {
+          "id": 563,
+          "name": "Reassignment"
+        }
+      ],
+      "npc": "Major Samuelson",
+      "mobs": []
+    },
+    {
+      "id": "stranglethorn_vale_079",
+      "type": "quest_turnin",
+      "description": "Talk to Milton Sheaf and turn in An Old History Book",
+      "classes": null,
+      "races": null,
+      "coords": [74.182, 7.465],
+      "zone": "stormwind_city",
+      "tips": [],
+      "quests": [
+        {
+          "id": 337,
+          "name": "An Old History Book"
+        }
+      ],
+      "npc": "Milton Sheaf",
+      "mobs": []
+    },
+    {
+      "id": "stranglethorn_vale_080",
+      "type": "quest_accept",
+      "description": "Talk to Milton Sheaf and accept Southshore",
+      "classes": null,
+      "races": null,
+      "coords": [74.182, 7.465],
+      "zone": "stormwind_city",
+      "tips": [],
+      "quests": [
+        {
+          "id": 538,
+          "name": "Southshore"
+        }
+      ],
+      "npc": "Milton Sheaf",
+      "mobs": []
+    },
+    {
+      "id": "stranglethorn_vale_081",
+      "type": "info",
+      "description": "Talk to Einris Brightspear and train your class spells",
+      "classes": ["Hunter"],
+      "races": null,
+      "coords": [61.609, 15.269],
+      "zone": "stormwind_city",
+      "tips": [],
+      "quests": [],
+      "npc": "Einris Brightspear",
+      "mobs": []
+    },
+    {
+      "id": "stranglethorn_vale_082",
+      "type": "quest_accept",
+      "description": "Talk to Grimand Elmore, turn in Blessed Arm, and accept Armed and Ready",
+      "classes": null,
+      "races": null,
+      "coords": [51.75, 12.06],
+      "zone": "stormwind_city",
+      "tips": [],
+      "quests": [
+        {
+          "id": 322,
+          "name": "Blessed Arm"
+        },
+        {
+          "id": 325,
+          "name": "Armed and Ready"
+        }
+      ],
+      "npc": "Grimand Elmore",
+      "mobs": []
+    },
+    {
+      "id": "stranglethorn_vale_083",
+      "type": "travel",
+      "description": "Enter the Deeprun Tram. Take the Tram to Ironforge. Level your First Aid if needed while waiting for the Tram",
+      "classes": ["!Mage"],
+      "races": null,
+      "coords": [64.0, 8.1],
+      "zone": "stormwind_city",
+      "tips": [
+        {
+          "type": "warning",
+          "class": null,
+          "text": "Level your First Aid if needed while waiting for the Tram"
+        },
+        {
+          "type": "link",
+          "class": null,
+          "text": "Do a logout skip inside the Tram. Click here for video reference",
+          "url": "https://www.youtube.com/watch?v=M_tXROi9nMQ"
+        }
+      ],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "stranglethorn_vale_084",
+      "type": "info",
+      "description": "Teleport to Ironforge",
+      "classes": ["Mage"],
+      "races": null,
+      "coords": [63.73, 8.43],
+      "zone": "stormwind_city",
+      "tips": [],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "stranglethorn_vale_085",
+      "type": "quest_accept",
+      "description": "Talk to Roetten Stonehammer and accept Reclaimers' Business in Desolace",
+      "classes": null,
+      "races": null,
+      "coords": [69.93, 21.25],
+      "zone": "ironforge",
+      "tips": [
+        {
+          "type": "warning",
+          "class": null,
+          "text": "Roetten Stonehammer patrols the Hall of Explorers"
+        }
+      ],
+      "quests": [
+        {
+          "id": 1453,
+          "name": "Reclaimers' Business in Desolace"
+        }
+      ],
+      "npc": "Roetten Stonehammer",
+      "mobs": []
+    },
+    {
+      "id": "stranglethorn_vale_086",
+      "type": "quest_accept",
+      "description": "Talk to Krom Stoutarm, turn in Tome of the Cabal, and accept Tome of the Cabal",
+      "classes": ["Warlock"],
+      "races": null,
+      "coords": [74.179, 9.371],
+      "zone": "ironforge",
+      "tips": [],
+      "quests": [
+        {
+          "id": 1758,
+          "name": "Tome of the Cabal"
+        },
+        {
+          "id": 1802,
+          "name": "Tome of the Cabal"
+        }
+      ],
+      "npc": "Krom Stoutarm",
+      "mobs": []
+    },
+    {
+      "id": "stranglethorn_vale_087",
+      "type": "info",
+      "description": "Talk to Jubahl Corpseseeker. Buy Grimoires for your Succubus or Voidwalker",
+      "classes": ["Warlock"],
+      "races": null,
+      "coords": [52.701, 6.07],
+      "zone": "ironforge",
+      "tips": [],
+      "quests": [],
+      "npc": "Jubahl Corpseseeker",
+      "mobs": []
+    },
+    {
+      "id": "stranglethorn_vale_088",
+      "type": "info",
+      "description": "Talk to Briarthorn and train your class spells",
+      "classes": ["Warlock"],
+      "races": null,
+      "coords": [50.343, 5.657],
+      "zone": "ironforge",
+      "tips": [],
+      "quests": [],
+      "npc": "Briarthorn",
+      "mobs": []
+    },
+    {
+      "id": "stranglethorn_vale_089",
+      "type": "info",
+      "description": "Talk to an Ironforge Auctioneer. Buy a Hillman's Cloak and a Bolt of Woolen Cloth to complete an optional quest coming up in Hillsbrad Foothills.",
+      "classes": null,
+      "races": null,
+      "coords": [23.8, 71.8],
+      "zone": "ironforge",
+      "tips": [
+        {
+          "type": "warning",
+          "class": null,
+          "text": "You may also craft the Hillman's Cloak with Leatherworking"
+        },
+        {
+          "type": "warning",
+          "class": null,
+          "text": "Skip this step if you cannot acquire them"
+        }
+      ],
+      "quests": [],
+      "npc": "Auctioneer Buckler",
+      "mobs": []
+    },
+    {
+      "id": "stranglethorn_vale_090",
+      "type": "info",
+      "description": "Talk to an Ironforge Auctioneer. Buy a Hillman's Cloak and a Bolt of Woolen Cloth to complete an optional quest coming up in Hillsbrad Foothills.",
+      "classes": null,
+      "races": null,
+      "coords": [23.8, 71.8],
+      "zone": "ironforge",
+      "tips": [
+        {
+          "type": "warning",
+          "class": null,
+          "text": "Skip this step if you cannot acquire them"
+        }
+      ],
+      "quests": [],
+      "npc": "Auctioneer Buckler",
+      "mobs": []
+    }
+  ]
+}

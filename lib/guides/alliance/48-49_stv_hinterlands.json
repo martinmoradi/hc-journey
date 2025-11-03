@@ -1,0 +1,2043 @@
+{
+  "zone": "Stranglethorn Vale",
+  "levelRange": "48-49",
+  "faction": "Alliance",
+  "name": "48-49_stv_hinterlands",
+  "next": "49-50_searing_gorge",
+  "steps": [
+    {
+      "id": "stv_hinterlands_001",
+      "type": "quest_turnin",
+      "description": "Talk to Sea Wolf MacKinley, turn in Deliver to MacKinley, and accept Voodoo Dues",
+      "classes": null,
+      "races": null,
+      "coords": [27.782, 77.071],
+      "zone": "stranglethorn_vale",
+      "tips": [],
+      "quests": [
+        {
+          "id": 2874,
+          "name": "Deliver to MacKinley"
+        },
+        {
+          "id": 609,
+          "name": "Voodoo Dues"
+        }
+      ],
+      "npc": "Sea Wolf MacKinley",
+      "mobs": []
+    },
+    {
+      "id": "stv_hinterlands_002",
+      "type": "quest_accept",
+      "description": "Talk to Crank Fizzlebub and accept Zanzil's Secret",
+      "classes": null,
+      "races": null,
+      "coords": [27.12, 77.208],
+      "zone": "stranglethorn_vale",
+      "tips": [],
+      "quests": [
+        {
+          "id": 621,
+          "name": "Zanzil's Secret"
+        }
+      ],
+      "npc": "Crank Fizzlebub",
+      "mobs": []
+    },
+    {
+      "id": "stv_hinterlands_003",
+      "type": "quest_accept",
+      "description": "Talk to Fleet Master Seahorn and accept The Bloodsail Buccaneers",
+      "classes": null,
+      "races": null,
+      "coords": [27.173, 77.007],
+      "zone": "stranglethorn_vale",
+      "tips": [],
+      "quests": [
+        {
+          "id": 608,
+          "name": "The Bloodsail Buccaneers"
+        }
+      ],
+      "npc": "Fleet Master Seahorn",
+      "mobs": []
+    },
+    {
+      "id": "stv_hinterlands_004",
+      "type": "quest_turnin",
+      "description": "Talk to Oglethorpe Obnoticus and turn in Rescue OOX-22/FE!",
+      "classes": null,
+      "races": null,
+      "coords": [28.358, 76.357],
+      "zone": "stranglethorn_vale",
+      "tips": [],
+      "quests": [
+        {
+          "id": 2767,
+          "name": "Rescue OOX-22/FE!"
+        }
+      ],
+      "npc": "Oglethorpe Obnoticus",
+      "mobs": []
+    },
+    {
+      "id": "stv_hinterlands_005",
+      "type": "travel",
+      "description": "Travel to the Bloodsail Ships",
+      "classes": null,
+      "races": null,
+      "coords": [30.04, 89.38],
+      "zone": "stranglethorn_vale",
+      "tips": [],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "stv_hinterlands_006",
+      "type": "kill",
+      "description": "Kill Captain Keelhaul, Fleet Master Firallon and Captain Stillwater.",
+      "classes": null,
+      "races": null,
+      "coords": [32.89, 88.23],
+      "zone": "stranglethorn_vale",
+      "tips": [
+        {
+          "type": "warning",
+          "class": null,
+          "text": "They are each found on a Bloodsail Ship, on the second floor"
+        },
+        {
+          "type": "warning",
+          "class": null,
+          "text": "Search the bottom floor of each Bloodsail Ship for Cortello's Riddle. It can spawn on any of the ships"
+        },
+        {
+          "type": "warning",
+          "class": null,
+          "text": "Use Cortello's Riddle to start the quest"
+        },
+        {
+          "type": "warning",
+          "class": "Hunter",
+          "text": "Cast Eagle Eye to try and find which location it is in"
+        }
+      ],
+      "quests": [
+        {
+          "id": 608,
+          "name": "The Bloodsail Buccaneers"
+        },
+        {
+          "id": 624,
+          "name": "Cortello's Riddle"
+        }
+      ],
+      "npc": null,
+      "mobs": [
+        "Captain Keelhaul",
+        "Fleet Master Firallon",
+        "Captain Stillwater"
+      ]
+    },
+    {
+      "id": "stv_hinterlands_007",
+      "type": "travel",
+      "description": "Travel to the Ruins of Aboraz",
+      "classes": null,
+      "races": null,
+      "coords": [39.99, 58.24],
+      "zone": "stranglethorn_vale",
+      "tips": [],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "stv_hinterlands_008",
+      "type": "kill",
+      "description": "Kill Chucky Ten Thumbs. Loot him for his Huge Ring",
+      "classes": null,
+      "races": null,
+      "coords": [39.99, 58.24],
+      "zone": "stranglethorn_vale",
+      "tips": [],
+      "quests": [
+        {
+          "id": 609,
+          "name": "Voodoo Dues"
+        }
+      ],
+      "npc": null,
+      "mobs": ["Chucky \"Ten Thumbs\""]
+    },
+    {
+      "id": "stv_hinterlands_009",
+      "type": "travel",
+      "description": "Travel to the Ruins of Jubuwal",
+      "classes": null,
+      "races": null,
+      "coords": [34.92, 51.84],
+      "zone": "stranglethorn_vale",
+      "tips": [],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "stv_hinterlands_010",
+      "type": "kill",
+      "description": "Kill Maury Club Foot Wilkins. Loot him for his Clubbed Foot",
+      "classes": null,
+      "races": null,
+      "coords": [35.26, 51.28],
+      "zone": "stranglethorn_vale",
+      "tips": [],
+      "quests": [
+        {
+          "id": 609,
+          "name": "Voodoo Dues"
+        }
+      ],
+      "npc": null,
+      "mobs": ["Maury \"Club Foot\" Wilkins"]
+    },
+    {
+      "id": "stv_hinterlands_011",
+      "type": "kill",
+      "description": "Kill Jon-Jon the Crow. Loot him for his Golden Spyglass",
+      "classes": null,
+      "races": null,
+      "coords": [34.92, 51.84],
+      "zone": "stranglethorn_vale",
+      "tips": [],
+      "quests": [
+        {
+          "id": 609,
+          "name": "Voodoo Dues"
+        }
+      ],
+      "npc": null,
+      "mobs": ["Jon-Jon the Crow"]
+    },
+    {
+      "id": "stv_hinterlands_012",
+      "type": "kill",
+      "description": "Kill the Zanzils. Loot them for their Mixtures",
+      "classes": null,
+      "races": null,
+      "coords": [34.92, 51.84],
+      "zone": "stranglethorn_vale",
+      "tips": [],
+      "quests": [
+        {
+          "id": 621,
+          "name": "Zanzil's Secret"
+        }
+      ],
+      "npc": null,
+      "mobs": [
+        "Zanzil Witch Doctor",
+        "Zanzil Zombie",
+        "Zanzil Hunter",
+        "Zanzil Naga"
+      ]
+    },
+    {
+      "id": "stv_hinterlands_013",
+      "type": "kill",
+      "description": "Kill Tethis. Loot him for his Talon",
+      "classes": null,
+      "races": null,
+      "coords": [31.12, 43.17],
+      "zone": "stranglethorn_vale",
+      "tips": [
+        {
+          "type": "warning",
+          "class": null,
+          "text": "Tethis will patrol around in this location"
+        }
+      ],
+      "quests": [
+        {
+          "id": 197,
+          "name": "Raptor Mastery"
+        }
+      ],
+      "npc": null,
+      "mobs": ["Tethis"]
+    },
+    {
+      "id": "stv_hinterlands_014",
+      "type": "kill",
+      "description": "Kill Bhag'thera. Loot him for the Fang of Bhag'thera",
+      "classes": null,
+      "races": null,
+      "coords": [49.54, 24.17],
+      "zone": "stranglethorn_vale",
+      "tips": [
+        {
+          "type": "warning",
+          "class": null,
+          "text": "Bhag'thera can spawn north or west of the Mosh'Ogg Ogre Mound"
+        },
+        {
+          "type": "warning",
+          "class": "Hunter",
+          "text": "Cast Eagle Eye to try and locate Bhag'thera"
+        }
+      ],
+      "quests": [
+        {
+          "id": 193,
+          "name": "Panther Mastery"
+        }
+      ],
+      "npc": null,
+      "mobs": ["Bhag'thera"]
+    },
+    {
+      "id": "stv_hinterlands_015",
+      "type": "quest_turnin",
+      "description": "Talk to Sir S. J. Erlgadin and Hemet Nesingwary, turn in Panther Mastery and Raptor Mastery, and accept Big Game Hunter",
+      "classes": null,
+      "races": null,
+      "coords": [35.658, 10.808],
+      "zone": "stranglethorn_vale",
+      "tips": [],
+      "quests": [
+        {
+          "id": 193,
+          "name": "Panther Mastery"
+        },
+        {
+          "id": 197,
+          "name": "Raptor Mastery"
+        },
+        {
+          "id": 208,
+          "name": "Big Game Hunter"
+        }
+      ],
+      "npc": "Hemet Nesingwary",
+      "mobs": []
+    },
+    {
+      "id": "stv_hinterlands_016",
+      "type": "kill",
+      "description": "Kill King Bangalash. Loot him for the Head of Bangalash.",
+      "classes": null,
+      "races": null,
+      "coords": [38.2, 35.57],
+      "zone": "stranglethorn_vale",
+      "tips": [
+        {
+          "type": "warning",
+          "class": null,
+          "text": "Use the Flash Bomb on King Bangalash when he is at 55%"
+        },
+        {
+          "type": "warning",
+          "class": null,
+          "text": "King Bangalash will spawn 2 Panthers at 50% health. Try to CC him just before 50% if possible so it prevents him from spawning any"
+        },
+        {
+          "type": "warning",
+          "class": null,
+          "text": "If you are not confident, skip this step"
+        }
+      ],
+      "quests": [
+        {
+          "id": 208,
+          "name": "Big Game Hunter"
+        }
+      ],
+      "npc": null,
+      "mobs": ["King Bangalash"]
+    },
+    {
+      "id": "stv_hinterlands_017",
+      "type": "quest_turnin",
+      "description": "Talk to Hemet Nesingwary and turn in Big Game Hunter",
+      "classes": null,
+      "races": null,
+      "coords": [35.658, 10.808],
+      "zone": "stranglethorn_vale",
+      "tips": [],
+      "quests": [
+        {
+          "id": 208,
+          "name": "Big Game Hunter"
+        }
+      ],
+      "npc": "Hemet Nesingwary",
+      "mobs": []
+    },
+    {
+      "id": "stv_hinterlands_018",
+      "type": "info",
+      "description": "Abandon Big Game Hunter",
+      "classes": null,
+      "races": null,
+      "coords": null,
+      "zone": "",
+      "tips": [],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "stv_hinterlands_019",
+      "type": "travel",
+      "description": "Travel to Booty Bay",
+      "classes": null,
+      "races": null,
+      "coords": [28.97, 73.05],
+      "zone": "stranglethorn_vale",
+      "tips": [],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "stv_hinterlands_020",
+      "type": "quest_turnin",
+      "description": "Talk to Sea Wolf MacKinley and turn in Voodoo Dues",
+      "classes": null,
+      "races": null,
+      "coords": [27.782, 77.071],
+      "zone": "stranglethorn_vale",
+      "tips": [],
+      "quests": [
+        {
+          "id": 609,
+          "name": "Voodoo Dues"
+        }
+      ],
+      "npc": "Sea Wolf MacKinley",
+      "mobs": []
+    },
+    {
+      "id": "stv_hinterlands_021",
+      "type": "quest_turnin",
+      "description": "Talk to Whiskey Slim and Crank Fizzlebub, accept Whiskey Slim's Lost Grog, turn in Zanzil's Secret, and accept Zanzil's Mixture and a Fool's Stout",
+      "classes": null,
+      "races": null,
+      "coords": [27.12, 77.208],
+      "zone": "stranglethorn_vale",
+      "tips": [],
+      "quests": [
+        {
+          "id": 580,
+          "name": "Whiskey Slim's Lost Grog"
+        },
+        {
+          "id": 621,
+          "name": "Zanzil's Secret"
+        },
+        {
+          "id": 1119,
+          "name": "Zanzil's Mixture and a Fool's Stout"
+        }
+      ],
+      "npc": "Crank Fizzlebub",
+      "mobs": []
+    },
+    {
+      "id": "stv_hinterlands_022",
+      "type": "quest_turnin",
+      "description": "Talk to Fleet Master Seahorn and turn in The Bloodsail Buccaneers",
+      "classes": null,
+      "races": null,
+      "coords": [27.173, 77.007],
+      "zone": "stranglethorn_vale",
+      "tips": [],
+      "quests": [
+        {
+          "id": 608,
+          "name": "The Bloodsail Buccaneers"
+        }
+      ],
+      "npc": "Fleet Master Seahorn",
+      "mobs": []
+    },
+    {
+      "id": "stv_hinterlands_023",
+      "type": "info",
+      "description": "Talk to Viznik or Rickle. Withdraw from your bank: A Sycamore Branch (If you have it) and Sharpbeak's Feather",
+      "classes": null,
+      "races": null,
+      "coords": [26.539, 76.57],
+      "zone": "stranglethorn_vale",
+      "tips": [],
+      "quests": [],
+      "npc": "Viznik Goldgrubber",
+      "mobs": []
+    },
+    {
+      "id": "stv_hinterlands_024",
+      "type": "info",
+      "description": "Abandon The Bloodsail Buccaneers",
+      "classes": null,
+      "races": null,
+      "coords": null,
+      "zone": "",
+      "tips": [],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "stv_hinterlands_025",
+      "type": "fly",
+      "description": "Talk to Gyll and fly to Westfall",
+      "classes": null,
+      "races": null,
+      "coords": [27.53, 77.787],
+      "zone": "stranglethorn_vale",
+      "tips": [],
+      "quests": [],
+      "npc": "Gyll",
+      "mobs": []
+    },
+    {
+      "id": "stv_hinterlands_026",
+      "type": "quest_turnin",
+      "description": "Talk to Grimbooze Thunderbrew, turn in Sweet Amber, and accept Sweet Amber",
+      "classes": null,
+      "races": null,
+      "coords": [44.62, 80.254],
+      "zone": "westfall",
+      "tips": [],
+      "quests": [
+        {
+          "id": 51,
+          "name": "Sweet Amber"
+        },
+        {
+          "id": 53,
+          "name": "Sweet Amber"
+        }
+      ],
+      "npc": "Grimbooze Thunderbrew",
+      "mobs": []
+    },
+    {
+      "id": "stv_hinterlands_027",
+      "type": "fly",
+      "description": "Talk to Thor and fly to Stormwind",
+      "classes": ["!Mage"],
+      "races": null,
+      "coords": [56.556, 52.643],
+      "zone": "westfall",
+      "tips": [],
+      "quests": [],
+      "npc": "Thor",
+      "mobs": []
+    },
+    {
+      "id": "stv_hinterlands_028",
+      "type": "fly",
+      "description": "Talk to Gyll and fly to Stormwind",
+      "classes": ["!Mage"],
+      "races": null,
+      "coords": [27.53, 77.787],
+      "zone": "stranglethorn_vale",
+      "tips": [],
+      "quests": [],
+      "npc": "Gyll",
+      "mobs": []
+    },
+    {
+      "id": "stv_hinterlands_029",
+      "type": "info",
+      "description": "Teleport to Stormwind City",
+      "classes": ["Mage"],
+      "races": null,
+      "coords": null,
+      "zone": "",
+      "tips": [],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "stv_hinterlands_030",
+      "type": "info",
+      "description": "Talk to Jennea and train your class spells",
+      "classes": ["Mage"],
+      "races": null,
+      "coords": [36.87, 81.14],
+      "zone": "stormwind_city",
+      "tips": [],
+      "quests": [],
+      "npc": "Jennea Cannon",
+      "mobs": []
+    },
+    {
+      "id": "stv_hinterlands_031",
+      "type": "info",
+      "description": "Talk to Sheldras Moontree and train your class spells",
+      "classes": ["Druid"],
+      "races": null,
+      "coords": [20.898, 55.491],
+      "zone": "stormwind_city",
+      "tips": [],
+      "quests": [],
+      "npc": "Sheldras Moontree",
+      "mobs": []
+    },
+    {
+      "id": "stv_hinterlands_032",
+      "type": "travel",
+      "description": "Travel to the Stormwind Cathedral",
+      "classes": ["Priest", "Paladin"],
+      "races": null,
+      "coords": [42.51, 33.51],
+      "zone": "stormwind_city",
+      "tips": [],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "stv_hinterlands_033",
+      "type": "info",
+      "description": "Talk to Arthur the Faithful and train your class spells",
+      "classes": ["Paladin"],
+      "races": null,
+      "coords": [38.67, 32.82],
+      "zone": "stormwind_city",
+      "tips": [],
+      "quests": [],
+      "npc": "Arthur the Faithful",
+      "mobs": []
+    },
+    {
+      "id": "stv_hinterlands_034",
+      "type": "info",
+      "description": "Talk to Brother Joshua and train your class spells",
+      "classes": ["Priest"],
+      "races": null,
+      "coords": [38.54, 26.86],
+      "zone": "stormwind_city",
+      "tips": [],
+      "quests": [],
+      "npc": "Brother Joshua",
+      "mobs": []
+    },
+    {
+      "id": "stv_hinterlands_035",
+      "type": "info",
+      "description": "Talk to Einris Brightspear and train your class spells",
+      "classes": ["Hunter"],
+      "races": null,
+      "coords": [61.609, 15.269],
+      "zone": "stormwind_city",
+      "tips": [],
+      "quests": [],
+      "npc": "Einris Brightspear",
+      "mobs": []
+    },
+    {
+      "id": "stv_hinterlands_036",
+      "type": "info",
+      "description": "Talk to Wu or Ilsa and train your class spells",
+      "classes": ["Warrior"],
+      "races": null,
+      "coords": [78.68, 45.79],
+      "zone": "stormwind_city",
+      "tips": [],
+      "quests": [],
+      "npc": "Ilsa Corbin",
+      "mobs": []
+    },
+    {
+      "id": "stv_hinterlands_037",
+      "type": "info",
+      "description": "Talk to Osborne and train your class spells",
+      "classes": ["Rogue"],
+      "races": null,
+      "coords": [74.65, 52.83],
+      "zone": "stormwind_city",
+      "tips": [],
+      "quests": [],
+      "npc": "Osborne the Night Man",
+      "mobs": []
+    },
+    {
+      "id": "stv_hinterlands_038",
+      "type": "travel",
+      "description": "Go into The Slaughtered Lamb and go downstairs",
+      "classes": ["Warlock"],
+      "races": null,
+      "coords": [27.2, 78.1],
+      "zone": "stormwind_city",
+      "tips": [],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "stv_hinterlands_039",
+      "type": "info",
+      "description": "Talk to Ursula Deline and train your class spells",
+      "classes": ["Warlock"],
+      "races": null,
+      "coords": [26.117, 77.225],
+      "zone": "stormwind_city",
+      "tips": [],
+      "quests": [],
+      "npc": "Ursula Deline",
+      "mobs": []
+    },
+    {
+      "id": "stv_hinterlands_040",
+      "type": "info",
+      "description": "Talk to Spackle Thornberry. Buy Grimoires for your pets",
+      "classes": ["Warlock"],
+      "races": null,
+      "coords": [25.665, 77.649],
+      "zone": "stormwind_city",
+      "tips": [],
+      "quests": [],
+      "npc": "Spackle Thornberry",
+      "mobs": []
+    },
+    {
+      "id": "stv_hinterlands_041",
+      "type": "info",
+      "description": "Talk to Auctioneer Jaxon. Buy Gorilla Fang for a faster turn in at STV later.",
+      "classes": null,
+      "races": null,
+      "coords": [53.612, 59.764],
+      "zone": "stormwind_city",
+      "tips": [
+        {
+          "type": "warning",
+          "class": null,
+          "text": "This will save you time as you won't need to run around looking for mobs to kill. Skip this step if you wish to not buy any"
+        },
+        {
+          "type": "warning",
+          "class": null,
+          "text": "Remember to check your bank before you buy any as you may have found some earlier"
+        }
+      ],
+      "quests": [],
+      "npc": "Auctioneer Jaxon",
+      "mobs": []
+    },
+    {
+      "id": "stv_hinterlands_042",
+      "type": "info",
+      "description": "Talk to Auctioneer Jaxon. Buy Red Power Crystal, Green Power Crystal, Blue Power Crystal, and Yellow Power Crystal for a faster turn in at Un'Goro Crater later.",
+      "classes": null,
+      "races": null,
+      "coords": [53.612, 59.764],
+      "zone": "stormwind_city",
+      "tips": [
+        {
+          "type": "warning",
+          "class": null,
+          "text": "This will save you time as you won't need to run around looking for them. Skip this step if you wish to not buy any"
+        }
+      ],
+      "quests": [],
+      "npc": "Auctioneer Jaxon",
+      "mobs": []
+    },
+    {
+      "id": "stv_hinterlands_043",
+      "type": "fly",
+      "description": "Talk to Dungar Longdrink and fly to Darkshire",
+      "classes": null,
+      "races": null,
+      "coords": [66.277, 62.137],
+      "zone": "stormwind_city",
+      "tips": [],
+      "quests": [],
+      "npc": "Dungar Longdrink",
+      "mobs": []
+    },
+    {
+      "id": "stv_hinterlands_044",
+      "type": "quest_accept",
+      "description": "Talk to Watchmaster Sorigal and accept Supplies for Nethergarde",
+      "classes": null,
+      "races": null,
+      "coords": [75.779, 46.159],
+      "zone": "duskwood",
+      "tips": [],
+      "quests": [
+        {
+          "id": 1395,
+          "name": "Supplies for Nethergarde"
+        }
+      ],
+      "npc": "Watchmaster Sorigal",
+      "mobs": []
+    },
+    {
+      "id": "stv_hinterlands_045",
+      "type": "fly",
+      "description": "Talk to Felicia Maline and fly to Nethergarde Keep",
+      "classes": null,
+      "races": null,
+      "coords": [77.486, 44.287],
+      "zone": "duskwood",
+      "tips": [],
+      "quests": [],
+      "npc": "Felicia Maline",
+      "mobs": []
+    },
+    {
+      "id": "stv_hinterlands_046",
+      "type": "quest_turnin",
+      "description": "Talk to Quartermaster Lungertz and turn in Supplies for Nethergarde",
+      "classes": null,
+      "races": null,
+      "coords": [66.522, 21.386],
+      "zone": "blasted_lands",
+      "tips": [],
+      "quests": [
+        {
+          "id": 1395,
+          "name": "Supplies for Nethergarde"
+        }
+      ],
+      "npc": "Quartermaster Lungertz",
+      "mobs": []
+    },
+    {
+      "id": "stv_hinterlands_047",
+      "type": "quest_turnin",
+      "description": "Talk to Thadius Grimshade atop the Tower and turn in Thadius Grimshade",
+      "classes": null,
+      "races": null,
+      "coords": [66.898, 19.469],
+      "zone": "blasted_lands",
+      "tips": [],
+      "quests": [
+        {
+          "id": 2990,
+          "name": "Thadius Grimshade"
+        }
+      ],
+      "npc": "Thadius Grimshade",
+      "mobs": []
+    },
+    {
+      "id": "stv_hinterlands_048",
+      "type": "quest_accept",
+      "description": "Talk to Thadius Grimshade atop the Tower and accept Nekrum's Medallion",
+      "classes": null,
+      "races": null,
+      "coords": [66.898, 19.469],
+      "zone": "blasted_lands",
+      "tips": [],
+      "quests": [
+        {
+          "id": 2991,
+          "name": "Nekrum's Medallion"
+        }
+      ],
+      "npc": "Thadius Grimshade",
+      "mobs": []
+    },
+    {
+      "id": "stv_hinterlands_049",
+      "type": "travel",
+      "description": "Travel to Swamp of Sorrows",
+      "classes": null,
+      "races": null,
+      "coords": [33.6, 65.32],
+      "zone": "swamp_of_sorrows",
+      "tips": [
+        {
+          "type": "warning",
+          "class": null,
+          "text": "Be very careful of Stonard Scouts anytime you are in Swamp of Sorrows. If one ever attacks you, you will be PvP Flagged for 5 minutes"
+        }
+      ],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "stv_hinterlands_050",
+      "type": "quest_turnin",
+      "description": "Click A Soggy Scroll in the water under the bridge, turn in Cortello's Riddle, and accept Cortello's Riddle",
+      "classes": null,
+      "races": null,
+      "coords": [22.87, 48.18],
+      "zone": "swamp_of_sorrows",
+      "tips": [],
+      "quests": [
+        {
+          "id": 624,
+          "name": "Cortello's Riddle"
+        },
+        {
+          "id": 625,
+          "name": "Cortello's Riddle"
+        }
+      ],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "stv_hinterlands_051",
+      "type": "kill",
+      "description": "Kill Jarquia. Loot him for his Balanced Flameberge.",
+      "classes": null,
+      "races": null,
+      "coords": [94.386, 61.489],
+      "zone": "swamp_of_sorrows",
+      "tips": [
+        {
+          "type": "warning",
+          "class": null,
+          "text": "Jarquia has a few different spawn locations along the coast"
+        }
+      ],
+      "quests": [
+        {
+          "id": 4450,
+          "name": "Ledger from Tanaris"
+        }
+      ],
+      "npc": null,
+      "mobs": ["Jarquia"]
+    },
+    {
+      "id": "stv_hinterlands_052",
+      "type": "info",
+      "description": "Hearth to Gadgetzan",
+      "classes": null,
+      "races": null,
+      "coords": null,
+      "zone": "",
+      "tips": [],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "stv_hinterlands_053",
+      "type": "info",
+      "description": "Talk to Gimblethorn. Deposit Goodsteel's Balanced Flameberge into your bank",
+      "classes": null,
+      "races": null,
+      "coords": [52.297, 28.915],
+      "zone": "tanaris",
+      "tips": [],
+      "quests": [],
+      "npc": "Gimblethorn",
+      "mobs": []
+    },
+    {
+      "id": "stv_hinterlands_054",
+      "type": "info",
+      "description": "Talk to Gimblethorn. Withdraw Unhatched Sprite Darter Egg from your bank",
+      "classes": null,
+      "races": null,
+      "coords": [52.297, 28.915],
+      "zone": "tanaris",
+      "tips": [],
+      "quests": [],
+      "npc": "Gimblethorn",
+      "mobs": []
+    },
+    {
+      "id": "stv_hinterlands_055",
+      "type": "travel",
+      "description": "Travel to the Mirage Raceway",
+      "classes": null,
+      "races": null,
+      "coords": [77.782, 77.263],
+      "zone": "thousand_needles",
+      "tips": [],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "stv_hinterlands_056",
+      "type": "quest_turnin",
+      "description": "Talk to Kravel Koalbeard, turn in Zanzil's Mixture and a Fool's Stout, and accept Get the Gnomes Drunk",
+      "classes": null,
+      "races": null,
+      "coords": [77.782, 77.263],
+      "zone": "thousand_needles",
+      "tips": [],
+      "quests": [
+        {
+          "id": 1119,
+          "name": "Zanzil's Mixture and a Fool's Stout"
+        },
+        {
+          "id": 1120,
+          "name": "Get the Gnomes Drunk"
+        }
+      ],
+      "npc": "Kravel Koalbeard",
+      "mobs": []
+    },
+    {
+      "id": "stv_hinterlands_057",
+      "type": "quest_turnin",
+      "description": "Talk to Gnome Pit Boss and turn in Get the Gnomes Drunk",
+      "classes": null,
+      "races": null,
+      "coords": [77.563, 76.941],
+      "zone": "thousand_needles",
+      "tips": [],
+      "quests": [
+        {
+          "id": 1120,
+          "name": "Get the Gnomes Drunk"
+        }
+      ],
+      "npc": "Gnome Pit Boss",
+      "mobs": []
+    },
+    {
+      "id": "stv_hinterlands_058",
+      "type": "quest_accept",
+      "description": "Talk to Kravel Koalbeard and accept Report Back to Fizzlebub",
+      "classes": null,
+      "races": null,
+      "coords": [77.782, 77.263],
+      "zone": "thousand_needles",
+      "tips": [],
+      "quests": [
+        {
+          "id": 1122,
+          "name": "Report Back to Fizzlebub"
+        }
+      ],
+      "npc": "Kravel Koalbeard",
+      "mobs": []
+    },
+    {
+      "id": "stv_hinterlands_059",
+      "type": "quest_turnin",
+      "description": "Talk to Quentin, turn in An Orphan Looking For a Home, accept A Short Incubation, and turn in A Short Incubation",
+      "classes": null,
+      "races": null,
+      "coords": [78.347, 74.725],
+      "zone": "thousand_needles",
+      "tips": [],
+      "quests": [
+        {
+          "id": 3841,
+          "name": "An Orphan Looking For a Home"
+        },
+        {
+          "id": 3842,
+          "name": "A Short Incubation"
+        }
+      ],
+      "npc": "Quentin",
+      "mobs": []
+    },
+    {
+      "id": "stv_hinterlands_060",
+      "type": "quest_accept",
+      "description": "Talk to Wizzle Brassbolts and accept Gahz'rilla",
+      "classes": null,
+      "races": null,
+      "coords": [78.143, 77.12],
+      "zone": "thousand_needles",
+      "tips": [],
+      "quests": [
+        {
+          "id": 2770,
+          "name": "Gahz'rilla"
+        }
+      ],
+      "npc": "Wizzle Brassbolts",
+      "mobs": []
+    },
+    {
+      "id": "stv_hinterlands_061",
+      "type": "quest_accept",
+      "description": "Talk to Trenton Lighthammer and accept Troll Temper",
+      "classes": null,
+      "races": null,
+      "coords": [51.413, 28.752],
+      "zone": "tanaris",
+      "tips": [],
+      "quests": [
+        {
+          "id": 3042,
+          "name": "Troll Temper"
+        }
+      ],
+      "npc": "Trenton Lighthammer",
+      "mobs": []
+    },
+    {
+      "id": "stv_hinterlands_062",
+      "type": "quest_accept",
+      "description": "Talk to Chief Engineer Bilgewhizzle and accept Divino-matic Rod",
+      "classes": null,
+      "races": null,
+      "coords": [52.462, 28.514],
+      "zone": "tanaris",
+      "tips": [],
+      "quests": [
+        {
+          "id": 2768,
+          "name": "Divino-matic Rod"
+        }
+      ],
+      "npc": "Chief Engineer Bilgewhizzle",
+      "mobs": []
+    },
+    {
+      "id": "stv_hinterlands_063",
+      "type": "quest_accept",
+      "description": "Talk to Tran'rek and accept Scarab Shells",
+      "classes": null,
+      "races": null,
+      "coords": [51.566, 26.759],
+      "zone": "tanaris",
+      "tips": [],
+      "quests": [
+        {
+          "id": 2865,
+          "name": "Scarab Shells"
+        }
+      ],
+      "npc": "Tran'rek",
+      "mobs": []
+    },
+    {
+      "id": "stv_hinterlands_064",
+      "type": "quest_accept",
+      "description": "Talk to Yeh'kinya and accept The Prophecy of Mosh'aru",
+      "classes": null,
+      "races": null,
+      "coords": [66.989, 22.354],
+      "zone": "tanaris",
+      "tips": [],
+      "quests": [
+        {
+          "id": 3527,
+          "name": "The Prophecy of Mosh'aru"
+        }
+      ],
+      "npc": "Yeh'kinya",
+      "mobs": []
+    },
+    {
+      "id": "stv_hinterlands_065",
+      "type": "travel",
+      "description": "You will now run Zul'Farrak. Grind on Pirates while looking for a ZF group. Enter Zul'Farrak",
+      "classes": null,
+      "races": null,
+      "coords": [38.731, 19.839],
+      "zone": "tanaris",
+      "tips": [],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "stv_hinterlands_066",
+      "type": "kill",
+      "description": "Kill Theka the Martyr. Loot him for the First Mosh'aru Tablet",
+      "classes": null,
+      "races": null,
+      "coords": null,
+      "zone": "zul_farrak",
+      "tips": [],
+      "quests": [
+        {
+          "id": 3527,
+          "name": "The Prophecy of Mosh'aru"
+        }
+      ],
+      "npc": null,
+      "mobs": ["Theka the Martyr"]
+    },
+    {
+      "id": "stv_hinterlands_067",
+      "type": "kill",
+      "description": "Kill Scarabs. Loot them for their Uncracked Scarab Shell",
+      "classes": null,
+      "races": null,
+      "coords": null,
+      "zone": "zul_farrak",
+      "tips": [],
+      "quests": [
+        {
+          "id": 2865,
+          "name": "Scarab Shells"
+        }
+      ],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "stv_hinterlands_068",
+      "type": "info",
+      "description": "Ascend the Pyramid. Kill the Sandfury Executioner. Loot him for the Executioner's Key.",
+      "classes": null,
+      "races": null,
+      "coords": null,
+      "zone": "zul_farrak",
+      "tips": [
+        {
+          "type": "warning",
+          "class": null,
+          "text": "Anyone in the party may loot the Key"
+        },
+        {
+          "type": "warning",
+          "class": null,
+          "text": "Use the Executioner's Key on one of the Troll Cages to free Sergeant Bly and his band"
+        }
+      ],
+      "quests": [],
+      "npc": null,
+      "mobs": ["Sandfury Executioner"]
+    },
+    {
+      "id": "stv_hinterlands_069",
+      "type": "kill",
+      "description": "Defend Sergeant Bly and his band, then move down with them after a short period of time. Kill Nekrum Gutchewer. Loot him for Nekrum's Medallion. After you kill Nekrum Gutchewer, eat and drink then talk to Sergeant Bly to fight him. Kill Sergeant Bly. Loot him for the Divino-matic Rod",
+      "classes": null,
+      "races": null,
+      "coords": null,
+      "zone": "zul_farrak",
+      "tips": [],
+      "quests": [
+        {
+          "id": 2991,
+          "name": "Nekrum's Medallion"
+        },
+        {
+          "id": 2768,
+          "name": "Divino-matic Rod"
+        }
+      ],
+      "npc": null,
+      "mobs": ["Nekrum Gutchewer", "Sergeant Bly"]
+    },
+    {
+      "id": "stv_hinterlands_070",
+      "type": "kill",
+      "description": "Kill Hydromancer Velratha. Loot her for the Tiara of the Deep and the Second Mosh'aru Tablet",
+      "classes": null,
+      "races": null,
+      "coords": null,
+      "zone": "zul_farrak",
+      "tips": [],
+      "quests": [
+        {
+          "id": 2846,
+          "name": "Tiara of the Deep"
+        },
+        {
+          "id": 3527,
+          "name": "The Prophecy of Mosh'aru"
+        }
+      ],
+      "npc": null,
+      "mobs": ["Hydromancer Velratha"]
+    },
+    {
+      "id": "stv_hinterlands_071",
+      "type": "kill",
+      "description": "Kill Gahz'rilla. Loot him for Gahz'rilla's Electrified Scale.",
+      "classes": null,
+      "races": null,
+      "coords": null,
+      "zone": "zul_farrak",
+      "tips": [
+        {
+          "type": "warning",
+          "class": null,
+          "text": "Use the Mallet of Zul'Farrak on the Gong of Zul'Farrak to summon Gahz'rilla"
+        },
+        {
+          "type": "warning",
+          "class": null,
+          "text": "If no one in your party has the Mallet of Zul'Farrak you will not be able to summon Gahz'rilla"
+        }
+      ],
+      "quests": [
+        {
+          "id": 2770,
+          "name": "Gahz'rilla"
+        }
+      ],
+      "npc": null,
+      "mobs": ["Gahz'rilla"]
+    },
+    {
+      "id": "stv_hinterlands_072",
+      "type": "kill",
+      "description": "Kill Trolls. Loot them for their Troll Temper",
+      "classes": null,
+      "races": null,
+      "coords": null,
+      "zone": "zul_farrak",
+      "tips": [],
+      "quests": [
+        {
+          "id": 3042,
+          "name": "Troll Temper"
+        }
+      ],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "stv_hinterlands_073",
+      "type": "info",
+      "description": "Hearth to Gadgetzan",
+      "classes": null,
+      "races": null,
+      "coords": null,
+      "zone": "",
+      "tips": [],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "stv_hinterlands_074",
+      "type": "quest_turnin",
+      "description": "Talk to Trenton Lighthammer and turn in Troll Temper",
+      "classes": null,
+      "races": null,
+      "coords": [51.413, 28.752],
+      "zone": "tanaris",
+      "tips": [],
+      "quests": [
+        {
+          "id": 3042,
+          "name": "Troll Temper"
+        }
+      ],
+      "npc": "Trenton Lighthammer",
+      "mobs": []
+    },
+    {
+      "id": "stv_hinterlands_075",
+      "type": "quest_turnin",
+      "description": "Talk to Chief Engineer Bilgewhizzle and turn in Divino-matic Rod",
+      "classes": null,
+      "races": null,
+      "coords": [52.462, 28.514],
+      "zone": "tanaris",
+      "tips": [],
+      "quests": [
+        {
+          "id": 2768,
+          "name": "Divino-matic Rod"
+        }
+      ],
+      "npc": "Chief Engineer Bilgewhizzle",
+      "mobs": []
+    },
+    {
+      "id": "stv_hinterlands_076",
+      "type": "quest_turnin",
+      "description": "Talk to Tran'rek and turn in Scarab Shells",
+      "classes": null,
+      "races": null,
+      "coords": [51.566, 26.759],
+      "zone": "tanaris",
+      "tips": [],
+      "quests": [
+        {
+          "id": 2865,
+          "name": "Scarab Shells"
+        }
+      ],
+      "npc": "Tran'rek",
+      "mobs": []
+    },
+    {
+      "id": "stv_hinterlands_077",
+      "type": "quest_turnin",
+      "description": "Talk to Yeh'kinya and turn in The Prophecy of Mosh'aru",
+      "classes": null,
+      "races": null,
+      "coords": [66.989, 22.354],
+      "zone": "tanaris",
+      "tips": [],
+      "quests": [
+        {
+          "id": 3527,
+          "name": "The Prophecy of Mosh'aru"
+        }
+      ],
+      "npc": "Yeh'kinya",
+      "mobs": []
+    },
+    {
+      "id": "stv_hinterlands_078",
+      "type": "travel",
+      "description": "Travel to the Mirage Raceway",
+      "classes": null,
+      "races": null,
+      "coords": [77.782, 77.263],
+      "zone": "thousand_needles",
+      "tips": [],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "stv_hinterlands_079",
+      "type": "quest_turnin",
+      "description": "Talk to Wizzle Brassbolts and turn in Gahz'rilla",
+      "classes": null,
+      "races": null,
+      "coords": [78.143, 77.12],
+      "zone": "thousand_needles",
+      "tips": [],
+      "quests": [
+        {
+          "id": 2770,
+          "name": "Gahz'rilla"
+        }
+      ],
+      "npc": "Wizzle Brassbolts",
+      "mobs": []
+    },
+    {
+      "id": "stv_hinterlands_081",
+      "type": "quest_accept",
+      "description": "Talk to Quentin and accept The Newest Member of the Family",
+      "classes": null,
+      "races": null,
+      "coords": [78.347, 74.725],
+      "zone": "thousand_needles",
+      "tips": [],
+      "quests": [
+        {
+          "id": 3843,
+          "name": "The Newest Member of the Family"
+        }
+      ],
+      "npc": "Quentin",
+      "mobs": []
+    },
+    {
+      "id": "stv_hinterlands_082",
+      "type": "info",
+      "description": "Talk to Gimblethorn. Withdraw Super Snapper FX from your bank",
+      "classes": null,
+      "races": null,
+      "coords": [52.297, 28.915],
+      "zone": "tanaris",
+      "tips": [],
+      "quests": [],
+      "npc": "Gimblethorn",
+      "mobs": []
+    },
+    {
+      "id": "stv_hinterlands_083",
+      "type": "info",
+      "description": "Talk to Gimblethorn. Deposit Fool's Stout Report into your bank",
+      "classes": null,
+      "races": null,
+      "coords": [52.297, 28.915],
+      "zone": "tanaris",
+      "tips": [],
+      "quests": [],
+      "npc": "Gimblethorn",
+      "mobs": []
+    },
+    {
+      "id": "stv_hinterlands_084",
+      "type": "fly",
+      "description": "Talk to Bera Stonehammer and fly to Theramore",
+      "classes": null,
+      "races": null,
+      "coords": [51.006, 29.345],
+      "zone": "tanaris",
+      "tips": [],
+      "quests": [],
+      "npc": "Bera Stonehammer",
+      "mobs": []
+    },
+    {
+      "id": "stv_hinterlands_085",
+      "type": "info",
+      "description": "Talk to Innkeeper Janene. Set your Hearthstone to Theramore",
+      "classes": null,
+      "races": null,
+      "coords": [66.587, 45.223],
+      "zone": "dustwallow_marsh",
+      "tips": [],
+      "quests": [],
+      "npc": "Innkeeper Janene",
+      "mobs": []
+    },
+    {
+      "id": "stv_hinterlands_086",
+      "type": "travel",
+      "description": "Swim to the hill west",
+      "classes": null,
+      "races": null,
+      "coords": [55.26, 50.54],
+      "zone": "dustwallow_marsh",
+      "tips": [],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "stv_hinterlands_087",
+      "type": "loot",
+      "description": "Open the Damaged Crate. Loot it for the Overdue Package",
+      "classes": null,
+      "races": null,
+      "coords": [54.079, 55.897],
+      "zone": "dustwallow_marsh",
+      "tips": [],
+      "quests": [
+        {
+          "id": 4450,
+          "name": "Ledger from Tanaris"
+        }
+      ],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "stv_hinterlands_088",
+      "type": "quest_turnin",
+      "description": "Talk to Tabetha and turn in Tiara of the Deep",
+      "classes": null,
+      "races": null,
+      "coords": [46.021, 57.096],
+      "zone": "dustwallow_marsh",
+      "tips": [],
+      "quests": [
+        {
+          "id": 2846,
+          "name": "Tiara of the Deep"
+        }
+      ],
+      "npc": "Tabetha",
+      "mobs": []
+    },
+    {
+      "id": "stv_hinterlands_089",
+      "type": "quest_turnin",
+      "description": "Click the Musty Scroll on the rock, turn in Cortello's Riddle, and accept Cortello's Riddle",
+      "classes": null,
+      "races": null,
+      "coords": [31.098, 66.145],
+      "zone": "dustwallow_marsh",
+      "tips": [],
+      "quests": [
+        {
+          "id": 625,
+          "name": "Cortello's Riddle"
+        },
+        {
+          "id": 626,
+          "name": "Cortello's Riddle"
+        }
+      ],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "stv_hinterlands_091",
+      "type": "travel",
+      "description": "Travel to Theramore Isle",
+      "classes": null,
+      "races": null,
+      "coords": [67.476, 51.3],
+      "zone": "dustwallow_marsh",
+      "tips": [],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "stv_hinterlands_092",
+      "type": "travel",
+      "description": "Take the boat to Menethil Harbor",
+      "classes": null,
+      "races": null,
+      "coords": [71.4, 56.1],
+      "zone": "dustwallow_marsh",
+      "tips": [],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "stv_hinterlands_093",
+      "type": "fly",
+      "description": "Talk to Shellei Brondir and fly to Hinterlands",
+      "classes": null,
+      "races": null,
+      "coords": [9.49, 59.693],
+      "zone": "wetlands",
+      "tips": [],
+      "quests": [],
+      "npc": "Shellei Brondir",
+      "mobs": []
+    },
+    {
+      "id": "stv_hinterlands_094",
+      "type": "quest_accept",
+      "description": "Talk to Fraggar Thundermantle and accept Skulk Rock Clean-up",
+      "classes": null,
+      "races": null,
+      "coords": [14.834, 44.567],
+      "zone": "the_hinterlands",
+      "tips": [],
+      "quests": [
+        {
+          "id": 2877,
+          "name": "Skulk Rock Clean-up"
+        }
+      ],
+      "npc": "Fraggar Thundermantle",
+      "mobs": []
+    },
+    {
+      "id": "stv_hinterlands_095",
+      "type": "info",
+      "description": "Talk to Innkeeper Thulfram. Set Hearthstone to Aerie Peak. Innkeeper Thulfram patrols upstairs",
+      "classes": null,
+      "races": null,
+      "coords": [13.644, 41.732],
+      "zone": "the_hinterlands",
+      "tips": [
+        {
+          "type": "warning",
+          "class": null,
+          "text": "Innkeeper Thulfram patrols upstairs"
+        }
+      ],
+      "quests": [],
+      "npc": "Innkeeper Thulfram",
+      "mobs": []
+    },
+    {
+      "id": "stv_hinterlands_096",
+      "type": "quest_turnin",
+      "description": "Talk to Agnar Beastamer, turn in The Newest Member of the Family, and accept Food for Baby.",
+      "classes": null,
+      "races": null,
+      "coords": [14.154, 43.623],
+      "zone": "the_hinterlands",
+      "tips": [
+        {
+          "type": "warning",
+          "class": null,
+          "text": "Agnar Beastamer is downstairs in the Keep"
+        }
+      ],
+      "quests": [
+        {
+          "id": 3843,
+          "name": "The Newest Member of the Family"
+        },
+        {
+          "id": 4297,
+          "name": "Food for Baby"
+        }
+      ],
+      "npc": "Agnar Beastamer",
+      "mobs": []
+    },
+    {
+      "id": "stv_hinterlands_097",
+      "type": "travel",
+      "description": "Travel to Agol'watha",
+      "classes": null,
+      "races": null,
+      "coords": [46.56, 40.6],
+      "zone": "the_hinterlands",
+      "tips": [],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "stv_hinterlands_098",
+      "type": "kill",
+      "description": "Kill Green Sludges and Jade Oozes",
+      "classes": null,
+      "races": null,
+      "coords": [57.65, 42.83],
+      "zone": "the_hinterlands",
+      "tips": [],
+      "quests": [
+        {
+          "id": 2877,
+          "name": "Skulk Rock Clean-up"
+        }
+      ],
+      "npc": null,
+      "mobs": ["Green Sludge", "Jade Ooze"]
+    },
+    {
+      "id": "stv_hinterlands_099",
+      "type": "kill",
+      "description": "Kill Silvermane Stalkers. Loot them for their Flanks.",
+      "classes": null,
+      "races": null,
+      "coords": [69.8, 56.2],
+      "zone": "the_hinterlands",
+      "tips": [
+        {
+          "type": "warning",
+          "class": null,
+          "text": "The Silvermane Stalkers are in Stealth"
+        }
+      ],
+      "quests": [
+        {
+          "id": 4297,
+          "name": "Food for Baby"
+        }
+      ],
+      "npc": null,
+      "mobs": ["Silvermane Stalker"]
+    },
+    {
+      "id": "stv_hinterlands_100",
+      "type": "loot",
+      "description": "Kill Vilebranch Trolls. Loot them for the OOX-09/HL Distress Beacon.",
+      "classes": null,
+      "races": null,
+      "coords": [47.2, 65.95],
+      "zone": "the_hinterlands",
+      "tips": [
+        {
+          "type": "warning",
+          "class": null,
+          "text": "Use the OOX-09/HL Distress Beacon to start the quest"
+        },
+        {
+          "type": "warning",
+          "class": null,
+          "text": "If you are unlucky and don't find it after some time, skip this step. However, it is recommended you farm until you find it"
+        }
+      ],
+      "quests": [
+        {
+          "id": 485,
+          "name": "Find OOX-09/HL!"
+        }
+      ],
+      "npc": null,
+      "mobs": [
+        "Vilebranch Axe Thrower",
+        "Vilebranch Scalper",
+        "Vilebranch Soothsayer",
+        "Vilebranch Wolf Pup"
+      ]
+    },
+    {
+      "id": "stv_hinterlands_101",
+      "type": "quest_turnin",
+      "description": "Talk to the Homing Robot OOX-09/HL and turn in Find OOX-09/HL!.",
+      "classes": null,
+      "races": null,
+      "coords": [49.352, 37.657],
+      "zone": "the_hinterlands",
+      "tips": [
+        {
+          "type": "warning",
+          "class": null,
+          "text": "Do NOT accept the follow up and attempt to do the Escort, unless you are in a group"
+        }
+      ],
+      "quests": [
+        {
+          "id": 485,
+          "name": "Find OOX-09/HL!"
+        }
+      ],
+      "npc": "Homing Robot OOX-09/HL",
+      "mobs": []
+    },
+    {
+      "id": "stv_hinterlands_102",
+      "type": "quest_accept",
+      "description": "Talk to the Homing Robot OOX-09/HL and accept Rescue OOX-09/HL!",
+      "classes": null,
+      "races": null,
+      "coords": [49.352, 37.657],
+      "zone": "the_hinterlands",
+      "tips": [],
+      "quests": [
+        {
+          "id": 836,
+          "name": "Rescue OOX-09/HL!"
+        }
+      ],
+      "npc": "Homing Robot OOX-09/HL",
+      "mobs": []
+    },
+    {
+      "id": "stv_hinterlands_103",
+      "type": "info",
+      "description": "Escort the Homing Robot OOX-09/HL to safety",
+      "classes": null,
+      "races": null,
+      "coords": [79.33, 61.26],
+      "zone": "the_hinterlands",
+      "tips": [],
+      "quests": [
+        {
+          "id": 836,
+          "name": "Rescue OOX-09/HL!"
+        }
+      ],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "stv_hinterlands_104",
+      "type": "loot",
+      "description": "Loot the Pupellyverbos Ports on the ground",
+      "classes": null,
+      "races": null,
+      "coords": [77.9, 65.5],
+      "zone": "the_hinterlands",
+      "tips": [],
+      "quests": [
+        {
+          "id": 580,
+          "name": "Whiskey Slim's Lost Grog"
+        }
+      ],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "stv_hinterlands_105",
+      "type": "info",
+      "description": "Use the Super Snapper FX on Gammerita.",
+      "classes": null,
+      "races": null,
+      "coords": [75.91, 63.81],
+      "zone": "the_hinterlands",
+      "tips": [
+        {
+          "type": "warning",
+          "class": null,
+          "text": "This will cause Gammerita to agro you. Be ready to run away after using it"
+        }
+      ],
+      "quests": [
+        {
+          "id": 2944,
+          "name": "The Super Snapper FX"
+        }
+      ],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "stv_hinterlands_106",
+      "type": "loot",
+      "description": "Click on Cortello's Treasure underwater",
+      "classes": null,
+      "races": null,
+      "coords": [80.78, 46.82],
+      "zone": "the_hinterlands",
+      "tips": [],
+      "quests": [
+        {
+          "id": 626,
+          "name": "Cortello's Riddle"
+        }
+      ],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "stv_hinterlands_107",
+      "type": "info",
+      "description": "Hearth to Aerie Peak. Grind until your Hearthstone is off cooldown",
+      "classes": null,
+      "races": null,
+      "coords": null,
+      "zone": "",
+      "tips": [
+        {
+          "type": "warning",
+          "class": null,
+          "text": "Grind until your Hearthstone is off cooldown"
+        }
+      ],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "stv_hinterlands_108",
+      "type": "quest_turnin",
+      "description": "Talk to Agnar Beastamer, turn in Food for Baby, accept Becoming a Parent, and turn in Becoming a Parent. Agnar Beastamer is downstairs in the Keep",
+      "classes": null,
+      "races": null,
+      "coords": [14.154, 43.623],
+      "zone": "the_hinterlands",
+      "tips": [
+        {
+          "type": "warning",
+          "class": null,
+          "text": "Agnar Beastamer is downstairs in the Keep"
+        }
+      ],
+      "quests": [
+        {
+          "id": 4297,
+          "name": "Food for Baby"
+        },
+        {
+          "id": 4298,
+          "name": "Becoming a Parent"
+        }
+      ],
+      "npc": "Agnar Beastamer",
+      "mobs": []
+    },
+    {
+      "id": "stv_hinterlands_109",
+      "type": "quest_turnin",
+      "description": "Talk to Fraggar Thundermantle and turn in Skulk Rock Clean-up",
+      "classes": null,
+      "races": null,
+      "coords": [14.834, 44.567],
+      "zone": "the_hinterlands",
+      "tips": [],
+      "quests": [
+        {
+          "id": 2877,
+          "name": "Skulk Rock Clean-up"
+        }
+      ],
+      "npc": "Fraggar Thundermantle",
+      "mobs": []
+    },
+    {
+      "id": "stv_hinterlands_110",
+      "type": "fly",
+      "description": "Talk to Guthrum Thunderfist and fly to Wetlands",
+      "classes": null,
+      "races": null,
+      "coords": [11.071, 46.153],
+      "zone": "the_hinterlands",
+      "tips": [],
+      "quests": [],
+      "npc": "Guthrum Thunderfist",
+      "mobs": []
+    },
+    {
+      "id": "stv_hinterlands_111",
+      "type": "info",
+      "description": "Talk to Innkeeper Helbrek. Set your Hearthstone to Wetlands",
+      "classes": null,
+      "races": null,
+      "coords": [10.69, 60.95],
+      "zone": "wetlands",
+      "tips": [],
+      "quests": [],
+      "npc": "Innkeeper Helbrek",
+      "mobs": []
+    },
+    {
+      "id": "stv_hinterlands_112",
+      "type": "fly",
+      "description": "Talk to Shellei Brondir and fly to Ironforge",
+      "classes": null,
+      "races": null,
+      "coords": [9.49, 59.693],
+      "zone": "wetlands",
+      "tips": [],
+      "quests": [],
+      "npc": "Shellei Brondir",
+      "mobs": []
+    },
+    {
+      "id": "stv_hinterlands_113",
+      "type": "info",
+      "description": "Talk to Bailey Stonemantle. Deposit Pupellyverbos Port, Super Snapper FX, Snapshot of Gammerita, and Overdue Package into your bank",
+      "classes": null,
+      "races": null,
+      "coords": [35.9, 60.17],
+      "zone": "ironforge",
+      "tips": [],
+      "quests": [],
+      "npc": "Bailey Stonemantle",
+      "mobs": []
+    },
+    {
+      "id": "stv_hinterlands_114",
+      "type": "info",
+      "description": "Talk to Bailey Stonemantle. Withdraw Singed Letter (If you have it) from your bank",
+      "classes": null,
+      "races": null,
+      "coords": [35.9, 60.17],
+      "zone": "ironforge",
+      "tips": [],
+      "quests": [],
+      "npc": "Bailey Stonemantle",
+      "mobs": []
+    },
+    {
+      "id": "stv_hinterlands_115",
+      "type": "quest_turnin",
+      "description": "Talk to Curator Thorius, turn in Suntara Stones, and accept Dwarven Justice. Curator Thorius patrols through the Hall of Explorers",
+      "classes": null,
+      "races": null,
+      "coords": [71.83, 16.12],
+      "zone": "ironforge",
+      "tips": [
+        {
+          "type": "warning",
+          "class": null,
+          "text": "Curator Thorius patrols through the Hall of Explorers"
+        }
+      ],
+      "quests": [
+        {
+          "id": 3368,
+          "name": "Suntara Stones"
+        },
+        {
+          "id": 3371,
+          "name": "Dwarven Justice"
+        }
+      ],
+      "npc": "Curator Thorius",
+      "mobs": []
+    },
+    {
+      "id": "stv_hinterlands_116",
+      "type": "fly",
+      "description": "Talk to Gryth Thurden and fly to Searing Gorge",
+      "classes": null,
+      "races": null,
+      "coords": [55.501, 47.742],
+      "zone": "ironforge",
+      "tips": [],
+      "quests": [],
+      "npc": "Gryth Thurden",
+      "mobs": []
+    }
+  ]
+}

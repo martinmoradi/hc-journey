@@ -1,0 +1,1438 @@
+{
+  "zone": "Thousand Needles",
+  "levelRange": "33-34",
+  "faction": "Alliance",
+  "name": "33-34_thousand_needles",
+  "next": "34-35_stranglethorn_vale_1",
+  "steps": [
+    {
+      "id": "thousandneedles_001",
+      "type": "travel",
+      "description": "Travel to the Menethil Harbor Dock",
+      "classes": null,
+      "races": null,
+      "coords": [7.27, 62.527],
+      "zone": "wetlands",
+      "tips": [],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "thousandneedles_002",
+      "type": "travel",
+      "description": "Take the boat to Theramore",
+      "classes": null,
+      "races": null,
+      "coords": [5.075, 63.408],
+      "zone": "wetlands",
+      "tips": [
+        {
+          "type": "warning",
+          "class": null,
+          "text": "Level your First Aid while waiting"
+        }
+      ],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "thousandneedles_003",
+      "type": "fly",
+      "description": "Talk to Baldruc and get the Theramore Flight Path",
+      "classes": null,
+      "races": null,
+      "coords": [67.476, 51.3],
+      "zone": "dustwallow_marsh",
+      "tips": [],
+      "quests": [],
+      "npc": "Baldruc",
+      "mobs": []
+    },
+    {
+      "id": "thousandneedles_004",
+      "type": "quest_accept",
+      "description": "Talk to Guard Byron and accept They Call Him Smiling Jim",
+      "classes": null,
+      "races": null,
+      "coords": [66.156, 46.067],
+      "zone": "dustwallow_marsh",
+      "tips": [],
+      "quests": [
+        {
+          "id": 1282,
+          "name": "They Call Him Smiling Jim"
+        }
+      ],
+      "npc": "Guard Byron",
+      "mobs": []
+    },
+    {
+      "id": "thousandneedles_005",
+      "type": "info",
+      "description": "Talk to Innkeeper Janene. Set your Hearthstone to Theramore",
+      "classes": null,
+      "races": null,
+      "coords": [66.587, 45.223],
+      "zone": "dustwallow_marsh",
+      "tips": [],
+      "quests": [],
+      "npc": "Innkeeper Janene",
+      "mobs": []
+    },
+    {
+      "id": "thousandneedles_006",
+      "type": "quest_accept",
+      "description": "Talk to Fiora Longears and accept Highperch Venom",
+      "classes": null,
+      "races": null,
+      "coords": [66.459, 45.147],
+      "zone": "dustwallow_marsh",
+      "tips": [],
+      "quests": [
+        {
+          "id": 1135,
+          "name": "Highperch Venom"
+        }
+      ],
+      "npc": "Fiora Longears",
+      "mobs": []
+    },
+    {
+      "id": "thousandneedles_007",
+      "type": "quest_turnin",
+      "description": "Talk to Clerk Lendry upstairs in the Keep and turn in James Hyal",
+      "classes": null,
+      "races": null,
+      "coords": [67.877, 48.239],
+      "zone": "dustwallow_marsh",
+      "tips": [],
+      "quests": [
+        {
+          "id": 1302,
+          "name": "James Hyal"
+        }
+      ],
+      "npc": "Clerk Lendry",
+      "mobs": []
+    },
+    {
+      "id": "thousandneedles_008",
+      "type": "quest_turnin",
+      "description": "Talk to Commander Samaul, turn in The Missing Diplomat, and accept The Missing Diplomat",
+      "classes": null,
+      "races": null,
+      "coords": [67.923, 48.54],
+      "zone": "dustwallow_marsh",
+      "tips": [],
+      "quests": [
+        {
+          "id": 1264,
+          "name": "The Missing Diplomat"
+        },
+        {
+          "id": 1265,
+          "name": "The Missing Diplomat"
+        }
+      ],
+      "npc": "Commander Samaul",
+      "mobs": []
+    },
+    {
+      "id": "thousandneedles_009",
+      "type": "quest_turnin",
+      "description": "Talk to Captain Garran Vimes and turn in They Call Him Smiling Jim",
+      "classes": null,
+      "races": null,
+      "coords": [68.212, 48.62],
+      "zone": "dustwallow_marsh",
+      "tips": [],
+      "quests": [
+        {
+          "id": 1282,
+          "name": "They Call Him Smiling Jim"
+        }
+      ],
+      "npc": "Captain Garran Vimes",
+      "mobs": []
+    },
+    {
+      "id": "thousandneedles_010",
+      "type": "quest_turnin",
+      "description": "Travel to the Sentry Point Tower. Talk to Archmage Tervosh and turn in The Missing Diplomat",
+      "classes": null,
+      "races": null,
+      "coords": [59.652, 41.243],
+      "zone": "dustwallow_marsh",
+      "tips": [
+        {
+          "type": "warning",
+          "class": null,
+          "text": "Stay in Archmage Tervosh's Line of Sight as he will buff you with Proudmoore's Defense which gives 10 Stamina and 40 Armor"
+        }
+      ],
+      "quests": [
+        {
+          "id": 1265,
+          "name": "The Missing Diplomat"
+        }
+      ],
+      "npc": "Archmage Tervosh",
+      "mobs": []
+    },
+    {
+      "id": "thousandneedles_011",
+      "type": "fly",
+      "description": "Talk to Baldruc and fly to Ratchet",
+      "classes": null,
+      "races": null,
+      "coords": [67.476, 51.3],
+      "zone": "dustwallow_marsh",
+      "tips": [],
+      "quests": [],
+      "npc": "Baldruc",
+      "mobs": []
+    },
+    {
+      "id": "thousandneedles_012",
+      "type": "info",
+      "description": "Talk to Fuzruckle or Zikkel. Withdraw Crate of Crash Helmets from your bank",
+      "classes": null,
+      "races": null,
+      "coords": null,
+      "zone": "",
+      "tips": [],
+      "quests": [
+        {
+          "id": 1179,
+          "name": "The Brassbolts Brothers"
+        }
+      ],
+      "npc": "Fuzruckle",
+      "mobs": []
+    },
+    {
+      "id": "thousandneedles_013",
+      "type": "info",
+      "description": "Talk to Fuzruckle or Zikkel. Deposit Farren's Report into your bank",
+      "classes": null,
+      "races": null,
+      "coords": null,
+      "zone": "",
+      "tips": [],
+      "quests": [
+        {
+          "id": 1179,
+          "name": "The Brassbolts Brothers"
+        }
+      ],
+      "npc": "Fuzruckle",
+      "mobs": []
+    },
+    {
+      "id": "thousandneedles_014",
+      "type": "quest_accept",
+      "description": "Talk to Mebok Mizzyrix and accept Blueleaf Tubers",
+      "classes": null,
+      "races": null,
+      "coords": [62.37, 37.615],
+      "zone": "the_barrens",
+      "tips": [],
+      "quests": [
+        {
+          "id": 1221,
+          "name": "Blueleaf Tubers"
+        }
+      ],
+      "npc": "Mebok Mizzyrix",
+      "mobs": []
+    },
+    {
+      "id": "thousandneedles_015",
+      "type": "loot",
+      "description": "Loot the Snufflenose Command Stick, Snufflenose Owner's Manual and Crate With Holes next to Mebok",
+      "classes": null,
+      "races": null,
+      "coords": [62.323, 37.62],
+      "zone": "the_barrens",
+      "tips": [],
+      "quests": [
+        {
+          "id": 1221,
+          "name": "Blueleaf Tubers"
+        }
+      ],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "thousandneedles_016",
+      "type": "travel",
+      "description": "Travel south to the Shady Rest Inn at the Dustwallow Marsh border",
+      "classes": null,
+      "races": null,
+      "coords": null,
+      "zone": "",
+      "tips": [],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "thousandneedles_017",
+      "type": "quest_accept",
+      "description": "Click the Hoofprints on the ground and accept Suspicious Hoofprints",
+      "classes": null,
+      "races": null,
+      "coords": [29.705, 47.645],
+      "zone": "dustwallow_marsh",
+      "tips": [],
+      "quests": [
+        {
+          "id": 1284,
+          "name": "Suspicious Hoofprints"
+        }
+      ],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "thousandneedles_018",
+      "type": "quest_accept",
+      "description": "Click the Black Shield hanging on the fireplace and accept The Black Shield",
+      "classes": null,
+      "races": null,
+      "coords": [29.631, 48.606],
+      "zone": "dustwallow_marsh",
+      "tips": [],
+      "quests": [
+        {
+          "id": 1253,
+          "name": "The Black Shield"
+        }
+      ],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "thousandneedles_019",
+      "type": "quest_accept",
+      "description": "Click the Theramore Guard Badge on the wooden plank and accept Lieutenant Paval Reethe",
+      "classes": null,
+      "races": null,
+      "coords": [29.832, 48.243],
+      "zone": "dustwallow_marsh",
+      "tips": [],
+      "quests": [
+        {
+          "id": 1252,
+          "name": "Lieutenant Paval Reethe"
+        }
+      ],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "thousandneedles_020",
+      "type": "quest_accept",
+      "description": "Talk to Mudcrush Durtfeet and accept Hungry",
+      "classes": null,
+      "races": null,
+      "coords": [35.154, 38.255],
+      "zone": "dustwallow_marsh",
+      "tips": [],
+      "quests": [
+        {
+          "id": 1177,
+          "name": "Hungry"
+        }
+      ],
+      "npc": "Mudcrush Durtfeet",
+      "mobs": []
+    },
+    {
+      "id": "thousandneedles_021",
+      "type": "travel",
+      "description": "Travel to Thousand Needles",
+      "classes": null,
+      "races": null,
+      "coords": [32.09, 22.33],
+      "zone": "thousand_needles",
+      "tips": [],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "thousandneedles_022",
+      "type": "quest_accept",
+      "description": "Loot Henrig Lonebrow's Journal on the ground. Use it to accept Lonebrow's Journal",
+      "classes": null,
+      "races": null,
+      "coords": [30.725, 24.346],
+      "zone": "thousand_needles",
+      "tips": [],
+      "quests": [
+        {
+          "id": 1100,
+          "name": "Lonebrow's Journal"
+        }
+      ],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "thousandneedles_023",
+      "type": "travel",
+      "description": "Travel to Thalanaar",
+      "classes": null,
+      "races": null,
+      "coords": [89.5, 45.85],
+      "zone": "feralas",
+      "tips": [],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "thousandneedles_024",
+      "type": "fly",
+      "description": "Talk to Thyssiana and get the Thalanaar flight path",
+      "classes": null,
+      "races": null,
+      "coords": [89.497, 45.853],
+      "zone": "feralas",
+      "tips": [],
+      "quests": [],
+      "npc": "Thyssiana",
+      "mobs": []
+    },
+    {
+      "id": "thousandneedles_025",
+      "type": "quest_turnin",
+      "description": "Talk to Falfindel Waywarder, turn in Lonebrow's Journal, and accept The Crone of the Kraul",
+      "classes": null,
+      "races": null,
+      "coords": [89.634, 46.563],
+      "zone": "feralas",
+      "tips": [],
+      "quests": [
+        {
+          "id": 1100,
+          "name": "Lonebrow's Journal"
+        },
+        {
+          "id": 1101,
+          "name": "The Crone of the Kraul"
+        }
+      ],
+      "npc": "Falfindel Waywarder",
+      "mobs": []
+    },
+    {
+      "id": "thousandneedles_026",
+      "type": "quest_turnin",
+      "description": "Talk to Falfindel Waywarder and turn in Lonebrow's Journal",
+      "classes": null,
+      "races": null,
+      "coords": [89.634, 46.563],
+      "zone": "feralas",
+      "tips": [],
+      "quests": [
+        {
+          "id": 1100,
+          "name": "Lonebrow's Journal"
+        }
+      ],
+      "npc": "Falfindel Waywarder",
+      "mobs": []
+    },
+    {
+      "id": "thousandneedles_027",
+      "type": "quest_turnin",
+      "description": "Talk to Falfindel Waywarder and turn in Reclaiming the Charred Vale",
+      "classes": null,
+      "races": null,
+      "coords": [89.634, 46.563],
+      "zone": "feralas",
+      "tips": [],
+      "quests": [
+        {
+          "id": 1059,
+          "name": "Reclaiming the Charred Vale"
+        }
+      ],
+      "npc": "Falfindel Waywarder",
+      "mobs": []
+    },
+    {
+      "id": "thousandneedles_028",
+      "type": "grind",
+      "description": "Grind Highperch Wyverns, Highperch Consorts and Highperch Patriarchs while looking for a group for Razorfen Kraul",
+      "classes": null,
+      "races": null,
+      "coords": null,
+      "zone": "",
+      "tips": [],
+      "quests": [],
+      "npc": null,
+      "mobs": ["Highperch Patriarch", "Highperch Wyvern", "Highperch Consort"]
+    },
+    {
+      "id": "thousandneedles_029",
+      "type": "travel",
+      "description": "Enter Razorfen Kraul",
+      "classes": null,
+      "races": null,
+      "coords": null,
+      "zone": "",
+      "tips": [],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "thousandneedles_030",
+      "type": "kill",
+      "description": "Kill Charlga Razorflank. Loot her for Razorflank's Heart",
+      "classes": null,
+      "races": null,
+      "coords": null,
+      "zone": "razorfen_kraul",
+      "tips": [],
+      "quests": [
+        {
+          "id": 1101,
+          "name": "The Crone of the Kraul"
+        }
+      ],
+      "npc": null,
+      "mobs": ["Charlga Razorflank"]
+    },
+    {
+      "id": "thousandneedles_031",
+      "type": "quest_accept",
+      "description": "Talk to Heralath Fallowbrook and Willix the Importer. Accept Mortality Wanes and Willix the Importer",
+      "classes": null,
+      "races": null,
+      "coords": null,
+      "zone": "razorfen_kraul",
+      "tips": [],
+      "quests": [
+        {
+          "id": 1142,
+          "name": "Mortality Wanes"
+        },
+        {
+          "id": 1144,
+          "name": "Willix the Importer"
+        }
+      ],
+      "npc": "Heralath Fallowbrook",
+      "mobs": []
+    },
+    {
+      "id": "thousandneedles_032",
+      "type": "info",
+      "description": "Escort Willix the Importer through Razorfen Kraul",
+      "classes": null,
+      "races": null,
+      "coords": null,
+      "zone": "razorfen_kraul",
+      "tips": [
+        {
+          "type": "warning",
+          "class": null,
+          "text": "Ensure you stay close to Willix otherwise the quest may not complete"
+        }
+      ],
+      "quests": [
+        {
+          "id": 1144,
+          "name": "Willix the Importer"
+        }
+      ],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "thousandneedles_033",
+      "type": "quest_turnin",
+      "description": "Talk to Willix the Importer and turn in Willix the Importer",
+      "classes": null,
+      "races": null,
+      "coords": null,
+      "zone": "razorfen_kraul",
+      "tips": [],
+      "quests": [
+        {
+          "id": 1144,
+          "name": "Willix the Importer"
+        }
+      ],
+      "npc": "Willix the Importer",
+      "mobs": []
+    },
+    {
+      "id": "thousandneedles_034",
+      "type": "loot",
+      "description": "When at the start of the instance, take the first left. Once you reach the Vine at the end, drop down below to where you see Agam'ars. Use the Crate With Holes to summon a Snufflenose Gopher. Use the Snufflenose Command Stick to action the Gopher to dig up Blueleaf Tubers. Loot the Blueleaf Tubers once it has dug them up",
+      "classes": null,
+      "races": null,
+      "coords": null,
+      "zone": "razorfen_kraul",
+      "tips": [
+        {
+          "type": "warning",
+          "class": null,
+          "text": "Kill the Agam'ars below with your party to create a clear space"
+        },
+        {
+          "type": "warning",
+          "class": null,
+          "text": "Finding the correct spot to summon it can be finicky"
+        },
+        {
+          "type": "warning",
+          "class": null,
+          "text": "Continue to use the Snufflenose Command Stick on it again so it digs up another one. Repeat this process until you have 6 Blueleaf Tubers"
+        },
+        {
+          "type": "warning",
+          "class": null,
+          "text": "If your Gopher despawns, use the Crate With Holes to summon another. Note it only has 5 charges"
+        }
+      ],
+      "quests": [
+        {
+          "id": 1221,
+          "name": "Blueleaf Tubers"
+        }
+      ],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "thousandneedles_035",
+      "type": "kill",
+      "description": "Kill all Monsters inside of RFK. Loot them for Treshala's Pendant",
+      "classes": null,
+      "races": null,
+      "coords": null,
+      "zone": "razorfen_kraul",
+      "tips": [],
+      "quests": [
+        {
+          "id": 1142,
+          "name": "Mortality Wanes"
+        }
+      ],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "thousandneedles_036",
+      "type": "quest_turnin",
+      "description": "Talk to Falfindel Waywarder and turn in The Crone of the Kraul",
+      "classes": null,
+      "races": null,
+      "coords": [89.634, 46.563],
+      "zone": "feralas",
+      "tips": [],
+      "quests": [
+        {
+          "id": 1101,
+          "name": "The Crone of the Kraul"
+        }
+      ],
+      "npc": "Falfindel Waywarder",
+      "mobs": []
+    },
+    {
+      "id": "thousandneedles_037",
+      "type": "kill",
+      "description": "Kill Highperch Wyverns, Highperch Consorts and Highperch Patriarchs. Loot them for their Venom Sacs",
+      "classes": null,
+      "races": null,
+      "coords": [11.07, 35.59],
+      "zone": "thousand_needles",
+      "tips": [],
+      "quests": [
+        {
+          "id": 1135,
+          "name": "Highperch Venom"
+        }
+      ],
+      "npc": null,
+      "mobs": ["Highperch Patriarch", "Highperch Wyvern", "Highperch Consort"]
+    },
+    {
+      "id": "thousandneedles_038",
+      "type": "travel",
+      "description": "Travel to the Mirage Raceway",
+      "classes": null,
+      "races": null,
+      "coords": [77.782, 77.263],
+      "zone": "thousand_needles",
+      "tips": [],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "thousandneedles_039",
+      "type": "quest_accept",
+      "description": "Talk to Kravel Koalbeard and accept Rocket Car Parts",
+      "classes": null,
+      "races": null,
+      "coords": [77.782, 77.263],
+      "zone": "thousand_needles",
+      "tips": [
+        {
+          "type": "warning",
+          "class": null,
+          "text": "Don't accept the other quests yet"
+        }
+      ],
+      "quests": [
+        {
+          "id": 1110,
+          "name": "Rocket Car Parts"
+        }
+      ],
+      "npc": "Kravel Koalbeard",
+      "mobs": []
+    },
+    {
+      "id": "thousandneedles_040",
+      "type": "quest_accept",
+      "description": "Talk to Fizzle Brassbolts and accept Salt Flat Venom",
+      "classes": null,
+      "races": null,
+      "coords": [78.064, 77.126],
+      "zone": "thousand_needles",
+      "tips": [],
+      "quests": [
+        {
+          "id": 1104,
+          "name": "Salt Flat Venom"
+        }
+      ],
+      "npc": "Fizzle Brassbolts",
+      "mobs": []
+    },
+    {
+      "id": "thousandneedles_041",
+      "type": "quest_turnin",
+      "description": "Talk to Wizzle Brassbolts, turn in The Brassbolts Brothers, and accept Hardened Shells",
+      "classes": null,
+      "races": null,
+      "coords": [78.143, 77.12],
+      "zone": "thousand_needles",
+      "tips": [],
+      "quests": [
+        {
+          "id": 1179,
+          "name": "The Brassbolts Brothers"
+        },
+        {
+          "id": 1105,
+          "name": "Hardened Shells"
+        }
+      ],
+      "npc": "Wizzle Brassbolts",
+      "mobs": []
+    },
+    {
+      "id": "thousandneedles_042",
+      "type": "quest_accept",
+      "description": "Talk to Pozzik and accept Load Lightening",
+      "classes": null,
+      "races": null,
+      "coords": [80.178, 75.882],
+      "zone": "thousand_needles",
+      "tips": [],
+      "quests": [
+        {
+          "id": 1176,
+          "name": "Load Lightening"
+        }
+      ],
+      "npc": "Pozzik",
+      "mobs": []
+    },
+    {
+      "id": "thousandneedles_043",
+      "type": "quest_accept",
+      "description": "Talk to Trackmaster Zherin and accept A Bump in the Road",
+      "classes": null,
+      "races": null,
+      "coords": [81.635, 77.953],
+      "zone": "thousand_needles",
+      "tips": [],
+      "quests": [
+        {
+          "id": 1175,
+          "name": "A Bump in the Road"
+        }
+      ],
+      "npc": "Trackmaster Zherin",
+      "mobs": []
+    },
+    {
+      "id": "thousandneedles_044",
+      "type": "kill",
+      "description": "Run circles around The Shimmering Flats until all objectives are complete. Kill Salt Flats Scavengers and Salt Flats Vultures. Loot them for their Bones. Kill Sparkleshell Tortoises, Sparkleshell Borers and Sparkleshell Snappers. Loot them for their Shells and Turtle Meat. Kill Scorpid Reavers and Scorpid Terrors. Loot them for their Venom. Kill Saltstone Basilisks, Saltstone Crystalhides and Saltstone Gazers. Open the Rocket Car Rubble. Loot it for the Rocket Car Parts",
+      "classes": null,
+      "races": null,
+      "coords": null,
+      "zone": "",
+      "tips": [
+        {
+          "type": "warning",
+          "class": null,
+          "text": "Don't go out of your way to collect all Turtle Meat"
+        }
+      ],
+      "quests": [
+        {
+          "id": 1176,
+          "name": "Load Lightening"
+        },
+        {
+          "id": 1105,
+          "name": "Hardened Shells"
+        },
+        {
+          "id": 1104,
+          "name": "Salt Flat Venom"
+        },
+        {
+          "id": 1175,
+          "name": "A Bump in the Road"
+        },
+        {
+          "id": 1110,
+          "name": "Rocket Car Parts"
+        }
+      ],
+      "npc": null,
+      "mobs": [
+        "Salt Flats Scavenger",
+        "Salt Flats Vulture",
+        "Sparkleshell Snapper",
+        "Sparkleshell Borer",
+        "Sparkleshell Tortoise",
+        "Saltstone Basilisk",
+        "Saltstone Crystalhide",
+        "Saltstone Gazer",
+        "Scorpid Reaver",
+        "Scorpid Terror"
+      ]
+    },
+    {
+      "id": "thousandneedles_045",
+      "type": "quest_turnin",
+      "description": "Talk to Trackmaster Zherin and turn in A Bump in the Road",
+      "classes": null,
+      "races": null,
+      "coords": [81.635, 77.953],
+      "zone": "thousand_needles",
+      "tips": [],
+      "quests": [
+        {
+          "id": 1175,
+          "name": "A Bump in the Road"
+        }
+      ],
+      "npc": "Trackmaster Zherin",
+      "mobs": []
+    },
+    {
+      "id": "thousandneedles_046",
+      "type": "quest_turnin",
+      "description": "Talk to Pozzik, turn in Load Lightening, and accept Goblin Sponsorship",
+      "classes": null,
+      "races": null,
+      "coords": [80.178, 75.882],
+      "zone": "thousand_needles",
+      "tips": [],
+      "quests": [
+        {
+          "id": 1176,
+          "name": "Load Lightening"
+        },
+        {
+          "id": 1178,
+          "name": "Goblin Sponsorship"
+        }
+      ],
+      "npc": "Pozzik",
+      "mobs": []
+    },
+    {
+      "id": "thousandneedles_047",
+      "type": "quest_turnin",
+      "description": "Talk to Fizzle Brassbolts and turn in Salt Flat Venom",
+      "classes": null,
+      "races": null,
+      "coords": [78.064, 77.126],
+      "zone": "thousand_needles",
+      "tips": [],
+      "quests": [
+        {
+          "id": 1104,
+          "name": "Salt Flat Venom"
+        }
+      ],
+      "npc": "Fizzle Brassbolts",
+      "mobs": []
+    },
+    {
+      "id": "thousandneedles_048",
+      "type": "quest_turnin",
+      "description": "Talk to Wizzle Brassbolts and turn in Hardened Shells",
+      "classes": null,
+      "races": null,
+      "coords": [78.143, 77.12],
+      "zone": "thousand_needles",
+      "tips": [],
+      "quests": [
+        {
+          "id": 1105,
+          "name": "Hardened Shells"
+        }
+      ],
+      "npc": "Wizzle Brassbolts",
+      "mobs": []
+    },
+    {
+      "id": "thousandneedles_049",
+      "type": "quest_turnin",
+      "description": "Talk to Kravel Koalbeard, turn in Rocket Car Parts, and accept Wharfmaster Dizzywig and Hemet Nesingwary",
+      "classes": null,
+      "races": null,
+      "coords": [77.782, 77.263],
+      "zone": "thousand_needles",
+      "tips": [],
+      "quests": [
+        {
+          "id": 1110,
+          "name": "Rocket Car Parts"
+        },
+        {
+          "id": 1111,
+          "name": "Wharfmaster Dizzywig"
+        },
+        {
+          "id": 5762,
+          "name": "Hemet Nesingwary"
+        }
+      ],
+      "npc": "Kravel Koalbeard",
+      "mobs": []
+    },
+    {
+      "id": "thousandneedles_050",
+      "type": "travel",
+      "description": "Travel to Tanaris",
+      "classes": null,
+      "races": null,
+      "coords": [51.01, 29.35],
+      "zone": "tanaris",
+      "tips": [],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "thousandneedles_051",
+      "type": "fly",
+      "description": "Talk to Bera Stonehammer and get the Tanaris Flight Path",
+      "classes": null,
+      "races": null,
+      "coords": [51.006, 29.345],
+      "zone": "tanaris",
+      "tips": [],
+      "quests": [],
+      "npc": "Bera Stonehammer",
+      "mobs": []
+    },
+    {
+      "id": "thousandneedles_052",
+      "type": "info",
+      "description": "Hearth to Theramore",
+      "classes": null,
+      "races": null,
+      "coords": null,
+      "zone": "",
+      "tips": [
+        {
+          "type": "warning",
+          "class": "!Warrior",
+          "text": "Buy food/water if needed"
+        },
+        {
+          "type": "warning",
+          "class": "Warrior",
+          "text": "Buy food if needed"
+        },
+        {
+          "type": "warning",
+          "class": "Rogue",
+          "text": "Buy food if needed"
+        }
+      ],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "thousandneedles_053",
+      "type": "quest_turnin",
+      "description": "Talk to Fiora Longears and turn in Highperch Venom",
+      "classes": null,
+      "races": null,
+      "coords": [66.459, 45.147],
+      "zone": "dustwallow_marsh",
+      "tips": [],
+      "quests": [
+        {
+          "id": 1135,
+          "name": "Highperch Venom"
+        }
+      ],
+      "npc": "Fiora Longears",
+      "mobs": []
+    },
+    {
+      "id": "thousandneedles_054",
+      "type": "travel",
+      "description": "Travel upstairs in the Keep",
+      "classes": null,
+      "races": null,
+      "coords": [68.23, 48.82],
+      "zone": "dustwallow_marsh",
+      "tips": [],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "thousandneedles_055",
+      "type": "quest_turnin",
+      "description": "Talk to Captain Garran Vimes, turn in Lieutenant Paval Reethe, The Black Shield, and Suspicious Hoofprints. Accept Lieutenant Paval Reethe and The Black Shield",
+      "classes": null,
+      "races": null,
+      "coords": [68.212, 48.62],
+      "zone": "dustwallow_marsh",
+      "tips": [],
+      "quests": [
+        {
+          "id": 1252,
+          "name": "Lieutenant Paval Reethe"
+        },
+        {
+          "id": 1253,
+          "name": "The Black Shield"
+        },
+        {
+          "id": 1284,
+          "name": "Suspicious Hoofprints"
+        },
+        {
+          "id": 1259,
+          "name": "Lieutenant Paval Reethe"
+        },
+        {
+          "id": 1319,
+          "name": "The Black Shield"
+        }
+      ],
+      "npc": "Captain Garran Vimes",
+      "mobs": []
+    },
+    {
+      "id": "thousandneedles_056",
+      "type": "quest_turnin",
+      "description": "Talk to Adjutant Tesoran, turn in Lieutenant Paval Reethe, and accept Daelin's Men",
+      "classes": null,
+      "races": null,
+      "coords": [68.04, 48.11],
+      "zone": "dustwallow_marsh",
+      "tips": [],
+      "quests": [
+        {
+          "id": 1259,
+          "name": "Lieutenant Paval Reethe"
+        },
+        {
+          "id": 1285,
+          "name": "Daelin's Men"
+        }
+      ],
+      "npc": "Adjutant Tesoran",
+      "mobs": []
+    },
+    {
+      "id": "thousandneedles_057",
+      "type": "quest_turnin",
+      "description": "Talk to Captain Garran Vimes and turn in Daelin's Men",
+      "classes": null,
+      "races": null,
+      "coords": [68.212, 48.62],
+      "zone": "dustwallow_marsh",
+      "tips": [],
+      "quests": [
+        {
+          "id": 1285,
+          "name": "Daelin's Men"
+        }
+      ],
+      "npc": "Captain Garran Vimes",
+      "mobs": []
+    },
+    {
+      "id": "thousandneedles_058",
+      "type": "quest_turnin",
+      "description": "Talk to Caz Twosprocket, turn in The Black Shield, and accept The Black Shield",
+      "classes": null,
+      "races": null,
+      "coords": [64.756, 50.426],
+      "zone": "dustwallow_marsh",
+      "tips": [],
+      "quests": [
+        {
+          "id": 1319,
+          "name": "The Black Shield"
+        },
+        {
+          "id": 1320,
+          "name": "The Black Shield"
+        }
+      ],
+      "npc": "Caz Twosprocket",
+      "mobs": []
+    },
+    {
+      "id": "thousandneedles_059",
+      "type": "quest_turnin",
+      "description": "Talk to Captain Garran Vimes and turn in The Black Shield",
+      "classes": null,
+      "races": null,
+      "coords": [68.212, 48.62],
+      "zone": "dustwallow_marsh",
+      "tips": [],
+      "quests": [
+        {
+          "id": 1320,
+          "name": "The Black Shield"
+        }
+      ],
+      "npc": "Captain Garran Vimes",
+      "mobs": []
+    },
+    {
+      "id": "thousandneedles_060",
+      "type": "fly",
+      "description": "Talk to Baldruc and fly to Darnassus",
+      "classes": null,
+      "races": null,
+      "coords": [67.476, 51.301],
+      "zone": "dustwallow_marsh",
+      "tips": [],
+      "quests": [],
+      "npc": "Baldruc",
+      "mobs": []
+    },
+    {
+      "id": "thousandneedles_061",
+      "type": "travel",
+      "description": "Take the purple portal into Darnassus",
+      "classes": null,
+      "races": null,
+      "coords": [55.889, 89.456],
+      "zone": "teldrassil",
+      "tips": [],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "thousandneedles_062",
+      "type": "quest_turnin",
+      "description": "Talk to Treshala Fallowbrook upstairs and turn in Mortality Wanes",
+      "classes": null,
+      "races": null,
+      "coords": [69.529, 67.759],
+      "zone": "darnassus",
+      "tips": [],
+      "quests": [
+        {
+          "id": 1142,
+          "name": "Mortality Wanes"
+        }
+      ],
+      "npc": "Treshala Fallowbrook",
+      "mobs": []
+    },
+    {
+      "id": "thousandneedles_063",
+      "type": "travel",
+      "description": "Take the purple portal back to Rut'theran Village",
+      "classes": null,
+      "races": null,
+      "coords": [29.466, 41.405],
+      "zone": "darnassus",
+      "tips": [],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "thousandneedles_064",
+      "type": "fly",
+      "description": "Talk to Vesprystus and fly to Ratchet",
+      "classes": null,
+      "races": null,
+      "coords": [58.39, 94.01],
+      "zone": "teldrassil",
+      "tips": [],
+      "quests": [],
+      "npc": "Vesprystus",
+      "mobs": []
+    },
+    {
+      "id": "thousandneedles_065",
+      "type": "fly",
+      "description": "Talk to Baldruc and fly to Ratchet",
+      "classes": null,
+      "races": null,
+      "coords": [67.476, 51.301],
+      "zone": "dustwallow_marsh",
+      "tips": [],
+      "quests": [],
+      "npc": "Baldruc",
+      "mobs": []
+    },
+    {
+      "id": "thousandneedles_066",
+      "type": "quest_turnin",
+      "description": "Talk to Mebok Mizzyrix and turn in Blueleaf Tubers",
+      "classes": null,
+      "races": null,
+      "coords": [62.37, 37.615],
+      "zone": "the_barrens",
+      "tips": [],
+      "quests": [
+        {
+          "id": 1221,
+          "name": "Blueleaf Tubers"
+        }
+      ],
+      "npc": "Mebok Mizzyrix",
+      "mobs": []
+    },
+    {
+      "id": "thousandneedles_067",
+      "type": "travel",
+      "description": "Travel to Fray Island",
+      "classes": ["Warrior"],
+      "races": null,
+      "coords": [68.34, 48.84],
+      "zone": "the_barrens",
+      "tips": [],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "thousandneedles_068",
+      "type": "quest_turnin",
+      "description": "Talk to Klannoc Macleod, turn in The Islander, and accept The Affray",
+      "classes": ["Warrior"],
+      "races": null,
+      "coords": [68.615, 49.163],
+      "zone": "the_barrens",
+      "tips": [],
+      "quests": [
+        {
+          "id": 1718,
+          "name": "The Islander"
+        },
+        {
+          "id": 1719,
+          "name": "The Affray"
+        }
+      ],
+      "npc": "Klannoc Macleod",
+      "mobs": []
+    },
+    {
+      "id": "thousandneedles_069",
+      "type": "kill",
+      "description": "Start the affray by stepping on the grate. Kill Affray Challengers until Big Will appears. Kill Big Will",
+      "classes": ["Warrior"],
+      "races": null,
+      "coords": [68.606, 48.72],
+      "zone": "the_barrens",
+      "tips": [],
+      "quests": [
+        {
+          "id": 1719,
+          "name": "The Affray"
+        }
+      ],
+      "npc": null,
+      "mobs": ["Affray Challenger", "Big Will"]
+    },
+    {
+      "id": "thousandneedles_070",
+      "type": "quest_turnin",
+      "description": "Talk to Klannoc Macleod, turn in The Affray, and accept The Windwatcher",
+      "classes": ["Warrior"],
+      "races": null,
+      "coords": [68.615, 49.163],
+      "zone": "the_barrens",
+      "tips": [],
+      "quests": [
+        {
+          "id": 1719,
+          "name": "The Affray"
+        },
+        {
+          "id": 1791,
+          "name": "The Windwatcher"
+        }
+      ],
+      "npc": "Klannoc Macleod",
+      "mobs": []
+    },
+    {
+      "id": "thousandneedles_071",
+      "type": "quest_turnin",
+      "description": "Talk to Gazlowe, turn in Goblin Sponsorship, and accept Goblin Sponsorship",
+      "classes": null,
+      "races": null,
+      "coords": [62.68, 36.234],
+      "zone": "the_barrens",
+      "tips": [],
+      "quests": [
+        {
+          "id": 1178,
+          "name": "Goblin Sponsorship"
+        },
+        {
+          "id": 1180,
+          "name": "Goblin Sponsorship"
+        }
+      ],
+      "npc": "Gazlowe",
+      "mobs": []
+    },
+    {
+      "id": "thousandneedles_072",
+      "type": "quest_turnin",
+      "description": "Talk to Menara Voidrender and turn in In Search of Menara Voidrender",
+      "classes": ["Warlock"],
+      "races": null,
+      "coords": [62.509, 35.449],
+      "zone": "the_barrens",
+      "tips": [],
+      "quests": [
+        {
+          "id": 4736,
+          "name": "In Search of Menara Voidrender"
+        }
+      ],
+      "npc": "Menara Voidrender",
+      "mobs": []
+    },
+    {
+      "id": "thousandneedles_073",
+      "type": "quest_turnin",
+      "description": "Talk to Menara Voidrender and turn in In Search of Menara Voidrender",
+      "classes": ["Warlock"],
+      "races": null,
+      "coords": [62.509, 35.449],
+      "zone": "the_barrens",
+      "tips": [],
+      "quests": [
+        {
+          "id": 4738,
+          "name": "In Search of Menara Voidrender"
+        }
+      ],
+      "npc": "Menara Voidrender",
+      "mobs": []
+    },
+    {
+      "id": "thousandneedles_074",
+      "type": "quest_turnin",
+      "description": "Talk to Strahad Farsan, turn in Seeking Strahad, and accept Tome of the Cabal",
+      "classes": ["Warlock"],
+      "races": null,
+      "coords": [62.627, 35.5],
+      "zone": "the_barrens",
+      "tips": [],
+      "quests": [
+        {
+          "id": 1798,
+          "name": "Seeking Strahad"
+        },
+        {
+          "id": 1758,
+          "name": "Tome of the Cabal"
+        }
+      ],
+      "npc": "Strahad Farsan",
+      "mobs": []
+    },
+    {
+      "id": "thousandneedles_075",
+      "type": "quest_turnin",
+      "description": "Talk to Wharfmaster Dizzywig, turn in Wharfmaster Dizzywig and The Barrens Port. Accept Passage to Booty Bay",
+      "classes": null,
+      "races": null,
+      "coords": [63.352, 38.456],
+      "zone": "the_barrens",
+      "tips": [],
+      "quests": [
+        {
+          "id": 1111,
+          "name": "Wharfmaster Dizzywig"
+        },
+        {
+          "id": 1039,
+          "name": "The Barrens Port"
+        },
+        {
+          "id": 1040,
+          "name": "Passage to Booty Bay"
+        }
+      ],
+      "npc": "Wharfmaster Dizzywig",
+      "mobs": []
+    },
+    {
+      "id": "thousandneedles_076",
+      "type": "travel",
+      "description": "Take the boat to Booty Bay",
+      "classes": null,
+      "races": null,
+      "coords": [63.677, 38.618],
+      "zone": "the_barrens",
+      "tips": [
+        {
+          "type": "warning",
+          "class": null,
+          "text": "Level your First Aid while waiting"
+        }
+      ],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    }
+  ]
+}

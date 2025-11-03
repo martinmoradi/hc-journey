@@ -1,0 +1,760 @@
+{
+  "zone": "Tanaris",
+  "levelRange": "44-45",
+  "faction": "Alliance",
+  "name": "44-45_tanaris_1",
+  "next": "45-46_feralas",
+  "steps": [
+    {
+      "id": "tanaris_001",
+      "type": "fly",
+      "description": "Talk to Bragok and fly to Theramore",
+      "classes": null,
+      "races": null,
+      "coords": [63.084, 37.163],
+      "zone": "the_barrens",
+      "tips": [],
+      "quests": [],
+      "npc": "Bragok",
+      "mobs": []
+    },
+    {
+      "id": "tanaris_002",
+      "type": "quest_turnin",
+      "description": "Talk to Privateer Groy and turn in Akiris by the Bundle",
+      "classes": null,
+      "races": null,
+      "coords": [67.716, 51.708],
+      "zone": "dustwallow_marsh",
+      "tips": [
+        {
+          "type": "info",
+          "class": null,
+          "text": "Privateer Groy patrols through Theramore Isle"
+        }
+      ],
+      "quests": [
+        {
+          "id": 623,
+          "name": "Akiris by the Bundle"
+        }
+      ],
+      "npc": "Privateer Groy",
+      "mobs": []
+    },
+    {
+      "id": "tanaris_003",
+      "type": "info",
+      "description": "Talk to Captain Evencane up stairs in the Keep and train your class spells",
+      "classes": ["Warrior"],
+      "races": null,
+      "coords": [67.875, 48.409],
+      "zone": "dustwallow_marsh",
+      "tips": [],
+      "quests": [],
+      "npc": "Captain Evencane",
+      "mobs": []
+    },
+    {
+      "id": "tanaris_004",
+      "type": "info",
+      "description": "Talk to Brother Karman and train your class spells",
+      "classes": ["Paladin"],
+      "races": null,
+      "coords": [67.396, 47.41],
+      "zone": "dustwallow_marsh",
+      "tips": [],
+      "quests": [],
+      "npc": "Brother Karman",
+      "mobs": []
+    },
+    {
+      "id": "tanaris_005",
+      "type": "quest_accept",
+      "description": "Talk to Doctor Gustaf VanHowzen and accept Triage",
+      "classes": null,
+      "races": null,
+      "coords": [67.756, 48.968],
+      "zone": "dustwallow_marsh",
+      "tips": [],
+      "quests": [
+        {
+          "id": 6624,
+          "name": "Triage"
+        }
+      ],
+      "npc": "Doctor Gustaf VanHowzen",
+      "mobs": []
+    },
+    {
+      "id": "tanaris_006",
+      "type": "info",
+      "description": "Channel the Triage Bandage on the Alliance Soldiers. Prioritize Critically Injured Soldiers first",
+      "classes": null,
+      "races": null,
+      "coords": [67.756, 48.968],
+      "zone": "dustwallow_marsh",
+      "tips": [
+        {
+          "type": "warning",
+          "class": null,
+          "text": "Channel the Triage Bandage on the Alliance Soldiers. Prioritize Critically Injured Soldiers first"
+        }
+      ],
+      "quests": [
+        {
+          "id": 6624,
+          "name": "Triage"
+        }
+      ],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "tanaris_007",
+      "type": "quest_turnin",
+      "description": "Talk to Doctor Gustaf VanHowzen and turn in Triage",
+      "classes": null,
+      "races": null,
+      "coords": [67.756, 48.968],
+      "zone": "dustwallow_marsh",
+      "tips": [],
+      "quests": [
+        {
+          "id": 6624,
+          "name": "Triage"
+        }
+      ],
+      "npc": "Doctor Gustaf VanHowzen",
+      "mobs": []
+    },
+    {
+      "id": "tanaris_008",
+      "type": "info",
+      "description": "Delete the Triage Bandage. You no longer need it",
+      "classes": null,
+      "races": null,
+      "coords": null,
+      "zone": "",
+      "tips": [],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "tanaris_009",
+      "type": "quest_turnin",
+      "description": "Talk to Morgan Stern and turn in ... and Bugs",
+      "classes": null,
+      "races": null,
+      "coords": [66.336, 45.469],
+      "zone": "dustwallow_marsh",
+      "tips": [],
+      "quests": [
+        {
+          "id": 1258,
+          "name": "... and Bugs"
+        }
+      ],
+      "npc": "Morgan Stern",
+      "mobs": []
+    },
+    {
+      "id": "tanaris_010",
+      "type": "travel",
+      "description": "Swim west toward the Zeppelin crash",
+      "classes": null,
+      "races": null,
+      "coords": null,
+      "zone": "",
+      "tips": [],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "tanaris_011",
+      "type": "loot",
+      "description": "Open the Gizmorium Shipping Crate. Loot it for the Seaforium Booster",
+      "classes": null,
+      "races": null,
+      "coords": [54.071, 56.49],
+      "zone": "dustwallow_marsh",
+      "tips": [],
+      "quests": [
+        {
+          "id": 1187,
+          "name": "Razzeric's Tweaking"
+        }
+      ],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "tanaris_012",
+      "type": "quest_accept",
+      "description": "Talk to Tabetha and accept Tiara of the Deep",
+      "classes": null,
+      "races": null,
+      "coords": [46.021, 57.096],
+      "zone": "dustwallow_marsh",
+      "tips": [],
+      "quests": [
+        {
+          "id": 2846,
+          "name": "Tiara of the Deep"
+        }
+      ],
+      "npc": "Tabetha",
+      "mobs": []
+    },
+    {
+      "id": "tanaris_013",
+      "type": "fly",
+      "description": "Talk to Baldruc and fly to Tanaris",
+      "classes": null,
+      "races": null,
+      "coords": [67.476, 51.3],
+      "zone": "dustwallow_marsh",
+      "tips": [],
+      "quests": [],
+      "npc": "Baldruc",
+      "mobs": []
+    },
+    {
+      "id": "tanaris_014",
+      "type": "quest_accept",
+      "description": "Talk to Chief Engineer Bilgewhizzle and Spigot Operator Luglunket, accept Wastewander Justice and Water Pouch Bounty",
+      "classes": null,
+      "races": null,
+      "coords": [52.486, 28.445],
+      "zone": "tanaris",
+      "tips": [],
+      "quests": [
+        {
+          "id": 1690,
+          "name": "Wastewander Justice"
+        },
+        {
+          "id": 1707,
+          "name": "Water Pouch Bounty"
+        }
+      ],
+      "npc": "Spigot Operator Luglunket",
+      "mobs": []
+    },
+    {
+      "id": "tanaris_015",
+      "type": "info",
+      "description": "Talk to Laziphus and stable your pet. You will tame a Starving Blisterpaw shortly",
+      "classes": ["Hunter"],
+      "races": null,
+      "coords": [52.253, 28.001],
+      "zone": "tanaris",
+      "tips": [
+        {
+          "type": "warning",
+          "class": null,
+          "text": "You will tame a Starving Blisterpaw shortly"
+        }
+      ],
+      "quests": [],
+      "npc": "Laziphus",
+      "mobs": []
+    },
+    {
+      "id": "tanaris_016",
+      "type": "quest_accept",
+      "description": "Talk to Curgle Cranklehop and accept Handle With Care",
+      "classes": null,
+      "races": null,
+      "coords": [52.358, 26.904],
+      "zone": "tanaris",
+      "tips": [],
+      "quests": [
+        {
+          "id": 3022,
+          "name": "Handle With Care"
+        }
+      ],
+      "npc": "Curgle Cranklehop",
+      "mobs": []
+    },
+    {
+      "id": "tanaris_017",
+      "type": "quest_turnin",
+      "description": "Talk to Tran'rek and turn in Tran'rek",
+      "classes": null,
+      "races": null,
+      "coords": [51.566, 26.759],
+      "zone": "tanaris",
+      "tips": [],
+      "quests": [
+        {
+          "id": 2864,
+          "name": "Tran'rek"
+        }
+      ],
+      "npc": "Tran'rek",
+      "mobs": []
+    },
+    {
+      "id": "tanaris_018",
+      "type": "info",
+      "description": "Cast Tame Beast on a Starving Blisterpaw to tame it. Attack mobs with it to learn Dash (Rank 2)",
+      "classes": ["Hunter"],
+      "races": null,
+      "coords": [53.45, 24.29],
+      "zone": "tanaris",
+      "tips": [
+        {
+          "type": "warning",
+          "class": null,
+          "text": "Cast Tame Beast on a Starving Blisterpaw to tame it"
+        },
+        {
+          "type": "warning",
+          "class": null,
+          "text": "Attack mobs with it to learn Dash (Rank 2)"
+        },
+        {
+          "type": "link",
+          "class": null,
+          "text": "Click here for more info about pet training",
+          "url": "https://www.wow-petopia.com/classic/training.php"
+        }
+      ],
+      "quests": [],
+      "npc": null,
+      "mobs": ["Starving Blisterpaw"]
+    },
+    {
+      "id": "tanaris_019",
+      "type": "travel",
+      "description": "Travel to The Shimmering Flats",
+      "classes": null,
+      "races": null,
+      "coords": [78.064, 77.126],
+      "zone": "thousand_needles",
+      "tips": [],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "tanaris_020",
+      "type": "quest_turnin",
+      "description": "Talk to Fizzle Brassbolts and turn in News for Fizzle",
+      "classes": null,
+      "races": null,
+      "coords": [78.064, 77.126],
+      "zone": "thousand_needles",
+      "tips": [],
+      "quests": [
+        {
+          "id": 1137,
+          "name": "News for Fizzle"
+        }
+      ],
+      "npc": "Fizzle Brassbolts",
+      "mobs": []
+    },
+    {
+      "id": "tanaris_021",
+      "type": "quest_accept",
+      "description": "Talk to Razzeric, turn in Razzeric's Tweaking, and accept Safety First",
+      "classes": null,
+      "races": null,
+      "coords": [80.326, 76.096],
+      "zone": "thousand_needles",
+      "tips": [],
+      "quests": [
+        {
+          "id": 1187,
+          "name": "Razzeric's Tweaking"
+        },
+        {
+          "id": 1188,
+          "name": "Safety First"
+        }
+      ],
+      "npc": "Razzeric",
+      "mobs": []
+    },
+    {
+      "id": "tanaris_022",
+      "type": "quest_accept",
+      "description": "Talk to Pozzik and accept Keeping Pace",
+      "classes": null,
+      "races": null,
+      "coords": [80.178, 75.882],
+      "zone": "thousand_needles",
+      "tips": [],
+      "quests": [
+        {
+          "id": 1190,
+          "name": "Keeping Pace"
+        }
+      ],
+      "npc": "Pozzik",
+      "mobs": []
+    },
+    {
+      "id": "tanaris_023",
+      "type": "quest_turnin",
+      "description": "Talk to Zamek to create a diversion and turn in Zamek's Distraction",
+      "classes": null,
+      "races": null,
+      "coords": [79.809, 77.028],
+      "zone": "thousand_needles",
+      "tips": [],
+      "quests": [
+        {
+          "id": 1191,
+          "name": "Zamek's Distraction"
+        }
+      ],
+      "npc": "Zamek",
+      "mobs": []
+    },
+    {
+      "id": "tanaris_024",
+      "type": "quest_turnin",
+      "description": "Click Rizzle's Unguarded Plans on the ground, turn in Keeping Pace, and accept Rizzle's Schematics",
+      "classes": null,
+      "races": null,
+      "coords": [77.208, 77.386],
+      "zone": "thousand_needles",
+      "tips": [],
+      "quests": [
+        {
+          "id": 1190,
+          "name": "Keeping Pace"
+        },
+        {
+          "id": 1194,
+          "name": "Rizzle's Schematics"
+        }
+      ],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "tanaris_025",
+      "type": "quest_turnin",
+      "description": "Talk to Pozzik and turn in Rizzle's Schematics",
+      "classes": null,
+      "races": null,
+      "coords": [80.178, 75.882],
+      "zone": "thousand_needles",
+      "tips": [],
+      "quests": [
+        {
+          "id": 1194,
+          "name": "Rizzle's Schematics"
+        }
+      ],
+      "npc": "Pozzik",
+      "mobs": []
+    },
+    {
+      "id": "tanaris_026",
+      "type": "info",
+      "description": "Delete the Sample of Indurium Ore you do not need it",
+      "classes": null,
+      "races": null,
+      "coords": null,
+      "zone": "",
+      "tips": [],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "tanaris_027",
+      "type": "travel",
+      "description": "Travel to Gadgetzan",
+      "classes": null,
+      "races": null,
+      "coords": null,
+      "zone": "",
+      "tips": [],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "tanaris_028",
+      "type": "quest_accept",
+      "description": "Talk to Shreev, turn in Safety First, and accept Safety First",
+      "classes": null,
+      "races": null,
+      "coords": [50.96, 27.242],
+      "zone": "tanaris",
+      "tips": [],
+      "quests": [
+        {
+          "id": 1188,
+          "name": "Safety First"
+        },
+        {
+          "id": 1189,
+          "name": "Safety First"
+        }
+      ],
+      "npc": "Shreev",
+      "mobs": []
+    },
+    {
+      "id": "tanaris_029",
+      "type": "travel",
+      "description": "Travel to The Shimmering Flats",
+      "classes": null,
+      "races": null,
+      "coords": [78.064, 77.126],
+      "zone": "thousand_needles",
+      "tips": [],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "tanaris_030",
+      "type": "quest_turnin",
+      "description": "Talk to Razzeric and turn in Safety First",
+      "classes": null,
+      "races": null,
+      "coords": [80.326, 76.096],
+      "zone": "thousand_needles",
+      "tips": [],
+      "quests": [
+        {
+          "id": 1189,
+          "name": "Safety First"
+        }
+      ],
+      "npc": "Razzeric",
+      "mobs": []
+    },
+    {
+      "id": "tanaris_031",
+      "type": "travel",
+      "description": "Travel to Tanaris",
+      "classes": null,
+      "races": null,
+      "coords": null,
+      "zone": "",
+      "tips": [],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "tanaris_032",
+      "type": "info",
+      "description": "Talk to Laziphus and withdraw your main pet from the stable",
+      "classes": ["Hunter"],
+      "races": null,
+      "coords": [52.253, 28.001],
+      "zone": "tanaris",
+      "tips": [],
+      "quests": [],
+      "npc": "Laziphus",
+      "mobs": []
+    },
+    {
+      "id": "tanaris_033",
+      "type": "kill",
+      "description": "Kill Rocs. Loot them for their Gizzards",
+      "classes": null,
+      "races": null,
+      "coords": null,
+      "zone": "",
+      "tips": [],
+      "quests": [
+        {
+          "id": 1452,
+          "name": "Rhapsody's Kalimdor Kocktail"
+        }
+      ],
+      "npc": null,
+      "mobs": ["Roc"]
+    },
+    {
+      "id": "tanaris_034",
+      "type": "kill",
+      "description": "Kill Wastewander Bandits and Wastewander Thieves. Loot them for their Wastewander Water Pouches",
+      "classes": null,
+      "races": null,
+      "coords": null,
+      "zone": "",
+      "tips": [
+        {
+          "type": "warning",
+          "class": null,
+          "text": "Kill them en-route to Steamwheedle Port. Don't complete this immediately"
+        }
+      ],
+      "quests": [
+        {
+          "id": 1690,
+          "name": "Wastewander Justice"
+        },
+        {
+          "id": 1707,
+          "name": "Water Pouch Bounty"
+        }
+      ],
+      "npc": null,
+      "mobs": ["Wastewander Bandit", "Wastewander Thief"]
+    },
+    {
+      "id": "tanaris_035",
+      "type": "quest_accept",
+      "description": "Talk to Yeh'kinya and accept Screecher Spirits",
+      "classes": null,
+      "races": null,
+      "coords": [66.989, 22.354],
+      "zone": "tanaris",
+      "tips": [],
+      "quests": [
+        {
+          "id": 3520,
+          "name": "Screecher Spirits"
+        }
+      ],
+      "npc": "Yeh'kinya",
+      "mobs": []
+    },
+    {
+      "id": "tanaris_036",
+      "type": "quest_turnin",
+      "description": "Talk to Stoley and turn in Stoley's Debt",
+      "classes": null,
+      "races": null,
+      "coords": [67.109, 23.978],
+      "zone": "tanaris",
+      "tips": [],
+      "quests": [
+        {
+          "id": 2872,
+          "name": "Stoley's Debt"
+        }
+      ],
+      "npc": "Stoley",
+      "mobs": []
+    },
+    {
+      "id": "tanaris_037",
+      "type": "kill",
+      "description": "Kill Wastewander Bandits and Wastewander Thieves. Loot them for their Wastewander Water Pouches",
+      "classes": null,
+      "races": null,
+      "coords": [63.93, 31.6],
+      "zone": "tanaris",
+      "tips": [],
+      "quests": [
+        {
+          "id": 1690,
+          "name": "Wastewander Justice"
+        },
+        {
+          "id": 1707,
+          "name": "Water Pouch Bounty"
+        }
+      ],
+      "npc": null,
+      "mobs": ["Wastewander Bandit", "Wastewander Thief"]
+    },
+    {
+      "id": "tanaris_038",
+      "type": "loot",
+      "description": "Loot the Sack of Corn on the ground",
+      "classes": null,
+      "races": null,
+      "coords": [65.737, 36.729],
+      "zone": "tanaris",
+      "tips": [],
+      "quests": [
+        {
+          "id": 49,
+          "name": "Sweet Amber"
+        }
+      ],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "tanaris_039",
+      "type": "grind",
+      "description": "Kill Wastewander Bandits and Wastewander Thieves to level 45",
+      "classes": null,
+      "races": null,
+      "coords": [63.93, 31.6],
+      "zone": "tanaris",
+      "tips": [],
+      "quests": [],
+      "npc": null,
+      "mobs": ["Wastewander Bandit", "Wastewander Thief"]
+    },
+    {
+      "id": "tanaris_040",
+      "type": "kill",
+      "description": "Kill Rocs. Loot them for their Gizzards. The Rocs share spawns with Starving Blisterpaws. You may need to kill Starving Blisterpaws to force Rocs to spawn",
+      "classes": null,
+      "races": null,
+      "coords": [49.48, 35.85],
+      "zone": "tanaris",
+      "tips": [
+        {
+          "type": "warning",
+          "class": null,
+          "text": "The Rocs share spawns with Starving Blisterpaws. You may need to kill Starving Blisterpaws to force Rocs to spawn"
+        }
+      ],
+      "quests": [
+        {
+          "id": 1452,
+          "name": "Rhapsody's Kalimdor Kocktail"
+        }
+      ],
+      "npc": null,
+      "mobs": ["Roc"]
+    },
+    {
+      "id": "tanaris_041",
+      "type": "info",
+      "description": "Talk to Gimblethorn. Deposit the Sack of Corn into your bank",
+      "classes": null,
+      "races": null,
+      "coords": [52.297, 28.915],
+      "zone": "tanaris",
+      "tips": [],
+      "quests": [],
+      "npc": "Gimblethorn",
+      "mobs": []
+    },
+    {
+      "id": "tanaris_042",
+      "type": "quest_turnin",
+      "description": "Talk to Chief Engineer Bilgewhizzle and Spigot Operator Luglunket, turn in Wastewander Justice and Water Pouch Bounty",
+      "classes": null,
+      "races": null,
+      "coords": [52.486, 28.445],
+      "zone": "tanaris",
+      "tips": [],
+      "quests": [
+        {
+          "id": 1690,
+          "name": "Wastewander Justice"
+        },
+        {
+          "id": 1707,
+          "name": "Water Pouch Bounty"
+        }
+      ],
+      "npc": "Spigot Operator Luglunket",
+      "mobs": []
+    }
+  ]
+}

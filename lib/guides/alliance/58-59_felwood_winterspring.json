@@ -1,0 +1,1731 @@
+{
+  "zone": "Felwood/Winterspring",
+  "levelRange": "58-59",
+  "faction": "Alliance",
+  "name": "58-59_felwood_winterspring",
+  "next": "59-60_winterspring_silithus_1",
+  "steps": [
+    {
+      "id": "felwood_winterspring_001",
+      "type": "fly",
+      "description": "Talk to Bragok and fly to Azshara",
+      "classes": ["!Druid", "!Mage"],
+      "races": null,
+      "coords": [63.084, 37.163],
+      "zone": "the_barrens",
+      "tips": [],
+      "quests": [],
+      "npc": "Bragok",
+      "mobs": []
+    },
+    {
+      "id": "felwood_winterspring_002",
+      "type": "quest_turnin",
+      "description": "Talk to Ogtinc and turn in The Green Drake",
+      "classes": ["Hunter"],
+      "races": null,
+      "coords": [42.4, 42.619],
+      "zone": "azshara",
+      "tips": [],
+      "quests": [
+        {
+          "id": 8232,
+          "name": "The Green Drake"
+        }
+      ],
+      "npc": "Ogtinc",
+      "mobs": []
+    },
+    {
+      "id": "felwood_winterspring_003",
+      "type": "quest_turnin",
+      "description": "Talk to Sanath Lim-yo. This will teleport you to the top of the mountain",
+      "classes": ["Mage"],
+      "races": null,
+      "coords": [28.113, 50.088],
+      "zone": "azshara",
+      "tips": [
+        {
+          "type": "warning",
+          "class": null,
+          "text": "This will teleport you to the top of the mountain"
+        }
+      ],
+      "quests": [
+        {
+          "id": 3503,
+          "name": "Meeting with the Master"
+        }
+      ],
+      "npc": "Sanath Lim-yo",
+      "mobs": []
+    },
+    {
+      "id": "felwood_winterspring_004",
+      "type": "quest_turnin",
+      "description": "Talk to Archmage Xylem atop the Tower and turn in Destroy Morphaz",
+      "classes": ["Mage"],
+      "races": null,
+      "coords": [29.248, 40.21],
+      "zone": "azshara",
+      "tips": [],
+      "quests": [
+        {
+          "id": 8253,
+          "name": "Destroy Morphaz"
+        }
+      ],
+      "npc": "Archmage Xylem",
+      "mobs": []
+    },
+    {
+      "id": "felwood_winterspring_005",
+      "type": "info",
+      "description": "Talk to Nyrill. This will teleport you back down",
+      "classes": ["Mage"],
+      "races": null,
+      "coords": [26.466, 46.271],
+      "zone": "azshara",
+      "tips": [
+        {
+          "type": "warning",
+          "class": null,
+          "text": "This will teleport you back down"
+        }
+      ],
+      "quests": [
+        {
+          "id": 3421,
+          "name": "Return Trip"
+        }
+      ],
+      "npc": "Nyrill",
+      "mobs": []
+    },
+    {
+      "id": "felwood_winterspring_006",
+      "type": "travel",
+      "description": "Travel to Felwood",
+      "classes": null,
+      "races": null,
+      "coords": [54.14, 86.83],
+      "zone": "felwood",
+      "tips": [],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "felwood_winterspring_007",
+      "type": "quest_turnin",
+      "description": "Talk to Greta Mosshoof and turn in Blood of Morphaz",
+      "classes": ["Priest"],
+      "races": null,
+      "coords": [51.21, 82.1],
+      "zone": "felwood",
+      "tips": [],
+      "quests": [
+        {
+          "id": 8257,
+          "name": "Blood of Morphaz"
+        }
+      ],
+      "npc": "Greta Mosshoof",
+      "mobs": []
+    },
+    {
+      "id": "felwood_winterspring_008",
+      "type": "quest_accept",
+      "description": "Talk to Eridan Bluewind, turn in Linken's Memory, and accept Silver Heart",
+      "classes": null,
+      "races": null,
+      "coords": [51.35, 81.511],
+      "zone": "felwood",
+      "tips": [],
+      "quests": [
+        {
+          "id": 3942,
+          "name": "Linken's Memory"
+        },
+        {
+          "id": 4084,
+          "name": "Silver Heart"
+        }
+      ],
+      "npc": "Eridan Bluewind",
+      "mobs": []
+    },
+    {
+      "id": "felwood_winterspring_009",
+      "type": "quest_accept",
+      "description": "Talk to Eridan Bluewind and accept The Corruption of the Jadefire",
+      "classes": null,
+      "races": null,
+      "coords": [51.35, 81.511],
+      "zone": "felwood",
+      "tips": [],
+      "quests": [
+        {
+          "id": 4421,
+          "name": "The Corruption of the Jadefire"
+        }
+      ],
+      "npc": "Eridan Bluewind",
+      "mobs": []
+    },
+    {
+      "id": "felwood_winterspring_010",
+      "type": "kill",
+      "description": "Kill Jadefire Felsworns, Jadefire Shadowstalkers, Jadefire Rogues and Xavathras. This area can be very dangerous. Be extremely cautious",
+      "classes": null,
+      "races": null,
+      "coords": [37.34, 66.91],
+      "zone": "felwood",
+      "tips": [
+        {
+          "type": "warning",
+          "class": null,
+          "text": "This area can be very dangerous. Be extremely cautious"
+        },
+        {
+          "type": "warning",
+          "class": null,
+          "text": "Jadefire Felsworns cast Cripple which slows your movement speed"
+        },
+        {
+          "type": "warning",
+          "class": null,
+          "text": "Jadefire Shadowstalkers are in Stealth and patrol around, as well as apply a Slowing Poison which slows you for 25 seconds"
+        }
+      ],
+      "quests": [
+        {
+          "id": 4421,
+          "name": "The Corruption of the Jadefire"
+        }
+      ],
+      "npc": null,
+      "mobs": [
+        "Jadefire Felsworn",
+        "Jadefire Shadowstalker",
+        "Jadefire Rogue",
+        "Xavathras"
+      ]
+    },
+    {
+      "id": "felwood_winterspring_011",
+      "type": "quest_accept",
+      "description": "Talk to Eridan Bluewind, turn in The Corruption of the Jadefire, and accept Further Corruption",
+      "classes": null,
+      "races": null,
+      "coords": [51.35, 81.511],
+      "zone": "felwood",
+      "tips": [],
+      "quests": [
+        {
+          "id": 4421,
+          "name": "The Corruption of the Jadefire"
+        },
+        {
+          "id": 4906,
+          "name": "Further Corruption"
+        }
+      ],
+      "npc": "Eridan Bluewind",
+      "mobs": []
+    },
+    {
+      "id": "felwood_winterspring_012",
+      "type": "quest_turnin",
+      "description": "Talk to Impsy and turn in Trolls of a Feather",
+      "classes": ["Warlock"],
+      "races": null,
+      "coords": [41.52, 44.99],
+      "zone": "felwood",
+      "tips": [],
+      "quests": [
+        {
+          "id": 8422,
+          "name": "Trolls of a Feather"
+        }
+      ],
+      "npc": "Impsy",
+      "mobs": []
+    },
+    {
+      "id": "felwood_winterspring_013",
+      "type": "kill",
+      "description": "Kill Bears and Wolves in Felwood. Loot them for their Silvery Claws. Kill Irontree Stompers or Irontree Wanderers. Loot them for their Irontree Heart",
+      "classes": null,
+      "races": null,
+      "coords": [51.8, 25.5],
+      "zone": "felwood",
+      "tips": [],
+      "quests": [
+        {
+          "id": 4084,
+          "name": "Silver Heart"
+        }
+      ],
+      "npc": null,
+      "mobs": [
+        "Irontree Stomper",
+        "Irontree Wanderer",
+        "Angerclaw Grizzly",
+        "Angerclaw Mauler",
+        "Felpaw Ravager",
+        "Felpaw Scavenger"
+      ]
+    },
+    {
+      "id": "felwood_winterspring_014",
+      "type": "loot",
+      "description": "Kill Xavaric. Loot him for the Flute of Xavaric. Use the Flute of Xavaric to start the quest",
+      "classes": null,
+      "races": null,
+      "coords": [38.98, 22.31],
+      "zone": "felwood",
+      "tips": [
+        {
+          "type": "warning",
+          "class": null,
+          "text": "Use the Flute of Xavaric to start the quest"
+        }
+      ],
+      "quests": [
+        {
+          "id": 4906,
+          "name": "Further Corruption"
+        },
+        {
+          "id": 939,
+          "name": "Flute of Xavaric"
+        }
+      ],
+      "npc": null,
+      "mobs": ["Xavaric"]
+    },
+    {
+      "id": "felwood_winterspring_015",
+      "type": "kill",
+      "description": "Kill Jadefire Hellcallers, Jadefire Betrayers and Jadefire Trickster. Loot them for their Jadefire Felbinds",
+      "classes": null,
+      "races": null,
+      "coords": [38.98, 22.31],
+      "zone": "felwood",
+      "tips": [],
+      "quests": [
+        {
+          "id": 4906,
+          "name": "Further Corruption"
+        },
+        {
+          "id": 939,
+          "name": "Flute of Xavaric"
+        }
+      ],
+      "npc": null,
+      "mobs": ["Jadefire Hellcaller", "Jadefire Betrayer", "Jadefire Trickster"]
+    },
+    {
+      "id": "felwood_winterspring_016",
+      "type": "quest_accept",
+      "description": "Talk to Eridan Bluewind, turn in Silver Heart, and accept Aquementas",
+      "classes": null,
+      "races": null,
+      "coords": [51.35, 81.511],
+      "zone": "felwood",
+      "tips": [],
+      "quests": [
+        {
+          "id": 4084,
+          "name": "Silver Heart"
+        },
+        {
+          "id": 4005,
+          "name": "Aquementas"
+        }
+      ],
+      "npc": "Eridan Bluewind",
+      "mobs": []
+    },
+    {
+      "id": "felwood_winterspring_017",
+      "type": "quest_accept",
+      "description": "Talk to Eridan Bluewind, turn in Flute of Xavaric and Further Corruption, and accept Felbound Ancients",
+      "classes": null,
+      "races": null,
+      "coords": [51.35, 81.511],
+      "zone": "felwood",
+      "tips": [],
+      "quests": [
+        {
+          "id": 939,
+          "name": "Flute of Xavaric"
+        },
+        {
+          "id": 4906,
+          "name": "Further Corruption"
+        },
+        {
+          "id": 4441,
+          "name": "Felbound Ancients"
+        }
+      ],
+      "npc": "Eridan Bluewind",
+      "mobs": []
+    },
+    {
+      "id": "felwood_winterspring_018",
+      "type": "travel",
+      "description": "Travel to Felpaw Village",
+      "classes": null,
+      "races": null,
+      "coords": [60.204, 5.841],
+      "zone": "felwood",
+      "tips": [],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "felwood_winterspring_019",
+      "type": "info",
+      "description": "Click the Deadwood Cauldron.",
+      "classes": null,
+      "races": null,
+      "coords": [60.204, 5.841],
+      "zone": "felwood",
+      "tips": [
+        {
+          "type": "warning",
+          "class": null,
+          "text": "If you create an escape path, you can simply click the Deadwood Cauldron and then run away. You don't need to kill all surrounding Furbolgs"
+        }
+      ],
+      "quests": [
+        {
+          "id": 5084,
+          "name": "Falling to Corruption"
+        },
+        {
+          "id": 5085,
+          "name": "Mystery Goo"
+        }
+      ],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "felwood_winterspring_020",
+      "type": "travel",
+      "description": "Travel to Winterspring via Timbermaw Hold",
+      "classes": null,
+      "races": null,
+      "coords": [27.76, 34.59],
+      "zone": "winterspring",
+      "tips": [],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "felwood_winterspring_021",
+      "type": "quest_accept",
+      "description": "Talk to Donova Snowden, turn in Mystery Goo, and accept Toxic Horrors",
+      "classes": null,
+      "races": null,
+      "coords": [31.269, 45.164],
+      "zone": "winterspring",
+      "tips": [],
+      "quests": [
+        {
+          "id": 5085,
+          "name": "Mystery Goo"
+        },
+        {
+          "id": 5086,
+          "name": "Toxic Horrors"
+        }
+      ],
+      "npc": "Donova Snowden",
+      "mobs": []
+    },
+    {
+      "id": "felwood_winterspring_022",
+      "type": "travel",
+      "description": "Travel to Felwood via Timbermaw Hold",
+      "classes": null,
+      "races": null,
+      "coords": [65.28, 7.515],
+      "zone": "felwood",
+      "tips": [],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "felwood_winterspring_023",
+      "type": "kill",
+      "description": "Kill Toxic Horrors. Loot them for their Toxic Horror Droplets",
+      "classes": null,
+      "races": null,
+      "coords": [49.6, 26.6],
+      "zone": "felwood",
+      "tips": [],
+      "quests": [
+        {
+          "id": 5086,
+          "name": "Toxic Horrors"
+        }
+      ],
+      "npc": null,
+      "mobs": ["Toxic Horror"]
+    },
+    {
+      "id": "felwood_winterspring_024",
+      "type": "travel",
+      "description": "Travel to Winterspring via Timbermaw Hold",
+      "classes": null,
+      "races": null,
+      "coords": [27.76, 34.59],
+      "zone": "winterspring",
+      "tips": [],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "felwood_winterspring_025",
+      "type": "quest_accept",
+      "description": "Talk to Donova Snowden, turn in Toxic Horrors, and accept Winterfall Runners and Strange Sources",
+      "classes": null,
+      "races": null,
+      "coords": [31.269, 45.164],
+      "zone": "winterspring",
+      "tips": [],
+      "quests": [
+        {
+          "id": 5086,
+          "name": "Toxic Horrors"
+        },
+        {
+          "id": 5087,
+          "name": "Winterfall Runners"
+        },
+        {
+          "id": 4842,
+          "name": "Strange Sources"
+        }
+      ],
+      "npc": "Donova Snowden",
+      "mobs": []
+    },
+    {
+      "id": "felwood_winterspring_026",
+      "type": "kill",
+      "description": "Kill Winterfall Pathfinders, Winterfall Den Watchers and Winterfall Totemics.",
+      "classes": null,
+      "races": null,
+      "coords": [41.6, 42.8],
+      "zone": "winterspring",
+      "tips": [
+        {
+          "type": "warning",
+          "class": null,
+          "text": "If you find the Winterfall Ritual Totem, don't start the quest from this item yet"
+        }
+      ],
+      "quests": [
+        {
+          "id": 5082,
+          "name": "Threat of the Winterfall"
+        }
+      ],
+      "npc": null,
+      "mobs": [
+        "Winterfall Pathfinder",
+        "Winterfall Den Watcher",
+        "Winterfall Totemic"
+      ]
+    },
+    {
+      "id": "felwood_winterspring_027",
+      "type": "travel",
+      "description": "Travel through Timbermaw Hold to Kernda",
+      "classes": null,
+      "races": null,
+      "coords": [65.35, 1.37],
+      "zone": "felwood",
+      "tips": [],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "felwood_winterspring_028",
+      "type": "quest_turnin",
+      "description": "Talk to Kernda. Use the Deadwood Ritual Totem to start the quest.",
+      "classes": null,
+      "races": null,
+      "coords": [65.35, 1.37],
+      "zone": "felwood",
+      "tips": [
+        {
+          "type": "warning",
+          "class": null,
+          "text": "Kernda patrols the lower Timbermaw Hold path"
+        }
+      ],
+      "quests": [
+        {
+          "id": 8470,
+          "name": "Deadwood Ritual Totem"
+        }
+      ],
+      "npc": "Kernda",
+      "mobs": []
+    },
+    {
+      "id": "felwood_winterspring_029",
+      "type": "quest_turnin",
+      "description": "Talk to Kernda. Use the Winterfall Ritual Totem to start the quest.",
+      "classes": null,
+      "races": null,
+      "coords": [65.35, 1.37],
+      "zone": "felwood",
+      "tips": [
+        {
+          "type": "warning",
+          "class": null,
+          "text": "Skip this step if you aren't neutral with Timbermaw Hold"
+        },
+        {
+          "type": "warning",
+          "class": null,
+          "text": "Kernda patrols the lower Timbermaw Hold path"
+        }
+      ],
+      "quests": [
+        {
+          "id": 8471,
+          "name": "Winterfall Ritual Totem"
+        }
+      ],
+      "npc": "Kernda",
+      "mobs": []
+    },
+    {
+      "id": "felwood_winterspring_030",
+      "type": "quest_turnin",
+      "description": "Talk to Meilosh and turn in Runecloth.",
+      "classes": null,
+      "races": null,
+      "coords": [65.692, 2.81],
+      "zone": "felwood",
+      "tips": [
+        {
+          "type": "warning",
+          "class": null,
+          "text": "Skip this step if you aren't friendly with Timbermaw Hold"
+        }
+      ],
+      "quests": [
+        {
+          "id": 6031,
+          "name": "Runecloth"
+        }
+      ],
+      "npc": "Meilosh",
+      "mobs": []
+    },
+    {
+      "id": "felwood_winterspring_031",
+      "type": "quest_turnin",
+      "description": "Talk to Donova Snowden and turn in Threat of the Winterfall and Winterfall Runners.",
+      "classes": null,
+      "races": null,
+      "coords": [31.269, 45.164],
+      "zone": "winterspring",
+      "tips": [
+        {
+          "type": "warning",
+          "class": null,
+          "text": "Be ready to move away from Donova Snowden quickly as after you turn in Winterfall Runners, 3 Winterfall Ambushers will attack her location"
+        }
+      ],
+      "quests": [
+        {
+          "id": 5082,
+          "name": "Threat of the Winterfall"
+        },
+        {
+          "id": 5087,
+          "name": "Winterfall Runners"
+        }
+      ],
+      "npc": "Donova Snowden",
+      "mobs": []
+    },
+    {
+      "id": "felwood_winterspring_032",
+      "type": "quest_accept",
+      "description": "Talk to Donova Snowden and accept High Chief Winterfall",
+      "classes": null,
+      "races": null,
+      "coords": [31.269, 45.164],
+      "zone": "winterspring",
+      "tips": [],
+      "quests": [
+        {
+          "id": 5121,
+          "name": "High Chief Winterfall"
+        }
+      ],
+      "npc": "Donova Snowden",
+      "mobs": []
+    },
+    {
+      "id": "felwood_winterspring_033",
+      "type": "travel",
+      "description": "Travel to Starfall Village",
+      "classes": null,
+      "races": null,
+      "coords": [51.971, 30.387],
+      "zone": "winterspring",
+      "tips": [],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "felwood_winterspring_034",
+      "type": "quest_accept",
+      "description": "Talk to Wynd Nightchaser and Jaron Stoneshaper, turn in Starfall and The Ruins of Kel'Theril, and accept The Ruins of Kel'Theril and Enraged Wildkin",
+      "classes": null,
+      "races": null,
+      "coords": [52.139, 30.429],
+      "zone": "winterspring",
+      "tips": [],
+      "quests": [
+        {
+          "id": 5250,
+          "name": "Starfall"
+        },
+        {
+          "id": 5244,
+          "name": "The Ruins of Kel'Theril"
+        },
+        {
+          "id": 4861,
+          "name": "Enraged Wildkin"
+        }
+      ],
+      "npc": "Jaron Stoneshaper",
+      "mobs": []
+    },
+    {
+      "id": "felwood_winterspring_035",
+      "type": "kill",
+      "description": "Kill Winterfall Shamans, Winterfall Den Watchers and Winterfall Ursas",
+      "classes": null,
+      "races": null,
+      "coords": [68.0, 37.71],
+      "zone": "winterspring",
+      "tips": [],
+      "quests": [
+        {
+          "id": 8464,
+          "name": "Winterfall Activity"
+        }
+      ],
+      "npc": null,
+      "mobs": ["Winterfall Shaman", "Winterfall Den Watcher", "Winterfall Ursa"]
+    },
+    {
+      "id": "felwood_winterspring_036",
+      "type": "kill",
+      "description": "Kill High Chief Winterfall. Loot him for his Crudely-written Log. Use the Crudely-written Log to start the quest",
+      "classes": null,
+      "races": null,
+      "coords": [69.75, 38.24],
+      "zone": "winterspring",
+      "tips": [
+        {
+          "type": "warning",
+          "class": null,
+          "text": "Use the Crudely-written Log to start the quest"
+        }
+      ],
+      "quests": [
+        {
+          "id": 5121,
+          "name": "High Chief Winterfall"
+        },
+        {
+          "id": 5123,
+          "name": "The Final Piece"
+        }
+      ],
+      "npc": null,
+      "mobs": ["High Chief Winterfall"]
+    },
+    {
+      "id": "felwood_winterspring_037",
+      "type": "travel",
+      "description": "Travel to Everlook",
+      "classes": null,
+      "races": null,
+      "coords": null,
+      "zone": "",
+      "tips": [],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "felwood_winterspring_038",
+      "type": "info",
+      "description": "Talk to Azzleby. Stable your pet. You will tame a Winterspring Screecher shortly",
+      "classes": ["Hunter"],
+      "races": null,
+      "coords": [60.389, 37.916],
+      "zone": "winterspring",
+      "tips": [
+        {
+          "type": "warning",
+          "class": null,
+          "text": "You will tame a Winterspring Screecher shortly"
+        }
+      ],
+      "quests": [],
+      "npc": "Azzleby",
+      "mobs": []
+    },
+    {
+      "id": "felwood_winterspring_039",
+      "type": "info",
+      "description": "Cast Tame Beast on a Winterspring Screecher to tame it. Attack mobs with it to learn Claw (Rank 8). Click here for more info about pet training",
+      "classes": ["Hunter"],
+      "races": null,
+      "coords": [59.6, 18.0],
+      "zone": "winterspring",
+      "tips": [
+        {
+          "type": "warning",
+          "class": null,
+          "text": "Cast Tame Beast on a Winterspring Screecher to tame it"
+        },
+        {
+          "type": "warning",
+          "class": null,
+          "text": "Attack mobs with it to learn Claw (Rank 8)"
+        },
+        {
+          "type": "link",
+          "class": null,
+          "text": "Click here for more info about pet training",
+          "url": "https://www.wow-petopia.com/classic/training.php"
+        }
+      ],
+      "quests": [],
+      "npc": null,
+      "mobs": ["Winterspring Screecher"]
+    },
+    {
+      "id": "felwood_winterspring_040",
+      "type": "travel",
+      "description": "Travel to Everlook",
+      "classes": ["Hunter"],
+      "races": null,
+      "coords": null,
+      "zone": "",
+      "tips": [],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "felwood_winterspring_041",
+      "type": "info",
+      "description": "Talk to Ulbrek Firehand. Withdraw your pet",
+      "classes": ["Hunter"],
+      "races": null,
+      "coords": [60.389, 37.916],
+      "zone": "winterspring",
+      "tips": [],
+      "quests": [],
+      "npc": "Azzleby",
+      "mobs": []
+    },
+    {
+      "id": "felwood_winterspring_042",
+      "type": "info",
+      "description": "Talk to Innkeeper Vizzie. Set your Hearthstone to Everlook",
+      "classes": null,
+      "races": null,
+      "coords": [61.358, 38.837],
+      "zone": "winterspring",
+      "tips": [],
+      "quests": [],
+      "npc": "Innkeeper Vizzie",
+      "mobs": []
+    },
+    {
+      "id": "felwood_winterspring_043",
+      "type": "info",
+      "description": "Talk to Izzy Coppergrab. Withdraw Tinkee's Letter from your bank",
+      "classes": null,
+      "races": null,
+      "coords": [61.455, 36.973],
+      "zone": "winterspring",
+      "tips": [],
+      "quests": [],
+      "npc": "Izzy Coppergrab",
+      "mobs": []
+    },
+    {
+      "id": "felwood_winterspring_044",
+      "type": "quest_accept",
+      "description": "Talk to Felnok Steelspring, turn in Felnok Steelspring, and accept Chillwind Horns",
+      "classes": null,
+      "races": null,
+      "coords": [61.626, 38.615],
+      "zone": "winterspring",
+      "tips": [],
+      "quests": [
+        {
+          "id": 4808,
+          "name": "Felnok Steelspring"
+        },
+        {
+          "id": 4809,
+          "name": "Chillwind Horns"
+        }
+      ],
+      "npc": "Felnok Steelspring",
+      "mobs": []
+    },
+    {
+      "id": "felwood_winterspring_045",
+      "type": "quest_accept",
+      "description": "Talk to Witch Doctor Mau'ari and accept Luck Be With You",
+      "classes": null,
+      "races": null,
+      "coords": [61.919, 38.298],
+      "zone": "winterspring",
+      "tips": [],
+      "quests": [
+        {
+          "id": 969,
+          "name": "Luck Be With You"
+        }
+      ],
+      "npc": "Witch Doctor Mau'ari",
+      "mobs": []
+    },
+    {
+      "id": "felwood_winterspring_046",
+      "type": "quest_accept",
+      "description": "Talk to Umi Rumplesnicker and accept Are We There, Yeti?",
+      "classes": null,
+      "races": null,
+      "coords": [60.883, 37.62],
+      "zone": "winterspring",
+      "tips": [],
+      "quests": [
+        {
+          "id": 3783,
+          "name": "Are We There, Yeti?"
+        }
+      ],
+      "npc": "Umi Rumplesnicker",
+      "mobs": []
+    },
+    {
+      "id": "felwood_winterspring_047",
+      "type": "kill",
+      "description": "Kill Ice Thistle Yetis and Rogue Ice Thistles. Loot them for their Thick Yeti Fur",
+      "classes": null,
+      "races": null,
+      "coords": [66.3, 42.6],
+      "zone": "winterspring",
+      "tips": [],
+      "quests": [
+        {
+          "id": 3783,
+          "name": "Are We There, Yeti?"
+        }
+      ],
+      "npc": null,
+      "mobs": ["Rogue Ice Thistle", "Ice Thistle Yeti"]
+    },
+    {
+      "id": "felwood_winterspring_048",
+      "type": "quest_accept",
+      "description": "Talk to Umi Rumplesnicker, turn in Are We There, Yeti?, and accept Are We There, Yeti?",
+      "classes": null,
+      "races": null,
+      "coords": [60.883, 37.62],
+      "zone": "winterspring",
+      "tips": [],
+      "quests": [
+        {
+          "id": 3783,
+          "name": "Are We There, Yeti?"
+        },
+        {
+          "id": 977,
+          "name": "Are We There, Yeti?"
+        }
+      ],
+      "npc": "Umi Rumplesnicker",
+      "mobs": []
+    },
+    {
+      "id": "felwood_winterspring_049",
+      "type": "travel",
+      "description": "Enter the Yeti Cave",
+      "classes": null,
+      "races": null,
+      "coords": [67.97, 41.44],
+      "zone": "winterspring",
+      "tips": [],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "felwood_winterspring_050",
+      "type": "kill",
+      "description": "Kill Ice Thistle Matriarchs and Ice Thistle Patriarchs. Loot them for their Pristine Yeti Horns",
+      "classes": null,
+      "races": null,
+      "coords": [69.9, 41.67],
+      "zone": "winterspring",
+      "tips": [],
+      "quests": [
+        {
+          "id": 977,
+          "name": "Are We There, Yeti?"
+        }
+      ],
+      "npc": null,
+      "mobs": ["Ice Thistle Matriarch", "Ice Thistle Patriarch"]
+    },
+    {
+      "id": "felwood_winterspring_051",
+      "type": "travel",
+      "description": "Travel south to Dun Mandarr",
+      "classes": null,
+      "races": null,
+      "coords": null,
+      "zone": "",
+      "tips": [],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "felwood_winterspring_052",
+      "type": "quest_accept",
+      "description": "Click the Damaged Crate on the ground, turn in Enraged Wildkin, and accept Enraged Wildkin",
+      "classes": null,
+      "races": null,
+      "coords": [58.991, 59.784],
+      "zone": "winterspring",
+      "tips": [],
+      "quests": [
+        {
+          "id": 4861,
+          "name": "Enraged Wildkin"
+        },
+        {
+          "id": 4863,
+          "name": "Enraged Wildkin"
+        }
+      ],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "felwood_winterspring_053",
+      "type": "quest_accept",
+      "description": "Click on Jaron's Wagon, turn in Enraged Wildkin, and accept Enraged Wildkin",
+      "classes": null,
+      "races": null,
+      "coords": [61.439, 60.691],
+      "zone": "winterspring",
+      "tips": [],
+      "quests": [
+        {
+          "id": 4863,
+          "name": "Enraged Wildkin"
+        },
+        {
+          "id": 4864,
+          "name": "Enraged Wildkin"
+        }
+      ],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "felwood_winterspring_054",
+      "type": "loot",
+      "description": "Loot Jaron's Supplies on the ground",
+      "classes": null,
+      "races": null,
+      "coords": [61.398, 60.728],
+      "zone": "winterspring",
+      "tips": [],
+      "quests": [
+        {
+          "id": 4864,
+          "name": "Enraged Wildkin"
+        }
+      ],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "felwood_winterspring_055",
+      "type": "kill",
+      "description": "Kill Crazed Owlbeasts, Moontouched Owlbeasts and Berserk Owlbeasts. Loot them for a Blue-feathered Amulet",
+      "classes": null,
+      "races": null,
+      "coords": [65.52, 60.29],
+      "zone": "winterspring",
+      "tips": [],
+      "quests": [
+        {
+          "id": 4864,
+          "name": "Enraged Wildkin"
+        }
+      ],
+      "npc": null,
+      "mobs": ["Crazed Owlbeast", "Moontouched Owlbeast", "Berserk Owlbeast"]
+    },
+    {
+      "id": "felwood_winterspring_056",
+      "type": "loot",
+      "description": "Loot the Frostmaul Shards on the ground scattered around Frostwhisper Gorge",
+      "classes": null,
+      "races": null,
+      "coords": [59.06, 68.33],
+      "zone": "winterspring",
+      "tips": [],
+      "quests": [
+        {
+          "id": 969,
+          "name": "Luck Be With You"
+        }
+      ],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "felwood_winterspring_057",
+      "type": "info",
+      "description": "Explore Darkwhisper Gorge.",
+      "classes": null,
+      "races": null,
+      "coords": [59.88, 73.95],
+      "zone": "winterspring",
+      "tips": [
+        {
+          "type": "warning",
+          "class": null,
+          "text": "You can do this without agroing any of the nearby Elites"
+        }
+      ],
+      "quests": [
+        {
+          "id": 4842,
+          "name": "Strange Sources"
+        }
+      ],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "felwood_winterspring_058",
+      "type": "info",
+      "description": "Hearth to Everlook. Buy food/water if needed",
+      "classes": ["!Warrior", "!Rogue"],
+      "races": null,
+      "coords": null,
+      "zone": "",
+      "tips": [
+        {
+          "type": "warning",
+          "class": null,
+          "text": "Buy food/water if needed"
+        }
+      ],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "felwood_winterspring_059",
+      "type": "info",
+      "description": "Hearth to Everlook. Buy food if needed",
+      "classes": ["Warrior", "Rogue"],
+      "races": null,
+      "coords": null,
+      "zone": "",
+      "tips": [
+        {
+          "type": "warning",
+          "class": null,
+          "text": "Buy food if needed"
+        }
+      ],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "felwood_winterspring_060",
+      "type": "quest_accept",
+      "description": "Talk to Umi Rumplesnicker, turn in Are We There, Yeti?, and accept Are We There, Yeti?",
+      "classes": null,
+      "races": null,
+      "coords": [60.883, 37.62],
+      "zone": "winterspring",
+      "tips": [],
+      "quests": [
+        {
+          "id": 977,
+          "name": "Are We There, Yeti?"
+        },
+        {
+          "id": 5163,
+          "name": "Are We There, Yeti?"
+        }
+      ],
+      "npc": "Umi Rumplesnicker",
+      "mobs": []
+    },
+    {
+      "id": "felwood_winterspring_061",
+      "type": "info",
+      "description": "Use Umi's Mechanical Yeti on Legacki",
+      "classes": null,
+      "races": null,
+      "coords": [61.543, 38.615],
+      "zone": "winterspring",
+      "tips": [
+        {
+          "type": "warning",
+          "class": null,
+          "text": "Use Umi's Mechanical Yeti on Legacki"
+        }
+      ],
+      "quests": [
+        {
+          "id": 5163,
+          "name": "Are We There, Yeti?"
+        }
+      ],
+      "npc": "Legacki",
+      "mobs": []
+    },
+    {
+      "id": "felwood_winterspring_062",
+      "type": "quest_turnin",
+      "description": "Talk to Felnok Steelspring and turn in Chillwind Horns",
+      "classes": null,
+      "races": null,
+      "coords": [61.626, 38.615],
+      "zone": "winterspring",
+      "tips": [],
+      "quests": [
+        {
+          "id": 4809,
+          "name": "Chillwind Horns"
+        }
+      ],
+      "npc": "Felnok Steelspring",
+      "mobs": []
+    },
+    {
+      "id": "felwood_winterspring_063",
+      "type": "quest_turnin",
+      "description": "Talk to Witch Doctor Mau'ari and turn in Luck Be With You",
+      "classes": null,
+      "races": null,
+      "coords": [61.919, 38.298],
+      "zone": "winterspring",
+      "tips": [],
+      "quests": [
+        {
+          "id": 969,
+          "name": "Luck Be With You"
+        }
+      ],
+      "npc": "Witch Doctor Mau'ari",
+      "mobs": []
+    },
+    {
+      "id": "felwood_winterspring_064",
+      "type": "travel",
+      "description": "Travel to Starfall Village",
+      "classes": null,
+      "races": null,
+      "coords": [52.139, 30.429],
+      "zone": "winterspring",
+      "tips": [],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "felwood_winterspring_065",
+      "type": "quest_turnin",
+      "description": "Talk to Jaron Stoneshaper and turn in Enraged Wildkin",
+      "classes": null,
+      "races": null,
+      "coords": [52.139, 30.429],
+      "zone": "winterspring",
+      "tips": [],
+      "quests": [
+        {
+          "id": 4864,
+          "name": "Enraged Wildkin"
+        }
+      ],
+      "npc": "Jaron Stoneshaper",
+      "mobs": []
+    },
+    {
+      "id": "felwood_winterspring_066",
+      "type": "quest_accept",
+      "description": "Talk to Donova Snowden, turn in Strange Sources, High Chief Winterfall and The Final Piece, and accept Words of the High Chief",
+      "classes": null,
+      "races": null,
+      "coords": [31.269, 45.164],
+      "zone": "winterspring",
+      "tips": [],
+      "quests": [
+        {
+          "id": 4842,
+          "name": "Strange Sources"
+        },
+        {
+          "id": 5121,
+          "name": "High Chief Winterfall"
+        },
+        {
+          "id": 5123,
+          "name": "The Final Piece"
+        },
+        {
+          "id": 5128,
+          "name": "Words of the High Chief"
+        }
+      ],
+      "npc": "Donova Snowden",
+      "mobs": []
+    },
+    {
+      "id": "felwood_winterspring_067",
+      "type": "quest_turnin",
+      "description": "Talk to Salfa and turn in Winterfall Activity",
+      "classes": null,
+      "races": null,
+      "coords": [27.736, 34.499],
+      "zone": "winterspring",
+      "tips": [],
+      "quests": [
+        {
+          "id": 8464,
+          "name": "Winterfall Activity"
+        }
+      ],
+      "npc": "Salfa",
+      "mobs": []
+    },
+    {
+      "id": "felwood_winterspring_068",
+      "type": "travel",
+      "description": "Travel to Moonglade via Timbermaw Hold",
+      "classes": ["!Druid"],
+      "races": null,
+      "coords": [35.77, 71.94],
+      "zone": "moonglade",
+      "tips": [],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "felwood_winterspring_069",
+      "type": "info",
+      "description": "Cast Teleport: Moonglade",
+      "classes": ["Druid"],
+      "races": null,
+      "coords": null,
+      "zone": "",
+      "tips": [],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "felwood_winterspring_070",
+      "type": "info",
+      "description": "Teleport to Moonglade. Talk to Loganaar and train your class spells",
+      "classes": ["Druid"],
+      "races": null,
+      "coords": [52.53, 40.56],
+      "zone": "moonglade",
+      "tips": [],
+      "quests": [],
+      "npc": "Loganaar",
+      "mobs": []
+    },
+    {
+      "id": "felwood_winterspring_071",
+      "type": "quest_accept",
+      "description": "Talk to Rabine Saturna, turn in Rabine Saturna, and accept Wasteland",
+      "classes": null,
+      "races": null,
+      "coords": [51.685, 45.096],
+      "zone": "moonglade",
+      "tips": [],
+      "quests": [
+        {
+          "id": 6762,
+          "name": "Rabine Saturna"
+        },
+        {
+          "id": 1124,
+          "name": "Wasteland"
+        }
+      ],
+      "npc": "Rabine Saturna",
+      "mobs": []
+    },
+    {
+      "id": "felwood_winterspring_072",
+      "type": "quest_accept",
+      "description": "Talk to Rabine Saturna and accept A Reliquary of Purity. Skip this step if the Dire Maul dialogue is not available",
+      "classes": null,
+      "races": null,
+      "coords": [51.685, 45.096],
+      "zone": "moonglade",
+      "tips": [
+        {
+          "type": "warning",
+          "class": null,
+          "text": "Skip this step if the Dire Maul dialogue is not available"
+        }
+      ],
+      "quests": [
+        {
+          "id": 5527,
+          "name": "A Reliquary of Purity"
+        }
+      ],
+      "npc": "Rabine Saturna",
+      "mobs": []
+    },
+    {
+      "id": "felwood_winterspring_073",
+      "type": "fly",
+      "description": "Talk to Silva Fil'naveth and fly to Teldrassil",
+      "classes": ["Druid"],
+      "races": null,
+      "coords": [44.148, 45.228],
+      "zone": "moonglade",
+      "tips": [],
+      "quests": [],
+      "npc": "Silva Fil'naveth",
+      "mobs": []
+    },
+    {
+      "id": "felwood_winterspring_074",
+      "type": "fly",
+      "description": "Talk to Sindrayl. Get the Moonglade Flight path and fly to Teldrassil",
+      "classes": ["!Druid", "!Mage"],
+      "races": null,
+      "coords": [48.102, 67.346],
+      "zone": "moonglade",
+      "tips": [],
+      "quests": [],
+      "npc": "Sindrayl",
+      "mobs": []
+    },
+    {
+      "id": "felwood_winterspring_075",
+      "type": "travel",
+      "description": "Teleport to Darnassus",
+      "classes": ["Mage"],
+      "races": null,
+      "coords": null,
+      "zone": "",
+      "tips": [],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "felwood_winterspring_076",
+      "type": "info",
+      "description": "Use Eridan's Vial at the moonwell inside the Temple of the Moon",
+      "classes": ["Mage"],
+      "races": null,
+      "coords": [39.31, 84.67],
+      "zone": "darnassus",
+      "tips": [
+        {
+          "type": "warning",
+          "class": null,
+          "text": "Use Eridan's Vial at the moonwell inside the Temple of the Moon"
+        }
+      ],
+      "quests": [
+        {
+          "id": 4441,
+          "name": "Felbound Ancients"
+        }
+      ],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "felwood_winterspring_077",
+      "type": "travel",
+      "description": "Travel through the purple portal to Rut'theran Village",
+      "classes": ["Mage"],
+      "races": null,
+      "coords": [29.466, 41.405],
+      "zone": "teldrassil",
+      "tips": [],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "felwood_winterspring_078",
+      "type": "quest_turnin",
+      "description": "Talk to Erelas Ambersky and turn in Moontouched Wildkin",
+      "classes": null,
+      "races": null,
+      "coords": [55.497, 92.045],
+      "zone": "teldrassil",
+      "tips": [],
+      "quests": [
+        {
+          "id": 978,
+          "name": "Moontouched Wildkin"
+        }
+      ],
+      "npc": "Erelas Ambersky",
+      "mobs": []
+    },
+    {
+      "id": "felwood_winterspring_079",
+      "type": "quest_accept",
+      "description": "Talk to Erelas Ambersky and accept Find Ranshalla",
+      "classes": null,
+      "races": null,
+      "coords": [55.497, 92.045],
+      "zone": "teldrassil",
+      "tips": [],
+      "quests": [
+        {
+          "id": 979,
+          "name": "Find Ranshalla"
+        }
+      ],
+      "npc": "Erelas Ambersky",
+      "mobs": []
+    },
+    {
+      "id": "felwood_winterspring_080",
+      "type": "travel",
+      "description": "Take the purple portal into Darnassus",
+      "classes": ["!Mage"],
+      "races": null,
+      "coords": [55.889, 89.456],
+      "zone": "darnassus",
+      "tips": [],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "felwood_winterspring_081",
+      "type": "quest_turnin",
+      "description": "Talk to Mathrengyl Bearwalker and turn in Glyphed Oaken Branch",
+      "classes": ["!Mage"],
+      "races": null,
+      "coords": [35.375, 8.405],
+      "zone": "darnassus",
+      "tips": [],
+      "quests": [
+        {
+          "id": 4986,
+          "name": "Glyphed Oaken Branch"
+        }
+      ],
+      "npc": "Mathrengyl Bearwalker",
+      "mobs": []
+    },
+    {
+      "id": "felwood_winterspring_082",
+      "type": "info",
+      "description": "Use Eridan's Vial at the moonwell inside the Temple of the Moon",
+      "classes": ["!Mage"],
+      "races": null,
+      "coords": [39.31, 84.67],
+      "zone": "darnassus",
+      "tips": [],
+      "quests": [
+        {
+          "id": 4441,
+          "name": "Felbound Ancients"
+        }
+      ],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "felwood_winterspring_083",
+      "type": "travel",
+      "description": "Travel through the purple portal to Rut'theran Village",
+      "classes": ["!Mage"],
+      "races": null,
+      "coords": [29.466, 41.405],
+      "zone": "teldrassil",
+      "tips": [],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "felwood_winterspring_084",
+      "type": "fly",
+      "description": "Talk to Vesprystus and fly to Ashenvale",
+      "classes": null,
+      "races": null,
+      "coords": [58.39, 94.01],
+      "zone": "teldrassil",
+      "tips": [],
+      "quests": [],
+      "npc": "Vesprystus",
+      "mobs": []
+    },
+    {
+      "id": "felwood_winterspring_085",
+      "type": "travel",
+      "description": "Travel to Felwood",
+      "classes": null,
+      "races": null,
+      "coords": [54.14, 86.83],
+      "zone": "felwood",
+      "tips": [],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "felwood_winterspring_086",
+      "type": "quest_turnin",
+      "description": "Talk to Kelek Skykeeper and turn in Words of the High Chief",
+      "classes": null,
+      "races": null,
+      "coords": [51.136, 81.754],
+      "zone": "felwood",
+      "tips": [],
+      "quests": [
+        {
+          "id": 5128,
+          "name": "Words of the High Chief"
+        }
+      ],
+      "npc": "Kelek Skykeeper",
+      "mobs": []
+    },
+    {
+      "id": "felwood_winterspring_087",
+      "type": "quest_accept",
+      "description": "Talk to Eridan Bluewind, turn in Felbound Ancients, and accept Purified!",
+      "classes": null,
+      "races": null,
+      "coords": [51.35, 81.511],
+      "zone": "felwood",
+      "tips": [],
+      "quests": [
+        {
+          "id": 4441,
+          "name": "Felbound Ancients"
+        },
+        {
+          "id": 4442,
+          "name": "Purified!"
+        }
+      ],
+      "npc": "Eridan Bluewind",
+      "mobs": []
+    },
+    {
+      "id": "felwood_winterspring_088",
+      "type": "info",
+      "description": "Talk to Arathandris Silversky. Turn in any remaining Corrupted Soul Shards you have to receive additional Cenarion Plant Salves. If you don't have any, skip this step",
+      "classes": null,
+      "races": null,
+      "coords": [54.14, 86.83],
+      "zone": "felwood",
+      "tips": [
+        {
+          "type": "warning",
+          "class": null,
+          "text": "Turn in any remaining Corrupted Soul Shards you have to receive additional Cenarion Plant Salves"
+        },
+        {
+          "type": "warning",
+          "class": null,
+          "text": "If you don't have any, skip this step"
+        }
+      ],
+      "quests": [
+        {
+          "id": 4103,
+          "name": "Salve via Hunting"
+        }
+      ],
+      "npc": "Arathandris Silversky",
+      "mobs": []
+    },
+    {
+      "id": "felwood_winterspring_089",
+      "type": "info",
+      "description": "Look for a Corrupted Songflower. Click it to cleanse it. Click the Cleansed Songflower to receive the hour-long Songflower Serenade buff. Their locations have been marked on your map. Skip this step if you aren't able to find one",
+      "classes": null,
+      "races": null,
+      "coords": null,
+      "zone": "",
+      "tips": [],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "felwood_winterspring_090",
+      "type": "fly",
+      "description": "Talk to Mishellena and fly to Tanaris",
+      "classes": null,
+      "races": null,
+      "coords": [62.488, 24.242],
+      "zone": "felwood",
+      "tips": [],
+      "quests": [],
+      "npc": "Mishellena",
+      "mobs": []
+    }
+  ]
+}

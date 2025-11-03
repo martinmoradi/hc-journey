@@ -1,0 +1,1255 @@
+{
+  "zone": "Searing Gorge",
+  "levelRange": "49-50",
+  "faction": "Alliance",
+  "name": "49-50_searing_gorge",
+  "next": "50-51_tanaris_ungoro",
+  "steps": [
+    {
+      "id": "searing_gorge_001",
+      "type": "quest_accept",
+      "description": "Talk to Master Smith Burninate and accept What the Flux?",
+      "classes": null,
+      "races": null,
+      "coords": [38.804, 28.51],
+      "zone": "searing_gorge",
+      "tips": [],
+      "quests": [
+        {
+          "id": 7722,
+          "name": "What the Flux?"
+        }
+      ],
+      "npc": "Master Smith Burninate",
+      "mobs": []
+    },
+    {
+      "id": "searing_gorge_002",
+      "type": "quest_accept",
+      "description": "Talk to Hansel Heavyhands and accept Curse These Fat Fingers, Fiery Menace!, and Incendosaurs? Whateverosaur is More Like It",
+      "classes": null,
+      "races": null,
+      "coords": [38.582, 27.807],
+      "zone": "searing_gorge",
+      "tips": [],
+      "quests": [
+        {
+          "id": 7723,
+          "name": "Curse These Fat Fingers"
+        },
+        {
+          "id": 7724,
+          "name": "Fiery Menace!"
+        },
+        {
+          "id": 7727,
+          "name": "Incendosaurs? Whateverosaur is More Like It"
+        }
+      ],
+      "npc": "Hansel Heavyhands",
+      "mobs": []
+    },
+    {
+      "id": "searing_gorge_003",
+      "type": "quest_accept",
+      "description": "Click the Wanted Board and accept STOLEN: Smithing Tuyere and Lookout's Spyglass and JOB OPPORTUNITY: Culling the Competition",
+      "classes": null,
+      "races": null,
+      "coords": [37.645, 26.481],
+      "zone": "searing_gorge",
+      "tips": [],
+      "quests": [
+        {
+          "id": 7728,
+          "name": "STOLEN: Smithing Tuyere and Lookout's Spyglass"
+        },
+        {
+          "id": 7729,
+          "name": "JOB OPPORTUNITY: Culling the Competition"
+        }
+      ],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "searing_gorge_004",
+      "type": "quest_accept",
+      "description": "Click the Wanted Board and accept STOLEN: Smithing Tuyere and Lookout's Spyglass, JOB OPPORTUNITY: Culling the Competition, and WANTED: Overseer Maltorius",
+      "classes": null,
+      "races": null,
+      "coords": [37.645, 26.481],
+      "zone": "searing_gorge",
+      "tips": [],
+      "quests": [
+        {
+          "id": 7728,
+          "name": "STOLEN: Smithing Tuyere and Lookout's Spyglass"
+        },
+        {
+          "id": 7729,
+          "name": "JOB OPPORTUNITY: Culling the Competition"
+        },
+        {
+          "id": 7701,
+          "name": "WANTED: Overseer Maltorius"
+        }
+      ],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "searing_gorge_005",
+      "type": "quest_accept",
+      "description": "Talk to Velarok Windblade and accept Divine Retribution",
+      "classes": null,
+      "races": null,
+      "coords": [39.057, 38.99],
+      "zone": "searing_gorge",
+      "tips": [],
+      "quests": [
+        {
+          "id": 3441,
+          "name": "Divine Retribution"
+        }
+      ],
+      "npc": "Velarok Windblade",
+      "mobs": []
+    },
+    {
+      "id": "searing_gorge_006",
+      "type": "info",
+      "description": "Talk to Velarok Windblade",
+      "classes": null,
+      "races": null,
+      "coords": [39.057, 38.99],
+      "zone": "searing_gorge",
+      "tips": [],
+      "quests": [
+        {
+          "id": 3441,
+          "name": "Divine Retribution"
+        }
+      ],
+      "npc": "Velarok Windblade",
+      "mobs": []
+    },
+    {
+      "id": "searing_gorge_007",
+      "type": "quest_turnin",
+      "description": "Talk to Velarok Windblade, turn in Divine Retribution, and accept The Flawless Flame",
+      "classes": null,
+      "races": null,
+      "coords": [39.057, 38.99],
+      "zone": "searing_gorge",
+      "tips": [],
+      "quests": [
+        {
+          "id": 3441,
+          "name": "Divine Retribution"
+        },
+        {
+          "id": 3442,
+          "name": "The Flawless Flame"
+        }
+      ],
+      "npc": "Velarok Windblade",
+      "mobs": []
+    },
+    {
+      "id": "searing_gorge_008",
+      "type": "kill",
+      "description": "Kill Inferno Elementals, Blazing Elementals and Magma Elementals. Loot them for their Heart of Flames. Kill Heavy War Golems and Magma Elementals. Loot them for their Golem Oils",
+      "classes": null,
+      "races": null,
+      "coords": [30.1, 76.16],
+      "zone": "searing_gorge",
+      "tips": [
+        {
+          "type": "warning",
+          "class": null,
+          "text": "Prioritize these two objectives"
+        }
+      ],
+      "quests": [
+        {
+          "id": 3442,
+          "name": "The Flawless Flame"
+        }
+      ],
+      "npc": null,
+      "mobs": [
+        "Inferno Elemental",
+        "Blazing Elemental",
+        "Magma Elemental",
+        "Heavy War Golem"
+      ]
+    },
+    {
+      "id": "searing_gorge_009",
+      "type": "quest_turnin",
+      "description": "Talk to Velarok Windblade, turn in The Flawless Flame, and accept Forging the Shaft",
+      "classes": null,
+      "races": null,
+      "coords": [39.057, 38.99],
+      "zone": "searing_gorge",
+      "tips": [],
+      "quests": [
+        {
+          "id": 3442,
+          "name": "The Flawless Flame"
+        },
+        {
+          "id": 3443,
+          "name": "Forging the Shaft"
+        }
+      ],
+      "npc": "Velarok Windblade",
+      "mobs": []
+    },
+    {
+      "id": "searing_gorge_010",
+      "type": "travel",
+      "description": "Jump down to the platform below and enter the cave. Follow the arrow",
+      "classes": null,
+      "races": null,
+      "coords": [47.54, 46.89],
+      "zone": "searing_gorge",
+      "tips": [],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "searing_gorge_011",
+      "type": "kill",
+      "description": "Kill Incendosaurs",
+      "classes": null,
+      "races": null,
+      "coords": [45.41, 21.65],
+      "zone": "searing_gorge",
+      "tips": [],
+      "quests": [
+        {
+          "id": 7727,
+          "name": "Incendosaurs? Whateverosaur is More Like It"
+        }
+      ],
+      "npc": null,
+      "mobs": ["Incendosaur"]
+    },
+    {
+      "id": "searing_gorge_012",
+      "type": "travel",
+      "description": "Run back out of the cave, then follow the platform to the upper entrance of the cave",
+      "classes": null,
+      "races": null,
+      "coords": [49.75, 45.82],
+      "zone": "searing_gorge",
+      "tips": [],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "searing_gorge_013",
+      "type": "kill",
+      "description": "Kill Dark Iron Taskmasters and Dark Iron Slavers. Loot them for their Thorium Plated Daggers and the Grimesilt Outhouse Key.",
+      "classes": null,
+      "races": null,
+      "coords": [43.18, 35.09],
+      "zone": "searing_gorge",
+      "tips": [
+        {
+          "type": "warning",
+          "class": null,
+          "text": "Any Dark Iron Dwarf may drop Thorium Plated Daggers and the Grimesilt Outhouse Key"
+        },
+        {
+          "type": "warning",
+          "class": null,
+          "text": "Use the Grimesilt Outhouse Key to start the quest"
+        }
+      ],
+      "quests": [
+        {
+          "id": 7729,
+          "name": "JOB OPPORTUNITY: Culling the Competition"
+        },
+        {
+          "id": 3443,
+          "name": "Forging the Shaft"
+        },
+        {
+          "id": 4451,
+          "name": "The Key to Freedom"
+        }
+      ],
+      "npc": null,
+      "mobs": ["Dark Iron Taskmaster", "Dark Iron Slaver"]
+    },
+    {
+      "id": "searing_gorge_014",
+      "type": "kill",
+      "description": "Kill Overseer Maltorius. Loot him for his Head. Loot the Secret Plans: Fiery Flux on the bench",
+      "classes": null,
+      "races": null,
+      "coords": [40.447, 35.739],
+      "zone": "searing_gorge",
+      "tips": [],
+      "quests": [
+        {
+          "id": 7701,
+          "name": "WANTED: Overseer Maltorius"
+        },
+        {
+          "id": 7722,
+          "name": "What the Flux?"
+        }
+      ],
+      "npc": null,
+      "mobs": ["Overseer Maltorius"]
+    },
+    {
+      "id": "searing_gorge_015",
+      "type": "quest_turnin",
+      "description": "Talk to the Dying Archaeologist and turn in Dwarven Justice",
+      "classes": null,
+      "races": null,
+      "coords": [41.163, 25.537],
+      "zone": "searing_gorge",
+      "tips": [],
+      "quests": [
+        {
+          "id": 3371,
+          "name": "Dwarven Justice"
+        }
+      ],
+      "npc": "Dying Archaeologist",
+      "mobs": []
+    },
+    {
+      "id": "searing_gorge_016",
+      "type": "quest_turnin",
+      "description": "Talk to the Dying Archaeologist, turn in Dwarven Justice, and accept Release Them",
+      "classes": null,
+      "races": null,
+      "coords": [41.163, 25.537],
+      "zone": "searing_gorge",
+      "tips": [],
+      "quests": [
+        {
+          "id": 3371,
+          "name": "Dwarven Justice"
+        },
+        {
+          "id": 3372,
+          "name": "Release Them"
+        }
+      ],
+      "npc": "Dying Archaeologist",
+      "mobs": []
+    },
+    {
+      "id": "searing_gorge_017",
+      "type": "info",
+      "description": "Logout skip out of the cave. There are MANY different spots you can use",
+      "classes": null,
+      "races": null,
+      "coords": null,
+      "zone": "",
+      "tips": [
+        {
+          "type": "link",
+          "class": null,
+          "text": "Click here for video reference",
+          "url": "https://www.youtube.com/watch?v=-mcsjDkeSUw"
+        }
+      ],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "searing_gorge_018",
+      "type": "quest_turnin",
+      "description": "Talk to Velarok Windblade and turn in Forging the Shaft",
+      "classes": null,
+      "races": null,
+      "coords": [39.057, 38.99],
+      "zone": "searing_gorge",
+      "tips": [],
+      "quests": [
+        {
+          "id": 3443,
+          "name": "Forging the Shaft"
+        }
+      ],
+      "npc": "Velarok Windblade",
+      "mobs": []
+    },
+    {
+      "id": "searing_gorge_019",
+      "type": "quest_turnin",
+      "description": "Talk to Velarok Windblade, turn in Forging the Shaft, and accept The Flame's Casing",
+      "classes": null,
+      "races": null,
+      "coords": [39.057, 38.99],
+      "zone": "searing_gorge",
+      "tips": [],
+      "quests": [
+        {
+          "id": 3443,
+          "name": "Forging the Shaft"
+        },
+        {
+          "id": 3452,
+          "name": "The Flame's Casing"
+        }
+      ],
+      "npc": "Velarok Windblade",
+      "mobs": []
+    },
+    {
+      "id": "searing_gorge_020",
+      "type": "kill",
+      "description": "Kill Twilight Dark Shamans, Twilight Fire Guards, Twilight Geomancers and Twilight Idolaters. Loot them for the Symbol of Ragnaros",
+      "classes": null,
+      "races": null,
+      "coords": [22.98, 37.82],
+      "zone": "searing_gorge",
+      "tips": [
+        {
+          "type": "warning",
+          "class": null,
+          "text": "Skip this step for now if you are unable to complete it"
+        }
+      ],
+      "quests": [
+        {
+          "id": 3452,
+          "name": "The Flame's Casing"
+        }
+      ],
+      "npc": null,
+      "mobs": [
+        "Twilight Dark Shaman",
+        "Twilight Fire Guard",
+        "Twilight Geomancer",
+        "Twilight Idolater"
+      ]
+    },
+    {
+      "id": "searing_gorge_021",
+      "type": "quest_turnin",
+      "description": "Talk to Velarok Windblade, turn in The Flame's Casing, accept The Torch of Retribution, turn in The Torch of Retribution, and accept The Torch of Retribution",
+      "classes": null,
+      "races": null,
+      "coords": [39.057, 38.99],
+      "zone": "searing_gorge",
+      "tips": [],
+      "quests": [
+        {
+          "id": 3452,
+          "name": "The Flame's Casing"
+        },
+        {
+          "id": 3453,
+          "name": "The Torch of Retribution"
+        },
+        {
+          "id": 3454,
+          "name": "The Torch of Retribution"
+        }
+      ],
+      "npc": "Velarok Windblade",
+      "mobs": []
+    },
+    {
+      "id": "searing_gorge_022",
+      "type": "quest_accept",
+      "description": "Talk to Velarok Windblade, accept The Torch of Retribution, turn in The Torch of Retribution, and accept The Torch of Retribution",
+      "classes": null,
+      "races": null,
+      "coords": [39.057, 38.99],
+      "zone": "searing_gorge",
+      "tips": [],
+      "quests": [
+        {
+          "id": 3453,
+          "name": "The Torch of Retribution"
+        },
+        {
+          "id": 3454,
+          "name": "The Torch of Retribution"
+        }
+      ],
+      "npc": "Velarok Windblade",
+      "mobs": []
+    },
+    {
+      "id": "searing_gorge_023",
+      "type": "quest_turnin",
+      "description": "Click on the Torch of Retribution and turn in The Torch of Retribution",
+      "classes": null,
+      "races": null,
+      "coords": [39.055, 39.067],
+      "zone": "searing_gorge",
+      "tips": [],
+      "quests": [
+        {
+          "id": 3454,
+          "name": "The Torch of Retribution"
+        }
+      ],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "searing_gorge_024",
+      "type": "quest_accept",
+      "description": "Talk to Velarok Windblade and Squire Maltrake, accept Squire Maltrake, turn in Squire Maltrake, and accept Set Them Ablaze!",
+      "classes": null,
+      "races": null,
+      "coords": [39.165, 38.997],
+      "zone": "searing_gorge",
+      "tips": [],
+      "quests": [
+        {
+          "id": 3462,
+          "name": "Squire Maltrake"
+        },
+        {
+          "id": 3463,
+          "name": "Set Them Ablaze!"
+        }
+      ],
+      "npc": "Squire Maltrake",
+      "mobs": []
+    },
+    {
+      "id": "searing_gorge_025",
+      "type": "kill",
+      "description": "Kill Greater Lava Spiders",
+      "classes": null,
+      "races": null,
+      "coords": [27.56, 45.45],
+      "zone": "searing_gorge",
+      "tips": [],
+      "quests": [
+        {
+          "id": 7724,
+          "name": "Fiery Menace!"
+        }
+      ],
+      "npc": null,
+      "mobs": ["Greater Lava Spider"]
+    },
+    {
+      "id": "searing_gorge_026",
+      "type": "kill",
+      "description": "Kill Heavy War Golems",
+      "classes": null,
+      "races": null,
+      "coords": [33.2, 43.58],
+      "zone": "searing_gorge",
+      "tips": [],
+      "quests": [
+        {
+          "id": 7723,
+          "name": "Curse These Fat Fingers"
+        }
+      ],
+      "npc": null,
+      "mobs": ["Heavy War Golem"]
+    },
+    {
+      "id": "searing_gorge_027",
+      "type": "kill",
+      "description": "Kill Dark Iron Steamsmiths. Loot them for the Smithing Tuyere. Kill Dark Iron Lookouts. Loot them for the Lookout's Spyglass",
+      "classes": null,
+      "races": null,
+      "coords": [50.069, 54.737],
+      "zone": "searing_gorge",
+      "tips": [],
+      "quests": [
+        {
+          "id": 7728,
+          "name": "STOLEN: Smithing Tuyere and Lookout's Spyglass"
+        }
+      ],
+      "npc": null,
+      "mobs": ["Dark Iron Steamsmith", "Dark Iron Lookout"]
+    },
+    {
+      "id": "searing_gorge_028",
+      "type": "info",
+      "description": "Click the Sentry Braziers atop the Towers. You must have the Torch of Retribution equiped",
+      "classes": null,
+      "races": null,
+      "coords": [50.069, 54.737],
+      "zone": "searing_gorge",
+      "tips": [
+        {
+          "type": "warning",
+          "class": null,
+          "text": "You must have the Torch of Retribution equiped"
+        }
+      ],
+      "quests": [
+        {
+          "id": 3463,
+          "name": "Set Them Ablaze!"
+        }
+      ],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "searing_gorge_029",
+      "type": "loot",
+      "description": "Click The Charred Oak. Loot it for the Bundle of Charred Oak",
+      "classes": null,
+      "races": null,
+      "coords": [54.553, 50.414],
+      "zone": "searing_gorge",
+      "tips": [],
+      "quests": [
+        {
+          "id": 53,
+          "name": "Sweet Amber"
+        }
+      ],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "searing_gorge_030",
+      "type": "quest_accept",
+      "description": "Click on the Wooden Outhouse, accept The Key to Freedom, and turn in The Key to Freedom",
+      "classes": null,
+      "races": null,
+      "coords": [65.592, 62.172],
+      "zone": "searing_gorge",
+      "tips": [],
+      "quests": [
+        {
+          "id": 4451,
+          "name": "The Key to Freedom"
+        }
+      ],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "searing_gorge_031",
+      "type": "kill",
+      "description": "Kill Margol the Rager. Loot it for Margol's Horn. Use Margol's Horn to start the quest",
+      "classes": null,
+      "races": null,
+      "coords": [72.64, 79.74],
+      "zone": "searing_gorge",
+      "tips": [
+        {
+          "type": "warning",
+          "class": null,
+          "text": "Use Margol's Horn to start the quest"
+        }
+      ],
+      "quests": [
+        {
+          "id": 3181,
+          "name": "The Horn of the Beast"
+        }
+      ],
+      "npc": null,
+      "mobs": ["Margol the Rager"]
+    },
+    {
+      "id": "searing_gorge_032",
+      "type": "kill",
+      "description": "Kill Dark Iron Steamsmiths. Loot them for the Smithing Tuyere. Kill Dark Iron Lookouts. Loot them for the Lookout's Spyglass",
+      "classes": null,
+      "races": null,
+      "coords": [50.069, 54.737],
+      "zone": "searing_gorge",
+      "tips": [],
+      "quests": [
+        {
+          "id": 7728,
+          "name": "STOLEN: Smithing Tuyere and Lookout's Spyglass"
+        }
+      ],
+      "npc": null,
+      "mobs": ["Dark Iron Steamsmith", "Dark Iron Lookout"]
+    },
+    {
+      "id": "searing_gorge_033",
+      "type": "quest_turnin",
+      "description": "Talk to Squire Maltrake and turn in Set Them Ablaze!",
+      "classes": null,
+      "races": null,
+      "coords": [39.165, 38.997],
+      "zone": "searing_gorge",
+      "tips": [],
+      "quests": [
+        {
+          "id": 3463,
+          "name": "Set Them Ablaze!"
+        }
+      ],
+      "npc": "Squire Maltrake",
+      "mobs": []
+    },
+    {
+      "id": "searing_gorge_034",
+      "type": "quest_accept",
+      "description": "Click the Hoard of the Black Dragonflight on the ground, accept Trinkets..., and turn in Trinkets...",
+      "classes": null,
+      "races": null,
+      "coords": [38.847, 38.985],
+      "zone": "searing_gorge",
+      "tips": [],
+      "quests": [
+        {
+          "id": 3481,
+          "name": "Trinkets..."
+        }
+      ],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "searing_gorge_035",
+      "type": "info",
+      "description": "Open the Hoard of the Black Dragonflight. Ensure you keep the Black Dragonflight Molt. Do not destroy it. You will need it later",
+      "classes": null,
+      "races": null,
+      "coords": null,
+      "zone": "",
+      "tips": [
+        {
+          "type": "warning",
+          "class": null,
+          "text": "Ensure you keep the Black Dragonflight Molt. Do not destroy it. You will need it later"
+        }
+      ],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "searing_gorge_036",
+      "type": "quest_turnin",
+      "description": "Talk to Lookout Captain Lolo Longstriker and turn in WANTED: Overseer Maltorius",
+      "classes": null,
+      "races": null,
+      "coords": [37.737, 26.561],
+      "zone": "searing_gorge",
+      "tips": [],
+      "quests": [
+        {
+          "id": 7701,
+          "name": "WANTED: Overseer Maltorius"
+        }
+      ],
+      "npc": "Lookout Captain Lolo Longstriker",
+      "mobs": []
+    },
+    {
+      "id": "searing_gorge_037",
+      "type": "quest_turnin",
+      "description": "Talk to Hansel Heavyhands and turn in Curse These Fat Fingers, Fiery Menace!, and Incendosaurs? Whateverosaur is More Like It",
+      "classes": null,
+      "races": null,
+      "coords": [38.582, 27.807],
+      "zone": "searing_gorge",
+      "tips": [],
+      "quests": [
+        {
+          "id": 7723,
+          "name": "Curse These Fat Fingers"
+        },
+        {
+          "id": 7724,
+          "name": "Fiery Menace!"
+        },
+        {
+          "id": 7727,
+          "name": "Incendosaurs? Whateverosaur is More Like It"
+        }
+      ],
+      "npc": "Hansel Heavyhands",
+      "mobs": []
+    },
+    {
+      "id": "searing_gorge_038",
+      "type": "quest_turnin",
+      "description": "Talk to Master Smith Burninate and turn in What the Flux?",
+      "classes": null,
+      "races": null,
+      "coords": [38.804, 28.51],
+      "zone": "searing_gorge",
+      "tips": [],
+      "quests": [
+        {
+          "id": 7722,
+          "name": "What the Flux?"
+        }
+      ],
+      "npc": "Master Smith Burninate",
+      "mobs": []
+    },
+    {
+      "id": "searing_gorge_039",
+      "type": "quest_turnin",
+      "description": "Talk to Taskmaster Scrange and turn in JOB OPPORTUNITY: Culling the Competition and STOLEN: Smithing Tuyere and Lookout's Spyglass",
+      "classes": null,
+      "races": null,
+      "coords": [38.973, 27.505],
+      "zone": "searing_gorge",
+      "tips": [],
+      "quests": [
+        {
+          "id": 7729,
+          "name": "JOB OPPORTUNITY: Culling the Competition"
+        },
+        {
+          "id": 7728,
+          "name": "STOLEN: Smithing Tuyere and Lookout's Spyglass"
+        }
+      ],
+      "npc": "Taskmaster Scrange",
+      "mobs": []
+    },
+    {
+      "id": "searing_gorge_040",
+      "type": "fly",
+      "description": "Talk to Lanie Reed and fly to Loch Modan",
+      "classes": null,
+      "races": null,
+      "coords": [37.935, 30.863],
+      "zone": "searing_gorge",
+      "tips": [],
+      "quests": [],
+      "npc": "Lanie Reed",
+      "mobs": []
+    },
+    {
+      "id": "searing_gorge_041",
+      "type": "info",
+      "description": "Abandon WANTED: Overseer Maltorius, What the Flux?, and The Flame's Casing",
+      "classes": null,
+      "races": null,
+      "coords": null,
+      "zone": "",
+      "tips": [],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "searing_gorge_042",
+      "type": "quest_turnin",
+      "description": "Talk to Mountaineer Pebblebitty and turn in The Horn of the Beast",
+      "classes": null,
+      "races": null,
+      "coords": [18.186, 84.034],
+      "zone": "loch_modan",
+      "tips": [],
+      "quests": [
+        {
+          "id": 3181,
+          "name": "The Horn of the Beast"
+        }
+      ],
+      "npc": "Mountaineer Pebblebitty",
+      "mobs": []
+    },
+    {
+      "id": "searing_gorge_043",
+      "type": "quest_accept",
+      "description": "Talk to Mountaineer Pebblebitty and accept Proof of Deed",
+      "classes": null,
+      "races": null,
+      "coords": [18.186, 84.034],
+      "zone": "loch_modan",
+      "tips": [],
+      "quests": [
+        {
+          "id": 3182,
+          "name": "Proof of Deed"
+        }
+      ],
+      "npc": "Mountaineer Pebblebitty",
+      "mobs": []
+    },
+    {
+      "id": "searing_gorge_044",
+      "type": "fly",
+      "description": "Talk to Thorgrum Borrelson and fly to Ironforge",
+      "classes": ["!Mage"],
+      "races": null,
+      "coords": [33.938, 50.954],
+      "zone": "loch_modan",
+      "tips": [],
+      "quests": [],
+      "npc": "Thorgrum Borrelson",
+      "mobs": []
+    },
+    {
+      "id": "searing_gorge_045",
+      "type": "info",
+      "description": "Teleport to Ironforge",
+      "classes": ["Mage"],
+      "races": null,
+      "coords": null,
+      "zone": "",
+      "tips": [],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "searing_gorge_046",
+      "type": "info",
+      "description": "Talk to Dink and train your class spells",
+      "classes": ["Mage"],
+      "races": null,
+      "coords": [27.169, 8.579],
+      "zone": "ironforge",
+      "tips": [],
+      "quests": [],
+      "npc": "Dink",
+      "mobs": []
+    },
+    {
+      "id": "searing_gorge_047",
+      "type": "info",
+      "description": "Talk to Ginny Longberry. Buy 10 Rune of Teleportations from her",
+      "classes": ["Mage"],
+      "races": null,
+      "coords": [31.33, 27.8],
+      "zone": "ironforge",
+      "tips": [],
+      "quests": [],
+      "npc": "Ginny Longberry",
+      "mobs": []
+    },
+    {
+      "id": "searing_gorge_048",
+      "type": "fly",
+      "description": "Talk to Lanie Reed and fly to Ironforge",
+      "classes": ["!Mage"],
+      "races": null,
+      "coords": [37.935, 30.863],
+      "zone": "searing_gorge",
+      "tips": [],
+      "quests": [],
+      "npc": "Lanie Reed",
+      "mobs": []
+    },
+    {
+      "id": "searing_gorge_049",
+      "type": "info",
+      "description": "Talk to Briarthorn and train your class spells",
+      "classes": ["Warlock"],
+      "races": null,
+      "coords": [50.343, 5.657],
+      "zone": "ironforge",
+      "tips": [],
+      "quests": [],
+      "npc": "Briarthorn",
+      "mobs": []
+    },
+    {
+      "id": "searing_gorge_050",
+      "type": "info",
+      "description": "Talk to Fenthwick and train your class spells",
+      "classes": ["Rogue"],
+      "races": null,
+      "coords": [51.495, 15.33],
+      "zone": "ironforge",
+      "tips": [],
+      "quests": [],
+      "npc": "Fenthwick",
+      "mobs": []
+    },
+    {
+      "id": "searing_gorge_051",
+      "type": "info",
+      "description": "Talk to Toldren Deepiron and train your class spells",
+      "classes": ["Priest"],
+      "races": null,
+      "coords": [25.207, 10.756],
+      "zone": "ironforge",
+      "tips": [],
+      "quests": [],
+      "npc": "Toldren Deepiron",
+      "mobs": []
+    },
+    {
+      "id": "searing_gorge_052",
+      "type": "info",
+      "description": "Talk to Brandur Ironhammer and train your class spells",
+      "classes": ["Paladin"],
+      "races": null,
+      "coords": [23.141, 6.149],
+      "zone": "ironforge",
+      "tips": [],
+      "quests": [],
+      "npc": "Brandur Ironhammer",
+      "mobs": []
+    },
+    {
+      "id": "searing_gorge_053",
+      "type": "info",
+      "description": "Talk to Jubahl Corpseseeker. Buy Grimoires for your pets",
+      "classes": ["Warlock"],
+      "races": null,
+      "coords": [52.701, 6.07],
+      "zone": "ironforge",
+      "tips": [],
+      "quests": [],
+      "npc": "Jubahl Corpseseeker",
+      "mobs": []
+    },
+    {
+      "id": "searing_gorge_054",
+      "type": "info",
+      "description": "Talk to Regnus Thundergranite and train your class spells",
+      "classes": ["Hunter"],
+      "races": null,
+      "coords": [69.872, 82.89],
+      "zone": "ironforge",
+      "tips": [],
+      "quests": [],
+      "npc": "Regnus Thundergranite",
+      "mobs": []
+    },
+    {
+      "id": "searing_gorge_055",
+      "type": "info",
+      "description": "Talk to Bilban Tosslespanner and train your class spells",
+      "classes": ["Warrior"],
+      "races": null,
+      "coords": [65.905, 88.405],
+      "zone": "ironforge",
+      "tips": [],
+      "quests": [],
+      "npc": "Bilban Tosslespanner",
+      "mobs": []
+    },
+    {
+      "id": "searing_gorge_056",
+      "type": "quest_turnin",
+      "description": "Talk to Curator Thorius and turn in Proof of Deed and accept At Last!",
+      "classes": null,
+      "races": null,
+      "coords": [71.83, 16.12],
+      "zone": "ironforge",
+      "tips": [
+        {
+          "type": "warning",
+          "class": null,
+          "text": "Curator Thorius patrols through the Hall of Explorers"
+        }
+      ],
+      "quests": [
+        {
+          "id": 3182,
+          "name": "Proof of Deed"
+        },
+        {
+          "id": 3201,
+          "name": "At Last!"
+        }
+      ],
+      "npc": "Curator Thorius",
+      "mobs": []
+    },
+    {
+      "id": "searing_gorge_057",
+      "type": "quest_accept",
+      "description": "Talk to Historian Karnik and accept Seeing What Happens",
+      "classes": null,
+      "races": null,
+      "coords": [77.539, 11.834],
+      "zone": "ironforge",
+      "tips": [],
+      "quests": [
+        {
+          "id": 2946,
+          "name": "Seeing What Happens"
+        }
+      ],
+      "npc": "Historian Karnik",
+      "mobs": []
+    },
+    {
+      "id": "searing_gorge_058",
+      "type": "fly",
+      "description": "Talk to Gryth Thurden and fly to Loch Modan",
+      "classes": null,
+      "races": null,
+      "coords": [55.501, 47.742],
+      "zone": "ironforge",
+      "tips": [],
+      "quests": [],
+      "npc": "Gryth Thurden",
+      "mobs": []
+    },
+    {
+      "id": "searing_gorge_059",
+      "type": "quest_turnin",
+      "description": "Talk to Mountaineer Pebblebitty and turn in At Last!",
+      "classes": null,
+      "races": null,
+      "coords": [18.186, 84.034],
+      "zone": "loch_modan",
+      "tips": [],
+      "quests": [
+        {
+          "id": 3201,
+          "name": "At Last!"
+        }
+      ],
+      "npc": "Mountaineer Pebblebitty",
+      "mobs": []
+    },
+    {
+      "id": "searing_gorge_060",
+      "type": "fly",
+      "description": "Talk to Thorgrum and fly to Westfall",
+      "classes": null,
+      "races": null,
+      "coords": [33.938, 50.954],
+      "zone": "loch_modan",
+      "tips": [],
+      "quests": [],
+      "npc": "Thorgrum Borrelson",
+      "mobs": []
+    },
+    {
+      "id": "searing_gorge_061",
+      "type": "fly",
+      "description": "Talk to Gryth Thurden and fly to Westfall",
+      "classes": null,
+      "races": null,
+      "coords": [55.501, 47.742],
+      "zone": "ironforge",
+      "tips": [],
+      "quests": [],
+      "npc": "Gryth Thurden",
+      "mobs": []
+    },
+    {
+      "id": "searing_gorge_062",
+      "type": "quest_turnin",
+      "description": "Talk to Grimbooze Thunderbrew and turn in Sweet Amber",
+      "classes": null,
+      "races": null,
+      "coords": [44.62, 80.254],
+      "zone": "westfall",
+      "tips": [],
+      "quests": [
+        {
+          "id": 53,
+          "name": "Sweet Amber"
+        }
+      ],
+      "npc": "Grimbooze Thunderbrew",
+      "mobs": []
+    },
+    {
+      "id": "searing_gorge_063",
+      "type": "info",
+      "description": "Cast Teleport: Moonglade",
+      "classes": ["Druid"],
+      "races": null,
+      "coords": null,
+      "zone": "",
+      "tips": [],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "searing_gorge_064",
+      "type": "info",
+      "description": "Talk to Loganaar and train your class spells",
+      "classes": ["Druid"],
+      "races": null,
+      "coords": [52.53, 40.56],
+      "zone": "moonglade",
+      "tips": [],
+      "quests": [],
+      "npc": "Loganaar",
+      "mobs": []
+    },
+    {
+      "id": "searing_gorge_065",
+      "type": "info",
+      "description": "Destroy the Torch of Retribution. You no longer need it",
+      "classes": null,
+      "races": null,
+      "coords": null,
+      "zone": "",
+      "tips": [],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "searing_gorge_066",
+      "type": "info",
+      "description": "Hearth to Menethil Harbor",
+      "classes": null,
+      "races": null,
+      "coords": null,
+      "zone": "",
+      "tips": [],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "searing_gorge_067",
+      "type": "travel",
+      "description": "Travel to the Menethil Harbor Dock",
+      "classes": null,
+      "races": null,
+      "coords": [7.27, 62.527],
+      "zone": "wetlands",
+      "tips": [],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "searing_gorge_068",
+      "type": "travel",
+      "description": "Take the boat to Theramore",
+      "classes": null,
+      "races": null,
+      "coords": [5.075, 63.408],
+      "zone": "wetlands",
+      "tips": [],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "searing_gorge_069",
+      "type": "fly",
+      "description": "Talk to Baldruc and fly to Tanaris",
+      "classes": null,
+      "races": null,
+      "coords": [67.476, 51.3],
+      "zone": "dustwallow_marsh",
+      "tips": [],
+      "quests": [],
+      "npc": "Baldruc",
+      "mobs": []
+    }
+  ]
+}

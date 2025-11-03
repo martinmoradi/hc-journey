@@ -1,0 +1,837 @@
+{
+  "zone": "Hillsbrad Foothills",
+  "levelRange": "35-36",
+  "faction": "Alliance",
+  "name": "35-36_hillsbrad_arathi_2",
+  "next": "36-37_desolace_1",
+  "steps": [
+    {
+      "id": "hillsbrad_001",
+      "type": "fly",
+      "description": "Talk to Gryth and fly to Southshore",
+      "classes": null,
+      "races": null,
+      "coords": [55.506, 47.746],
+      "zone": "ironforge",
+      "tips": [],
+      "quests": [],
+      "npc": "Gryth Thurden",
+      "mobs": []
+    },
+    {
+      "id": "hillsbrad_002",
+      "type": "quest_accept",
+      "description": "If you ever see a Shadowy Assassin in Southshore, kill them. Loot them for the Assassin's Contract.",
+      "classes": null,
+      "races": null,
+      "coords": null,
+      "zone": "",
+      "tips": [
+        {
+          "type": "warning",
+          "class": null,
+          "text": "The Shadowy Assassin attack on Southshore is a random event"
+        },
+        {
+          "type": "warning",
+          "class": null,
+          "text": "Use the Assassin's Contract to start the quest"
+        },
+        {
+          "type": "warning",
+          "class": null,
+          "text": "Skip this step if you don't see the event"
+        }
+      ],
+      "quests": [
+        {
+          "id": 522,
+          "name": "Assassin's Contract"
+        }
+      ],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "hillsbrad_003",
+      "type": "info",
+      "description": "Talk to Micha Yance. Buy 1 Soothing Spice from him",
+      "classes": null,
+      "races": null,
+      "coords": [48.937, 55.028],
+      "zone": "hillsbrad_foothills",
+      "tips": [],
+      "quests": [],
+      "npc": "Micha Yance",
+      "mobs": []
+    },
+    {
+      "id": "hillsbrad_004",
+      "type": "quest_accept",
+      "description": "Talk to Darren Malvew and accept Costly Menace",
+      "classes": null,
+      "races": null,
+      "coords": [52.421, 55.964],
+      "zone": "hillsbrad_foothills",
+      "tips": [],
+      "quests": [
+        {
+          "id": 564,
+          "name": "Costly Menace"
+        }
+      ],
+      "npc": "Darren Malvew",
+      "mobs": []
+    },
+    {
+      "id": "hillsbrad_005",
+      "type": "quest_accept",
+      "description": "Talk to Chef Jessen and accept Soothing Turtle Bisque",
+      "classes": null,
+      "races": null,
+      "coords": [51.885, 58.679],
+      "zone": "hillsbrad_foothills",
+      "tips": [],
+      "quests": [
+        {
+          "id": 555,
+          "name": "Soothing Turtle Bisque"
+        }
+      ],
+      "npc": "Chef Jessen",
+      "mobs": []
+    },
+    {
+      "id": "hillsbrad_006",
+      "type": "quest_turnin",
+      "description": "Talk to Chef Jessen and turn in Soothing Turtle Bisque",
+      "classes": null,
+      "races": null,
+      "coords": [51.885, 58.679],
+      "zone": "hillsbrad_foothills",
+      "tips": [],
+      "quests": [
+        {
+          "id": 555,
+          "name": "Soothing Turtle Bisque"
+        }
+      ],
+      "npc": "Chef Jessen",
+      "mobs": []
+    },
+    {
+      "id": "hillsbrad_007",
+      "type": "quest_accept",
+      "description": "Talk to Marshal Redpath and accept Crushridge Bounty",
+      "classes": null,
+      "races": null,
+      "coords": [49.473, 58.732],
+      "zone": "hillsbrad_foothills",
+      "tips": [],
+      "quests": [
+        {
+          "id": 500,
+          "name": "Crushridge Bounty"
+        }
+      ],
+      "npc": "Marshal Redpath",
+      "mobs": []
+    },
+    {
+      "id": "hillsbrad_008",
+      "type": "quest_turnin",
+      "description": "Talk to Magistrate Henry Maleb and turn in Assassin's Contract",
+      "classes": null,
+      "races": null,
+      "coords": [48.145, 59.121],
+      "zone": "hillsbrad_foothills",
+      "tips": [
+        {
+          "type": "warning",
+          "class": null,
+          "text": "Don't accept the follow up"
+        }
+      ],
+      "quests": [
+        {
+          "id": 522,
+          "name": "Assassin's Contract"
+        }
+      ],
+      "npc": "Magistrate Henry Maleb",
+      "mobs": []
+    },
+    {
+      "id": "hillsbrad_009",
+      "type": "quest_accept",
+      "description": "Talk to Magistrate Henry Maleb and accept Syndicate Assassins",
+      "classes": null,
+      "races": null,
+      "coords": [48.145, 59.121],
+      "zone": "hillsbrad_foothills",
+      "tips": [],
+      "quests": [
+        {
+          "id": 505,
+          "name": "Syndicate Assassins"
+        }
+      ],
+      "npc": "Magistrate Henry Maleb",
+      "mobs": []
+    },
+    {
+      "id": "hillsbrad_010",
+      "type": "quest_accept",
+      "description": "Talk to Bartolo Ginsetti and accept Bartolo's Yeti Fur Cloak. Skip this step if you don't have a Bolt of Woolen Cloth and Hillman's Cloak",
+      "classes": null,
+      "races": null,
+      "coords": [49.431, 55.534],
+      "zone": "hillsbrad_foothills",
+      "tips": [],
+      "quests": [
+        {
+          "id": 565,
+          "name": "Bartolo's Yeti Fur Cloak"
+        }
+      ],
+      "npc": "Bartolo Ginsetti",
+      "mobs": []
+    },
+    {
+      "id": "hillsbrad_011",
+      "type": "travel",
+      "description": "Travel to the Western Strand",
+      "classes": ["Warlock"],
+      "races": null,
+      "coords": [27.783, 72.789],
+      "zone": "hillsbrad_foothills",
+      "tips": [],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "hillsbrad_012",
+      "type": "loot",
+      "description": "Open the Tome of the Cabal. Loot it for the Moldy Tome",
+      "classes": ["Warlock"],
+      "races": null,
+      "coords": [27.783, 72.789],
+      "zone": "hillsbrad_foothills",
+      "tips": [],
+      "quests": [
+        {
+          "id": 1802,
+          "name": "Tome of the Cabal"
+        }
+      ],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "hillsbrad_013",
+      "type": "travel",
+      "description": "Enter the Darrow Hill Yeti Cave",
+      "classes": null,
+      "races": null,
+      "coords": [45.46, 31.25],
+      "zone": "hillsbrad_foothills",
+      "tips": [],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "hillsbrad_014",
+      "type": "kill",
+      "description": "Kill Yeti's. Loot them for their Fur. Only complete this if you managed to acquire a Bolt of Woolen Cloth and Hillman's Cloak earlier",
+      "classes": null,
+      "races": null,
+      "coords": null,
+      "zone": "",
+      "tips": [],
+      "quests": [
+        {
+          "id": 565,
+          "name": "Bartolo's Yeti Fur Cloak"
+        }
+      ],
+      "npc": null,
+      "mobs": ["Cave Yeti", "Ferocious Yeti", "Mountain Yeti", "Giant Yeti"]
+    },
+    {
+      "id": "hillsbrad_015",
+      "type": "loot",
+      "description": "Loot the Alterac Granite on the ground. Alterac Granite spawns throughout the entire Cave",
+      "classes": null,
+      "races": null,
+      "coords": [44.49, 29.74],
+      "zone": "hillsbrad_foothills",
+      "tips": [
+        {
+          "type": "warning",
+          "class": null,
+          "text": "Alterac Granite spawns throughout the entire Cave"
+        }
+      ],
+      "quests": [
+        {
+          "id": 689,
+          "name": "A King's Tribute"
+        }
+      ],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "hillsbrad_016",
+      "type": "kill",
+      "description": "Kill Yeti's. Loot them for their Fur. If all of the Yeti's are dead inside of the cave you may kill the Yeti's to the north around Alterac Mountains as well. Only complete this if you managed to acquire a Bolt of Woolen Cloth and Hillman's Cloak earlier",
+      "classes": null,
+      "races": null,
+      "coords": [44.49, 29.74],
+      "zone": "hillsbrad_foothills",
+      "tips": [
+        {
+          "type": "warning",
+          "class": null,
+          "text": "If all of the Yeti's are dead inside of the cave you may kill the Yeti's to the north around Alterac Mountains as well"
+        },
+        {
+          "type": "warning",
+          "class": null,
+          "text": "Only complete this if you managed to acquire a Bolt of Woolen Cloth and Hillman's Cloak earlier"
+        }
+      ],
+      "quests": [
+        {
+          "id": 565,
+          "name": "Bartolo's Yeti Fur Cloak"
+        }
+      ],
+      "npc": null,
+      "mobs": ["Cave Yeti", "Ferocious Yeti", "Mountain Yeti", "Giant Yeti"]
+    },
+    {
+      "id": "hillsbrad_017",
+      "type": "kill",
+      "description": "Kill Mountain Lions and Hulking Mountain Lions",
+      "classes": null,
+      "races": null,
+      "coords": null,
+      "zone": "",
+      "tips": [],
+      "quests": [
+        {
+          "id": 564,
+          "name": "Costly Menace"
+        }
+      ],
+      "npc": null,
+      "mobs": ["Mountain Lion", "Hulking Mountain Lion"]
+    },
+    {
+      "id": "hillsbrad_018",
+      "type": "kill",
+      "description": "Kill Syndicate Thieves and Syndicate Footpads",
+      "classes": null,
+      "races": null,
+      "coords": null,
+      "zone": "",
+      "tips": [],
+      "quests": [
+        {
+          "id": 505,
+          "name": "Syndicate Assassins"
+        }
+      ],
+      "npc": null,
+      "mobs": ["Syndicate Footpad", "Syndicate Thief"]
+    },
+    {
+      "id": "hillsbrad_019",
+      "type": "quest_accept",
+      "description": "Click the Syndicate Documents on the table and accept Foreboding Plans and Encrypted Letter",
+      "classes": null,
+      "races": null,
+      "coords": [58.317, 67.951],
+      "zone": "alterac_mountains",
+      "tips": [],
+      "quests": [
+        {
+          "id": 510,
+          "name": "Foreboding Plans"
+        },
+        {
+          "id": 511,
+          "name": "Encrypted Letter"
+        }
+      ],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "hillsbrad_020",
+      "type": "kill",
+      "description": "Kill Syndicate Thieves and Syndicate Footpads",
+      "classes": null,
+      "races": null,
+      "coords": [58.31, 67.92],
+      "zone": "alterac_mountains",
+      "tips": [],
+      "quests": [
+        {
+          "id": 505,
+          "name": "Syndicate Assassins"
+        }
+      ],
+      "npc": null,
+      "mobs": ["Syndicate Footpad", "Syndicate Thief"]
+    },
+    {
+      "id": "hillsbrad_021",
+      "type": "kill",
+      "description": "Kill Mountain Lions and Hulking Mountain Lions",
+      "classes": null,
+      "races": null,
+      "coords": [38.78, 91.07],
+      "zone": "alterac_mountains",
+      "tips": [],
+      "quests": [
+        {
+          "id": 564,
+          "name": "Costly Menace"
+        }
+      ],
+      "npc": null,
+      "mobs": ["Mountain Lion", "Hulking Mountain Lion"]
+    },
+    {
+      "id": "hillsbrad_022",
+      "type": "kill",
+      "description": "Kill Crushridge Ogres and Crushridge Brutes. Loot them for their Knucklebones",
+      "classes": null,
+      "races": null,
+      "coords": [50.0, 55.96],
+      "zone": "alterac_mountains",
+      "tips": [],
+      "quests": [
+        {
+          "id": 500,
+          "name": "Crushridge Bounty"
+        }
+      ],
+      "npc": null,
+      "mobs": ["Crushridge Ogre", "Crushridge Brute"]
+    },
+    {
+      "id": "hillsbrad_023",
+      "type": "kill",
+      "description": "Kill Snapjaws. Loot them for their Turtle Meat. Go up and down along the River until you've completed it",
+      "classes": null,
+      "races": null,
+      "coords": [69.3, 12.4],
+      "zone": "hillsbrad_foothills",
+      "tips": [
+        {
+          "type": "warning",
+          "class": null,
+          "text": "Go up and down along the River until you've completed it"
+        }
+      ],
+      "quests": [
+        {
+          "id": 555,
+          "name": "Soothing Turtle Bisque"
+        }
+      ],
+      "npc": null,
+      "mobs": ["Snapjaw"]
+    },
+    {
+      "id": "hillsbrad_024",
+      "type": "quest_turnin",
+      "description": "Talk to Bath'rah the Windwatcher and turn in The Windwatcher. Accept Cyclonian",
+      "classes": ["Warrior"],
+      "races": null,
+      "coords": [80.499, 66.923],
+      "zone": "alterac_mountains",
+      "tips": [],
+      "quests": [
+        {
+          "id": 1791,
+          "name": "The Windwatcher"
+        },
+        {
+          "id": 1712,
+          "name": "Cyclonian"
+        }
+      ],
+      "npc": "Bath'rah the Windwatcher",
+      "mobs": []
+    },
+    {
+      "id": "hillsbrad_025",
+      "type": "fly",
+      "description": "Talk to Bibilfaz Featherwhistle and get the Western Plaguelands flight path",
+      "classes": null,
+      "races": null,
+      "coords": [42.924, 85.061],
+      "zone": "western_plaguelands",
+      "tips": [],
+      "quests": [],
+      "npc": "Bibilfaz Featherwhistle",
+      "mobs": []
+    },
+    {
+      "id": "hillsbrad_026",
+      "type": "fly",
+      "description": "Talk to Bibilfaz Featherwhistle and fly to Southshore",
+      "classes": null,
+      "races": null,
+      "coords": [42.924, 85.061],
+      "zone": "western_plaguelands",
+      "tips": [],
+      "quests": [],
+      "npc": "Bibilfaz Featherwhistle",
+      "mobs": []
+    },
+    {
+      "id": "hillsbrad_027",
+      "type": "info",
+      "description": "Talk to Micha Yance. Buy 1 Fine Thread from him. Skip this step if you havn't completed the other objectives of the quest Bartolo's Yeti Fur Cloak",
+      "classes": null,
+      "races": null,
+      "coords": [48.937, 55.028],
+      "zone": "hillsbrad_foothills",
+      "tips": [],
+      "quests": [],
+      "npc": "Micha Yance",
+      "mobs": []
+    },
+    {
+      "id": "hillsbrad_028",
+      "type": "info",
+      "description": "Talk to Micha Yance. Buy 1 Soothing Spice from him",
+      "classes": null,
+      "races": null,
+      "coords": [48.937, 55.028],
+      "zone": "hillsbrad_foothills",
+      "tips": [],
+      "quests": [],
+      "npc": "Micha Yance",
+      "mobs": []
+    },
+    {
+      "id": "hillsbrad_029",
+      "type": "quest_turnin",
+      "description": "Talk to Bartolo Ginsetti and turn in Bartolo's Yeti Fur Cloak. Skip this step if you don't have Hillman's Cloak and a Bolt of Woolen Cloth",
+      "classes": null,
+      "races": null,
+      "coords": [49.431, 55.534],
+      "zone": "hillsbrad_foothills",
+      "tips": [],
+      "quests": [
+        {
+          "id": 565,
+          "name": "Bartolo's Yeti Fur Cloak"
+        }
+      ],
+      "npc": "Bartolo Ginsetti",
+      "mobs": []
+    },
+    {
+      "id": "hillsbrad_030",
+      "type": "quest_turnin",
+      "description": "Talk to Loremaster Dibbs, turn in Encrypted Letter, and accept Letter to Stormpike",
+      "classes": null,
+      "races": null,
+      "coords": [50.57, 57.093],
+      "zone": "hillsbrad_foothills",
+      "tips": [],
+      "quests": [
+        {
+          "id": 511,
+          "name": "Encrypted Letter"
+        },
+        {
+          "id": 514,
+          "name": "Letter to Stormpike"
+        }
+      ],
+      "npc": "Loremaster Dibbs",
+      "mobs": []
+    },
+    {
+      "id": "hillsbrad_031",
+      "type": "quest_turnin",
+      "description": "Talk to Chef Jessen and turn in Soothing Turtle Bisque",
+      "classes": null,
+      "races": null,
+      "coords": [51.885, 58.679],
+      "zone": "hillsbrad_foothills",
+      "tips": [],
+      "quests": [
+        {
+          "id": 555,
+          "name": "Soothing Turtle Bisque"
+        }
+      ],
+      "npc": "Chef Jessen",
+      "mobs": []
+    },
+    {
+      "id": "hillsbrad_032",
+      "type": "quest_turnin",
+      "description": "Talk to Marshal Redpath and turn in Crushridge Bounty",
+      "classes": null,
+      "races": null,
+      "coords": [49.473, 58.732],
+      "zone": "hillsbrad_foothills",
+      "tips": [],
+      "quests": [
+        {
+          "id": 500,
+          "name": "Crushridge Bounty"
+        }
+      ],
+      "npc": "Marshal Redpath",
+      "mobs": []
+    },
+    {
+      "id": "hillsbrad_033",
+      "type": "quest_turnin",
+      "description": "Talk to Magistrate Henry Maleb and turn in Syndicate Assassins and Foreboding Plans",
+      "classes": null,
+      "races": null,
+      "coords": [48.145, 59.121],
+      "zone": "hillsbrad_foothills",
+      "tips": [],
+      "quests": [
+        {
+          "id": 505,
+          "name": "Syndicate Assassins"
+        },
+        {
+          "id": 510,
+          "name": "Foreboding Plans"
+        }
+      ],
+      "npc": "Magistrate Henry Maleb",
+      "mobs": []
+    },
+    {
+      "id": "hillsbrad_034",
+      "type": "quest_turnin",
+      "description": "Talk to Darren Malvew and turn in Costly Menace",
+      "classes": null,
+      "races": null,
+      "coords": [52.421, 55.964],
+      "zone": "hillsbrad_foothills",
+      "tips": [],
+      "quests": [
+        {
+          "id": 564,
+          "name": "Costly Menace"
+        }
+      ],
+      "npc": "Darren Malvew",
+      "mobs": []
+    },
+    {
+      "id": "hillsbrad_035",
+      "type": "fly",
+      "description": "Talk to Darla Harris and fly to Arathi Highlands",
+      "classes": null,
+      "races": null,
+      "coords": [49.338, 52.272],
+      "zone": "hillsbrad_foothills",
+      "tips": [],
+      "quests": [],
+      "npc": "Darla Harris",
+      "mobs": []
+    },
+    {
+      "id": "hillsbrad_036",
+      "type": "info",
+      "description": "Abandon Bartolo's Yeti Fur Cloak",
+      "classes": null,
+      "races": null,
+      "coords": null,
+      "zone": "",
+      "tips": [],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "hillsbrad_037",
+      "type": "quest_accept",
+      "description": "Talk to Apprentice Kryten and accept Worth Its Weight in Gold",
+      "classes": null,
+      "races": null,
+      "coords": [46.197, 47.752],
+      "zone": "arathi_highlands",
+      "tips": [],
+      "quests": [
+        {
+          "id": 691,
+          "name": "Worth Its Weight in Gold"
+        }
+      ],
+      "npc": "Apprentice Kryten",
+      "mobs": []
+    },
+    {
+      "id": "hillsbrad_038",
+      "type": "kill",
+      "description": "Kill the Witherbarks. Loot them for their Witherbark Tusks. Kill Witherbark Witch Doctors. Loot them for their Medicine Pouches. Kill Witherbark Shadow Hunters. Loot them for their Shadow Hunter Knife.",
+      "classes": null,
+      "races": null,
+      "coords": [68.2, 79.47],
+      "zone": "arathi_highlands",
+      "tips": [
+        {
+          "type": "warning",
+          "class": null,
+          "text": "Witherbark Shadow Hunters are only found inside the Cave"
+        }
+      ],
+      "quests": [
+        {
+          "id": 691,
+          "name": "Worth Its Weight in Gold"
+        }
+      ],
+      "npc": null,
+      "mobs": [
+        "Witherbark Shadow Hunter",
+        "Witherbark Witch Doctor",
+        "Witherbark Shadowcaster",
+        "Witherbark Troll"
+      ]
+    },
+    {
+      "id": "hillsbrad_039",
+      "type": "quest_turnin",
+      "description": "Talk to Apprentice Kryten and turn in Worth Its Weight in Gold",
+      "classes": null,
+      "races": null,
+      "coords": [46.197, 47.752],
+      "zone": "arathi_highlands",
+      "tips": [],
+      "quests": [
+        {
+          "id": 691,
+          "name": "Worth Its Weight in Gold"
+        }
+      ],
+      "npc": "Apprentice Kryten",
+      "mobs": []
+    },
+    {
+      "id": "hillsbrad_040",
+      "type": "info",
+      "description": "Teleport to Ironforge",
+      "classes": ["Mage"],
+      "races": null,
+      "coords": null,
+      "zone": "",
+      "tips": [],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "hillsbrad_041",
+      "type": "fly",
+      "description": "Talk to Cedrik Prose and fly to Ironforge",
+      "classes": ["!Mage"],
+      "races": null,
+      "coords": [45.73, 46.09],
+      "zone": "arathi_highlands",
+      "tips": [],
+      "quests": [],
+      "npc": "Cedrik Prose",
+      "mobs": []
+    },
+    {
+      "id": "hillsbrad_042",
+      "type": "quest_turnin",
+      "description": "Talk to Prospector Stormpike and turn in Letter to Stormpike",
+      "classes": null,
+      "races": null,
+      "coords": [74.645, 11.742],
+      "zone": "ironforge",
+      "tips": [],
+      "quests": [
+        {
+          "id": 514,
+          "name": "Letter to Stormpike"
+        }
+      ],
+      "npc": "Prospector Stormpike",
+      "mobs": []
+    },
+    {
+      "id": "hillsbrad_043",
+      "type": "quest_turnin",
+      "description": "Talk to Grand Mason Marblesten and turn in A King's Tribute",
+      "classes": null,
+      "races": null,
+      "coords": [39.03, 88.05],
+      "zone": "ironforge",
+      "tips": [],
+      "quests": [
+        {
+          "id": 689,
+          "name": "A King's Tribute"
+        }
+      ],
+      "npc": "Grand Mason Marblesten",
+      "mobs": []
+    },
+    {
+      "id": "hillsbrad_044",
+      "type": "quest_accept",
+      "description": "Talk to Grand Mason Marblesten and accept A King's Tribute",
+      "classes": null,
+      "races": null,
+      "coords": [39.03, 88.05],
+      "zone": "ironforge",
+      "tips": [
+        {
+          "type": "warning",
+          "class": null,
+          "text": "Wait out the RP"
+        }
+      ],
+      "quests": [
+        {
+          "id": 700,
+          "name": "A King's Tribute"
+        }
+      ],
+      "npc": "Grand Mason Marblesten",
+      "mobs": []
+    },
+    {
+      "id": "hillsbrad_045",
+      "type": "quest_turnin",
+      "description": "Talk to King Magni Bronzebeard and turn in A King's Tribute",
+      "classes": null,
+      "races": null,
+      "coords": [39.09, 56.19],
+      "zone": "ironforge",
+      "tips": [],
+      "quests": [
+        {
+          "id": 700,
+          "name": "A King's Tribute"
+        }
+      ],
+      "npc": "King Magni Bronzebeard",
+      "mobs": []
+    }
+  ]
+}

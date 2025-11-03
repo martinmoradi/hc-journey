@@ -1,0 +1,759 @@
+{
+  "zone": "Dustwallow Marsh",
+  "levelRange": "39-39",
+  "faction": "Alliance",
+  "name": "39-39_dustwallow_marsh",
+  "next": "39-40_desolace_2",
+  "steps": [
+    {
+      "id": "dustwallow_001",
+      "type": "travel",
+      "description": "Travel to the Menethil Harbor Dock",
+      "classes": null,
+      "races": null,
+      "coords": [7.27, 62.527],
+      "zone": "wetlands",
+      "tips": [],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "dustwallow_002",
+      "type": "travel",
+      "description": "Take the boat to Theramore",
+      "classes": null,
+      "races": null,
+      "coords": [5.075, 63.408],
+      "zone": "wetlands",
+      "tips": [
+        {
+          "type": "warning",
+          "class": null,
+          "text": "Level your First Aid while waiting"
+        }
+      ],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "dustwallow_003",
+      "type": "info",
+      "description": "Talk to Helenia Olden. Buy 3 Soothing Spices from her",
+      "classes": null,
+      "races": null,
+      "coords": [66.437, 51.463],
+      "zone": "dustwallow_marsh",
+      "tips": [],
+      "quests": [],
+      "npc": "Helenia Olden",
+      "mobs": []
+    },
+    {
+      "id": "dustwallow_004",
+      "type": "quest_accept",
+      "description": "Talk to Morgan Stern, turn in Morgan Stern and accept Mudrock Soup and Bugs",
+      "classes": null,
+      "races": null,
+      "coords": [66.336, 45.469],
+      "zone": "dustwallow_marsh",
+      "tips": [],
+      "quests": [
+        {
+          "id": 1260,
+          "name": "Morgan Stern"
+        },
+        {
+          "id": 1204,
+          "name": "Mudrock Soup and Bugs"
+        }
+      ],
+      "npc": "Morgan Stern",
+      "mobs": []
+    },
+    {
+      "id": "dustwallow_005",
+      "type": "quest_accept",
+      "description": "Talk to Archmage Tervosh atop Theramore tower and accept The Missing Diplomat",
+      "classes": null,
+      "races": null,
+      "coords": [66.423, 49.26],
+      "zone": "dustwallow_marsh",
+      "tips": [],
+      "quests": [
+        {
+          "id": 1266,
+          "name": "The Missing Diplomat"
+        }
+      ],
+      "npc": "Archmage Tervosh",
+      "mobs": []
+    },
+    {
+      "id": "dustwallow_006",
+      "type": "quest_accept",
+      "description": "Talk to Swamp Eye Jarl, accept Soothing Spices, turn in Soothing Spices, and accept Jarl Needs Eyes",
+      "classes": null,
+      "races": null,
+      "coords": [55.437, 26.27],
+      "zone": "dustwallow_marsh",
+      "tips": [],
+      "quests": [
+        {
+          "id": 1218,
+          "name": "Soothing Spices"
+        },
+        {
+          "id": 1206,
+          "name": "Jarl Needs Eyes"
+        }
+      ],
+      "npc": "Swamp Eye Jarl",
+      "mobs": []
+    },
+    {
+      "id": "dustwallow_007",
+      "type": "quest_accept",
+      "description": "Click the Loost Dirt and accept The Orc Report",
+      "classes": null,
+      "races": null,
+      "coords": [55.442, 25.917],
+      "zone": "dustwallow_marsh",
+      "tips": [],
+      "quests": [
+        {
+          "id": 1219,
+          "name": "The Orc Report"
+        }
+      ],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "dustwallow_008",
+      "type": "quest_turnin",
+      "description": "Talk to the Theramore Lieutenant, turn in The Orc Report, and accept Captain Vimes",
+      "classes": null,
+      "races": null,
+      "coords": [68.125, 48.201],
+      "zone": "dustwallow_marsh",
+      "tips": [],
+      "quests": [
+        {
+          "id": 1219,
+          "name": "The Orc Report"
+        },
+        {
+          "id": 1220,
+          "name": "Captain Vimes"
+        }
+      ],
+      "npc": "Theramore Lieutenant",
+      "mobs": []
+    },
+    {
+      "id": "dustwallow_009",
+      "type": "quest_turnin",
+      "description": "Talk to Captain Garran Vimes, turn in Captain Vimes, and accept The Deserters",
+      "classes": null,
+      "races": null,
+      "coords": [68.212, 48.62],
+      "zone": "dustwallow_marsh",
+      "tips": [],
+      "quests": [
+        {
+          "id": 1220,
+          "name": "Captain Vimes"
+        },
+        {
+          "id": 1286,
+          "name": "The Deserters"
+        }
+      ],
+      "npc": "Captain Garran Vimes",
+      "mobs": []
+    },
+    {
+      "id": "dustwallow_010",
+      "type": "quest_accept",
+      "description": "Talk to Doctor Gustaf VanHowzen and accept Triage",
+      "classes": null,
+      "races": null,
+      "coords": [67.756, 48.968],
+      "zone": "dustwallow_marsh",
+      "tips": [],
+      "quests": [
+        {
+          "id": 6624,
+          "name": "Triage"
+        }
+      ],
+      "npc": "Doctor Gustaf VanHowzen",
+      "mobs": []
+    },
+    {
+      "id": "dustwallow_011",
+      "type": "info",
+      "description": "Channel the Triage Bandage on the Alliance Soldiers. Prioritize Critically Injured Soldiers first",
+      "classes": null,
+      "races": null,
+      "coords": [67.756, 48.968],
+      "zone": "dustwallow_marsh",
+      "tips": [],
+      "quests": [
+        {
+          "id": 6624,
+          "name": "Triage"
+        }
+      ],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "dustwallow_012",
+      "type": "quest_turnin",
+      "description": "Talk to Doctor Gustaf VanHowzen and turn in Triage",
+      "classes": null,
+      "races": null,
+      "coords": [67.756, 48.968],
+      "zone": "dustwallow_marsh",
+      "tips": [],
+      "quests": [
+        {
+          "id": 6624,
+          "name": "Triage"
+        }
+      ],
+      "npc": "Doctor Gustaf VanHowzen",
+      "mobs": []
+    },
+    {
+      "id": "dustwallow_013",
+      "type": "info",
+      "description": "Delete the Triage Bandage. You no longer need it",
+      "classes": null,
+      "races": null,
+      "coords": null,
+      "zone": "",
+      "tips": [],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "dustwallow_014",
+      "type": "kill",
+      "description": "Kill Mudrock Spikeshells and Mudrock Tortoises. Loot them for their Tongues",
+      "classes": null,
+      "races": null,
+      "coords": [59.67, 17.69],
+      "zone": "dustwallow_marsh",
+      "tips": [],
+      "quests": [
+        {
+          "id": 1204,
+          "name": "Mudrock Soup and Bugs"
+        }
+      ],
+      "npc": null,
+      "mobs": ["Mudrock Spikeshell", "Mudrock Tortoise"]
+    },
+    {
+      "id": "dustwallow_015",
+      "type": "kill",
+      "description": "Kill the Mirefins. Loot them for their Heads",
+      "classes": null,
+      "races": null,
+      "coords": [57.6, 21.6],
+      "zone": "dustwallow_marsh",
+      "tips": [],
+      "quests": [
+        {
+          "id": 1177,
+          "name": "Hungry"
+        }
+      ],
+      "npc": null,
+      "mobs": [
+        "Mirefin Coastrunner",
+        "Mirefin Muckdweller",
+        "Mirefin Murloc",
+        "Mirefin Puddlejumper",
+        "Mirefin Warrior",
+        "Mirefin Oracle"
+      ]
+    },
+    {
+      "id": "dustwallow_016",
+      "type": "kill",
+      "description": "Kill Mudrock Spikeshells and Mudrock Tortoises. Loot them for their Tongues",
+      "classes": null,
+      "races": null,
+      "coords": [64.6, 40.0],
+      "zone": "dustwallow_marsh",
+      "tips": [],
+      "quests": [
+        {
+          "id": 1204,
+          "name": "Mudrock Soup and Bugs"
+        }
+      ],
+      "npc": null,
+      "mobs": ["Mudrock Spikeshell", "Mudrock Tortoise"]
+    },
+    {
+      "id": "dustwallow_017",
+      "type": "quest_turnin",
+      "description": "Talk to Private Hendel and turn in The Missing Diplomat",
+      "classes": null,
+      "races": null,
+      "coords": [45.24, 24.65],
+      "zone": "dustwallow_marsh",
+      "tips": [
+        {
+          "type": "warning",
+          "class": null,
+          "text": "IF YOU CHOOSE TO ACCEPT THE FOLLOW UP QUEST YOU WILL BE PVP FLAGGED! MEANING HORDE PLAYERS CAN KILL YOU! PROCEED AT YOUR OWN RISK!"
+        },
+        {
+          "type": "warning",
+          "class": null,
+          "text": "You will NOT be PvP Flagged for turning in this current quest. Auto accept has been turned OFF for the follow up"
+        }
+      ],
+      "quests": [
+        {
+          "id": 1266,
+          "name": "The Missing Diplomat"
+        }
+      ],
+      "npc": "Private Hendel",
+      "mobs": []
+    },
+    {
+      "id": "dustwallow_018",
+      "type": "quest_accept",
+      "description": "Talk to Private Hendel and accept The Missing Diplomat",
+      "classes": null,
+      "races": null,
+      "coords": [45.24, 24.65],
+      "zone": "dustwallow_marsh",
+      "tips": [
+        {
+          "type": "warning",
+          "class": null,
+          "text": "IF YOU CHOOSE TO ACCEPT THIS QUEST YOU WILL BE PVP FLAGGED! MEANING HORDE PLAYERS CAN KILL YOU! PROCEED AT YOUR OWN RISK!"
+        }
+      ],
+      "quests": [
+        {
+          "id": 1324,
+          "name": "The Missing Diplomat"
+        }
+      ],
+      "npc": "Private Hendel",
+      "mobs": []
+    },
+    {
+      "id": "dustwallow_019",
+      "type": "quest_accept",
+      "description": "Talk to Private Hendel, turn in The Missing Diplomat, and accept The Missing Diplomat",
+      "classes": null,
+      "races": null,
+      "coords": [45.24, 24.65],
+      "zone": "dustwallow_marsh",
+      "tips": [
+        {
+          "type": "warning",
+          "class": null,
+          "text": "Blizzard has adjusted this quest so it will no longer PvP Flag you on Official Hardcore Servers"
+        }
+      ],
+      "quests": [
+        {
+          "id": 1266,
+          "name": "The Missing Diplomat"
+        },
+        {
+          "id": 1324,
+          "name": "The Missing Diplomat"
+        }
+      ],
+      "npc": "Private Hendel",
+      "mobs": []
+    },
+    {
+      "id": "dustwallow_020",
+      "type": "kill",
+      "description": "Defeat Private Hendel. He will attack you along with 2 Theramore Sentries. They will both reset once you subdue Private Hendel",
+      "classes": null,
+      "races": null,
+      "coords": [45.24, 24.65],
+      "zone": "dustwallow_marsh",
+      "tips": [],
+      "quests": [
+        {
+          "id": 1324,
+          "name": "The Missing Diplomat"
+        }
+      ],
+      "npc": null,
+      "mobs": ["Private Hendel"]
+    },
+    {
+      "id": "dustwallow_021",
+      "type": "quest_turnin",
+      "description": "Talk to Archmage Tervosh and turn in The Missing Diplomat",
+      "classes": null,
+      "races": null,
+      "coords": [45.193, 24.292],
+      "zone": "dustwallow_marsh",
+      "tips": [],
+      "quests": [
+        {
+          "id": 1324,
+          "name": "The Missing Diplomat"
+        }
+      ],
+      "npc": "Archmage Tervosh",
+      "mobs": []
+    },
+    {
+      "id": "dustwallow_022",
+      "type": "quest_turnin",
+      "description": "Talk to Lady Jaina Proudmoore and turn in The Missing Diplomat",
+      "classes": null,
+      "races": null,
+      "coords": [45.218, 24.23],
+      "zone": "dustwallow_marsh",
+      "tips": [],
+      "quests": [
+        {
+          "id": 1267,
+          "name": "The Missing Diplomat"
+        }
+      ],
+      "npc": "Lady Jaina Proudmoore",
+      "mobs": []
+    },
+    {
+      "id": "dustwallow_023",
+      "type": "kill",
+      "description": "Kill Darkmist Spiders, Darkmist Silkspinners, Darkmist Lurkers and Darkmist Recluses. Loot them for their Eyes",
+      "classes": null,
+      "races": null,
+      "coords": [34.49, 22.06],
+      "zone": "dustwallow_marsh",
+      "tips": [
+        {
+          "type": "warning",
+          "class": null,
+          "text": "Darkmist Silkspinners cast Web"
+        },
+        {
+          "type": "warning",
+          "class": "Rogue",
+          "text": "Darkmist Recluses cast Debilitating Poison which lowers your physical damage by 75% for 15 seconds. Simply move out of melee range when they begin to cast it to avoid it"
+        },
+        {
+          "type": "warning",
+          "class": "Warrior",
+          "text": "Darkmist Recluses cast Debilitating Poison which lowers your physical damage by 75% for 15 seconds. Simply move out of melee range when they begin to cast it to avoid it"
+        },
+        {
+          "type": "warning",
+          "class": "Paladin",
+          "text": "Darkmist Recluses cast Debilitating Poison which lowers your physical damage by 75% for 15 seconds. Simply move out of melee range when they begin to cast it to avoid it"
+        },
+        {
+          "type": "warning",
+          "class": "Druid",
+          "text": "Darkmist Recluses cast Debilitating Poison which lowers your physical damage by 75% for 15 seconds. Simply move out of melee range when they begin to cast it to avoid it"
+        },
+        {
+          "type": "warning",
+          "class": null,
+          "text": "Darkmist Lurkers are in Stealth inside of the Cave. It is recommended you do not enter the Cave"
+        }
+      ],
+      "quests": [
+        {
+          "id": 1206,
+          "name": "Jarl Needs Eyes"
+        }
+      ],
+      "npc": null,
+      "mobs": [
+        "Darkmist Recluse",
+        "Darkmist Spider",
+        "Darkmist Silkspinner",
+        "Darkmist Lurker"
+      ]
+    },
+    {
+      "id": "dustwallow_024",
+      "type": "quest_accept",
+      "description": "Talk to Stinky Ignatz and accept Stinky's Escape. This will start an escort quest",
+      "classes": null,
+      "races": null,
+      "coords": [46.881, 17.518],
+      "zone": "dustwallow_marsh",
+      "tips": [
+        {
+          "type": "warning",
+          "class": null,
+          "text": "This will start an escort quest"
+        }
+      ],
+      "quests": [
+        {
+          "id": 1222,
+          "name": "Stinky's Escape"
+        }
+      ],
+      "npc": "Stinky Ignatz",
+      "mobs": []
+    },
+    {
+      "id": "dustwallow_025",
+      "type": "info",
+      "description": "Follow Stinky Ignatz through the Marshlands",
+      "classes": null,
+      "races": null,
+      "coords": [48.76, 24.49],
+      "zone": "dustwallow_marsh",
+      "tips": [],
+      "quests": [
+        {
+          "id": 1222,
+          "name": "Stinky's Escape"
+        }
+      ],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "dustwallow_026",
+      "type": "quest_turnin",
+      "description": "Talk to Swamp Eye Jarl and turn in Jarl Needs Eyes",
+      "classes": null,
+      "races": null,
+      "coords": [55.437, 26.27],
+      "zone": "dustwallow_marsh",
+      "tips": [],
+      "quests": [
+        {
+          "id": 1206,
+          "name": "Jarl Needs Eyes"
+        }
+      ],
+      "npc": "Swamp Eye Jarl",
+      "mobs": []
+    },
+    {
+      "id": "dustwallow_027",
+      "type": "quest_accept",
+      "description": "Talk to Swamp Eye Jarl, accept Jarl Needs a Blade and turn in Jarl Needs a Blade",
+      "classes": null,
+      "races": null,
+      "coords": [55.437, 26.27],
+      "zone": "dustwallow_marsh",
+      "tips": [],
+      "quests": [
+        {
+          "id": 1203,
+          "name": "Jarl Needs a Blade"
+        }
+      ],
+      "npc": "Swamp Eye Jarl",
+      "mobs": []
+    },
+    {
+      "id": "dustwallow_028",
+      "type": "info",
+      "description": "Delete any extra Unpopped Darkmist Eyes you still have",
+      "classes": null,
+      "races": null,
+      "coords": null,
+      "zone": "",
+      "tips": [],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "dustwallow_029",
+      "type": "quest_turnin",
+      "description": "Talk to Mudcrush Durtfeet and turn in Hungry",
+      "classes": null,
+      "races": null,
+      "coords": [35.154, 38.255],
+      "zone": "dustwallow_marsh",
+      "tips": [],
+      "quests": [
+        {
+          "id": 1177,
+          "name": "Hungry"
+        }
+      ],
+      "npc": "Mudcrush Durtfeet",
+      "mobs": []
+    },
+    {
+      "id": "dustwallow_030",
+      "type": "travel",
+      "description": "Travel to Lost Point tower",
+      "classes": null,
+      "races": null,
+      "coords": [35.74, 53.99],
+      "zone": "dustwallow_marsh",
+      "tips": [],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "dustwallow_031",
+      "type": "info",
+      "description": "Attack Balos Jacken to 10% health to make him submit",
+      "classes": null,
+      "races": null,
+      "coords": [36.09, 54.3],
+      "zone": "dustwallow_marsh",
+      "tips": [],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "dustwallow_032",
+      "type": "quest_turnin",
+      "description": "Talk to Balos Jacken, turn in The Deserters, and accept The Deserters",
+      "classes": null,
+      "races": null,
+      "coords": [36.09, 54.3],
+      "zone": "dustwallow_marsh",
+      "tips": [],
+      "quests": [
+        {
+          "id": 1286,
+          "name": "The Deserters"
+        },
+        {
+          "id": 1287,
+          "name": "The Deserters"
+        }
+      ],
+      "npc": "Balos Jacken",
+      "mobs": []
+    },
+    {
+      "id": "dustwallow_033",
+      "type": "travel",
+      "description": "Travel to Theramore Isle",
+      "classes": null,
+      "races": null,
+      "coords": [66.336, 45.469],
+      "zone": "dustwallow_marsh",
+      "tips": [],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "dustwallow_034",
+      "type": "quest_turnin",
+      "description": "Talk to Morgan Stern, turn in Stinky's Escape and turn in Mudrock Soup and Bugs",
+      "classes": null,
+      "races": null,
+      "coords": [66.336, 45.469],
+      "zone": "dustwallow_marsh",
+      "tips": [],
+      "quests": [
+        {
+          "id": 1222,
+          "name": "Stinky's Escape"
+        },
+        {
+          "id": 1204,
+          "name": "Mudrock Soup and Bugs"
+        }
+      ],
+      "npc": "Morgan Stern",
+      "mobs": []
+    },
+    {
+      "id": "dustwallow_035",
+      "type": "quest_turnin",
+      "description": "Talk to Morgan Stern and turn in Stinky's Escape",
+      "classes": null,
+      "races": null,
+      "coords": [66.336, 45.469],
+      "zone": "dustwallow_marsh",
+      "tips": [],
+      "quests": [
+        {
+          "id": 1222,
+          "name": "Stinky's Escape"
+        }
+      ],
+      "npc": "Morgan Stern",
+      "mobs": []
+    },
+    {
+      "id": "dustwallow_036",
+      "type": "quest_turnin",
+      "description": "Talk to Morgan Stern and turn in Mudrock Soup and Bugs",
+      "classes": null,
+      "races": null,
+      "coords": [66.336, 45.469],
+      "zone": "dustwallow_marsh",
+      "tips": [],
+      "quests": [
+        {
+          "id": 1204,
+          "name": "Mudrock Soup and Bugs"
+        }
+      ],
+      "npc": "Morgan Stern",
+      "mobs": []
+    },
+    {
+      "id": "dustwallow_037",
+      "type": "quest_accept",
+      "description": "Talk to Morgan Stern and accept ... and Bugs",
+      "classes": null,
+      "races": null,
+      "coords": [66.336, 45.469],
+      "zone": "dustwallow_marsh",
+      "tips": [],
+      "quests": [
+        {
+          "id": 1258,
+          "name": "... and Bugs"
+        }
+      ],
+      "npc": "Morgan Stern",
+      "mobs": []
+    },
+    {
+      "id": "dustwallow_038",
+      "type": "quest_turnin",
+      "description": "Talk to Captain Garran Vimes and turn in The Deserters",
+      "classes": null,
+      "races": null,
+      "coords": [68.212, 48.62],
+      "zone": "dustwallow_marsh",
+      "tips": [],
+      "quests": [
+        {
+          "id": 1287,
+          "name": "The Deserters"
+        }
+      ],
+      "npc": "Captain Garran Vimes",
+      "mobs": []
+    }
+  ]
+}

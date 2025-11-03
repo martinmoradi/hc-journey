@@ -1,0 +1,1373 @@
+{
+  "zone": "Wetlands/Hillsbrad",
+  "levelRange": "30-30",
+  "faction": "Alliance",
+  "name": "30-30_wetlands_hillsbrad",
+  "next": "30-32_duskwood",
+  "steps": [
+    {
+      "id": "wetlands_hillsbrad_001",
+      "type": "fly",
+      "description": "Talk to Shellei Brondir and fly to Ironforge",
+      "classes": null,
+      "races": null,
+      "coords": [9.49, 59.69],
+      "zone": "wetlands",
+      "tips": [],
+      "quests": [],
+      "npc": "Shellei Brondir",
+      "mobs": []
+    },
+    {
+      "id": "wetlands_hillsbrad_002",
+      "type": "quest_turnin",
+      "description": "Talk to Gerrig Bonegrip and turn in Knowledge in the Deeps",
+      "classes": null,
+      "races": null,
+      "coords": [50.826, 5.613],
+      "zone": "ironforge",
+      "tips": [],
+      "quests": [
+        {
+          "id": 971,
+          "name": "Knowledge in the Deeps"
+        }
+      ],
+      "npc": "Gerrig Bonegrip",
+      "mobs": []
+    },
+    {
+      "id": "wetlands_hillsbrad_003",
+      "type": "info",
+      "description": "Talk to Bailey Stonemantle. Deposit Elixir of Water Breathing into your bank",
+      "classes": null,
+      "races": null,
+      "coords": [35.9, 60.17],
+      "zone": "ironforge",
+      "tips": [],
+      "quests": [],
+      "npc": "Bailey Stonemantle",
+      "mobs": []
+    },
+    {
+      "id": "wetlands_hillsbrad_004",
+      "type": "fly",
+      "description": "Talk to Gryth Thurden and fly to Wetlands",
+      "classes": null,
+      "races": null,
+      "coords": [55.501, 47.742],
+      "zone": "ironforge",
+      "tips": [],
+      "quests": [],
+      "npc": "Gryth Thurden",
+      "mobs": []
+    },
+    {
+      "id": "wetlands_hillsbrad_005",
+      "type": "quest_accept",
+      "description": "Talk to First Mate Fitzsimmons and accept Lifting the Curse",
+      "classes": null,
+      "races": null,
+      "coords": [10.89, 59.66],
+      "zone": "wetlands",
+      "tips": [],
+      "quests": [
+        {
+          "id": 290,
+          "name": "Lifting the Curse"
+        }
+      ],
+      "npc": "First Mate Fitzsimmons",
+      "mobs": []
+    },
+    {
+      "id": "wetlands_hillsbrad_006",
+      "type": "quest_turnin",
+      "description": "Talk to Archaeologist Flagongut upstairs and turn in The Absent Minded Prospector",
+      "classes": null,
+      "races": null,
+      "coords": [10.84, 60.43],
+      "zone": "wetlands",
+      "tips": [],
+      "quests": [
+        {
+          "id": 943,
+          "name": "The Absent Minded Prospector"
+        }
+      ],
+      "npc": "Archaeologist Flagongut",
+      "mobs": []
+    },
+    {
+      "id": "wetlands_hillsbrad_007",
+      "type": "quest_accept",
+      "description": "Talk to Harlo Barnaby and accept Fall of Dun Modr",
+      "classes": null,
+      "races": null,
+      "coords": [10.84, 55.89],
+      "zone": "wetlands",
+      "tips": [],
+      "quests": [
+        {
+          "id": 472,
+          "name": "Fall of Dun Modr"
+        }
+      ],
+      "npc": "Harlo Barnaby",
+      "mobs": []
+    },
+    {
+      "id": "wetlands_hillsbrad_008",
+      "type": "quest_accept",
+      "description": "Talk to Captain Stoutfist upstairs and accept Nek'rosh's Gambit",
+      "classes": null,
+      "races": null,
+      "coords": [9.861, 57.486],
+      "zone": "wetlands",
+      "tips": [],
+      "quests": [
+        {
+          "id": 465,
+          "name": "Nek'rosh's Gambit"
+        }
+      ],
+      "npc": "Captain Stoutfist",
+      "mobs": []
+    },
+    {
+      "id": "wetlands_hillsbrad_009",
+      "type": "kill",
+      "description": "Kill Giant Wetlands Crocolisks. Loot them for their Skin",
+      "classes": null,
+      "races": null,
+      "coords": null,
+      "zone": "",
+      "tips": [],
+      "quests": [
+        {
+          "id": 471,
+          "name": "Apprentice's Duties"
+        }
+      ],
+      "npc": null,
+      "mobs": ["Giant Wetlands Crocolisk"]
+    },
+    {
+      "id": "wetlands_hillsbrad_010",
+      "type": "kill",
+      "description": "Run up the mast of the ship. Kill Captain Halyndor. Loot him for the Strongbox Key",
+      "classes": null,
+      "races": null,
+      "coords": [15.44, 23.6],
+      "zone": "wetlands",
+      "tips": [],
+      "quests": [
+        {
+          "id": 290,
+          "name": "Lifting the Curse"
+        }
+      ],
+      "npc": null,
+      "mobs": ["Captain Halyndor"]
+    },
+    {
+      "id": "wetlands_hillsbrad_011",
+      "type": "quest_turnin",
+      "description": "Enter through the large hole on the side of the ship. Click Intrepid's Locked Strongbox on the ground, turn in Lifting the Curse and accept The Eye of Paleth",
+      "classes": null,
+      "races": null,
+      "coords": [14.381, 24.047],
+      "zone": "wetlands",
+      "tips": [],
+      "quests": [
+        {
+          "id": 290,
+          "name": "Lifting the Curse"
+        },
+        {
+          "id": 292,
+          "name": "The Eye of Paleth"
+        }
+      ],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "wetlands_hillsbrad_012",
+      "type": "kill",
+      "description": "Kill Fen Creepers",
+      "classes": null,
+      "races": null,
+      "coords": null,
+      "zone": "",
+      "tips": [
+        {
+          "type": "warning",
+          "class": null,
+          "text": "Fen Creepers are in Stealth along the river streams"
+        }
+      ],
+      "quests": [
+        {
+          "id": 275,
+          "name": "Blisters on The Land"
+        }
+      ],
+      "npc": null,
+      "mobs": ["Fen Creeper"]
+    },
+    {
+      "id": "wetlands_hillsbrad_013",
+      "type": "kill",
+      "description": "Kill Giant Wetlands Crocolisks. Loot them for their Skin",
+      "classes": null,
+      "races": null,
+      "coords": [18.0, 27.0],
+      "zone": "wetlands",
+      "tips": [],
+      "quests": [
+        {
+          "id": 471,
+          "name": "Apprentice's Duties"
+        }
+      ],
+      "npc": null,
+      "mobs": ["Giant Wetlands Crocolisk"]
+    },
+    {
+      "id": "wetlands_hillsbrad_014",
+      "type": "kill",
+      "description": "Kill Fen Creepers",
+      "classes": null,
+      "races": null,
+      "coords": [20.72, 28.74],
+      "zone": "wetlands",
+      "tips": [
+        {
+          "type": "warning",
+          "class": null,
+          "text": "Fen Creepers are in Stealth along the river streams"
+        }
+      ],
+      "quests": [
+        {
+          "id": 275,
+          "name": "Blisters on The Land"
+        }
+      ],
+      "npc": null,
+      "mobs": ["Fen Creeper"]
+    },
+    {
+      "id": "wetlands_hillsbrad_015",
+      "type": "quest_turnin",
+      "description": "Talk to Ormer Ironbraid, turn in Ormer's Revenge and accept Ormer's Revenge",
+      "classes": null,
+      "races": null,
+      "coords": [38.17, 50.88],
+      "zone": "wetlands",
+      "tips": [],
+      "quests": [
+        {
+          "id": 294,
+          "name": "Ormer's Revenge"
+        },
+        {
+          "id": 295,
+          "name": "Ormer's Revenge"
+        }
+      ],
+      "npc": "Ormer Ironbraid",
+      "mobs": []
+    },
+    {
+      "id": "wetlands_hillsbrad_016",
+      "type": "quest_accept",
+      "description": "Talk to Prospector Whelgar and accept Uncovering the Past",
+      "classes": null,
+      "races": null,
+      "coords": [38.809, 52.386],
+      "zone": "wetlands",
+      "tips": [],
+      "quests": [
+        {
+          "id": 299,
+          "name": "Uncovering the Past"
+        }
+      ],
+      "npc": "Prospector Whelgar",
+      "mobs": []
+    },
+    {
+      "id": "wetlands_hillsbrad_017",
+      "type": "kill",
+      "description": "Kill Mottled Scytheclaws and Mottled Razormaws. Loot them for the Stone of Relu",
+      "classes": null,
+      "races": null,
+      "coords": null,
+      "zone": "",
+      "tips": [],
+      "quests": [
+        {
+          "id": 943,
+          "name": "The Absent Minded Prospector"
+        }
+      ],
+      "npc": null,
+      "mobs": ["Mottled Razormaw", "Mottled Scytheclaw"]
+    },
+    {
+      "id": "wetlands_hillsbrad_018",
+      "type": "loot",
+      "description": "Open the Ancient Relics and Loose Soil. Loot them for the Fragments",
+      "classes": null,
+      "races": null,
+      "coords": [34.71, 49.95],
+      "zone": "wetlands",
+      "tips": [
+        {
+          "type": "warning",
+          "class": null,
+          "text": "The Fragments have random spawn locations in the Excavation Site"
+        }
+      ],
+      "quests": [
+        {
+          "id": 299,
+          "name": "Uncovering the Past"
+        }
+      ],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "wetlands_hillsbrad_019",
+      "type": "kill",
+      "description": "Kill Mottled Scytheclaws and Mottled Razormaws",
+      "classes": null,
+      "races": null,
+      "coords": [34.33, 47.81],
+      "zone": "wetlands",
+      "tips": [],
+      "quests": [
+        {
+          "id": 295,
+          "name": "Ormer's Revenge"
+        }
+      ],
+      "npc": null,
+      "mobs": ["Mottled Razormaw", "Mottled Scytheclaw"]
+    },
+    {
+      "id": "wetlands_hillsbrad_020",
+      "type": "quest_turnin",
+      "description": "Talk to Ormer Ironbraid, turn in Ormer's Revenge and accept Ormer's Revenge",
+      "classes": null,
+      "races": null,
+      "coords": [38.17, 50.88],
+      "zone": "wetlands",
+      "tips": [],
+      "quests": [
+        {
+          "id": 295,
+          "name": "Ormer's Revenge"
+        },
+        {
+          "id": 296,
+          "name": "Ormer's Revenge"
+        }
+      ],
+      "npc": "Ormer Ironbraid",
+      "mobs": []
+    },
+    {
+      "id": "wetlands_hillsbrad_021",
+      "type": "kill",
+      "description": "Kill Sarltooth. Loot him for his Talon",
+      "classes": null,
+      "races": null,
+      "coords": [33.25, 51.5],
+      "zone": "wetlands",
+      "tips": [],
+      "quests": [
+        {
+          "id": 296,
+          "name": "Ormer's Revenge"
+        }
+      ],
+      "npc": null,
+      "mobs": ["Sarltooth"]
+    },
+    {
+      "id": "wetlands_hillsbrad_022",
+      "type": "loot",
+      "description": "Open the Ancient Relics and Loose Soil. Loot them for the Fragments",
+      "classes": null,
+      "races": null,
+      "coords": [36.62, 42.16],
+      "zone": "wetlands",
+      "tips": [
+        {
+          "type": "warning",
+          "class": null,
+          "text": "The Fragments have random spawn locations in the Excavation Site, including the elevated terrain where Sarltooth is"
+        },
+        {
+          "type": "warning",
+          "class": null,
+          "text": "Be sure to check behind the Large Tree marked on your map as well"
+        }
+      ],
+      "quests": [
+        {
+          "id": 299,
+          "name": "Uncovering the Past"
+        }
+      ],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "wetlands_hillsbrad_023",
+      "type": "kill",
+      "description": "Kill Mottled Scytheclaws and Mottled Razormaws. Loot them for the Stone of Relu",
+      "classes": null,
+      "races": null,
+      "coords": [34.33, 47.81],
+      "zone": "wetlands",
+      "tips": [],
+      "quests": [
+        {
+          "id": 943,
+          "name": "The Absent Minded Prospector"
+        }
+      ],
+      "npc": null,
+      "mobs": ["Mottled Razormaw", "Mottled Scytheclaw"]
+    },
+    {
+      "id": "wetlands_hillsbrad_024",
+      "type": "quest_turnin",
+      "description": "Talk to Ormer Ironbraid and Prospector Whelgar, turn in Ormer's Revenge and Uncovering the Past",
+      "classes": null,
+      "races": null,
+      "coords": [38.809, 52.386],
+      "zone": "wetlands",
+      "tips": [],
+      "quests": [
+        {
+          "id": 296,
+          "name": "Ormer's Revenge"
+        },
+        {
+          "id": 299,
+          "name": "Uncovering the Past"
+        }
+      ],
+      "npc": "Prospector Whelgar",
+      "mobs": []
+    },
+    {
+      "id": "wetlands_hillsbrad_025",
+      "type": "quest_turnin",
+      "description": "Click the Dragonmaw Catapult and turn in Nek'rosh's Gambit",
+      "classes": null,
+      "races": null,
+      "coords": [47.45, 47.01],
+      "zone": "wetlands",
+      "tips": [],
+      "quests": [
+        {
+          "id": 465,
+          "name": "Nek'rosh's Gambit"
+        }
+      ],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "wetlands_hillsbrad_026",
+      "type": "quest_accept",
+      "description": "Click the Dragonmaw Catapult and accept Defeat Nek'rosh",
+      "classes": null,
+      "races": null,
+      "coords": [47.45, 47.01],
+      "zone": "wetlands",
+      "tips": [],
+      "quests": [
+        {
+          "id": 474,
+          "name": "Defeat Nek'rosh"
+        }
+      ],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "wetlands_hillsbrad_027",
+      "type": "kill",
+      "description": "Kill Chieftain Nek'rosh. Loot him for his Head",
+      "classes": null,
+      "races": null,
+      "coords": [53.2, 56.0],
+      "zone": "wetlands",
+      "tips": [
+        {
+          "type": "warning",
+          "class": "Warlock",
+          "text": "You can split pull Nek'Rosh from the mobs around him by using Rain of Fire"
+        },
+        {
+          "type": "warning",
+          "class": "Mage",
+          "text": "You can split pull Nek'Rosh from the mobs around him by using Blizzard"
+        },
+        {
+          "type": "warning",
+          "class": null,
+          "text": "Chieftain Nek'rosh is snareable"
+        },
+        {
+          "type": "warning",
+          "class": "Warlock",
+          "text": "Chieftain Nek'rosh can be Feared"
+        },
+        {
+          "type": "warning",
+          "class": "Priest",
+          "text": "Chieftain Nek'rosh can be Feared"
+        },
+        {
+          "type": "warning",
+          "class": "Mage",
+          "text": "Chieftain Nek'rosh is immune to Fire damage"
+        },
+        {
+          "type": "warning",
+          "class": "Warlock",
+          "text": "Chieftain Nek'rosh is immune to Fire damage"
+        },
+        {
+          "type": "link",
+          "class": "Warlock",
+          "text": "Click here for a video guide",
+          "url": "https://www.twitch.tv/videos/669042748?t=02h57m08s"
+        },
+        {
+          "type": "link",
+          "class": "Hunter",
+          "text": "Click here for a video guide",
+          "url": "https://www.twitch.tv/videos/1219244561?t=10h00m16s"
+        }
+      ],
+      "quests": [
+        {
+          "id": 474,
+          "name": "Defeat Nek'rosh"
+        }
+      ],
+      "npc": null,
+      "mobs": ["Chieftain Nek'rosh"]
+    },
+    {
+      "id": "wetlands_hillsbrad_028",
+      "type": "quest_turnin",
+      "description": "Talk to Rethiel the Greenwarden and turn in Blisters on The Land",
+      "classes": null,
+      "races": null,
+      "coords": [56.37, 40.4],
+      "zone": "wetlands",
+      "tips": [],
+      "quests": [
+        {
+          "id": 275,
+          "name": "Blisters on The Land"
+        }
+      ],
+      "npc": "Rethiel the Greenwarden",
+      "mobs": []
+    },
+    {
+      "id": "wetlands_hillsbrad_029",
+      "type": "quest_turnin",
+      "description": "Talk to Longbraid the Grim and Rhag Garmason, turn in Fall of Dun Modr and accept The Thandol Span",
+      "classes": null,
+      "races": null,
+      "coords": [49.908, 18.233],
+      "zone": "wetlands",
+      "tips": [],
+      "quests": [
+        {
+          "id": 472,
+          "name": "Fall of Dun Modr"
+        },
+        {
+          "id": 631,
+          "name": "The Thandol Span"
+        }
+      ],
+      "npc": "Rhag Garmason",
+      "mobs": []
+    },
+    {
+      "id": "wetlands_hillsbrad_030",
+      "type": "quest_accept",
+      "description": "Talk to Motley Garmason and Longbraid the Grim, accept The Dark Iron War and A Grim Task",
+      "classes": null,
+      "races": null,
+      "coords": [49.803, 18.257],
+      "zone": "wetlands",
+      "tips": [],
+      "quests": [
+        {
+          "id": 303,
+          "name": "The Dark Iron War"
+        },
+        {
+          "id": 304,
+          "name": "A Grim Task"
+        }
+      ],
+      "npc": "Longbraid the Grim",
+      "mobs": []
+    },
+    {
+      "id": "wetlands_hillsbrad_031",
+      "type": "kill",
+      "description": "Kill Dark Iron Dwarves, Dark Iron Tunnelers, Dark Iron Saboteurs and Dark Iron Demolitionists",
+      "classes": null,
+      "races": null,
+      "coords": [62.48, 28.41],
+      "zone": "wetlands",
+      "tips": [
+        {
+          "type": "warning",
+          "class": null,
+          "text": "Dark Iron Saboteurs will cast Sapper Explode as they die which deals Fire damage in close proximity"
+        },
+        {
+          "type": "warning",
+          "class": null,
+          "text": "Dark Iron Demolitionists will continously throw Bombs from range"
+        }
+      ],
+      "quests": [
+        {
+          "id": 303,
+          "name": "The Dark Iron War"
+        }
+      ],
+      "npc": null,
+      "mobs": [
+        "Dark Iron Dwarf",
+        "Dark Iron Tunneler",
+        "Dark Iron Saboteur",
+        "Dark Iron Demolitionist"
+      ]
+    },
+    {
+      "id": "wetlands_hillsbrad_032",
+      "type": "kill",
+      "description": "Kill Balgaras the Foul. Loot him for his Ear",
+      "classes": null,
+      "races": null,
+      "coords": [62.48, 28.41],
+      "zone": "wetlands",
+      "tips": [],
+      "quests": [
+        {
+          "id": 304,
+          "name": "A Grim Task"
+        }
+      ],
+      "npc": null,
+      "mobs": ["Balgaras the Foul"]
+    },
+    {
+      "id": "wetlands_hillsbrad_033",
+      "type": "kill",
+      "description": "Kill Dark Iron Dwarves, Dark Iron Tunnelers, Dark Iron Saboteurs and Dark Iron Demolitionists",
+      "classes": null,
+      "races": null,
+      "coords": [62.48, 28.41],
+      "zone": "wetlands",
+      "tips": [
+        {
+          "type": "warning",
+          "class": null,
+          "text": "Dark Iron Saboteurs will cast Sapper Explode as they die which deals Fire damage in close proximity"
+        },
+        {
+          "type": "warning",
+          "class": null,
+          "text": "Dark Iron Demolitionists will continously throw Bombs from range"
+        }
+      ],
+      "quests": [
+        {
+          "id": 303,
+          "name": "The Dark Iron War"
+        }
+      ],
+      "npc": null,
+      "mobs": [
+        "Dark Iron Dwarf",
+        "Dark Iron Tunneler",
+        "Dark Iron Saboteur",
+        "Dark Iron Demolitionist"
+      ]
+    },
+    {
+      "id": "wetlands_hillsbrad_034",
+      "type": "quest_turnin",
+      "description": "Talk to Motley Garmason and turn in The Dark Iron War",
+      "classes": null,
+      "races": null,
+      "coords": [49.665, 18.231],
+      "zone": "wetlands",
+      "tips": [],
+      "quests": [
+        {
+          "id": 303,
+          "name": "The Dark Iron War"
+        }
+      ],
+      "npc": "Motley Garmason",
+      "mobs": []
+    },
+    {
+      "id": "wetlands_hillsbrad_035",
+      "type": "quest_turnin",
+      "description": "Talk to Longbraid the Grim and turn in A Grim Task",
+      "classes": null,
+      "races": null,
+      "coords": [49.803, 18.257],
+      "zone": "wetlands",
+      "tips": [],
+      "quests": [
+        {
+          "id": 304,
+          "name": "A Grim Task"
+        }
+      ],
+      "npc": "Longbraid the Grim",
+      "mobs": []
+    },
+    {
+      "id": "wetlands_hillsbrad_036",
+      "type": "quest_turnin",
+      "description": "Click on Ebenezer Rustlocke's Corpse, turn in The Thandol Span and accept The Thandol Span",
+      "classes": null,
+      "races": null,
+      "coords": [51.287, 7.953],
+      "zone": "wetlands",
+      "tips": [
+        {
+          "type": "warning",
+          "class": null,
+          "text": "Ensure you are on full HP before going down the Spiral Staircase. There are 2 Elite Dark Iron Sabotuers. Cast any crowd-control abilities on them when once you go down and then run past them. Run back up and out after"
+        },
+        {
+          "type": "link",
+          "class": null,
+          "text": "Click here for a video guide",
+          "url": "https://youtu.be/awe7f-iI-ic"
+        }
+      ],
+      "quests": [
+        {
+          "id": 631,
+          "name": "The Thandol Span"
+        },
+        {
+          "id": 632,
+          "name": "The Thandol Span"
+        }
+      ],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "wetlands_hillsbrad_037",
+      "type": "quest_turnin",
+      "description": "Talk to Rhag Garmason, turn in The Thandol Span and accept The Thandol Span",
+      "classes": null,
+      "races": null,
+      "coords": [49.908, 18.233],
+      "zone": "wetlands",
+      "tips": [],
+      "quests": [
+        {
+          "id": 632,
+          "name": "The Thandol Span"
+        },
+        {
+          "id": 633,
+          "name": "The Thandol Span"
+        }
+      ],
+      "npc": "Rhag Garmason",
+      "mobs": []
+    },
+    {
+      "id": "wetlands_hillsbrad_038",
+      "type": "info",
+      "description": "Abandon The Dark Iron War",
+      "classes": null,
+      "races": null,
+      "coords": null,
+      "zone": "",
+      "tips": [],
+      "quests": [
+        {
+          "id": 303,
+          "name": "The Dark Iron War"
+        }
+      ],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "wetlands_hillsbrad_039",
+      "type": "info",
+      "description": "Abandon A Grim Task",
+      "classes": null,
+      "races": null,
+      "coords": null,
+      "zone": "",
+      "tips": [],
+      "quests": [
+        {
+          "id": 304,
+          "name": "A Grim Task"
+        }
+      ],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "wetlands_hillsbrad_040",
+      "type": "quest_accept",
+      "description": "Talk to Foggy MacKreel and accept MacKreel's Moonshine",
+      "classes": null,
+      "races": null,
+      "coords": [43.24, 92.643],
+      "zone": "arathi_highlands",
+      "tips": [
+        {
+          "type": "warning",
+          "class": null,
+          "text": "Jump down onto the invisible chain first, then onto the broken beam on the bridge. All classes are able to do this jump. If you are unable to do it, skip this step"
+        },
+        {
+          "type": "link",
+          "class": null,
+          "text": "Click here for a video guide",
+          "url": "https://www.twitch.tv/videos/646111384"
+        }
+      ],
+      "quests": [
+        {
+          "id": 647,
+          "name": "MacKreel's Moonshine"
+        }
+      ],
+      "npc": "Foggy MacKreel",
+      "mobs": []
+    },
+    {
+      "id": "wetlands_hillsbrad_041",
+      "type": "loot",
+      "description": "Dive down underwater. Open the Waterlogged Letter. Loot it for the Waterlogged Envelope. Use the Waterlogged Envelope to start the quest",
+      "classes": null,
+      "races": null,
+      "coords": [44.28, 92.877],
+      "zone": "arathi_highlands",
+      "tips": [
+        {
+          "type": "warning",
+          "class": null,
+          "text": "Use the Waterlogged Envelope to start the quest"
+        }
+      ],
+      "quests": [
+        {
+          "id": 637,
+          "name": "Sully Balloo's Letter"
+        }
+      ],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "wetlands_hillsbrad_042",
+      "type": "travel",
+      "description": "Swim east toward the ramp here",
+      "classes": null,
+      "races": null,
+      "coords": [52.5, 90.4],
+      "zone": "arathi_highlands",
+      "tips": [],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "wetlands_hillsbrad_043",
+      "type": "loot",
+      "description": "Click the Cache of Explosives",
+      "classes": null,
+      "races": null,
+      "coords": [48.789, 88.058],
+      "zone": "arathi_highlands",
+      "tips": [],
+      "quests": [
+        {
+          "id": 633,
+          "name": "The Thandol Span"
+        }
+      ],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "wetlands_hillsbrad_044",
+      "type": "quest_turnin",
+      "description": "Talk to Rhag Garmason, turn in The Thandol Span and accept Plea To The Alliance",
+      "classes": null,
+      "races": null,
+      "coords": [49.908, 18.233],
+      "zone": "wetlands",
+      "tips": [],
+      "quests": [
+        {
+          "id": 633,
+          "name": "The Thandol Span"
+        },
+        {
+          "id": 634,
+          "name": "Plea To The Alliance"
+        }
+      ],
+      "npc": "Rhag Garmason",
+      "mobs": []
+    },
+    {
+      "id": "wetlands_hillsbrad_045",
+      "type": "travel",
+      "description": "Travel to Refuge Point",
+      "classes": null,
+      "races": null,
+      "coords": [45.83, 47.55],
+      "zone": "arathi_highlands",
+      "tips": [],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "wetlands_hillsbrad_046",
+      "type": "quest_turnin",
+      "description": "Talk to Captain Nials and turn in Plea To The Alliance",
+      "classes": null,
+      "races": null,
+      "coords": [45.83, 47.55],
+      "zone": "arathi_highlands",
+      "tips": [],
+      "quests": [
+        {
+          "id": 634,
+          "name": "Plea To The Alliance"
+        }
+      ],
+      "npc": "Captain Nials",
+      "mobs": []
+    },
+    {
+      "id": "wetlands_hillsbrad_047",
+      "type": "fly",
+      "description": "Talk to Cedrik Prose and get the Arathi Highlands Flight Path",
+      "classes": null,
+      "races": null,
+      "coords": [45.73, 46.09],
+      "zone": "arathi_highlands",
+      "tips": [],
+      "quests": [],
+      "npc": "Cedrik Prose",
+      "mobs": []
+    },
+    {
+      "id": "wetlands_hillsbrad_048",
+      "type": "quest_turnin",
+      "description": "Travel to the basement in the Southshore Inn. Talk to Brewmeister Bilger and turn in MacKreel's Moonshine",
+      "classes": null,
+      "races": null,
+      "coords": [52.09, 58.7],
+      "zone": "hillsbrad_foothills",
+      "tips": [
+        {
+          "type": "warning",
+          "class": null,
+          "text": "If you fail the timed quest, abandon it and skip this step"
+        }
+      ],
+      "quests": [
+        {
+          "id": 647,
+          "name": "MacKreel's Moonshine"
+        }
+      ],
+      "npc": "Brewmeister Bilger",
+      "mobs": []
+    },
+    {
+      "id": "wetlands_hillsbrad_049",
+      "type": "fly",
+      "description": "Talk to Darla Harris and get the Southshore Flight Path",
+      "classes": null,
+      "races": null,
+      "coords": [49.338, 52.272],
+      "zone": "hillsbrad_foothills",
+      "tips": [],
+      "quests": [],
+      "npc": "Darla Harris",
+      "mobs": []
+    },
+    {
+      "id": "wetlands_hillsbrad_050",
+      "type": "grind",
+      "description": "Do the murloc quests in Southshore or farm turtle meat until you are 55% into level 29",
+      "classes": ["Hunter"],
+      "races": null,
+      "coords": null,
+      "zone": "",
+      "tips": [],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "wetlands_hillsbrad_051",
+      "type": "info",
+      "description": "Talk to Wesley. Stable your pet. You will tame an Elder Moss Creeper shortly",
+      "classes": ["Hunter"],
+      "races": null,
+      "coords": [50.415, 58.803],
+      "zone": "hillsbrad_foothills",
+      "tips": [],
+      "quests": [],
+      "npc": "Wesley",
+      "mobs": []
+    },
+    {
+      "id": "wetlands_hillsbrad_052",
+      "type": "info",
+      "description": "Cast Tame Beast on a Elder Moss Creeper to tame it. Attack mobs with it to learn Bite (Rank 4)",
+      "classes": ["Hunter"],
+      "races": null,
+      "coords": [56.6, 53.8],
+      "zone": "hillsbrad_foothills",
+      "tips": [
+        {
+          "type": "link",
+          "class": null,
+          "text": "Click here for more info about pet training",
+          "url": "https://www.wow-petopia.com/classic/training.php"
+        }
+      ],
+      "quests": [],
+      "npc": null,
+      "mobs": ["Elder Moss Creeper"]
+    },
+    {
+      "id": "wetlands_hillsbrad_053",
+      "type": "info",
+      "description": "Cast Teleport: Moonglade",
+      "classes": ["Druid"],
+      "races": null,
+      "coords": null,
+      "zone": "",
+      "tips": [],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "wetlands_hillsbrad_054",
+      "type": "info",
+      "description": "Go to Moonglade. Talk to Loganaar and train your class spells",
+      "classes": ["Druid"],
+      "races": null,
+      "coords": [52.53, 40.57],
+      "zone": "moonglade",
+      "tips": [],
+      "quests": [],
+      "npc": "Loganaar",
+      "mobs": []
+    },
+    {
+      "id": "wetlands_hillsbrad_055",
+      "type": "info",
+      "description": "Hearth to Menethil Harbor. Buy food/water if needed",
+      "classes": ["!Warrior", "!Rogue"],
+      "races": null,
+      "coords": null,
+      "zone": "",
+      "tips": [
+        {
+          "type": "warning",
+          "class": null,
+          "text": "Buy food/water if needed"
+        }
+      ],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "wetlands_hillsbrad_056",
+      "type": "info",
+      "description": "Hearth to Menethil Harbor. Buy food if needed",
+      "classes": ["Warrior", "Rogue"],
+      "races": null,
+      "coords": null,
+      "zone": "",
+      "tips": [
+        {
+          "type": "warning",
+          "class": null,
+          "text": "Buy food if needed"
+        }
+      ],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "wetlands_hillsbrad_057",
+      "type": "quest_turnin",
+      "description": "Talk to Glorin Steelbrow, turn in The Eye of Paleth and accept Cleansing the Eye",
+      "classes": null,
+      "races": null,
+      "coords": [10.58, 60.59],
+      "zone": "wetlands",
+      "tips": [],
+      "quests": [
+        {
+          "id": 292,
+          "name": "The Eye of Paleth"
+        },
+        {
+          "id": 293,
+          "name": "Cleansing the Eye"
+        }
+      ],
+      "npc": "Glorin Steelbrow",
+      "mobs": []
+    },
+    {
+      "id": "wetlands_hillsbrad_058",
+      "type": "quest_accept",
+      "description": "Talk to Glorin Steelbrow and accept Lightforge Iron",
+      "classes": null,
+      "races": null,
+      "coords": [10.58, 60.59],
+      "zone": "wetlands",
+      "tips": [],
+      "quests": [
+        {
+          "id": 321,
+          "name": "Lightforge Iron"
+        }
+      ],
+      "npc": "Glorin Steelbrow",
+      "mobs": []
+    },
+    {
+      "id": "wetlands_hillsbrad_059",
+      "type": "travel",
+      "description": "Travel upstairs towards Archaeologist Flagongut",
+      "classes": null,
+      "races": null,
+      "coords": [10.368, 61.016],
+      "zone": "wetlands",
+      "tips": [],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "wetlands_hillsbrad_060",
+      "type": "quest_turnin",
+      "description": "Talk to Archaeologist Flagongut and turn in The Absent Minded Prospector",
+      "classes": null,
+      "races": null,
+      "coords": [10.84, 60.43],
+      "zone": "wetlands",
+      "tips": [],
+      "quests": [
+        {
+          "id": 943,
+          "name": "The Absent Minded Prospector"
+        }
+      ],
+      "npc": "Archaeologist Flagongut",
+      "mobs": []
+    },
+    {
+      "id": "wetlands_hillsbrad_061",
+      "type": "quest_turnin",
+      "description": "Click the Waterlogged Chest, turn in Lightforge Iron and accept The Lost Ingots",
+      "classes": null,
+      "races": null,
+      "coords": [12.1, 64.19],
+      "zone": "wetlands",
+      "tips": [],
+      "quests": [
+        {
+          "id": 321,
+          "name": "Lightforge Iron"
+        },
+        {
+          "id": 324,
+          "name": "The Lost Ingots"
+        }
+      ],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "wetlands_hillsbrad_062",
+      "type": "kill",
+      "description": "Kill Bluegill Raiders. Loot them for Ingots",
+      "classes": null,
+      "races": null,
+      "coords": [12.6, 65.2],
+      "zone": "wetlands",
+      "tips": [],
+      "quests": [
+        {
+          "id": 324,
+          "name": "The Lost Ingots"
+        }
+      ],
+      "npc": null,
+      "mobs": ["Bluegill Raider"]
+    },
+    {
+      "id": "wetlands_hillsbrad_063",
+      "type": "grind",
+      "description": "Grind until you are 15k xp away from level 30",
+      "classes": ["Hunter"],
+      "races": null,
+      "coords": [9.54, 69.7],
+      "zone": "wetlands",
+      "tips": [],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "wetlands_hillsbrad_064",
+      "type": "quest_turnin",
+      "description": "Talk to James Halloran and turn in Apprentice's Duties",
+      "classes": null,
+      "races": null,
+      "coords": [8.54, 55.73],
+      "zone": "wetlands",
+      "tips": [],
+      "quests": [
+        {
+          "id": 471,
+          "name": "Apprentice's Duties"
+        }
+      ],
+      "npc": "James Halloran",
+      "mobs": []
+    },
+    {
+      "id": "wetlands_hillsbrad_065",
+      "type": "quest_turnin",
+      "description": "Talk to Captain Stoutfist and turn in Defeat Nek'rosh",
+      "classes": null,
+      "races": null,
+      "coords": [9.86, 57.48],
+      "zone": "wetlands",
+      "tips": [],
+      "quests": [
+        {
+          "id": 474,
+          "name": "Defeat Nek'rosh"
+        }
+      ],
+      "npc": "Captain Stoutfist",
+      "mobs": []
+    },
+    {
+      "id": "wetlands_hillsbrad_066",
+      "type": "info",
+      "description": "Abandon Defeat Nek'rosh",
+      "classes": null,
+      "races": null,
+      "coords": [10.58, 60.59],
+      "zone": "wetlands",
+      "tips": [],
+      "quests": [
+        {
+          "id": 474,
+          "name": "Defeat Nek'rosh"
+        }
+      ],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "wetlands_hillsbrad_067",
+      "type": "quest_turnin",
+      "description": "Talk to Glorin Steelbrow, turn in The Lost Ingots and accept Blessed Arm",
+      "classes": null,
+      "races": null,
+      "coords": [10.58, 60.59],
+      "zone": "wetlands",
+      "tips": [],
+      "quests": [
+        {
+          "id": 324,
+          "name": "The Lost Ingots"
+        },
+        {
+          "id": 322,
+          "name": "Blessed Arm"
+        }
+      ],
+      "npc": "Glorin Steelbrow",
+      "mobs": []
+    },
+    {
+      "id": "wetlands_hillsbrad_068",
+      "type": "info",
+      "description": "Teleport to Ironforge",
+      "classes": ["Mage"],
+      "races": null,
+      "coords": null,
+      "zone": "",
+      "tips": [],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "wetlands_hillsbrad_069",
+      "type": "fly",
+      "description": "Talk to Shellei Brondir and fly to Ironforge",
+      "classes": ["!Mage"],
+      "races": null,
+      "coords": [9.49, 59.7],
+      "zone": "wetlands",
+      "tips": [],
+      "quests": [],
+      "npc": "Shellei Brondir",
+      "mobs": []
+    }
+  ]
+}
