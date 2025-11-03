@@ -3,7 +3,7 @@
   "levelRange": "11-13",
   "faction": "Alliance",
   "name": "11-13_darkshore_NE",
-  "next": "13-13_lochmodan_NE",
+  "next": "13-13_loch_modan_NE",
   "steps": [
     {
       "id": "darkshore_001",

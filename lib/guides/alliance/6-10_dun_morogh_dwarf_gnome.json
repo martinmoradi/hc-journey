@@ -2,8 +2,8 @@
   "zone": "Dun Morogh",
   "levelRange": "6-10",
   "faction": "Alliance",
-  "name": "6-10_dunmorogh_dwarf_gnome",
-  "next": "10-11_elwynn_dwarf_gnome",
+  "name": "6-10_dun_morogh_dwarf_gnome",
+  "next": "10-11_elwynn_forest_dwarf_gnome",
   "steps": [
     {
       "id": "dunmorogh_001",
