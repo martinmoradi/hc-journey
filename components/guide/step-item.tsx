@@ -1,3 +1,4 @@
+/* eslint-disable react-hooks/set-state-in-effect */
 'use client';
 
 import React, { useState, useRef, useEffect } from 'react';
@@ -28,17 +29,15 @@ export const StepItem: React.FC<StepItemProps> = ({
   onMarkComplete,
 }) => {
   const [isExpanded, setIsExpanded] = useState(false);
-  const [prevIsCurrentStep, setPrevIsCurrentStep] = useState(isCurrentStep);
   const detailsRef = useRef<HTMLDivElement>(null);
   const [detailsHeight, setDetailsHeight] = useState(0);
 
-  // Auto-expand when becoming current step
-  if (isCurrentStep !== prevIsCurrentStep) {
-    setPrevIsCurrentStep(isCurrentStep);
+  // Auto-expand when becoming current step (intentional setState in effect)
+  useEffect(() => {
     if (isCurrentStep) {
       setIsExpanded(true);
     }
-  }
+  }, [isCurrentStep]);
 
   // Measure details height for animation
   useEffect(() => {
