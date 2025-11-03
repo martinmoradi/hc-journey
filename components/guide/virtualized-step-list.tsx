@@ -77,7 +77,7 @@ export const VirtualizedStepList: React.FC<VirtualizedStepListProps> = ({
   return (
     <div
       ref={parentRef}
-      className='h-full w-full overflow-auto bg-gradient-to-b from-[#0f1419] via-[#1a1f2e] to-[#0f1419]'
+      className='h-full w-full overflow-auto bg-linear-to-b from-[#0f1419] via-[#1a1f2e] to-[#0f1419]'
       style={{
         contain: 'strict',
         /* Custom scrollbar styling */

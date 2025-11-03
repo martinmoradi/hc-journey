@@ -8,7 +8,7 @@ import { getClassImage, getRaceImage } from '@/lib/get-images';
 import { usePlayer } from '@/lib/providers/player-provider';
 import { useGuide } from '@/lib/providers/guide-provider';
 import { PlayerClass, PlayerRace } from '@/lib/types';
-import { CircleAlert, Eye, FileWarning } from 'lucide-react';
+import { CircleAlert, Eye } from 'lucide-react';
 import { useState, useMemo } from 'react';
 
 export function TopBar() {
@@ -46,7 +46,7 @@ export function TopBar() {
       console.error('Error getting character data:', error);
       return [];
     }
-  }, [allCharacters]); // Re-compute when characters list changes
+  }, []);
 
   // Calculate progress percentage
   const progressPercentage =
@@ -83,7 +83,7 @@ export function TopBar() {
       {/* Glass morphism top bar */}
       <div className='fixed top-10 left-1/2 -translate-x-1/2 z-50 w-[60%] min-w-[600px]'>
         <div
-          className='backdrop-blur-lg bg-white/20 dark:bg-gray-900/20 rounded-[2rem] shadow-2xl border border-white/40 px-6 py-3'
+          className='backdrop-blur-lg bg-white/20 dark:bg-gray-900/20 rounded-4xl shadow-2xl border border-white/40 px-6 py-3'
           style={{
             boxShadow:
               '0 8px 32px 0 rgba(0, 0, 0, 0.15), inset 0 0 0 1px rgba(255, 255, 255, 0.2)',
@@ -92,7 +92,7 @@ export function TopBar() {
           }}>
           <div className='flex items-center justify-between gap-6'>
             {/* Left: Character Management */}
-            <div className='flex-shrink-0'>
+            <div className='shrink-0'>
               {isBrowsingMode ? (
                 // Browse mode: Gradient save button with race/class icons
                 <button
@@ -160,7 +160,7 @@ export function TopBar() {
                 }}
               />
               <div
-                className='text-lg font-bold min-w-[3.5rem] text-right'
+                className='text-lg font-bold min-w-14 text-right'
                 style={{
                   background: 'linear-gradient(to right, #FEAC5E, #C779D0)',
                   WebkitBackgroundClip: 'text',
@@ -172,7 +172,7 @@ export function TopBar() {
             </div>
 
             {/* Right: Center Viewport Button */}
-            <div className='flex-shrink-0'>
+            <div className='shrink-0'>
               <Button
                 variant='ghost'
                 size='icon'

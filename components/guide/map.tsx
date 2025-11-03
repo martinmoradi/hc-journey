@@ -42,7 +42,7 @@ const MapContent: React.FC<MapContentProps> = ({
   return (
     <div className='relative w-full bg-gray-900 rounded-lg overflow-hidden shadow-lg'>
       {/* Map Image Container */}
-      <div className='relative w-full aspect-[1002/668]'>
+      <div className='relative w-full aspect-1002/668'>
         <Image
           src={mapPath}
           alt={`Map of ${displayName}`}

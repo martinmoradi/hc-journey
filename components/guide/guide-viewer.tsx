@@ -1,10 +1,8 @@
-// components/guide/GuideViewer.tsx
 'use client';
 
 import React from 'react';
 import { useGuide } from '@/lib/providers/guide-provider';
 import { VirtualizedStepList } from './virtualized-step-list';
-import { Progress } from '@/components/ui/progress';
 
 export const GuideViewer: React.FC = () => {
   const {
@@ -19,7 +17,7 @@ export const GuideViewer: React.FC = () => {
   // Loading state
   if (isLoading) {
     return (
-      <div className='flex items-center justify-center h-full p-8 bg-gradient-to-b from-[#0f1419] via-[#1a1f2e] to-[#0f1419]'>
+      <div className='flex items-center justify-center h-full p-8 bg-linear-to-b from-[#0f1419] via-[#1a1f2e] to-[#0f1419]'>
         <div className='text-center'>
           {/* Modern loading spinner with gradient */}
           <div className='relative w-16 h-16 mx-auto mb-6'>
@@ -36,7 +34,7 @@ export const GuideViewer: React.FC = () => {
   // Error state
   if (error) {
     return (
-      <div className='flex items-center justify-center h-full p-8 bg-gradient-to-b from-[#0f1419] via-[#1a1f2e] to-[#0f1419]'>
+      <div className='flex items-center justify-center h-full p-8 bg-linear-to-b from-[#0f1419] via-[#1a1f2e] to-[#0f1419]'>
         <div className='text-center max-w-md'>
           <div className='relative mb-6'>
             <div className='w-20 h-20 mx-auto rounded-full bg-red-500/10 border border-red-500/30 backdrop-blur-sm flex items-center justify-center'>
@@ -61,14 +59,14 @@ export const GuideViewer: React.FC = () => {
   // No steps loaded yet
   if (totalSteps === 0) {
     return (
-      <div className='flex items-center justify-center h-full p-8 bg-gradient-to-b from-[#0f1419] via-[#1a1f2e] to-[#0f1419]'>
+      <div className='flex items-center justify-center h-full p-8 bg-linear-to-b from-[#0f1419] via-[#1a1f2e] to-[#0f1419]'>
         <div className='text-center max-w-md'>
           <div className='relative mb-6'>
-            <div className='w-24 h-24 mx-auto rounded-2xl bg-gradient-to-br from-blue-500/10 to-purple-500/10 border border-blue-400/30 backdrop-blur-sm flex items-center justify-center'>
+            <div className='w-24 h-24 mx-auto rounded-2xl bg-linear-to-br from-blue-500/10 to-purple-500/10 border border-blue-400/30 backdrop-blur-sm flex items-center justify-center'>
               <span className='text-5xl'>📋</span>
             </div>
             {/* Subtle glow effect */}
-            <div className='absolute inset-0 -z-10 blur-3xl opacity-20 bg-gradient-to-r from-blue-500 to-purple-500'></div>
+            <div className='absolute inset-0 -z-10 blur-3xl opacity-20 bg-linear-to-r from-blue-500 to-purple-500'></div>
           </div>
           <h2 className='text-2xl font-bold text-white mb-3'>
             No Guide Loaded

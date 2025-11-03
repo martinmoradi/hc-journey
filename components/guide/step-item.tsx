@@ -92,7 +92,7 @@ export const StepItem: React.FC<StepItemProps> = ({
           backdrop-blur-xl border
           ${
             isCurrentStep
-              ? 'bg-gradient-to-br from-blue-500/10 via-purple-500/10 to-blue-500/10 border-blue-400/30 shadow-lg shadow-blue-500/30'
+              ? 'bg-linear-to-br from-blue-500/10 via-purple-500/10 to-blue-500/10 border-blue-400/30 shadow-lg shadow-blue-500/30'
               : isCompleted
               ? 'bg-white/5 border-white/10'
               : 'bg-white/5 border-white/10 hover:bg-white/8 hover:border-white/20'
@@ -101,7 +101,7 @@ export const StepItem: React.FC<StepItemProps> = ({
         `}>
         {/* Animated glow for current step */}
         {isCurrentStep && (
-          <div className='absolute inset-0 bg-gradient-to-r from-blue-500/10 via-purple-500/10 to-blue-500/10 animate-pulse-slow pointer-events-none' />
+          <div className='absolute inset-0 bg-linear-to-r from-blue-500/10 via-purple-500/10 to-blue-500/10 animate-pulse-slow pointer-events-none' />
         )}
 
         {/* Header Row */}
@@ -127,7 +127,7 @@ export const StepItem: React.FC<StepItemProps> = ({
             {/* Step Icon or Checkmark */}
             <div className='shrink-0'>
               {isCompleted ? (
-                <div className='w-8 h-8 rounded-full bg-gradient-to-br from-green-400 to-emerald-600 flex items-center justify-center shadow-lg shadow-green-500/30 animate-check-pop'>
+                <div className='w-8 h-8 rounded-full bg-linear-to-br from-green-400 to-emerald-600 flex items-center justify-center shadow-lg shadow-green-500/30 animate-check-pop'>
                   <svg
                     className='w-5 h-5 text-white'
                     fill='none'
@@ -148,7 +148,7 @@ export const StepItem: React.FC<StepItemProps> = ({
                   shadow-lg transition-all duration-300
                   ${
                     isCurrentStep
-                      ? 'bg-gradient-to-br from-blue-500/30 to-purple-500/30 border border-blue-400/30 shadow-blue-500/50'
+                      ? 'bg-linear-to-br from-blue-500/30 to-purple-500/30 border border-blue-400/30 shadow-blue-500/50'
                       : 'bg-white/10 border border-white/20'
                   }
                 `}>

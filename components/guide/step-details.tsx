@@ -4,7 +4,6 @@ import React, { useState } from 'react';
 import { ProcessedStep } from '@/lib/types';
 import { Map } from '@/components/guide/map';
 import { StepTips } from '@/components/guide/step-tips';
-import { Button } from '@/components/ui/button';
 import { ChevronsRight } from 'lucide-react';
 
 interface StepDetailsProps {
@@ -199,12 +198,12 @@ export const StepDetails: React.FC<StepDetailsProps> = ({
                 onMarkComplete();
               }}
               className='group relative w-full px-8 py-5 rounded-xl overflow-hidden
-                bg-gradient-to-r from-green-500 via-emerald-500 to-blue-500
+                bg-linear-to-r from-green-500 via-emerald-500 to-blue-500
                 hover:from-green-400 hover:via-emerald-400 hover:to-blue-400
                 transition-all duration-500 hover:scale-[1.02] active:scale-[0.98]
                 shadow-xl shadow-green-500/30 hover:shadow-2xl hover:shadow-green-500/40'>
               {/* Animated shimmer effect */}
-              <div className='absolute inset-0 bg-gradient-to-r from-transparent via-white/20 to-transparent translate-x-[-100%] group-hover:translate-x-[100%] transition-transform duration-1000' />
+              <div className='absolute inset-0 bg-linear-to-r from-transparent via-white/20 to-transparent -translate-x-full group-hover:translate-x-full transition-transform duration-1000' />
 
               <div className='relative flex items-center justify-center gap-3'>
                 <svg
@@ -244,7 +243,7 @@ export const StepDetails: React.FC<StepDetailsProps> = ({
                 e.currentTarget.style.backgroundPosition = 'left center';
               }}>
               {/* Animated shimmer effect */}
-              <div className='absolute inset-0 bg-gradient-to-r from-transparent via-white/20 to-transparent translate-x-[-100%] group-hover:translate-x-[100%] transition-transform duration-1000' />
+              <div className='absolute inset-0 bg-linear-to-r from-transparent via-white/20 to-transparent -translate-x-full group-hover:translate-x-full transition-transform duration-1000' />
 
               <div className='relative flex items-center justify-center gap-3'>
                 <span className='text-lg font-bold text-white tracking-wide min-w-3xs'>
@@ -260,11 +259,11 @@ export const StepDetails: React.FC<StepDetailsProps> = ({
       {/* Completion message for last step */}
       {isLastStep && isCompleted && (
         <div className='mt-6 pt-5 border-t border-white/10 animate-fade-in'>
-          <div className='relative rounded-2xl overflow-hidden p-8 text-center backdrop-blur-xl bg-gradient-to-br from-green-500/20 via-emerald-500/20 to-blue-500/20 border border-green-400/30 shadow-xl shadow-green-500/20'>
-            <div className='absolute inset-0 bg-gradient-to-r from-green-500/10 via-blue-500/10 to-green-500/10 animate-pulse-slow' />
+          <div className='relative rounded-2xl overflow-hidden p-8 text-center backdrop-blur-xl bg-linear-to-br from-green-500/20 via-emerald-500/20 to-blue-500/20 border border-green-400/30 shadow-xl shadow-green-500/20'>
+            <div className='absolute inset-0 bg-linear-to-r from-green-500/10 via-blue-500/10 to-green-500/10 animate-pulse-slow' />
             <div className='relative'>
               <div className='text-6xl mb-4 animate-bounce-slow'>🎉</div>
-              <h3 className='text-3xl font-bold text-white mb-3 bg-gradient-to-r from-green-400 to-blue-400 bg-clip-text text-transparent'>
+              <h3 className='text-3xl font-bold text-white mb-3 bg-linear-to-r from-green-400 to-blue-400 bg-clip-text'>
                 Guide Complete!
               </h3>
               <p className='text-gray-300 text-lg'>
