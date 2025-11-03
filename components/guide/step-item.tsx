@@ -3,7 +3,7 @@
 
 import React, { useState, useRef, useEffect } from 'react';
 import Image from 'next/image';
-import { Maximize2, Minimize2 } from 'lucide-react';
+import { Maximize2, Minimize2, Footprints } from 'lucide-react';
 import { ProcessedStep } from '@/lib/types';
 import { StepDescription } from '@/components/guide/step-description';
 import { StepDetails } from '@/components/guide/step-details';
@@ -58,7 +58,16 @@ export const StepItem: React.FC<StepItemProps> = ({
     onMarkComplete?.();
   };
 
-  const getStepIcon = (type: string): string => {
+  const getStepIcon = (type: string, description: string): string => {
+    // Special case: Hearthstone usage (not setting hearthstone location)
+    if (
+      type === 'info' &&
+      description.includes('Hearth to') &&
+      !description.includes('Hearthstone to')
+    ) {
+      return '/assets/misc/hearthstone.png';
+    }
+
     const iconMap: Record<string, string> = {
       quest_accept: '/assets/misc/available_quest.png',
       quest_turnin: '/assets/misc/turnin_quest.png',
@@ -151,13 +160,20 @@ export const StepItem: React.FC<StepItemProps> = ({
                       : 'bg-white/10 border border-white/20'
                   }
                 `}>
-                  <Image
-                    src={getStepIcon(step.type)}
-                    alt={step.type}
-                    width={28}
-                    height={28}
-                    className='object-contain'
-                  />
+                  {step.type === 'travel' ? (
+                    <Footprints
+                      className='w-7 h-7'
+                      style={{ color: 'white' }}
+                    />
+                  ) : (
+                    <Image
+                      src={getStepIcon(step.type, step.description)}
+                      alt={step.type}
+                      width={28}
+                      height={28}
+                      className='object-contain'
+                    />
+                  )}
                 </div>
               )}
             </div>

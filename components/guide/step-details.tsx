@@ -4,7 +4,7 @@ import React, { useState } from 'react';
 import { ProcessedStep } from '@/lib/types';
 import { Map } from '@/components/guide/map';
 import { StepTips } from '@/components/guide/step-tips';
-import { ChevronsRight } from 'lucide-react';
+import { ChevronsRight, ClipboardList } from 'lucide-react';
 
 interface StepDetailsProps {
   step: ProcessedStep;
@@ -92,46 +92,61 @@ export const StepDetails: React.FC<StepDetailsProps> = ({
 
           {/* Quests section */}
           {step.quests && step.quests.length > 0 && (
-            <div className='animate-slide-in animation-delay-200'>
+            <div className='animate-slide-in animation-delay-200 relative'>
               <h3 className='text-xs font-bold text-gray-400 uppercase tracking-wider mb-2.5 flex items-center gap-2'>
                 <span className='w-1 h-4 bg-yellow-500 rounded-full'></span>
                 Quests
               </h3>
-              <div className='space-y-2'>
-                {step.quests.map((quest) => (
-                  <a
-                    key={quest.id}
-                    href={`https://www.wowhead.com/classic/quest=${quest.id}/`}
-                    target='_blank'
-                    rel='noopener noreferrer'
-                    className='group flex items-center gap-3 px-4 py-3 rounded-xl bg-yellow-500/10 border border-yellow-500/30 backdrop-blur-sm hover:bg-yellow-500/15 transition-all duration-300 hover:scale-[1.02]'>
-                    <div className='w-8 h-8 rounded-lg bg-yellow-500/20 flex items-center justify-center'>
-                      <img
-                        src='/assets/misc/available_quest.png'
-                        alt='Quest'
-                        width={20}
-                        height={20}
-                        className='object-contain'
-                      />
-                    </div>
-                    <span className='font-medium text-gray-200 text-sm flex-1'>
-                      {quest.name}
-                    </span>
-                    <svg
-                      className='w-4 h-4 text-gray-400 opacity-0 group-hover:opacity-100 transition-opacity'
-                      fill='none'
-                      stroke='currentColor'
-                      viewBox='0 0 24 24'>
-                      <path
-                        strokeLinecap='round'
-                        strokeLinejoin='round'
-                        strokeWidth={2}
-                        d='M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14'
-                      />
-                    </svg>
-                  </a>
-                ))}
+              <div className='space-y-2 '>
+                {step.quests.map((quest, index) => {
+                  // Check if this quest name appears later in the array
+                  const isDuplicate = step
+                    .quests!.slice(index + 1)
+                    .some((q) => q.name === quest.name);
+                  const isTurnIn = isDuplicate;
+
+                  return (
+                    <a
+                      key={`${quest.id}-${index}`}
+                      href={`https://www.wowhead.com/classic/quest=${quest.id}/`}
+                      target='_blank'
+                      rel='noopener noreferrer'
+                      className='group flex items-center gap-3 px-4 py-3 rounded-xl bg-yellow-500/10 border border-yellow-500/30 backdrop-blur-sm hover:bg-yellow-500/15 transition-all duration-300 hover:scale-[1.02]'>
+                      <div className='w-8 h-8 rounded-lg bg-yellow-500/20 flex items-center justify-center'>
+                        <img
+                          src={
+                            isTurnIn
+                              ? '/assets/misc/turnin_quest.png'
+                              : '/assets/misc/available_quest.png'
+                          }
+                          alt={isTurnIn ? 'Turn In Quest' : 'Available Quest'}
+                          width={20}
+                          height={20}
+                          className='object-contain'
+                        />
+                      </div>
+                      <span className='font-medium text-gray-200 text-sm flex-1'>
+                        {quest.name}
+                      </span>
+                      <svg
+                        className='w-4 h-4 text-gray-400 transition-opacity'
+                        fill='none'
+                        stroke='currentColor'
+                        viewBox='0 0 24 24'>
+                        <path
+                          strokeLinecap='round'
+                          strokeLinejoin='round'
+                          strokeWidth={2}
+                          d='M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14'
+                        />
+                      </svg>
+                    </a>
+                  );
+                })}
               </div>
+              <p className='absolute right-0 text-[11px] text-gray-500 italic mr-4'>
+                Click to open on Wowhead
+              </p>
             </div>
           )}
 
@@ -160,22 +175,28 @@ export const StepDetails: React.FC<StepDetailsProps> = ({
                 <span className='w-1 h-4 bg-purple-500 rounded-full'></span>
                 Location
               </h3>
-              <button
-                onClick={handleCopyWaypoint}
-                className='group w-full flex items-center gap-3 px-4 py-3 rounded-xl bg-purple-500/10 border border-purple-500/30 backdrop-blur-sm hover:bg-purple-500/15 transition-all duration-300 hover:scale-[1.02] active:scale-[0.98]'>
-                <div className='w-8 h-8 rounded-lg bg-purple-500/20 flex items-center justify-center'>
-                  <span className='text-lg'>📍</span>
-                </div>
-                <span className='font-medium text-gray-200 text-sm capitalize flex-1 text-left'>
-                  {step.zone.replace(/_/g, ' ')}: {step.coords[0]},{' '}
-                  {step.coords[1]}
-                </span>
-                {waypointCopied && (
-                  <span className='text-xs text-green-400 font-semibold animate-fade-in'>
-                    Copied!
+              <div className='relative pb-5'>
+                <button
+                  onClick={handleCopyWaypoint}
+                  className='group w-full flex items-center gap-3 px-4 py-3 rounded-xl bg-purple-500/10 border border-purple-500/30 backdrop-blur-sm hover:bg-purple-500/15 transition-all duration-300 hover:scale-[1.02] active:scale-[0.98]'>
+                  <div className='w-8 h-8 rounded-lg bg-purple-500/20 flex items-center justify-center'>
+                    <span className='text-lg'>📍</span>
+                  </div>
+                  <span className='font-medium text-gray-200 text-sm capitalize flex-1 text-left'>
+                    {step.zone.replace(/_/g, ' ')}: {step.coords[0]},{' '}
+                    {step.coords[1]}
                   </span>
-                )}
-              </button>
+                  {waypointCopied && (
+                    <span className='text-xs text-green-400 font-semibold animate-fade-in'>
+                      Copied!
+                    </span>
+                  )}
+                  <ClipboardList className='w-4 h-4 text-gray-400 transition-opacity' />
+                </button>
+                <p className='absolute right-0 text-[11px] text-gray-500 italic mr-4'>
+                  Click to copy TomTom macro
+                </p>
+              </div>
             </div>
           )}
         </div>
