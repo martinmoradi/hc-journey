@@ -36,8 +36,18 @@ export function TopBar() {
     if (typeof window === 'undefined') return [];
     try {
       const saved = localStorage.getItem('savedCharacters');
-      const characters = saved ? JSON.parse(saved) : {};
-      return Object.entries(characters).map(([name, data]: [string, any]) => ({
+      const characters: Record<
+        string,
+        {
+          playerRace: PlayerRace;
+          playerClass: PlayerClass;
+          charName: string;
+          currentStepIndex: number;
+          isBrowsingMode: boolean;
+        }
+      > = saved ? JSON.parse(saved) : {};
+
+      return Object.entries(characters).map(([name, data]) => ({
         name,
         race: data.playerRace,
         playerClass: data.playerClass,
@@ -46,7 +56,8 @@ export function TopBar() {
       console.error('Error getting character data:', error);
       return [];
     }
-  }, []);
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [allCharacters]);
 
   // Calculate progress percentage
   const progressPercentage =

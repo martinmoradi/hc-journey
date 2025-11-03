@@ -11,7 +11,6 @@ export default function Home() {
     usePlayer();
 
   // Calculate if we should show first-time experience
-  // Using useMemo instead of useEffect to avoid setState in effect
   const showFirstTimeExperience = useMemo(() => {
     const hasCharacters = getAllCharacters().length > 0;
     const hasSelection = playerRace && playerClass;
@@ -19,13 +18,13 @@ export default function Home() {
   }, [getAllCharacters, playerRace, playerClass]);
 
   return (
-    <div className='min-h-screen bg-background'>
+    <div className='min-h-screen bg-linear-to-b from-[#0f1419] via-[#1a1f2e] to-[#0f1419]'>
       <TopBar />
 
       <main className='mx-auto'>
         {showFirstTimeExperience ? (
-          <div className='flex items-center justify-center min-h-[calc(100vh-200px)] container'>
-            <div className='w-full max-w-6xl'>
+          <div className='flex items-center justify-center min-h-[calc(100vh-80px)] container px-4'>
+            <div className='w-full max-w-6xl animate-fade-in'>
               <OptionsPicker
                 mode='create'
                 onSave={(race, cls) => {
