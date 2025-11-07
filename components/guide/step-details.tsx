@@ -194,7 +194,7 @@ export const StepDetails: React.FC<StepDetailsProps> = ({
           <div className="animate-slide-in animation-delay-500">
             <h3 className="mb-2.5 flex items-center gap-2 text-xs font-bold tracking-wider text-gray-400 uppercase">
               <span className="h-4 w-1 rounded-full bg-green-500"></span>
-              Level Range : {step.levelRange}
+              {step.zone} : {step.levelRange}
             </h3>
           </div>
         </div>
