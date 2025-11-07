@@ -8,7 +8,7 @@
     {
       "id": "dunmorogh_001",
       "type": "kill",
-      "description": "Kill Crag Boars and Large Crag Boars. Loot them for their Chunks of Boar Meat (you need x10)",
+      "description": "Kill Crag Boars and Large Crag Boars. Loot them for their Chunks of Boar Meat (you will need 10)",
       "classes": ["!Paladin", "!Warrior", "!Rogue"],
       "races": null,
       "coords": null,
@@ -281,7 +281,7 @@
     {
       "id": "dunmorogh_021",
       "type": "info",
-      "description": "Talk to Innkeeper Belm inside. Set your Hearthstone to Thunderbrew Distillery. Buy as much Ice Cold Milk as you can afford",
+      "description": "Talk to Innkeeper Belm inside and set your Hearthstone to Thunderbrew Distillery. Buy as much Ice Cold Milk as you can afford",
       "classes": ["Priest", "Mage", "Warlock"],
       "races": null,
       "coords": [47.377, 52.523],
@@ -294,7 +294,7 @@
     {
       "id": "dunmorogh_022",
       "type": "info",
-      "description": "Talk to Innkeeper Belm inside. Set your Hearthstone to Thunderbrew Distillery",
+      "description": "Talk to Innkeeper Belm inside and set your Hearthstone to Thunderbrew Distillery",
       "classes": ["!Mage", "!Priest", "!Warlock"],
       "races": null,
       "coords": [47.377, 52.523],
@@ -385,18 +385,12 @@
     {
       "id": "dunmorogh_029",
       "type": "info",
-      "description": "Talk to Tognus Flintfire and train Blacksmithing.",
+      "description": "Talk to Tognus Flintfire and train Blacksmithing. This will allow you to make Rough Sharpening Stones which increase melee hits by +2 Damage. This is very significant early on",
       "classes": ["Warrior", "Rogue"],
       "races": null,
       "coords": [45.3, 51.9],
       "zone": "dun_morogh",
-      "tips": [
-        {
-          "type": "warning",
-          "class": null,
-          "text": "This will allow you to make Rough Sharpening Stones which increase melee hits by +2 Damage. This is very significant early on"
-        }
-      ],
+      "tips": [],
       "quests": [],
       "npc": "Tognus Flintfire",
       "mobs": []
@@ -404,18 +398,12 @@
     {
       "id": "dunmorogh_030",
       "type": "info",
-      "description": "Talk to Tognus Flintfire and train Blacksmithing.",
+      "description": "Talk to Tognus Flintfire and train Blacksmithing. This will allow you to make Rough Weightstones which increase melee hits by +2 Damage. This is very significant early on",
       "classes": ["Paladin"],
       "races": null,
       "coords": [45.3, 51.9],
       "zone": "dun_morogh",
-      "tips": [
-        {
-          "type": "warning",
-          "class": null,
-          "text": "This will allow you to make Rough Weightstones which increase melee hits by +2 Damage. This is very significant early on"
-        }
-      ],
+      "tips": [],
       "quests": [],
       "npc": "Tognus Flintfire",
       "mobs": []
@@ -441,7 +429,7 @@
     {
       "id": "dunmorogh_032",
       "type": "quest_accept",
-      "description": "Talk to Pilot Bellowfiz and accept Stocking Jetsteam.",
+      "description": "Talk to Pilot Bellowfiz and accept Stocking Jetsteam. Don't kill any Young Black Bears en-route",
       "classes": null,
       "races": null,
       "coords": [49.426, 48.41],
@@ -558,24 +546,6 @@
     {
       "id": "dunmorogh_039",
       "type": "kill",
-      "description": "Kill Young Black Bears. Loot them for their Fur",
-      "classes": ["Paladin", "Warrior", "Rogue"],
-      "races": null,
-      "coords": null,
-      "zone": "",
-      "tips": [],
-      "quests": [
-        {
-          "id": 317,
-          "name": "Stocking Jetsteam"
-        }
-      ],
-      "npc": null,
-      "mobs": ["Young Black Bear"]
-    },
-    {
-      "id": "dunmorogh_040",
-      "type": "kill",
       "description": "Kill Young Black Bears. Loot them for their Fur. Kill Crag Boars and Large Crag Boars. Loot them for their Chunks of Boar Meat and Crag Boar Ribs",
       "classes": ["!Paladin", "!Warrior", "!Rogue"],
       "races": null,
@@ -593,10 +563,10 @@
         }
       ],
       "npc": null,
-      "mobs": ["Crag Boar", "Large Crag Boar", "Young Black Bear"]
+      "mobs": ["Young Black Bear", "Crag Boar", "Large Crag Boar"]
     },
     {
-      "id": "dunmorogh_041",
+      "id": "dunmorogh_040",
       "type": "loot",
       "description": "Kill Crag Boars and Large Crag Boars. Loot them for their Crag Boar Ribs",
       "classes": ["!Paladin", "!Warrior", "!Rogue"],
@@ -614,7 +584,7 @@
       "mobs": ["Crag Boar", "Large Crag Boar"]
     },
     {
-      "id": "dunmorogh_042",
+      "id": "dunmorogh_041",
       "type": "quest_turnin",
       "description": "Talk to Pilot Bellowfiz, turn in Stocking Jetsteam, and accept Evershine",
       "classes": ["!Paladin", "!Warrior", "!Rogue"],
@@ -636,7 +606,7 @@
       "mobs": []
     },
     {
-      "id": "dunmorogh_043",
+      "id": "dunmorogh_042",
       "type": "info",
       "description": "Talk to Innkeeper Belm inside. Buy as much Freshly Baked Bread as you can afford",
       "classes": ["Warrior"],
@@ -649,7 +619,7 @@
       "mobs": []
     },
     {
-      "id": "dunmorogh_044",
+      "id": "dunmorogh_043",
       "type": "info",
       "description": "Talk to Innkeeper Belm inside. Buy as much Ice Cold Milk as you can afford",
       "classes": ["Priest", "Mage", "Warlock"],
@@ -662,9 +632,9 @@
       "mobs": []
     },
     {
-      "id": "dunmorogh_045",
+      "id": "dunmorogh_044",
       "type": "travel",
-      "description": "Travel to The Grizzled Den",
+      "description": "Enter the Grizzled Den",
       "classes": null,
       "races": null,
       "coords": [42.38, 55.28],
@@ -675,9 +645,9 @@
       "mobs": []
     },
     {
-      "id": "dunmorogh_046",
+      "id": "dunmorogh_045",
       "type": "kill",
-      "description": "Kill Wendigos and Young Wendigos. Loot them for their Manes.",
+      "description": "Kill Wendigos and Young Wendigos. Loot them for their Manes. Remember to keep an eye out for Copper Veins which yield Rough Stones so you can craft Rough Sharpening Stones",
       "classes": ["Warrior", "Rogue"],
       "races": null,
       "coords": [42.25, 53.68],
@@ -699,9 +669,9 @@
       "mobs": ["Wendigo", "Young Wendigo"]
     },
     {
-      "id": "dunmorogh_047",
+      "id": "dunmorogh_046",
       "type": "kill",
-      "description": "Kill Wendigos and Young Wendigos. Loot them for their Manes.",
+      "description": "Kill Wendigos and Young Wendigos. Loot them for their Manes. Remember to keep an eye out for Copper Veins which yield Rough Stones so you can craft Rough Weightstones",
       "classes": ["Paladin"],
       "races": null,
       "coords": [42.25, 53.68],
@@ -723,7 +693,7 @@
       "mobs": ["Wendigo", "Young Wendigo"]
     },
     {
-      "id": "dunmorogh_048",
+      "id": "dunmorogh_047",
       "type": "kill",
       "description": "Kill Wendigos and Young Wendigos. Loot them for their Manes",
       "classes": ["!Warrior", "!Rogue", "!Paladin"],
@@ -741,7 +711,7 @@
       "mobs": ["Wendigo", "Young Wendigo"]
     },
     {
-      "id": "dunmorogh_049",
+      "id": "dunmorogh_048",
       "type": "loot",
       "description": "Open the Ammo Crate. Loot it for Rumbleshot's Ammo",
       "classes": null,
@@ -759,7 +729,7 @@
       "mobs": []
     },
     {
-      "id": "dunmorogh_050",
+      "id": "dunmorogh_049",
       "type": "quest_turnin",
       "description": "Talk to Hegnar Rumbleshot and turn in Ammo for Rumbleshot",
       "classes": null,
@@ -777,7 +747,7 @@
       "mobs": []
     },
     {
-      "id": "dunmorogh_051",
+      "id": "dunmorogh_050",
       "type": "info",
       "description": "Talk to Hegnar Rumbleshot. Buy and equip an Ornate Blunderbuss. Skip this step if you can't afford it",
       "classes": ["Hunter"],
@@ -790,7 +760,7 @@
       "mobs": []
     },
     {
-      "id": "dunmorogh_052",
+      "id": "dunmorogh_051",
       "type": "grind",
       "description": "Grind to level 7",
       "classes": ["!Paladin", "!Warrior", "!Rogue"],
@@ -803,7 +773,7 @@
       "mobs": []
     },
     {
-      "id": "dunmorogh_053",
+      "id": "dunmorogh_052",
       "type": "kill",
       "description": "Kill Young Black Bears. Loot them for their Fur. Kill Crag Boars and Large Crag Boars. Loot them for their Chunks of Boar Meat and Crag Boar Ribs",
       "classes": ["Paladin", "Warrior", "Rogue"],
@@ -825,7 +795,25 @@
       "mobs": ["Young Black Bear", "Crag Boar", "Large Crag Boar"]
     },
     {
-      "id": "dunmorogh_055",
+      "id": "dunmorogh_053",
+      "type": "loot",
+      "description": "Kill Crag Boars and Large Crag Boars. Loot them for their Crag Boar Ribs",
+      "classes": ["Paladin", "Warrior", "Rogue"],
+      "races": null,
+      "coords": null,
+      "zone": "",
+      "tips": [],
+      "quests": [
+        {
+          "id": 384,
+          "name": "Beer Basted Boar Ribs"
+        }
+      ],
+      "npc": null,
+      "mobs": ["Crag Boar", "Large Crag Boar"]
+    },
+    {
+      "id": "dunmorogh_054",
       "type": "quest_turnin",
       "description": "Talk to Pilot Bellowfiz, turn in Stocking Jetsteam, and accept Evershine",
       "classes": ["Warrior", "Paladin", "Rogue"],
@@ -847,7 +835,7 @@
       "mobs": []
     },
     {
-      "id": "dunmorogh_056",
+      "id": "dunmorogh_055",
       "type": "quest_turnin",
       "description": "Talk to Pilot Stonegear and turn in The Grizzled Den",
       "classes": ["Warrior", "Paladin", "Rogue"],
@@ -865,8 +853,8 @@
       "mobs": []
     },
     {
-      "id": "dunmorogh_057",
-      "type": "loot",
+      "id": "dunmorogh_056",
+      "type": "info",
       "description": "Buy a Mining Pick",
       "classes": ["Warrior", "Paladin", "Rogue"],
       "races": null,
@@ -878,7 +866,7 @@
       "mobs": []
     },
     {
-      "id": "dunmorogh_058",
+      "id": "dunmorogh_057",
       "type": "grind",
       "description": "Grind to level 7",
       "classes": ["Warrior", "Paladin", "Rogue"],
@@ -891,7 +879,7 @@
       "mobs": []
     },
     {
-      "id": "dunmorogh_059",
+      "id": "dunmorogh_058",
       "type": "grind",
       "description": "Grind nearby mobs to level 8",
       "classes": ["Warrior", "Rogue"],
@@ -904,7 +892,7 @@
       "mobs": []
     },
     {
-      "id": "dunmorogh_060",
+      "id": "dunmorogh_059",
       "type": "info",
       "description": "Talk to Hogral Bakkan inside in the backroom and train your class spells",
       "classes": ["Rogue"],
@@ -917,7 +905,7 @@
       "mobs": []
     },
     {
-      "id": "dunmorogh_061",
+      "id": "dunmorogh_060",
       "type": "info",
       "description": "Talk to Azar Stronghammer inside upstairs and train your class spells",
       "classes": ["Paladin"],
@@ -930,7 +918,7 @@
       "mobs": []
     },
     {
-      "id": "dunmorogh_062",
+      "id": "dunmorogh_061",
       "type": "info",
       "description": "Talk to Granis Swiftaxe inside and train your class spells",
       "classes": ["Warrior"],
@@ -943,7 +931,7 @@
       "mobs": []
     },
     {
-      "id": "dunmorogh_063",
+      "id": "dunmorogh_062",
       "type": "info",
       "description": "Talk to Grawn Thromwyn. Buy and equip a Gladius",
       "classes": ["Warrior"],
@@ -956,7 +944,7 @@
       "mobs": []
     },
     {
-      "id": "dunmorogh_064",
+      "id": "dunmorogh_063",
       "type": "info",
       "description": "Talk to Grawn Thromwyn. Buy and equip a Large Axe",
       "classes": ["Warrior"],
@@ -969,7 +957,7 @@
       "mobs": []
     },
     {
-      "id": "dunmorogh_065",
+      "id": "dunmorogh_064",
       "type": "info",
       "description": "Talk to Grawn Thromwyn. Buy and equip a Stiletto",
       "classes": ["Rogue"],
@@ -982,7 +970,7 @@
       "mobs": []
     },
     {
-      "id": "dunmorogh_066",
+      "id": "dunmorogh_065",
       "type": "info",
       "description": "Talk to Grawn Thromwyn. Buy and equip a Wooden Mallet",
       "classes": ["Paladin"],
@@ -995,7 +983,7 @@
       "mobs": []
     },
     {
-      "id": "dunmorogh_067",
+      "id": "dunmorogh_066",
       "type": "info",
       "description": "Talk to Innkeeper Belm inside. Buy up to 20 Freshly Baked Bread",
       "classes": ["Warrior", "Rogue"],
@@ -1008,7 +996,7 @@
       "mobs": []
     },
     {
-      "id": "dunmorogh_068",
+      "id": "dunmorogh_067",
       "type": "info",
       "description": "Talk to Innkeeper Belm inside. Buy up to 10 Freshly Baked Bread",
       "classes": ["Paladin"],
@@ -1021,7 +1009,7 @@
       "mobs": []
     },
     {
-      "id": "dunmorogh_069",
+      "id": "dunmorogh_068",
       "type": "travel",
       "description": "Travel toward Tundra MacGrann. Kill Boars, Bears and Wolves en-route",
       "classes": ["Paladin", "Warrior", "Rogue"],
@@ -1031,28 +1019,28 @@
       "tips": [],
       "quests": [],
       "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "dunmorogh_069",
+      "type": "quest_accept",
+      "description": "Talk to Tundra MacGrann and accept Tundra MacGrann's Stolen Stash",
+      "classes": ["Paladin", "Warrior", "Rogue"],
+      "races": null,
+      "coords": [34.577, 51.652],
+      "zone": "dun_morogh",
+      "tips": [],
+      "quests": [
+        {
+          "id": 312,
+          "name": "Tundra MacGrann's Stolen Stash"
+        }
+      ],
+      "npc": "Tundra MacGrann",
       "mobs": []
     },
     {
       "id": "dunmorogh_070",
-      "type": "quest_accept",
-      "description": "Talk to Tundra MacGrann and accept Tundra MacGrann's Stolen Stash",
-      "classes": ["Paladin", "Warrior", "Rogue"],
-      "races": null,
-      "coords": [34.577, 51.652],
-      "zone": "dun_morogh",
-      "tips": [],
-      "quests": [
-        {
-          "id": 312,
-          "name": "Tundra MacGrann's Stolen Stash"
-        }
-      ],
-      "npc": "Tundra MacGrann",
-      "mobs": []
-    },
-    {
-      "id": "dunmorogh_071",
       "type": "travel",
       "description": "Travel toward Tundra MacGrann. Kill Boars, Bears and Wolves en-route",
       "classes": ["!Paladin", "!Warrior", "!Rogue"],
@@ -1065,7 +1053,7 @@
       "mobs": []
     },
     {
-      "id": "dunmorogh_072",
+      "id": "dunmorogh_071",
       "type": "quest_accept",
       "description": "Talk to Tundra MacGrann and accept Tundra MacGrann's Stolen Stash",
       "classes": ["!Paladin", "!Warrior", "!Rogue"],
@@ -1083,7 +1071,7 @@
       "mobs": []
     },
     {
-      "id": "dunmorogh_073",
+      "id": "dunmorogh_072",
       "type": "travel",
       "description": "Travel to Brewnall Village",
       "classes": null,
@@ -1096,7 +1084,7 @@
       "mobs": []
     },
     {
-      "id": "dunmorogh_074",
+      "id": "dunmorogh_073",
       "type": "info",
       "description": "Talk to Keeg Gibn. Vendor trash",
       "classes": ["!Mage", "!Priest"],
@@ -1109,7 +1097,7 @@
       "mobs": []
     },
     {
-      "id": "dunmorogh_075",
+      "id": "dunmorogh_074",
       "type": "info",
       "description": "Talk to Keeg Gibn. Buy up to 20 Ice Cold Milk",
       "classes": ["Priest", "Mage", "Warlock"],
@@ -1122,7 +1110,7 @@
       "mobs": []
     },
     {
-      "id": "dunmorogh_076",
+      "id": "dunmorogh_075",
       "type": "quest_turnin",
       "description": "Talk to Rejold Barleybrew, turn in Evershine, and accept A Favor for Evershine and The Perfect Stout",
       "classes": null,
@@ -1148,7 +1136,7 @@
       "mobs": []
     },
     {
-      "id": "dunmorogh_077",
+      "id": "dunmorogh_076",
       "type": "quest_accept",
       "description": "Talk to Marleth Barleybrew and accept Bitter Rivals",
       "classes": null,
@@ -1166,7 +1154,7 @@
       "mobs": []
     },
     {
-      "id": "dunmorogh_078",
+      "id": "dunmorogh_077",
       "type": "kill",
       "description": "Kill Ice Claw Bears, Elder Crag Boars and Snow Leopards",
       "classes": null,
@@ -1184,7 +1172,7 @@
       "mobs": ["Ice Claw Bear", "Elder Crag Boar", "Snow Leopard"]
     },
     {
-      "id": "dunmorogh_079",
+      "id": "dunmorogh_078",
       "type": "kill",
       "description": "Kill Elder Crag Boars. Loot them for their Crag Boar Ribs",
       "classes": null,
@@ -1202,7 +1190,7 @@
       "mobs": ["Elder Crag Boar"]
     },
     {
-      "id": "dunmorogh_080",
+      "id": "dunmorogh_079",
       "type": "quest_turnin",
       "description": "Talk to Rejold Barleybrew, turn in A Favor for Evershine, and accept Return to Bellowfiz",
       "classes": null,
@@ -1224,7 +1212,7 @@
       "mobs": []
     },
     {
-      "id": "dunmorogh_081",
+      "id": "dunmorogh_080",
       "type": "grind",
       "description": "If you have already turned in the quest Beer Basted Boar Ribs, grind until 4360+/4500xp",
       "classes": null,
@@ -1237,20 +1225,7 @@
       "mobs": []
     },
     {
-      "id": "dunmorogh_082",
-      "type": "grind",
-      "description": "Grind until 3735+/4500xp",
-      "classes": null,
-      "races": null,
-      "coords": [30.0, 51.8],
-      "zone": "dun_morogh",
-      "tips": [],
-      "quests": [],
-      "npc": null,
-      "mobs": []
-    },
-    {
-      "id": "dunmorogh_090",
+      "id": "dunmorogh_089",
       "type": "info",
       "description": "Talk to Innkeeper Belm inside. Buy a Rhapsody Malt and a Thunder Ale",
       "classes": null,
@@ -1268,7 +1243,7 @@
       "mobs": []
     },
     {
-      "id": "dunmorogh_091",
+      "id": "dunmorogh_090",
       "type": "quest_turnin",
       "description": "Talk to Jarven Thunderbrew downstairs and turn in Distracting Jarven",
       "classes": null,
@@ -1286,7 +1261,7 @@
       "mobs": []
     },
     {
-      "id": "dunmorogh_092",
+      "id": "dunmorogh_091",
       "type": "quest_turnin",
       "description": "Click the Unguarded Thunder Ale Barrel, turn in Bitter Rivals, and accept Return to Marleth",
       "classes": null,
@@ -1308,7 +1283,7 @@
       "mobs": []
     },
     {
-      "id": "dunmorogh_093",
+      "id": "dunmorogh_092",
       "type": "quest_turnin",
       "description": "Talk to Ragnar Thunderbrew outside and turn in Beer Basted Boar Ribs",
       "classes": null,
@@ -1326,7 +1301,7 @@
       "mobs": []
     },
     {
-      "id": "dunmorogh_094",
+      "id": "dunmorogh_093",
       "type": "grind",
       "description": "Grind to level 8",
       "classes": ["!Paladin", "!Rogue", "!Warrior"],
@@ -1339,7 +1314,7 @@
       "mobs": []
     },
     {
-      "id": "dunmorogh_095",
+      "id": "dunmorogh_094",
       "type": "info",
       "description": "Talk to Grif Wildheart and train your class spells. Train Concussive Shot",
       "classes": ["Hunter"],
@@ -1352,7 +1327,7 @@
       "mobs": []
     },
     {
-      "id": "dunmorogh_096",
+      "id": "dunmorogh_095",
       "type": "info",
       "description": "Talk to Gimrizz Shadowcog and train your class spells. Train Fear",
       "classes": ["Warlock"],
@@ -1365,7 +1340,7 @@
       "mobs": []
     },
     {
-      "id": "dunmorogh_097",
+      "id": "dunmorogh_096",
       "type": "info",
       "description": "Talk to Gimrizz Shadowcog. Buy the Grimoire of Firebolt (Rank 2) if you can afford it. If not you will buy it later",
       "classes": ["Warlock"],
@@ -1378,7 +1353,7 @@
       "mobs": []
     },
     {
-      "id": "dunmorogh_098",
+      "id": "dunmorogh_097",
       "type": "info",
       "description": "Talk to Hogral Bakkan inside in the backroom and train your class spells",
       "classes": ["Rogue"],
@@ -1391,7 +1366,7 @@
       "mobs": []
     },
     {
-      "id": "dunmorogh_099",
+      "id": "dunmorogh_098",
       "type": "info",
       "description": "Talk to Azar Stronghammer inside upstairs and train your class spells",
       "classes": ["Paladin"],
@@ -1404,7 +1379,7 @@
       "mobs": []
     },
     {
-      "id": "dunmorogh_100",
+      "id": "dunmorogh_099",
       "type": "info",
       "description": "Talk to Granis Swiftaxe inside and train your class spells",
       "classes": ["Warrior"],
@@ -1417,7 +1392,7 @@
       "mobs": []
     },
     {
-      "id": "dunmorogh_101",
+      "id": "dunmorogh_100",
       "type": "info",
       "description": "Talk to Magis Sparkmantle inside upstairs and train your class spells. Train Polymorph",
       "classes": ["Mage"],
@@ -1430,7 +1405,7 @@
       "mobs": []
     },
     {
-      "id": "dunmorogh_102",
+      "id": "dunmorogh_101",
       "type": "info",
       "description": "Talk to Maxan Anvol inside and train your class spells",
       "classes": ["Priest"],
@@ -1443,7 +1418,7 @@
       "mobs": []
     },
     {
-      "id": "dunmorogh_103",
+      "id": "dunmorogh_102",
       "type": "info",
       "description": "Talk to Thamner Pol and train First Aid",
       "classes": null,
@@ -1456,7 +1431,7 @@
       "mobs": []
     },
     {
-      "id": "dunmorogh_104",
+      "id": "dunmorogh_103",
       "type": "info",
       "description": "Talk to Grawn Thromwyn. Buy and equip a Gladius",
       "classes": ["Warrior"],
@@ -1469,7 +1444,7 @@
       "mobs": []
     },
     {
-      "id": "dunmorogh_105",
+      "id": "dunmorogh_104",
       "type": "info",
       "description": "Talk to Grawn Thromwyn. Buy and equip a Large Axe",
       "classes": ["Warrior"],
@@ -1482,7 +1457,7 @@
       "mobs": []
     },
     {
-      "id": "dunmorogh_106",
+      "id": "dunmorogh_105",
       "type": "info",
       "description": "Talk to Grawn Thromwyn. Buy and equip a Stiletto",
       "classes": ["Rogue"],
@@ -1495,7 +1470,7 @@
       "mobs": []
     },
     {
-      "id": "dunmorogh_107",
+      "id": "dunmorogh_106",
       "type": "info",
       "description": "Talk to Grawn Thromwyn. Buy and equip a Wooden Mallet",
       "classes": ["Paladin"],
@@ -1508,7 +1483,7 @@
       "mobs": []
     },
     {
-      "id": "dunmorogh_108",
+      "id": "dunmorogh_107",
       "type": "info",
       "description": "Talk to Innkeeper Belm inside. Buy up to 30 Freshly Baked Bread",
       "classes": ["Warrior", "Rogue"],
@@ -1521,7 +1496,7 @@
       "mobs": []
     },
     {
-      "id": "dunmorogh_109",
+      "id": "dunmorogh_108",
       "type": "info",
       "description": "Talk to Innkeeper Belm inside. Buy up to 15 Freshly Baked Bread",
       "classes": ["Paladin"],
@@ -1534,10 +1509,10 @@
       "mobs": []
     },
     {
-      "id": "dunmorogh_110",
+      "id": "dunmorogh_109",
       "type": "info",
       "description": "Talk to Innkeeper Belm inside. Buy up to 30 Ice Cold Milk",
-      "classes": ["Priest", "Mage", "Warlock"],
+      "classes": ["Priest", "Warlock"],
       "races": null,
       "coords": [47.377, 52.523],
       "zone": "dun_morogh",
@@ -1547,7 +1522,7 @@
       "mobs": []
     },
     {
-      "id": "dunmorogh_111",
+      "id": "dunmorogh_110",
       "type": "quest_accept",
       "description": "Talk to Senir Whitebeard and accept Frostmane Hold",
       "classes": null,
@@ -1565,7 +1540,7 @@
       "mobs": []
     },
     {
-      "id": "dunmorogh_112",
+      "id": "dunmorogh_111",
       "type": "quest_turnin",
       "description": "Talk to Pilot Stonegear and turn in The Grizzled Den",
       "classes": null,
@@ -1583,7 +1558,7 @@
       "mobs": []
     },
     {
-      "id": "dunmorogh_113",
+      "id": "dunmorogh_112",
       "type": "quest_turnin",
       "description": "Talk to Pilot Bellowfiz and turn in Return to Bellowfiz. Choose the Camping Knife reward. Save it for later",
       "classes": ["Rogue"],
@@ -1607,7 +1582,7 @@
       "mobs": []
     },
     {
-      "id": "dunmorogh_114",
+      "id": "dunmorogh_113",
       "type": "quest_turnin",
       "description": "Talk to Pilot Bellowfiz and turn in Return to Bellowfiz",
       "classes": ["!Rogue"],
@@ -1625,7 +1600,7 @@
       "mobs": []
     },
     {
-      "id": "dunmorogh_115",
+      "id": "dunmorogh_114",
       "type": "quest_accept",
       "description": "Talk to Razzle Sprysprocket and accept Operation Recombobulation",
       "classes": ["Warlock"],
@@ -1643,9 +1618,9 @@
       "mobs": []
     },
     {
-      "id": "dunmorogh_116",
+      "id": "dunmorogh_115",
       "type": "travel",
-      "description": "Travel to Shimmer Ridge.",
+      "description": "Travel to Shimmer Ridge. Follow the arrow and run up the mountain",
       "classes": null,
       "races": null,
       "coords": [42.1, 45.4],
@@ -1656,12 +1631,12 @@
       "mobs": []
     },
     {
-      "id": "dunmorogh_117",
+      "id": "dunmorogh_116",
       "type": "kill",
       "description": "Kill Frostmane Seers. Loot them for their Shimmerweed. Shimmerweed can also be looted from Shimmerweed Baskets on the ground",
       "classes": null,
       "races": null,
-      "coords": [39.5, 43.0],
+      "coords": [40.9, 45.3],
       "zone": "dun_morogh",
       "tips": [],
       "quests": [
@@ -1674,9 +1649,9 @@
       "mobs": ["Frostmane Seer"]
     },
     {
-      "id": "dunmorogh_118",
+      "id": "dunmorogh_117",
       "type": "loot",
-      "description": "Open MacGrann's Meat Locker. Loot it for MacGrann's Dried Meats.",
+      "description": "Open MacGrann's Meat Locker. Loot it for MacGrann's Dried Meats. Wait until Old Icebeard patrols out of the Cave. Once he patrols out of the Cave you can enter and loot MacGrann's Meat Locker",
       "classes": ["!Mage", "!Warlock"],
       "races": null,
       "coords": [38.517, 53.927],
@@ -1704,14 +1679,44 @@
       "mobs": []
     },
     {
-      "id": "dunmorogh_119",
+      "id": "dunmorogh_118",
       "type": "loot",
-      "description": "Cast Polymorph on Old Icebeard. Open MacGrann's Meat Locker. Loot it for MacGrann's Dried Meats",
+      "description": "Open MacGrann's Meat Locker. Loot it for MacGrann's Dried Meats",
       "classes": ["Mage"],
       "races": null,
       "coords": [38.517, 53.927],
       "zone": "dun_morogh",
-      "tips": [],
+      "tips": [
+        {
+          "type": "warning",
+          "class": null,
+          "text": "Cast Polymorph on Old Icebeard"
+        }
+      ],
+      "quests": [
+        {
+          "id": 312,
+          "name": "Tundra MacGrann's Stolen Stash"
+        }
+      ],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "dunmorogh_119",
+      "type": "loot",
+      "description": "Open MacGrann's Meat Locker. Loot it for MacGrann's Dried Meats",
+      "classes": ["Warlock"],
+      "races": null,
+      "coords": [38.517, 53.927],
+      "zone": "dun_morogh",
+      "tips": [
+        {
+          "type": "warning",
+          "class": null,
+          "text": "Cast Fear on Old Icebeard"
+        }
+      ],
       "quests": [
         {
           "id": 312,
@@ -1723,24 +1728,6 @@
     },
     {
       "id": "dunmorogh_120",
-      "type": "loot",
-      "description": "Cast Fear on Old Icebeard. Open MacGrann's Meat Locker. Loot it for MacGrann's Dried Meats",
-      "classes": ["Warlock"],
-      "races": null,
-      "coords": [38.517, 53.927],
-      "zone": "dun_morogh",
-      "tips": [],
-      "quests": [
-        {
-          "id": 312,
-          "name": "Tundra MacGrann's Stolen Stash"
-        }
-      ],
-      "npc": null,
-      "mobs": []
-    },
-    {
-      "id": "dunmorogh_121",
       "type": "quest_turnin",
       "description": "Talk to Tundra MacGrann and turn in Tundra MacGrann's Stolen Stash",
       "classes": null,
@@ -1758,9 +1745,1019 @@
       "mobs": []
     },
     {
+      "id": "dunmorogh_121",
+      "type": "info",
+      "description": "Talk to Keeg Gibn. Buy up to 10 more Ice Cold Milk",
+      "classes": ["Priest", "Warlock"],
+      "races": null,
+      "coords": [30.453, 46.005],
+      "zone": "dun_morogh",
+      "tips": [],
+      "quests": [],
+      "npc": "Keeg Gibn",
+      "mobs": []
+    },
+    {
       "id": "dunmorogh_122",
+      "type": "info",
+      "description": "Talk to Keeg Gibn. Vendor trash",
+      "classes": ["Warrior", "Paladin", "Rogue"],
+      "races": null,
+      "coords": [30.453, 46.005],
+      "zone": "dun_morogh",
+      "tips": [],
+      "quests": [],
+      "npc": "Keeg Gibn",
+      "mobs": []
+    },
+    {
+      "id": "dunmorogh_123",
+      "type": "quest_turnin",
+      "description": "Talk to Rejold Barleybrew, turn in The Perfect Stout, and accept Shimmer Stout",
+      "classes": null,
+      "races": null,
+      "coords": [30.189, 45.725],
+      "zone": "dun_morogh",
+      "tips": [],
+      "quests": [
+        {
+          "id": 315,
+          "name": "The Perfect Stout"
+        },
+        {
+          "id": 413,
+          "name": "Shimmer Stout"
+        }
+      ],
+      "npc": "Rejold Barleybrew",
+      "mobs": []
+    },
+    {
+      "id": "dunmorogh_124",
+      "type": "quest_turnin",
+      "description": "Talk to Marleth Barleybrew and turn in Return to Marleth",
+      "classes": null,
+      "races": null,
+      "coords": [30.186, 45.531],
+      "zone": "dun_morogh",
+      "tips": [],
+      "quests": [
+        {
+          "id": 311,
+          "name": "Return to Marleth"
+        }
+      ],
+      "npc": "Marleth Barleybrew",
+      "mobs": []
+    },
+    {
+      "id": "dunmorogh_125",
       "type": "kill",
-      "description": "Kill Elder Black Bears. Loot them for their Bear Meat. Kill Mountain Boars. Loot them for their Boar Intestines. Kill Forest Lurkers. Loot them for their Ichor.",
+      "description": "Kill Leper Gnomes. Loot them for their Gears and Cogs",
+      "classes": ["Warlock"],
+      "races": null,
+      "coords": [25.0, 43.5],
+      "zone": "dun_morogh",
+      "tips": [],
+      "quests": [
+        {
+          "id": 412,
+          "name": "Operation Recombobulation"
+        }
+      ],
+      "npc": null,
+      "mobs": ["Leper Gnome"]
+    },
+    {
+      "id": "dunmorogh_126",
+      "type": "grind",
+      "description": "Grind to level 9",
+      "classes": null,
+      "races": null,
+      "coords": null,
+      "zone": "",
+      "tips": [],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "dunmorogh_127",
+      "type": "travel",
+      "description": "Enter Frostmane Hold",
+      "classes": null,
+      "races": null,
+      "coords": [24.509, 50.831],
+      "zone": "dun_morogh",
+      "tips": [],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "dunmorogh_128",
+      "type": "kill",
+      "description": "Kill Frostmane Headhunters",
+      "classes": null,
+      "races": null,
+      "coords": null,
+      "zone": "",
+      "tips": [],
+      "quests": [
+        {
+          "id": 287,
+          "name": "Frostmane Hold"
+        }
+      ],
+      "npc": null,
+      "mobs": ["Frostmane Headhunter"]
+    },
+    {
+      "id": "dunmorogh_129",
+      "type": "info",
+      "description": "Drop down to this location to explore Frostmane Hold.",
+      "classes": null,
+      "races": null,
+      "coords": [22.86, 52.16],
+      "zone": "dun_morogh",
+      "tips": [
+        {
+          "type": "warning",
+          "class": null,
+          "text": "If there are mobs below, clear around normally and do NOT drop down"
+        }
+      ],
+      "quests": [
+        {
+          "id": 287,
+          "name": "Frostmane Hold"
+        }
+      ],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "dunmorogh_130",
+      "type": "kill",
+      "description": "Kill Frostmane Headhunters",
+      "classes": null,
+      "races": null,
+      "coords": [21.3, 52.9],
+      "zone": "dun_morogh",
+      "tips": [],
+      "quests": [
+        {
+          "id": 287,
+          "name": "Frostmane Hold"
+        }
+      ],
+      "npc": null,
+      "mobs": ["Frostmane Headhunter"]
+    },
+    {
+      "id": "dunmorogh_131",
+      "type": "info",
+      "description": "Hearth or travel to Kharanos",
+      "classes": null,
+      "races": null,
+      "coords": null,
+      "zone": "",
+      "tips": [],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "dunmorogh_133",
+      "type": "quest_turnin",
+      "description": "Talk to Razzle Sprysprocket and turn in Operation Recombobulation",
+      "classes": ["Hunter"],
+      "races": null,
+      "coords": [45.846, 49.365],
+      "zone": "dun_morogh",
+      "tips": [],
+      "quests": [
+        {
+          "id": 412,
+          "name": "Operation Recombobulation"
+        }
+      ],
+      "npc": "Razzle Sprysprocket",
+      "mobs": []
+    },
+    {
+      "id": "dunmorogh_134",
+      "type": "quest_turnin",
+      "description": "Talk to Senir Whitebeard, turn in Frostmane Hold, and accept The Reports",
+      "classes": null,
+      "races": null,
+      "coords": [46.726, 53.826],
+      "zone": "dun_morogh",
+      "tips": [],
+      "quests": [
+        {
+          "id": 287,
+          "name": "Frostmane Hold"
+        },
+        {
+          "id": 291,
+          "name": "The Reports"
+        }
+      ],
+      "npc": "Senir Whitebeard",
+      "mobs": []
+    },
+    {
+      "id": "dunmorogh_135",
+      "type": "quest_accept",
+      "description": "Talk to Hogral Bakkan inside in the backroom and accept Road to Salvation",
+      "classes": ["Rogue"],
+      "races": null,
+      "coords": [47.563, 52.608],
+      "zone": "dun_morogh",
+      "tips": [],
+      "quests": [
+        {
+          "id": 2218,
+          "name": "Road to Salvation"
+        }
+      ],
+      "npc": "Hogral Bakkan",
+      "mobs": []
+    },
+    {
+      "id": "dunmorogh_136",
+      "type": "info",
+      "description": "Talk to Thamner Pol and train First Aid",
+      "classes": null,
+      "races": null,
+      "coords": [47.18, 52.61],
+      "zone": "dun_morogh",
+      "tips": [],
+      "quests": [],
+      "npc": "Thamner Pol",
+      "mobs": []
+    },
+    {
+      "id": "dunmorogh_137",
+      "type": "quest_turnin",
+      "description": "Talk to Razzle Sprysprocket and turn in Operation Recombobulation",
+      "classes": ["!Hunter"],
+      "races": null,
+      "coords": [45.846, 49.365],
+      "zone": "dun_morogh",
+      "tips": [],
+      "quests": [
+        {
+          "id": 412,
+          "name": "Operation Recombobulation"
+        }
+      ],
+      "npc": "Razzle Sprysprocket",
+      "mobs": []
+    },
+    {
+      "id": "dunmorogh_138",
+      "type": "quest_accept",
+      "description": "Talk to Grif Wildheart and accept Taming the Beast",
+      "classes": ["Hunter"],
+      "races": null,
+      "coords": [45.81, 53.039],
+      "zone": "dun_morogh",
+      "tips": [],
+      "quests": [
+        {
+          "id": 6064,
+          "name": "Taming the Beast"
+        }
+      ],
+      "npc": "Grif Wildheart",
+      "mobs": []
+    },
+    {
+      "id": "dunmorogh_139",
+      "type": "info",
+      "description": "Use the Taming Rod on a Large Crag Boar",
+      "classes": ["Hunter"],
+      "races": null,
+      "coords": [48.3, 56.9],
+      "zone": "dun_morogh",
+      "tips": [
+        {
+          "type": "warning",
+          "class": null,
+          "text": "Use the Taming Rod on a Large Crag Boar"
+        }
+      ],
+      "quests": [
+        {
+          "id": 6064,
+          "name": "Taming the Beast"
+        }
+      ],
+      "npc": null,
+      "mobs": ["Large Crag Boar"]
+    },
+    {
+      "id": "dunmorogh_140",
+      "type": "quest_turnin",
+      "description": "Talk to Grif Wildheart, turn in Taming the Beast, and accept Taming the Beast",
+      "classes": ["Hunter"],
+      "races": null,
+      "coords": [45.81, 53.039],
+      "zone": "dun_morogh",
+      "tips": [],
+      "quests": [
+        {
+          "id": 6064,
+          "name": "Taming the Beast"
+        },
+        {
+          "id": 6084,
+          "name": "Taming the Beast"
+        }
+      ],
+      "npc": "Grif Wildheart",
+      "mobs": []
+    },
+    {
+      "id": "dunmorogh_141",
+      "type": "info",
+      "description": "Use the Taming Rod on a Snow Leopard",
+      "classes": ["Hunter"],
+      "races": null,
+      "coords": [49.4, 59.4],
+      "zone": "dun_morogh",
+      "tips": [
+        {
+          "type": "warning",
+          "class": null,
+          "text": "Use the Taming Rod on a Snow Leopard"
+        }
+      ],
+      "quests": [
+        {
+          "id": 6084,
+          "name": "Taming the Beast"
+        }
+      ],
+      "npc": null,
+      "mobs": ["Snow Leopard"]
+    },
+    {
+      "id": "dunmorogh_142",
+      "type": "quest_turnin",
+      "description": "Talk to Grif Wildheart, turn in Taming the Beast, and accept Taming the Beast",
+      "classes": ["Hunter"],
+      "races": null,
+      "coords": [45.81, 53.039],
+      "zone": "dun_morogh",
+      "tips": [],
+      "quests": [
+        {
+          "id": 6084,
+          "name": "Taming the Beast"
+        },
+        {
+          "id": 6085,
+          "name": "Taming the Beast"
+        }
+      ],
+      "npc": "Grif Wildheart",
+      "mobs": []
+    },
+    {
+      "id": "dunmorogh_143",
+      "type": "info",
+      "description": "Use the Taming Rod on an Ice Claw Bear",
+      "classes": ["Hunter"],
+      "races": null,
+      "coords": [50.4, 59.7],
+      "zone": "dun_morogh",
+      "tips": [
+        {
+          "type": "warning",
+          "class": null,
+          "text": "Use the Taming Rod on an Ice Claw Bear"
+        }
+      ],
+      "quests": [
+        {
+          "id": 6085,
+          "name": "Taming the Beast"
+        }
+      ],
+      "npc": null,
+      "mobs": ["Ice Claw Bear"]
+    },
+    {
+      "id": "dunmorogh_144",
+      "type": "quest_turnin",
+      "description": "Talk to Grif Wildheart, turn in Taming the Beast, and accept Training the Beast",
+      "classes": ["Hunter"],
+      "races": null,
+      "coords": [45.81, 53.039],
+      "zone": "dun_morogh",
+      "tips": [],
+      "quests": [
+        {
+          "id": 6085,
+          "name": "Taming the Beast"
+        },
+        {
+          "id": 6086,
+          "name": "Training the Beast"
+        }
+      ],
+      "npc": "Grif Wildheart",
+      "mobs": []
+    },
+    {
+      "id": "dunmorogh_145",
+      "type": "grind",
+      "description": "Grind until you have 10s30c, then run into Ironforge",
+      "classes": ["Warrior"],
+      "races": null,
+      "coords": null,
+      "zone": "",
+      "tips": [],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "dunmorogh_146",
+      "type": "travel",
+      "description": "Travel to Ironforge",
+      "classes": ["Warrior", "Hunter"],
+      "races": null,
+      "coords": [14.9, 87.1],
+      "zone": "ironforge",
+      "tips": [],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "dunmorogh_147",
+      "type": "quest_turnin",
+      "description": "Talk to Belia Thundergranite and turn in Training the Beast",
+      "classes": ["Hunter"],
+      "races": null,
+      "coords": [70.86, 85.83],
+      "zone": "ironforge",
+      "tips": [],
+      "quests": [
+        {
+          "id": 6086,
+          "name": "Training the Beast"
+        }
+      ],
+      "npc": "Belia Thundergranite",
+      "mobs": []
+    },
+    {
+      "id": "dunmorogh_148",
+      "type": "info",
+      "description": "Talk to Bixi Wobblebonk and train Thrown",
+      "classes": ["Warrior"],
+      "races": null,
+      "coords": [62.237, 89.628],
+      "zone": "ironforge",
+      "tips": [],
+      "quests": [],
+      "npc": "Bixi Wobblebonk",
+      "mobs": []
+    },
+    {
+      "id": "dunmorogh_149",
+      "type": "info",
+      "description": "Talk to Brenwyn Wintersteel down stairs. Buy a Balanced Throwing Dagger and equip it",
+      "classes": ["Warrior"],
+      "races": null,
+      "coords": [62.375, 88.679],
+      "zone": "ironforge",
+      "tips": [],
+      "quests": [],
+      "npc": "Brenwyn Wintersteel",
+      "mobs": []
+    },
+    {
+      "id": "dunmorogh_150",
+      "type": "travel",
+      "description": "Exit Ironforge",
+      "classes": ["Warrior", "Hunter"],
+      "races": null,
+      "coords": [52.9, 35.62],
+      "zone": "dun_morogh",
+      "tips": [],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "dunmorogh_151",
+      "type": "quest_accept",
+      "description": "Talk to Rudra Amberstill and accept Protecting the Herd",
+      "classes": null,
+      "races": null,
+      "coords": [63.082, 49.851],
+      "zone": "dun_morogh",
+      "tips": [],
+      "quests": [
+        {
+          "id": 314,
+          "name": "Protecting the Herd"
+        }
+      ],
+      "npc": "Rudra Amberstill",
+      "mobs": []
+    },
+    {
+      "id": "dunmorogh_153",
+      "type": "kill",
+      "description": "Kill Vagash. Loot him for his Fang. This quest is difficult. Find a group for him if needed. Skip this step if you're unable to find a group or solo him. Watch the video below before you attempt to kill Vagash. It can be soloed on any class",
+      "classes": null,
+      "races": null,
+      "coords": [62.6, 46.1],
+      "zone": "dun_morogh",
+      "tips": [
+        {
+          "type": "warning",
+          "class": null,
+          "text": "This quest is difficult. Find a group for him if needed. Skip this step if you're unable to find a group or solo him"
+        },
+        {
+          "type": "warning",
+          "class": null,
+          "text": "Watch the video below before you attempt to kill Vagash. It can be soloed on any class"
+        },
+        {
+          "type": "link",
+          "class": null,
+          "text": "Click here for video reference",
+          "url": "https://www.youtube.com/watch?v=ZJX6sCkm5JY"
+        }
+      ],
+      "quests": [
+        {
+          "id": 314,
+          "name": "Protecting the Herd"
+        }
+      ],
+      "npc": null,
+      "mobs": ["Vagash"]
+    },
+    {
+      "id": "dunmorogh_154",
+      "type": "quest_turnin",
+      "description": "Talk to Rudra Amberstill and turn in Protecting the Herd. Choose Coldridge Hammer as your reward. Don't worry if you can't equip it yet, you will train 2H Maces very soon!",
+      "classes": ["Warrior"],
+      "races": null,
+      "coords": [63.082, 49.851],
+      "zone": "dun_morogh",
+      "tips": [
+        {
+          "type": "warning",
+          "class": null,
+          "text": "Choose Coldridge Hammer as your reward. Don't worry if you can't equip it yet, you will train 2H Maces very soon!"
+        }
+      ],
+      "quests": [
+        {
+          "id": 314,
+          "name": "Protecting the Herd"
+        }
+      ],
+      "npc": "Rudra Amberstill",
+      "mobs": []
+    },
+    {
+      "id": "dunmorogh_155",
+      "type": "quest_turnin",
+      "description": "Talk to Rudra Amberstill and turn in Protecting the Herd",
+      "classes": ["!Warrior"],
+      "races": null,
+      "coords": [63.082, 49.851],
+      "zone": "dun_morogh",
+      "tips": [],
+      "quests": [
+        {
+          "id": 314,
+          "name": "Protecting the Herd"
+        }
+      ],
+      "npc": "Rudra Amberstill",
+      "mobs": []
+    },
+    {
+      "id": "dunmorogh_156",
+      "type": "travel",
+      "description": "Travel to Gol'Bolar Quarry",
+      "classes": null,
+      "races": null,
+      "coords": [68.5, 54.6],
+      "zone": "dun_morogh",
+      "tips": [],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "dunmorogh_157",
+      "type": "info",
+      "description": "Talk to Cook Ghilm and train Cooking",
+      "classes": null,
+      "races": null,
+      "coords": [68.379, 54.492],
+      "zone": "dun_morogh",
+      "tips": [],
+      "quests": [],
+      "npc": "Cook Ghilm",
+      "mobs": []
+    },
+    {
+      "id": "dunmorogh_158",
+      "type": "info",
+      "description": "Talk to Kazan Mogosh. Buy Freshly Baked Bread if needed",
+      "classes": ["Warrior", "Rogue"],
+      "races": null,
+      "coords": [68.6, 54.7],
+      "zone": "dun_morogh",
+      "tips": [],
+      "quests": [],
+      "npc": "Kazan Mogosh",
+      "mobs": []
+    },
+    {
+      "id": "dunmorogh_159",
+      "type": "info",
+      "description": "Talk to Kazan Mogosh. Buy Freshly Baked Bread and Ice Cold Milk if needed",
+      "classes": ["!Warrior", "!Rogue"],
+      "races": null,
+      "coords": [68.6, 54.7],
+      "zone": "dun_morogh",
+      "tips": [],
+      "quests": [],
+      "npc": "Kazan Mogosh",
+      "mobs": []
+    },
+    {
+      "id": "dunmorogh_160",
+      "type": "quest_accept",
+      "description": "Talk to Senator Mehr Stonehallow and Foreman Stonebrow, and accept The Public Servant and Those Blasted Troggs!",
+      "classes": null,
+      "races": null,
+      "coords": [69.084, 56.33],
+      "zone": "dun_morogh",
+      "tips": [],
+      "quests": [
+        {
+          "id": 433,
+          "name": "The Public Servant"
+        },
+        {
+          "id": 432,
+          "name": "Those Blasted Troggs!"
+        }
+      ],
+      "npc": "Foreman Stonebrow",
+      "mobs": []
+    },
+    {
+      "id": "dunmorogh_161",
+      "type": "kill",
+      "description": "Kill Rockjaw Skullthumpers and Rockjaw Bonesnappers",
+      "classes": null,
+      "races": null,
+      "coords": [70.7, 56.4],
+      "zone": "dun_morogh",
+      "tips": [],
+      "quests": [
+        {
+          "id": 432,
+          "name": "Those Blasted Troggs!"
+        },
+        {
+          "id": 433,
+          "name": "The Public Servant"
+        }
+      ],
+      "npc": null,
+      "mobs": ["Rockjaw Skullthumper", "Rockjaw Bonesnapper"]
+    },
+    {
+      "id": "dunmorogh_162",
+      "type": "quest_turnin",
+      "description": "Talk to Foreman Stonebrow and Senator Mehr Stonehallow, and turn in Those Blasted Troggs! and The Public Servant",
+      "classes": null,
+      "races": null,
+      "coords": [68.671, 55.969],
+      "zone": "dun_morogh",
+      "tips": [],
+      "quests": [
+        {
+          "id": 432,
+          "name": "Those Blasted Troggs!"
+        },
+        {
+          "id": 433,
+          "name": "The Public Servant"
+        }
+      ],
+      "npc": "Senator Mehr Stonehallow",
+      "mobs": []
+    },
+    {
+      "id": "dunmorogh_163",
+      "type": "grind",
+      "description": "Grind to level 10",
+      "classes": null,
+      "races": null,
+      "coords": [67.1, 59.7],
+      "zone": "dun_morogh",
+      "tips": [],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "dunmorogh_164",
+      "type": "quest_accept",
+      "description": "Talk to Pilot Hammerfoot and accept The Lost Pilot",
+      "classes": null,
+      "races": null,
+      "coords": [83.892, 39.188],
+      "zone": "dun_morogh",
+      "tips": [],
+      "quests": [
+        {
+          "id": 419,
+          "name": "The Lost Pilot"
+        }
+      ],
+      "npc": "Pilot Hammerfoot",
+      "mobs": []
+    },
+    {
+      "id": "dunmorogh_165",
+      "type": "quest_turnin",
+      "description": "Click the Dwarven Corpse, turn in The Lost Pilot, and accept A Pilot's Revenge",
+      "classes": null,
+      "races": null,
+      "coords": [79.672, 36.171],
+      "zone": "dun_morogh",
+      "tips": [],
+      "quests": [
+        {
+          "id": 419,
+          "name": "The Lost Pilot"
+        },
+        {
+          "id": 417,
+          "name": "A Pilot's Revenge"
+        }
+      ],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "dunmorogh_166",
+      "type": "kill",
+      "description": "Kill Mangeclaw. Loot him for his Claw",
+      "classes": null,
+      "races": null,
+      "coords": [78.97, 37.14],
+      "zone": "dun_morogh",
+      "tips": [],
+      "quests": [
+        {
+          "id": 417,
+          "name": "A Pilot's Revenge"
+        }
+      ],
+      "npc": null,
+      "mobs": ["Mangeclaw"]
+    },
+    {
+      "id": "dunmorogh_167",
+      "type": "quest_turnin",
+      "description": "Talk to Pilot Hammerfoot and turn in A Pilot's Revenge",
+      "classes": null,
+      "races": null,
+      "coords": [83.892, 39.188],
+      "zone": "dun_morogh",
+      "tips": [],
+      "quests": [
+        {
+          "id": 417,
+          "name": "A Pilot's Revenge"
+        }
+      ],
+      "npc": "Pilot Hammerfoot",
+      "mobs": []
+    },
+    {
+      "id": "dunmorogh_168",
+      "type": "quest_turnin",
+      "description": "Talk to Mountaineer Barleybrew, turn in Shimmer Stout, and accept Stout to Kadrell",
+      "classes": null,
+      "races": null,
+      "coords": [86.278, 48.812],
+      "zone": "dun_morogh",
+      "tips": [],
+      "quests": [
+        {
+          "id": 413,
+          "name": "Shimmer Stout"
+        },
+        {
+          "id": 414,
+          "name": "Stout to Kadrell"
+        }
+      ],
+      "npc": "Mountaineer Barleybrew",
+      "mobs": []
+    },
+    {
+      "id": "dunmorogh_169",
+      "type": "travel",
+      "description": "Travel to Loch Modan",
+      "classes": null,
+      "races": null,
+      "coords": [22.071, 73.127],
+      "zone": "loch_modan",
+      "tips": [],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "dunmorogh_170",
+      "type": "quest_accept",
+      "description": "Talk to Mountaineer Cobbleflint and accept In Defense of the King's Lands",
+      "classes": null,
+      "races": null,
+      "coords": [22.071, 73.127],
+      "zone": "loch_modan",
+      "tips": [],
+      "quests": [
+        {
+          "id": 224,
+          "name": "In Defense of the King's Lands"
+        }
+      ],
+      "npc": "Mountaineer Cobbleflint",
+      "mobs": []
+    },
+    {
+      "id": "dunmorogh_171",
+      "type": "quest_accept",
+      "description": "Talk to Captain Rugelfuss in the bunker and accept The Trogg Threat",
+      "classes": null,
+      "races": null,
+      "coords": [23.233, 73.675],
+      "zone": "loch_modan",
+      "tips": [],
+      "quests": [
+        {
+          "id": 267,
+          "name": "The Trogg Threat"
+        }
+      ],
+      "npc": "Captain Rugelfuss",
+      "mobs": []
+    },
+    {
+      "id": "dunmorogh_172",
+      "type": "quest_turnin",
+      "description": "Talk to Mountaineer Kadrell, turn in Stout to Kadrell, and accept Rat Catching and Mountaineer Stormpike's Task. Mountaineer Kadrell patrols the road through Thelsamar",
+      "classes": null,
+      "races": null,
+      "coords": [36.77, 46.2],
+      "zone": "loch_modan",
+      "tips": [
+        {
+          "type": "warning",
+          "class": null,
+          "text": "Mountaineer Kadrell patrols the road through Thelsamar"
+        }
+      ],
+      "quests": [
+        {
+          "id": 414,
+          "name": "Stout to Kadrell"
+        },
+        {
+          "id": 416,
+          "name": "Rat Catching"
+        },
+        {
+          "id": 1339,
+          "name": "Mountaineer Stormpike's Task"
+        }
+      ],
+      "npc": "Mountaineer Kadrell",
+      "mobs": []
+    },
+    {
+      "id": "dunmorogh_173",
+      "type": "quest_accept",
+      "description": "Talk to Vidra Hearthstove and accept Thelsamar Blood Sausages",
+      "classes": null,
+      "races": null,
+      "coords": [34.828, 49.283],
+      "zone": "loch_modan",
+      "tips": [],
+      "quests": [
+        {
+          "id": 418,
+          "name": "Thelsamar Blood Sausages"
+        }
+      ],
+      "npc": "Vidra Hearthstove",
+      "mobs": []
+    },
+    {
+      "id": "dunmorogh_174",
+      "type": "info",
+      "description": "Talk to Yanni Stoutheart. Buy a Small Brown Pouch if needed",
+      "classes": null,
+      "races": null,
+      "coords": [34.757, 48.618],
+      "zone": "loch_modan",
+      "tips": [],
+      "quests": [],
+      "npc": "Yanni Stoutheart",
+      "mobs": []
+    },
+    {
+      "id": "dunmorogh_175",
+      "type": "info",
+      "description": "Talk to Innkeeper Hearthstove and set your Hearthstone to Thelsamar",
+      "classes": ["!Paladin"],
+      "races": null,
+      "coords": [35.534, 48.404],
+      "zone": "loch_modan",
+      "tips": [],
+      "quests": [],
+      "npc": "Innkeeper Hearthstove",
+      "mobs": []
+    },
+    {
+      "id": "dunmorogh_176",
+      "type": "quest_accept",
+      "description": "Talk to Brock Stoneseeker and accept Honor Students",
+      "classes": null,
+      "races": null,
+      "coords": [37.019, 47.806],
+      "zone": "loch_modan",
+      "tips": [],
+      "quests": [
+        {
+          "id": 6387,
+          "name": "Honor Students"
+        }
+      ],
+      "npc": "Brock Stoneseeker",
+      "mobs": []
+    },
+    {
+      "id": "dunmorogh_177",
+      "type": "quest_turnin",
+      "description": "Talk to Mountaineer Kadrell, turn in Stout to Kadrell, and accept Rat Catching and Mountaineer Stormpike's Task. Mountaineer Kadrell patrols the road through Thelsamar",
+      "classes": null,
+      "races": null,
+      "coords": [36.77, 46.2],
+      "zone": "loch_modan",
+      "tips": [
+        {
+          "type": "warning",
+          "class": null,
+          "text": "Mountaineer Kadrell patrols the road through Thelsamar"
+        }
+      ],
+      "quests": [
+        {
+          "id": 414,
+          "name": "Stout to Kadrell"
+        },
+        {
+          "id": 416,
+          "name": "Rat Catching"
+        },
+        {
+          "id": 1339,
+          "name": "Mountaineer Stormpike's Task"
+        }
+      ],
+      "npc": "Mountaineer Kadrell",
+      "mobs": []
+    },
+    {
+      "id": "dunmorogh_178",
+      "type": "loot",
+      "description": "Kill Elder Black Bears. Loot them for their Bear Meat. Kill Mountain Boars. Loot them for their Boar Intestines. Kill Forest Lurkers. Loot them for their Ichor. Save any Chunks of Boar Meat to use for leveling Cooking later. Don't go out of your way to complete this right now. You'll come back to Loch Modan soon",
       "classes": null,
       "races": null,
       "coords": null,
@@ -1787,7 +2784,7 @@
       "mobs": ["Elder Black Bear", "Mountain Boar", "Forest Lurker"]
     },
     {
-      "id": "dunmorogh_123",
+      "id": "dunmorogh_179",
       "type": "travel",
       "description": "Travel north to the Algaz Station",
       "classes": null,
@@ -1800,7 +2797,7 @@
       "mobs": []
     },
     {
-      "id": "dunmorogh_124",
+      "id": "dunmorogh_180",
       "type": "quest_turnin",
       "description": "Talk to Mountaineer Stormpike, turn in Mountaineer Stormpike's Task, and accept Stormpike's Order and Filthy Paws",
       "classes": null,
@@ -1826,7 +2823,7 @@
       "mobs": []
     },
     {
-      "id": "dunmorogh_125",
+      "id": "dunmorogh_181",
       "type": "quest_turnin",
       "description": "Talk to Mountaineer Stormpike, turn in Mountaineer Stormpike's Task, and accept Stormpike's Order",
       "classes": null,
@@ -1848,7 +2845,20 @@
       "mobs": []
     },
     {
-      "id": "dunmorogh_127",
+      "id": "dunmorogh_182",
+      "type": "info",
+      "description": "Die and respawn at Thelsamar",
+      "classes": null,
+      "races": null,
+      "coords": null,
+      "zone": "",
+      "tips": [],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "dunmorogh_183",
       "type": "quest_turnin",
       "description": "Talk to Vidra Hearthstove and turn in Thelsamar Blood Sausages",
       "classes": null,
@@ -1866,7 +2876,7 @@
       "mobs": []
     },
     {
-      "id": "dunmorogh_128",
+      "id": "dunmorogh_184",
       "type": "quest_turnin",
       "description": "Talk to Thorgrum Borrelson, turn in Honor Students, and accept Ride to Ironforge",
       "classes": null,
@@ -1888,7 +2898,7 @@
       "mobs": []
     },
     {
-      "id": "dunmorogh_129",
+      "id": "dunmorogh_185",
       "type": "fly",
       "description": "Talk to Thorgrum Borrelson and fly to Ironforge",
       "classes": null,
@@ -1901,7 +2911,7 @@
       "mobs": []
     },
     {
-      "id": "dunmorogh_130",
+      "id": "dunmorogh_186",
       "type": "quest_turnin",
       "description": "Talk to Golnir Bouldertoe, turn in Ride to Ironforge, and accept Gryth Thurden",
       "classes": null,
@@ -1923,7 +2933,7 @@
       "mobs": []
     },
     {
-      "id": "dunmorogh_131",
+      "id": "dunmorogh_187",
       "type": "quest_turnin",
       "description": "Talk to Gryth Thurden, turn in Gryth Thurden, and accept Return to Brock. Do NOT fly anywhere",
       "classes": ["Hunter"],
@@ -1951,7 +2961,7 @@
       "mobs": []
     },
     {
-      "id": "dunmorogh_132",
+      "id": "dunmorogh_188",
       "type": "quest_turnin",
       "description": "Talk to Senator Barin Redstone and turn in The Reports",
       "classes": null,
@@ -1969,7 +2979,7 @@
       "mobs": []
     },
     {
-      "id": "dunmorogh_133",
+      "id": "dunmorogh_189",
       "type": "info",
       "description": "Talk to Buliwyf Stonehand and train 2h Maces. Equip the Coldridge Hammer now if you didn't earlier",
       "classes": ["Warrior"],
@@ -1988,7 +2998,7 @@
       "mobs": []
     },
     {
-      "id": "dunmorogh_134",
+      "id": "dunmorogh_190",
       "type": "quest_turnin",
       "description": "Talk to Gryth Thurden, turn in Gryth Thurden, and accept Return to Brock. Do NOT fly anywhere",
       "classes": ["!Hunter"],
@@ -2016,7 +3026,7 @@
       "mobs": []
     },
     {
-      "id": "dunmorogh_135",
+      "id": "dunmorogh_191",
       "type": "travel",
       "description": "Enter the Deeprun Tram",
       "classes": null,
@@ -2029,7 +3039,7 @@
       "mobs": []
     },
     {
-      "id": "dunmorogh_136",
+      "id": "dunmorogh_192",
       "type": "quest_accept",
       "description": "Talk to Monty on the middle platform and accept Deeprun Rat Roundup",
       "classes": null,
@@ -2047,14 +3057,20 @@
       "mobs": []
     },
     {
-      "id": "dunmorogh_137",
+      "id": "dunmorogh_193",
       "type": "info",
       "description": "Use the Rat Catcher's Flute on Deeprun Rats",
       "classes": null,
       "races": null,
       "coords": null,
       "zone": "",
-      "tips": [],
+      "tips": [
+        {
+          "type": "warning",
+          "class": null,
+          "text": "Use the Rat Catcher's Flute on Deeprun Rats"
+        }
+      ],
       "quests": [
         {
           "id": 6661,
@@ -2065,7 +3081,7 @@
       "mobs": ["Deeprun Rat"]
     },
     {
-      "id": "dunmorogh_138",
+      "id": "dunmorogh_194",
       "type": "quest_turnin",
       "description": "Talk to Monty, turn in Deeprun Rat Roundup, and accept Me Brother, Nipsy",
       "classes": null,
@@ -2087,9 +3103,9 @@
       "mobs": []
     },
     {
-      "id": "dunmorogh_139",
+      "id": "dunmorogh_195",
       "type": "travel",
-      "description": "Take the Tram to Stormwind.",
+      "description": "Take the Tram to Stormwind. Level your First Aid and Cooking if needed while waiting for the Tram. You will need your First Aid to be 80 for a quest at level 24",
       "classes": ["Rogue"],
       "races": ["!Dwarf"],
       "coords": null,
@@ -2111,7 +3127,26 @@
       "mobs": []
     },
     {
-      "id": "dunmorogh_141",
+      "id": "dunmorogh_196",
+      "type": "travel",
+      "description": "Take the Tram to Stormwind. Level your First Aid and Cooking if needed while waiting for the Tram",
+      "classes": ["!Rogue"],
+      "races": null,
+      "coords": null,
+      "zone": "",
+      "tips": [
+        {
+          "type": "warning",
+          "class": null,
+          "text": "Level your First Aid and Cooking if needed while waiting for the Tram"
+        }
+      ],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "dunmorogh_197",
       "type": "quest_turnin",
       "description": "Talk to Nipsy when you get off the Tram and turn in Me Brother, Nipsy. Nipsy is on the center platform",
       "classes": null,
@@ -2135,7 +3170,20 @@
       "mobs": []
     },
     {
-      "id": "dunmorogh_143",
+      "id": "dunmorogh_198",
+      "type": "travel",
+      "description": "Enter Stormwind",
+      "classes": null,
+      "races": null,
+      "coords": null,
+      "zone": "",
+      "tips": [],
+      "quests": [],
+      "npc": null,
+      "mobs": []
+    },
+    {
+      "id": "dunmorogh_199",
       "type": "quest_accept",
       "description": "Talk to Grimand Elmore and accept Stormpike's Delivery",
       "classes": null,
@@ -2153,7 +3201,7 @@
       "mobs": []
     },
     {
-      "id": "dunmorogh_144",
+      "id": "dunmorogh_200",
       "type": "quest_turnin",
       "description": "Talk to Furen Longbeard and turn in Stormpike's Order",
       "classes": null,
@@ -2171,7 +3219,7 @@
       "mobs": []
     },
     {
-      "id": "dunmorogh_145",
+      "id": "dunmorogh_201",
       "type": "travel",
       "description": "Travel to the Stormwind Cathedral",
       "classes": ["Priest"],
@@ -2184,9 +3232,9 @@
       "mobs": []
     },
     {
-      "id": "dunmorogh_146",
-      "type": "info",
-      "description": "Talk to High Priestess Laurena, turn in Desperate Prayer, and train your class spells",
+      "id": "dunmorogh_202",
+      "type": "quest_turnin",
+      "description": "Talk to High Priestess Laurena, train your class spells, and turn in Desperate Prayer",
       "classes": ["Priest"],
       "races": null,
       "coords": [38.54, 26.86],
@@ -2202,7 +3250,7 @@
       "mobs": []
     },
     {
-      "id": "dunmorogh_147",
+      "id": "dunmorogh_203",
       "type": "info",
       "description": "Talk to High Priestess Laurena and train Desperate Prayer",
       "classes": ["Priest"],
@@ -2215,7 +3263,7 @@
       "mobs": []
     },
     {
-      "id": "dunmorogh_148",
+      "id": "dunmorogh_204",
       "type": "quest_accept",
       "description": "Talk to Ilsa and train your class spells. Accept A Warrior's Training",
       "classes": ["Warrior"],
@@ -2233,7 +3281,7 @@
       "mobs": []
     },
     {
-      "id": "dunmorogh_149",
+      "id": "dunmorogh_205",
       "type": "travel",
       "description": "Enter the Tavern",
       "classes": ["Warrior"],
@@ -2246,7 +3294,7 @@
       "mobs": []
     },
     {
-      "id": "dunmorogh_150",
+      "id": "dunmorogh_206",
       "type": "quest_turnin",
       "description": "Talk to Harry Burlguard, turn in A Warrior's Training, and accept Bartleby the Drunk",
       "classes": ["Warrior"],
@@ -2268,7 +3316,7 @@
       "mobs": []
     },
     {
-      "id": "dunmorogh_151",
+      "id": "dunmorogh_207",
       "type": "quest_turnin",
       "description": "Talk to Bartleby, turn in Bartleby the Drunk, and accept Beat Bartleby",
       "classes": ["Warrior"],
@@ -2290,7 +3338,7 @@
       "mobs": []
     },
     {
-      "id": "dunmorogh_152",
+      "id": "dunmorogh_208",
       "type": "info",
       "description": "Attack Bartleby. He will submit at 1%",
       "classes": ["Warrior"],
@@ -2308,7 +3356,7 @@
       "mobs": ["Bartleby"]
     },
     {
-      "id": "dunmorogh_153",
+      "id": "dunmorogh_209",
       "type": "quest_turnin",
       "description": "Talk to Bartleby, turn in Beat Bartleby, and accept Bartleby's Mug",
       "classes": ["Warrior"],
@@ -2330,7 +3378,7 @@
       "mobs": []
     },
     {
-      "id": "dunmorogh_154",
+      "id": "dunmorogh_210",
       "type": "quest_turnin",
       "description": "Talk to Harry Burlguard and turn in Bartleby's Mug",
       "classes": ["Warrior"],
@@ -2348,7 +3396,7 @@
       "mobs": []
     },
     {
-      "id": "dunmorogh_155",
+      "id": "dunmorogh_211",
       "type": "travel",
       "description": "Travel to The Slaughtered Lamb and go downstairs",
       "classes": ["Warlock"],
@@ -2361,7 +3409,7 @@
       "mobs": []
     },
     {
-      "id": "dunmorogh_156",
+      "id": "dunmorogh_212",
       "type": "info",
       "description": "Talk to Ursula Deline and train your class spells",
       "classes": ["Warlock"],
@@ -2374,7 +3422,7 @@
       "mobs": []
     },
     {
-      "id": "dunmorogh_157",
+      "id": "dunmorogh_213",
       "type": "quest_accept",
       "description": "Talk to Gakin the Darkbinder and accept Surena Caledon",
       "classes": ["Warlock"],
@@ -2392,7 +3440,7 @@
       "mobs": []
     },
     {
-      "id": "dunmorogh_158",
+      "id": "dunmorogh_214",
       "type": "info",
       "description": "Talk to Woo Ping and train 1h Swords",
       "classes": ["Rogue", "Mage"],
@@ -2405,7 +3453,7 @@
       "mobs": []
     },
     {
-      "id": "dunmorogh_159",
+      "id": "dunmorogh_215",
       "type": "info",
       "description": "Talk to Woo Ping and train Staves",
       "classes": ["Priest"],
@@ -2418,7 +3466,7 @@
       "mobs": []
     },
     {
-      "id": "dunmorogh_160",
+      "id": "dunmorogh_216",
       "type": "info",
       "description": "Talk to Woo Ping and train 1h Swords and Staves",
       "classes": ["Warlock"],
@@ -2431,7 +3479,7 @@
       "mobs": []
     },
     {
-      "id": "dunmorogh_161",
+      "id": "dunmorogh_217",
       "type": "info",
       "description": "Talk to Woo Ping and train 2h Swords",
       "classes": ["Warrior", "Paladin"],
@@ -2444,9 +3492,9 @@
       "mobs": []
     },
     {
-      "id": "dunmorogh_162",
+      "id": "dunmorogh_218",
       "type": "info",
-      "description": "Talk to Innkeeper Allison. Set your Hearthstone to Stormwind",
+      "description": "Talk to Innkeeper Allison and set your Hearthstone to Stormwind",
       "classes": ["Paladin"],
       "races": ["Dwarf"],
       "coords": [52.623, 65.701],
@@ -2457,27 +3505,39 @@
       "mobs": []
     },
     {
-      "id": "dunmorogh_163",
+      "id": "dunmorogh_219",
       "type": "info",
       "description": "Talk to Gunther Weller. Buy a Cutlass and equip it in your Main-Hand. Equip the Craftsman's Dagger from earlier in your Off-Hand",
       "classes": ["Rogue"],
       "races": null,
       "coords": [57.547, 57.076],
       "zone": "stormwind_city",
-      "tips": [],
+      "tips": [
+        {
+          "type": "warning",
+          "class": null,
+          "text": "Buy a Cutlass and equip it in your Main-Hand. Equip the Craftsman's Dagger from earlier in your Off-Hand"
+        }
+      ],
       "quests": [],
       "npc": "Gunther Weller",
       "mobs": []
     },
     {
-      "id": "dunmorogh_164",
+      "id": "dunmorogh_220",
       "type": "info",
       "description": "Talk to Thurman Mullby. Buy a Keen Throwing Knife. Equip it when you're level 11",
       "classes": ["Rogue"],
       "races": null,
       "coords": [58.362, 61.678],
       "zone": "stormwind_city",
-      "tips": [],
+      "tips": [
+        {
+          "type": "warning",
+          "class": null,
+          "text": "Buy a Keen Throwing Knife. Equip it when you're level 11"
+        }
+      ],
       "quests": [],
       "npc": "Thurman Mullby",
       "mobs": []

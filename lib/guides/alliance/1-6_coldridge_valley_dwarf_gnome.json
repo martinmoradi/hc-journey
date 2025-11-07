@@ -327,38 +327,6 @@
         {
           "id": 233,
           "name": "Coldridge Valley Mail Delivery"
-        },
-        {
-          "id": 3106,
-          "name": "Simple Rune"
-        },
-        {
-          "id": 3107,
-          "name": "Consecrated Rune"
-        },
-        {
-          "id": 3109,
-          "name": "Encrypted Rune"
-        },
-        {
-          "id": 3110,
-          "name": "Hallowed Rune"
-        },
-        {
-          "id": 3112,
-          "name": "Simple Memorandum"
-        },
-        {
-          "id": 3113,
-          "name": "Encrypted Memorandum"
-        },
-        {
-          "id": 3114,
-          "name": "Glyphic Memorandum"
-        },
-        {
-          "id": 3108,
-          "name": "Etched Rune"
         }
       ],
       "npc": "Sten Stoutarm",
