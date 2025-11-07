@@ -17,10 +17,7 @@ interface StepDescriptionProps {
  * - Mob names
  * - Quest names
  */
-export const StepDescription: React.FC<StepDescriptionProps> = ({
-  step,
-  className = '',
-}) => {
+export const StepDescription: React.FC<StepDescriptionProps> = ({ step, className = '' }) => {
   const highlightDescription = (description: string): React.ReactNode => {
     const namesToHighlight: string[] = [];
 
@@ -57,13 +54,11 @@ export const StepDescription: React.FC<StepDescriptionProps> = ({
 
     return parts.map((part, index) => {
       // Check if this part matches any of our names (case-insensitive)
-      const isMatch = namesToHighlight.some(
-        (name) => name.toLowerCase() === part.toLowerCase(),
-      );
+      const isMatch = namesToHighlight.some((name) => name.toLowerCase() === part.toLowerCase());
 
       if (isMatch) {
         return (
-          <strong key={index} className='font-semibold'>
+          <strong key={index} className="font-semibold">
             {part}
           </strong>
         );
@@ -72,7 +67,5 @@ export const StepDescription: React.FC<StepDescriptionProps> = ({
     });
   };
 
-  return (
-    <span className={className}>{highlightDescription(step.description)}</span>
-  );
+  return <span className={className}>{highlightDescription(step.description)}</span>;
 };

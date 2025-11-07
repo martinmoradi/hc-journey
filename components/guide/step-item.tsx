@@ -83,45 +83,34 @@ export const StepItem: React.FC<StepItemProps> = ({
 
   return (
     <div
-      className={`
-        mx-4 my-3 rounded-2xl transition-all duration-500 ease-out
-        ${
-          isCurrentStep
-            ? 'scale-[1.02] shadow-2xl shadow-blue-500/20'
-            : isCompleted
+      className={`mx-4 my-3 rounded-2xl transition-all duration-500 ease-out ${
+        isCurrentStep
+          ? 'scale-[1.02] shadow-2xl shadow-blue-500/20'
+          : isCompleted
             ? 'scale-[0.98] opacity-70'
             : 'scale-100'
-        }
-      `}>
+      } `}
+    >
       {/* Glassmorphism card with glow effect for current step */}
       <div
-        className={`
-          relative rounded-2xl overflow-hidden
-          backdrop-blur-xl border
-          ${
-            isCurrentStep
-              ? 'bg-linear-to-br from-blue-500/10 via-purple-500/10 to-blue-500/10 border-blue-400/30 shadow-lg shadow-blue-500/30'
-              : isCompleted
-              ? 'bg-white/5 border-white/10'
-              : 'bg-white/5 border-white/10 hover:bg-white/8 hover:border-white/20'
-          }
-          transition-all duration-500
-        `}>
+        className={`relative overflow-hidden rounded-2xl border backdrop-blur-xl ${
+          isCurrentStep
+            ? 'border-blue-400/30 bg-linear-to-br from-blue-500/10 via-purple-500/10 to-blue-500/10 shadow-lg shadow-blue-500/30'
+            : isCompleted
+              ? 'border-white/10 bg-white/5'
+              : 'border-white/10 bg-white/5 hover:border-white/20 hover:bg-white/8'
+        } transition-all duration-500`}
+      >
         {/* Animated glow for current step */}
         {isCurrentStep && (
-          <div className='absolute inset-0 bg-linear-to-r from-blue-500/10 via-purple-500/10 to-blue-500/10 animate-pulse-slow pointer-events-none' />
+          <div className="animate-pulse-slow pointer-events-none absolute inset-0 bg-linear-to-r from-blue-500/10 via-purple-500/10 to-blue-500/10" />
         )}
 
         {/* Header Row */}
         <div
           onClick={handleToggle}
-          className={`
-            ${isCompleted ? 'p-3' : 'p-5'}
-            cursor-pointer transition-all duration-300
-            hover:bg-white/5 active:scale-[0.99]
-            relative z-10
-          `}
-          role='button'
+          className={` ${isCompleted ? 'p-3' : 'p-5'} relative z-10 cursor-pointer transition-all duration-300 hover:bg-white/5 active:scale-[0.99]`}
+          role="button"
           tabIndex={0}
           onKeyDown={(e) => {
             if (e.key === 'Enter' || e.key === ' ') {
@@ -130,48 +119,44 @@ export const StepItem: React.FC<StepItemProps> = ({
             }
           }}
           aria-expanded={isExpanded}
-          aria-label={`Step ${stepNumber}: ${step.description}`}>
-          <div className='flex items-center gap-4'>
+          aria-label={`Step ${stepNumber}: ${step.description}`}
+        >
+          <div className="flex items-center gap-4">
             {/* Step Icon or Checkmark */}
-            <div className='shrink-0'>
+            <div className="shrink-0">
               {isCompleted ? (
-                <div className='w-8 h-8 rounded-full bg-linear-to-br from-green-400 to-emerald-600 flex items-center justify-center shadow-lg shadow-green-500/30 animate-check-pop'>
+                <div className="animate-check-pop flex h-8 w-8 items-center justify-center rounded-full bg-linear-to-br from-green-400 to-emerald-600 shadow-lg shadow-green-500/30">
                   <svg
-                    className='w-5 h-5 text-white'
-                    fill='none'
-                    stroke='currentColor'
-                    viewBox='0 0 24 24'>
+                    className="h-5 w-5 text-white"
+                    fill="none"
+                    stroke="currentColor"
+                    viewBox="0 0 24 24"
+                  >
                     <path
-                      strokeLinecap='round'
-                      strokeLinejoin='round'
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
                       strokeWidth={3}
-                      d='M5 13l4 4L19 7'
+                      d="M5 13l4 4L19 7"
                     />
                   </svg>
                 </div>
               ) : (
                 <div
-                  className={`
-                  w-12 h-12 rounded-xl flex items-center justify-center
-                  shadow-lg transition-all duration-300
-                  ${
+                  className={`flex h-12 w-12 items-center justify-center rounded-xl shadow-lg transition-all duration-300 ${
                     isCurrentStep
-                      ? 'bg-linear-to-br from-blue-500/30 to-purple-500/30 border border-blue-400/30 shadow-blue-500/50'
-                      : 'bg-white/10 border border-white/20'
-                  }
-                `}>
+                      ? 'border border-blue-400/30 bg-linear-to-br from-blue-500/30 to-purple-500/30 shadow-blue-500/50'
+                      : 'border border-white/20 bg-white/10'
+                  } `}
+                >
                   {step.type === 'travel' ? (
-                    <Footprints
-                      className='w-7 h-7'
-                      style={{ color: 'white' }}
-                    />
+                    <Footprints className="h-7 w-7" style={{ color: 'white' }} />
                   ) : (
                     <Image
                       src={getStepIcon(step.type, step.description)}
                       alt={step.type}
                       width={28}
                       height={28}
-                      className='object-contain'
+                      className="object-contain"
                     />
                   )}
                 </div>
@@ -179,46 +164,35 @@ export const StepItem: React.FC<StepItemProps> = ({
             </div>
 
             {/* Description */}
-            <div className='flex-1 min-w-0'>
+            <div className="min-w-0 flex-1">
               <StepDescription
                 step={step}
-                className={`
-                  leading-relaxed transition-all duration-300
-                  ${
-                    isCompleted && !isExpanded
-                      ? 'text-sm text-gray-400'
-                      : isCurrentStep
+                className={`leading-relaxed transition-all duration-300 ${
+                  isCompleted && !isExpanded
+                    ? 'text-sm text-gray-400'
+                    : isCurrentStep
                       ? 'text-lg font-medium text-white'
                       : 'text-base text-gray-300'
-                  }
-                `}
+                } `}
               />
             </div>
 
             {/* Expand/Collapse Button */}
-            <div className='shrink-0'>
+            <div className="shrink-0">
               <div
-                className={`
-                p-2 rounded-lg transition-all duration-300
-                ${
+                className={`rounded-lg p-2 transition-all duration-300 ${
                   isCurrentStep
                     ? 'bg-blue-500/20 hover:bg-blue-500/30'
                     : 'bg-white/10 hover:bg-white/20'
-                }
-              `}>
+                } `}
+              >
                 {isExpanded ? (
                   <Minimize2
-                    className={`
-                      w-5 h-5 transition-all duration-300
-                      ${isCurrentStep ? 'text-blue-300' : 'text-gray-400'}
-                    `}
+                    className={`h-5 w-5 transition-all duration-300 ${isCurrentStep ? 'text-blue-300' : 'text-gray-400'} `}
                   />
                 ) : (
                   <Maximize2
-                    className={`
-                      w-5 h-5 transition-all duration-300
-                      ${isCurrentStep ? 'text-blue-300' : 'text-gray-400'}
-                    `}
+                    className={`h-5 w-5 transition-all duration-300 ${isCurrentStep ? 'text-blue-300' : 'text-gray-400'} `}
                   />
                 )}
               </div>
@@ -232,9 +206,10 @@ export const StepItem: React.FC<StepItemProps> = ({
             height: isExpanded ? `${detailsHeight}px` : '0px',
             opacity: isExpanded ? 1 : 0,
           }}
-          className='overflow-hidden transition-all duration-500 ease-out'>
+          className="overflow-hidden transition-all duration-500 ease-out"
+        >
           <div ref={detailsRef}>
-            <div className='border-t border-white/10'>
+            <div className="border-t border-white/10">
               <StepDetails
                 step={step}
                 isCurrentStep={isCurrentStep}

@@ -13,7 +13,7 @@ import { PlayerClass } from '@/lib/types';
  */
 export const shouldShowForClass = (
   classes: string[] | null | undefined,
-  playerClass: PlayerClass | null,
+  playerClass: PlayerClass | null
 ): boolean => {
   // No player class selected yet
   if (!playerClass) {
@@ -33,9 +33,7 @@ export const shouldShowForClass = (
 
   // If there are exclusions, check if player class is excluded
   if (exclusions.length > 0) {
-    const isExcluded = exclusions.some(
-      (exclusion) => exclusion.substring(1) === playerClassName,
-    );
+    const isExcluded = exclusions.some((exclusion) => exclusion.substring(1) === playerClassName);
     if (isExcluded) {
       return false;
     }
@@ -56,7 +54,7 @@ export const shouldShowForClass = (
  */
 export const filterByClass = <T extends { classes?: string[] | null }>(
   items: T[],
-  playerClass: PlayerClass,
+  playerClass: PlayerClass
 ): T[] => {
   return items.filter((item) => shouldShowForClass(item.classes, playerClass));
 };

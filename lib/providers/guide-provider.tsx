@@ -1,10 +1,4 @@
-import React, {
-  createContext,
-  useContext,
-  useState,
-  useEffect,
-  ReactNode,
-} from 'react';
+import React, { createContext, useContext, useState, useEffect, ReactNode } from 'react';
 import { ProcessedStep } from '@/lib/types';
 import { loadGuideChain } from '@/lib/load-guide-chain';
 import { usePlayer } from '@/lib/providers/player-provider';
@@ -31,9 +25,7 @@ interface GuideContextType extends GuideState {
 
 const GuideContext = createContext<GuideContextType | undefined>(undefined);
 
-export const GuideProvider: React.FC<{ children: ReactNode }> = ({
-  children,
-}) => {
+export const GuideProvider: React.FC<{ children: ReactNode }> = ({ children }) => {
   const {
     playerRace,
     playerClass,
@@ -71,9 +63,7 @@ export const GuideProvider: React.FC<{ children: ReactNode }> = ({
           // Validate savedStepIndex is within bounds
           // Extra safeguard: ensure it's a valid number
           const validIndex =
-            typeof savedStepIndex === 'number' && !isNaN(savedStepIndex)
-              ? savedStepIndex
-              : 0;
+            typeof savedStepIndex === 'number' && !isNaN(savedStepIndex) ? savedStepIndex : 0;
 
           const safeIndex = Math.max(0, Math.min(validIndex, steps.length - 1));
 
@@ -153,8 +143,7 @@ export const GuideProvider: React.FC<{ children: ReactNode }> = ({
   // Computed values
   const currentStep = guideState.allSteps[guideState.currentStepIndex] ?? null;
   const totalSteps = guideState.allSteps.length;
-  const progressPercentage =
-    totalSteps > 0 ? (guideState.currentStepIndex / totalSteps) * 100 : 0;
+  const progressPercentage = totalSteps > 0 ? (guideState.currentStepIndex / totalSteps) * 100 : 0;
 
   const value: GuideContextType = {
     ...guideState,
@@ -166,9 +155,7 @@ export const GuideProvider: React.FC<{ children: ReactNode }> = ({
     scrollToCurrentStep,
   };
 
-  return (
-    <GuideContext.Provider value={value}>{children}</GuideContext.Provider>
-  );
+  return <GuideContext.Provider value={value}>{children}</GuideContext.Provider>;
 };
 
 export const useGuide = () => {

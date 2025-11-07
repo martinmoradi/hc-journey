@@ -13,7 +13,7 @@ import { PlayerRace } from '@/lib/types';
  */
 export const shouldShowForRace = (
   races: string[] | null | undefined,
-  playerRace: PlayerRace | null,
+  playerRace: PlayerRace | null
 ): boolean => {
   // No player class selected yet
   if (!playerRace) {
@@ -33,9 +33,7 @@ export const shouldShowForRace = (
 
   // If there are exclusions, check if player class is excluded
   if (exclusions.length > 0) {
-    const isExcluded = exclusions.some(
-      (exclusion) => exclusion.substring(1) === playerRaceName,
-    );
+    const isExcluded = exclusions.some((exclusion) => exclusion.substring(1) === playerRaceName);
     if (isExcluded) {
       return false;
     }
@@ -56,7 +54,7 @@ export const shouldShowForRace = (
  */
 export const filterByRace = <T extends { races?: string[] | null }>(
   items: T[],
-  playerRace: PlayerRace,
+  playerRace: PlayerRace
 ): T[] => {
   return items.filter((item) => shouldShowForRace(item.races, playerRace));
 };

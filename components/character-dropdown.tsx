@@ -61,68 +61,54 @@ export function CharacterDropdown({
     <>
       <DropdownMenu>
         <DropdownMenuTrigger asChild>
-          <Button variant='outline' className='rounded-xl'>
-            <div className='flex items-center gap-2'>
+          <Button variant="outline" className="rounded-xl">
+            <div className="flex items-center gap-2">
               {currentRace && currentClass && (
-                <div className='flex items-center'>
-                  <img
-                    src={getRaceImage(currentRace)}
-                    alt={currentRace}
-                    className='w-5 h-5'
-                  />
-                  <img
-                    src={getClassImage(currentClass)}
-                    alt={currentClass}
-                    className='w-5 h-5'
-                  />
+                <div className="flex items-center">
+                  <img src={getRaceImage(currentRace)} alt={currentRace} className="w-5 h-5" />
+                  <img src={getClassImage(currentClass)} alt={currentClass} className="w-5 h-5" />
                 </div>
               )}
-              <span className='text-base font-medium'>
-                {currentCharacter || 'Load Character'}
-              </span>
-              <ChevronDown className='ml-1 h-4 w-4' />
+              <span className="text-base font-medium">{currentCharacter || 'Load Character'}</span>
+              <ChevronDown className="ml-1 h-4 w-4" />
             </div>
           </Button>
         </DropdownMenuTrigger>
-        <DropdownMenuContent className='w-64' align='start'>
+        <DropdownMenuContent className="w-64" align="start">
           <DropdownMenuLabel>Characters</DropdownMenuLabel>
           <DropdownMenuSeparator />
           <DropdownMenuGroup>
             {charactersData.map((char) => (
               <DropdownMenuItem
                 key={char.name}
-                className='flex items-center justify-between cursor-pointer'
-                onSelect={() => onLoadCharacter(char.name)}>
-                <div className='flex items-center gap-2 flex-1'>
-                  <div className='flex items-center'>
-                    <img
-                      src={getRaceImage(char.race)}
-                      alt={char.race}
-                      className='w-5 h-5'
-                    />
+                className="flex items-center justify-between cursor-pointer"
+                onSelect={() => onLoadCharacter(char.name)}
+              >
+                <div className="flex items-center gap-2 flex-1">
+                  <div className="flex items-center">
+                    <img src={getRaceImage(char.race)} alt={char.race} className="w-5 h-5" />
                     <img
                       src={getClassImage(char.playerClass)}
                       alt={char.playerClass}
-                      className='w-5 h-5'
+                      className="w-5 h-5"
                     />
                   </div>
                   <span>{char.name}</span>
                 </div>
                 <Button
-                  variant='ghost'
-                  size='icon'
-                  className='h-8 w-8'
-                  onClick={(e) => handleDeleteClick(char.name, e)}>
-                  <Trash2 className='h-4 w-4 text-destructive' />
+                  variant="ghost"
+                  size="icon"
+                  className="h-8 w-8"
+                  onClick={(e) => handleDeleteClick(char.name, e)}
+                >
+                  <Trash2 className="h-4 w-4 text-destructive" />
                 </Button>
               </DropdownMenuItem>
             ))}
           </DropdownMenuGroup>
           <DropdownMenuSeparator />
-          <DropdownMenuItem
-            className='cursor-pointer'
-            onSelect={onCreateCharacter}>
-            <Plus className='mr-2 h-4 w-4' />
+          <DropdownMenuItem className="cursor-pointer" onSelect={onCreateCharacter}>
+            <Plus className="mr-2 h-4 w-4" />
             <span>Create New Character</span>
           </DropdownMenuItem>
         </DropdownMenuContent>

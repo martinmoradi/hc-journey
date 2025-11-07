@@ -2,12 +2,7 @@
 
 import React, { useState } from 'react';
 import Image from 'next/image';
-import {
-  Dialog,
-  DialogContent,
-  DialogTitle,
-  DialogTrigger,
-} from '@/components/ui/dialog';
+import { Dialog, DialogContent, DialogTitle, DialogTrigger } from '@/components/ui/dialog';
 
 interface MapProps {
   zone: string; // Zone name in snake_case (e.g., "teldrassil", "elwynn_forest")
@@ -40,14 +35,14 @@ const MapContent: React.FC<MapContentProps> = ({
   const pinClassName = isLarge ? 'w-8 h-8' : 'w-6 h-6';
 
   return (
-    <div className='relative w-full bg-gray-900 rounded-lg overflow-hidden shadow-lg'>
+    <div className="relative w-full bg-gray-900 rounded-lg overflow-hidden shadow-lg">
       {/* Map Image Container */}
-      <div className='relative w-full aspect-1002/668'>
+      <div className="relative w-full aspect-1002/668">
         <Image
           src={mapPath}
           alt={`Map of ${displayName}`}
           fill
-          className='object-contain'
+          className="object-contain"
           priority={isLarge}
           quality={isLarge ? 100 : 85}
           sizes={isLarge ? '90vw' : '100vw'}
@@ -61,17 +56,17 @@ const MapContent: React.FC<MapContentProps> = ({
         {/* Pin Marker - positioned based on 0-100 coordinate system */}
         {showPin && (
           <div
-            className='absolute z-10 pointer-events-auto group'
+            className="absolute z-10 pointer-events-auto group"
             style={{
               left: `${x}%`,
               top: `${y}%`,
             }}
-            title={`${x?.toFixed(3)}, ${y?.toFixed(3)}`}>
-            <div
-              className={`relative ${pinClassName} -translate-x-1/2 -translate-y-full`}>
+            title={`${x?.toFixed(3)}, ${y?.toFixed(3)}`}
+          >
+            <div className={`relative ${pinClassName} -translate-x-1/2 -translate-y-full`}>
               <Image
-                src='/assets/misc/mappoint.webp'
-                alt='Map marker'
+                src="/assets/misc/mappoint.webp"
+                alt="Map marker"
                 width={pinSize}
                 height={pinSize}
                 className={`drop-shadow-lg ${isLarge ? 'animate-pulse' : ''}`}
@@ -79,7 +74,7 @@ const MapContent: React.FC<MapContentProps> = ({
             </div>
 
             {/* Tooltip */}
-            <div className='absolute left-1/2 -translate-x-1/2 bottom-full mb-2 px-2 py-1 bg-gray-900 text-white text-xs rounded opacity-0 group-hover:opacity-100 transition-opacity whitespace-nowrap pointer-events-none'>
+            <div className="absolute left-1/2 -translate-x-1/2 bottom-full mb-2 px-2 py-1 bg-gray-900 text-white text-xs rounded opacity-0 group-hover:opacity-100 transition-opacity whitespace-nowrap pointer-events-none">
               {x?.toFixed(3)}, {y?.toFixed(3)}
             </div>
           </div>
@@ -119,22 +114,17 @@ export const Map: React.FC<MapProps> = ({ zone, x, y }) => {
     <Dialog open={isDialogOpen} onOpenChange={setIsDialogOpen}>
       <DialogTrigger asChild>
         <button
-          className='w-full cursor-pointer transition-all hover:opacity-90 hover:scale-[1.02] active:scale-[0.98] focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2 rounded-lg'
+          className="w-full cursor-pointer transition-all hover:opacity-90 hover:scale-[1.02] active:scale-[0.98] focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2 rounded-lg"
           aria-label={`View larger map of ${displayName}`}
-          type='button'>
-          <MapContent
-            mapPath={mapPath}
-            displayName={displayName}
-            showPin={showPin}
-            x={x}
-            y={y}
-          />
+          type="button"
+        >
+          <MapContent mapPath={mapPath} displayName={displayName} showPin={showPin} x={x} y={y} />
         </button>
       </DialogTrigger>
 
-      <DialogContent className='w-full max-w-[95vw] sm:max-w-[95vw] p-0 border-0 gap-0'>
+      <DialogContent className="w-full max-w-[95vw] sm:max-w-[95vw] p-0 border-0 gap-0">
         {/* Hidden title for accessibility */}
-        <DialogTitle className='sr-only'>{displayName}</DialogTitle>
+        <DialogTitle className="sr-only">{displayName}</DialogTitle>
 
         <MapContent
           mapPath={mapPath}

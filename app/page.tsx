@@ -7,8 +7,7 @@ import { usePlayer } from '@/lib/providers/player-provider';
 import { useMemo } from 'react';
 
 export default function Home() {
-  const { playerClass, playerRace, getAllCharacters, startBrowsing } =
-    usePlayer();
+  const { playerClass, playerRace, getAllCharacters, startBrowsing } = usePlayer();
 
   // Calculate if we should show first-time experience
   const showFirstTimeExperience = useMemo(() => {
@@ -18,15 +17,15 @@ export default function Home() {
   }, [getAllCharacters, playerRace, playerClass]);
 
   return (
-    <div className='min-h-screen bg-linear-to-b from-[#0f1419] via-[#1a1f2e] to-[#0f1419]'>
+    <div className="min-h-screen bg-linear-to-b from-[#0f1419] via-[#1a1f2e] to-[#0f1419]">
       <TopBar />
 
-      <main className='mx-auto'>
+      <main className="mx-auto">
         {showFirstTimeExperience ? (
-          <div className='flex items-center justify-center min-h-[calc(100vh-80px)] container px-4'>
-            <div className='w-full max-w-6xl animate-fade-in'>
+          <div className="flex items-center justify-center min-h-[calc(100vh-80px)] container px-4">
+            <div className="w-full max-w-6xl animate-fade-in">
               <OptionsPicker
-                mode='create'
+                mode="create"
                 onSave={(race, cls) => {
                   startBrowsing(race, cls);
                 }}
@@ -37,7 +36,7 @@ export default function Home() {
             </div>
           </div>
         ) : (
-          <div className='h-screen w-full max-w-[calc(100vw-20px)] mx-auto'>
+          <div className="h-screen w-full max-w-[calc(100vw-20px)] mx-auto">
             <GuideViewer />
           </div>
         )}

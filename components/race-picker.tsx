@@ -33,8 +33,8 @@ export function RacePicker({ selectedRace, onSelectRace }: RacePickerProps) {
   };
 
   return (
-    <div className='w-full'>
-      <div className='grid grid-cols-2 gap-4 w-fit'>
+    <div className="w-full">
+      <div className="grid grid-cols-2 gap-4 w-fit">
         {orderedRaces.map((race) => {
           const isSelected = selectedRace === race;
           const factionColor = getFactionColor(race);
@@ -46,13 +46,10 @@ export function RacePicker({ selectedRace, onSelectRace }: RacePickerProps) {
               className={`
                 group relative w-20 h-20 rounded-xl overflow-hidden
                 transition-all duration-500 ease-out
-                ${
-                  isSelected
-                    ? 'scale-110 shadow-2xl'
-                    : 'scale-100 hover:scale-105'
-                }
+                ${isSelected ? 'scale-110 shadow-2xl' : 'scale-100 hover:scale-105'}
               `}
-              title={race}>
+              title={race}
+            >
               {/* Glassmorphism container */}
               <div
                 className={`
@@ -65,13 +62,10 @@ export function RacePicker({ selectedRace, onSelectRace }: RacePickerProps) {
                       : 'bg-red-500/30 border-red-400/60 shadow-lg shadow-red-500/50'
                     : 'bg-white/10 border-white/20 hover:bg-white/20 hover:border-white/40'
                 }
-              `}>
+              `}
+              >
                 {/* Image */}
-                <img
-                  src={getRaceImage(race)}
-                  alt={race}
-                  className='w-full h-full object-cover'
-                />
+                <img src={getRaceImage(race)} alt={race} className="w-full h-full object-cover" />
 
                 {/* Selection glow overlay */}
                 {isSelected && (
@@ -89,7 +83,7 @@ export function RacePicker({ selectedRace, onSelectRace }: RacePickerProps) {
                 )}
 
                 {/* Hover shine effect */}
-                <div className='absolute inset-0 bg-linear-to-br from-white/0 via-white/10 to-white/0 opacity-0 group-hover:opacity-100 transition-opacity duration-500' />
+                <div className="absolute inset-0 bg-linear-to-br from-white/0 via-white/10 to-white/0 opacity-0 group-hover:opacity-100 transition-opacity duration-500" />
               </div>
 
               {/* Selected checkmark */}
@@ -104,24 +98,26 @@ export function RacePicker({ selectedRace, onSelectRace }: RacePickerProps) {
                       : 'bg-linear-to-br from-red-400 to-red-600'
                   }
                   shadow-lg animate-check-pop
-                `}>
+                `}
+                >
                   <svg
-                    className='w-4 h-4 text-white'
-                    fill='none'
-                    stroke='currentColor'
-                    viewBox='0 0 24 24'>
+                    className="w-4 h-4 text-white"
+                    fill="none"
+                    stroke="currentColor"
+                    viewBox="0 0 24 24"
+                  >
                     <path
-                      strokeLinecap='round'
-                      strokeLinejoin='round'
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
                       strokeWidth={3}
-                      d='M5 13l4 4L19 7'
+                      d="M5 13l4 4L19 7"
                     />
                   </svg>
                 </div>
               )}
 
               {/* Race name tooltip on hover */}
-              <div className='absolute -bottom-10 left-1/2 -translate-x-1/2 px-3 py-1.5 bg-gray-900/95 backdrop-blur-sm text-white text-xs rounded-lg opacity-0 group-hover:opacity-100 transition-opacity duration-300 whitespace-nowrap pointer-events-none z-20 border border-white/20'>
+              <div className="absolute -bottom-10 left-1/2 -translate-x-1/2 px-3 py-1.5 bg-gray-900/95 backdrop-blur-sm text-white text-xs rounded-lg opacity-0 group-hover:opacity-100 transition-opacity duration-300 whitespace-nowrap pointer-events-none z-20 border border-white/20">
                 {race}
               </div>
             </button>

@@ -77,19 +77,21 @@ export const VirtualizedStepList: React.FC<VirtualizedStepListProps> = ({
   return (
     <div
       ref={parentRef}
-      className='h-full w-full overflow-auto bg-linear-to-b from-[#0f1419] via-[#1a1f2e] to-[#0f1419]'
+      className="h-full w-full overflow-auto bg-linear-to-b from-[#0f1419] via-[#1a1f2e] to-[#0f1419]"
       style={{
         contain: 'strict',
         /* Custom scrollbar styling */
         scrollbarWidth: 'thin',
         scrollbarColor: 'rgba(255, 255, 255, 0.2) transparent',
-      }}>
+      }}
+    >
       <div
         style={{
           height: `${virtualizer.getTotalSize()}px`,
           width: '100%',
           position: 'relative',
-        }}>
+        }}
+      >
         {virtualizer.getVirtualItems().map((virtualItem) => {
           const step = steps[virtualItem.index];
           const isCurrentStep = virtualItem.index === currentStepIndex;
@@ -107,7 +109,8 @@ export const VirtualizedStepList: React.FC<VirtualizedStepListProps> = ({
                 left: 0,
                 width: '100%',
                 transform: `translateY(${virtualItem.start}px)`,
-              }}>
+              }}
+            >
               <StepItem
                 step={step}
                 stepNumber={virtualItem.index + 1}

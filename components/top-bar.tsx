@@ -60,14 +60,9 @@ export function TopBar() {
   }, [allCharacters]);
 
   // Calculate progress percentage
-  const progressPercentage =
-    totalSteps > 0 ? (currentStepIndex / totalSteps) * 100 : 0;
+  const progressPercentage = totalSteps > 0 ? (currentStepIndex / totalSteps) * 100 : 0;
 
-  const handleCreateCharacter = (
-    name: string,
-    race: PlayerRace,
-    playerClass: PlayerClass,
-  ) => {
+  const handleCreateCharacter = (name: string, race: PlayerRace, playerClass: PlayerClass) => {
     createNewCharacter(name, race, playerClass);
     setCreateDialogOpen(false);
   };
@@ -92,26 +87,25 @@ export function TopBar() {
   return (
     <>
       {/* Glass morphism top bar */}
-      <div className='fixed top-10 left-1/2 -translate-x-1/2 z-50 w-[60%] min-w-[600px]'>
+      <div className="fixed top-10 left-1/2 -translate-x-1/2 z-50 w-[60%] min-w-[600px]">
         <div
-          className='backdrop-blur-lg bg-white/20 dark:bg-gray-900/20 rounded-4xl shadow-2xl border border-white/40 px-6 py-3'
+          className="backdrop-blur-lg bg-white/20 dark:bg-gray-900/20 rounded-4xl shadow-2xl border border-white/40 px-6 py-3"
           style={{
-            boxShadow:
-              '0 8px 32px 0 rgba(0, 0, 0, 0.15), inset 0 0 0 1px rgba(255, 255, 255, 0.2)',
+            boxShadow: '0 8px 32px 0 rgba(0, 0, 0, 0.15), inset 0 0 0 1px rgba(255, 255, 255, 0.2)',
             backdropFilter: 'blur(16px) saturate(180%)',
             WebkitBackdropFilter: 'blur(16px) saturate(180%)',
-          }}>
-          <div className='flex items-center justify-between gap-6'>
+          }}
+        >
+          <div className="flex items-center justify-between gap-6">
             {/* Left: Character Management */}
-            <div className='shrink-0'>
+            <div className="shrink-0">
               {isBrowsingMode ? (
                 // Browse mode: Gradient save button with race/class icons
                 <button
                   onClick={() => setSaveDialogOpen(true)}
-                  className='group relative overflow-hidden rounded-xl px-6 py-2.5 font-medium text-white transition-all duration-500 flex items-center gap-2'
+                  className="group relative overflow-hidden rounded-xl px-6 py-2.5 font-medium text-white transition-all duration-500 flex items-center gap-2"
                   style={{
-                    background:
-                      'linear-gradient(to right, #FEAC5E 0%, #C779D0 51%, #FEAC5E 100%)',
+                    background: 'linear-gradient(to right, #FEAC5E 0%, #C779D0 51%, #FEAC5E 100%)',
                     backgroundSize: '200% auto',
                     boxShadow: '0 0 20px rgba(254, 172, 94, 0.3)',
                   }}
@@ -120,23 +114,16 @@ export function TopBar() {
                   }}
                   onMouseLeave={(e) => {
                     e.currentTarget.style.backgroundPosition = 'left center';
-                  }}>
+                  }}
+                >
                   {isPlayerSet && (
-                    <div className='flex items-center gap-1'>
-                      <img
-                        src={getRaceImage(playerRace)}
-                        alt={playerRace}
-                        className='w-5 h-5'
-                      />
-                      <img
-                        src={getClassImage(playerClass)}
-                        alt={playerClass}
-                        className='w-5 h-5'
-                      />
+                    <div className="flex items-center gap-1">
+                      <img src={getRaceImage(playerRace)} alt={playerRace} className="w-5 h-5" />
+                      <img src={getClassImage(playerClass)} alt={playerClass} className="w-5 h-5" />
                     </div>
                   )}
-                  <span className='text-sm font-semibold flex flex-row gap-3 items-center'>
-                    Save progress ! <CircleAlert className='w-5 h-5' />
+                  <span className="text-sm font-semibold flex flex-row gap-3 items-center">
+                    Save progress ! <CircleAlert className="w-5 h-5" />
                   </span>
                 </button>
               ) : allCharacters.length > 0 ? (
@@ -153,44 +140,47 @@ export function TopBar() {
               ) : (
                 // No characters, show create button
                 <Button
-                  variant='default'
+                  variant="default"
                   onClick={() => setCreateDialogOpen(true)}
-                  className='rounded-xl'>
+                  className="rounded-xl"
+                >
                   Create Character
                 </Button>
               )}
             </div>
 
             {/* Center: Progress Bar with Percentage */}
-            <div className='flex-1 flex items-center gap-3 max-w-md'>
+            <div className="flex-1 flex items-center gap-3 max-w-md">
               <Progress
                 value={progressPercentage}
-                className='h-3 flex-1'
+                className="h-3 flex-1"
                 style={{
                   background: 'rgba(254, 172, 94, 0.2)',
                 }}
               />
               <div
-                className='text-lg font-bold min-w-14 text-right'
+                className="text-lg font-bold min-w-14 text-right"
                 style={{
                   background: 'linear-gradient(to right, #FEAC5E, #C779D0)',
                   WebkitBackgroundClip: 'text',
                   WebkitTextFillColor: 'transparent',
                   backgroundClip: 'text',
-                }}>
+                }}
+              >
                 {Math.round(progressPercentage)}%
               </div>
             </div>
 
             {/* Right: Center Viewport Button */}
-            <div className='shrink-0'>
+            <div className="shrink-0">
               <Button
-                variant='ghost'
-                size='icon'
+                variant="ghost"
+                size="icon"
                 onClick={scrollToCurrentStep}
-                className='rounded-xl hover:bg-white/50 dark:hover:bg-gray-800/50'
-                title='Center on current step'>
-                <Eye className='h-5 w-5' />
+                className="rounded-xl hover:bg-white/50 dark:hover:bg-gray-800/50"
+                title="Center on current step"
+              >
+                <Eye className="h-5 w-5" />
               </Button>
             </div>
           </div>
@@ -209,7 +199,7 @@ export function TopBar() {
         open={saveDialogOpen}
         onOpenChange={setSaveDialogOpen}
         onSave={handleSaveCurrentCharacter}
-        title='Save Your Character'
+        title="Save Your Character"
       />
     </>
   );

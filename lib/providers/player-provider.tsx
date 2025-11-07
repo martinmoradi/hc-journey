@@ -1,12 +1,6 @@
 'use client';
 
-import React, {
-  createContext,
-  useContext,
-  useState,
-  useEffect,
-  ReactNode,
-} from 'react';
+import React, { createContext, useContext, useState, useEffect, ReactNode } from 'react';
 import { PlayerRace, PlayerClass } from '@/lib/types';
 
 interface PlayerState {
@@ -27,11 +21,7 @@ interface PlayerContextType extends PlayerState {
   getAllCharacters: () => string[];
   deleteCharacter: (characterName: string) => void;
   clearCharacter: () => void;
-  createNewCharacter: (
-    name: string,
-    race: PlayerRace,
-    playerClass: PlayerClass,
-  ) => void;
+  createNewCharacter: (name: string, race: PlayerRace, playerClass: PlayerClass) => void;
   startBrowsing: (race: PlayerRace, playerClass: PlayerClass) => void;
 }
 
@@ -49,9 +39,7 @@ const CHARACTERS_KEY = 'savedCharacters';
 const LAST_CHARACTER_KEY = 'lastCharacter';
 const SESSION_CHARACTER_KEY = 'sessionCharacter';
 
-export const PlayerProvider: React.FC<{ children: ReactNode }> = ({
-  children,
-}) => {
+export const PlayerProvider: React.FC<{ children: ReactNode }> = ({ children }) => {
   const [playerState, setPlayerState] = useState<PlayerState>(() => {
     if (typeof window === 'undefined') {
       return DEFAULT_STATE;
@@ -60,16 +48,12 @@ export const PlayerProvider: React.FC<{ children: ReactNode }> = ({
     try {
       const lastCharName = localStorage.getItem(LAST_CHARACTER_KEY);
       if (lastCharName) {
-        const characters = JSON.parse(
-          localStorage.getItem(CHARACTERS_KEY) || '{}',
-        );
+        const characters = JSON.parse(localStorage.getItem(CHARACTERS_KEY) || '{}');
         if (characters[lastCharName]) {
           const savedChar = characters[lastCharName];
           // Ensure currentStepIndex is a valid number
           const stepIndex =
-            typeof savedChar.currentStepIndex === 'number'
-              ? savedChar.currentStepIndex
-              : 0;
+            typeof savedChar.currentStepIndex === 'number' ? savedChar.currentStepIndex : 0;
           return {
             ...savedChar,
             currentStepIndex: stepIndex,
@@ -83,10 +67,7 @@ export const PlayerProvider: React.FC<{ children: ReactNode }> = ({
       if (sessionChar) {
         const parsed = JSON.parse(sessionChar);
         // Ensure currentStepIndex is a valid number
-        const stepIndex =
-          typeof parsed.currentStepIndex === 'number'
-            ? parsed.currentStepIndex
-            : 0;
+        const stepIndex = typeof parsed.currentStepIndex === 'number' ? parsed.currentStepIndex : 0;
         return {
           ...parsed,
           currentStepIndex: stepIndex,
@@ -126,26 +107,16 @@ export const PlayerProvider: React.FC<{ children: ReactNode }> = ({
     }
 
     // Save session character if in browse mode
-    if (
-      playerState.isBrowsingMode &&
-      (playerState.playerRace || playerState.playerClass)
-    ) {
+    if (playerState.isBrowsingMode && (playerState.playerRace || playerState.playerClass)) {
       try {
-        sessionStorage.setItem(
-          SESSION_CHARACTER_KEY,
-          JSON.stringify(playerState),
-        );
+        sessionStorage.setItem(SESSION_CHARACTER_KEY, JSON.stringify(playerState));
       } catch (error) {
         console.error('Error saving session character:', error);
       }
     }
   }, [playerState]);
 
-  const createNewCharacter = (
-    name: string,
-    race: PlayerRace,
-    playerClass: PlayerClass,
-  ) => {
+  const createNewCharacter = (name: string, race: PlayerRace, playerClass: PlayerClass) => {
     try {
       const newCharacter: PlayerState = {
         charName: name,
@@ -274,7 +245,8 @@ export const PlayerProvider: React.FC<{ children: ReactNode }> = ({
         clearCharacter,
         createNewCharacter,
         startBrowsing,
-      }}>
+      }}
+    >
       {children}
     </PlayerContext.Provider>
   );
