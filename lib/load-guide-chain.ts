@@ -35,6 +35,8 @@ export async function loadGuideChain(
       return {
         ...step,
         tips: filteredTips,
+        levelRange: guide.levelRange,
+        faction: guide.faction,
         compositeId: `${currentGuideName}:${step.id}`,
         zoneName: currentGuideName!,
         originalId: step.id,

@@ -81,6 +81,8 @@ export interface Step {
  */
 export interface ProcessedStep extends Step {
   compositeId: string; // "11-13_loch_modan_dwarf_gnome:lochmodan_001"
+  levelRange: string; // "11-13"
+  faction: 'Alliance' | 'Horde'; // "Alliance" or "Horde"
   zoneName: string; // "11-13_loch_modan_dwarf_gnome" (the guide name)
   originalId: string; // "lochmodan_001" (original step id)
   globalIndex: number; // Position in the full chain (0, 1, 2, ...)
